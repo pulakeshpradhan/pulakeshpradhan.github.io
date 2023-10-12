@@ -26,31 +26,6 @@ TemplateMo 569 Edu Meeting
 
 https://templatemo.com/tm-569-edu-meeting
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $subject = $_POST["subject"];
-    $message = $_POST["message"];
-    
-    // Email recipient
-    $to = "your_email@example.com";
-    
-    // Subject
-    $subject = "[Website Contact] " . $subject;
-    
-    // Message content
-    $body = "Name: $name\n";
-    $body .= "Email: $email\n\n";
-    $body .= "Message:\n$message\n";
-
-    // Send the email
-    if (mail($to, $subject, $body)) {
-        echo "Message sent successfully!";
-    } else {
-        echo "Failed to send the message.";
-    }
-}
-?>
 
 -->
   </head>
