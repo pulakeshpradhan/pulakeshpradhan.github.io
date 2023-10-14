@@ -73,8 +73,9 @@ https://templatemo.com/tm-569-edu-meeting
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                          <li><a href="meetings.html">Meetings</a></li>
-                          <li class="scroll-to-section"><a href="#apply">Apply Now</a></li>
+                          <li><a href="meetings.html">Skills</a></li>
+                          <li class="scroll-to-section"><a href="#apply">Achievements </a></li>
+                          <li class="scroll-to-section"><a href="#courses">Courses</a></li> 
                           <li class="has-sub">
                               <a href="javascript:void(0)">Pages</a>
                               <ul class="sub-menu">
@@ -84,8 +85,8 @@ https://templatemo.com/tm-569-edu-meeting
                                   <li><a href="tikgame.html">Game</a></li>
                               </ul>
                           </li>
-                          <li class="scroll-to-section"><a href="#courses">Courses</a></li> 
-                          <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+                          
+                          <li class="scroll-to-section"><a href="#contact">Contact Me</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -191,7 +192,7 @@ https://templatemo.com/tm-569-edu-meeting
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h2>Upcoming Meetings</h2>
+            <h2>My Skills</h2>
           </div>
         </div>
         <div class="col-lg-4">
@@ -711,32 +712,48 @@ https://templatemo.com/tm-569-edu-meeting
               <form id="contact" action="" method="post">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h2>Let's get in touch</h2>
+                    
+                  </div>
+
+                  <script>
+                    function sendWhatsAppMessage() {
+                      // Get user's name and message
+                      var name = document.getElementById("name").value;
+                      var message = document.getElementById("message").value;
+                  
+                      // Construct the WhatsApp message link
+                      var whatsappMessage = "Hi, I'm " + name + ". " + message;
+                      var whatsappLink = "https://wa.me/919876786545/?text=" + encodeURIComponent(whatsappMessage);
+                  
+                      // Redirect the user to WhatsApp
+                      window.open(whatsappLink, "_blank");
+                    }
+                  </script> 
+                  
+                  <div class="col-lg-12">
+                    <h2>Let's get in touch via WhatsApp</h2>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-4">
-                    <fieldset>
-                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
-                  </fieldset>
-                  </div>
-                  <div class="col-lg-4">
-                    <fieldset>
-                      <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
+                      <input name="name" type="text" id="name" placeholder="YOUR NAME...*" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                      <textarea name="message" type="text" id="message" class="form-control" placeholder="YOUR MESSAGE..." required=""></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                      <button type="button" id="form-submit" class="button" onclick="sendWhatsAppMessage()">SEND MESSAGE NOW</button>
                     </fieldset>
+                 
+                  
+
+
+
+
+
                   </div>
                 </div>
               </form>
@@ -748,19 +765,19 @@ https://templatemo.com/tm-569-edu-meeting
             <ul>
               <li>
                 <h6>Phone Number</h6>
-                <span>010-020-0340</span>
+                <span>+91-9876543210</span>
               </li>
               <li>
                 <h6>Email Address</h6>
-                <span>info@meeting.edu</span>
+                <span>pulakesh.mid@gmail.com</span>
               </li>
               <li>
-                <h6>Street Address</h6>
-                <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
+                <h6> Address</h6>
+                <span>Khargapur, India</span>
               </li>
               <li>
-                <h6>Website URL</h6>
-                <span>www.meeting.edu</span>
+                <h6>Active Hours</h6>
+                <span>10 am to 5 pm</span>
               </li>
             </ul>
           </div>
