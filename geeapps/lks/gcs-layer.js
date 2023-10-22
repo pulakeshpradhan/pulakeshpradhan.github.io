@@ -1,1 +1,0 @@
-Map.add(ui.Map.CloudStorageLayer('andrewjc', 'export-map-sample', 12))

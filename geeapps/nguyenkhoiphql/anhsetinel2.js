@@ -1,1 +1,0 @@
-var a = require('users/thaokl/YenBaishare:Sentinel2')
