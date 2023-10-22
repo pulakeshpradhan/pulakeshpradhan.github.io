@@ -1,0 +1,12 @@
+var image = ee.Image("CGIAR/SRTM90_V4");
+//Map.centerObject(image, 9); //zoom 9
+var slope =  ee.Terrain.slope(image);
+//calculates the maximum rate of DEM change in value 
+//from that cell to its neighbors
+var aspect =  ee.Terrain.aspect(image);
+//Aspect identifies the downslope direction of the maximum rate of change
+//in value from each cell to its neighbors. 
+//Aspect can be thought of as the slope direction
+Map.setCenter(101.68, 3.14,9); //latitude, longitude, zoom level
+Map.addLayer(slope, {},"slope");
+Map.addLayer(aspect, {},"aspect");

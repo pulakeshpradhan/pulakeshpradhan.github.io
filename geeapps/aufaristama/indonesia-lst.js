@@ -1,0 +1,149 @@
+// MODIS land surface temperature in Indonesia.
+//Inspired by MODIS SST created in GEE
+/*
+ * Map layer configuration
+ */
+var dataset = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017');
+var indonesia = dataset.filter(ee.Filter.eq('country_co', 'ID'));
+//print(indonesia);
+Map.centerObject(indonesia, 5);
+//Map.addLayer(indonesia);
+// Compute the maximum land surface temperature (LST) value for each pixel by
+// averaging MODIS Terra data for three years.
+var modisLand = ee.ImageCollection('MODIS/006/MOD11A1');
+var lst =
+    modisLand.select(['LST_Day_1km']).filterDate('2017-01-01', '2020-05-10');
+var modLSTc = lst.map(function(img) {
+  return img
+    .multiply(0.02)
+    .subtract(273.15)
+    .clip(indonesia)
+    .copyProperties(img, ['system:time_start']);
+});
+var vis = {min: 10, max: 90, palette: ['blue', 'limegreen', 'yellow', 'darkorange', 'red']};
+var composite = modLSTc.max().visualize(vis);
+var compositeLayer = ui.Map.Layer(composite).setName('LST Composite');
+// Create the main map and set the LST layer.
+var mapPanel = ui.Map();
+var layers = mapPanel.layers();
+layers.add(compositeLayer, 'Composite');
+//Map.addLayer(compositeLayer, {
+//  min: 10, max: 90,
+//  palette: ['blue', 'limegreen', 'yellow', 'darkorange', 'red']},
+//  'Max temperature, 2018');
+/*
+ * Panel setup
+ */
+// Create a panel to hold title, intro text, chart and legend components.
+var inspectorPanel = ui.Panel({style: {width: '30%'}});
+// Create an intro panel with labels.
+var intro = ui.Panel([
+  ui.Label({
+    value: 'MODIS Land Surface Temperature - Time Series Inspector',
+    style: {fontSize: '20px', fontWeight: 'bold'}
+  }),
+  ui.Label('Click a location to see its time series of land surface temperatures.')
+]);
+inspectorPanel.add(intro);
+// Create panels to hold lon/lat values.
+var lon = ui.Label();
+var lat = ui.Label();
+inspectorPanel.add(ui.Panel([lon, lat], ui.Panel.Layout.flow('horizontal')));
+// Add placeholders for the chart and legend.
+inspectorPanel.add(ui.Label('[Chart]'));
+inspectorPanel.add(ui.Label('[Legend]'));
+/*
+ * Chart setup
+ */
+// Generates a new time series chart of SST for the given coordinates.
+var generateChart = function (coords) {
+  // Update the lon/lat panel with values from the click event.
+  lon.setValue('lon: ' + coords.lon.toFixed(2));
+  lat.setValue('lat: ' + coords.lat.toFixed(2));
+  // Add a dot for the point clicked on.
+  var point = ee.Geometry.Point(coords.lon, coords.lat);
+  var dot = ui.Map.Layer(point, {color: '000000'}, 'clicked location');
+  // Add the dot as the second layer, so it shows up on top of the composite.
+  mapPanel.layers().set(1, dot);
+  // Make a chart from the time series.
+  var sstChart = ui.Chart.image.series({
+    imageCollection: modLSTc,
+    region: point, 
+    reducer: ee.Reducer.max(), 
+    scale: 500,});
+  // Customize the chart.
+  sstChart.setOptions({
+    title: 'Land surface temp: time series',
+    vAxis: {title: 'Temp (C)'},
+    hAxis: {title: 'Date', format: 'MM-yy', gridlines: {count: 7}},
+    series: {
+      0: {
+        color: 'blue',
+        lineWidth: 0,
+        pointsVisible: true,
+        pointSize: 2,
+      },
+    },
+    legend: {position: 'right'},
+  });
+  // Add the chart at a fixed position, so that new charts overwrite older ones.
+  inspectorPanel.widgets().set(2, sstChart);
+};
+/*
+ * Legend setup
+ */
+// Creates a color bar thumbnail image for use in legend from the given color
+// palette.
+function makeColorBarParams(palette) {
+  return {
+    bbox: [0, 0, 1, 0.1],
+    dimensions: '100x10',
+    format: 'png',
+    min: 0,
+    max: 1,
+    palette: palette,
+  };
+}
+// Create the color bar for the legend.
+var colorBar = ui.Thumbnail({
+  image: ee.Image.pixelLonLat().select(0),
+  params: makeColorBarParams(vis.palette),
+  style: {stretch: 'horizontal', margin: '0px 8px', maxHeight: '24px'},
+});
+// Create a panel with three numbers for the legend.
+var legendLabels = ui.Panel({
+  widgets: [
+    ui.Label(vis.min, {margin: '4px 8px'}),
+    ui.Label(
+        (vis.max / 2),
+        {margin: '4px 8px', textAlign: 'center', stretch: 'horizontal'}),
+    ui.Label(vis.max, {margin: '4px 8px'})
+  ],
+  layout: ui.Panel.Layout.flow('horizontal')
+});
+var legendTitle = ui.Label({
+  value: 'Map Legend: three years maximum land temp (C)',
+  style: {fontWeight: 'bold'}
+});
+var legendPanel = ui.Panel([legendTitle, colorBar, legendLabels]);
+inspectorPanel.widgets().set(3, legendPanel);
+/*
+ * Map setup
+ */
+// Register a callback on the default map to be invoked when the map is clicked.
+mapPanel.onClick(generateChart);
+// Configure the map.
+mapPanel.style().set('cursor', 'crosshair');
+// Initialize with a test point.
+var initialPoint = ee.Geometry.Point(107.59611566057324,-6.911628659710693);
+mapPanel.centerObject(initialPoint, 8);
+/*
+ * Initialize the app
+ */
+// Replace the root with a SplitPanel that contains the inspector and map.
+ui.root.clear();
+ui.root.add(ui.SplitPanel(inspectorPanel, mapPanel));
+generateChart({
+  lon: initialPoint.coordinates().get(0).getInfo(),
+  lat: initialPoint.coordinates().get(1).getInfo()
+});

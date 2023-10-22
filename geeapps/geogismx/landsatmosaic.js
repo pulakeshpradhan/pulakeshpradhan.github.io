@@ -1,0 +1,741 @@
+var app = {};
+/** Creates the UI panels. */
+app.preCreatePanels = function() {
+  /* The introduction section. */
+  app.intro = {
+    panel: ui.Panel([
+      ui.Label({
+        value: 'Landsat Mosaicking',
+        style: {fontWeight: 'bold', fontSize: '18px', margin: '10px 5px'}
+      }),
+      ui.Label('This app allows you to produce and export' +
+               ' user-defined Landsat surface reflectance composited mosaics.')
+    ])
+  };
+  /* The collection filter controls. */
+  app.filterSpatial = {
+    featCollectionID: ui.Textbox('Enter id or lower-left and upper-right point...')
+          .setDisabled(true),
+    select: ui.Select({
+      items: Object.keys(app.SPATIAL_EXTENT),
+      placeholder: 'Select a spatial extent',
+      onChange: function() {
+        Map.clear();
+        // Update the label's value with the select's description.
+        var sel = app.filterSpatial.select.getValue();
+        if (sel === 'User defined')
+          app.filterSpatial.featCollectionID.setDisabled(false);
+        else{
+          app.filterSpatial.featCollectionID.setDisabled(true);
+          app.EXTENT_FEATURE = app.updateExtent(app.SPATIAL_EXTENT[sel].value);
+          // var obj = app.getExent(app.EXTENT_VALUE);
+          // app.addFeatureToMap(obj);
+          app.refreshMap();
+        }
+      }
+    })
+  };
+  /* The panel for the filter control widgets. */
+  app.filterSpatial.panel = ui.Panel({
+    widgets: [
+      ui.Label('1) Select spatial extent (Default center)', {fontWeight: 'bold'}),
+      ui.Panel([
+        app.filterSpatial.select,
+        ui.Label('(Default center map)', app.HELPER_TEXT_STYLE)
+      ],ui.Panel.Layout.flow('horizontal')),
+      ui.Label('ID or comma-separated lon lat:', app.HELPER_TEXT_STYLE),
+      app.filterSpatial.featCollectionID
+    ],
+    style: app.SECTION_STYLE
+  });
+  /* The time filter. */
+  app.filterTime = {
+    startDate: ui.Textbox({
+      placeholder: 'YYYY-MM-DD', 
+      value: app.START_DATE,
+      onChange: function(text){
+        app.START_DATE = text;
+      }
+    }),
+    endDate: ui.Textbox({
+      placeholder: 'YYYY-MM-DD', 
+      value: app.END_DATE,
+      onChange: function(text){
+        app.END_DATE = text;
+      }
+    }),
+    // applyButton: ui.Button('Apply filters', app.applyFilters),
+    loadingLabel: ui.Label({
+      value: 'Loading...',
+      style: {stretch: 'vertical', color: 'gray', shown: false}
+    })
+  }
+  /* The time filter panel. */
+  app.filterTime.panel = ui.Panel({
+    widgets: [
+      ui.Label('2) Enter temporal extent', {fontWeight: 'bold'}),
+      ui.Panel([
+        ui.Label('Start date:', app.HELPER_TEXT_STYLE),
+        app.filterTime.startDate
+      ], ui.Panel.Layout.flow('horizontal')),
+      ui.Panel([
+        ui.Label('End date   :', app.HELPER_TEXT_STYLE),
+        app.filterTime.endDate
+      ], ui.Panel.Layout.flow('horizontal'))
+    ],
+    style: app.SECTION_STYLE
+  });
+  /* The composite mosaicking paradigm. */
+  app.paradigm = {
+    description: ui.Label(),
+    checkL4: ui.Checkbox('LT4', false),
+    checkL5: ui.Checkbox('LT5', true),
+    checkL7: ui.Checkbox('LE7', false),
+    checkL8: ui.Checkbox('LC8', false),
+    select: ui.Select({
+      items: Object.keys(app.PARADIGM_OPTIONS),
+      placeholder: 'Select a compositing paradigm',
+      onChange: function() {
+        // Update the label's value with the select's description.
+        var option = app.PARADIGM_OPTIONS[app.paradigm.select.getValue()];
+        app.paradigm.description.setValue(option.description);
+        // Refresh the user interface.
+        app.refreshAppUI(option.value);
+      }
+    })
+  };
+  /* The composite mosaicking paradigm panel. */
+  app.paradigm.panel = ui.Panel({
+    widgets: [
+      ui.Label('3) Choose sensors and paradigm:', {fontWeight: 'bold'}),
+      ui.Panel([
+        app.paradigm.checkL4, 
+        app.paradigm.checkL5, 
+        app.paradigm.checkL7, 
+        app.paradigm.checkL8
+      ], ui.Panel.Layout.flow('horizontal')),
+      app.paradigm.select,
+      app.paradigm.description
+    ],
+    style: app.SECTION_STYLE
+  });
+};
+// shared panels
+app.sharedPanels = function(){
+  /* The composite choice. */
+  app.composite = {
+    description: ui.Label(),
+    visLabel: ui.Label(),
+    vis: ui.Select({
+      items: Object.keys(app.VIS_OPTIONS),
+      onChange: function() {
+        // Update the label's value with the select's description.
+        app.VIS = app.composite.vis.getValue();
+        var option = app.VIS_OPTIONS[app.VIS];
+        app.composite.visLabel.setValue(option.description);
+        // Refresh the map layer.
+        app.refreshMap();
+      }
+    }),
+    refreshMap: ui.Button({
+      label: 'Refresh map',
+      // React to the button's click event.
+      onClick: function() {
+        // Refresh map
+        app.refreshMap();
+      }
+    }),
+    pixelComposite: ui.Select({
+      items: Object.keys(app.COMPOSITE_OPTIONS),
+      onChange: function(key){
+        // Update the label's value with the select's description.
+        var option = app.COMPOSITE_OPTIONS[app.composite.pixelComposite.getValue()];
+        app.composite.description.setValue(option.description);
+        app.COMPOSITE = option.value;
+        if(app.paradigm.select.getValue() === 'Scene based')
+          app.refreshMapLayer('scene');
+        else
+          app.refreshMapLayer('pixel');
+      }
+    })
+  };
+  // Default true color.
+  app.composite.vis.setValue(app.composite.vis.items().get(2));
+  app.composite.visLabel.setValue(app.VIS_OPTIONS[app.composite.vis.items().get(2)].description);
+  /* The composite choice panel. */
+  app.composite.panel = ui.Panel({
+    widgets:[
+      ui.Label('Select a composite strategy:', app.HELPER_TEXT_STYLE),
+      app.composite.pixelComposite,
+      app.composite.description,
+      app.composite.vis,
+      app.composite.visLabel,
+      app.composite.refreshMap
+    ],
+    style: app.SECTION_STYLE
+  });
+  // Default the composite strategy to median.
+  app.composite.pixelComposite.setValue(
+    app.composite.pixelComposite.items().get(1));
+  /* The export section. */
+  app.export = {
+    description: ui.Label('A task should be shown in the \'Tasks\' window (upper right corner)' 
+        + 'after click export button. Click run button. If the image is too large, it will be divided by GEE. '
+        +'You should also ensure your storage is enough. Image scale can be set to reduce img size'),
+    button: ui.Button({
+      label: 'Export the current image to Drive',
+      // React to the button's click event.
+      onClick: function() {
+        // Export the image to Drive.
+        Export.image.toDrive({
+          image: app.COMPOSITE_IMAGE.select('Cfactor').toFloat(),
+          description: 'htgy_Cfactor'
+        });
+      }
+    })
+  };
+  /* The panel for the export section with corresponding widgets. */
+  app.export.panel = ui.Panel({
+    widgets: [
+      ui.Label('② Start an export', {fontWeight: 'bold'}),
+      app.export.button,
+      app.export.description
+    ],
+    style: app.SECTION_STYLE
+  });
+}
+// if scene 
+app.createPanels_scene = function(){
+  app.sharedPanels();
+  /* The image picker section. */
+  app.picker = {
+    introLabel: ui.Label("Filter images with cloud coverage threshold and " + 
+    "select compositing strategy"),
+    cloudThr: ui.Textbox({
+        value: app.CLOUD_THRESHOLD, 
+        style: app.SMALL_TEXTBOX_STYLE,
+        onChange: function(text) {
+          app.CLOUD_THRESHOLD = ee.Number.parse(text);
+        }
+    })
+  };
+  /* The panel for the picker section with corresponding widgets. */
+  app.picker.panel = ui.Panel({
+    widgets: [
+      ui.Label('① Filtering and compositing', {fontWeight: 'bold'}),
+      app.picker.introLabel,
+      ui.Label('Set a cloud coverage threshold for scene filtering (%):', app.HELPER_TEXT_STYLE),
+      app.picker.cloudThr
+    ],
+    style: app.SECTION_STYLE
+  });
+}
+// if pixel
+app.createPanels_pixel = function(){
+  print('in createPanels_pixel')
+  app.sharedPanels();
+  print("in createPanels_pixel: before pixelParams")  
+  /* Composite section */
+  app.pixelParams = {
+    fill: ui.Checkbox({
+      label: 'Non filled', 
+      value: true,
+      onChange: function(){
+        app.NON_FILL = app.pixelParams.fill.getValue();
+        app.refreshMapLayer('pixel');
+      }
+    }),
+    sat: ui.Checkbox({
+      label: 'Non saturated', 
+      value: true,
+      onChange: function(){
+        app.NON_SAT = app.pixelParams.sat.getValue();
+        app.refreshMapLayer('pixel');
+      }
+    }),
+    cloudConfid: ui.Select({
+      items: Object.keys(app.CLOUD_CONFID),
+      onChange: function(key){
+        app.CONFIDENCE = app.CLOUD_CONFID[key].value;
+        app.refreshMapLayer('pixel');
+      }
+    }),
+    shadow: ui.Checkbox({
+      label: 'Shadow', 
+      value: true,
+      onChange: function(){
+        app.SHADOW = app.pixelParams.shadow.getValue();
+        app.refreshMapLayer('pixel');
+      }
+    }),
+    snowIce: ui.Checkbox({
+      label: 'Snow/Ice', 
+      value: true,
+      onChange: function(){
+        app.SNOW = app.pixelParams.snowIce.getValue();
+        app.refreshMapLayer('pixel');
+      }
+    }),
+    clipEdge: ui.Checkbox({
+      label: 'Clip edge', 
+      value: false,
+      onChange: function() {
+        app.pixelParams.edgeLength.setDisabled(!app.pixelParams.clipEdge.getValue())
+      }
+    }),
+    edgeLength: ui.Textbox({
+      value: app.EDGE_LENGTH, 
+      style: app.SMALL_TEXTBOX_STYLE,
+      disabled: true,
+      onChange: function(text) {
+        app.EDGE_LENGTH = ee.Number.parse(text);
+      }
+    })
+  }
+  print("in createPanels_pixel: before pixelParams.panel")  
+  /* The panel for omposite section */
+  app.pixelParams.panel = ui.Panel({
+    widgets:[
+      ui.Label('① Select relative params', {fontWeight: 'bold'}),
+      ui.Label('Check compositing params:', app.HELPER_TEXT_STYLE),
+      ui.Panel([
+        app.pixelParams.fill,
+        app.pixelParams.sat,
+        ui.Label('Cloud confidence (≥):', app.HELPER_TEXT_STYLE), app.pixelParams.cloudConfid,
+        app.pixelParams.shadow,
+        app.pixelParams.snowIce,
+        app.pixelParams.clipEdge,
+        app.pixelParams.edgeLength
+      ], ui.Panel.Layout.flow('horizontal', true)),
+      // app.composite.panel
+    ],
+    style: app.SECTION_STYLE
+  });
+  print("in createPanels_pixel: before cloud shadow confidence")  
+  // Default the cloud confidence to medium.
+  app.pixelParams.cloudConfid.setValue(
+    app.pixelParams.cloudConfid.items().get(1));
+  print("in createPanels_pixel: before refreshMapLayer_pixel")  
+  app.refreshMapLayer('pixel');
+};
+// Helper functions for image mosaicking
+app.imgMosaicking = function(){
+  // Function to clip each image using its geometry
+  app.clip = function(im, distance) {
+    var geo = ee.Geometry(im.geometry());
+    var small_geo = geo.buffer(ee.Number(distance).multiply(-1000));
+    return im.clip(small_geo);
+  };
+  // Mask bad pixels
+  app.maskBad = function(img){
+    var radsat_qa = img.select('radsat_qa');
+    var qa = img.select('pixel_qa');
+    //fill
+    var fillPixel = radsat_qa.bitwiseAnd(1); //fill bit
+    if(app.NON_FILL)
+      img = img.updateMask(fillPixel.not());
+    //saturated
+    var satPixel = radsat_qa.bitwiseAnd(1 << 1)    //saturate band 1
+            .or(radsat_qa.bitwiseAnd(1 << 2))      //saturate band 2
+            .or(radsat_qa.bitwiseAnd(1 << 3))      //saturate band 3
+            .or(radsat_qa.bitwiseAnd(1 << 4))      //saturate band 4
+            .or(radsat_qa.bitwiseAnd(1 << 5))      //saturate band 5
+            .or(radsat_qa.bitwiseAnd(1 << 6))      //saturate band 6
+            .or(radsat_qa.bitwiseAnd(1 << 7))      //saturate band 7
+    if(app.NON_SAT)
+      img = img.updateMask(satPixel.not());
+    // cloudy
+    var cloudPixel = qa.bitwiseAnd(1 << 5)  //cloud bit
+    if(app.CONFIDENCE === 0)      //low confidence
+      cloudPixel = cloudPixel.and(qa.bitwiseAnd(1 << 6))
+    else if(app.CONFIDENCE == 1)  //medium confidence
+      cloudPixel = cloudPixel.and(qa.bitwiseAnd(1 << 7))
+    else                  //high confidence
+      cloudPixel = cloudPixel.and(qa.bitwiseAnd(3 << 7))
+    img = img.updateMask(cloudPixel.not());
+    // shadow
+    var shadowPixel = qa.bitwiseAnd(1 << 3)     //shadow
+    if(app.SHADOW)
+      img = img.updateMask(shadowPixel.not());
+    // edge
+    if(app.CLIP_EDGE)
+      img = app.clip(img, app.EDGE_LENGTH);
+    // Remove edge pixels that don't occur in all bands
+    var edgeMsk = img.mask()                //0 invalid, 1 valid
+            .reduce(ee.Reducer.min());      //minimum of all bands
+    return img.updateMask(edgeMsk);         //edge pixels
+  }
+  app.CompositeStrategy = function(imgCol){
+    if(app.COMPOSITE === 0){
+      return imgCol.mosaic();
+    }else if(app.COMPOSITE == 1){
+      return imgCol.median();
+    }else if(app.COMPOSITE == 2){
+      return imgCol.mean();
+    }else if(app.COMPOSITE == 3){
+      var imgColCFactor = imgCol.map(function(img){
+        var nir = img.select('nir').multiply(0.0001);
+        var green = img.select('green').multiply(0.0001);
+        var red = img.select('red').multiply(0.0001);
+        var pv = img.expression('1.7208*(1.2*(NIR-GREEN)-2.5*(RED-GREEN))+0.1004', {NIR: nir, RED:red, GREEN:green}).rename('pv');
+        pv = pv.mask(pv.gt(0).and(pv.lt(1)));
+        var swir1 = img.select('swir1').multiply(0.0001);
+        var npv = img.expression('0.82*(SWIR-RED)/(SWIR+RED)+0.0753', {SWIR: swir1, RED:red}).rename('npv');
+        npv = npv.mask(npv.gt(0).and(npv.lt(1)));
+        var gc = ee.Image(100).multiply(ee.Image(npv).add(ee.Image(pv)));
+        //ndvi.lt(0.2).and(ndwi.lt(0))
+        gc = gc.mask(gc.lt(100).and(gc.gt(0)));
+        var Cfactor = gc.expression('exp(-0.0418*(GC-5))', {GC: gc}).rename('Cfactor');
+        return img.addBands(Cfactor);
+        //return img.addBands(img.normalizedDifference(['nir', 'red']));
+      });
+      //return imgColCFactor.qualityMosaic('Cfactor');
+      var Cfactor = imgColCFactor.mean();
+      print(Cfactor);
+      return Cfactor;
+    }else{
+      return imgCol.qualityMosaic('temp');
+    }
+  }
+  app.HQComposite = function(imgCol){
+    // print('in HQComposite')
+    var maskedImgCol= imgCol.sort('CLOUD_COVER', false).map(app.maskBad);
+    return app.CompositeStrategy(maskedImgCol);
+  }
+}
+/** Creates the app helper functions. */
+app.createHelpers = function() {
+  // Add spatial extent layer
+  app.addFeatureToMap = function(){
+    print('in addFeatureToMap')
+    var featCol = ee.FeatureCollection(app.EXTENT_FEATURE);
+      // Create an empty image into which to paint the features, cast to byte.
+      var empty = ee.Image().byte();
+      // Paint all the polygon edges with the same number and width, display.
+      var outline = empty.paint({
+        featureCollection: featCol,
+        color: 1,
+        width: 2
+      });
+      Map.addLayer(outline, {palette: 'FF0000'}, 'Boundary');
+      // Map.centerObject(feature, 8);
+  }
+  /** Refreshes the current map layer based on the UI widget states. */
+  app.refreshMap = function(){
+    print('in refreshMap()')
+    Map.centerObject(app.EXTENT_FEATURE);
+    if(app.paradigm.select.getValue() === 'Scene based'){
+      print('in refreshMap() scene')
+      app.refreshMapLayer('scene');
+    }else if(app.paradigm.select.getValue() === 'Pixel based'){
+      print('in refreshMap() pixel')
+      app.refreshMapLayer('pixel');
+    }else{
+      return;
+    }
+  }
+  app.refreshMapLayer = function(sceneOrPixel) {
+    print('in refreshMapLayer(sceneOrPixel)')
+    Map.clear();
+    // Prepare image data
+    app.update_imgCollection();
+    // Compositing images
+    var name;
+    if(sceneOrPixel == 'scene'){
+      print('in refreshMapLayer(sceneOrPixel) scene')
+      name = 'Scene-based mosaic';
+      app.COMPOSITE_IMAGE = app.CompositeStrategy(app.FILTERED_COLLECTION.sort('CLOUD_COVER', false));
+    }
+    if(sceneOrPixel == 'pixel'){
+      print('in refreshMapLayer(sceneOrPixel) pixel')
+      name = 'Pixel-based mosaic';
+      app.COMPOSITE_IMAGE = app.HQComposite(app.FILTERED_COLLECTION);
+    }
+    // Visualization
+    var visOption = app.VIS_OPTIONS[app.VIS];
+    app.COMPOSITE_IMAGE = app.COMPOSITE_IMAGE.clip(app.EXTENT_FEATURE);
+    Map.addLayer(app.COMPOSITE_IMAGE, visOption.visParams, name);
+    app.addFeatureToMap();
+  };
+  // UI exchange between pixel or scene based mosaic
+  app.refreshAppUI = function(value){
+    Map.clear();
+    ui.root.widgets().get(1).clear();
+    if (value === 0) {
+      // If pixel-based paradigm selected
+      print('before createPanels_pixel')
+      app.createPanels_pixel();
+      var panel_pixel = ui.Panel({
+        widgets: [
+          app.pixelParams.panel,
+          app.composite.panel,
+          app.export.panel
+        ],
+        style: app.UI_STYLE
+      });
+      ui.root.widgets().get(1).add(panel_pixel);
+      app.refreshMapLayer('pixel');
+    }
+    else{
+      // If scene-based paradigm selected
+      app.createPanels_scene();
+      var panel_scene = ui.Panel({
+        widgets: [
+          app.picker.panel,
+          app.composite.panel,
+          app.export.panel
+        ],
+        style: app.UI_STYLE
+      });
+      ui.root.widgets().get(1).add(panel_scene);
+      app.refreshMapLayer('scene');
+    }
+  };
+  /** Get extent object */
+  app.updateExtent = function(extentStr){
+    var extent = extentStr.split(',');
+    var size = extent.length;
+    if(extentStr.length > 40)
+      return ee.Feature(ee.FeatureCollection("ft:"+extentStr).first());
+    else if (extentStr == 'users/geogismx/htgy'){
+      return ee.FeatureCollection(extentStr);
+    }
+    else if (extentStr == 'users/geogismx/upbl_wgs84'){
+      return ee.FeatureCollection(extentStr);
+    }
+    else if(size == 2){
+      var geoP = ee.Geometry.Point([Number(extent[0]), Number(extent[1])]);
+      return ee.Feature(geoP);
+    }
+    else if(size == 4){
+      var geometry = ee.Geometry.Polygon(
+        [[[Number(extent[0]), Number(extent[1])],
+          [Number(extent[2]), Number(extent[1])],
+          [Number(extent[2]), Number(extent[3])],
+          [Number(extent[0]), Number(extent[3])]]]);
+      return ee.Feature(geometry);
+    }
+    else
+      print("Error input extent, please rerun app");
+  };
+  /** Applies the selection filters currently selected in the UI. */
+  app.update_imgCollection = function() {
+    // sensor filter
+    var imgCol;
+    var filtered = ee.ImageCollection(ee.Image(0));
+    if(app.paradigm.checkL4.getValue()){
+      imgCol = ee.ImageCollection(app.SENSOR_OPTIONS['Landsat 4'].value).map(function(img){
+        return img.select(app.LT45_BANDS, app.STD_NAMES);
+      })
+      filtered = filtered.merge(imgCol);
+    }
+    if(app.paradigm.checkL5.getValue()){
+      imgCol = ee.ImageCollection(app.SENSOR_OPTIONS['Landsat 5'].value).map(function(img){
+        return img.select(app.LT45_BANDS, app.STD_NAMES);
+      })
+      filtered = filtered.merge(imgCol);
+    }
+    if(app.paradigm.checkL7.getValue()){
+      imgCol = ee.ImageCollection(app.SENSOR_OPTIONS['Landsat 7'].value).map(function(img){
+        return img.select(app.LE7_BANDS, app.STD_NAMES);
+      })
+      filtered = filtered.merge(imgCol);
+    }
+    if(app.paradigm.checkL8.getValue()){
+      imgCol = ee.ImageCollection(app.SENSOR_OPTIONS['Landsat 8'].value).map(function(img){
+        return img.select(app.LC8_BANDS, app.STD_NAMES);
+      })
+      filtered = filtered.merge(imgCol);
+    }
+    // Spatial filter
+    var spatial = app.filterSpatial.select.getValue();
+    if(spatial === null)
+      filtered = filtered.filterBounds(Map.getCenter());
+    else{
+      var featBound = app.updateExtent(app.SPATIAL_EXTENT[spatial].value).geometry();
+      filtered = filtered.filterBounds(featBound);
+    }
+    // print("Spatial", filtered);
+    // Temporal filter
+    var start = app.filterTime.startDate.getValue();
+    if (start) start = ee.Date(start);
+    var end = app.filterTime.endDate.getValue();
+    if (end) end = ee.Date(end);
+    if (start) filtered = filtered.filterDate(start, end);
+    // print("Temporal", filtered);
+    // Cloud threshold filter
+    if(app.paradigm.select.getValue() === 'Scene based'){
+      filtered = ee.ImageCollection(
+        filtered.filterMetadata('CLOUD_COVER', 'less_than', app.CLOUD_THRESHOLD)
+      )
+    }
+    // print("Cloud", filtered);
+    app.FILTERED_COLLECTION = filtered;
+    if(app.FILTERED_COLLECTION.size() === 0)
+      print('No images in this spatial or temporal extent');
+  };
+};
+/** Creates the app constants. */
+app.createConstants = function() {
+  app.DISABLED_COLOR = 'BBBBBB';
+  app.UI_STYLE = {width: '320px', padding: '8px'}
+  app.SECTION_STYLE = {margin: '10px 0 0 0'};
+  app.SUB_SECTION_STYLE = {margin: '10px 0 0 10px'};
+  app.SMALL_TEXTBOX_STYLE = {width: '40px'};
+  app.MAP_STYLE = {height: '100%'};
+  app.EXTENT_FEATURE = ee.Feature(Map.getCenter());
+  app.SPATIAL_EXTENT = {
+    'Yangtze River Basin': {
+      value: '1xWl-hlnloC8BSYoaA_gBvGnx3VuwewizceSMS4Rb'
+    },
+    'Loess Plateau':{
+      value:'users/geogismx/htgy'
+    },
+    'beilou':{
+      value:'users/geogismx/upbl_wgs84'
+    },
+    'Poyang Lake wetland': {
+      value: '115.4745,28.2953,116.955,29.8416'
+    },
+    'Map Center':{
+      value: Map.getCenter().coordinates().getInfo().toString()
+    },
+    'User defined':{
+      value: '115.4745,28.2953,116.955,29.8416'
+    }
+  };
+  app.HELPER_TEXT_STYLE = {
+      margin: '8px 0 0 8px',
+      fontSize: '12px',
+      color: 'gray'
+  };
+  app.START_DATE = '2010-01-01';
+  app.END_DATE = '2011-01-01';
+  app.SENSOR_OPTIONS = {
+    'Landsat 4': {
+      value: 'LANDSAT/LT04/C01/T1_SR'
+    },
+    'Landsat 5': {
+      value: 'LANDSAT/LT05/C01/T1_SR'
+    },
+    'Landsat 7': {
+      value: 'LANDSAT/LE07/C01/T1_SR'
+    },
+    'Landsat 8': {
+      value: 'LANDSAT/LC08/C01/T1_SR'
+    }
+  }
+  app.PARADIGM_OPTIONS = {
+    'Pixel based': {
+      description: 'Compositing based on all \'best available pixel\' (BAP) pixels',
+      value: 0
+    },
+    'Scene based': {
+      description: 'Compositing based on scenes with \'best quality\'',
+      value: 1
+    }
+  };
+  app.CLOUD_THRESHOLD = 20;
+  app.COMPOSITE_IMAGE;
+  app.FILTERED_COLLECTION;
+  app.FILTERED_IMAGE;
+  app.IMAGE_COUNT_LIMIT = 5;
+  app.VIS = 'Natural color (B4/B3/B2)';
+  app.VIS_OPTIONS = {
+    'False color (B5/B4/B3)': {
+      description: 'Vegetation is shades of red, urban areas are ' +
+                   'cyan blue, and soils are browns.',
+      visParams: {gamma: 1.3, min: 0, max: 3000, bands: ['nir', 'red', 'green']}
+    },
+    'False color (B7/B6/B4)': {
+      description: 'Vegetation is shades of red, urban areas are ' +
+                   'cyan blue, and soils are browns.',
+      visParams: {gamma: 1.3, min: 0, max: 3000, bands: ['swir2', 'swir1', 'red']}
+    },
+    'Natural color (B4/B3/B2)': {
+      description: 'Ground features appear in colors similar to their ' +
+                   'appearance to the human visual system.',
+      visParams: {gamma: 1.3, min: 0, max: 3000, bands: ['red', 'green', 'blue']}
+    },
+    'Atmospheric (B7/B6/B5)': {
+      description: 'Coast lines and shores are well-defined. ' +
+                   'Vegetation appears blue.',
+      visParams: {gamma: 1.3, min: 0, max: 3000, bands: ['swir2', 'swir1', 'nir']}
+    },
+    'Cfactor (Control Factor)': {
+      description: 'vegetation are well-defined. ' +
+                   'Vegetation appears green.',
+      visParams: {gamma: 1.3, min: 0, max: 1, bands: ['Cfactor']}
+    }
+  };
+  app.NON_FILL = true;
+  app.NON_SAT = true;
+  app.CONFIDENCE = 1;
+  app.CLOUD_CONFID = {
+    'Low': {
+      value: 0
+    },
+    'Medium': {
+      value: 1
+    },
+    'High': {
+      value: 2
+    },
+  };
+  app.SHADOW = true;
+  app.SNOW = true;
+  app.CLIP_EDGE = false;
+  app.EDGE_LENGTH = 7;
+  app.COMPOSITE = 1;
+  app.COMPOSITE_OPTIONS = {
+    'Mosaic': {
+      description: 'Top pixel of masked image collection',
+      value: 0
+    },
+    'Median': {
+      description: 'Median value of all images',
+      value: 1
+    },
+    'Mean': {
+      description: 'Mean value of all images',
+      value: 2
+    },
+    'Anual CFactor': {
+      description: 'Green pixel composite',
+      value: 3
+    },
+    'Largest BT': {
+      description: 'Largest bright temperature',
+      value: 4
+    }
+  };
+  app.INITIAL_CENTER = {
+    lon: 109.245,
+    lat: 37.521,
+    zoom: 10
+  };
+  app.LT45_BANDS =['B1',   'B2',    'B3',  'B4',  'B5',    'B7',    'B6', 'radsat_qa', 'pixel_qa'];
+  app.LE7_BANDS = ['B1',   'B2',    'B3',  'B4',  'B5',    'B7',    'B6', 'radsat_qa', 'pixel_qa'];
+  app.LC8_BANDS = ['B2',   'B3',    'B4',  'B5',  'B6',    'B7',    'B10', 'radsat_qa', 'pixel_qa'];
+  app.STD_NAMES = ['blue', 'green', 'red', 'nir', 'swir1', 'swir2', 'temp', 'radsat_qa', 'pixel_qa'];
+};
+/** Creates the application interface. */
+app.boot = function() {
+  app.createConstants();
+  app.imgMosaicking();
+  app.createHelpers();
+  app.preCreatePanels();
+  var main = ui.Panel({
+    widgets: [
+      app.intro.panel,
+      app.filterSpatial.panel,
+      app.filterTime.panel,
+      app.paradigm.panel
+    ],
+    style: app.UI_STYLE
+  });
+  Map.setCenter(109.245,37.521, 6);//(106.99052897211561, 27.55735376878092, 10);
+  ui.root.insert(0, main);
+  ui.root.insert(1, ui.Panel());
+};
+app.boot();
