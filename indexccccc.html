@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Your Name">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo.png">
+    <title>NewOne</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .bgimg {
+            background-image: url('assets/images/coming.webp');
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .middle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        h1 {
+            font-size: 60px;
+            font-weight: 700;
+        }
+        .whatsapp-section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            margin: auto;
+            color: #333;
+        }
+        input, textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bgimg">
+        <div class="overlay"></div>
+        <div class="middle">
+            <h1>COMING SOON</h1>
+            <hr style="border-color: #777; width: 40%;">
+            <div class="whatsapp-section">
+                <h2>Pulakesh Pradhan</h2>
+                <p>Contact me directly on WhatsApp.</p>
+                <div>
+                    <input type="text" id="name" placeholder="YOUR NAME..." required>
+                </div>
+                <div>
+                    <textarea id="message" placeholder="YOUR MESSAGE..." required></textarea>
+                </div>
+                <div>
+                    <button type="button" id="form-submit" onclick="sendWhatsAppMessage()">WhatsApp Pulakesh</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function sendWhatsAppMessage() {
+            var name = document.getElementById("name").value;
+            var message = document.getElementById("message").value;
+            var whatsappMessage = "Hi, I'm " + name + ". " + message;
+            var whatsappLink = "https://wa.me/918617812861/?text=" + encodeURIComponent(whatsappMessage);
+            window.open(whatsappLink, "_blank");
+        }
+    </script>
+</body>
+
+</html>
