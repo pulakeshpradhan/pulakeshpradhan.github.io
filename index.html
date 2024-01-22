@@ -84,13 +84,23 @@
             color: black;
             border: 1px solid #4CAF50;
         }
+
+        
+        @keyframes blink {
+            0% {opacity: 1;}
+            50% {opacity: 0.5;}
+            100% {opacity: 1;}
+        }
+        .blink {
+            animation: blink 1s linear infinite;
+        }
     </style>
 </head>
 
 <body>
     <div class="bgimg">
         <div class="overlay"></div>
-        <div class="middle">
+        <div class="middle" style="width: 80%;">
             <h1>Let's Talk</h1>
             <hr style="border-color: #777; width: 100%;">
             <div class="whatsapp-section">
@@ -100,10 +110,14 @@
                     <input type="text" id="name" placeholder="YOUR NAME..." required>
                 </div>
                 <div>
-                    <textarea id="message" placeholder="YOUR MESSAGE..." required></textarea>
+                    <textarea id="message" placeholder="YOUR MESSAGE..." required style="height: 200px; width: 100%;"></textarea>
                 </div>
                 <div>
                     <button type="button" id="form-submit" onclick="sendWhatsAppMessage()">WhatsApp Pulakesh</button>
+                </div>
+                <!-- Add this new div for "Go to website" -->
+                <div style="margin-top: 20px;">
+                    <a href="https://www.linkedin.com/in/pulakeshpradhan/" class="blink" style="font-size: 28px; color: #ff6347; text-decoration: none; font-weight: bold;">Visit My Page ↗</a>
                 </div>
             </div>
         </div>
@@ -119,5 +133,4 @@
         }
     </script>
 </body>
-
 </html>
