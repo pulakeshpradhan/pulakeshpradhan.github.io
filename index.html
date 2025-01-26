@@ -1,102 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Your Name">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo.png">
-    <title>pulakesh</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulakesh Pradhan - Geography Research Scholar</title>
     
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Academic Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     
     <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-        }
-        .bgimg {
-            background-image: url('assets/images/helping.jpg');
-            height: 100%;
-            background-position: center;
-            background-size: cover;
-            position: relative;
-            color: white;
-            text-shadow: 2px 2px 4px #000000;
-        }
-        .overlay {
-            background-color: rgba(0, 0, 0, 0.5);
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
-        .middle {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-        h1 {
-            font-size: 60px;
-            font-weight: 700;
-        }
-        .whatsapp-section {
-            background-color: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-            max-width: 1200px;
-            margin: auto;
-            color: #333;
-        }
-        input, textarea {
-            width: 100%;
-            margin-bottom: 15px;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-            font-size: 16px;
-        }
-        button {
-            background-color: #4CAF50; /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            transition-duration: 0.4s;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: white;
-            color: black;
-            border: 1px solid #4CAF50;
+        :root {
+            --deep-blue: #1a3b5c;
+            --accent-blue: #2c7da0;
+            --soft-gray: #f4f7f9;
+            --text-primary: #2c3e50;
+            --highlight-green: #2ecc71;
         }
 
-        
-        @keyframes blink {
-            0% {opacity: 1;}
-            50% {opacity: 0.5;}
-            100% {opacity: 1;}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .blink {
-            animation: blink 1s linear infinite;
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.7;
+            background-color: var(--soft-gray);
+            color: var(--text-primary);
+        }
+
+        .academic-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 2.5rem;
+            padding: 2.5rem;
+        }
+
+        .profile-sidebar {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            padding: 2.5rem;
+            text-align: center;
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+        }
+
+        .profile-sidebar img {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid var(--accent-blue);
+            margin-bottom: 1.5rem;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-icons a {
+            color: var(--deep-blue);
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: var(--accent-blue);
+        }
+
+        .section-header {
+            font-family: 'Merriweather', serif;
+            border-bottom: 3px solid var(--accent-blue);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--deep-blue);
+        }
+
+        .academic-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .academic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .academic-entry {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .academic-entry:last-child {
+            border-bottom: none;
+        }
+
+        .entry-title {
+            color: var(--deep-blue);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .entry-subtitle {
+            color: var(--accent-blue);
+            font-style: italic;
+        }
+
+        .publication {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .publication-title {
+            color: var(--deep-blue);
+            font-weight: 600;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: var(--highlight-green);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-left: 0.5rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .project-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .external-link {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .external-link:hover {
+            color: var(--deep-blue);
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+                .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjusted min width for better layout */
+            gap: 1.5rem; /* Increased gap between images */
+        }
+
+        .gallery-image {
+            width: 100%;
+            height: 200px; /* Fixed height for uniformity */
+            object-fit: cover; /* Ensures images cover the area without distortion */
+            border-radius: 12px; /* Rounded corners for a softer look */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+        }
+
+        .gallery-image:hover {
+            transform: scale(1.05); /* Slightly enlarge on hover */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+        }
+        .subsection-header {
+        font-family: 'Merriweather', serif; /* Use the same font as section headers */
+        color: var(--deep-blue);
+        margin-top: 2rem; /* Space above the subsection header */
+        margin-bottom: 1rem; /* Space below the subsection header */
+        border-bottom: 2px solid var(--accent-blue); /* Underline for emphasis */
+        padding-bottom: 0.5rem; /* Padding below the header */
+    }
+        .download-button {
+        display: inline-block;
+        background-color: var(--accent-blue);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+        background-color: var(--deep-blue);
+    }
+        @media (max-width: 1100px) {
+            .academic-container {
+                grid-template-columns: 1fr;
+            }
+
+            .project-grid, .skills-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
+<body>
+    <div class="academic-container">
+        <!-- Sidebar Profile -->
+        <aside class="profile-sidebar">
+            <img src="images/pulakesh.jpg" alt="Pulakesh Pradhan">
+            <h1>Pulakesh Pradhan</h1>
+            <!-- <p>PhD Research Scholar</p>
+            <p>Ravenshw University, India</p> -->
 
-<!--  -->
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank" title="ResearchGate">
+                    <i class="fab fa-researchgate"></i>
+                </a>
+                <a href="https://orcid.org/0000-0003-3103-3617" target="_blank" title="ORCID">
+                    <i class="fab fa-orcid"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/pulakeshpradhan/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/geoindia2024" target="_blank" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=yourID" target="_blank" title="Google Scholar">
+                    <i class="fas fa-graduation-cap"></i>
+                </a>
+                <a href="https://medium.com/@pulakeshpradhan" target="_blank" title="Medium">
+                    <i class="fab fa-medium"></i>
+                </a>
+            </div>
+
+            <div style="margin-top: 1.5rem;">
+                <h3>Contact</h3>
+                <p>☏ +91-8617812861</p>
+                <p>📧 pulakesh.mid@gmail.com</p>
+                <p>📕 Department of Geography<br>
+                    🏫 Ravenshw University</p>
+            </div>
+            <div style="margin-top: 1.5rem;">
+                <a href="CV_Pulakesh_Pradhan.pdf" class="download-button" download>Download CV</a>
+            </div>
+        </aside>
+<!--  Main Content -->
+<main>
+
+                <!-- Professional Profile -->
+                <section class="academic-card">
+                    <h2 class="section-header">About Me</h2>
+                    <p>
+                        I am <strong>Pulakesh Pradhan</strong>, a Ph.D. Scholar in Geography at Ravenshaw University, Cuttack, Odisha. 
+                        I completed my M.Phil. in 2020. I qualified for the UGC-JRF in 2019 and cleared the West Bengal SET in 2018.
+                    </p>
+                    
+                </section>
+
+            <!-- Image Gallery -->
+            <!-- Image Gallery -->
+            <section class="academic-card">
+                <h2 class="section-header">Image Gallery</h2>
+
+                <!-- India Subsection -->
+                <h3 class="subsection-header">Ravenshw</h3>
+                <div class="gallery-grid">
+                    <img src="images/Ravenshaw/1.jpg" alt="Description of Image 1" class="gallery-image">
+                    <img src="images/Ravenshaw/2.jpg" alt="Description of Image 2" class="gallery-image">
+                    <img src="images/Ravenshaw/3.jpg" alt="Description of Image 3" class="gallery-image">
+                </div>
+
+
+                <!-- France Subsection -->
+                <h3 class="subsection-header">IIT Bombay</h3>
+                <div class="gallery-grid">
+                    <img src="images/IIT Bombay/1.jpg" alt="Description of Image 1" class="gallery-image">
+                    <img src="images/IIT Bombay/2.jpg" alt="Description of Image 2" class="gallery-image">
+                    <img src="images/IIT Bombay/3.jpg" alt="Description of Image 3" class="gallery-image">
+                    <img src="images/IIT Bombay/4.jpg" alt="Description of Image 3" class="gallery-image">
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--deep-blue); color: white; text-align: center; padding: 1rem;">
+        <p>© 2025 Pulakesh Pradhan | Geography Research Scholar</p>
+    </footer>
+</body>
 </html>
-HII
