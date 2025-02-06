@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulakesh Pradhan - Geography Research Scholar</title>
+    
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Academic Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --deep-blue: #1a3b5c;
+            --accent-blue: #2c7da0;
+            --soft-gray: #f4f7f9;
+            --text-primary: #2c3e50;
+            --highlight-green: #2ecc71;
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.7;
+            background-color: var(--soft-gray);
+            color: var(--text-primary);
+        }
+    
+        .academic-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 2.5rem;
+            padding: 2.5rem;
+        }
+    
+        .profile-sidebar {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem;
+            text-align: center;
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+        }
+    
+        .profile-sidebar img {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid var(--accent-blue);
+            margin-bottom: 1.5rem;
+        }
+    
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+    
+        .social-icons a {
+            color: var(--deep-blue);
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+    
+        .social-icons a:hover {
+            color: var(--accent-blue);
+        }
+    
+        .section-header {
+            font-family: 'Merriweather', serif;
+            border-bottom: 3px solid var(--accent-blue);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--deep-blue);
+        }
+    
+        .academic-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+    
+        .academic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    
+        .academic-entry {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+    
+        .academic-entry:last-child {
+            border-bottom: none;
+        }
+    
+        .entry-title {
+            color: var(--deep-blue);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+    
+        .entry-subtitle {
+            color: var(--accent-blue);
+            font-style: italic;
+        }
+    
+        .publication {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+    
+        .publication-title {
+            color: var(--deep-blue);
+            font-weight: 600;
+        }
+    
+        .badge {
+            display: inline-block;
+            background-color: var(--highlight-green);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-left: 0.5rem;
+        }
+    
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    
+        .project-card {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+    
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+    
+        .external-link {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+    
+        .external-link:hover {
+            color: var(--deep-blue);
+            text-decoration: underline;
+        }
+    
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+    
+        .gallery-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .gallery-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+    
+        .subsection-header {
+            font-family: 'Merriweather', serif;
+            color: var(--deep-blue);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--accent-blue);
+            padding-bottom: 0.5rem;
+        }
+    
+        .download-button {
+            display: inline-block;
+            background-color: var(--accent-blue);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+    
+        .download-button:hover {
+            background-color: var(--deep-blue);
+        }
+    
+        @media (max-width: 1100px) {
+            .academic-container {
+                grid-template-columns: 1fr;
+            }
+    
+            .project-grid, .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    
+        /* Mobile Optimization */
+        @media (max-width: 768px) {
+            .academic-container {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+    
+            .profile-sidebar {
+                position: static;
+                margin-bottom: 2rem;
+            }
+    
+            .gallery-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+    
+            .gallery-image {
+                height: auto;
+            }
+    
+            .academic-card {
+                padding: 1.5rem;
+            }
+    
+            .section-header, .subsection-header {
+                font-size: 1.5rem;
+            }
+    
+            .download-button {
+                display: block;
+                text-align: center;
+                width: 100%;
+                margin-top: 1rem;
+            }
+    
+            .social-icons a {
+                font-size: 1.2rem;
+            }
+        }
+    
+        @media (max-width: 480px) {
+            .gallery-image {
+                height: 150px;
+            }
+    
+            .profile-sidebar img {
+                width: 200px;
+                height: 200px;
+            }
+    
+            .social-icons {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="academic-container">
+        <!-- Sidebar Profile -->
+        <aside class="profile-sidebar">
+            <img src="images/pulakesh.jpg" alt="Pulakesh Pradhan">
+            <h1>Pulakesh Pradhan</h1>
+            <!-- <p>PhD Research Scholar</p>
+            <p>Ravenshw University, India</p> -->
+
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank" title="ResearchGate">
+                    <i class="fab fa-researchgate"></i>
+                </a>
+                <a href="https://orcid.org/0000-0003-3103-3617" target="_blank" title="ORCID">
+                    <i class="fab fa-orcid"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/pulakeshpradhan/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/geoindia2024" target="_blank" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=yourID" target="_blank" title="Google Scholar">
+                    <i class="fas fa-graduation-cap"></i>
+                </a>
+                <a href="https://medium.com/@pulakeshpradhan" target="_blank" title="Medium">
+                    <i class="fab fa-medium"></i>
+                </a>
+            </div>
+
+            <div style="margin-top: 1.5rem;">
+                <h3>Contact</h3>
+                <p>☏ +91-8617812861</p>
+                <p>📧 pulakesh.mid@gmail.com</p>
+                <p>📕 Department of Geography<br>
+                    🏫 Ravenshw University</p>
+            </div>
+            <div style="margin-top: 1.5rem;">
+                <a href="CV_Pulakesh_Pradhan.pdf" class="download-button" download>Download CV</a>
+            </div>
+        </aside>
+<!--  Main Content -->
+<main>
+
+                <!-- Professional Profile -->
+                <!-- <section class="academic-card">
+                    <h2 class="section-header">About Me</h2>
+                    <p>
+                        I am <strong>Pulakesh Pradhan</strong>, a Ph.D. Scholar in Geography at Ravenshaw University, Cuttack, Odisha. 
+                        I completed my M.Phil. in 2020. I qualified for the UGC-JRF in 2019 and cleared the West Bengal SET in 2018.
+                    </p>
+                    
+                </section> -->
+
+            <!-- Image Gallery -->
+            <!-- Image Gallery -->
+            <section class="academic-card">
+                <h2 class="section-header">Image Gallery</h2>
+
+                <!-- India Subsection -->
+                <h3 class="subsection-header">Ravenshaw University</h3>
+                <div class="gallery-grid">
+                    <img src="images/Ravenshaw/1.jpg" alt="Description of Image 1" class="gallery-image">
+                    <img src="images/Ravenshaw/2.jpg" alt="Description of Image 2" class="gallery-image">
+                    <img src="images/Ravenshaw/3.jpg" alt="Description of Image 3" class="gallery-image">
+                </div>
+
+
+                <!-- France Subsection -->
+                <h3 class="subsection-header">IIT Bombay</h3>
+                <div class="gallery-grid">
+                    <img src="images/IIT Bombay/1.jpg" alt="Description of Image 1" class="gallery-image">
+                    <img src="images/IIT Bombay/2.jpg" alt="Description of Image 2" class="gallery-image">
+                    <img src="images/IIT Bombay/3.jpg" alt="Description of Image 3" class="gallery-image">
+                    <img src="images/IIT Bombay/4.jpg" alt="Description of Image 3" class="gallery-image">
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--deep-blue); color: white; text-align: center; padding: 1rem;">
+        <p>© 2025 Pulakesh Pradhan | Geography Research Scholar</p>
+    </footer>
+</body>
+</html>
