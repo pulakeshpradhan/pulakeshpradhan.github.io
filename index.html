@@ -184,13 +184,24 @@
             list-style-type: disc;
             margin-left: 20px;
         }
-    
+        
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 1.5rem;
         }
-    
+
+        
+        .gallery-grid-new {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+        
         .gallery-image {
             width: 100%;
             height: 200px;
@@ -255,9 +266,19 @@
                 grid-template-columns: 1fr;
                 gap: 1rem;
             }
+
+            .gallery-item {
+                text-align: center;
+            }
     
             .gallery-image {
                 height: auto;
+            }
+
+            .gallery-caption {
+                font-size: 16px;
+                color: #444;
+                font-weight: 600;
             }
     
             .academic-card {
@@ -375,6 +396,89 @@
                     <img src="images/IIT Bombay/3.jpg" alt="Description of Image 3" class="gallery-image">
                     <img src="images/IIT Bombay/4.jpg" alt="Description of Image 3" class="gallery-image">
                 </div>
+            </section>
+
+            <section class="academic-card">
+                <h2 class="section-header">My Research Interests</h2>
+                <p class="subsection-description">
+                    I am interested in <strong>remote sensing and empirical analysis</strong> for 
+                    <strong>sustainable agriculture, climate change, and rural development</strong>, 
+                    focusing on <strong>crop monitoring, land use, and climate resilience</strong>.
+                </p>
+                <div class="gallery-grid-new">
+                    <div class="gallery-item">
+                        <i class="fas fa-tree gallery-icon"></i>
+                        <div class="gallery-caption">Vegetation</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-water gallery-icon"></i>
+                        <div class="gallery-caption">Water</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-cloud-sun-rain gallery-icon"></i>
+                        <div class="gallery-caption">Climate</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-globe gallery-icon"></i>
+                        <div class="gallery-caption">Soil</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-mountain gallery-icon"></i>
+                        <div class="gallery-caption">Topography</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-faucet gallery-icon"></i>
+                        <div class="gallery-caption">Ground Water</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-sun gallery-icon"></i>
+                        <div class="gallery-caption">Drought</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-water gallery-icon"></i>
+                        <div class="gallery-caption">Flood</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-bolt gallery-icon"></i>
+                        <div class="gallery-caption">Extreme Events</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-satellite gallery-icon"></i>
+                        <div class="gallery-caption">SAR Radar</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-exclamation-triangle gallery-icon"></i>
+                        <div class="gallery-caption">Degradation</div>
+                    </div>
+                    <div class="gallery-item">
+                        <i class="fas fa-layer-group gallery-icon"></i>
+                        <div class="gallery-caption">LULC Change</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications -->
+            <section class="academic-card">
+                <h2 class="section-header">Research Publications</h2>
+                <div class="publication">
+                    <h3 class="publication-title">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
+                    <p class="publication-details">
+                        <strong>Book:</strong> Modern Cartography Series
+                        <strong>Year:</strong> 2024
+                        <span class="badge">Google Earth Engine</span>
+                    </p>
+                    <p class="publication-description">This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends, highlighting extreme droughts, shifting water availability, and resilience improvements through NDVI and land surface cooling.</p>
+                    <a href="https://doi.org/10.1016/B978-0-443-23890-1.00011-6" class="external-link">View Publication</a>
+                </div>
+                <!-- <div class="publication">
+                    <h3 class="publication-title">Monsoon Dynamics and Environmental Interactions in Indian Subcontinent</h3>
+                    <p class="publication-details">
+                        <strong>Journal:</strong> Climate Research Journal
+                        <strong>Year:</strong> 2021
+                    </p>
+                    <p class="publication-description">Detailed analysis of monsoon onset patterns, their variability, and environmental implications in the Indian subcontinent.</p>
+                    <a href="#" class="external-link">View Publication</a>
+                </div> -->
             </section>
 
         </main>
