@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate & Geography Research Blog</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 26px;
+            color: #1a1a1a;
+        }
+
+        .blog-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #1a3b5c;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-size: 14px;
+            word-wrap: break-word;
+        }
+
+        .dataset-name {
+            font-weight: 600;
+            color: #1a3b5c;
+        }
+
+        .dataset-link {
+            display: block;
+            font-size: 12px;
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 2px;
+        }
+
+        .dataset-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌍Google Earth Engine Datasets</h1>
+
+       
+        
+            <!-- 🌦️ Climate and Weather -->
+    <div class="blog-section">
+  
+        <!-- Weather Forecast -->
+        <h3>⛅ Weather Forecast</h3>
+        <ul>
+            <li><span class="dataset-name">GFS: Global Forecast System 384-Hour Predicted Atmosphere Data:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NOAA_GFS0P25</a>
+            </li>
+            <li><span class="dataset-name">(CAMS) Global Near-Real-Time:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_CAMS_NRT</a>
+            </li>
+        </ul>
+    </div>
+        <div class="blog-section">
+        <!-- Humidity -->
+        <h3>💧 Humidity</h3>
+        <ul>
+            <li><span class="dataset-name">GLDAS Specific Humidity:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H</a>
+            </li>
+            <li><span class="dataset-name">GLDAS Relative Humidity:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- 🌧️ Precipitation -->
+    <div class="blog-section">
+        <h2>🌧️ Precipitation</h2>
+        <ul>
+            <li><span class="dataset-name">CHIRPS Daily:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/UCSB-CHG_CHIRPS_DAILY</a>
+            </li>
+            <li><span class="dataset-name">PERSIANN-CDR Daily:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NOAA_PERSIANN-CDR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NOAA_PERSIANN-CDR</a>
+            </li>
+            <li><span class="dataset-name">TRMM 3-Hourly:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B42" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B42</a>
+            </li>
+            <li><span class="dataset-name">TRMM Monthly:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B43V7" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/TRMM_3B43V7</a>
+            </li>
+            <li><span class="dataset-name">GPM 30-Minute:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V06" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V06</a>
+            </li>
+            <li><span class="dataset-name">GPM Monthly:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V07" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GPM_L3_IMERG_V07</a>
+            </li>
+            <li><span class="dataset-name">GLDAS Precipitation:</span>
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- 🌡️ Pressure -->
+    <div class="blog-section">
+        <h2>🌡️ Air Pressure</h2>
+        <ul>
+            <li><span class="dataset-name">ERA5 Daily Air Pressure:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR</a>
+            </li>
+            <li><span class="dataset-name">GLDAS Air Pressure:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ☀️ Radiation -->
+    <div class="blog-section">
+        <h2>☀️ Radiation</h2>
+        <ul>
+            <li><span class="dataset-name">GLDAS Radiation:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D</a>
+            </li>
+            <li><span class="dataset-name">ERA5 Radiation:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 💦 Runoff -->
+    <div class="blog-section">
+        <h2>💦 Runoff</h2>
+        <ul>
+            <li><span class="dataset-name">ERA5 Daily Runoff:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR</a>
+            </li>
+            <li><span class="dataset-name">GLDAS Runoff:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ❄️ Snow -->
+    <div class="blog-section">
+        <h2>❄️ Snow Data</h2>
+        <ul>
+            <li><span class="dataset-name">MODIS Snow Cover Area:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD10A1" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD10A1</a>
+            </li>
+            <li><span class="dataset-name">LANDSAT-8 Snow Cover Area:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_NDSI" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_NDSI</a>
+            </li>
+            <li><span class="dataset-name">GLDAS Snow Water Equivalent:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D</a>
+            </li>
+            <li><span class="dataset-name">ERA5 Snow Water Equivalent:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR</a>
+            </li>
+            <li><span class="dataset-name">GLDAS Snow Depth:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D</a>
+            </li>
+            <li><span class="dataset-name">ERA5 Snow Depth:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- 🌱 Soil Moisture -->
+    <div class="blog-section">
+        <h2>🌱 Soil Moisture</h2>
+        <ul>
+            <li><span class="dataset-name">GLDAS 2.2 Surface Soil Moisture:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D</a>
+            </li>
+            <li><span class="dataset-name">GLDAS 2.2 Root Zone Soil Moisture:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D</a>
+            </li>
+            <li><span class="dataset-name">SMAP Soil Moisture:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_USDA_HSL_SMAP10KM_soil_moisture?hl=en" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_USDA_HSL_SMAP10KM_soil_moisture?hl=en</a>
+            </li>
+            <li><span class="dataset-name">GLDAS 2.1 Soil Moisture:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H</a>
+            </li>
+            <li><span class="dataset-name">IDAHO Soil Moisture:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE?hl=en" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE?hl=en</a>
+            </li>
+            <li><span class="dataset-name">ERA5 Daily Soil Moisture:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 🌡️ Temperature -->
+    <div class="blog-section">
+        <h2>🌡️ Temperature</h2>
+        <ul>
+            <li><span class="dataset-name">MODIS Daily (Land):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A1" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A1</a>
+            </li>
+            <li><span class="dataset-name">MODIS 8-Day (Land):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A2" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A2</a>
+            </li>
+            <li><span class="dataset-name">LANDSAT-8 (Land):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2</a>
+            </li>
+            <li><span class="dataset-name">GLDAS (Land):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V022_CLSM_G025_DA1D</a>
+            </li>
+            <li><span class="dataset-name">ERA5 Daily (Land):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR</a>
+            </li>
+            <li><span class="dataset-name">GLDAS (Air):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/NASA_GLDAS_V021_NOAH_G025_T3H</a>
+            </li>
+            <li><span class="dataset-name">ERA5 Daily (Air):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 🏔️ Topography -->
+    <div class="blog-section">
+        <h2>🏔️ Topography</h2>
+        <ul>
+            <li><span class="dataset-name">ALOS TIN:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2</a>
+            </li>
+            <li><span class="dataset-name">SRTM TIN:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- 💧 Water Mask -->
+    <div class="blog-section">
+        <h2>💧 Water Mask</h2>
+        <ul>
+            <li><span class="dataset-name">MODIS Water Area:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_NDWI" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD09GA_006_NDWI</a>
+            </li>
+            <li><span class="dataset-name">LANDSAT-8 Water Area:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_NDWI" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_8DAY_NDWI</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 🌊 Water Quality -->
+    <div class="blog-section">
+        <h2>🌊 Water Quality</h2>
+        <ul>
+            <li><span class="dataset-name">Sentinel-2 NDCI (Chlorophyll):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED</a>
+            </li>
+            <li><span class="dataset-name">Sentinel-2 NDTI (Turbidity):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED</a>
+            </li>
+            <li><span class="dataset-name">Sentinel-2 TSS (Total Suspended Solid):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 🌎 Waterways Networks -->
+    <div class="blog-section">
+        <h2>🌎 Waterways Networks</h2>
+        <ul>
+            <li><span class="dataset-name">River Channel Width:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MERIT_Hydro_v1_0_1" target="_blank" class="dataset-link">View Dataset</a>
+            </li>
+            <li><span class="dataset-name">Upstream Drainage Area (km²):</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MERIT_Hydro_v1_0_1" target="_blank" class="dataset-link">View Dataset</a>
+            </li>
+            <li><span class="dataset-name">Visualization of River Channel:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MERIT_Hydro_v1_0_1" target="_blank" class="dataset-link">View Dataset</a>
+            </li>
+            <li><span class="dataset-name">Land and Permanent Water:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MERIT_Hydro_v1_0_1" target="_blank" class="dataset-link">View Dataset</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 🌬️ Wind -->
+    <div class="blog-section">
+        <h2>🌬️ Wind</h2>
+        <ul>
+            <li><span class="dataset-name">ERA5 (10m) East (U) and North (V) Wind Speeds:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">View Dataset</a>
+            </li>
+            <li><span class="dataset-name">ERA5 (10m) Wind Speed:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">View Dataset</a>
+            </li>
+            <li><span class="dataset-name">ERA5 (10m) Wind Direction:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR" target="_blank" class="dataset-link">View Dataset</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- 🌿 Land Cover -->
+    <div class="blog-section">
+        <h2>🌿 Land Cover Datasets</h2>
+        <ul>
+            <li><span class="dataset-name">MODIS Land Cover Type-1:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1</a>
+            </li>
+            <li><span class="dataset-name">MODIS Land Cover Type-2:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1</a>
+            </li>
+            <li><span class="dataset-name">IRAN Land Cover KNTU:</span> 
+                <a href="https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1" target="_blank" class="dataset-link">https://developers.google.com/earth-engine/datasets/catalog/KNTU_LiDARLab_IranLandCover_V1</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+        <div class="footer">
+            © 2025 Pulakesh Pradhan | Geography Research Scholar
+        </div>
+    </div>
+
+</body>
+</html>
