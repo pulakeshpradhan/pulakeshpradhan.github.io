@@ -480,18 +480,37 @@
                     <a href="#" class="external-link">View Publication</a>
                 </div> -->
             </section>
+<!-- Quick Links Section (Password Protected) -->
+<section class="academic-card">
+        
+    <!-- Button to trigger password prompt -->
+    <button onclick="verifyPassword()" class="download-button">Access Quick Links</button>
 
-            <!-- Quick Links Section
-            <section class="academic-card">
-                <h2 class="section-header">Quick Links</h2>
-                <div class="project-grid">
-                    <a href="gee.html" class="download-button">GEE</a>
-                    <a href="blogs.html" class="download-button">Blogs</a>
-                    <a href="datasets.html" class="download-button">Datasets</a>
-                    <a href="visualization.html" class="download-button">Visualization</a>
-                </div>
-            </section>
- -->
+    <!-- Hidden Quick Links Content -->
+    <div id="quick-links-content" style="display: none; margin-top: 1rem;">
+        <div class="project-grid">
+            <a href="gee.html" class="download-button">GEE</a>
+            <a href="blogs.html" class="download-button">Blogs</a>
+            <a href="datasets.html" class="download-button">Datasets</a>
+            <a href="visualization.html" class="download-button">Visualization</a>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript for Password Protection -->
+<script>
+    function verifyPassword() {
+        var password = prompt("Enter the password to access Quick Links:");
+        var correctPassword = "0001"; // Set your password here
+        
+        if (password === correctPassword) {
+            document.getElementById("quick-links-content").style.display = "block";
+        } else {
+            alert("Incorrect password. Access denied.");
+        }
+    }
+</script>
+ 
 
         </main>
     </div>
