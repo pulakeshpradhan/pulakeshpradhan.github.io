@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulakesh Pradhan - Geography Research Scholar</title>
+    
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Academic Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --deep-blue: #1a3b5c;
+            --accent-blue: #2c7da0;
+            --soft-gray: #f4f7f9;
+            --text-primary: #2c3e50;
+            --highlight-green: #2ecc71;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: var(--soft-gray);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        /* Header Banner */
+        header {
+            background-color: var(--deep-blue);
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .academic-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 2.5rem;
+            padding: 2.5rem;
+        }
+
+        .profile-sidebar {
+            background-color: white;
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-sidebar img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid var(--accent-blue);
+            margin-bottom: 1.5rem;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-icons a {
+            color: var(--deep-blue);
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: var(--accent-blue);
+        }
+
+        .academic-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .section-header {
+            font-family: 'Merriweather', serif;
+            border-bottom: 3px solid var(--accent-blue);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--deep-blue);
+        }
+
+        .download-button {
+            display: inline-block;
+            background-color: var(--accent-blue);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: var(--deep-blue);
+        }
+
+        /* Password-Protected Quick Links */
+        .quick-links {
+            display: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--deep-blue);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1100px) {
+            .academic-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header a {
+                font-size: 1.5rem;
+            }
+
+            .profile-sidebar img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+
+    <script>
+        function unlockLinks() {
+            var password = prompt("Enter password to access Quick Links:");
+            if (password === "geo123") {
+                document.getElementById("quick-links").style.display = "block";
+            } else {
+                alert("Incorrect password! Access denied.");
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+    <!-- Header Banner -->
+    <header>
+        <a href="index.html">🏠 Home | Pulakesh Pradhan - Geography Research Scholar</a>
+    </header>
+
+    <div class="academic-container">
+        
+        <!-- Sidebar -->
+        <aside class="profile-sidebar">
+            <img src="images/pulakesh.jpg" alt="Pulakesh Pradhan">
+            <h1>Pulakesh Pradhan</h1>
+            
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank"><i class="fab fa-researchgate"></i></a>
+                <a href="https://orcid.org/0000-0003-3103-3617" target="_blank"><i class="fab fa-orcid"></i></a>
+                <a href="https://www.linkedin.com/in/pulakeshpradhan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/codeforgeo" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+
+            <p>📧 pulakesh.mid@gmail.com</p>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+
+            <!-- Research Publications -->
+            <section class="academic-card">
+                <h2 class="section-header">Research Publications</h2>
+                <p><strong>Agricultural drought monitoring using Google Earth Engine</strong></p>
+                <p>Published in Modern Cartography Series, 2024</p>
+                <a href="https://doi.org/10.1016/B978-0-443-23890-1.00011-6" class="external-link">View Publication</a>
+            </section>
+
+            <!-- Password-Protected Quick Links -->
+            <section class="academic-card">
+                <h2 class="section-header">Quick Links</h2>
+                <button onclick="unlockLinks()" class="download-button">🔒 Unlock Links</button>
+                <div id="quick-links" class="quick-links">
+                    <a href="gee.html" class="download-button">GEE</a>
+                    <a href="blogs.html" class="download-button">Blogs</a>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer Banner -->
+    <footer>
+        <p><a href="index.html">⬆️ Back to Home</a></p>
+        <p>© 2025 Pulakesh Pradhan | Geography Research Scholar</p>
+    </footer>
+
+</body>
+</html>
