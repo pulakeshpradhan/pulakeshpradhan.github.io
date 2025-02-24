@@ -77,15 +77,6 @@
       margin-left: 20px;
       list-style-type: disc;
     }
-    .card-body li a {
-      margin-left: 8px;
-      font-size: 0.9rem;
-      color: #4285f4;
-      text-decoration: none;
-    }
-    .card-body li a:hover {
-      text-decoration: underline;
-    }
     /* Footer Styles */
     .footer {
       background: #2575fc;
@@ -124,12 +115,12 @@
   </nav>
 
   <!-- Header -->
-  <!-- <header class="header">
+  <header class="header">
     <div class="container">
       <h1><i class="fa fa-map"></i> Geospatial Analysis Applications</h1>
       <p>Leveraging Remote Sensing for Comprehensive Earth Observation</p>
     </div>
-  </header> -->
+  </header>
 
   <!-- Main Content -->
   <main class="container my-5">
@@ -143,10 +134,10 @@
           <div class="card-body">
             <ul>
               <li><strong>Vegetation Cover Mapping:</strong> Delineate areas of dense and sparse vegetation.</li>
-              <li><strong>NDVI Analysis:</strong> Assess vegetation health using NDVI.</li>
-              <li><strong>Forest Health Monitoring:</strong> Track forest conditions and detect diseases.</li>
+              <li><strong>NDVI Analysis:</strong> Assess vegetation health using normalized difference indices.</li>
+              <li><strong>Forest Health Monitoring:</strong> Track forest conditions and detect disease outbreaks.</li>
               <li><strong>Crop Identification:</strong> Classify crop types and monitor seasonal growth.</li>
-              <li><strong>Invasive Species Detection:</strong> Detect and map non-native vegetation.</li>
+              <li><strong>Invasive Species Detection:</strong> Detect and map non-native vegetation species.</li>
             </ul>
           </div>
         </div>
@@ -164,7 +155,7 @@
               <li><strong>Water Quality Assessment:</strong> Monitor clarity, pollutants, and algal blooms.</li>
               <li><strong>Reservoir Storage Estimation:</strong> Estimate water volume in storage facilities.</li>
               <li><strong>River Discharge Analysis:</strong> Analyze flow rates and water level variations.</li>
-              <li><strong>Wetland Mapping:</strong> Identify and monitor wetland ecosystems.</li>
+              <li><strong>Wetland Mapping:</strong> Identify and monitor the extent of wetland ecosystems.</li>
             </ul>
           </div>
         </div>
@@ -181,7 +172,7 @@
               <li><strong>Temperature Trends:</strong> Analyze long-term temperature patterns.</li>
               <li><strong>Precipitation Analysis:</strong> Monitor rainfall patterns and anomalies.</li>
               <li><strong>Extreme Weather Monitoring:</strong> Track storms, heatwaves, and cold snaps.</li>
-              <li><strong>Climate Model Comparison:</strong> Evaluate projections from various models.</li>
+              <li><strong>Climate Model Comparison:</strong> Evaluate projections from different climate models.</li>
               <li><strong>Seasonal Variability:</strong> Assess seasonal shifts in climate parameters.</li>
             </ul>
           </div>
@@ -234,9 +225,9 @@
             <ul>
               <li><strong>Aquifer Mapping:</strong> Identify and delineate groundwater reservoirs.</li>
               <li><strong>Groundwater Monitoring:</strong> Track water table fluctuations over time.</li>
-              <li><strong>Recharge Estimation:</strong> Calculate natural replenishment rates.</li>
-              <li><strong>Contamination Risk:</strong> Assess areas vulnerable to pollution.</li>
-              <li><strong>Well Location Analysis:</strong> Determine optimal extraction points.</li>
+              <li><strong>Recharge Estimation:</strong> Calculate natural replenishment rates of aquifers.</li>
+              <li><strong>Contamination Risk:</strong> Assess areas vulnerable to groundwater pollution.</li>
+              <li><strong>Well Location Analysis:</strong> Determine optimal locations for groundwater extraction.</li>
             </ul>
           </div>
         </div>
@@ -251,10 +242,10 @@
           <div class="card-body">
             <ul>
               <li><strong>Drought Severity Mapping:</strong> Identify regions under severe drought conditions.</li>
-              <li><strong>Vegetation Stress Indicators:</strong> Monitor water stress in plants.</li>
-              <li><strong>Soil Moisture Deficit:</strong> Quantify moisture shortage.</li>
-              <li><strong>Water Supply Shortfall:</strong> Assess potential shortages.</li>
-              <li><strong>Drought Trend Analysis:</strong> Analyze historical drought patterns.</li>
+              <li><strong>Vegetation Stress Indicators:</strong> Monitor signs of water stress in plants.</li>
+              <li><strong>Soil Moisture Deficit:</strong> Quantify lack of moisture in the soil.</li>
+              <li><strong>Water Supply Shortfall:</strong> Assess potential shortages in water supply.</li>
+              <li><strong>Drought Trend Analysis:</strong> Analyze historical drought patterns and trends.</li>
             </ul>
           </div>
         </div>
@@ -269,10 +260,10 @@
           <div class="card-body">
             <ul>
               <li><strong>Flood Inundation Mapping:</strong> Identify areas susceptible to flooding.</li>
-              <li><strong>Flood Risk Zones:</strong> Define high-risk flood zones.</li>
-              <li><strong>River Floodplain Analysis:</strong> Assess floodplain dynamics.</li>
-              <li><strong>Urban Flood Detection:</strong> Detect urban flooding via remote sensing.</li>
-              <li><strong>Post-Flood Assessment:</strong> Evaluate damage and plan recovery.</li>
+              <li><strong>Flood Risk Zones:</strong> Define high-risk flood zones for planning.</li>
+              <li><strong>River Floodplain Analysis:</strong> Assess floodplain dynamics and extents.</li>
+              <li><strong>Urban Flood Detection:</strong> Detect flooding in urban landscapes via remote sensing.</li>
+              <li><strong>Post-Flood Assessment:</strong> Evaluate damage and plan recovery measures.</li>
             </ul>
           </div>
         </div>
@@ -286,11 +277,11 @@
           </div>
           <div class="card-body">
             <ul>
-              <li><strong>Heatwaves:</strong> Monitor extreme temperature spikes.</li>
-              <li><strong>Storm Surges:</strong> Track coastal flooding from storms.</li>
+              <li><strong>Heatwaves:</strong> Monitor extreme temperature spikes and durations.</li>
+              <li><strong>Storm Surges:</strong> Track coastal flooding from intense storms.</li>
               <li><strong>Tornado Tracking:</strong> Identify and follow tornado paths.</li>
-              <li><strong>Landslide Monitoring:</strong> Detect sudden landslides.</li>
-              <li><strong>Severe Thunderstorms:</strong> Monitor lightning and hail activity.</li>
+              <li><strong>Landslide Monitoring:</strong> Detect sudden landslides and avalanches.</li>
+              <li><strong>Severe Thunderstorms:</strong> Monitor intense thunderstorm activity.</li>
             </ul>
           </div>
         </div>
@@ -304,11 +295,11 @@
           </div>
           <div class="card-body">
             <ul>
-              <li><strong>Synthetic Aperture Radar Imaging:</strong> Acquire high-res images in all weather.</li>
-              <li><strong>Soil Moisture Retrieval:</strong> Derive moisture levels using radar.</li>
+              <li><strong>Synthetic Aperture Radar Imaging:</strong> Acquire high-resolution images independent of weather.</li>
+              <li><strong>Soil Moisture Retrieval:</strong> Derive soil moisture levels using radar signals.</li>
               <li><strong>Surface Deformation Analysis:</strong> Monitor land subsidence and uplift.</li>
-              <li><strong>Vegetation Structure Mapping:</strong> Analyze canopy via radar backscatter.</li>
-              <li><strong>Flood Monitoring:</strong> Detect flood extents under cloud cover.</li>
+              <li><strong>Vegetation Structure Mapping:</strong> Analyze canopy structure via radar backscatter.</li>
+              <li><strong>Flood Monitoring:</strong> Detect flood extents using SAR even under cloud cover.</li>
             </ul>
           </div>
         </div>
@@ -322,11 +313,11 @@
           </div>
           <div class="card-body">
             <ul>
-              <li><strong>Land Degradation Mapping:</strong> Identify environmentally stressed regions.</li>
-              <li><strong>Desertification Tracking:</strong> Monitor aridification trends.</li>
-              <li><strong>Soil Erosion Rates:</strong> Measure soil loss over time.</li>
-              <li><strong>Deforestation Impacts:</strong> Assess effects on land quality.</li>
-              <li><strong>Ecosystem Recovery:</strong> Track recovery in degraded areas.</li>
+              <li><strong>Land Degradation Mapping:</strong> Identify regions experiencing environmental degradation.</li>
+              <li><strong>Desertification Tracking:</strong> Monitor the progression of desertification.</li>
+              <li><strong>Soil Erosion Rates:</strong> Measure rates of soil loss over time.</li>
+              <li><strong>Deforestation Impacts:</strong> Assess how deforestation affects land quality.</li>
+              <li><strong>Ecosystem Recovery:</strong> Track recovery progress in degraded areas.</li>
             </ul>
           </div>
         </div>
@@ -340,11 +331,11 @@
           </div>
           <div class="card-body">
             <ul>
-              <li><strong>Land Use & Land Cover Change:</strong> Analyze landscape composition over time.</li>
-              <li><strong>Urban Expansion:</strong> Monitor urban growth and sprawl.</li>
-              <li><strong>Agricultural Dynamics:</strong> Assess shifts in agricultural land.</li>
-              <li><strong>Forest Cover Change:</strong> Track deforestation and reforestation.</li>
-              <li><strong>Habitat Fragmentation:</strong> Evaluate impacts on biodiversity.</li>
+              <li><strong>Land Use & Land Cover Change:</strong> Analyze changes in landscape composition over time.</li>
+              <li><strong>Urban Expansion:</strong> Monitor growth and sprawl of urban areas.</li>
+              <li><strong>Agricultural Dynamics:</strong> Assess shifts in agricultural land and practices.</li>
+              <li><strong>Forest Cover Change:</strong> Track deforestation and reforestation trends.</li>
+              <li><strong>Habitat Fragmentation:</strong> Evaluate impacts of land conversion on ecosystems.</li>
             </ul>
           </div>
         </div>

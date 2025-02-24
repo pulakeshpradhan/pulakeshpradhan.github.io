@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geospatial Analysis Applications</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+    /* Navbar */
+    .navbar {
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-brand {
+      font-weight: 600;
+      color: #2575fc !important;
+    }
+    .nav-link {
+      color: #555 !important;
+      font-weight: 500;
+    }
+    .nav-link:hover {
+      color: #2575fc !important;
+    }
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+    .header p {
+      font-size: 1.25rem;
+      margin-top: 10px;
+    }
+    /* Box Style for Sections */
+    .box {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .box h2 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #333;
+    }
+    .box p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .box ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .box ul li {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    .box ul li a {
+      color: #4285f4;
+      text-decoration: none;
+    }
+    .box ul li a:hover {
+      text-decoration: underline;
+    }
+    /* Contact Form */
+    .contact-form label {
+      font-weight: 500;
+    }
+    /* Footer */
+    .footer {
+      background: #2575fc;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fa fa-map"></i> GeoApps</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#time-series">Time Series</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hydrology">Hydrology</a></li>
+          <li class="nav-item"><a class="nav-link" href="#susceptibility">Susceptibility</a></li>
+          <li class="nav-item"><a class="nav-link" href="#decision-methods">Decision Methods</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ensemble">Ensemble ML</a></li>
+          <li class="nav-item"><a class="nav-link" href="#eo-indices">EO Indices</a></li>
+          <li class="nav-item"><a class="nav-link" href="#earth-engine">Earth Engine</a></li>
+          <li class="nav-item"><a class="nav-link" href="#python">Python Paths</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1><i class="fa fa-map"></i> Geospatial Analysis Applications</h1>
+      <p>Empowering geospatial analysis with advanced models, machine learning, and interactive visualizations.</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-4">
+    <!-- Time Series Models Section -->
+    <section id="time-series" class="box">
+      <h2>Time Series Models 🕊</h2>
+      <p>Explore forecasting models used in geospatial data analysis to predict trends and detect anomalies.</p>
+      <ul>
+        <li><strong>AR, ARIMA, SARIMA:</strong> Classical methods for autoregressive time series analysis.</li>
+        <li><strong>Exponential Smoothing:</strong> Techniques to smooth data and reveal trends.</li>
+        <li><strong>XGBoost &amp; Prophet:</strong> Advanced machine learning and statistical models for forecasting.</li>
+        <li><strong>Deep Learning:</strong> LSTM, DeepAR, and N-BEATS capture complex temporal patterns.</li>
+        <li><strong>Temporal Fusion Transformer:</strong> Google’s cutting-edge model for time series.</li>
+      </ul>
+    </section>
+
+    <!-- Hydrology & Climate Section -->
+    <section id="hydrology" class="box">
+      <h2>Hydrology &amp; Climate 🕊</h2>
+      <p>Utilize modern geospatial tools to assess water resources, coastal dynamics, and climate change impacts.</p>
+      <ul>
+        <li>
+          <strong>ORCAA Tool:</strong> Monitor coastal and reef conditions with Google Earth Engine. 
+          <a href="https://kraaijenbrink.github.io/earthengine-workshop/introduction.html" target="_blank">Learn more</a>
+        </li>
+        <li><strong>Flood &amp; Rainfall Analysis:</strong> Leverage satellite data to track precipitation and flood risks.</li>
+        <li><strong>Climate Simulation:</strong> Use models to forecast weather and temperature trends.</li>
+      </ul>
+    </section>
+
+    <!-- Susceptibility Assessment Section -->
+    <section id="susceptibility" class="box">
+      <h2>Susceptibility Assessment 🕊</h2>
+      <p>Identify environmental vulnerabilities through advanced spatial analysis techniques.</p>
+      <ul>
+        <li><strong>Earthquake Susceptibility:</strong> Map areas prone to seismic activity.</li>
+        <li><strong>Wildfire Susceptibility:</strong> Analyze risk factors contributing to wildfires.</li>
+        <li><strong>Coastal Erosion:</strong> Monitor shoreline changes and degradation.</li>
+        <li><strong>Drought Susceptibility:</strong> Assess regions at risk from extended dry spells.</li>
+        <li><strong>Urban Heat Island Effect:</strong> Study temperature differences due to urbanization.</li>
+        <li><strong>Soil Erosion:</strong> Evaluate the vulnerability of agricultural lands.</li>
+        <li><strong>Land Use Change:</strong> Track transitions in land cover and their impacts.</li>
+      </ul>
+    </section>
+
+    <!-- Decision Methods Section -->
+    <section id="decision-methods" class="box">
+      <h2>Decision Methods 🕊</h2>
+      <p>Apply systematic approaches for strategic decision-making in environmental planning and risk management.</p>
+      <ul>
+        <li><strong>Decision Matrix &amp; Tree:</strong> Frameworks to simplify complex decisions.</li>
+        <li><strong>MCDA:</strong> Balance multiple criteria in decision-making.</li>
+        <li><strong>AHP:</strong> Prioritize factors through pairwise comparisons.</li>
+        <li><strong>Grid Analysis:</strong> Visual matrices to evaluate options.</li>
+        <li><strong>Nominal Group Technique:</strong> Facilitate consensus through structured group input.</li>
+        <li><strong>Vroom-Yetton-Jago:</strong> Optimize leadership decisions in various scenarios.</li>
+        <li><strong>Delphi Method:</strong> Gather expert insights iteratively for reliable forecasts.</li>
+      </ul>
+    </section>
+
+    <!-- Ensemble Machine Learning Section -->
+    <section id="ensemble" class="box">
+      <h2>Ensemble Machine Learning 🕊</h2>
+      <p>Enhance predictive performance by combining multiple machine learning models.</p>
+      <ul>
+        <li><strong>Bagging:</strong> Reduce variance through combined model outputs.</li>
+        <li><strong>Boosting:</strong> Improve model accuracy by focusing on previous errors.</li>
+        <li><strong>Stacking:</strong> Merge different algorithms to create a robust ensemble.</li>
+      </ul>
+    </section>
+
+    <!-- EO Indices Section -->
+    <section id="eo-indices" class="box">
+      <h2>EO Indices 🕊</h2>
+      <p>Use Earth Observation indices to monitor environmental conditions effectively.</p>
+      <ul>
+        <li><strong>NDVI:</strong> Measure vegetation health and coverage.</li>
+        <li><strong>NDBI:</strong> Assess urban expansion and built-up areas.</li>
+        <li><strong>MNDWI:</strong> Monitor water bodies and moisture levels.</li>
+      </ul>
+    </section>
+
+    <!-- Earth Engine Section -->
+    <section id="earth-engine" class="box">
+      <h2>Earth Engine 🕊</h2>
+      <p>Process and visualize geospatial data comprehensively with Google Earth Engine.</p>
+      <ul>
+        <li><strong>Interactive Maps:</strong> Real-time data visualization for dynamic analysis.</li>
+        <li><strong>Remote Sensing:</strong> Analyze satellite imagery for environmental insights.</li>
+        <li><strong>Data Integration:</strong> Fuse diverse datasets to generate holistic perspectives.</li>
+      </ul>
+    </section>
+
+    <!-- Python Learning Paths Section -->
+    <section id="python" class="box">
+      <h2>Python Learning Paths 🕊</h2>
+      <p>Master Python for geospatial analysis with guided learning paths from beginner to advanced levels.</p>
+      <ul>
+        <li><strong>Beginner to Advanced:</strong> Start with basics and progress to complex techniques.</li>
+        <li><strong>Data Libraries:</strong> Leverage Pandas, NumPy, and GeoPandas for data manipulation.</li>
+        <li><strong>Visualization:</strong> Utilize Matplotlib, Seaborn, and Plotly for interactive charts.</li>
+        <li><strong>Machine Learning:</strong> Implement Scikit-Learn, TensorFlow, and more for predictive analytics.</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="box">
+      <h2>Contact Us</h2>
+      <p>For inquiries, collaborations, or more information, please fill out the form below.</p>
+      <form class="contact-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email" />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message:</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Geospatial Analysis Applications. All Rights Reserved.</p>
+      <p>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
