@@ -446,7 +446,7 @@
                     <p>Used for statistical analysis, hypothesis testing, and regression models.</p>
                     <div class="tab-buttons">
                         <button onclick="showCode('stats1')" class="active">NumPy</button>
-                        <button onclick="showCode('stats2')">SciPy</button>
+                        <button onclick="showCode('stats2')">Pandas</button>
                     </div>
                     <pre class="code-snippet" id="stats1">import numpy as np
 data = np.array([1, 2, 3, 4, 5])
@@ -458,16 +458,18 @@ print(f"Matrix shape: {matrix.shape}")
 print(f"Matrix sum: {np.sum(matrix)}")
 print(f"Column sums: {np.sum(matrix, axis=0)}")
 print(f"Row sums: {np.sum(matrix, axis=1)}")</pre>
-                    <pre class="code-snippet" id="stats2" style="display:none;">from scipy import stats
-data = [1, 2, 3, 4, 5]
-print(stats.ttest_1samp(data, 3))
+                    <pre class="code-snippet" id="stats2" style="display:none;">import pandas as pd
+data = {'A': [1, 2, 3, 4, 5], 'B': [5, 4, 3, 2, 1]}
+df = pd.DataFrame(data)
+print(df.describe())
 
-# Descriptive statistics
-print(f"Mean: {stats.tmean(data)}")
-print(f"Median: {stats.median(data)}")
-print(f"Standard deviation: {stats.tstd(data)}")
-print(f"Skewness: {stats.skew(data)}")
-print(f"Kurtosis: {stats.kurtosis(data)}")</pre>
+# Data manipulation
+df['C'] = df['A'] + df['B']
+print(df)
+
+# Group by and aggregation
+grouped = df.groupby('A').sum()
+print(grouped)</pre>
                 </div>
             </div>
 
