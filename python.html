@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Guide for Data Science & Geospatial Analysis</title>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Color Theme */
+        :root {
+            --dark-bg: #1a1a2e;
+            --light-bg: #f4f7f9;
+            --card-bg: white;
+            --primary-color: #007bff;
+            --secondary-color: #17a2b8;
+            --text-color: #2c3e50;
+            --highlight: #28a745;
+        }
+
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background Styling */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: linear-gradient(135deg, #306998, #FFD43B); /* Python colors */
+            color: var(--text-color);
+            transition: all 0.3s ease;
+            min-height: 100vh;
+        }
+
+        /* Optional: Python Logo as Background */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg') no-repeat center center;
+            background-size: 20%;
+            opacity: 0.1; /* Subtle effect */
+            z-index: -1;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        header h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: white;
+            max-width: 800px;
+            margin: 0 auto;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Navigation */
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Dark Mode */
+        .dark-mode {
+            background: linear-gradient(135deg, #0a192f, #203a43);
+        }
+
+        .dark-mode .card {
+            background-color: #222;
+            color: white;
+        }
+
+        .dark-mode .code-snippet {
+            background-color: #333;
+            color: #f1f1f1;
+        }
+
+        .dark-mode .iframe-container {
+            border: 1px solid #444;
+        }
+
+        .dark-mode .iframe-section {
+            background-color: #222;
+        }
+
+        .toggle-btn {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 1rem;
+        }
+
+        .toggle-btn button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .toggle-btn button:hover {
+            background-color: #138496;
+            transform: translateY(-2px);
+        }
+
+        /* Grid Layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        /* Card Design */
+        .card {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            text-align: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .card i {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .card button {
+            background-color: var(--highlight);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .card button:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+        /* Collapsible Sections */
+        .content {
+            display: none;
+            margin-top: 1rem;
+            text-align: left;
+            flex-grow: 1;
+        }
+
+        .code-snippet {
+            background-color: #f1f1f1;
+            padding: 1rem;
+            border-radius: 5px;
+            font-family: 'Fira Code', monospace;
+            overflow-x: auto;
+            margin-top: 0.5rem;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 5px;
+            flex-wrap: wrap;
+        }
+
+        .tab-buttons button {
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .tab-buttons button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .tab-buttons button.active {
+            background-color: var(--secondary-color);
+        }
+
+        /* Python Graph Gallery iframe styles */
+        .iframe-section {
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .iframe-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-family: 'Merriweather', serif;
+            color: var(--primary-color);
+        }
+
+        .gallery-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .gallery-tabs button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .gallery-tabs button:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .gallery-tabs button.active {
+            background-color: var(--highlight);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-description {
+            text-align: center;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Additional Resources Section */
+        .resources {
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .resources h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-family: 'Merriweather', serif;
+            color: var(--primary-color);
+        }
+
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .resource-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .resource-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .resource-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .resource-card a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .resource-card a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            padding: 2rem 0;
+            color: white;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .iframe-container {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- <header>
+            <h1>Python Guide for Data Science & Geospatial Analysis</h1>
+            <p>Your comprehensive resource for Python libraries, tools, and techniques</p>
+        </header> -->
+
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#basics">Python Basics</a>
+                <a href="#data-science">Data Science</a>
+                <a href="#visualization">Visualization</a>
+                <a href="#geospatial">Geospatial</a>
+                <a href="#machine-learning">Machine Learning</a>
+            </div>
+            <div class="toggle-btn">
+                <button onclick="toggleDarkMode()"><i class="fas fa-moon"></i> Toggle Dark Mode</button>
+            </div>
+        </div>
+
+        <div id="basics" class="grid-container">
+            <!-- Python for Statistics -->
+            <div class="card">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Statistics</h3>
+                <button onclick="toggleContent('stats')">Learn More</button>
+                <div class="content" id="stats">
+                    <p><strong>Libraries:</strong> NumPy, Pandas, SciPy, Statsmodels</p>
+                    <p>Used for statistical analysis, hypothesis testing, and regression models.</p>
+                    <div class="tab-buttons">
+                        <button onclick="showCode('stats1')" class="active">NumPy</button>
+                        <button onclick="showCode('stats2')">SciPy</button>
+                    </div>
+                    <pre class="code-snippet" id="stats1">import numpy as np
+data = np.array([1, 2, 3, 4, 5])
+print(np.mean(data))
+
+# More advanced NumPy operations
+matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(f"Matrix shape: {matrix.shape}")
+print(f"Matrix sum: {np.sum(matrix)}")
+print(f"Column sums: {np.sum(matrix, axis=0)}")
+print(f"Row sums: {np.sum(matrix, axis=1)}")</pre>
+                    <pre class="code-snippet" id="stats2" style="display:none;">from scipy import stats
+data = [1, 2, 3, 4, 5]
+print(stats.ttest_1samp(data, 3))
+
+# Descriptive statistics
+print(f"Mean: {stats.tmean(data)}")
+print(f"Median: {stats.median(data)}")
+print(f"Standard deviation: {stats.tstd(data)}")
+print(f"Skewness: {stats.skew(data)}")
+print(f"Kurtosis: {stats.kurtosis(data)}")</pre>
+                </div>
+            </div>
+
+            <!-- Python for Data Visualization -->
+            <div class="card">
+                <i class="fas fa-chart-pie"></i>
+                <h3>Visualization</h3>
+                <button onclick="toggleContent('viz')">Learn More</button>
+                <div class="content" id="viz">
+                    <p><strong>Libraries:</strong> Matplotlib, Seaborn, Plotly</p>
+                    <p>Used for creating high-quality plots and charts.</p>
+                    <div class="tab-buttons">
+                        <button onclick="showCode('viz1')" class="active">Matplotlib</button>
+                        <button onclick="showCode('viz2')">Seaborn</button>
+                    </div>
+                    <pre class="code-snippet" id="viz1">import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate data
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Create plot
+plt.figure(figsize=(10, 6))
+plt.plot(x, y, 'b-', label='sin(x)')
+plt.title('Simple Line Plot')
+plt.xlabel('X axis')
+plt.ylabel('Y axis')
+plt.grid(True)
+plt.legend()
+plt.show()</pre>
+                    <pre class="code-snippet" id="viz2" style="display:none;">import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Load dataset
+tips = sns.load_dataset('tips')
+
+# Set style
+sns.set_theme(style="whitegrid")
+
+# Create scatter plot
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='total_bill', y='tip', 
+                hue='time', size='size',
+                data=tips)
+plt.title('Tips vs Total Bill by Time of Day')
+plt.show()</pre>
+                </div>
+            </div>
+
+            <!-- Python for Geospatial Analysis -->
+            <div class="card">
+                <i class="fas fa-globe"></i>
+                <h3>Geospatial</h3>
+                <button onclick="toggleContent('geo')">Learn More</button>
+                <div class="content" id="geo">
+                    <p><strong>Libraries:</strong> GeoPandas, Shapely, GDAL, Folium</p>
+                    <p>Used for spatial data analysis and mapping.</p>
+                    <pre class="code-snippet">import geopandas as gpd
+import matplotlib.pyplot as plt
+
+# Load world map dataset
+world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+
+# Plot map
+fig, ax = plt.subplots(figsize=(12, 8))
+world.plot(ax=ax, color='lightgrey', edgecolor='black')
+plt.title('World Map')
+plt.axis('off')
+plt.show()
+
+# Filter for specific countries
+europe = world[world.continent == 'Europe']
+europe.plot(figsize=(10, 6), color='skyblue', edgecolor='black')
+plt.title('Map of Europe')
+plt.axis('off')
+plt.show()</pre>
+                </div>
+            </div>
+
+            <!-- Python for ML & DL -->
+            <div class="card">
+                <i class="fas fa-robot"></i>
+                <h3>ML & DL</h3>
+                <button onclick="toggleContent('ml')">Learn More</button>
+                <div class="content" id="ml">
+                    <p><strong>Libraries:</strong> Scikit-Learn, PyTorch, TensorFlow, XGBoost</p>
+                    <p>Used for building machine learning and deep learning models.</p>
+                    <pre class="code-snippet">from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.datasets import load_iris
+
+# Load dataset
+iris = load_iris()
+X, y = iris.data, iris.target
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Create and train model
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+
+# Make predictions
+predictions = model.predict(X_test)
+print(f"Accuracy: {accuracy_score(y_test, predictions):.2f}")
+print("\nClassification Report:")
+print(classification_report(y_test, predictions, target_names=iris.target_names))</pre>
+                </div>
+            </div>
+        </div>
+
+  
+
+        <!-- Additional Resources Section -->
+        <div id="learning-resources" class="resources">
+            <h2>Python Books</h2>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h4>Geographic Data Analysis</h4>
+                    <p>Python programming and geographic data analysis for all “geo-minded” people (geographers, geologists and others using spatial data).</p>
+                    <a href="https://pythongis.org/" target="_blank">Read the Book <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+                <div class="resource-card">
+                    <h4>Geo-Python 2024</h4>
+                    <p>The Geo-Python course teaches you the basic concepts of programming and scientific data analysis.</p>
+                    <a href="https://geo-python-site.readthedocs.io/en/latest/index.html" target="_blank">Read the Book <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+                <div class="resource-card">
+                    <h4>Data Analytics & Geostatistics</h4>
+                    <p>Applied Geostatistics in Python: a Hands-on Guide with GeostatsPy.</p>
+                    <a href="https://geostatsguy.github.io/GeostatsPyDemos_Book/intro.html" target="_blank">Read the Book <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                 
+                <div class="resource-card">
+                    <h4>Machine Learning</h4>
+                    <p>Applied Machine Learning in Python: a Hands-on Guide with Code.</p>
+                    <a href="https://geostatsguy.github.io/MachineLearningDemos_Book/intro.html" target="_blank">Read the Book <i class="fas fa-external-link-alt"></i></a>
+                </div>               
+            </div>
+        </div>
+
+
+
+        <!-- Data Science Section -->
+        <div id="data-science" class="resources">
+            <h2>Data Science Resources</h2>
+            
+            <div class="resources-grid">
+            <div class="resource-card">
+                <h4>NumPy</h4>
+                <p>A comprehensive visual guide to understanding NumPy arrays, broadcasting, and operations.</p>
+                <a href="https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d" target="_blank">Read the Guide <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            
+            <div class="resource-card">
+                <h4>Pandas</h4>
+                <p>The definitive visual guide to Pandas for data manipulation and analysis.</p>
+                <a href="https://medium.com/better-programming/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43" target="_blank">Read the Guide <i class="fas fa-external-link-alt"></i></a>
+            </div>
+             
+            <div class="resource-card">
+                <h4>SciPy</h4>
+                <p>A Python library used for scientific and technical computing, providing modules for optimization, integration, interpolation, eigenvalue problems, and more.</p>
+                <a href="https://docs.scipy.org/doc/scipy/" target="_blank">SciPy Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>               
+            
+            <div class="resource-card">
+                <h4>Statsmodels</h4>
+                <p>A Python module that allows users to explore data, estimate statistical models, and perform statistical tests.</p>
+                <a href="https://www.statsmodels.org/stable/index.html" target="_blank">Statsmodels Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Visualization Section -->
+        <div id="visualization" class="resources">
+            <h2>Visualization Resources</h2>
+            
+            <div class="resources-grid">
+            <div class="resource-card">
+                <h4>Matplotlib</h4>
+                <p>The official Python documentation is comprehensive and well-maintained.</p>
+                <a href="https://matplotlib.org/stable/contents.html" target="_blank">Matplotlib Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            
+            <div class="resource-card">
+                <h4>Seaborn</h4>
+                <p>A Python visualization library based on matplotlib that provides a high-level interface for drawing attractive statistical graphics.</p>
+                <a href="https://seaborn.pydata.org/" target="_blank">Seaborn Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>
+             
+            <div class="resource-card">
+                <h4>Plotly</h4>
+                <p>An interactive graphing library for Python (includes Plotly Express) that is easy to use and produces beautiful plots.</p>
+                <a href="https://plotly.com/python/" target="_blank">Plotly Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>               
+            <div class="resource-card">
+                <h4>Python Graph Gallery</h4>
+                <p>A collection of charts made with Python, with reproducible code.</p>
+                <a href="https://python-graph-gallery.com/" target="_blank">Visit Gallery <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+        </div>
+
+
+
+        <!-- Geospatial Section -->
+        <div id="geospatial" class="resources">
+            <h2>Geospatial Resources</h2>
+            
+            <div class="resources-grid">
+            <div class="resource-card">
+                <h4>GeoPandas</h4>
+                <p>A Python library for working with geospatial data, extending the datatypes used by pandas.</p>
+                <a href="https://geopandas.org/" target="_blank">GeoPandas Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            
+            <div class="resource-card">
+                <h4>Shapely</h4>
+                <p>A Python package for manipulation and analysis of planar geometric objects.</p>
+                <a href="https://shapely.readthedocs.io/" target="_blank">Shapely Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>
+             
+            <div class="resource-card">
+                <h4>GDAL</h4>
+                <p>A translator library for raster and vector geospatial data formats.</p>
+                <a href="https://gdal.org/" target="_blank">GDAL Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>               
+
+            <div class="resource-card">
+                <h4>geemap</h4>
+                <p>A Python package for interactive mapping with Google Earth Engine.</p>
+                <a href="https://geemap.org/" target="_blank">geemap Docs <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+        </div>
+
+
+
+        <!-- Geospatial Section -->
+        <div id="machine-learning" class="resources">
+            <h2>Machine Learning Resources</h2>       
+        <div class="resources-grid">
+        <div class="resource-card">
+            <h4>Scikit-Learn</h4>
+            <p>A machine learning library for Python that provides simple and efficient tools for data mining and data analysis.</p>
+            <a href="https://scikit-learn.org/stable/" target="_blank">Scikit-Learn Docs <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        
+        <div class="resource-card">
+            <h4>TensorFlow</h4>
+            <p>An end-to-end open-source platform for machine learning.</p>
+            <a href="https://www.tensorflow.org/" target="_blank">TensorFlow Docs <i class="fas fa-external-link-alt"></i></a>
+        </div>
+         
+        <div class="resource-card">
+            <h4>PyTorch</h4>
+            <p>An open-source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.</p>
+            <a href="https://pytorch.org/" target="_blank">PyTorch Docs <i class="fas fa-external-link-alt"></i></a>
+        </div>               
+        <div class="resource-card">
+            <h4>XGBoost</h4>
+            <p>An optimized distributed gradient boosting library designed to be highly efficient, flexible, and portable.</p>
+            <a href="https://xgboost.readthedocs.io/" target="_blank">XGBoost Docs <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        </div>
+        </div>
+
+
+
+
+        <footer>
+             <p>&copy; 2025 Pulakesh Pradhan. All rights reserved.</p>
+            <div class="social-links">
+            <a href="https://github.com/pulakeshpradhan" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/pulakeshpradhan" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/in/pulakeshpradhan" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer></div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+            localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+        }
+
+        function showCode(id) {
+            // Hide all code snippets in the same parent
+            const codeSnippet = document.getElementById(id);
+            const parent = codeSnippet.parentElement;
+            parent.querySelectorAll('.code-snippet').forEach(el => el.style.display = 'none');
+            
+            // Show the selected code snippet
+            codeSnippet.style.display = 'block';
+            
+            // Update active button
+            const buttons = parent.querySelectorAll('.tab-buttons button');
+            buttons.forEach(button => button.classList.remove('active'));
+            
+            // Find and activate the clicked button
+            buttons.forEach(button => {
+                if (button.getAttribute('onclick').includes(id)) {
+                    button.classList.add('active');
+                }
+            });
+        }
+        
+        function changeGallerySection(section) {
+            // Update active tab
+            document.querySelectorAll('.gallery-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Change iframe source based on selected section
+            let iframe = document.getElementById('gallery-iframe');
+            switch(section) {
+                case 'main':
+                    iframe.src = 'https://python-graph-gallery.com/';
+                    break;
+                case 'matplotlib':
+                    iframe.src = 'https://python-graph-gallery.com/matplotlib/';
+                    break;
+                case 'numpy':
+                    iframe.src = 'https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d';
+                    break;
+                case 'pandas':
+                    iframe.src = 'https://medium.com/better-programming/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43';
+                    break;
+                case 'seaborn':
+                    iframe.src = 'https://python-graph-gallery.com/seaborn/';
+                    break;
+                case 'plotly':
+                    iframe.src = 'https://python-graph-gallery.com/plotly/';
+                    break;
+                default:
+                    iframe.src = 'https://python-graph-gallery.com/';
+            }
+        }
+
+        // Check for saved dark mode preference
+        document.addEventListener('DOMContentLoaded', function() {
+            if (localStorage.getItem('darkMode') === 'true') {
+                document.body.classList.add('dark-mode');
+            }
+        });
+    </script>
+
+</body>
+</html>
