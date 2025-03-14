@@ -4,714 +4,445 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Science Workflow</title>
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/atom-one-dark.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         /* Main Styles */
-:root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --text-color: #333;
-    --bg-color: #fff;
-    --card-bg: #f8f9fa;
-    --header-bg: #fff;
-    --footer-bg: #2c3e50;
-    --footer-text: #ecf0f1;
-    --code-bg: #f5f5f5;
-    --border-color: #e0e0e0;
-    --shadow-color: rgba(0, 0, 0, 0.1);
-    --hover-color: #f0f0f0;
-    --section-padding: 60px 0;
-    --transition: all 0.3s ease;
-}
-
-/* Dark Theme */
-body.dark-theme {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --text-color: #f0f0f0;
-    --bg-color: #1a1a1a;
-    --card-bg: #2d2d2d;
-    --header-bg: #222;
-    --footer-bg: #111;
-    --footer-text: #ecf0f1;
-    --code-bg: #2d2d2d;
-    --border-color: #444;
-    --shadow-color: rgba(0, 0, 0, 0.3);
-    --hover-color: #333;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: var(--text-color);
-    background-color: var(--bg-color);
-    transition: var(--transition);
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-/* Header Styles */
-header {
-    background-color: var(--header-bg);
-    box-shadow: 0 2px 10px var(--shadow-color);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    transition: var(--transition);
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-}
-
-.logo h1 {
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    margin: 0;
-}
-
-.logo p {
-    font-size: 0.9rem;
-    color: var(--secondary-color);
-    margin: 0;
-}
-
-.main-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-.main-nav ul li {
-    margin-left: 20px;
-}
-
-.main-nav ul li a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 500;
-    transition: var(--transition);
-    padding: 5px 10px;
-    border-radius: 4px;
-}
-
-.main-nav ul li a:hover {
-    color: var(--primary-color);
-    background-color: var(--hover-color);
-}
-
-.mobile-nav-toggle {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: var(--text-color);
-    cursor: pointer;
-}
-
-.mobile-nav {
-    display: none;
-    position: fixed;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background-color: var(--header-bg);
-    box-shadow: 0 5px 10px var(--shadow-color);
-    z-index: 999;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease;
-}
-
-.mobile-nav.active {
-    transform: translateY(0);
-    display: block;
-}
-
-.mobile-nav ul {
-    list-style: none;
-    padding: 20px;
-}
-
-.mobile-nav ul li {
-    margin-bottom: 15px;
-}
-
-.mobile-nav ul li a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 500;
-    display: block;
-    padding: 10px;
-    border-radius: 4px;
-    transition: var(--transition);
-}
-
-.mobile-nav ul li a:hover {
-    color: var(--primary-color);
-    background-color: var(--hover-color);
-}
-
-.theme-toggle {
-    background: none;
-    border: none;
-    font-size: 1.2rem;
-    color: var(--text-color);
-    cursor: pointer;
-    transition: var(--transition);
-}
-
-.theme-toggle:hover {
-    color: var(--primary-color);
-}
-
-/* Hero Section */
-.hero {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white;
-    padding: 80px 0;
-    text-align: center;
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-}
-
-.btn {
-    display: inline-block;
-    background-color: white;
-    color: var(--primary-color);
-    padding: 12px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: var(--transition);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* Main Content */
-.main-content {
-    padding: var(--section-padding);
-}
-
-/* Table of Contents */
-#toc {
-    background-color: var(--card-bg);
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 6px var(--shadow-color);
-}
-
-#toc h3 {
-    margin-bottom: 15px;
-    color: var(--primary-color);
-}
-
-#toc ul {
-    list-style-type: none;
-}
-
-#toc ul li {
-    margin-bottom: 10px;
-}
-
-#toc ul li a {
-    text-decoration: none;
-    color: var(--text-color);
-    transition: var(--transition);
-}
-
-#toc ul li a:hover {
-    color: var(--primary-color);
-}
-
-/* Content Sections */
-.content-section {
-    margin-bottom: 60px;
-    scroll-margin-top: 80px;
-}
-
-.section-header {
-    margin-bottom: 30px;
-    border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 10px;
-}
-
-.section-header h2 {
-    color: var(--primary-color);
-    font-size: 2rem;
-}
-
-.section-content {
-    background-color: var(--card-bg);
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 4px 6px var(--shadow-color);
-}
-
-.section-content h3 {
-    color: var(--secondary-color);
-    margin: 25px 0 15px;
-    font-size: 1.5rem;
-}
-
-.section-content h4 {
-    color: var(--text-color);
-    margin: 20px 0 10px;
-    font-size: 1.2rem;
-}
-
-.section-content p {
-    margin-bottom: 15px;
-}
-
-.section-content ul, .section-content ol {
-    margin-bottom: 15px;
-    padding-left: 20px;
-}
-
-.section-content li {
-    margin-bottom: 8px;
-}
-
-.section-content code {
-    background-color: var(--code-bg);
-    padding: 2px 5px;
-    border-radius: 3px;
-    font-family: 'Courier New', Courier, monospace;
-    color: var(--primary-color);
-}
-
-/* Code Blocks */
-.code-block {
-    position: relative;
-    margin: 20px 0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px var(--shadow-color);
-}
-
-.code-block pre {
-    margin: 0;
-    padding: 0;
-}
-
-.code-block code {
-    display: block;
-    padding: 15px;
-    overflow-x: auto;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 1.5;
-    background-color: var(--code-bg);
-    border-radius: 0;
-}
-
-.copy-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: var(--transition);
-    opacity: 0.7;
-}
-
-.copy-btn:hover {
-    opacity: 1;
-}
-
-/* Image Container */
-.image-container {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px var(--shadow-color);
-}
-
-.caption {
-    margin-top: 10px;
-    font-style: italic;
-    color: var(--text-color);
-    opacity: 0.8;
-}
-
-/* Section Summary */
-.section-summary {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: rgba(46, 204, 113, 0.1);
-    border-left: 4px solid var(--secondary-color);
-    border-radius: 4px;
-}
-
-.section-summary h3 {
-    color: var(--secondary-color);
-    margin-top: 0;
-}
-
-/* Footer */
-footer {
-    background-color: var(--footer-bg);
-    color: var(--footer-text);
-    padding: 50px 0 20px;
-}
-
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-.footer-logo, .footer-links, .footer-resources {
-    margin-bottom: 20px;
-}
-
-.footer-logo h3 {
-    color: var(--primary-color);
-    margin-bottom: 10px;
-}
-
-.footer-links h4, .footer-resources h4 {
-    color: var(--secondary-color);
-    margin-bottom: 15px;
-}
-
-.footer-links ul, .footer-resources ul {
-    list-style: none;
-}
-
-.footer-links ul li, .footer-resources ul li {
-    margin-bottom: 10px;
-}
-
-.footer-links ul li a, .footer-resources ul li a {
-    color: var(--footer-text);
-    text-decoration: none;
-    transition: var(--transition);
-}
-
-.footer-links ul li a:hover, .footer-resources ul li a:hover {
-    color: var(--primary-color);
-}
-
-.copyright {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Back to Top Button */
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: var(--primary-color);
-    color: white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transition: var(--transition);
-    border: none;
-    box-shadow: 0 4px 6px var(--shadow-color);
-}
-
-.back-to-top.show {
-    opacity: 1;
-    visibility: visible;
-}
-
-.back-to-top:hover {
-    background-color: var(--secondary-color);
-}
-
-/* Search Bar */
-.search-container {
-    position: relative;
-    margin-left: 20px;
-}
-
-.search-input {
-    padding: 8px 15px;
-    border: 1px solid var(--border-color);
-    border-radius: 20px;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    width: 200px;
-    transition: var(--transition);
-}
-
-.search-input:focus {
-    outline: none;
-    border-color: var(--primary-color);
-    width: 250px;
-}
-
-.search-results {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    box-shadow: 0 4px 6px var(--shadow-color);
-    z-index: 1000;
-    display: none;
-}
-
-.search-result-item {
-    padding: 10px;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.search-result-item:last-child {
-    border-bottom: none;
-}
-
-.search-result-item a {
-    text-decoration: none;
-    color: var(--text-color);
-    display: block;
-    transition: var(--transition);
-}
-
-.search-result-item a:hover {
-    color: var(--primary-color);
-}
-
-/* Responsive Styles */
-@media (max-width: 992px) {
-    .main-nav {
-        display: none;
-    }
-    
-    .mobile-nav-toggle {
-        display: block;
-    }
-    
-    .footer-content {
-        flex-direction: column;
-    }
-    
-    .footer-logo, .footer-links, .footer-resources {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero h2 {
-        font-size: 2rem;
-    }
-    
-    .hero p {
-        font-size: 1rem;
-    }
-    
-    .section-header h2 {
-        font-size: 1.8rem;
-    }
-    
-    .section-content {
-        padding: 20px;
-    }
-    
-    .section-content h3 {
-        font-size: 1.3rem;
-    }
-    
-    .section-content h4 {
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .container {
-        width: 95%;
-        padding: 0 10px;
-    }
-    
-    .logo h1 {
-        font-size: 1.5rem;
-    }
-    
-    .logo p {
-        font-size: 0.8rem;
-    }
-    
-    .hero {
-        padding: 50px 0;
-    }
-    
-    .hero h2 {
-        font-size: 1.8rem;
-    }
-    
-    .section-content {
-        padding: 15px;
-    }
-    
-    .code-block code {
-        padding: 10px;
-        font-size: 0.9rem;
-    }
-    
-    .search-input {
-        width: 150px;
-    }
-    
-    .search-input:focus {
-        width: 180px;
-    }
-}
-
-
+        :root {
+            --primary-color: #2563eb;
+            --primary-dark: #1e40af;
+            --secondary-color: #10b981;
+            --accent-color: #f97316;
+            --text-color: #1e293b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --header-bg: #ffffff;
+            --footer-bg: #1e293b;
+            --footer-text: #f1f5f9;
+            --code-bg: #1e293b;
+            --border-color: #e2e8f0;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            --hover-color: #f1f5f9;
+            --section-padding: 60px 0;
+            --transition: all 0.3s ease;
+            --success: #22c55e;
+        }
+
+        /* Dark Theme */
+        body.dark-theme {
+            --bg-color: #0f172a;
+            --text-color: #f1f5f9;
+            --card-bg: #1e293b;
+            --header-bg: #1e293b;
+            --code-bg: #0f172a;
+            --border-color: #334155;
+            --hover-color: #334155;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            transition: var(--transition);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: var(--header-bg);
+            box-shadow: 0 4px 12px var(--shadow-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: var(--transition);
+            padding: 8px 12px;
+            border-radius: 8px;
+        }
+
+        .theme-toggle:hover {
+            color: var(--primary-color);
+            background-color: var(--hover-color);
+        }
+
+        /* Tab Navigation */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            border-bottom: 1px solid var(--border-color);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            gap: 4px;
+            padding-bottom: 2px;
+        }
+
+        .tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab-button {
+            padding: 12px 20px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-bottom: 3px solid transparent;
+            color: var(--text-color);
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            white-space: nowrap;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .tab-button:hover {
+            color: var(--primary-color);
+            background-color: var(--hover-color);
+        }
+
+        .tab-button.active {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--primary-color);
+            background-color: var(--hover-color);
+        }
+
+        /* Tab Content */
+        .tab-content {
+            display: none;
+            padding: 30px 0;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Content Styles */
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: var(--primary-color);
+            text-align: center;
+            font-weight: 700;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        .subsection-title {
+            font-size: 1.5rem;
+            margin: 30px 0 15px;
+            color: var(--secondary-color);
+            font-weight: 600;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 12px;
+        }
+
+        .content-card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px var(--shadow-color);
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: var(--transition);
+            border: 1px solid var(--border-color);
+        }
+
+        .content-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px var(--shadow-color);
+        }
+
+        /* Code Blocks */
+        pre {
+            background-color: var(--code-bg);
+            border-radius: 8px;
+            padding: 20px;
+            overflow-x: auto;
+            margin: 15px 0;
+            position: relative;
+            border: 1px solid var(--border-color);
+        }
+
+        code {
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .code-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            opacity: 0;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .copy-btn i {
+            font-size: 0.8rem;
+        }
+
+        pre:hover .copy-btn {
+            opacity: 1;
+        }
+
+        .copy-btn:hover {
+            background-color: var(--primary-dark);
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--success);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            display: none;
+            animation: slideIn 0.3s ease;
+            z-index: 1001;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Note blocks */
+        .note {
+            background: #fff7ed;
+            border-left: 4px solid var(--accent-color);
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .tabs {
+                justify-content: flex-start;
+            }
+            
+            .tab-button {
+                padding: 10px 15px;
+                font-size: 0.85rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .subsection-title {
+                font-size: 1.3rem;
+            }
+
+            .content-card {
+                padding: 20px;
+            }
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--primary-color);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            opacity: 0;
+            transition: var(--transition);
+            z-index: 999;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+        }
+
+        .back-to-top:hover {
+            background: var(--primary-dark);
+            transform: translateY(-3px);
+        }
+
+        /* Line numbers for code */
+        .line-numbers {
+            counter-reset: line;
+            padding-left: 3em;
+            position: relative;
+        }
+
+        .line-numbers > code {
+            position: relative;
+        }
+
+        .line-numbers > code::before {
+            counter-increment: line;
+            content: counter(line);
+            position: absolute;
+            left: -3em;
+            width: 2.5em;
+            text-align: right;
+            color: #6b7280;
+            border-right: 1px solid #4b5563;
+            padding-right: 0.5em;
+            user-select: none;
+        }
     </style>
-
-
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo">
-                <h1>Data Science Workflow</h1>
-                <p>From Earth Engine to Machine Learning</p>
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Data Science Workflow</h1>
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
             </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#earth-engine">Earth Engine</a></li>
-                    <li><a href="#data-gathering">Data Gathering</a></li>
-                    <li><a href="#exploratory-analysis">Exploratory Analysis</a></li>
-                    <li><a href="#feature-engineering">Feature Engineering</a></li>
-                    <li><a href="#machine-learning">Machine Learning</a></li>
-                </ul>
-            </nav>
-            <div class="mobile-nav-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <div class="theme-toggle">
-                <i class="fas fa-moon"></i>
+            <div class="tabs">
+                <button class="tab-button active" data-tab="tab1">Google Earth Engine</button>
+                <button class="tab-button" data-tab="tab6">GEE to Pandas</button>
+                <button class="tab-button" data-tab="tab2">Data Gathering & CSV</button>
+                <button class="tab-button" data-tab="tab3">Exploratory Data Analysis</button>
+                <button class="tab-button" data-tab="tab4">Feature Engineering</button>
+                <button class="tab-button" data-tab="tab5">Machine Learning</button>
             </div>
         </div>
     </header>
 
-    <div class="mobile-nav">
-        <ul>
-            <li><a href="#earth-engine">Earth Engine</a></li>
-            <li><a href="#data-gathering">Data Gathering</a></li>
-            <li><a href="#exploratory-analysis">Exploratory Analysis</a></li>
-            <li><a href="#feature-engineering">Feature Engineering</a></li>
-            <li><a href="#machine-learning">Machine Learning</a></li>
-        </ul>
-    </div>
-
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h2>Comprehensive Data Science Workflow</h2>
-                <p>A complete guide to processing satellite imagery, gathering data, performing exploratory analysis, engineering features, and implementing machine learning models.</p>
-                <a href="#earth-engine" class="btn">Get Started</a>
-            </div>
-        </div>
-    </section>
-
-    <main class="main-content">
-        <div class="container">
-            <div id="toc">
-                <h3>Table of Contents</h3>
-                <ul>
-                    <li><a href="#earth-engine">1. Processing and Downloading Images from Google Earth Engine</a></li>
-                    <li><a href="#data-gathering">2. Data Gathering and CSV File Handling</a></li>
-                    <li><a href="#exploratory-analysis">3. Exploratory Data Analysis</a></li>
-                    <li><a href="#feature-engineering">4. Feature Engineering</a></li>
-                    <li><a href="#machine-learning">5. Machine Learning Implementation</a></li>
-                </ul>
-            </div>
-
-            <section id="earth-engine" class="content-section">
-                <div class="section-header">
-                    <h2>1. Processing and Downloading Images from Google Earth Engine</h2>
-                </div>
-                <div class="section-content">
-                    <p>Google Earth Engine (GEE) is a cloud-based platform that allows users to perform geospatial analysis on Google's infrastructure. Combined with <code>geemap</code>, a Python package for interactive mapping with Earth Engine, it becomes a powerful tool for processing and downloading satellite imagery.</p>
-                    
-                    <div class="image-container">
-                        <img src="https://earthengine.google.com/static/images/earth-engine-logo.png" alt="Google Earth Engine Logo">
-                        <p class="caption">Google Earth Engine Platform</p>
+    <main class="container">
+        <!-- Tab 1: Google Earth Engine -->
+        <div class="tab-content active" id="tab1">
+            <h2 class="section-title">Processing and Downloading Images from Google Earth Engine</h2>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Setting Up the Environment</h3>
+                <p>To work with Google Earth Engine, you'll need to install the necessary Python packages and authenticate with your Google account.</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Environment Setup</span>
                     </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Install required packages
+!pip install earthengine-api
+!pip install geemap
+!pip install folium
 
-                    <h3>1.1 Setting Up the Environment</h3>
-                    <p>Before we begin, we need to install and set up the necessary packages:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Install required packages if not already installed
-# !pip install geemap earthengine-api
-
-# Import necessary libraries
+# Import libraries
 import ee
 import geemap
+import folium
 import os
-import numpy as np
 import matplotlib.pyplot as plt
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code1">
-                            <i class="fas fa-copy"></i>
-                        </button>
+import numpy as np
+from datetime import datetime
+                    </code>
+                </pre>
+                
+                <p>These packages provide the foundation for interacting with Earth Engine's API and visualizing geospatial data.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Authenticating with Google Earth Engine</h3>
+                <p>Before using Earth Engine, you need to authenticate your account:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Authentication</span>
                     </div>
-
-                    <h3>1.2 Authenticating with Google Earth Engine</h3>
-                    <p>To use Google Earth Engine, you need to authenticate your account:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
 # Initialize Earth Engine
 try:
     ee.Initialize()
@@ -720,2040 +451,1347 @@ except Exception as e:
     ee.Authenticate()
     ee.Initialize()
     print("Earth Engine initialized")
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code2">
-                            <i class="fas fa-copy"></i>
-                        </button>
+                    </code>
+                </pre>
+                
+                <p>This authentication process will open a browser window where you'll need to sign in with your Google account that has Earth Engine access.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Creating an Interactive Map</h3>
+                <p>Use geemap to create interactive maps for visualizing Earth Engine data:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Interactive Map</span>
                     </div>
-
-                    <h3>1.3 Creating an Interactive Map</h3>
-                    <p>The <code>geemap</code> package makes it easy to create interactive maps for visualizing Earth Engine data:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://i.imgur.com/9OOSpDm.png" alt="Geemap Interactive Map">
-                        <p class="caption">Interactive Map with Geemap</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Create a map centered on a specific location
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Create an interactive map
 Map = geemap.Map()
 
-# Add different basemaps
-Map.add_basemap('HYBRID')  # Adds Google Hybrid basemap
-
-# Center the map on a specific location (e.g., India)
-Map.center_object(ee.Geometry.Point([78.9629, 20.5937]), 4)
+# Set center and zoom level
+Map.setCenter(-122.085, 37.422, 10)  # Longitude, Latitude, Zoom level
 
 # Display the map
 Map
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code3">
-                            <i class="fas fa-copy"></i>
-                        </button>
+                    </code>
+                </pre>
+                
+                <p>This creates an interactive map centered on the specified coordinates with the given zoom level.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Working with Earth Engine Data Catalogs</h3>
+                <p>Access satellite imagery from various sources like Landsat, Sentinel, and MODIS:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Data Catalogs</span>
                     </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Load Landsat 8 Surface Reflectance collection
+landsat = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
 
-                    <h3>1.4 Working with Earth Engine Data Catalogs</h3>
-                    <p>Google Earth Engine provides access to a vast catalog of satellite imagery and geospatial datasets:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Import USGS Landsat 9 Level 2, Collection 2, Tier 1 image collection
-landsat9_collection = ee.ImageCollection('LANDSAT/LC09/C02/T1_L2')
+# Filter by date and location
+point = ee.Geometry.Point([-122.085, 37.422])
+filtered = landsat.filterBounds(point) \
+                  .filterDate('2020-01-01', '2020-12-31') \
+                  .sort('CLOUD_COVER') \
+                  .first()
 
-# Print information about the collection
-print(f"Dataset description: {landsat9_collection.get('description').getInfo()}")
-print(f"Dataset size: {landsat9_collection.size().getInfo()} images")
-
-# Define a region of interest (ROI)
-roi = ee.Geometry.Rectangle([77.0, 28.0, 78.0, 29.0])  # Delhi, India region
-
-# Add the ROI to the map
-Map.addLayer(roi, {'color': 'red'}, 'Region of Interest')
-
-# Filter the Landsat 9 collection by:
-# 1. Spatial bounds (our ROI)
-# 2. Date range (2022)
-# 3. Cloud cover (less than 10%)
-filtered_collection = landsat9_collection.filterBounds(roi) \
-                                        .filterDate('2022-01-01', '2022-12-31') \
-                                        .filter(ee.Filter.lt('CLOUD_COVER', 10))
-
-# Get the first image from the filtered collection
-landsat_image = filtered_collection.first()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code4">
-                            <i class="fas fa-copy"></i>
-                        </button>
+# Print metadata
+print(filtered.getInfo())
+                    </code>
+                </pre>
+                
+                <p>This code retrieves Landsat 8 imagery for a specific location and time period, sorting by cloud cover to get the clearest image.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Downloading Images from Earth Engine</h3>
+                <p>Export Earth Engine images to your local machine:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Download Images</span>
                     </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Define region of interest
+roi = ee.Geometry.Rectangle([-122.5, 37.2, -121.8, 37.8])
 
-                    <h3>1.5 Visualizing Satellite Imagery</h3>
-                    <p>Now that we have our filtered image, let's visualize it on our map:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://developers.google.com/earth-engine/images/Landsat_RGB_composite.png" alt="Landsat RGB Composite">
-                        <p class="caption">Landsat RGB Composite Visualization</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Define visualization parameters for true color (RGB) composite
-vis_params_rgb = {
-    'bands': ['SR_B4', 'SR_B3', 'SR_B2'],  # Red, Green, Blue bands
-    'min': 7000,
-    'max': 30000
-}
+# Prepare the image for export (example with NDVI calculation)
+ndvi = filtered.normalizedDifference(['SR_B5', 'SR_B4']).rename('NDVI')
+image_to_export = ndvi.clip(roi)
 
-# Add the RGB composite to the map
-Map.addLayer(landsat_image, vis_params_rgb, 'Landsat 9 RGB')
-
-# Define visualization parameters for false color composite (Near Infrared)
-vis_params_false = {
-    'bands': ['SR_B5', 'SR_B4', 'SR_B3'],  # NIR, Red, Green bands
-    'min': 7000,
-    'max': 30000
-}
-
-# Add the false color composite to the map
-Map.addLayer(landsat_image, vis_params_false, 'Landsat 9 False Color')
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code5">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>1.6 Image Processing in Earth Engine</h3>
-                    <p>Earth Engine provides a wide range of functions for processing satellite imagery:</p>
-                    
-                    <h4>1.6.1 Computing Spectral Indices</h4>
-                    
-                    <div class="image-container">
-                        <img src="https://earthobservatory.nasa.gov/ContentFeature/MeasuringVegetation/images/ndvi_example.jpg" alt="NDVI Visualization">
-                        <p class="caption">NDVI (Normalized Difference Vegetation Index) Visualization</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Function to calculate NDVI from Landsat 9 imagery
-def calculate_ndvi(image):
-    # For Landsat 9, NIR is B5 and Red is B4
-    ndvi = image.normalizedDifference(['SR_B5', 'SR_B4']).rename('NDVI')
-    return image.addBands(ndvi)
-
-# Apply the function to our image
-landsat_with_ndvi = calculate_ndvi(landsat_image)
-
-# Visualization parameters for NDVI
-ndvi_vis = {
-    'bands': ['NDVI'],
-    'min': -0.2,
-    'max': 0.8,
-    'palette': ['blue', 'white', 'green']
-}
-
-# Add NDVI layer to the map
-Map.addLayer(landsat_with_ndvi.select('NDVI'), ndvi_vis, 'NDVI')
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code6">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h4>1.6.2 Cloud Masking</h4>
-                    <p>Clouds can significantly affect the quality of satellite imagery. Let's implement a cloud masking function:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Function to mask clouds in Landsat 9 imagery
-def mask_clouds_landsat9(image):
-    # Get the QA band
-    qa = image.select('QA_PIXEL')
-    
-    # Bits 3 and 4 are cloud shadow and cloud, respectively
-    cloud_shadow_bit = 3
-    cloud_bit = 4
-    
-    # Create masks for cloud and cloud shadow
-    cloud_shadow_mask = qa.bitwiseAnd(1 << cloud_shadow_bit).eq(0)
-    cloud_mask = qa.bitwiseAnd(1 << cloud_bit).eq(0)
-    
-    # Combine the masks
-    mask = cloud_shadow_mask.And(cloud_mask)
-    
-    # Apply the mask to the image
-    return image.updateMask(mask)
-
-# Apply cloud masking to our image
-masked_landsat = mask_clouds_landsat9(landsat_image)
-
-# Add the cloud-masked RGB image to the map
-Map.addLayer(masked_landsat, vis_params_rgb, 'Cloud-masked Landsat 9')
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code7">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>1.7 Downloading Images from Earth Engine</h3>
-                    <p>Now that we've processed our imagery, let's explore different methods to download it:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Define export parameters
-export_params = {
-    'image': masked_landsat.select(['SR_B4', 'SR_B3', 'SR_B2']),
-    'description': 'landsat9_rgb_export',
-    'folder': 'earth_engine_exports',
-    'fileNamePrefix': 'landsat9_delhi_2022',
-    'scale': 30,  # 30 meters per pixel (Landsat resolution)
+# Get download URL
+url = image_to_export.getDownloadURL({
+    'scale': 30,  # 30 meters per pixel
     'region': roi,
-    'maxPixels': 1e9
-}
-
-# Initialize an export task
-task = ee.batch.Export.image.toDrive(**export_params)
-
-# Start the export task
-task.start()
-
-# You can monitor the task status
-print("Export task started. Check your Google Drive for the downloaded image.")
-print("Task status:", task.status())
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code8">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>1.8 Working with Downloaded Images</h3>
-                    <p>After downloading the images, we can use libraries like <code>rasterio</code> to work with them locally:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Import rasterio for working with geospatial raster data
-import rasterio
-from rasterio.plot import show
-
-# Read the downloaded image
-def read_geotiff(file_path):
-    """
-    Read a GeoTIFF file and return the data and metadata
-    
-    Args:
-        file_path: Path to the GeoTIFF file
-        
-    Returns:
-        data: The raster data as a numpy array
-        meta: The metadata
-    """
-    with rasterio.open(file_path) as src:
-        data = src.read()
-        meta = src.meta
-    return data, meta
-
-# Example usage (after downloading)
-# file_path = './landsat_tiles/landsat9_delhi_tiles.tif'
-# data, meta = read_geotiff(file_path)
-
-# Display the image
-# plt.figure(figsize=(12, 8))
-# show(data, transform=meta['transform'])
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code9">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <div class="section-summary">
-                        <h3>Summary</h3>
-                        <p>In this section, we've covered the essential workflows for processing and downloading satellite imagery from Google Earth Engine using the <code>geemap</code> package:</p>
-                        <ul>
-                            <li>Setting up the environment and authenticating with Earth Engine</li>
-                            <li>Creating interactive maps for visualization</li>
-                            <li>Accessing and filtering Earth Engine data catalogs</li>
-                            <li>Visualizing satellite imagery with different band combinations</li>
-                            <li>Processing images with operations like spectral indices and cloud masking</li>
-                            <li>Downloading processed images for local analysis</li>
-                            <li>Working with downloaded images using Python libraries</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section id="data-gathering" class="content-section">
-                <div class="section-header">
-                    <h2>2. Data Gathering and CSV File Handling</h2>
-                </div>
-                <div class="section-content">
-                    <p>Data gathering is a critical first step in any data science workflow. This section covers various methods for collecting data, with a particular focus on reading and manipulating CSV files.</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*Owa2rsDG6Rwv1IM_DhbIUA.png" alt="Data Gathering Process">
-                        <p class="caption">Data Gathering Process</p>
-                    </div>
-
-                    <h3>2.1 Introduction to Data Sources</h3>
-                    <p>Data can come from various sources, including:</p>
-                    <ul>
-                        <li>CSV files (Comma-Separated Values)</li>
-                        <li>Excel spreadsheets</li>
-                        <li>Databases (SQL, NoSQL)</li>
-                        <li>APIs (Application Programming Interfaces)</li>
-                        <li>Web scraping</li>
-                        <li>Sensor data</li>
-                        <li>Generated data from simulations</li>
-                    </ul>
-
-                    <h3>2.2 Reading CSV Files with Pandas</h3>
-                    <p>Pandas is the most popular Python library for data manipulation and analysis:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Import the pandas library
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# Read a CSV file into a pandas DataFrame
-df = pd.read_csv('data.csv')
-
-# Display the first few rows of the DataFrame
-print("First 5 rows of the dataset:")
-print(df.head())
-
-# Get a quick overview of the DataFrame
-print("\nDataFrame information:")
-print(df.info())
-
-# Get statistical summary of numerical columns
-print("\nStatistical summary:")
-print(df.describe())
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code10">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>2.3 Advanced CSV Reading Techniques</h3>
-                    <p>Let's explore some more advanced techniques for reading CSV files:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Read a CSV file with custom parameters
-df = pd.read_csv('data.csv',
-                 sep=',',           # Delimiter (comma is default)
-                 header=0,          # Row to use as column names (0-indexed)
-                 index_col=None,    # Column to use as index
-                 usecols=['col1', 'col2', 'col3'],  # Only read specific columns
-                 skiprows=2,        # Skip the first 2 rows
-                 nrows=100,         # Only read 100 rows
-                 na_values=['NA', 'Missing'],  # Values to treat as NaN
-                 encoding='utf-8')  # File encoding
-
-print(df.head())
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code11">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>2.4 Reading Large CSV Files</h3>
-                    <p>Large CSV files can cause memory issues. Here are some techniques to handle them:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*_7OPgojau8hkiPUiHoGK_w.png" alt="Chunking Large Files">
-                        <p class="caption">Processing Large Files in Chunks</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Read a large CSV file in chunks
-chunk_size = 10000  # Number of rows per chunk
-chunks = []
-
-# Iterate through the file in chunks
-for chunk in pd.read_csv('large_data.csv', chunksize=chunk_size):
-    # Process each chunk
-    processed_chunk = chunk  # Replace with your processing logic
-    chunks.append(processed_chunk)
-
-# Combine all chunks into a single DataFrame
-df = pd.concat(chunks, ignore_index=True)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code12">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>2.5 Writing Data to CSV Files</h3>
-                    <p>After processing your data, you might want to save it back to a CSV file:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Write DataFrame to a CSV file
-df.to_csv('processed_data.csv', index=False)
-
-# Customize CSV export
-df.to_csv('processed_data.csv',
-          index=False,           # Don't include row indices
-          columns=['col1', 'col2'],  # Only export specific columns
-          sep=',',               # Delimiter
-          na_rep='NA',           # String representation of NaN values
-          float_format='%.2f',   # Format for float values (2 decimal places)
-          date_format='%Y-%m-%d',  # Format for date values
-          encoding='utf-8')      # File encoding
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code13">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>2.6 Working with Multiple CSV Files</h3>
-                    <p>In real-world scenarios, you might need to work with multiple CSV files:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# List of CSV files to combine
-file_list = ['data1.csv', 'data2.csv', 'data3.csv']
-
-# Read and combine all files
-dfs = []
-for file in file_list:
-    df = pd.read_csv(file)
-    dfs.append(df)
-
-# Concatenate all DataFrames
-combined_df = pd.concat(dfs, ignore_index=True)
-
-# Check the combined DataFrame
-print(f"Combined DataFrame shape: {combined_df.shape}")
-print(combined_df.head())
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code14">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>2.7 Data Cleaning and Preprocessing</h3>
-                    <p>After reading your CSV files, you'll typically need to clean and preprocess the data:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*-uMJ_Eh9I6JZzKfUbKZ-Jg.png" alt="Data Cleaning Process">
-                        <p class="caption">Data Cleaning Process</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Check for duplicate rows
-print(f"Number of duplicate rows: {df.duplicated().sum()}")
-
-# Remove duplicate rows
-df_no_duplicates = df.drop_duplicates()
-
-# Check for missing values
-print(df.isnull().sum())
-
-# Drop rows with missing values
-df_no_missing = df.dropna()
-
-# Or fill missing values
-df_filled = df.fillna({
-    'numeric_column': df['numeric_column'].mean(),
-    'categorical_column': df['categorical_column'].mode()[0]
+    'format': 'GeoTIFF'
 })
 
-# Convert column data types
-df['numeric_column'] = pd.to_numeric(df['numeric_column'], errors='coerce')
-df['date_column'] = pd.to_datetime(df['date_column'], errors='coerce')
-df['categorical_column'] = df['categorical_column'].astype('category')
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code15">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>2.8 Working with Excel Files</h3>
-                    <p>While CSV files are common, Excel files are also frequently used:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Install openpyxl if needed
-# !pip install openpyxl
-
-# Read an Excel file
-df_excel = pd.read_excel('data.xlsx', sheet_name='Sheet1')
-
-# Read specific sheets
-df_sheet1 = pd.read_excel('data.xlsx', sheet_name='Sheet1')
-df_sheet2 = pd.read_excel('data.xlsx', sheet_name='Sheet2')
-
-# Read all sheets into a dictionary of DataFrames
-all_sheets = pd.read_excel('data.xlsx', sheet_name=None)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code16">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>2.9 Working with SQL Databases</h3>
-                    <p>For data stored in databases, pandas provides convenient functions:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Install SQLAlchemy if needed
-# !pip install sqlalchemy
-
-import sqlalchemy
-
-# Create a database connection
-engine = sqlalchemy.create_engine('sqlite:///database.db')
-
-# Read data from a SQL query
-df_sql = pd.read_sql_query('SELECT * FROM table_name', engine)
-
-# Read an entire table
-df_table = pd.read_sql_table('table_name', engine)
-
-# Write DataFrame to a SQL table
-df.to_sql('new_table', engine, if_exists='replace', index=False)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code17">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>2.10 Working with APIs</h3>
-                    <p>Many data sources are accessible through APIs:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*9kQ_GizSxCZB7NuZXQV_mQ.png" alt="API Data Flow">
-                        <p class="caption">API Data Flow</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Install requests if needed
-# !pip install requests
-
+# Download the image
 import requests
-import json
+response = requests.get(url)
+with open('landsat_ndvi.tif', 'wb') as f:
+    f.write(response.content)
+print("Image downloaded successfully")
+                    </code>
+                </pre>
+                
+                <p>This code calculates NDVI (Normalized Difference Vegetation Index) from Landsat bands and downloads the result as a GeoTIFF file.</p>
+            </div>
+        </div>
 
-# Make an API request
-response = requests.get('https://api.example.com/data')
-
-# Convert JSON response to a DataFrame
-data = response.json()
-df_api = pd.DataFrame(data)
-
-# For paginated APIs
-all_data = []
-page = 1
-while True:
-    response = requests.get(f'https://api.example.com/data?page={page}')
-    if response.status_code != 200 or not response.json():
-        break
-    all_data.extend(response.json())
-    page += 1
-
-df_api_all = pd.DataFrame(all_data)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code18">
-                            <i class="fas fa-copy"></i>
-                        </button>
+        <!-- Tab 6: GEE to Pandas (New Tab) -->
+        <div class="tab-content" id="tab6">
+            <h2 class="section-title">Converting Google Earth Engine Data to Pandas</h2>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Authenticate Google Earth Engine</h3>
+                <p>Before working with Earth Engine data, you need to authenticate and initialize your session:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>GEE Authentication</span>
                     </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import required libraries 
+import ee
+import geemap
+import pandas as pd
+import matplotlib.pyplot as plt
 
-                    <div class="section-summary">
-                        <h3>Summary</h3>
-                        <p>In this section, we've covered various techniques for gathering and handling data, with a focus on CSV files:</p>
-                        <ul>
-                            <li>Reading CSV files with pandas, including basic and advanced techniques</li>
-                            <li>Customizing CSV import with various parameters</li>
-                            <li>Handling different separators, data types, dates, and missing values</li>
-                            <li>Techniques for reading large CSV files</li>
-                            <li>Writing data to CSV files</li>
-                            <li>Working with multiple CSV files</li>
-                            <li>Basic data cleaning and preprocessing</li>
-                            <li>Working with Excel files, SQL databases, and APIs</li>
-                        </ul>
-                    </div>
+# Authenticate and initialize Earth Engine
+ee.Authenticate()
+ee.Initialize(project="geepulakesh")
+
+# Create an interactive map
+Map = geemap.Map()
+Map
+                    </code>
+                </pre>
+                
+                <div class="note">
+                    <strong>Note:</strong> Replace <code>"geepulakesh"</code> with your actual GEE project ID. Run this step once per session.
                 </div>
-            </section>
-
-            <section id="exploratory-analysis" class="content-section">
-                <div class="section-header">
-                    <h2>3. Exploratory Data Analysis</h2>
-                </div>
-                <div class="section-content">
-                    <p>Exploratory Data Analysis (EDA) is a critical step in the data science workflow that involves analyzing and visualizing data to understand its main characteristics, identify patterns, spot anomalies, test hypotheses, and check assumptions.</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*Oa5MTxRc4Zl7kiK2h7vuEQ.png" alt="Exploratory Data Analysis Process">
-                        <p class="caption">Exploratory Data Analysis Process</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Converting ImageCollections to DataFrame</h3>
+                <p>Extract time-series data from Earth Engine ImageCollections into pandas DataFrames:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>ImageCollection to DataFrame</span>
                     </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Define the forest FeatureCollection
+forest = ee.FeatureCollection("projects/google/charts_feature_example").filter(
+    ee.Filter.eq("label", "Forest")
+)
 
-                    <h3>3.1 Introduction to Exploratory Data Analysis</h3>
-                    <p>EDA helps you understand your data before applying complex algorithms. Let's start by importing the necessary libraries:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Import libraries for data analysis and visualization
+# Load the MODIS vegetation indices dataset
+veg_indices = (
+    ee.ImageCollection("MODIS/061/MOD13A1")
+    .filter(ee.Filter.date("2000-01-01", "2020-01-01"))
+    .select(["NDVI", "EVI"])
+)
+
+# Extract dates from the ImageCollection
+date_property = veg_indices.aggregate_array("system:time_start")
+dates = pd.to_datetime(date_property.getInfo(), unit="ms")
+
+# Function to reduce an image by regions
+def reduce_image(image):
+    return image.reduceRegions(
+        collection=forest,
+        reducer=ee.Reducer.mean(),
+        scale=500
+    ).select(["NDVI", "EVI", "system:time_start"])
+
+# Map the function over the ImageCollection
+reduced = veg_indices.map(reduce_image).flatten()
+
+# Convert the results to a list of dictionaries
+data = reduced.getInfo()
+features = data['features']
+
+# Convert the features list to a DataFrame
+df = pd.DataFrame([f['properties'] for f in features])
+
+# Add the extracted dates as a new column
+df['Date'] = pd.to_datetime(dates)
+
+# Display the resulting DataFrame
+df
+
+# Export the dataframe to a CSV file
+# df.to_csv('imagecollection_df.csv', index=False)
+                    </code>
+                </pre>
+                
+                <p>This code extracts vegetation indices (NDVI and EVI) from MODIS satellite imagery for forest areas and converts them to a pandas DataFrame with proper date formatting.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Converting Images to DataFrame</h3>
+                <p>Extract spatial data from Earth Engine Images into pandas DataFrames:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Image to DataFrame</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Load ecoregions FeatureCollection
+ecoregions = ee.FeatureCollection("projects/google/charts_feature_example")
+
+# Load the PRISM dataset and select temperature-related bands
+image = ee.ImageCollection("OREGONSTATE/PRISM/Norm91m").toBands().select("[0-9][0-9]_tmean")
+
+# Reduce the image by regions to calculate mean temperature for each region
+reduced = image.reduceRegions(
+    collection=ecoregions,
+    reducer=ee.Reducer.mean(),
+    scale=500
+)
+
+# Extract the results as a dictionary
+data = reduced.getInfo()
+
+# Convert the dictionary to a Pandas DataFrame
+df = pd.DataFrame([f['properties'] for f in data['features']])
+
+# Display the DataFrame
+df
+
+# Export the dataframe to a CSV file
+# df.to_csv('image_df.csv', index=False)
+                    </code>
+                </pre>
+                
+                <p>This code extracts mean temperature data from the PRISM climate dataset for different ecoregions and converts it to a pandas DataFrame for further analysis.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Converting FeatureCollections to DataFrame</h3>
+                <p>Convert Earth Engine FeatureCollections directly to pandas DataFrames:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>FeatureCollection to DataFrame</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Define the ecoregions FeatureCollection
+ecoregions = ee.FeatureCollection("projects/google/charts_feature_example")
+
+# Select temperature-related properties
+features = ecoregions.select("[0-9][0-9]_tmean|label")
+
+# Convert the FeatureCollection to a DataFrame
+df = geemap.ee_to_df(features)
+
+# Display the DataFrame
+df
+
+# Export the dataframe to a CSV file
+# df.to_csv('exported_df.csv', index=False)
+                    </code>
+                </pre>
+                
+                <p>This code uses geemap's <code>ee_to_df</code> function to directly convert an Earth Engine FeatureCollection to a pandas DataFrame, which is a more concise approach for simple conversions.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Working with Converted DataFrames</h3>
+                <p>Analyze and visualize the converted Earth Engine data using pandas and matplotlib:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Analyzing Converted Data</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Assuming we have the DataFrame from the ImageCollection conversion
+# Let's analyze and visualize the NDVI and EVI time series
+
+# Basic statistics
+print("NDVI Statistics:")
+print(df['NDVI'].describe())
+print("\nEVI Statistics:")
+print(df['EVI'].describe())
+
+# Time series plot
+plt.figure(figsize=(12, 6))
+plt.plot(df['Date'], df['NDVI'], 'g-', label='NDVI')
+plt.plot(df['Date'], df['EVI'], 'b-', label='EVI')
+plt.title('Vegetation Indices Over Time')
+plt.xlabel('Date')
+plt.ylabel('Index Value')
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+# Monthly averages
+df['Month'] = df['Date'].dt.month
+monthly_avg = df.groupby('Month')[['NDVI', 'EVI']].mean()
+
+plt.figure(figsize=(10, 6))
+monthly_avg.plot(kind='bar')
+plt.title('Monthly Average Vegetation Indices')
+plt.xlabel('Month')
+plt.ylabel('Index Value')
+plt.xticks(range(12), ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
+plt.tight_layout()
+plt.show()
+
+# Correlation analysis
+correlation = df[['NDVI', 'EVI']].corr()
+print("\nCorrelation between NDVI and EVI:")
+print(correlation)
+                    </code>
+                </pre>
+                
+                <p>This code demonstrates how to analyze and visualize the Earth Engine data after converting it to a pandas DataFrame, including time series plotting, monthly averages, and correlation analysis.</p>
+            </div>
+        </div>
+
+        <!-- Tab 2: Data Gathering & CSV -->
+        <div class="tab-content" id="tab2">
+            <h2 class="section-title">Data Gathering and CSV File Handling</h2>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Reading CSV Files with Pandas</h3>
+                <p>Pandas is the go-to library for reading and manipulating CSV data in Python:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Basic CSV Reading</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import pandas
+import pandas as pd
+
+# Read a CSV file
+df = pd.read_csv('data.csv')
+
+# Display first few rows
+print(df.head())
+
+# Get basic information about the dataframe
+print(df.info())
+
+# Get statistical summary
+print(df.describe())
+                    </code>
+                </pre>
+                
+                <p>This code reads a CSV file into a pandas DataFrame and provides basic information about its contents.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Advanced CSV Reading Techniques</h3>
+                <p>Customize how pandas reads CSV files to handle various formats:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Advanced CSV Reading</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Read CSV with custom options
+df = pd.read_csv('complex_data.csv',
+                 sep=';',  # Use semicolon as separator
+                 decimal=',',  # Use comma as decimal point
+                 encoding='latin1',  # Specify encoding
+                 na_values=['NA', 'N/A', 'Missing'],  # Custom NA values
+                 skiprows=2,  # Skip first 2 rows
+                 nrows=1000,  # Read only 1000 rows
+                 parse_dates=['Date'],  # Parse date columns
+                 index_col='ID')  # Set index column
+
+print(df.head())
+                    </code>
+                </pre>
+                
+                <p>This example shows how to handle CSV files with non-standard formats, such as different separators, decimal markers, and custom NA values.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Reading Large CSV Files</h3>
+                <p>Efficiently process large CSV files that don't fit in memory:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Large CSV Processing</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Read large CSV in chunks
+chunk_size = 100000
+chunks = []
+
+# Process the file in chunks
+for chunk in pd.read_csv('large_data.csv', chunksize=chunk_size):
+    # Process each chunk (e.g., filter rows)
+    processed = chunk[chunk['value'] > 100]
+    chunks.append(processed)
+    
+# Combine processed chunks
+result = pd.concat(chunks)
+print(f"Processed {len(result)} rows")
+
+# Alternative: use dask for out-of-memory processing
+import dask.dataframe as dd
+ddf = dd.read_csv('large_data.csv')
+result = ddf[ddf['value'] > 100].compute()
+                    </code>
+                </pre>
+                
+                <p>This code demonstrates two approaches for handling large CSV files: using pandas' chunking functionality and using dask for out-of-memory processing.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Writing Data to CSV Files</h3>
+                <p>Save processed data back to CSV format:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>CSV Export</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Basic CSV export
+df.to_csv('output.csv', index=False)
+
+# Advanced CSV export
+df.to_csv('formatted_output.csv',
+          sep=';',  # Use semicolon as separator
+          decimal=',',  # Use comma as decimal point
+          encoding='utf-8',  # Specify encoding
+          date_format='%Y-%m-%d',  # Format dates
+          float_format='%.2f',  # Format floats to 2 decimal places
+          index=False,  # Don't write row indices
+          columns=['ID', 'Name', 'Value'])  # Select columns to write
+                    </code>
+                </pre>
+                
+                <p>These examples show how to write DataFrames to CSV files with various formatting options.</p>
+            </div>
+        </div>
+
+        <!-- Tab 3: Exploratory Data Analysis -->
+        <div class="tab-content" id="tab3">
+            <h2 class="section-title">Exploratory Data Analysis</h2>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Data Overview and Cleaning</h3>
+                <p>Start your EDA by examining and cleaning your dataset:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Data Cleaning</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy import stats
 
-# Set visualization styles
-plt.style.use('seaborn-whitegrid')
-sns.set_palette('viridis')
-plt.rcParams['figure.figsize'] = (12, 8)
-plt.rcParams['font.size'] = 12
-
-# For displaying all columns in pandas DataFrames
-pd.set_option('display.max_columns', None)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code19">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>3.2 Understanding Dataset Structure</h3>
-                    <p>The first step in EDA is to understand the basic structure of your dataset:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Load the dataset
+# Load data
 df = pd.read_csv('dataset.csv')
 
-# Check the dimensions of the dataset
-print(f"Dataset dimensions: {df.shape} (rows, columns)")
-
-# Display the first few rows
-print("\nFirst 5 rows:")
-print(df.head())
-
-# Display the last few rows
-print("\nLast 5 rows:")
-print(df.tail())
-
-# Get column names
-print("\nColumn names:")
-print(df.columns.tolist())
-
-# Get data types of each column
-print("\nData types:")
-print(df.dtypes)
-
-# Get a concise summary of the DataFrame
-print("\nDataFrame info:")
-df.info()
+# Check data shape
+print(f"Dataset shape: {df.shape}")
 
 # Check for missing values
-print("\nMissing values per column:")
-print(df.isnull().sum())
-print(f"Total missing values: {df.isnull().sum().sum()}")
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code20">
-                            <i class="fas fa-copy"></i>
-                        </button>
+missing = df.isnull().sum()
+print(f"Missing values per column:\n{missing}")
+
+# Handle missing values
+df_cleaned = df.copy()
+# Fill numeric columns with median
+numeric_cols = df.select_dtypes(include=['number']).columns
+df_cleaned[numeric_cols] = df_cleaned[numeric_cols].fillna(df_cleaned[numeric_cols].median())
+# Fill categorical columns with mode
+cat_cols = df.select_dtypes(include=['object']).columns
+for col in cat_cols:
+    df_cleaned[col] = df_cleaned[col].fillna(df_cleaned[col].mode()[0])
+
+# Check for duplicates
+duplicates = df_cleaned.duplicated().sum()
+print(f"Number of duplicate rows: {duplicates}")
+# Remove duplicates
+df_cleaned = df_cleaned.drop_duplicates()
+                    </code>
+                </pre>
+                
+                <p>This code provides a comprehensive approach to initial data examination and cleaning, handling missing values and duplicates.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Statistical Analysis</h3>
+                <p>Perform statistical analysis to understand your data distribution:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Statistical Analysis</span>
                     </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Basic statistics
+print(df_cleaned.describe(include='all').T)
 
-                    <h3>3.3 Univariate Analysis</h3>
-                    <p>Univariate analysis examines variables (features) one by one:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*2c21SkzJMf3frPXPAR_gZA.png" alt="Univariate Analysis">
-                        <p class="caption">Univariate Analysis Examples</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Select numerical columns
-numerical_cols = df.select_dtypes(include=['int64', 'float64']).columns
+# Correlation analysis
+numeric_df = df_cleaned.select_dtypes(include=['number'])
+correlation = numeric_df.corr()
 
-# Create histograms for numerical variables
-plt.figure(figsize=(15, 10))
-for i, column in enumerate(numerical_cols[:6], 1):  # Limit to 6 columns for readability
-    plt.subplot(2, 3, i)
-    sns.histplot(df[column], kde=True)
-    plt.title(f'Distribution of {column}')
-    plt.tight_layout()
-plt.show()
-
-# Create box plots for numerical variables
-plt.figure(figsize=(15, 10))
-for i, column in enumerate(numerical_cols[:6], 1):
-    plt.subplot(2, 3, i)
-    sns.boxplot(y=df[column])
-    plt.title(f'Box Plot of {column}')
-    plt.tight_layout()
-plt.show()
-
-# Select categorical columns
-categorical_cols = df.select_dtypes(include=['object', 'category']).columns
-
-# Create bar plots for categorical variables
-plt.figure(figsize=(15, 10))
-for i, column in enumerate(categorical_cols[:6], 1):  # Limit to 6 columns for readability
-    plt.subplot(2, 3, i)
-    sns.countplot(y=df[column], order=df[column].value_counts().index[:10])  # Top 10 categories
-    plt.title(f'Count of {column}')
-    plt.tight_layout()
-plt.show()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code21">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>3.4 Bivariate Analysis</h3>
-                    <p>Bivariate analysis examines the relationship between pairs of variables:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*9DXrXPrAFrXgGrYNEP0clQ.png" alt="Bivariate Analysis">
-                        <p class="caption">Bivariate Analysis Examples</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Create a correlation matrix
-correlation_matrix = df[numerical_cols].corr()
-
-# Plot the correlation matrix as a heatmap
+# Plot correlation heatmap
 plt.figure(figsize=(12, 10))
-sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+sns.heatmap(correlation, annot=True, cmap='coolwarm', linewidths=0.5)
 plt.title('Correlation Matrix')
 plt.tight_layout()
 plt.show()
 
-# Create scatter plots for pairs of numerical variables
-# Select a few important numerical columns for demonstration
-selected_num_cols = numerical_cols[:4]  # First 4 numerical columns
-
-plt.figure(figsize=(15, 10))
-for i, col1 in enumerate(selected_num_cols):
-    for j, col2 in enumerate(selected_num_cols):
-        if i < j:  # To avoid duplicate plots
-            plt.subplot(2, 3, i*3+j)
-            sns.scatterplot(x=df[col1], y=df[col2])
-            plt.title(f'{col1} vs {col2}')
-            plt.tight_layout()
-plt.show()
-
-# Create a pairplot for a more comprehensive view
-sns.pairplot(df[selected_num_cols])
-plt.suptitle('Pairplot of Numerical Variables', y=1.02)
-plt.show()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code22">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>3.5 Multivariate Analysis</h3>
-                    <p>Multivariate analysis examines relationships between three or more variables simultaneously:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Install and import necessary libraries if needed
-# !pip install scikit-learn
-
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
-
-# Select numerical columns for PCA
-pca_cols = numerical_cols.copy()
-
-# Standardize the data
-scaler = StandardScaler()
-scaled_data = scaler.fit_transform(df[pca_cols])
-
-# Apply PCA
-pca = PCA(n_components=2)
-pca_result = pca.fit_transform(scaled_data)
-
-# Create a DataFrame with PCA results
-pca_df = pd.DataFrame(data=pca_result, columns=['PC1', 'PC2'])
-
-# Add a categorical column for coloring (if available)
-if len(categorical_cols) > 0:
-    pca_df['Category'] = df[categorical_cols[0]].values
-
-# Plot PCA results
-plt.figure(figsize=(10, 8))
-if 'Category' in pca_df.columns:
-    sns.scatterplot(x='PC1', y='PC2', hue='Category', data=pca_df)
-else:
-    sns.scatterplot(x='PC1', y='PC2', data=pca_df)
-plt.title('PCA: Dimensionality Reduction to 2D')
-plt.xlabel(f'PC1 ({pca.explained_variance_ratio_[0]:.2%} variance explained)')
-plt.ylabel(f'PC2 ({pca.explained_variance_ratio_[1]:.2%} variance explained)')
-plt.tight_layout()
-plt.show()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code23">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>3.6 Time Series Analysis</h3>
-                    <p>If your data includes time-based features, time series analysis can reveal temporal patterns:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*5nQ3UOuS_m5ZOz0UYxRt_Q.png" alt="Time Series Analysis">
-                        <p class="caption">Time Series Analysis Example</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Check if there's a date/time column
-date_cols = df.select_dtypes(include=['datetime64']).columns
-
-if len(date_cols) > 0:
-    date_col = date_cols[0]
-    
-    # Set the date column as index
-    time_df = df.copy()
-    time_df[date_col] = pd.to_datetime(time_df[date_col])
-    time_df.set_index(date_col, inplace=True)
-    
-    # Resample data by month and plot
-    plt.figure(figsize=(15, 8))
-    for i, col in enumerate(selected_num_cols[:2]):
-        plt.subplot(2, 1, i+1)
-        time_df[col].resample('M').mean().plot()
-        plt.title(f'Monthly Average of {col}')
-        plt.tight_layout()
-    plt.show()
-    
-    # Create a seasonal decomposition plot
-    from statsmodels.tsa.seasonal import seasonal_decompose
-    
-    # Select a numerical column for decomposition
-    if len(numerical_cols) > 0:
-        # Ensure the data is regularly spaced
-        regular_series = time_df[numerical_cols[0]].resample('D').mean().interpolate()
-        
-        # Perform seasonal decomposition
-        decomposition = seasonal_decompose(regular_series, model='additive', period=30)
-        
-        # Plot the decomposition
-        plt.figure(figsize=(12, 10))
-        plt.subplot(411)
-        plt.plot(decomposition.observed)
-        plt.title('Observed')
-        plt.subplot(412)
-        plt.plot(decomposition.trend)
-        plt.title('Trend')
-        plt.subplot(413)
-        plt.plot(decomposition.seasonal)
-        plt.title('Seasonal')
-        plt.subplot(414)
-        plt.plot(decomposition.resid)
-        plt.title('Residual')
-        plt.tight_layout()
-        plt.show()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code24">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>3.7 Outlier Detection</h3>
-                    <p>Identifying outliers is an important part of EDA as they can significantly impact model performance:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Z-score method for outlier detection
-def detect_outliers_zscore(df, column, threshold=3):
-    z_scores = np.abs(stats.zscore(df[column].dropna()))
-    outlier_indices = np.where(z_scores > threshold)[0]
-    return outlier_indices
-
-# IQR method for outlier detection
-def detect_outliers_iqr(df, column):
+# Check for outliers using IQR method
+def detect_outliers(df, column):
     Q1 = df[column].quantile(0.25)
     Q3 = df[column].quantile(0.75)
     IQR = Q3 - Q1
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
-    outlier_indices = df[(df[column] < lower_bound) | (df[column] > upper_bound)].index
-    return outlier_indices
+    outliers = df[(df[column] < lower_bound) | (df[column] > upper_bound)]
+    return outliers
 
-# Detect and visualize outliers for numerical columns
+# Check outliers for a numeric column
+for col in numeric_cols:
+    outliers = detect_outliers(df_cleaned, col)
+    print(f"Column {col} has {len(outliers)} outliers")
+                    </code>
+                </pre>
+                
+                <p>This code performs statistical analysis including correlation analysis and outlier detection using the IQR method.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Data Visualization</h3>
+                <p>Create visualizations to better understand your data:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Data Visualization</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Set plotting style
+sns.set(style="whitegrid")
+
+# Distribution plots
 plt.figure(figsize=(15, 10))
-for i, column in enumerate(selected_num_cols, 1):
-    plt.subplot(len(selected_num_cols), 1, i)
-    
-    # Create a box plot
-    sns.boxplot(x=df[column])
-    plt.title(f'Box Plot of {column} with Outliers')
-    
-    # Detect outliers using IQR method
-    outlier_indices = detect_outliers_iqr(df, column)
-    outliers = df.loc[outlier_indices, column]
-    
-    # Overlay outliers on the box plot
-    plt.scatter(outliers, np.zeros_like(outliers), color='red', s=30, label=f'Outliers: {len(outliers)}')
-    plt.legend()
-    
-    plt.tight_layout()
+for i, col in enumerate(numeric_cols[:4]):  # First 4 numeric columns
+    plt.subplot(2, 2, i+1)
+    sns.histplot(df_cleaned[col], kde=True)
+    plt.title(f'Distribution of {col}')
+plt.tight_layout()
 plt.show()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code25">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
 
-                    <div class="section-summary">
-                        <h3>Summary</h3>
-                        <p>In this section, we've covered comprehensive techniques for exploratory data analysis:</p>
-                        <ul>
-                            <li>Understanding dataset structure and basic statistics</li>
-                            <li>Univariate analysis for examining individual variables</li>
-                            <li>Bivariate analysis for exploring relationships between pairs of variables</li>
-                            <li>Multivariate analysis for understanding complex relationships</li>
-                            <li>Time series analysis for temporal data</li>
-                            <li>Outlier detection methods</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+# Categorical data visualization
+plt.figure(figsize=(12, 8))
+for i, col in enumerate(cat_cols[:2]):  # First 2 categorical columns
+    plt.subplot(1, 2, i+1)
+    counts = df_cleaned[col].value_counts()
+    sns.barplot(x=counts.index, y=counts.values)
+    plt.title(f'Count of {col}')
+    plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
 
-            <section id="feature-engineering" class="content-section">
-                <div class="section-header">
-                    <h2>4. Feature Engineering</h2>
-                </div>
-                <div class="section-content">
-                    <p>Feature engineering is the process of transforming raw data into features that better represent the underlying problem to predictive models, resulting in improved model accuracy.</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*_7F-Q5oXN8FVE3Ptw5kYaw.png" alt="Feature Engineering Process">
-                        <p class="caption">Feature Engineering Process</p>
-                    </div>
+# Scatter plot matrix
+if len(numeric_cols) >= 4:
+    sns.pairplot(df_cleaned[numeric_cols[:4]], height=2.5)
+    plt.suptitle('Scatter Plot Matrix', y=1.02)
+    plt.show()
 
-                    <h3>4.1 Introduction to Feature Engineering</h3>
-                    <p>Feature engineering is a crucial step in the machine learning pipeline that can significantly impact model performance. Let's start by importing the necessary libraries:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Import libraries for feature engineering
+# Box plots for detecting outliers
+plt.figure(figsize=(15, 10))
+for i, col in enumerate(numeric_cols[:4]):
+    plt.subplot(2, 2, i+1)
+    sns.boxplot(y=df_cleaned[col])
+    plt.title(f'Box Plot of {col}')
+plt.tight_layout()
+plt.show()
+                    </code>
+                </pre>
+                
+                <p>This comprehensive visualization code creates distribution plots, categorical bar plots, scatter plot matrices, and box plots to help understand data patterns and identify outliers.</p>
+            </div>
+        </div>
+
+        <!-- Tab 4: Feature Engineering -->
+        <div class="tab-content" id="tab4">
+            <h2 class="section-title">Feature Engineering</h2>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Handling Categorical Variables</h3>
+                <p>Transform categorical variables into numerical representations:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Categorical Encoding</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
-from sklearn.preprocessing import OneHotEncoder, LabelEncoder, OrdinalEncoder
-from sklearn.impute import SimpleImputer, KNNImputer
-from sklearn.feature_selection import SelectKBest, f_classif, mutual_info_classif
-from sklearn.decomposition import PCA
-from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from category_encoders import TargetEncoder
 
-# Set visualization styles
-plt.style.use('seaborn-whitegrid')
-sns.set_palette('viridis')
-plt.rcParams['figure.figsize'] = (12, 8)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code26">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
+# Sample data
+df = pd.read_csv('data.csv')
+cat_cols = df.select_dtypes(include=['object']).columns
 
-                    <h3>4.2 Handling Missing Values</h3>
-                    <p>Before applying feature transformations, it's important to handle missing values appropriately:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Load the dataset
-df = pd.read_csv('dataset.csv')
-
-# Check for missing values
-missing_values = df.isnull().sum()
-missing_percentage = (df.isnull().sum() / len(df)) * 100
-
-# Create a DataFrame to display missing values information
-missing_info = pd.DataFrame({
-    'Missing Values': missing_values,
-    'Percentage': missing_percentage
-})
-
-# Display columns with missing values
-print("Columns with missing values:")
-print(missing_info[missing_info['Missing Values'] > 0])
-
-# Simple imputation strategies
-def impute_missing_values(df):
-    # Create a copy of the DataFrame
-    imputed_df = df.copy()
-    
-    # Identify numerical and categorical columns
-    numerical_cols = df.select_dtypes(include=['int64', 'float64']).columns
-    categorical_cols = df.select_dtypes(include=['object', 'category']).columns
-    
-    # Impute numerical columns with mean
-    for col in numerical_cols:
-        if df[col].isnull().sum() > 0:
-            mean_value = df[col].mean()
-            imputed_df[col].fillna(mean_value, inplace=True)
-            print(f"Imputed {col} with mean: {mean_value:.2f}")
-    
-    # Impute categorical columns with mode
-    for col in categorical_cols:
-        if df[col].isnull().sum() > 0:
-            mode_value = df[col].mode()[0]
-            imputed_df[col].fillna(mode_value, inplace=True)
-            print(f"Imputed {col} with mode: {mode_value}")
-    
-    return imputed_df
-
-# Apply simple imputation
-imputed_df = impute_missing_values(df)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code27">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>4.3 Scaling and Normalization</h3>
-                    <p>Many machine learning algorithms perform better when features are on a similar scale:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*_YOc41UKh5HL0Dy9QMUVuA.png" alt="Feature Scaling">
-                        <p class="caption">Feature Scaling Methods</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Select numerical columns for standardization
-numerical_cols = imputed_df.select_dtypes(include=['int64', 'float64']).columns
-
-# Create a StandardScaler object
-scaler = StandardScaler()
-
-# Fit and transform the numerical columns
-standardized_data = pd.DataFrame(
-    scaler.fit_transform(imputed_df[numerical_cols]),
-    columns=numerical_cols
-)
-
-# Compare original and standardized data
-print("Original data statistics:")
-print(imputed_df[numerical_cols].describe().loc[['mean', 'std']].round(2))
-
-print("\nStandardized data statistics:")
-print(standardized_data.describe().loc[['mean', 'std']].round(2))
-
-# Create a MinMaxScaler object
-min_max_scaler = MinMaxScaler()
-
-# Fit and transform the numerical columns
-normalized_data = pd.DataFrame(
-    min_max_scaler.fit_transform(imputed_df[numerical_cols]),
-    columns=numerical_cols
-)
-
-# Compare original and normalized data
-print("Original data range:")
-print(imputed_df[numerical_cols].describe().loc[['min', 'max']].round(2))
-
-print("\nNormalized data range:")
-print(normalized_data.describe().loc[['min', 'max']].round(2))
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code28">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>4.4 Encoding Categorical Variables</h3>
-                    <p>Machine learning algorithms typically require numerical input, so categorical variables need to be encoded:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*MbZ_v6-_pUbAw_2hDPmYnQ.png" alt="Categorical Encoding">
-                        <p class="caption">Categorical Variable Encoding Methods</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Select categorical columns
-categorical_cols = imputed_df.select_dtypes(include=['object', 'category']).columns
-
-# Create a OneHotEncoder object
-one_hot_encoder = OneHotEncoder(sparse=False, drop='first')  # drop='first' to avoid multicollinearity
-
-# Fit and transform the categorical columns
-encoded_data = one_hot_encoder.fit_transform(imputed_df[categorical_cols])
-
-# Get the feature names after encoding
-encoded_feature_names = one_hot_encoder.get_feature_names_out(categorical_cols)
-
-# Create a DataFrame with the encoded data
-one_hot_encoded_df = pd.DataFrame(
-    encoded_data,
-    columns=encoded_feature_names
-)
-
-# Display the first few rows of the encoded data
-print("One-hot encoded data (first 5 rows):")
-print(one_hot_encoded_df.head())
-
-# Create a LabelEncoder object
+# Method 1: Label Encoding
 label_encoder = LabelEncoder()
+for col in cat_cols:
+    df[f'{col}_label'] = label_encoder.fit_transform(df[col])
 
-# Apply label encoding to each categorical column
-label_encoded_df = pd.DataFrame()
+# Method 2: One-Hot Encoding
+df_onehot = pd.get_dummies(df, columns=cat_cols, drop_first=True)
 
-for col in categorical_cols:
-    label_encoded_df[col + '_encoded'] = label_encoder.fit_transform(imputed_df[col])
+# Method 3: Target Encoding (for supervised learning)
+target_col = 'target'  # Replace with your target column
+target_encoder = TargetEncoder()
+df_target_encoded = df.copy()
+df_target_encoded[cat_cols] = target_encoder.fit_transform(df[cat_cols], df[target_col])
 
-# Display the first few rows of the label encoded data
-print("Label encoded data (first 5 rows):")
-print(label_encoded_df.head())
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code29">
-                            <i class="fas fa-copy"></i>
-                        </button>
+# Method 4: Frequency Encoding
+for col in cat_cols:
+    frequency = df[col].value_counts(normalize=True).to_dict()
+    df[f'{col}_freq'] = df[col].map(frequency)
+
+print("Original shape:", df.shape)
+print("One-hot encoded shape:", df_onehot.shape)
+                    </code>
+                </pre>
+                
+                <p>This code demonstrates four different methods for encoding categorical variables: Label Encoding, One-Hot Encoding, Target Encoding, and Frequency Encoding.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Feature Scaling and Normalization</h3>
+                <p>Scale numerical features to improve model performance:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Feature Scaling</span>
                     </div>
-
-                    <h3>4.5 Handling Skewed Data</h3>
-                    <p>Skewed distributions can affect model performance. Let's explore techniques to handle skewed data:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Calculate skewness for numerical features
-skewness = imputed_df[numerical_cols].skew()
-
-# Display skewness values
-print("Skewness of numerical features:")
-print(skewness)
-
-# Apply log transformation to skewed features
-log_transformed_df = pd.DataFrame()
-
-for col in numerical_cols:
-    # Only apply to positive values
-    if (imputed_df[col] > 0).all():
-        log_transformed_df[col + '_log'] = np.log1p(imputed_df[col])  # log1p = log(1+x) to handle zeros
-    
-# Visualize the effect of log transformation
-plt.figure(figsize=(15, 10))
-for i, col in enumerate(log_transformed_df.columns[:6], 1):  # First 6 transformed columns
-    original_col = col.replace('_log', '')
-    
-    plt.subplot(2, 3, i)
-    
-    # Original distribution
-    plt.hist(imputed_df[original_col], alpha=0.5, bins=30, label='Original')
-    
-    # Log-transformed distribution
-    plt.hist(log_transformed_df[col], alpha=0.5, bins=30, label='Log-transformed')
-    
-    plt.title(f'Log Transformation of {original_col}')
-    plt.legend()
-    plt.tight_layout()
-plt.show()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code30">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>4.6 Feature Creation and Extraction</h3>
-                    <p>Creating new features can often improve model performance by capturing domain knowledge or complex relationships:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-from sklearn.preprocessing import PolynomialFeatures
-
-# Select a subset of numerical features for polynomial expansion
-poly_features = numerical_cols[:3]  # First 3 numerical columns
-
-# Create polynomial features
-poly = PolynomialFeatures(degree=2, include_bias=False)
-poly_features_array = poly.fit_transform(imputed_df[poly_features])
-
-# Get feature names
-poly_feature_names = poly.get_feature_names_out(poly_features)
-
-# Create a DataFrame with polynomial features
-poly_features_df = pd.DataFrame(
-    poly_features_array,
-    columns=poly_feature_names
-)
-
-# Display the first few rows of polynomial features
-print("Polynomial features (first 5 rows):")
-print(poly_features_df.head())
-
-# Create interaction features manually
-interaction_features_df = pd.DataFrame()
-
-# Select a few numerical columns for demonstration
-selected_num_cols = numerical_cols[:3]  # First 3 numerical columns
-
-# Create pairwise interactions
-for i, col1 in enumerate(selected_num_cols):
-    for col2 in selected_num_cols[i+1:]:
-        interaction_features_df[f"{col1}_{col2}_interaction"] = imputed_df[col1] * imputed_df[col2]
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code31">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>4.7 Dimensionality Reduction</h3>
-                    <p>Dimensionality reduction techniques can help reduce the number of features while preserving important information:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*QinDfRawRskupf4mU5bYSA.png" alt="PCA Visualization">
-                        <p class="caption">Principal Component Analysis (PCA) Visualization</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Apply PCA to numerical features
-pca = PCA(n_components=0.95)  # Retain 95% of variance
-
-# Standardize the data before PCA
-standardized_data = StandardScaler().fit_transform(imputed_df[numerical_cols])
-
-# Apply PCA
-pca_result = pca.fit_transform(standardized_data)
-
-# Create a DataFrame with PCA results
-pca_df = pd.DataFrame(
-    pca_result,
-    columns=[f'PC{i+1}' for i in range(pca_result.shape[1])]
-)
-
-# Display the first few rows of PCA results
-print("PCA results (first 5 rows):")
-print(pca_df.head())
-
-# Show the explained variance ratio
-print("\nExplained variance ratio:")
-print(pca.explained_variance_ratio_)
-print(f"Total variance explained: {sum(pca.explained_variance_ratio_):.4f}")
-
-# Plot the cumulative explained variance
-plt.figure(figsize=(10, 6))
-plt.plot(np.cumsum(pca.explained_variance_ratio_), marker='o')
-plt.axhline(y=0.95, color='r', linestyle='--')
-plt.title('Cumulative Explained Variance')
-plt.xlabel('Number of Components')
-plt.ylabel('Cumulative Explained Variance')
-plt.grid(True)
-plt.show()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code32">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>4.8 Feature Transformation Pipeline</h3>
-                    <p>Let's create a complete feature transformation pipeline using scikit-learn:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Define preprocessing for numerical features
-numerical_transformer = Pipeline(steps=[
-    ('imputer', SimpleImputer(strategy='mean')),
-    ('scaler', StandardScaler())
-])
-
-# Define preprocessing for categorical features
-categorical_transformer = Pipeline(steps=[
-    ('imputer', SimpleImputer(strategy='most_frequent')),
-    ('onehot', OneHotEncoder(handle_unknown='ignore'))
-])
-
-# Combine preprocessing steps
-preprocessor = ColumnTransformer(
-    transformers=[
-        ('num', numerical_transformer, numerical_cols),
-        ('cat', categorical_transformer, categorical_cols)
-    ]
-)
-
-# Create and fit the preprocessing pipeline
-X = imputed_df.drop('target', axis=1) if 'target' in imputed_df.columns else imputed_df
-preprocessed_data = preprocessor.fit_transform(X)
-
-print(f"Original data shape: {X.shape}")
-print(f"Preprocessed data shape: {preprocessed_data.shape}")
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code33">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <div class="section-summary">
-                        <h3>Summary</h3>
-                        <p>In this section, we've covered comprehensive techniques for feature engineering:</p>
-                        <ul>
-                            <li>Handling missing values through various imputation strategies</li>
-                            <li>Scaling and normalization techniques to standardize feature ranges</li>
-                            <li>Encoding categorical variables using one-hot, label, and ordinal encoding</li>
-                            <li>Handling skewed data through transformations like log and Box-Cox</li>
-                            <li>Creating new features through polynomial expansion, interactions, and binning</li>
-                            <li>Dimensionality reduction using PCA and feature selection</li>
-                            <li>Building complete feature transformation pipelines</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section id="machine-learning" class="content-section">
-                <div class="section-header">
-                    <h2>5. Machine Learning Implementation</h2>
-                </div>
-                <div class="section-content">
-                    <p>Machine learning is the process of training algorithms to learn patterns from data and make predictions or decisions. This section covers the implementation of various machine learning algorithms, model evaluation, hyperparameter tuning, and model deployment.</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*c_fiB-YgbnMl6nGDi6q1yQ.jpeg" alt="Machine Learning Process">
-                        <p class="caption">Machine Learning Implementation Process</p>
-                    </div>
-
-                    <h3>5.1 Introduction to Machine Learning</h3>
-                    <p>Machine learning algorithms can be broadly categorized into supervised learning, unsupervised learning, and reinforcement learning. Let's start by importing the necessary libraries:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Import libraries for machine learning
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
+from sklearn.model_selection import train_test_split
+
+# Sample data
+df = pd.read_csv('data.csv')
+numeric_cols = df.select_dtypes(include=['number']).columns
+X = df[numeric_cols]
+y = df['target']  # Replace with your target column
+
+# Split data to avoid data leakage
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Method 1: StandardScaler (Z-score normalization)
+std_scaler = StandardScaler()
+X_train_std = std_scaler.fit_transform(X_train)
+X_test_std = std_scaler.transform(X_test)
+
+# Method 2: MinMaxScaler (scale to range [0,1])
+minmax_scaler = MinMaxScaler()
+X_train_minmax = minmax_scaler.fit_transform(X_train)
+X_test_minmax = minmax_scaler.transform(X_test)
+
+# Method 3: RobustScaler (robust to outliers)
+robust_scaler = RobustScaler()
+X_train_robust = robust_scaler.fit_transform(X_train)
+X_test_robust = robust_scaler.transform(X_test)
+
+# Convert back to DataFrames for better visualization
+X_train_std_df = pd.DataFrame(X_train_std, columns=numeric_cols)
+X_train_minmax_df = pd.DataFrame(X_train_minmax, columns=numeric_cols)
+X_train_robust_df = pd.DataFrame(X_train_robust, columns=numeric_cols)
+
+# Compare results
+print("Original data statistics:")
+print(X_train.describe().round(2))
+print("\nStandardScaled data statistics:")
+print(X_train_std_df.describe().round(2))
+print("\nMinMaxScaled data statistics:")
+print(X_train_minmax_df.describe().round(2))
+                    </code>
+                </pre>
+                
+                <p>This code demonstrates three common scaling methods: StandardScaler (Z-score normalization), MinMaxScaler (scaling to [0,1]), and RobustScaler (scaling robust to outliers).</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Creating New Features</h3>
+                <p>Generate new features to capture additional patterns in your data:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Feature Creation</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
+import pandas as pd
+import numpy as np
+from datetime import datetime
+
+# Sample data
+df = pd.read_csv('data.csv', parse_dates=['date_column'])
+
+# 1. Mathematical transformations
+df['log_feature'] = np.log1p(df['numeric_feature'])  # log(1+x) to handle zeros
+df['sqrt_feature'] = np.sqrt(df['numeric_feature'])
+df['squared_feature'] = df['numeric_feature'] ** 2
+
+# 2. Interaction features
+df['interaction'] = df['feature1'] * df['feature2']
+df['ratio'] = df['feature1'] / (df['feature2'] + 1e-8)  # Add small value to avoid division by zero
+df['sum'] = df['feature1'] + df['feature2']
+df['diff'] = df['feature1'] - df['feature2']
+
+# 3. Date features
+df['year'] = df['date_column'].dt.year
+df['month'] = df['date_column'].dt.month
+df['day'] = df['date_column'].dt.day
+df['day_of_week'] = df['date_column'].dt.dayofweek
+df['is_weekend'] = df['day_of_week'].isin([5, 6]).astype(int)
+df['quarter'] = df['date_column'].dt.quarter
+
+# 4. Binning continuous variables
+df['age_group'] = pd.cut(df['age'], bins=[0, 18, 35, 50, 65, 100], 
+                         labels=['0-18', '19-35', '36-50', '51-65', '65+'])
+
+# 5. Aggregation features (assuming grouped data)
+group_features = df.groupby('category').agg({
+    'numeric_feature': ['mean', 'min', 'max', 'std']
+}).reset_index()
+group_features.columns = ['category', 'grp_mean', 'grp_min', 'grp_max', 'grp_std']
+df = df.merge(group_features, on='category', how='left')
+
+# 6. Polynomial features
+df['poly_interaction'] = df['feature1']**2 * df['feature2']
+
+print("Original number of features:", len(df.columns) - len(df.columns))
+print("New number of features:", len(df.columns))
+                    </code>
+                </pre>
+                
+                <p>This comprehensive feature engineering code demonstrates creating new features through mathematical transformations, interactions, date feature extraction, binning, aggregation, and polynomial features.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Dimensionality Reduction</h3>
+                <p>Reduce the number of features while preserving information:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Dimensionality Reduction</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
+import pandas as pd
+import numpy as np
+from sklearn.decomposition import PCA, TruncatedSVD
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+
+# Sample data
+df = pd.read_csv('data.csv')
+numeric_cols = df.select_dtypes(include=['number']).columns
+X = df[numeric_cols]
+
+# Standardize the data
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# Method 1: PCA
+pca = PCA(n_components=2)  # Reduce to 2 dimensions
+X_pca = pca.fit_transform(X_scaled)
+print("Explained variance ratio:", pca.explained_variance_ratio_)
+print("Total explained variance:", sum(pca.explained_variance_ratio_))
+
+# Method 2: Truncated SVD
+svd = TruncatedSVD(n_components=2)
+X_svd = svd.fit_transform(X_scaled)
+print("Explained variance ratio (SVD):", svd.explained_variance_ratio_)
+print("Total explained variance (SVD):", sum(svd.explained_variance_ratio_))
+
+# Method 3: t-SNE
+tsne = TSNE(n_components=2, random_state=42)
+X_tsne = tsne.fit_transform(X_scaled)
+
+# Visualize results
+plt.figure(figsize=(18, 6))
+
+# PCA plot
+plt.subplot(1, 3, 1)
+plt.scatter(X_pca[:, 0], X_pca[:, 1], alpha=0.5)
+plt.title('PCA Projection')
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+
+# SVD plot
+plt.subplot(1, 3, 2)
+plt.scatter(X_svd[:, 0], X_svd[:, 1], alpha=0.5)
+plt.title('SVD Projection')
+plt.xlabel('Component 1')
+plt.ylabel('Component 2')
+
+# t-SNE plot
+plt.subplot(1, 3, 3)
+plt.scatter(X_tsne[:, 0], X_tsne[:, 1], alpha=0.5)
+plt.title('t-SNE Projection')
+plt.xlabel('t-SNE Component 1')
+plt.ylabel('t-SNE Component 2')
+
+plt.tight_layout()
+plt.show()
+                    </code>
+                </pre>
+                
+                <p>This code demonstrates three dimensionality reduction techniques: Principal Component Analysis (PCA), Truncated Singular Value Decomposition (SVD), and t-Distributed Stochastic Neighbor Embedding (t-SNE).</p>
+            </div>
+        </div>
+
+        <!-- Tab 5: Machine Learning -->
+        <div class="tab-content" id="tab5">
+            <h2 class="section-title">Machine Learning Implementation</h2>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Model Selection and Training</h3>
+                <p>Train and evaluate different machine learning models:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Model Training</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV, RandomizedSearchCV
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge, Lasso
-from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
-from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor, GradientBoostingClassifier
-from sklearn.svm import SVC, SVR
-from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
-from sklearn.naive_bayes import GaussianNB
-from sklearn.neural_network import MLPClassifier, MLPRegressor
-import xgboost as xgb
-import lightgbm as lgb
-from sklearn.exceptions import ConvergenceWarning
-import warnings
 
-# Suppress warnings
-warnings.filterwarnings("ignore", category=ConvergenceWarning)
-warnings.filterwarnings("ignore", category=UserWarning)
-
-# Set visualization styles
-plt.style.use('seaborn-whitegrid')
-sns.set_palette('viridis')
-plt.rcParams['figure.figsize'] = (12, 8)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code34">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>5.2 Data Preparation for Machine Learning</h3>
-                    <p>Before applying machine learning algorithms, we need to prepare our data properly:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Load the dataset
-df = pd.read_csv('dataset.csv')
-
-# Display basic information
-print(f"Dataset shape: {df.shape}")
-print(f"Column types:\n{df.dtypes}")
-
-# Identify features and target
-X = df.drop('target', axis=1)  # Replace 'target' with your target column name
+# Load data
+df = pd.read_csv('data.csv')
+X = df.drop('target', axis=1)  # Replace 'target' with your target column
 y = df['target']
 
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-print(f"Training set shape: {X_train.shape}")
-print(f"Testing set shape: {X_test.shape}")
+# Scale features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
 
-# Identify numerical and categorical columns
-numerical_cols = X.select_dtypes(include=['int64', 'float64']).columns
-categorical_cols = X.select_dtypes(include=['object', 'category']).columns
+# Initialize models
+models = {
+    'Logistic Regression': LogisticRegression(max_iter=1000, random_state=42),
+    'Random Forest': RandomForestClassifier(n_estimators=100, random_state=42),
+    'Gradient Boosting': GradientBoostingClassifier(random_state=42),
+    'SVM': SVC(probability=True, random_state=42)
+}
 
-# Create preprocessing pipelines
-numerical_transformer = Pipeline(steps=[
-    ('imputer', SimpleImputer(strategy='median')),
-    ('scaler', StandardScaler())
-])
-
-categorical_transformer = Pipeline(steps=[
-    ('imputer', SimpleImputer(strategy='most_frequent')),
-    ('onehot', OneHotEncoder(handle_unknown='ignore'))
-])
-
-# Combine preprocessing steps
-preprocessor = ColumnTransformer(
-    transformers=[
-        ('num', numerical_transformer, numerical_cols),
-        ('cat', categorical_transformer, categorical_cols)
-    ]
-)
-
-# Check if the target is categorical or continuous
-is_classification = y.dtype == 'object' or y.nunique() < 10
-task_type = "Classification" if is_classification else "Regression"
-print(f"Task type: {task_type}")
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code35">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
-
-                    <h3>5.3 Classification Models</h3>
-                    <p>If the task is classification, we'll implement and evaluate various classification algorithms:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*Qia02HYlX-C8eDyi_jNSgw.png" alt="Classification Models">
-                        <p class="caption">Common Classification Models</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Only run this section if it's a classification task
-if is_classification:
-    # Create a pipeline with preprocessing and logistic regression
-    log_reg_pipeline = Pipeline(steps=[
-        ('preprocessor', preprocessor),
-        ('classifier', LogisticRegression(max_iter=1000, random_state=42))
-    ])
-    
-    # Train the model
-    log_reg_pipeline.fit(X_train, y_train)
+# Train and evaluate models
+results = {}
+for name, model in models.items():
+    # Train model
+    model.fit(X_train_scaled, y_train)
     
     # Make predictions
-    y_pred = log_reg_pipeline.predict(X_test)
-    y_pred_proba = log_reg_pipeline.predict_proba(X_test)[:, 1] if len(np.unique(y)) == 2 else None
+    y_pred = model.predict(X_test_scaled)
     
-    # Evaluate the model
+    # Evaluate model
     accuracy = accuracy_score(y_test, y_pred)
-    precision = precision_score(y_test, y_pred, average='weighted')
-    recall = recall_score(y_test, y_pred, average='weighted')
-    f1 = f1_score(y_test, y_pred, average='weighted')
+    results[name] = {
+        'model': model,
+        'accuracy': accuracy,
+        'predictions': y_pred,
+        'cross_val': np.mean(cross_val_score(model, X_train_scaled, y_train, cv=5))
+    }
     
-    print("\nLogistic Regression Results:")
+    print(f"\n{name} Results:")
     print(f"Accuracy: {accuracy:.4f}")
-    print(f"Precision: {precision:.4f}")
-    print(f"Recall: {recall:.4f}")
-    print(f"F1 Score: {f1:.4f}")
-    
-    # Calculate ROC AUC for binary classification
-    if len(np.unique(y)) == 2 and y_pred_proba is not None:
-        roc_auc = roc_auc_score(y_test, y_pred_proba)
-        print(f"ROC AUC: {roc_auc:.4f}")
-    
-    # Cross-validation
-    cv_scores = cross_val_score(log_reg_pipeline, X, y, cv=5, scoring='accuracy')
-    print(f"Cross-validation accuracy: {cv_scores.mean():.4f} ± {cv_scores.std():.4f}")
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code36">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
+    print(f"Cross-validation Score: {results[name]['cross_val']:.4f}")
+    print("\nClassification Report:")
+    print(classification_report(y_test, y_pred))
 
-                    <h3>5.4 Regression Models</h3>
-                    <p>If the task is regression, we'll implement and evaluate various regression algorithms:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*1g_yrBnWXF0QJU8HwSX2YQ.png" alt="Regression Models">
-                        <p class="caption">Common Regression Models</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Only run this section if it's a regression task
-if not is_classification:
-    # Create a pipeline with preprocessing and linear regression
-    linear_reg_pipeline = Pipeline(steps=[
-        ('preprocessor', preprocessor),
-        ('regressor', LinearRegression())
-    ])
-    
-    # Train the model
-    linear_reg_pipeline.fit(X_train, y_train)
-    
-    # Make predictions
-    y_pred = linear_reg_pipeline.predict(X_test)
-    
-    # Evaluate the model
-    mse = mean_squared_error(y_test, y_pred)
-    rmse = np.sqrt(mse)
-    mae = mean_absolute_error(y_test, y_pred)
-    r2 = r2_score(y_test, y_pred)
-    
-    print("\nLinear Regression Results:")
-    print(f"Mean Squared Error: {mse:.4f}")
-    print(f"Root Mean Squared Error: {rmse:.4f}")
-    print(f"Mean Absolute Error: {mae:.4f}")
-    print(f"R² Score: {r2:.4f}")
-    
-    # Cross-validation
-    cv_scores = cross_val_score(linear_reg_pipeline, X, y, cv=5, scoring='r2')
-    print(f"Cross-validation R²: {cv_scores.mean():.4f} ± {cv_scores.std():.4f}")
-    
-    # Visualize predictions vs actual
-    plt.figure(figsize=(10, 6))
-    plt.scatter(y_test, y_pred, alpha=0.5)
-    plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--')
-    plt.xlabel('Actual')
-    plt.ylabel('Predicted')
-    plt.title('Linear Regression: Actual vs Predicted')
-    plt.tight_layout()
-    plt.show()
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code37">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
+# Compare models
+model_names = list(results.keys())
+accuracies = [results[name]['accuracy'] for name in model_names]
+cv_scores = [results[name]['cross_val'] for name in model_names]
 
-                    <h3>5.5 Hyperparameter Tuning</h3>
-                    <p>Hyperparameter tuning is the process of finding the optimal hyperparameters for a machine learning algorithm:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Select the best model based on the previous comparison
-# For demonstration, we'll use Random Forest for both classification and regression
-if is_classification:
-    # Define the model and parameter grid
-    model = RandomForestClassifier(random_state=42)
-    param_grid = {
-        'n_estimators': [50, 100, 200],
-        'max_depth': [None, 10, 20, 30],
-        'min_samples_split': [2, 5, 10],
-        'min_samples_leaf': [1, 2, 4]
-    }
-    
-    # Create a pipeline with preprocessing and the model
-    pipeline = Pipeline(steps=[
-        ('preprocessor', preprocessor),
-        ('classifier', model)
-    ])
-    
-    # Perform grid search
-    grid_search = GridSearchCV(
-        pipeline, param_grid, cv=5, scoring='accuracy', n_jobs=-1, verbose=1
-    )
-    
-    # Train the model
-    grid_search.fit(X, y)
-    
-    # Display results
-    print("\nGrid Search Results (Classification):")
-    print(f"Best parameters: {grid_search.best_params_}")
-    print(f"Best cross-validation score: {grid_search.best_score_:.4f}")
-    
-    # Get the best model
-    best_model = grid_search.best_estimator_
-else:
-    # Define the model and parameter grid
-    model = RandomForestRegressor(random_state=42)
-    param_grid = {
-        'n_estimators': [50, 100, 200],
-        'max_depth': [None, 10, 20, 30],
-        'min_samples_split': [2, 5, 10],
-        'min_samples_leaf': [1, 2, 4]
-    }
-    
-    # Create a pipeline with preprocessing and the model
-    pipeline = Pipeline(steps=[
-        ('preprocessor', preprocessor),
-        ('regressor', model)
-    ])
-    
-    # Perform grid search
-    grid_search = GridSearchCV(
-        pipeline, param_grid, cv=5, scoring='r2', n_jobs=-1, verbose=1
-    )
-    
-    # Train the model
-    grid_search.fit(X, y)
-    
-    # Display results
-    print("\nGrid Search Results (Regression):")
-    print(f"Best parameters: {grid_search.best_params_}")
-    print(f"Best cross-validation score: {grid_search.best_score_:.4f}")
-    
-    # Get the best model
-    best_model = grid_search.best_estimator_
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code38">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
+plt.figure(figsize=(12, 6))
+x = np.arange(len(model_names))
+width = 0.35
 
-                    <h3>5.6 Model Interpretation</h3>
-                    <p>Understanding how a model makes predictions is crucial for building trust and gaining insights:</p>
-                    
-                    <div class="image-container">
-                        <img src="https://miro.medium.com/max/1400/1*Zcw6vU-ohXYTjZga-6oX5g.png" alt="Feature Importance">
-                        <p class="caption">Feature Importance Visualization</p>
-                    </div>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
-# Extract feature importance from tree-based models
-def plot_feature_importance(model, feature_names):
-    # Check if the model has feature_importances_ attribute
-    if hasattr(model, 'feature_importances_'):
-        # Get feature importances
-        importances = model.feature_importances_
-        
-        # Create a DataFrame for visualization
-        feature_importance = pd.DataFrame({
-            'Feature': feature_names,
-            'Importance': importances
-        })
-        feature_importance = feature_importance.sort_values('Importance', ascending=False)
-        
-        # Plot feature importance
-        plt.figure(figsize=(12, 8))
-        sns.barplot(x='Importance', y='Feature', data=feature_importance.head(20))
-        plt.title('Feature Importance')
-        plt.tight_layout()
-        plt.show()
-        
-        return feature_importance
-    else:
-        print("Model does not have feature_importances_ attribute")
-        return None
+plt.bar(x - width/2, accuracies, width, label='Test Accuracy')
+plt.bar(x + width/2, cv_scores, width, label='Cross-validation Score')
 
-# Get feature names after preprocessing
-try:
-    # Get feature names after preprocessing
-    preprocessed_features = []
-    for name, transformer, features in preprocessor.transformers_:
-        if name != 'remainder':
-            if hasattr(transformer.named_steps.get('onehot', None), 'get_feature_names_out'):
-                preprocessed_features.extend(
-                    transformer.named_steps['onehot'].get_feature_names_out(features)
-                )
-            else:
-                preprocessed_features.extend(features)
-    
-    # Get the best model from hyperparameter tuning
-    if is_classification:
-        best_classifier = best_model.named_steps['classifier']
-        feature_importance = plot_feature_importance(best_classifier, preprocessed_features)
-    else:
-        best_regressor = best_model.named_steps['regressor']
-        feature_importance = plot_feature_importance(best_regressor, preprocessed_features)
-except Exception as e:
-    print(f"Error plotting feature importance: {e}")
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code39">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
+plt.xlabel('Models')
+plt.ylabel('Score')
+plt.title('Model Performance Comparison')
+plt.xticks(x, model_names, rotation=45)
+plt.legend()
+plt.tight_layout()
+plt.show()
 
-                    <h3>5.7 Model Deployment</h3>
-                    <p>Once you've trained and evaluated your model, you can deploy it for making predictions on new data:</p>
-                    
-                    <div class="code-block">
-                        <pre><code class="python">
+# Plot confusion matrix for best model
+best_model_name = max(results, key=lambda x: results[x]['accuracy'])
+cm = confusion_matrix(y_test, results[best_model_name]['predictions'])
+
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+plt.title(f'Confusion Matrix - {best_model_name}')
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.tight_layout()
+plt.show()
+                    </code>
+                </pre>
+                
+                <p>This comprehensive code trains and evaluates multiple machine learning models (Logistic Regression, Random Forest, Gradient Boosting, and SVM), compares their performance using accuracy and cross-validation scores, and visualizes the results.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Hyperparameter Tuning</h3>
+                <p>Optimize model performance through hyperparameter tuning:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Hyperparameter Tuning</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split, GridSearchCV, RandomizedSearchCV
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load data
+df = pd.read_csv('data.csv')
+X = df.drop('target', axis=1)  # Replace 'target' with your target column
+y = df['target']
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Scale features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# Method 1: Grid Search
+param_grid = {
+    'n_estimators': [50, 100, 200],
+    'max_depth': [None, 10, 20, 30],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 4]
+}
+
+grid_search = GridSearchCV(
+    RandomForestClassifier(random_state=42),
+    param_grid=param_grid,
+    cv=5,
+    scoring='accuracy',
+    n_jobs=-1,
+    verbose=1
+)
+
+grid_search.fit(X_train_scaled, y_train)
+
+print("Best parameters (Grid Search):", grid_search.best_params_)
+print("Best score (Grid Search):", grid_search.best_score_)
+
+# Method 2: Randomized Search (for larger parameter spaces)
+from scipy.stats import randint
+
+param_dist = {
+    'n_estimators': randint(50, 500),
+    'max_depth': randint(10, 50),
+    'min_samples_split': randint(2, 20),
+    'min_samples_leaf': randint(1, 10),
+    'max_features': ['auto', 'sqrt', 'log2']
+}
+
+random_search = RandomizedSearchCV(
+    RandomForestClassifier(random_state=42),
+    param_distributions=param_dist,
+    n_iter=20,
+    cv=5,
+    scoring='accuracy',
+    n_jobs=-1,
+    random_state=42,
+    verbose=1
+)
+
+random_search.fit(X_train_scaled, y_train)
+
+print("Best parameters (Random Search):", random_search.best_params_)
+print("Best score (Random Search):", random_search.best_score_)
+
+# Train final model with best parameters
+best_model = RandomForestClassifier(**grid_search.best_params_, random_state=42)
+best_model.fit(X_train_scaled, y_train)
+best_accuracy = best_model.score(X_test_scaled, y_test)
+print(f"Final model accuracy on test set: {best_accuracy:.4f}")
+
+# Feature importance
+feature_importance = best_model.feature_importances_
+feature_names = X.columns
+
+# Sort features by importance
+sorted_idx = np.argsort(feature_importance)
+plt.figure(figsize=(10, 8))
+plt.barh(range(len(sorted_idx)), feature_importance[sorted_idx], align='center')
+plt.yticks(range(len(sorted_idx)), [feature_names[i] for i in sorted_idx])
+plt.title('Feature Importance')
+plt.tight_layout()
+plt.show()
+                    </code>
+                </pre>
+                
+                <p>This code demonstrates hyperparameter tuning using both Grid Search and Randomized Search methods, trains a final model with the best parameters, and visualizes feature importance.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Model Evaluation and Interpretation</h3>
+                <p>Evaluate model performance and interpret results:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Model Evaluation</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split, learning_curve
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import roc_curve, auc, precision_recall_curve, average_precision_score
+import matplotlib.pyplot as plt
+import seaborn as sns
+import shap
+
+# Load data
+df = pd.read_csv('data.csv')
+X = df.drop('target', axis=1)  # Replace 'target' with your target column
+y = df['target']
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Scale features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# Train model
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train_scaled, y_train)
+
+# Get predictions and probabilities
+y_pred = model.predict(X_test_scaled)
+y_prob = model.predict_proba(X_test_scaled)[:, 1]  # Probability of positive class
+
+# 1. ROC Curve
+fpr, tpr, thresholds = roc_curve(y_test, y_prob)
+roc_auc = auc(fpr, tpr)
+
+plt.figure(figsize=(10, 8))
+plt.plot(fpr, tpr, color='darkorange', lw=2, label=f'ROC curve (area = {roc_auc:.2f})')
+plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+plt.xlim([0.0, 1.0])
+plt.ylim([0.0, 1.05])
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('Receiver Operating Characteristic (ROC) Curve')
+plt.legend(loc="lower right")
+plt.show()
+
+# 2. Precision-Recall Curve
+precision, recall, _ = precision_recall_curve(y_test, y_prob)
+avg_precision = average_precision_score(y_test, y_prob)
+
+plt.figure(figsize=(10, 8))
+plt.plot(recall, precision, color='blue', lw=2, label=f'Precision-Recall curve (AP = {avg_precision:.2f})')
+plt.xlabel('Recall')
+plt.ylabel('Precision')
+plt.title('Precision-Recall Curve')
+plt.legend(loc="lower left")
+plt.show()
+
+# 3. Learning Curve
+train_sizes, train_scores, test_scores = learning_curve(
+    model, X_train_scaled, y_train, cv=5, n_jobs=-1, 
+    train_sizes=np.linspace(0.1, 1.0, 10)
+)
+
+train_mean = np.mean(train_scores, axis=1)
+train_std = np.std(train_scores, axis=1)
+test_mean = np.mean(test_scores, axis=1)
+test_std = np.std(test_scores, axis=1)
+
+plt.figure(figsize=(10, 8))
+plt.plot(train_sizes, train_mean, color='blue', marker='o', markersize=5, label='Training accuracy')
+plt.fill_between(train_sizes, train_mean + train_std, train_mean - train_std, alpha=0.15, color='blue')
+plt.plot(train_sizes, test_mean, color='green', marker='s', markersize=5, label='Validation accuracy')
+plt.fill_between(train_sizes, test_mean + test_std, test_mean - test_std, alpha=0.15, color='green')
+plt.xlabel('Training Set Size')
+plt.ylabel('Accuracy')
+plt.title('Learning Curve')
+plt.legend(loc='lower right')
+plt.grid(True)
+plt.show()
+
+# 4. SHAP Values for Model Interpretation
+# Create a small explainer dataset
+explainer = shap.TreeExplainer(model)
+shap_values = explainer.shap_values(X_test_scaled)
+
+# Summary plot
+plt.figure(figsize=(10, 8))
+shap.summary_plot(shap_values, X_test_scaled, feature_names=X.columns)
+
+# Individual prediction explanation
+plt.figure(figsize=(10, 8))
+shap.force_plot(explainer.expected_value, shap_values[0,:], X_test_scaled[0,:], feature_names=X.columns)
+                    </code>
+                </pre>
+                
+                <p>This comprehensive evaluation code creates ROC curves, precision-recall curves, learning curves, and uses SHAP values to interpret model predictions and feature importance.</p>
+            </div>
+            
+            <div class="content-card">
+                <h3 class="subsection-title">Model Deployment</h3>
+                <p>Save and deploy your trained machine learning model:</p>
+                
+                <pre>
+                    <div class="code-header">
+                        <span>Model Deployment</span>
+                    </div>
+                    <button class="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+                    <code class="python">
+# Import libraries
+import pandas as pd
+import numpy as np
+import pickle
 import joblib
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import StandardScaler
+from flask import Flask, request, jsonify
 
-# Save the best model
-model_filename = 'best_model.pkl'
-joblib.dump(best_model, model_filename)
-print(f"Model saved to {model_filename}")
+# 1. Save model and preprocessing components
+model = RandomForestClassifier(n_estimators=100, random_state=42)  # Your trained model
+scaler = StandardScaler()  # Your fitted scaler
 
-# Save the preprocessing pipeline separately if needed
-preprocessor_filename = 'preprocessor.pkl'
-joblib.dump(preprocessor, preprocessor_filename)
-print(f"Preprocessor saved to {preprocessor_filename}")
-
-# Load the saved model
-loaded_model = joblib.load(model_filename)
-print("Model loaded successfully")
-
-# Make predictions with the loaded model
-# Assuming we have new data in the same format as X_test
-new_data = X_test.iloc[:5]  # Just for demonstration
-predictions = loaded_model.predict(new_data)
-
-print("Predictions on new data:")
-print(predictions)
-
-# Creating a prediction function
-def make_prediction(data, model=loaded_model):
-    """
-    Make predictions on new data.
+# Option 1: Save with pickle
+with open('model.pkl', 'wb') as f:
+    pickle.dump(model, f)
     
-    Args:
-        data: DataFrame with the same columns as the training data
-        model: Trained model with preprocessing pipeline
-        
-    Returns:
-        Predictions
-    """
-    # Make predictions
-    predictions = model.predict(data)
+with open('scaler.pkl', 'wb') as f:
+    pickle.dump(scaler, f)
+
+# Option 2: Save with joblib (better for large NumPy arrays)
+joblib.dump(model, 'model.joblib')
+joblib.dump(scaler, 'scaler.joblib')
+
+# 2. Load model and preprocessing components
+# Option 1: Load with pickle
+with open('model.pkl', 'rb') as f:
+    loaded_model = pickle.load(f)
     
-    return predictions
+with open('scaler.pkl', 'rb') as f:
+    loaded_scaler = pickle.load(f)
 
-# Example usage
-sample_data = X_test.iloc[:5]
-sample_predictions = make_prediction(sample_data)
-print("Sample predictions:")
-print(sample_predictions)
-                        </code></pre>
-                        <button class="copy-btn" data-clipboard-target="#code40">
-                            <i class="fas fa-copy"></i>
-                        </button>
-                    </div>
+# Option 2: Load with joblib
+loaded_model = joblib.load('model.joblib')
+loaded_scaler = joblib.load('scaler.joblib')
 
-                    <div class="section-summary">
-                        <h3>Summary</h3>
-                        <p>In this section, we've covered comprehensive techniques for machine learning implementation:</p>
-                        <ul>
-                            <li>Data preparation for machine learning, including loading, splitting, and preprocessing</li>
-                            <li>Classification models for predicting categorical outcomes</li>
-                            <li>Regression models for predicting continuous values</li>
-                            <li>Model comparison to identify the best-performing algorithm</li>
-                            <li>Hyperparameter tuning to optimize model performance</li>
-                            <li>Model interpretation techniques to understand how models make predictions</li>
-                            <li>Model deployment for making predictions on new data</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+# 3. Create a simple Flask API for model deployment
+app = Flask(__name__)
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    # Get data from POST request
+    data = request.json
+    
+    # Convert to DataFrame
+    df = pd.DataFrame(data, index=[0])
+    
+    # Preprocess data
+    scaled_data = loaded_scaler.transform(df)
+    
+    # Make prediction
+    prediction = loaded_model.predict(scaled_data)
+    probability = loaded_model.predict_proba(scaled_data)[:, 1]
+    
+    # Return prediction
+    return jsonify({
+        'prediction': int(prediction[0]),
+        'probability': float(probability[0])
+    })
+
+# Run the API
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5000)
+
+# 4. Example of making a request to the API
+"""
+import requests
+import json
+
+# API endpoint
+url = 'http://localhost:5000/predict'
+
+# Sample data
+data = {
+    'feature1': 0.5,
+    'feature2': 1.0,
+    'feature3': -0.5
+}
+
+# Make request
+response = requests.post(url, json=data)
+
+# Print result
+print(response.json())
+"""
+                    </code>
+                </pre>
+                
+                <p>This code demonstrates how to save and load machine learning models using pickle and joblib, and how to create a simple Flask API for model deployment.</p>
+            </div>
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h3>Data Science Workflow</h3>
-                    <p>A comprehensive guide from Earth Engine to Machine Learning</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#earth-engine">Earth Engine</a></li>
-                        <li><a href="#data-gathering">Data Gathering</a></li>
-                        <li><a href="#exploratory-analysis">Exploratory Analysis</a></li>
-                        <li><a href="#feature-engineering">Feature Engineering</a></li>
-                        <li><a href="#machine-learning">Machine Learning</a></li>
-                    </ul>
-                </div>
-                <div class="footer-resources">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="https://earthengine.google.com/" target="_blank">Google Earth Engine</a></li>
-                        <li><a href="https://pandas.pydata.org/docs/" target="_blank">Pandas Documentation</a></li>
-                        <li><a href="https://scikit-learn.org/stable/documentation.html" target="_blank">Scikit-Learn Documentation</a></li>
-                        <li><a href="https://matplotlib.org/stable/contents.html" target="_blank">Matplotlib Documentation</a></li>
-                        <li><a href="https://seaborn.pydata.org/tutorial.html" target="_blank">Seaborn Tutorial</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2025 Data Science Workflow. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <button id="back-to-top" class="back-to-top">
+    <!-- Back to top button -->
+    <div class="back-to-top" id="backToTop">
         <i class="fas fa-arrow-up"></i>
-    </button>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Code copied to clipboard!</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
     <script>
-        // Interactive elements for the data science workflow website
-
+        // Initialize syntax highlighting
         document.addEventListener('DOMContentLoaded', function() {
-            // Initialize syntax highlighting
-            document.querySelectorAll('pre code').forEach((block) => {
-                hljs.highlightElement(block);
-            });
-
-            // Initialize clipboard.js for code copying
-            new ClipboardJS('.copy-btn', {
-                text: function(trigger) {
-                    return trigger.previousElementSibling.textContent;
-                }
-            }).on('success', function(e) {
-                e.trigger.innerHTML = '<i class="fas fa-check"></i>';
-                setTimeout(function() {
-                    e.trigger.innerHTML = '<i class="fas fa-copy"></i>';
-                }, 2000);
-            });
-
-            // Mobile navigation toggle
-            const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
-            const mobileNav = document.querySelector('.mobile-nav');
+            hljs.highlightAll();
             
-            mobileNavToggle.addEventListener('click', function() {
-                mobileNav.classList.toggle('active');
-                this.querySelector('i').classList.toggle('fa-bars');
-                this.querySelector('i').classList.toggle('fa-times');
-            });
-
-            // Theme toggle
-            const themeToggle = document.querySelector('.theme-toggle');
-            const body = document.body;
-            
-            themeToggle.addEventListener('click', function() {
-                body.classList.toggle('dark-theme');
-                this.querySelector('i').classList.toggle('fa-moon');
-                this.querySelector('i').classList.toggle('fa-sun');
-                
-                // Save theme preference
-                if (body.classList.contains('dark-theme')) {
-                    localStorage.setItem('theme', 'dark');
-                } else {
-                    localStorage.setItem('theme', 'light');
-                }
-            });
-            
-            // Check for saved theme preference
-            if (localStorage.getItem('theme') === 'dark') {
-                body.classList.add('dark-theme');
-                themeToggle.querySelector('i').classList.remove('fa-moon');
-                themeToggle.querySelector('i').classList.add('fa-sun');
-            }
-
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
+            // Add copy functionality to code blocks
+            document.querySelectorAll('.copy-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    const codeBlock = this.parentNode.querySelector('code');
+                    const textToCopy = codeBlock.textContent;
                     
-                    // Close mobile nav if open
-                    mobileNav.classList.remove('active');
-                    mobileNavToggle.querySelector('i').classList.add('fa-bars');
-                    mobileNavToggle.querySelector('i').classList.remove('fa-times');
-                    
-                    const targetId = this.getAttribute('href');
-                    if (targetId === '#') return;
-                    
-                    const targetElement = document.querySelector(targetId);
-                    if (targetElement) {
-                        targetElement.scrollIntoView({
-                            behavior: 'smooth'
-                        });
-                    }
+                    navigator.clipboard.writeText(textToCopy).then(() => {
+                        const toast = document.getElementById('toast');
+                        toast.style.display = 'block';
+                        setTimeout(() => {
+                            toast.style.display = 'none';
+                        }, 2000);
+                    }).catch(err => {
+                        console.error('Failed to copy: ', err);
+                    });
                 });
             });
-
-            // Back to top button
-            const backToTopButton = document.getElementById('back-to-top');
             
-            window.addEventListener('scroll', function() {
-                if (window.pageYOffset > 300) {
-                    backToTopButton.classList.add('show');
+            // Tab functionality
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const tabId = button.getAttribute('data-tab');
+                    
+                    // Remove active class from all buttons and contents
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
+                    
+                    // Add active class to current button and content
+                    button.classList.add('active');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+            
+            // Dark mode toggle
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            const icon = themeToggle.querySelector('i');
+            
+            themeToggle.addEventListener('click', () => {
+                body.classList.toggle('dark-theme');
+                
+                if (body.classList.contains('dark-theme')) {
+                    icon.classList.remove('fa-moon');
+                    icon.classList.add('fa-sun');
                 } else {
-                    backToTopButton.classList.remove('show');
+                    icon.classList.remove('fa-sun');
+                    icon.classList.add('fa-moon');
+                }
+            });
+
+            // Back to top button functionality
+            const backToTopButton = document.getElementById('backToTop');
+            
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
                 }
             });
             
-            backToTopButton.addEventListener('click', function() {
+            backToTopButton.addEventListener('click', () => {
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
                 });
             });
-
-            // Search functionality
-            const searchInput = document.getElementById('search-input');
-            const searchResults = document.getElementById('search-results');
-            
-            if (searchInput && searchResults) {
-                searchInput.addEventListener('input', function() {
-                    const query = this.value.toLowerCase();
-                    
-                    if (query.length < 3) {
-                        searchResults.innerHTML = '';
-                        searchResults.style.display = 'none';
-                        return;
-                    }
-                    
-                    const headings = document.querySelectorAll('h2, h3, h4');
-                    const matches = [];
-                    
-                    headings.forEach(heading => {
-                        if (heading.textContent.toLowerCase().includes(query)) {
-                            matches.push({
-                                id: heading.id || heading.closest('section').id,
-                                text: heading.textContent,
-                                level: parseInt(heading.tagName.substring(1))
-                            });
-                        }
-                    });
-                    
-                    if (matches.length > 0) {
-                        searchResults.innerHTML = '';
-                        matches.slice(0, 5).forEach(match => {
-                            const resultItem = document.createElement('div');
-                            resultItem.className = 'search-result-item';
-                            
-                            const link = document.createElement('a');
-                            link.href = `#${match.id}`;
-                            link.textContent = match.text;
-                            link.style.paddingLeft = `${(match.level - 2) * 10}px`;
-                            
-                            resultItem.appendChild(link);
-                            searchResults.appendChild(resultItem);
-                            
-                            link.addEventListener('click', function() {
-                                searchResults.innerHTML = '';
-                                searchResults.style.display = 'none';
-                                searchInput.value = '';
-                            });
-                        });
-                        
-                        searchResults.style.display = 'block';
-                    } else {
-                        searchResults.innerHTML = '<div class="search-result-item">No results found</div>';
-                        searchResults.style.display = 'block';
-                    }
-                });
-                
-                // Close search results when clicking outside
-                document.addEventListener('click', function(e) {
-                    if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
-                        searchResults.innerHTML = '';
-                        searchResults.style.display = 'none';
-                    }
-                });
-            }
-
-            // Generate table of contents dynamically
-            const toc = document.getElementById('toc');
-            if (toc) {
-                const headings = document.querySelectorAll('.content-section h3');
-                const tocList = document.createElement('ul');
-                
-                headings.forEach((heading, index) => {
-                    const id = `section-${index}`;
-                    heading.id = id;
-                    
-                    const listItem = document.createElement('li');
-                    const link = document.createElement('a');
-                    link.href = `#${id}`;
-                    link.textContent = heading.textContent;
-                    
-                    listItem.appendChild(link);
-                    tocList.appendChild(listItem);
-                });
-                
-                // Append the list to the TOC if it has items
-                if (tocList.children.length > 0) {
-                    // Clear any existing content first
-                    while (toc.children.length > 1) {
-                        toc.removeChild(toc.lastChild);
-                    }
-                    toc.appendChild(tocList);
-                }
-            }
-
-            // Image zoom functionality
-            document.querySelectorAll('.image-container img').forEach(img => {
-                img.addEventListener('click', function() {
-                    this.classList.toggle('zoomed');
-                    
-                    if (this.classList.contains('zoomed')) {
-                        this.style.transform = 'scale(1.5)';
-                        this.style.transition = 'transform 0.3s ease';
-                        this.style.cursor = 'zoom-out';
-                        this.style.zIndex = '1000';
-                    } else {
-                        this.style.transform = 'scale(1)';
-                        this.style.cursor = 'zoom-in';
-                        this.style.zIndex = 'auto';
-                    }
-                });
-            });
-
-            // Code block collapsible functionality
-            document.querySelectorAll('.code-block').forEach(block => {
-                const codeElement = block.querySelector('code');
-                const preElement = block.querySelector('pre');
-                
-                // Create toggle button
-                const toggleBtn = document.createElement('button');
-                toggleBtn.className = 'code-toggle-btn';
-                toggleBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
-                toggleBtn.title = 'Collapse code';
-                
-                // Insert button before the copy button
-                const copyBtn = block.querySelector('.copy-btn');
-                if (copyBtn) {
-                    block.insertBefore(toggleBtn, copyBtn);
-                } else {
-                    block.appendChild(toggleBtn);
-                }
-                
-                // Add click event
-                toggleBtn.addEventListener('click', function() {
-                    preElement.classList.toggle('collapsed');
-                    
-                    if (preElement.classList.contains('collapsed')) {
-                        preElement.style.maxHeight = '50px';
-                        preElement.style.overflow = 'hidden';
-                        toggleBtn.innerHTML = '<i class="fas fa-chevron-down"></i>';
-                        toggleBtn.title = 'Expand code';
-                    } else {
-                        preElement.style.maxHeight = 'none';
-                        preElement.style.overflow = 'auto';
-                        toggleBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
-                        toggleBtn.title = 'Collapse code';
-                    }
-                });
-            });
-
-            // Add section navigation
-            const sections = document.querySelectorAll('.content-section');
-            if (sections.length > 0) {
-                sections.forEach((section, index) => {
-                    const navContainer = document.createElement('div');
-                    navContainer.className = 'section-navigation';
-                    
-                    // Previous section button
-                    if (index > 0) {
-                        const prevSection = sections[index - 1];
-                        const prevButton = document.createElement('a');
-                        prevButton.href = `#${prevSection.id}`;
-                        prevButton.className = 'nav-button prev-button';
-                        prevButton.innerHTML = `<i class="fas fa-arrow-left"></i> ${prevSection.querySelector('h2').textContent}`;
-                        navContainer.appendChild(prevButton);
-                    }
-                    
-                    // Next section button
-                    if (index < sections.length - 1) {
-                        const nextSection = sections[index + 1];
-                        const nextButton = document.createElement('a');
-                        nextButton.href = `#${nextSection.id}`;
-                        nextButton.className = 'nav-button next-button';
-                        nextButton.innerHTML = `${nextSection.querySelector('h2').textContent} <i class="fas fa-arrow-right"></i>`;
-                        navContainer.appendChild(nextButton);
-                    }
-                    
-                    // Append navigation to the end of the section
-                    if (navContainer.children.length > 0) {
-                        section.appendChild(navContainer);
-                    }
-                });
-            }
         });
     </script>
-
 </body>
 </html>
