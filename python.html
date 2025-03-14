@@ -584,7 +584,49 @@ print(classification_report(y_test, predictions, target_names=iris.target_names)
             </div>
         </div>
 
-  
+
+        <div id="learning-resources">
+            <div class="resources-grid">
+                <a href="visualization.html" target="_blank" class="responsive-btn">Visualization</a>
+                <a href="geeml.html" target="_blank" class="responsive-btn">GEE ML</a>
+                <a href="geetopy.html" target="_blank" class="responsive-btn">GEE to df</a>
+                <a href="test.html" target="_blank" class="responsive-btn">Themes</a>
+            </div>
+        </div>
+        
+        <style>
+            .resources-grid {
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                padding: 20px;
+            }
+            .responsive-btn {
+                flex: 1;
+                max-width: 25%;
+                padding: 10px 20px;
+                text-decoration: none;
+                background: #007bff;
+                color: white;
+                border-radius: 5px;
+                transition: background 0.3s;
+                text-align: center;
+                text-align: center;
+            }
+            .responsive-btn:hover {
+                background: #0056b3;
+            }
+            @media (max-width: 600px) {
+                .resources-grid {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .responsive-btn {
+                    width: 100%;
+                    max-width: none;
+                }
+            }
+        </style>
 
         <!-- Additional Resources Section -->
         <div id="learning-resources" class="resources">
