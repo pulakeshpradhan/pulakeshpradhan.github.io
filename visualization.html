@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Visualization</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.css">
+    
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --background-color: #f8fafc;
+            --card-background: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-radius: 12px;
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 24px;
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: auto;
+            padding: 32px;
+            background: var(--card-background);
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+
+        .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+        .chart-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .chart-body img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .chart-actions {
+            margin-top: 10px;
+        }
+
+
+
+        .chart-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+   
+        .chart-header h3 {
+            margin: 0;
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+ 
+
+        .chart-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+
+
+        .btn {
+            padding: 8px 16px;
+            border-radius: 6px;
+            border: none;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--secondary-color);
+        }
+
+        .btn-secondary {
+            background: #e2e8f0;
+            color: var(--text-primary);
+        }
+
+        .btn-secondary:hover {
+            background: #cbd5e1;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(5px);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .modal.show {
+            opacity: 1;
+        }
+
+        .modal-content {
+            background: var(--card-background);
+            border-radius: var(--border-radius);
+            max-width: 800px;
+            width: 90%;
+            margin: 5% auto;
+            position: relative;
+            animation: modalSlideIn 0.3s ease-out;
+            max-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .modal-header {
+            padding: 15px 20px;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f8fafc;
+            flex-shrink: 0;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-small {
+            padding: 6px 12px;
+            font-size: 0.9rem;
+        }
+
+        .modal-body {
+            padding: 0;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .code-container {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #1e293b;
+        }
+
+        pre {
+            margin: 0;
+            padding: 0;
+            background: none !important;
+        }
+
+        code {
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .modal-footer {
+            padding: 10px 20px;
+            background: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        #code-lines {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .close {
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-secondary);
+            transition: var(--transition);
+        }
+
+        .close:hover {
+            color: var(--text-primary);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes modalSlideIn {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 16px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1><i class="fas fa-chart-line"></i> Climate Data Dashboard</h1>
+        <p>Interactive visualizations of global climate trends and analysis</p>
+    </div>
+    
+    <div class="container">
+        <div class="grid">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>Warming Stripes</h3>
+                    <i class="fas fa-temperature-high"></i>
+                </div>
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate1.png" alt="Warming Stripes Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code1')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+    
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>Temperature Trends</h3>
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate2.png" alt="Temperature Trends Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code2')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+    
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>NDVI Analysis</h3>
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate3.png" alt="NDVI Analysis Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code3')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+    
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>NDVI Analysis</h3>
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate4.png" alt="NDVI Analysis Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code4')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="header">
+        <h1><i class="fas fa-chart-line"></i> Climate Data Dashboard</h1>
+        <p>Interactive visualizations of global climate trends and analysis</p>
+    </div>
+
+
+
+   
+    <div class="container">
+        <div class="grid">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>NDVI Analysis</h3>
+                    <i class="fas fa-leaf"></i>
+                </div>            
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate5.png" alt="NDVI Analysis Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code5')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>NDVI Analysis</h3>
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate6.png" alt="NDVI Analysis Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code6')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>NDVI Analysis</h3>
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate7.png" alt="NDVI Analysis Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code7')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="header">
+        <h1><i class="fas fa-chart-line"></i> Climate Data Dashboard</h1>
+        <p>Interactive visualizations of global climate trends and analysis</p>
+    </div>
+
+
+
+   
+    <div class="container">
+        <div class="grid">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>NDVI Analysis</h3>
+                    <i class="fas fa-leaf"></i>
+                </div>            
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate8.png" alt="NDVI Analysis Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code8')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>NDVI Analysis</h3>
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate9.png" alt="NDVI Analysis Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code9')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>NDVI Analysis</h3>
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="chart-body">
+                    <img class="chart-image" src="vis/climate10.png" alt="NDVI Analysis Visualization">
+                </div>
+                <div class="chart-actions">
+                    <button class="btn btn-primary" onclick="openModal('code10')">
+                        <i class="fas fa-code"></i> View Code
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div id="codeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Python Visualization Code</h3>
+                <div class="header-actions">
+                    <button class="btn btn-secondary btn-small" onclick="copyCode()">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                    <span class="close" onclick="closeModal()">×</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="code-container">
+                    <pre><code id="modalCode" class="language-python"></code></pre>
+                </div>
+                <div class="modal-footer">
+                    <span id="code-lines"></span>
+                    <button class="btn btn-primary" onclick="downloadCode()">
+                        <i class="fas fa-download"></i> Download Code
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const codeSnippets = {
+            code1: {
+                title: "Warming Stripes Visualization",
+                code: `import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Set Seaborn theme
+sns.set_theme(style="ticks")
+
+# Load dataset
+file_path = "/content/data.xlsx"
+df = pd.read_excel(file_path)
+
+# Convert 'Date' column to datetime format (handling errors)
+df["Date"] = pd.to_datetime(df["Date"], errors='coerce')
+
+# Drop any rows with NaT in the Date column
+df = df.dropna(subset=["Date"])
+
+# Define observed data column and GCM models
+observed = "Observed"
+models = ["1NESM3 (China)", "CMCC-ESM2", "CNRM-CM6-1 France", "CNRM-ESM2-1 France",
+          "EC-Earth3-Veg-LR (Europe)", "GFDL-ESM4", "INM-CM4-8 (Russia)", "INM-CM5-0",
+          "MIROC6 (Japan)", "MRI-ESM-2-0", "Ensemble"]
+
+# Plot Joint and Marginal Histograms for Each Model
+for model in models:
+    # Initialize JointGrid
+    g = sns.JointGrid(data=df, x=observed, y=model, marginal_ticks=True, height=8)
+
+    # Add joint histogram with color mapping
+    g.plot_joint(
+        sns.histplot, bins=30, cmap="coolwarm", pmax=.8, cbar=True
+    )
+
+    # Add marginal histograms on both axes
+    g.plot_marginals(sns.histplot, bins=30, color="black", kde=True)
+
+    # Set labels
+    g.set_axis_labels(f"{observed} Data", f"{model} Predictions", fontsize=12)
+
+    # Show plot
+    plt.show()`    
+            
+
+},
+            code2: {
+                title: "Visualization 2",
+                code: `import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Set Seaborn theme
+sns.set_theme(style="whitegrid", context="talk")
+
+# Load dataset
+file_path = "/content/data.xlsx"
+df = pd.read_excel(file_path)
+
+# Convert 'Date' column to datetime format (handling errors)
+df["Date"] = pd.to_datetime(df["Date"], errors='coerce')
+
+# Drop any rows with NaT in the Date column
+df = df.dropna(subset=["Date"])
+
+# Define observed data column and GCM models
+observed = "Observed"
+models = ["1NESM3 (China)", "CMCC-ESM2", "CNRM-CM6-1 France", "CNRM-ESM2-1 France",
+          "EC-Earth3-Veg-LR (Europe)", "GFDL-ESM4", "INM-CM4-8 (Russia)", "INM-CM5-0",
+          "MIROC6 (Japan)", "MRI-ESM-2-0", "Ensemble"]
+
+# Reshape data for visualization
+df_melted = df.melt(id_vars=["Date"], value_vars=models, var_name="Model", value_name="Value")
+
+# Initialize figure
+fig, ax = plt.subplots(figsize=(12, 7))
+sns.despine(bottom=True, left=True)
+
+# Show each observation with a scatterplot
+sns.stripplot(
+    data=df_melted, x="Value", y="Model", hue="Model",
+    dodge=True, alpha=.25, zorder=1, legend=False, jitter=True
+)
+
+# Show the conditional means with a pointplot
+sns.pointplot(
+    data=df_melted, x="Value", y="Model", hue="Model",
+    dodge=0.7, palette="dark", errorbar=None,
+    markers="d", markersize=5, linestyle="none"
+)
+
+
+# Improve labels
+ax.set(xlabel="Predicted Values", ylabel="GCM Models", title="Comparison of GCM Predictions")
+
+# Show plot
+plt.tight_layout()
+plt.show()`
+
+
+            },
+            
+            code3: {
+                title: "Visualization",
+                code: `import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Set Seaborn theme
+sns.set_theme(style="whitegrid", context="talk")
+
+# Load dataset
+file_path = "/content/data.xlsx"
+df = pd.read_excel(file_path)
+
+# Convert 'Date' column to datetime format (handling errors)
+df["Date"] = pd.to_datetime(df["Date"], errors='coerce')
+
+# Drop any rows with NaT in the Date column
+df = df.dropna(subset=["Date"])
+
+# Define observed data column and GCM models
+observed = "Observed"
+models = ["1NESM3 (China)", "CMCC-ESM2", "CNRM-CM6-1 France", "CNRM-ESM2-1 France",
+          "EC-Earth3-Veg-LR (Europe)", "GFDL-ESM4", "INM-CM4-8 (Russia)", "INM-CM5-0",
+          "MIROC6 (Japan)", "MRI-ESM-2-0", "Ensemble"]
+
+# Reshape data for visualization
+df_melted = df.melt(id_vars=["Date"], value_vars=models, var_name="Model", value_name="Value")
+
+# Initialize figure with a logarithmic x-axis
+fig, ax = plt.subplots(figsize=(10, 7))
+ax.set_xscale("log")
+
+# Create a boxplot for GCM models
+sns.boxplot(
+    data=df_melted, x="Value", y="Model", hue="Model",
+    whis=[0, 100], width=0.6, palette="vlag"
+)
+
+# Overlay with stripplot for individual observations
+sns.stripplot(
+    data=df_melted, x="Value", y="Model",
+    size=4, color=".3", alpha=0.5, jitter=True
+)
+
+# Improve aesthetics
+ax.xaxis.grid(True, linestyle="--", alpha=0.5)
+ax.set(ylabel="GCM Models", xlabel="Predicted Values (Log Scale)", title="")
+sns.despine(trim=True, left=True)
+
+
+# Show plot
+plt.tight_layout()
+plt.show()`
+
+
+},
+            code4: {
+                title: "Visualization 2",
+                code: `import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Set Seaborn theme
+sns.set_theme(style="whitegrid", context="talk")
+
+# Load dataset
+file_path = "/content/data.xlsx"
+df = pd.read_excel(file_path)
+
+# Convert 'Date' column to datetime format (handling errors)
+df["Date"] = pd.to_datetime(df["Date"], errors='coerce')
+
+# Drop any rows with NaT in the Date column
+df = df.dropna(subset=["Date"])
+
+# Define observed data column and GCM models
+observed = "Observed"
+models = ["1NESM3 (China)", "CMCC-ESM2", "CNRM-CM6-1 France", "CNRM-ESM2-1 France",
+          "EC-Earth3-Veg-LR (Europe)", "GFDL-ESM4", "INM-CM4-8 (Russia)", "INM-CM5-0",
+          "MIROC6 (Japan)", "MRI-ESM-2-0", "Ensemble"]
+
+# Reshape data for visualization
+df_melted = df.melt(id_vars=["Date"], value_vars=[observed] + models, var_name="Model", value_name="Value")
+
+# Initialize figure
+plt.figure(figsize=(12, 6))
+
+# Plot time series for observed and GCM models
+sns.lineplot(data=df_melted, x="Date", y="Value", hue="Model", palette="tab10", linewidth=2)
+
+# Customize the legend
+plt.legend(title="Models", loc="upper left", fontsize=10, frameon=True, bbox_to_anchor=(1.05, 1), borderaxespad=0)
+
+# Add labels and title
+plt.xlabel("Date", fontsize=14)
+plt.ylabel("Value", fontsize=14)
+plt.title("Observed vs GCM Model Predictions", fontsize=16, fontweight="bold")
+
+# Improve layout and display
+plt.grid(True, linestyle="--", alpha=0.5)
+plt.tight_layout()
+plt.show()`
+
+
+            },
+          
+            code5: {
+                title: "Visualization",
+                code: `import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.cm import ScalarMappable
+from matplotlib.colors import Normalize
+
+# Sample Data: Monthly temperature anomalies (replace with real data)
+years = np.arange(1900, 2024)
+months = np.arange(1, 13)
+n_years = len(years)
+
+# Simulate temperature anomaly data (replace with actual temperature data)
+temperature_anomalies = np.random.normal(0, 0.2, (n_years, len(months)))
+temperature_anomalies += np.linspace(-0.5, 1.0, n_years).reshape(-1, 1)  # Simulate warming trend
+
+# Close the loop by appending the first month's data to the end of each year's data
+temperature_anomalies = np.hstack([temperature_anomalies, temperature_anomalies[:, 0].reshape(-1, 1)])
+
+# Convert months and years into angles for polar plot
+angles = np.linspace(0, 2 * np.pi, len(months) + 1, endpoint=True)  # Add extra point for closure
+
+# Set up color normalization and colormap
+norm = Normalize(vmin=temperature_anomalies.min(), vmax=temperature_anomalies.max())
+cmap = plt.cm.seismic  # Diverging colormap: red for positive, blue for negative
+
+# Create a figure and polar axis
+fig, ax = plt.subplots(figsize=(10, 10), subplot_kw={'projection': 'polar'})
+ax.set_theta_direction(-1)  # Clockwise
+ax.set_theta_offset(np.pi / 2)  # Start at the top
+
+# Plot temperature anomaly spirals for each year
+for i, year in enumerate(years):
+    anomalies = temperature_anomalies[i]
+    colors = cmap(norm(anomalies))  # Map anomaly values to colors
+    for j in range(len(angles) - 1):
+        ax.plot(angles[j:j+2], anomalies[j:j+2] + i * 0.1, color=colors[j], linewidth=1.5, alpha=0.8)
+
+# Customize circular labels (months)
+ax.set_xticks(np.linspace(0, 2 * np.pi, 12, endpoint=False))
+ax.set_xticklabels(["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"], 
+                   fontsize=10, color='black')
+
+# Add central year annotation
+ax.text(0, -n_years * 0.05, "1900 - 2023", ha='center', va='center', fontsize=14, color='black', 
+        bbox=dict(boxstyle="round", facecolor='white'))
+
+# Styling
+ax.set_facecolor("white")
+ax.grid(color='gray', linestyle='--', alpha=0.5)
+ax.spines['polar'].set_visible(False)  # Hide the outer circle
+
+# Remove radial labels (temperature scale)
+ax.set_yticklabels([])
+
+# Add a colorbar
+sm = ScalarMappable(cmap=cmap, norm=norm)
+sm.set_array([])
+cbar = plt.colorbar(sm, ax=ax, orientation="horizontal", pad=0.1)
+cbar.set_label("Temperature Anomaly (°C)", fontsize=12, color='black')
+
+# Title
+plt.title("", color="black", fontsize=14)
+
+# Show plot
+plt.tight_layout()
+plt.show()`
+
+
+            },
+          
+            code6: {
+                title: "Visualization",
+                code: `import numpy as np
+import pandas as pd  # Import pandas to handle rolling mean
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from matplotlib.cm import ScalarMappable
+
+# Sample data (you can replace this with your own data)
+years = np.arange(1902, 2023)  # Example range from 1902 to 2022
+temperature_data = np.random.uniform(5, 10, len(years))  # Random temperature data for illustration
+
+# Calculate the rolling mean (smoothing the temperature data)
+temperature_smooth = pd.Series(temperature_data).rolling(window=5, min_periods=1).mean()
+
+# Normalize temperature data for color-coding (Warming Stripes)
+norm = mcolors.Normalize(vmin=np.min(temperature_data), vmax=np.max(temperature_data))
+cmap = plt.get_cmap('coolwarm')  # Use the 'coolwarm' colormap to represent below/above average temps
+
+# Number of data points (years) for plotting
+num_points = len(years)
+
+# Create the plot
+fig, ax = plt.subplots(figsize=(12, 12), subplot_kw={'projection': 'polar'})
+
+# Angle for each data point (year)
+theta = np.linspace(0, 2 * np.pi, num_points, endpoint=False)
+
+# The radius represents the temperature anomaly
+r = np.zeros(num_points)
+for i in range(num_points):
+    r[i] = temperature_data[i]
+
+# Plot the warming strips (color bands) in a radial layout
+bars = ax.bar(theta, r, width=2 * np.pi / num_points, bottom=0, color=cmap(norm(r)), align='center', edgecolor='none')
+
+# Plot the temperature trend (smoothed line) on top of the radial bands
+ax.plot(theta, temperature_smooth, color='black', linewidth=2, alpha=0.7, label="Smoothed Trend")
+
+# Customize the plot
+ax.set_title('', fontsize=16, color='darkblue', pad=30)
+ax.set_yticklabels([])  # Remove radial ticks
+
+# Angular ticks for years
+tick_indices = np.linspace(0, len(years) - 1, 15, dtype=int)  # Select ~15 year labels to avoid clutter
+ax.set_xticks(theta[tick_indices])
+ax.set_xticklabels(years[tick_indices], fontsize=10, color='darkblue')
+for label, angle in zip(ax.get_xticklabels(), theta[tick_indices]):
+    angle_deg = np.rad2deg(angle)
+    label.set_rotation(angle_deg - 90 if angle_deg > 180 else angle_deg + 90)  # Rotate outward
+    label.set_verticalalignment('center')
+
+# Add a colorbar to represent the temperature anomaly scale
+sm = ScalarMappable(norm=norm, cmap=cmap)
+sm.set_array([])
+cbar = plt.colorbar(sm, ax=ax, orientation="horizontal", pad=0.1, fraction=0.05)
+cbar.set_label('Temperature Anomaly (°C)', fontsize=12)
+cbar.ax.tick_params(labelsize=10)
+
+# Improve bar opacity for better contrast
+for bar in bars:
+    bar.set_alpha(0.8)
+
+# Add a legend for the trend line
+ax.legend(loc='upper right', bbox_to_anchor=(1.2, 1.1), fontsize=10)
+
+# Show the plot
+plt.tight_layout()
+plt.show()`
+
+
+            },
+          
+            code7: {
+                title: "Visualization",
+                code: `import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+
+# Sample data (replace with real temperature data)
+years = np.arange(1902, 2023)  # Example range from 1902 to 2022
+temperature_data = np.random.uniform(5, 10, len(years))  # Random temperature data for illustration
+
+# Calculate the rolling mean (smoothing the temperature data)
+temperature_smooth = pd.Series(temperature_data).rolling(window=5, min_periods=1).mean()
+
+# Normalize temperature data for color-coding (Warming Stripes)
+norm = mcolors.Normalize(vmin=np.min(temperature_data), vmax=np.max(temperature_data))
+cmap = plt.get_cmap('coolwarm')  # Use 'coolwarm' colormap for anomalies
+
+# Create the plot
+fig, ax1 = plt.subplots(figsize=(12, 8))
+
+# Plot the warming stripes (color bands) on the left y-axis
+for i in range(len(years) - 1):
+    ax1.axvspan(years[i], years[i + 1], color=cmap(norm(temperature_data[i])), lw=0)
+
+# Plot the temperature trend as a black line on the left y-axis
+ax1.plot(years, temperature_smooth, color='black', linewidth=2, label='Smoothed Temperature Trend')
+
+# Customize the left axis (temperature)
+ax1.set_title('', fontsize=18, color='darkblue', pad=20)
+ax1.set_xlabel('Year', fontsize=14, labelpad=10)
+ax1.set_ylabel('Mean Temperature (°C)', fontsize=14, labelpad=10)
+ax1.set_xticks(np.arange(1900, 2025, 10))  # Set x-axis ticks every 10 years
+ax1.tick_params(axis='both', which='major', labelsize=12)
+ax1.grid(True, linestyle='--', alpha=0.5)
+
+# Add second y-axis for anomaly data
+ax2 = ax1.twinx()
+ax2.set_ylabel('Temperature Anomaly (°C)', fontsize=14, labelpad=10)
+ax2.tick_params(axis='y', labelsize=12)
+
+# Add color bar to represent the temperature anomaly scale
+cbar = plt.colorbar(mcolors.ScalarMappable(norm=norm, cmap=cmap), ax=ax2, orientation='vertical', pad=0.02)
+cbar.set_label('Temperature Anomaly (°C)', fontsize=14)
+cbar.ax.tick_params(labelsize=12)
+
+# Add legend
+ax1.legend(loc='upper left', fontsize=12, frameon=True, facecolor='white', edgecolor='black')
+
+# Adjust layout for better spacing
+plt.tight_layout()
+
+# Show the plot
+plt.show()`
+
+
+            },
+          
+            code8: {
+                title: "Visualization",
+                code: `import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Mock data generation
+np.random.seed(42)
+
+# Generate sample temperature and precipitation data for different periods
+n = 500
+base_period = pd.DataFrame({
+    "Temperature": np.random.normal(15, 3, n),
+    "Precipitation": np.random.exponential(2, n),
+    "Period": "Base Period"
+})
+
+near_future = pd.DataFrame({
+    "Temperature": np.random.normal(16, 3, n),  # Slightly warmer
+    "Precipitation": np.random.exponential(2.2, n),  # Slightly wetter
+    "Period": "Near Future"
+})
+
+mid_future = pd.DataFrame({
+    "Temperature": np.random.normal(17, 3, n),  # Warmer
+    "Precipitation": np.random.exponential(2.5, n),  # Wetter
+    "Period": "Mid Future"
+})
+
+far_future = pd.DataFrame({
+    "Temperature": np.random.normal(18, 3, n),  # Much warmer
+    "Precipitation": np.random.exponential(3, n),  # Much wetter
+    "Period": "Far Future"
+})
+
+# Combine the datasets
+climate_data = pd.concat([base_period, near_future, mid_future, far_future], ignore_index=True)
+
+# --- 1. KDE Plot ---
+plt.figure(figsize=(10, 6))
+sns.kdeplot(data=climate_data, x="Temperature", hue="Period", fill=True, alpha=0.5)
+plt.title("KDE Plot of Temperature Across Time Periods")
+plt.xlabel("Temperature (°C)")
+plt.ylabel("Density")
+plt.legend(title="Period")
+plt.show()
+
+# --- 2. Box Plot ---
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=climate_data, x="Period", y="Temperature", palette="Set2")
+plt.title("Box Plot of Temperature Across Time Periods")
+plt.xlabel("Time Period")
+plt.ylabel("Temperature (°C)")
+plt.show()
+
+# --- 3. CDF Plot ---
+plt.figure(figsize=(10, 6))
+for period in climate_data["Period"].unique():
+    subset = climate_data[climate_data["Period"] == period]
+    sns.ecdfplot(data=subset, x="Temperature", label=period)
+plt.title("CDF of Temperature Across Time Periods")
+plt.xlabel("Temperature (°C)")
+plt.ylabel("Cumulative Probability")
+plt.legend(title="Period")
+plt.show()
+
+# --- 4. Shifted Histograms ---
+plt.figure(figsize=(10, 6))
+sns.histplot(data=climate_data, x="Temperature", hue="Period", kde=False, bins=30, alpha=0.6, palette="viridis")
+plt.title("Shifted Histograms of Temperature Across Time Periods")
+plt.xlabel("Temperature (°C)")
+plt.ylabel("Frequency")
+plt.legend(title="Period")
+plt.show()
+
+# --- 5. Anomaly Graph ---
+# Compute anomalies relative to the base period
+base_mean_temp = base_period["Temperature"].mean()
+base_mean_precip = base_period["Precipitation"].mean()
+
+climate_data["Temp_Anomaly"] = climate_data["Temperature"] - base_mean_temp
+climate_data["Precip_Anomaly"] = climate_data["Precipitation"] - base_mean_precip
+
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=climate_data, x="Period", y="Temp_Anomaly", palette="coolwarm")
+plt.axhline(0, color="black", linestyle="--", linewidth=1, label="Baseline")
+plt.title("Temperature Anomalies Relative to Base Period")
+plt.xlabel("Time Period")
+plt.ylabel("Temperature Anomaly (°C)")
+plt.legend()
+plt.show()
+
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=climate_data, x="Period", y="Precip_Anomaly", palette="coolwarm")
+plt.axhline(0, color="black", linestyle="--", linewidth=1, label="Baseline")
+plt.title("Precipitation Anomalies Relative to Base Period")
+plt.xlabel("Time Period")
+plt.ylabel("Precipitation Anomaly (mm)")
+plt.legend()
+plt.show()`
+
+
+            },
+          
+            code9: {
+                title: "Visualization",
+                code: ``
+
+
+            },
+          
+            code10: {
+                title: "Visualization",
+                code: ``
+
+
+            },
+          
+            code11: {
+                title: "Visualization",
+                code: ``
+
+
+            },
+          
+            code12: {
+                title: "Visualization",
+                code: ``
+
+
+            },
+          
+            code13: {
+                title: "Visualization",
+                code: ``
+
+
+            },
+          
+            code14: {
+                title: "Visualization",
+                code: ``
+
+
+            },
+          
+            code15: {
+                title: "Visualization",
+                code: ``
+
+
+            },
+          
+            code16: {
+                title: "Visualization",
+                code: ``
+
+
+            },
+
+            code100: {
+                title: "Visualization",
+                code: ``
+
+            }
+        };
+
+        function openModal(codeType) {
+            const modal = document.getElementById('codeModal');
+            const codeElement = document.getElementById('modalCode');
+            const titleElement = document.getElementById('modalTitle');
+            const linesElement = document.getElementById('code-lines');
+            
+            const snippet = codeSnippets[codeType];
+            codeElement.textContent = snippet.code.trim();
+            titleElement.textContent = snippet.title;
+            
+            const lineCount = snippet.code.split('\n').length;
+            linesElement.textContent = `${lineCount} lines`;
+            
+            modal.style.display = 'block';
+            setTimeout(() => modal.classList.add('show'), 10);
+            Prism.highlightAll();
+            
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeModal() {
+            const modal = document.getElementById('codeModal');
+            modal.classList.remove('show');
+            setTimeout(() => {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }, 200);
+        }
+
+        function copyCode() {
+            const code = document.getElementById('modalCode').textContent;
+            navigator.clipboard.writeText(code).then(() => {
+                const copyBtn = document.querySelector('.modal-header .btn-secondary');
+                copyBtn.innerHTML = '<i class="fas fa-check"></i>';
+                setTimeout(() => {
+                    copyBtn.innerHTML = '<i class="fas fa-copy"></i>';
+                }, 2000);
+            });
+        }
+
+        function downloadCode() {
+            const code = document.getElementById('modalCode').textContent;
+            const title = document.getElementById('modalTitle').textContent;
+            const blob = new Blob([code], { type: 'text/x-python' });
+            const url = window.URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `${title.toLowerCase().replace(/\s+/g, '_')}.py`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            window.URL.revokeObjectURL(url);
+        }
+
+        function downloadChart(chartType) {
+            alert(`Downloading ${chartType} chart...`);
+        }
+
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('codeModal')) {
+                closeModal();
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && document.getElementById('codeModal').style.display === 'block') {
+                closeModal();
+            }
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.js"></script>
+
+
+
+    <div class="footer">
+        © 2025 Pulakesh Pradhan | Geography Research Scholar
+    </div>
+
+</body>
+</html>
