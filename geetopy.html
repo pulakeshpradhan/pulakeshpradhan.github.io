@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Earth Engine Data Processing Guide</title>
+    
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --background: #f8fafc;
+            --text: #1e293b;
+            --code-bg: #1e293b;
+            --success: #22c55e;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background);
+            margin: 0;
+            padding: 24px;
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 40px;
+            color: var(--text);
+            border-left: 4px solid var(--primary);
+            padding-left: 16px;
+        }
+
+        .intro {
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .code-container {
+            position: relative;
+            background: var(--code-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 24px 0;
+            overflow-x: auto;
+        }
+
+        .code-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #334155;
+        }
+
+        .code-title {
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        .copy-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .copy-btn:hover {
+            background: var(--primary-dark);
+        }
+
+        .copy-btn i {
+            font-size: 0.8rem;
+        }
+
+        pre {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .note {
+            background: #fff7ed;
+            border-left: 4px solid #f97316;
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .requirements {
+            background: #f0fdf4;
+            border: 1px solid #86efac;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 24px 0;
+        }
+
+        .requirements h3 {
+            color: #166534;
+            margin-top: 0;
+        }
+
+        .requirements ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--success);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            display: none;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .data-table {
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+        ## 0. Authenticate Google Earth Engine
+        <div class="code-container">
+            <div class="code-header">
+                <span class="code-title">Authenticate Google Earth Engine</span>
+                <button class="copy-btn" onclick="copyCode('code0')">
+                    <i class="fas fa-copy"></i> Copy Code
+                </button>
+            </div>
+            <pre><code id="code0" class="language-python"># Import required libraries 
+import ee
+import geemap
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+# Authenticate and initialize Earth Engine
+ee.Authenticate()
+ee.Initialize(project="geepulakesh")
+
+# Authenticate and initialize Earth Engine
+Map =geemap.Map()
+Map
+</code></pre>
+        </div>
+        <div class="note">
+            <strong>Note:</strong> Replace <code>"your-project-id"</code> with your actual GEE project ID. Run this step once per session.
+        </div>
+
+        <h3> 1. Converting ImageCollections to DataFrame</h3> 
+        <div class="code-container">
+            <div class="code-header">
+                <span class="code-title">ImageCollection to DataFrame</span>
+                <button class="copy-btn" onclick="copyCode('code3')">
+                    <i class="fas fa-copy"></i> Copy Code
+                </button>
+            </div>
+            <pre><code id="code3" class="language-python"># Define the forest FeatureCollection
+forest = ee.FeatureCollection("projects/google/charts_feature_example").filter(
+    ee.Filter.eq("label", "Forest")
+)
+
+# Load the MODIS vegetation indices dataset
+veg_indices = (
+    ee.ImageCollection("MODIS/061/MOD13A1")
+    .filter(ee.Filter.date("2000-01-01", "2020-01-01"))
+    .select(["NDVI", "EVI"])
+)
+
+
+# Extract dates from the ImageCollection
+date_property = veg_indices.aggregate_array("system:time_start")
+dates = pd.to_datetime(date_property.getInfo(), unit="ms")
+# print(dates)
+
+# Function to reduce an image by regions
+def reduce_image(image):
+    return image.reduceRegions(
+        collection=forest,
+        reducer=ee.Reducer.mean(),
+        scale=500
+    ).select(["NDVI", "EVI", "system:time_start"])
+
+# Map the function over the ImageCollection
+reduced = veg_indices.map(reduce_image).flatten()
+
+# Convert the results to a list of dictionaries
+data = reduced.getInfo()
+features = data['features']
+
+# Convert the features list to a DataFrame
+df = pd.DataFrame([f['properties'] for f in features])
+
+# Add the extracted dates as a new column
+df['Date'] = pd.to_datetime(dates)
+
+# Display the resulting DataFrame
+df
+
+# Export the dataframe to a CSV file named 'exported_df.csv'
+# df.to_csv('imagecollcection_df.csv', index=False)
+</code></pre>
+        </div>
+
+
+ 
+
+        <h3> 2. Converting Images to DataFrame</h3>
+        <div class="code-container">
+            <div class="code-header">
+                <span class="code-title">Image to DataFrame</span>
+                <button class="copy-btn" onclick="copyCode('code2')">
+                    <i class="fas fa-copy"></i> Copy Code
+                </button>
+            </div>
+            <pre><code id="code2" class="language-python"># Load ecoregions FeatureCollection
+ecoregions = ee.FeatureCollection("projects/google/charts_feature_example")
+# Load the PRISM dataset and select temperature-related bands
+image = ee.ImageCollection("OREGONSTATE/PRISM/Norm91m").toBands().select("[0-9][0-9]_tmean")
+
+
+# Reduce the image by regions to calculate mean temperature for each region
+reduced = image.reduceRegions(
+    collection=ecoregions,
+    reducer=ee.Reducer.mean(),
+    scale=500
+)
+
+
+# Extract the results as a dictionary
+data = reduced.getInfo()
+
+# Convert the dictionary to a Pandas DataFrame
+df = pd.DataFrame([f['properties'] for f in data['features']])
+
+# Display the DataFrame
+df
+
+# Export the dataframe to a CSV file named 'exported_df.csv'
+# df.to_csv('image_df.csv', index=False)
+</code></pre>
+        </div>
+
+  
+
+        <h3> 3. Converting FeatureCollections to DataFrame</h3>
+           <div class="code-container">
+            <div class="code-header">
+                <span class="code-title">FeatureCollection to DataFrame</span>
+                <button class="copy-btn" onclick="copyCode('code1')">
+                    <i class="fas fa-copy"></i> Copy Code
+                </button>
+            </div>
+            <pre><code id="code1" class="language-python"># Define the ecoregions FeatureCollection
+ecoregions = ee.FeatureCollection("projects/google/charts_feature_example")
+# Select temperature-related properties
+features = ecoregions.select("[0-9][0-9]_tmean|label")
+
+# Convert the FeatureCollection to a DataFrame
+df = geemap.ee_to_df(features)
+
+# Display the DataFrame
+df
+
+# Export the dataframe to a CSV file named 'exported_df.csv'
+# df.to_csv('exported_df.csv', index=False)
+</code></pre>
+        </div>      
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Code copied to clipboard!</div>
+
+    <!-- External Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script>
+        function copyCode(codeId) {
+            const codeElement = document.getElementById(codeId);
+            const text = codeElement.innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.getElementById('toast');
+                toast.style.display = 'block';
+                setTimeout(() => {
+                    toast.style.display = 'none';
+                }, 2000);
+            });
+        }
+
+        // Initialize DataTables
+        $(document).ready(function() {
+            $('.display').DataTable();
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+</body>
+</html>
