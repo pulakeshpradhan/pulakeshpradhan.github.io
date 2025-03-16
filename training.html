@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>10-Day Google Earth Engine Training</title>
-    
+    <script>
+        function checkPassword() {
+            var password = prompt("Enter the password to access this page:");
+            if (password !== "GEE25") {
+                document.body.innerHTML = "<div style='display: flex; justify-content: center; align-items: center; height: 100vh;'><h2 style='color: red;'>The password will be provided after the course starts. @pulakesh</h2></div>";
+            }
+        }
+    </script>
+
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -642,7 +650,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="checkPassword()">
     <!-- Header -->
     <header>
         <div class="container header-container">
