@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Geospatial Research for Rural Development</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts - Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --secondary: #0f172a;
+      --accent: #06b6d4;
+      --light: #f8fafc;
+      --dark: #1e293b;
+      --text-body: #334155;
+      --rural: #4d7c0f;
+      --rural-light: #84cc16;
+      --rural-bg: rgba(132, 204, 22, 0.1);
+      --card-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+      --transition: all 0.3s ease;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f1f5f9;
+      color: var(--text-body);
+      line-height: 1.6;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      background-color: var(--light);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 0.75rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      color: var(--primary) !important;
+      font-size: 1.5rem;
+    }
+
+    .nav-link {
+      color: var(--dark) !important;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      transition: var(--transition);
+    }
+
+    .nav-link:hover, .nav-link.active {
+      background-color: rgba(37, 99, 235, 0.1);
+      color: var(--primary) !important;
+    }
+
+    .navbar-toggler {
+      border: none;
+      padding: 0.5rem;
+    }
+
+    .navbar-toggler:focus {
+      box-shadow: none;
+    }
+
+    /* Topic Filter */
+    .topic-filters {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      padding: 1rem 0;
+      gap: 0.5rem;
+      scrollbar-width: thin;
+      scrollbar-color: var(--primary) var(--light);
+    }
+
+    .topic-filters::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .topic-filters::-webkit-scrollbar-track {
+      background: var(--light);
+    }
+
+    .topic-filters::-webkit-scrollbar-thumb {
+      background-color: var(--primary);
+      border-radius: 20px;
+    }
+
+    .filter-btn {
+      white-space: nowrap;
+      padding: 0.5rem 1rem;
+      border-radius: 50px;
+      background-color: var(--light);
+      color: var(--dark);
+      border: 1px solid #e2e8f0;
+      font-weight: 500;
+      font-size: 0.875rem;
+      transition: var(--transition);
+    }
+
+    .filter-btn:hover, .filter-btn.active {
+      background-color: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .filter-btn.rural {
+      border-color: var(--rural);
+    }
+
+    .filter-btn.rural:hover, .filter-btn.rural.active {
+      background-color: var(--rural);
+      color: white;
+      border-color: var(--rural);
+    }
+
+    /* Header Styles */
+    .header {
+      background: linear-gradient(135deg, var(--secondary), var(--primary));
+      color: white;
+      padding: 5rem 0 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMGYxNzJhIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI1NjNlYiIgc3Ryb2tlLW9wYWNpdHk9IjAuMSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDY2TDAgNTBMMCA1MEwwIDE2TDAgMTZMMjggMFoiIGZpbGw9IiMyNTYzZWIiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PC9wYXRoPgo8cGF0aCBkPSJNMjggMEwyOCA2Nkw1NiA1MEw1NiA1MEw1NiAxNkw1NiAxNkwyOCAwWiIgZmlsbD0iIzI1NjNlYiIgZmlsbC1vcGFjaXR5PSIwLjA1Ij48L3BhdGg+Cjwvc3ZnPg==');
+      opacity: 0.3;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .header p {
+      font-size: 1.25rem;
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+      opacity: 0.9;
+    }
+
+    /* Search Bar */
+    .search-container {
+      max-width: 600px;
+      margin: 2rem auto 0;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 1rem 1.5rem;
+      border-radius: 50px;
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      font-size: 1rem;
+      padding-right: 3rem;
+    }
+
+    .search-input:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+    }
+
+    .search-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--primary);
+      font-size: 1.25rem;
+    }
+
+    /* Card Styles */
+    .card {
+      border: none;
+      border-radius: 0.75rem;
+      box-shadow: var(--card-shadow);
+      transition: var(--transition);
+      margin-bottom: 2rem;
+      overflow: hidden;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    }
+
+    .card-header {
+      padding: 1.25rem 1.5rem;
+      color: white;
+      border-bottom: none;
+    }
+
+    .card-header h2 {
+      font-size: 1.5rem;
+      margin: 0;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card-body {
+      padding: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .card-body ul {
+      margin-left: 0;
+      padding-left: 1.25rem;
+      list-style-type: none;
+    }
+
+    .card-body ul li {
+      position: relative;
+      padding-left: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-body ul li::before {
+      content: "•";
+      color: var(--primary);
+      font-weight: bold;
+      position: absolute;
+      left: -1rem;
+    }
+
+    .rural-impact {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background-color: var(--rural-bg);
+      border-radius: 0.5rem;
+      border-left: 3px solid var(--rural);
+    }
+
+    .rural-impact h4 {
+      color: var(--rural);
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .rural-impact p {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    .research-themes {
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e2e8f0;
+      display: none;
+    }
+
+    .research-themes h3 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: var(--dark);
+    }
+
+    .theme-item {
+      background-color: #f8fafc;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+      border-left: 3px solid var(--primary);
+    }
+
+    .theme-item.rural-theme {
+      border-left: 3px solid var(--rural);
+      background-color: var(--rural-bg);
+    }
+
+    .theme-title {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--dark);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .theme-title .rural-icon {
+      color: var(--rural);
+    }
+
+    .theme-desc {
+      font-size: 0.875rem;
+      color: var(--text-body);
+      margin-bottom: 0;
+    }
+
+    .toggle-themes {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--primary);
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+    }
+
+    .toggle-themes:hover {
+      color: var(--secondary);
+    }
+
+    .toggle-themes i {
+      transition: var(--transition);
+      margin-left: 0.25rem;
+    }
+
+    .toggle-themes.active i {
+      transform: rotate(180deg);
+    }
+
+    /* Rural Development Lens Toggle */
+    .rural-lens-container {
+      display: flex;
+      justify-content: center;
+      margin: 1rem 0 2rem;
+    }
+
+    .rural-lens-toggle {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      background-color: var(--light);
+      border: 1px solid #e2e8f0;
+      border-radius: 50px;
+      padding: 0.5rem 1.25rem;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .rural-lens-toggle:hover {
+      background-color: var(--rural-bg);
+      border-color: var(--rural-light);
+    }
+
+    .rural-lens-toggle.active {
+      background-color: var(--rural-bg);
+      border-color: var(--rural);
+    }
+
+    .rural-lens-toggle .toggle-icon {
+      color: var(--rural);
+      font-size: 1.25rem;
+    }
+
+    .rural-lens-toggle .toggle-text {
+      font-weight: 500;
+      color: var(--dark);
+    }
+
+    /* Footer Styles */
+    .footer {
+      background: var(--secondary);
+      color: white;
+      padding: 3rem 0 2rem;
+    }
+
+    .footer h4 {
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      transition: var(--transition);
+    }
+
+    .social-links a:hover {
+      background-color: var(--primary);
+      transform: translateY(-3px);
+    }
+
+    .copyright {
+      text-align: center;
+      padding-top: 2rem;
+      margin-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.875rem;
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: var(--primary);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: var(--transition);
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .back-to-top:hover {
+      background-color: var(--secondary);
+      transform: translateY(-5px);
+    }
+
+    /* Dark Mode Toggle */
+    .dark-mode-toggle {
+      position: fixed;
+      bottom: 2rem;
+      left: 2rem;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: var(--dark);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: var(--transition);
+      z-index: 100;
+    }
+
+    .dark-mode-toggle:hover {
+      transform: rotate(30deg);
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 991.98px) {
+      .navbar-collapse {
+        background-color: var(--light);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 0.5rem;
+        box-shadow: var(--card-shadow);
+      }
+      
+      .header {
+        padding: 4rem 0 3rem;
+      }
+      
+      .header h1 {
+        font-size: 2rem;
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .header {
+        padding: 3rem 0 2rem;
+      }
+      
+      .header h1 {
+        font-size: 1.75rem;
+      }
+      
+      .header p {
+        font-size: 1rem;
+      }
+      
+      .card-header h2 {
+        font-size: 1.25rem;
+      }
+    }
+
+    /* Dark Mode Styles */
+    body.dark-mode {
+      background-color: #0f172a;
+      color: #e2e8f0;
+    }
+
+    body.dark-mode .navbar,
+    body.dark-mode .filter-btn {
+      background-color: #1e293b;
+      color: #f8fafc;
+    }
+
+    body.dark-mode .navbar-brand {
+      color: #60a5fa !important;
+    }
+
+    body.dark-mode .nav-link {
+      color: #e2e8f0 !important;
+    }
+
+    body.dark-mode .nav-link:hover,
+    body.dark-mode .nav-link.active {
+      background-color: rgba(96, 165, 250, 0.1);
+      color: #60a5fa !important;
+    }
+
+    body.dark-mode .card {
+      background-color: #1e293b;
+    }
+
+    body.dark-mode .theme-item {
+      background-color: #0f172a;
+    }
+
+    body.dark-mode .theme-title {
+      color: #f8fafc;
+    }
+
+    body.dark-mode .theme-desc {
+      color: #cbd5e1;
+    }
+
+    body.dark-mode .toggle-themes {
+      color: #60a5fa;
+    }
+
+    body.dark-mode .dark-mode-toggle {
+      background-color: #f8fafc;
+      color: #0f172a;
+    }
+
+    body.dark-mode .rural-impact {
+      background-color: rgba(132, 204, 22, 0.05);
+    }
+
+    body.dark-mode .theme-item.rural-theme {
+      background-color: rgba(132, 204, 22, 0.05);
+    }
+
+    body.dark-mode .rural-lens-toggle {
+      background-color: #1e293b;
+      border-color: #334155;
+    }
+
+    body.dark-mode .rural-lens-toggle.active {
+      background-color: rgba(132, 204, 22, 0.1);
+      border-color: var(--rural);
+    }
+
+    body.dark-mode .rural-lens-toggle .toggle-text {
+      color: #f8fafc;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <!-- <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-earth-americas"></i> GeoResearch Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#topics">Topics</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rural-dev">Rural Development</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+<!-- Header -->
+<header class="header" id="home">
+    <div class="container">
+        <!-- <h1>Climate Change, Agriculture and Rural Development</h1> -->
+            
+        <!-- Search Bar -->
+        <div class="search-container">
+        <input type="text" class="search-input" placeholder="Climate Change, Agriculture and Rural Development research topics..." id="searchInput">
+        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Rural Development Lens Toggle -->
+  <div class="container" id="rural-dev">
+    <div class="rural-lens-container">
+      <div class="rural-lens-toggle" id="ruralLensToggle">
+        <i class="fa-solid fa-seedling toggle-icon"></i>
+        <span class="toggle-text">View Through Rural Development Lens</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Topic Filters -->
+  <div class="container mt-2" id="topics">
+    <div class="topic-filters">
+      <!-- <button class="filter-btn active" data-filter="all">All Topics</button> -->
+      <!-- <button class="filter-btn rural" data-filter="rural">Rural Development</button> -->
+      <button class="filter-btn" data-filter="vegetation">Vegetation</button>
+      <button class="filter-btn" data-filter="water">Water</button>
+      <button class="filter-btn" data-filter="climate">Climate</button>
+      <button class="filter-btn" data-filter="soil">Soil</button>
+      <button class="filter-btn" data-filter="topography">Topography</button>
+      <button class="filter-btn" data-filter="groundwater">Ground Water</button>
+      <button class="filter-btn" data-filter="drought">Drought</button>
+      <button class="filter-btn" data-filter="flood">Flood</button>
+      <button class="filter-btn" data-filter="extreme">Extreme Events</button>
+      <button class="filter-btn" data-filter="sar">SAR Radar</button>
+      <button class="filter-btn" data-filter="degradation">Degradation</button>
+      <button class="filter-btn" data-filter="lulc">LULC Change</button>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <div class="row" id="topicCards">
+      <!-- Vegetation -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="vegetation" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #2e7d32, #66bb6a);">
+            <h2><i class="fa-solid fa-leaf"></i> Vegetation</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Vegetation Cover Mapping:</strong> Delineate areas of dense and sparse vegetation.</li>
+              <li><strong>NDVI Analysis:</strong> Assess vegetation health using normalized difference indices.</li>
+              <li><strong>Forest Health Monitoring:</strong> Track forest conditions and detect disease outbreaks.</li>
+              <li><strong>Crop Identification:</strong> Classify crop types and monitor seasonal growth.</li>
+              <li><strong>Invasive Species Detection:</strong> Detect and map non-native vegetation species.</li>
+              <li><strong>Agroforestry Systems Mapping:</strong> Identify integrated tree-crop-livestock systems for sustainable rural livelihoods.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Vegetation monitoring directly supports food security, income diversification, and natural resource management for rural communities. Accurate vegetation data enables targeted agricultural interventions, sustainable harvesting practices, and ecosystem service valuation that can transform rural economies.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="vegetation-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="vegetation-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Remote Sensing of Vegetation Dynamics</div>
+                <p class="theme-desc">Advanced techniques for monitoring seasonal and long-term vegetation changes using multi-temporal satellite imagery and spectral indices.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Phenological Analysis</div>
+                <p class="theme-desc">Tracking plant life cycle events and their relationship to climate variables using time-series analysis of vegetation indices.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Vegetation Stress Detection</div>
+                <p class="theme-desc">Early warning systems for drought and disease impacts on vegetation using hyperspectral and thermal remote sensing.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Carbon Sequestration Estimation</div>
+                <p class="theme-desc">Quantifying carbon storage in different vegetation types using LiDAR, radar, and optical remote sensing data fusion techniques.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Biodiversity Assessment</div>
+                <p class="theme-desc">Using remote sensing to evaluate ecosystem diversity through structural and functional trait mapping.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Agroforestry Systems for Rural Communities</div>
+                <p class="theme-desc">Integration of trees with crops and livestock for sustainable livelihoods, income diversification through multiple products, and enhanced ecosystem services for rural resilience.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Indigenous and Traditional Crop Systems</div>
+                <p class="theme-desc">Preservation of local varieties adapted to changing conditions, cultural heritage preservation through traditional farming, and food sovereignty for rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Community-Based Forest Management</div>
+                <p class="theme-desc">Participatory approaches to sustainable forest use, equitable benefit-sharing mechanisms, and local governance of natural resources for rural development.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Water -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="water" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #0277bd, #29b6f6);">
+            <h2><i class="fa-solid fa-water"></i> Water</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Surface Water Mapping:</strong> Identify lakes, rivers, and reservoirs.</li>
+              <li><strong>Water Quality Assessment:</strong> Monitor clarity, pollutants, and algal blooms.</li>
+              <li><strong>Reservoir Storage Estimation:</strong> Estimate water volume in storage facilities.</li>
+              <li><strong>River Discharge Analysis:</strong> Analyze flow rates and water level variations.</li>
+              <li><strong>Wetland Mapping:</strong> Identify and monitor the extent of wetland ecosystems.</li>
+              <li><strong>Small-Scale Irrigation Mapping:</strong> Identify and monitor community-managed irrigation systems for smallholder agriculture.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Water resource management is fundamental to rural livelihoods, affecting agricultural productivity, health outcomes, and gender equity. Geospatial water monitoring enables equitable water allocation, infrastructure planning, and disaster preparedness that directly impact rural well-being.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="water-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="water-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Hydrological Modeling</div>
+                <p class="theme-desc">Simulating water movement and distribution across landscapes using integrated remote sensing data and physical models.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Water Scarcity Analysis</div>
+                <p class="theme-desc">Identifying regions facing water stress and shortage through multi-source data integration and trend analysis.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Transboundary Water Management</div>
+                <p class="theme-desc">Monitoring shared water resources across political boundaries using satellite observations and international data sharing.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Coastal Water Quality</div>
+                <p class="theme-desc">Remote sensing techniques for monitoring marine and coastal environments, including harmful algal bloom detection.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Irrigation Efficiency Assessment</div>
+                <p class="theme-desc">Evaluating water use efficiency in agricultural systems through thermal imagery and evapotranspiration modeling.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Small-Scale Irrigation Systems</div>
+                <p class="theme-desc">Appropriate technologies for smallholder farmers, water user associations and collective management, and gender-responsive water allocation for rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Rural Water Supply and Sanitation</div>
+                <p class="theme-desc">Decentralized water treatment solutions, community-managed water systems, and health impacts on rural productivity and well-being.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Watershed Management for Rural Communities</div>
+                <p class="theme-desc">Upstream-downstream relationships, payment for ecosystem services schemes, and collective action for water resource protection in rural watersheds.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Climate -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="climate" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #f57f17, #ffca28);">
+            <h2><i class="fa-solid fa-temperature-high"></i> Climate</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Temperature Trends:</strong> Analyze long-term temperature patterns.</li>
+              <li><strong>Precipitation Analysis:</strong> Monitor rainfall patterns and anomalies.</li>
+              <li><strong>Extreme Weather Monitoring:</strong> Track storms, heatwaves, and cold snaps.</li>
+              <li><strong>Climate Model Comparison:</strong> Evaluate projections from different climate models.</li>
+              <li><strong>Seasonal Variability:</strong> Assess seasonal shifts in climate parameters.</li>
+              <li><strong>Climate-Smart Village Mapping:</strong> Identify and monitor integrated climate adaptation approaches in rural communities.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Climate variability and change disproportionately affect rural communities dependent on natural resources. Geospatial climate analysis enables targeted adaptation strategies, early warning systems, and climate-resilient agricultural practices that strengthen rural adaptive capacity.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="climate-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="climate-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Climate Change Vulnerability Mapping</div>
+                <p class="theme-desc">Identifying areas most susceptible to climate impacts through integrated spatial analysis of physical and socioeconomic factors.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Urban Heat Island Analysis</div>
+                <p class="theme-desc">Quantifying temperature differences between urban and rural areas using thermal remote sensing and land cover analysis.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Carbon Flux Monitoring</div>
+                <p class="theme-desc">Tracking greenhouse gas emissions and absorption using advanced remote sensing techniques and atmospheric modeling.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Climate Model Validation</div>
+                <p class="theme-desc">Using Earth observation data to validate climate predictions and improve model accuracy through data assimilation.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Climate Adaptation Planning</div>
+                <p class="theme-desc">Spatial analysis for climate resilience strategies, including scenario modeling and adaptation pathway mapping.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Climate-Smart Villages</div>
+                <p class="theme-desc">Integrated approaches to climate adaptation in rural settings, local climate information services for farmers, and community-based early warning systems for climate resilience.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Rural Energy Transitions</div>
+                <p class="theme-desc">Renewable energy for productive uses, decentralized mini-grids for remote communities, and biomass management for sustainable rural energy systems.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Climate Finance for Rural Development</div>
+                <p class="theme-desc">Microfinance for climate adaptation, carbon credits for smallholder farmers, and insurance mechanisms for climate risks in rural contexts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soil -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="soil" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #5d4037, #8d6e63);">
+            <h2><i class="fa-solid fa-seedling"></i> Soil</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Soil Moisture Analysis:</strong> Monitor moisture levels for agriculture and hydrology.</li>
+              <li><strong>Soil Texture Mapping:</strong> Classify soils based on particle size and composition.</li>
+              <li><strong>Erosion Monitoring:</strong> Identify areas at risk of soil loss.</li>
+              <li><strong>Soil Organic Matter:</strong> Estimate organic content to assess fertility.</li>
+              <li><strong>Land Degradation:</strong> Track changes in soil quality and productivity.</li>
+              <li><strong>Indigenous Soil Knowledge Mapping:</strong> Document and integrate traditional soil classification and management practices.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Soil health is the foundation of agricultural productivity and rural livelihoods. Geospatial soil monitoring enables targeted soil management interventions, sustainable land use planning, and restoration efforts that directly enhance rural food security and income generation.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="soil-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="soil-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Digital Soil Mapping</div>
+                <p class="theme-desc">Advanced techniques for high-resolution soil property mapping using machine learning and multi-source data integration.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Soil Carbon Dynamics</div>
+                <p class="theme-desc">Monitoring changes in soil organic carbon over time using spectral analysis and process-based modeling.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Precision Agriculture Applications</div>
+                <p class="theme-desc">Soil-specific management zones for optimized farming based on detailed spatial analysis of soil properties.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Soil Salinization Monitoring</div>
+                <p class="theme-desc">Tracking salt accumulation in agricultural soils using multi-temporal satellite imagery and field validation.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Soil Biodiversity Assessment</div>
+                <p class="theme-desc">Evaluating soil health through biodiversity indicators and their relationship to ecosystem services.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Soil Health Management for Smallholders</div>
+                <p class="theme-desc">Low-cost soil testing methods for farmers, indigenous soil knowledge integration, and soil conservation techniques for marginal lands in rural areas.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Community Soil Carbon Projects</div>
+                <p class="theme-desc">Carbon sequestration as income source, participatory soil monitoring approaches, and linking soil health to rural livelihoods and climate resilience.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Land Restoration and Rural Employment</div>
+                <p class="theme-desc">Job creation through landscape restoration, skills development for sustainable land management, and tenure security for restoration incentives in rural communities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Topography -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="topography" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #4e342e, #8d6e63);">
+            <h2><i class="fa-solid fa-mountain"></i> Topography</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Digital Elevation Models (DEMs):</strong> Generate detailed elevation maps.</li>
+              <li><strong>Slope & Aspect Analysis:</strong> Determine slope steepness and orientation.</li>
+              <li><strong>Terrain Ruggedness:</strong> Quantify surface roughness and variability.</li>
+              <li><strong>Contour Mapping:</strong> Create contour lines to represent elevation changes.</li>
+              <li><strong>Watershed Delineation:</strong> Identify drainage basins and hydrological networks.</li>
+              <li><strong>Rural Accessibility Mapping:</strong> Analyze terrain constraints on rural mobility and service access.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Topography significantly influences rural settlement patterns, agricultural practices, and infrastructure development. Geospatial topographic analysis enables appropriate land use planning, disaster risk reduction, and infrastructure design that addresses the unique challenges of rural landscapes.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="topography-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="topography-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">LiDAR Applications</div>
+                <p class="theme-desc">High-precision elevation mapping for various applications using airborne and terrestrial laser scanning technologies.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Geomorphological Analysis</div>
+                <p class="theme-desc">Studying landform evolution and processes through multi-temporal DEM analysis and change detection.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Natural Hazard Risk Assessment</div>
+                <p class="theme-desc">Identifying areas prone to landslides and other topography-related hazards using integrated spatial modeling.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Viewshed Analysis</div>
+                <p class="theme-desc">Determining visibility from specific locations for planning purposes and landscape assessment.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Terrain-based Ecological Modeling</div>
+                <p class="theme-desc">Using topography to predict species distributions and habitat suitability through advanced spatial statistics.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Terrain-Appropriate Rural Infrastructure</div>
+                <p class="theme-desc">Road network planning in challenging topography, landslide-resistant construction techniques, and spatial planning for disaster-prone rural areas.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Terracing and Land Modification Systems</div>
+                <p class="theme-desc">Traditional and modern terracing approaches, labor dynamics in terrace construction and maintenance, and economic returns on terracing investments for rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Topography-Based Rural Planning</div>
+                <p class="theme-desc">Settlement patterns in relation to elevation, accessibility analysis for service provision, and topographic constraints on rural development planning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ground Water -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="groundwater" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #00695c, #26a69a);">
+            <h2><i class="fa-solid fa-droplet"></i> Ground Water</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Aquifer Mapping:</strong> Identify and delineate groundwater reservoirs.</li>
+              <li><strong>Groundwater Monitoring:</strong> Track water table fluctuations over time.</li>
+              <li><strong>Recharge Estimation:</strong> Calculate natural replenishment rates of aquifers.</li>
+              <li><strong>Contamination Risk:</strong> Assess areas vulnerable to groundwater pollution.</li>
+              <li><strong>Well Location Analysis:</strong> Determine optimal locations for groundwater extraction.</li>
+              <li><strong>Community Aquifer Management:</strong> Map and monitor community-managed groundwater resources and governance systems.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Groundwater is often the primary water source for rural communities, especially in water-scarce regions. Geospatial groundwater monitoring enables sustainable extraction planning, equitable access, and pollution prevention that directly impact rural water security and agricultural productivity.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="groundwater-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="groundwater-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Aquifer Vulnerability Assessment</div>
+                <p class="theme-desc">Identifying areas at risk of groundwater contamination using multi-criteria spatial analysis and hydrogeological modeling.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Groundwater-Surface Water Interactions</div>
+                <p class="theme-desc">Mapping connections between above and below-ground water systems using thermal imagery and tracer studies.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Subsidence Monitoring</div>
+                <p class="theme-desc">Tracking land sinking due to groundwater extraction using InSAR and GNSS technologies.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Managed Aquifer Recharge</div>
+                <p class="theme-desc">Identifying optimal locations for groundwater replenishment through integrated spatial analysis of hydrogeological factors.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Saltwater Intrusion Modeling</div>
+                <p class="theme-desc">Predicting and monitoring seawater infiltration into coastal aquifers using geophysical methods and spatial modeling.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Community-Managed Aquifer Systems</div>
+                <p class="theme-desc">Local governance of groundwater resources, equitable access and conflict resolution, and participatory monitoring of water tables in rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Groundwater for Rural Livelihoods</div>
+                <p class="theme-desc">Small-scale pumping technologies, groundwater-dependent economic activities, and gender dimensions of groundwater access in rural areas.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Managed Aquifer Recharge in Rural Areas</div>
+                <p class="theme-desc">Traditional water harvesting structures, community ownership of recharge infrastructure, and integration with agricultural systems for sustainable rural water management.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drought -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="drought" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #bf360c, #ff7043);">
+            <h2><i class="fa-solid fa-sun-plant-wilt"></i> Drought</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Drought Severity Mapping:</strong> Identify regions under severe drought conditions.</li>
+              <li><strong>Vegetation Stress Indicators:</strong> Monitor signs of water stress in plants.</li>
+              <li><strong>Soil Moisture Deficit:</strong> Quantify lack of moisture in the soil.</li>
+              <li><strong>Water Supply Shortfall:</strong> Assess potential shortages in water supply.</li>
+              <li><strong>Drought Trend Analysis:</strong> Analyze historical drought patterns and trends.</li>
+              <li><strong>Rural Livelihood Vulnerability:</strong> Map drought impacts on rural income sources and coping strategies.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Drought disproportionately affects rural communities dependent on rainfed agriculture and natural resources. Geospatial drought monitoring enables early warning systems, targeted relief interventions, and adaptation planning that strengthen rural resilience to increasingly frequent drought events.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="drought-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="drought-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Multi-index Drought Monitoring</div>
+                <p class="theme-desc">Combining multiple indicators for comprehensive drought assessment using statistical integration and machine learning.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Agricultural Drought Impact Assessment</div>
+                <p class="theme-desc">Quantifying crop losses and yield reductions using remote sensing and crop modeling integration.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Drought Forecasting Models</div>
+                <p class="theme-desc">Predictive analytics for drought onset and severity using climate data assimilation and machine learning.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Socioeconomic Vulnerability to Drought</div>
+                <p class="theme-desc">Mapping communities most at risk from drought impacts through integrated socioeconomic and biophysical analysis.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Drought Recovery Tracking</div>
+                <p class="theme-desc">Monitoring ecosystem and agricultural recovery post-drought using multi-temporal vegetation indices and soil moisture data.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Drought-Resilient Rural Economies</div>
+                <p class="theme-desc">Livelihood diversification strategies, drought-resistant value chains, and social protection mechanisms during drought periods for rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Indigenous Knowledge for Drought Management</div>
+                <p class="theme-desc">Traditional early warning indicators, local coping strategies and their effectiveness, and integration with scientific drought monitoring systems.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Drought Governance and Rural Institutions</div>
+                <p class="theme-desc">Water allocation during scarcity, community drought response planning, and institutional arrangements for drought management in rural contexts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flood -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="flood" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #0d47a1, #42a5f5);">
+            <h2><i class="fa-solid fa-house-flood-water"></i> Flood</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Flood Inundation Mapping:</strong> Identify areas susceptible to flooding.</li>
+              <li><strong>Flood Risk Zones:</strong> Define high-risk flood zones for planning.</li>
+              <li><strong>River Floodplain Analysis:</strong> Assess floodplain dynamics and extents.</li>
+              <li><strong>Urban Flood Detection:</strong> Detect flooding in urban landscapes via remote sensing.</li>
+              <li><strong>Post-Flood Assessment:</strong> Evaluate damage and plan recovery measures.</li>
+              <li><strong>Flood-Adapted Agriculture:</strong> Map and monitor flood-resilient farming systems in rural floodplains.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Floods can devastate rural infrastructure and agricultural lands while also providing beneficial ecosystem services. Geospatial flood analysis enables risk-informed land use planning, early warning systems, and adaptation strategies that protect rural assets while capitalizing on flood benefits.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="flood-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="flood-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Real-time Flood Monitoring Systems</div>
+                <p class="theme-desc">Integrating satellite data with ground sensors for immediate detection using data fusion and edge computing.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Urban Flood Modeling</div>
+                <p class="theme-desc">Simulating flood scenarios in complex urban environments using high-resolution DEMs and hydrodynamic models.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Climate Change and Flood Risk</div>
+                <p class="theme-desc">Projecting future flood patterns under climate change scenarios using downscaled climate models and hydrological simulations.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Flood-Resilient Infrastructure Planning</div>
+                <p class="theme-desc">Spatial analysis for flood-resistant development using multi-criteria decision analysis and scenario planning.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Post-Flood Disease Risk Mapping</div>
+                <p class="theme-desc">Identifying areas at risk for waterborne disease outbreaks using environmental factors and population vulnerability analysis.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Flood-Adapted Rural Livelihoods</div>
+                <p class="theme-desc">Floating agriculture and aquatic farming systems, seasonal migration patterns in flood-prone areas, and post-flood recovery and adaptation strategies for rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Community-Based Flood Management</div>
+                <p class="theme-desc">Local early warning systems, indigenous flood protection techniques, and participatory flood mapping and planning in rural contexts.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Flood-Resilient Rural Infrastructure</div>
+                <p class="theme-desc">Elevated structures and flood-proof designs, critical facilities protection in rural areas, and evacuation routes and safe havens for rural communities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Extreme Events -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="extreme" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #b71c1c, #ef5350);">
+            <h2><i class="fa-solid fa-bolt-lightning"></i> Extreme Events</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Heatwaves:</strong> Monitor extreme temperature spikes and durations.</li>
+              <li><strong>Storm Surges:</strong> Track coastal flooding from intense storms.</li>
+              <li><strong>Tornado Tracking:</strong> Identify and follow tornado paths.</li>
+              <li><strong>Landslide Monitoring:</strong> Detect sudden landslides and avalanches.</li>
+              <li><strong>Severe Thunderstorms:</strong> Monitor intense thunderstorm activity.</li>
+              <li><strong>Rural Disaster Risk Reduction:</strong> Map community vulnerability, capacity, and response systems in rural areas.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Extreme events can devastate rural communities with limited infrastructure and emergency services. Geospatial analysis of extreme events enables targeted preparedness, effective early warning systems, and strategic recovery planning that build long-term rural resilience to disasters.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="extreme-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="extreme-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Multi-hazard Risk Assessment</div>
+                <p class="theme-desc">Integrated analysis of multiple extreme event types using probabilistic modeling and spatial statistics.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Extreme Event Attribution Studies</div>
+                <p class="theme-desc">Linking specific events to climate change through advanced statistical methods and climate model ensembles.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Critical Infrastructure Vulnerability</div>
+                <p class="theme-desc">Identifying essential services at risk from extreme events using network analysis and spatial modeling.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Early Warning System Development</div>
+                <p class="theme-desc">Geospatial components of disaster alert systems using real-time data integration and automated detection algorithms.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Disaster Response Optimization</div>
+                <p class="theme-desc">Spatial analysis for emergency resource allocation using accessibility modeling and dynamic routing algorithms.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Rural Disaster Risk Reduction</div>
+                <p class="theme-desc">Community-based disaster preparedness, local knowledge in hazard mapping, and social networks in emergency response for rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Post-Disaster Rural Recovery</div>
+                <p class="theme-desc">Building back better approaches, livelihood restoration after disasters, and psychological and social recovery in rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Extreme Events and Rural-Urban Migration</div>
+                <p class="theme-desc">Displacement patterns after disasters, remittance flows for recovery, and return migration dynamics in rural contexts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SAR Radar -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="sar" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #455a64, #607d8b);">
+            <h2><i class="fa-solid fa-satellite"></i> SAR Radar</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Synthetic Aperture Radar Imaging:</strong> Acquire high-resolution images independent of weather.</li>
+              <li><strong>Soil Moisture Retrieval:</strong> Derive soil moisture levels using radar signals.</li>
+              <li><strong>Surface Deformation Analysis:</strong> Monitor land subsidence and uplift.</li>
+              <li><strong>Vegetation Structure Mapping:</strong> Analyze canopy structure via radar backscatter.</li>
+              <li><strong>Flood Monitoring:</strong> Detect flood extents using SAR even under cloud cover.</li>
+              <li><strong>Rural Infrastructure Monitoring:</strong> Track conditions of critical rural infrastructure using all-weather radar capabilities.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>SAR technology's all-weather capabilities are particularly valuable in rural areas with limited ground monitoring. Radar applications enable continuous monitoring of agricultural conditions, infrastructure stability, and disaster impacts that support informed rural development planning and risk management.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="sar-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="sar-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">InSAR for Tectonic Monitoring</div>
+                <p class="theme-desc">Measuring ground deformation from tectonic activity using differential interferometry and time-series analysis.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Polarimetric SAR Analysis</div>
+                <p class="theme-desc">Advanced techniques for surface characteristic determination using multi-polarization radar data and decomposition methods.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">SAR for Cryosphere Studies</div>
+                <p class="theme-desc">Monitoring ice sheets, glaciers, and snow cover using radar penetration capabilities and backscatter analysis.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Maritime Surveillance Applications</div>
+                <p class="theme-desc">Ship detection and oil spill monitoring using change detection algorithms and pattern recognition.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">SAR Data Fusion Techniques</div>
+                <p class="theme-desc">Combining SAR with optical and other data sources using machine learning and statistical integration methods.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Community-Based Radar Monitoring</div>
+                <p class="theme-desc">Training local monitors in radar data interpretation, participatory validation of remote sensing data, and technology transfer to rural institutions.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> SAR Applications for Rural Infrastructure</div>
+                <p class="theme-desc">Monitoring rural road conditions, small dam safety assessment, and rural settlement subsidence detection using radar technologies.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Radar for Rural Resource Management</div>
+                <p class="theme-desc">Community forestry monitoring, flood extent mapping for compensation, and crop insurance verification in rural contexts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Degradation -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="degradation" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #616161, #9e9e9e);">
+            <h2><i class="fa-solid fa-hill-rockslide"></i> Degradation</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Land Degradation Mapping:</strong> Identify regions experiencing environmental degradation.</li>
+              <li><strong>Desertification Tracking:</strong> Monitor the progression of desertification.</li>
+              <li><strong>Soil Erosion Rates:</strong> Measure rates of soil loss over time.</li>
+              <li><strong>Deforestation Impacts:</strong> Assess how deforestation affects land quality.</li>
+              <li><strong>Ecosystem Recovery:</strong> Track recovery progress in degraded areas.</li>
+              <li><strong>Community Restoration Initiatives:</strong> Map and monitor community-led land restoration efforts and their socioeconomic impacts.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Land degradation directly threatens rural livelihoods dependent on natural resources. Geospatial monitoring of degradation enables targeted restoration efforts, sustainable land management practices, and alternative livelihood development that can transform degraded landscapes into productive assets for rural communities.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="degradation-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="degradation-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Land Degradation Neutrality</div>
+                <p class="theme-desc">Monitoring progress toward sustainable land management goals using integrated indicators and trend analysis.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Degradation Hotspot Identification</div>
+                <p class="theme-desc">Pinpointing areas of rapid environmental decline using change detection and spatial clustering techniques.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Restoration Potential Mapping</div>
+                <p class="theme-desc">Identifying priority areas for ecological restoration using multi-criteria analysis and ecosystem service valuation.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Mining Impact Assessment</div>
+                <p class="theme-desc">Monitoring environmental effects of resource extraction using multi-temporal imagery and spectral analysis.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Urban Degradation Analysis</div>
+                <p class="theme-desc">Tracking environmental quality in urban settings through integrated analysis of multiple environmental parameters.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Community-Led Restoration Initiatives</div>
+                <p class="theme-desc">Collective action for degraded land recovery, indigenous restoration techniques, and economic incentives for participation in rural restoration projects.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Alternative Livelihoods in Degraded Areas</div>
+                <p class="theme-desc">Transition strategies from extractive practices, value-added processing of restoration products, and ecotourism in recovering landscapes for rural communities.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Land Degradation and Rural Poverty Linkages</div>
+                <p class="theme-desc">Spatial correlation of degradation and poverty, breaking poverty-degradation cycles, and pro-poor restoration approaches in rural contexts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LULC Change -->
+      <div class="col-lg-4 col-md-6 topic-card" data-topic="lulc" data-rural="true">
+        <div class="card">
+          <div class="card-header" style="background: linear-gradient(135deg, #8e24aa, #ab47bc);">
+            <h2><i class="fa-solid fa-arrows-rotate"></i> LULC Change</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><strong>Land Use & Land Cover Change:</strong> Analyze changes in landscape composition over time.</li>
+              <li><strong>Urban Expansion:</strong> Monitor growth and sprawl of urban areas.</li>
+              <li><strong>Agricultural Dynamics:</strong> Assess shifts in agricultural land and practices.</li>
+              <li><strong>Forest Cover Change:</strong> Track deforestation and reforestation trends.</li>
+              <li><strong>Habitat Fragmentation:</strong> Evaluate impacts of land conversion on ecosystems.</li>
+              <li><strong>Rural Landscape Transitions:</strong> Map changing rural economies and their impacts on land use patterns and livelihoods.</li>
+            </ul>
+            
+            <div class="rural-impact">
+              <h4><i class="fa-solid fa-seedling"></i> Rural Development Impact</h4>
+              <p>Land use and land cover change reflects and drives rural transformation processes. Geospatial LULC analysis enables informed land use planning, equitable resource governance, and sustainable rural development pathways that balance economic growth with environmental conservation.</p>
+            </div>
+            
+            <a href="#" class="toggle-themes" data-target="lulc-themes">
+              Explore Research Themes <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            
+            <div class="research-themes" id="lulc-themes">
+              <h3>Current Research Directions</h3>
+              
+              <div class="theme-item">
+                <div class="theme-title">Machine Learning for LULC Classification</div>
+                <p class="theme-desc">Advanced algorithms for automated land cover mapping using deep learning and ensemble methods.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Drivers of LULC Change</div>
+                <p class="theme-desc">Spatial analysis of factors influencing landscape transformation using statistical modeling and causal inference.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">LULC Scenario Modeling</div>
+                <p class="theme-desc">Projecting future land use patterns under different policies using agent-based modeling and cellular automata.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">LULC Change and Ecosystem Services</div>
+                <p class="theme-desc">Quantifying impacts on nature's contributions to people through integrated ecosystem service modeling.</p>
+              </div>
+              
+              <div class="theme-item">
+                <div class="theme-title">Historical LULC Reconstruction</div>
+                <p class="theme-desc">Recreating past landscapes using archival imagery and records through data fusion and historical ecology methods.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Rural Landscape Transitions</div>
+                <p class="theme-desc">Changing rural economies and land use patterns, cultural impacts of landscape change, and governance of rural transformation processes.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> Land Use Planning for Rural Development</div>
+                <p class="theme-desc">Participatory land use zoning, balancing conservation and development needs, and spatial planning for rural service provision.</p>
+              </div>
+              
+              <div class="theme-item rural-theme">
+                <div class="theme-title"><i class="fa-solid fa-seedling rural-icon"></i> LULC Change and Rural Livelihoods</div>
+                <p class="theme-desc">Adaptation to changing land availability, new economic opportunities from land transitions, and equity considerations in rural land use change.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h4>About GeoResearch Hub</h4>
+          <p>A comprehensive platform exploring the intersection of geospatial technologies, climate change, agriculture, and rural development through cutting-edge research applications for sustainable communities.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-researchgate"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 mb-4">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#rural-dev">Rural Development</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 mb-4">
+          <h4>Research Areas</h4>
+          <ul class="footer-links">
+            <li><a href="#vegetation">Sustainable Agriculture</a></li>
+            <li><a href="#water">Water Resources</a></li>
+            <li><a href="#climate">Climate Resilience</a></li>
+            <li><a href="#extreme">Disaster Management</a></li>
+            <li><a href="#lulc">Rural Transformation</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 mb-4">
+          <h4>Contact Us</h4>
+          <ul class="footer-links">
+            <li><i class="fa-solid fa-envelope me-2"></i> info@georesearchhub.org</li>
+            <li><i class="fa-solid fa-phone me-2"></i> +1 (555) 123-4567</li>
+            <li><i class="fa-solid fa-location-dot me-2"></i> 123 Research Way, Science Park</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 GeoResearch Hub for Rural Development. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+
+  <!-- Dark Mode Toggle -->
+  <div class="dark-mode-toggle" id="darkModeToggle">
+    <i class="fa-solid fa-moon"></i>
+  </div>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Toggle Research Themes
+      document.querySelectorAll('.toggle-themes').forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('data-target');
+          const targetElement = document.getElementById(targetId);
+          
+          if (targetElement.style.display === 'block') {
+            targetElement.style.display = 'none';
+            this.classList.remove('active');
+          } else {
+            targetElement.style.display = 'block';
+            this.classList.add('active');
+          }
+        });
+      });
+      
+      // Rural Development Lens Toggle
+      const ruralLensToggle = document.getElementById('ruralLensToggle');
+      const topicCards = document.querySelectorAll('.topic-card');
+      
+      ruralLensToggle.addEventListener('click', function() {
+        this.classList.toggle('active');
+        
+        if (this.classList.contains('active')) {
+          this.querySelector('.toggle-text').textContent = 'Rural Development Lens Active';
+          
+          // Show rural themes and hide non-rural themes
+          document.querySelectorAll('.theme-item').forEach(item => {
+            if (item.classList.contains('rural-theme')) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+          
+          // Show rural impact sections
+          document.querySelectorAll('.rural-impact').forEach(section => {
+            section.style.display = 'block';
+          });
+        } else {
+          this.querySelector('.toggle-text').textContent = 'View Through Rural Development Lens';
+          
+          // Show all themes
+          document.querySelectorAll('.theme-item').forEach(item => {
+            item.style.display = 'block';
+          });
+          
+          // Hide rural impact sections if research themes are not expanded
+          document.querySelectorAll('.rural-impact').forEach(section => {
+            if (!section.closest('.card-body').querySelector('.research-themes').style.display === 'block') {
+              section.style.display = 'none';
+            }
+          });
+        }
+      });
+      
+      // Topic Filtering
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const filter = this.getAttribute('data-filter');
+          
+          // Update active button
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          this.classList.add('active');
+          
+          // Filter cards
+          topicCards.forEach(card => {
+            if (filter === 'all') {
+              card.style.display = 'block';
+            } else if (filter === 'rural') {
+              if (card.getAttribute('data-rural') === 'true') {
+                card.style.display = 'block';
+              } else {
+                card.style.display = 'none';
+              }
+            } else if (card.getAttribute('data-topic') === filter) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+      
+      // Search Functionality
+      const searchInput = document.getElementById('searchInput');
+      
+      searchInput.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+        
+        topicCards.forEach(card => {
+          const cardText = card.textContent.toLowerCase();
+          if (cardText.includes(searchTerm)) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        
+        // Reset filter buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        document.querySelector('[data-filter="all"]').classList.add('active');
+      });
+      
+      // Back to Top Button
+      const backToTopButton = document.getElementById('backToTop');
+      
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.add('visible');
+        } else {
+          backToTopButton.classList.remove('visible');
+        }
+      });
+      
+      backToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+      
+      // Dark Mode Toggle
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      const body = document.body;
+      
+      // Check for saved theme preference
+      if (localStorage.getItem('darkMode') === 'enabled') {
+        body.classList.add('dark-mode');
+        darkModeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+      }
+      
+      darkModeToggle.addEventListener('click', function() {
+        body.classList.toggle('dark-mode');
+        
+        if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('darkMode', 'enabled');
+          darkModeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+        } else {
+          localStorage.setItem('darkMode', 'disabled');
+          darkModeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+        }
+      });
+      
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          if (this.getAttribute('href') !== '#') {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+              target.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
