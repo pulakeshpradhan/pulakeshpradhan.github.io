@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEE Datatypes Quiz</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --primary: #6a5acd; /* Slate blue */
+            --secondary: #00ced1; /* Dark turquoise */
+            --success: #32cd32; /* Lime green */
+            --error: #ff6347; /* Tomato */
+            --text-dark: #2f4f4f; /* Dark slate gray */
+            --text-light: #708090; /* Slate gray */
+            --bg-light: #f0f8ff; /* Alice blue */
+            --card-bg: #ffffff;
+            --shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            --radius: 16px;
+            --transition: all 0.3s ease;
+            --accent1: #ffd700; /* Gold for correct */
+            --accent2: #ff69b4; /* Hot pink for incorrect */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, var(--bg-light), #e6e6fa);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .quiz-container {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            width: 100%;
+            max-width: 800px;
+            padding: 2.5rem;
+            position: relative;
+            overflow: hidden;
+            animation: fadeIn 1s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .quiz-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .quiz-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .quiz-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            font-weight: 400;
+        }
+
+        .globe-icon {
+            font-size: 3.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            animation: spin 12s linear infinite;
+        }
+
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        .progress-container {
+            background: #e2e8f0;
+            height: 8px;
+            border-radius: 4px;
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            transition: width 0.5s ease;
+        }
+
+        .question-container {
+            margin-bottom: 2rem;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .question-number {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .question-number .badge {
+            background: var(--primary);
+            color: white;
+            padding: 0.35rem 0.9rem;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+
+        .question {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            line-height: 1.4;
+            margin-bottom: 1.5rem;
+        }
+
+        .options {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .option-label {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.25rem;
+            background: var(--bg-light);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid transparent;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            font-weight: 600;
+        }
+
+        .option-label:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .option-label.selected {
+            transform: scale(1.02);
+            border-color: var(--primary);
+            background: rgba(106, 90, 205, 0.1);
+        }
+
+        .option-input {
+            display: none;
+        }
+
+        .option-radio {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 2px solid var(--text-light);
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .option-input:checked + .option-radio {
+            border-color: var(--primary);
+            background: var(--primary);
+        }
+
+        .option-input:checked + .option-radio::after {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .option-label.correct {
+            border-color: var(--success);
+            background: rgba(50, 205, 50, 0.1);
+        }
+
+        .option-label.correct .option-radio {
+            border-color: var(--success);
+            background: var(--success);
+        }
+
+        .option-label.incorrect {
+            border-color: var(--error);
+            background: rgba(255, 99, 71, 0.1);
+        }
+
+        .option-label.incorrect .option-radio {
+            border-color: var(--error);
+            background: var(--error);
+        }
+
+        .option-text {
+            font-size: 1.2rem;
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            width: 100%;
+        }
+
+        .btn:hover {
+            transform: scale(1.02);
+            box-shadow: 0 6px 20px rgba(106, 90, 205, 0.3);
+        }
+
+        .btn:disabled {
+            background: #cbd5e1;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .feedback {
+            margin: 1.5rem 0;
+            padding: 1.25rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+            visibility: hidden;
+        }
+
+        .feedback.show {
+            opacity: 1;
+            transform: translateY(0);
+            visibility: visible;
+        }
+
+        .feedback.correct {
+            background: rgba(50, 205, 50, 0.15);
+            color: var(--success);
+        }
+
+        .feedback.incorrect {
+            background: rgba(255, 99, 71, 0.15);
+            color: var(--error);
+        }
+
+        .timer {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(106, 90, 205, 0.1);
+            color: var(--primary);
+            padding: 0.6rem 1.2rem;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .results-container {
+            display: none;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .report-card {
+            background: linear-gradient(135deg, var(--bg-light), var(--card-bg));
+            border-radius: var(--radius);
+            padding: 2rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            border: 2px solid var(--primary);
+        }
+
+        .report-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px dashed var(--secondary);
+        }
+
+        .report-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .report-date {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-dark);
+            background: var(--bg-light);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+        }
+
+        .name-input {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 1.5rem;
+            border: 2px solid var(--primary);
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        .score-circle {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: conic-gradient(var(--primary) 0%, var(--secondary) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(106, 90, 205, 0.3);
+            animation: bounceIn 1s ease;
+        }
+
+        @keyframes bounceIn {
+            0% { transform: scale(0); opacity: 0; }
+            60% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+
+        .score-circle::before {
+            content: '';
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background: var(--card-bg);
+            border-radius: 50%;
+        }
+
+        .score-text {
+            position: relative;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            z-index: 1;
+        }
+
+        .score-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 12px;
+        }
+
+        .detail-item {
+            opacity: 0;
+            animation: fadeIn 0.5s ease forwards;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .detail-item.correct {
+            background: linear-gradient(135deg, var(--accent1), var(--success));
+            color: white;
+        }
+
+        .detail-item.incorrect {
+            background: linear-gradient(135deg, var(--accent2), var(--error));
+            color: white;
+        }
+
+        .detail-item.time, .detail-item.percentage {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+        }
+
+        .detail-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .detail-label {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .score-details .detail-item:nth-child(1) { animation-delay: 0.2s; }
+        .score-details .detail-item:nth-child(2) { animation-delay: 0.4s; }
+        .score-details .detail-item:nth-child(3) { animation-delay: 0.6s; }
+        .score-details .detail-item:nth-child(4) { animation-delay: 0.8s; }
+
+        .incorrect-list {
+            text-align: left;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 2px dashed var(--accent2);
+        }
+
+        .incorrect-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--error);
+            margin-bottom: 1.5rem;
+        }
+
+        .incorrect-item {
+            background: rgba(255, 99, 71, 0.05);
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--error);
+        }
+
+        .incorrect-question {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .incorrect-answer {
+            color: var(--accent2);
+            margin-bottom: 0.25rem;
+        }
+
+        .correct-answer {
+            color: var(--success);
+        }
+
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .print-btn {
+            background: #4b5563;
+        }
+
+        .print-btn:hover {
+            background: #374151;
+            box-shadow: 0 6px 20px rgba(75, 85, 99, 0.3);
+        }
+
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            animation: confettiFall 4s linear infinite;
+        }
+
+        @keyframes confettiFall {
+            0% { transform: translateY(-100vh) rotate(0deg); }
+            100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+        }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .quiz-container { box-shadow: none; max-width: 100%; padding: 1rem; border: none; }
+            .timer, .btn, .confetti { display: none; }
+            .results-container { display: block; }
+            .report-card { 
+                box-shadow: none; 
+                border: 2px solid var(--primary); 
+                padding: 1.5rem;
+                background: white;
+            }
+            .report-header { border-bottom: 2px dashed var(--secondary); }
+            .score-circle { box-shadow: none; background: none; border: 2px solid var(--primary); }
+            .score-circle::before { background: white; }
+            .score-text { color: var(--primary); }
+            .score-details { background: none; padding: 0; }
+            .detail-item { background: none; border: none; padding: 0.5rem; color: var(--text-dark); }
+            .detail-item.correct { border-bottom: 2px solid var(--accent1); }
+            .detail-item.incorrect { border-bottom: 2px solid var(--accent2); }
+            .detail-item.time, .detail-item.percentage { border-bottom: 2px solid var(--primary); }
+            .incorrect-list { border-top: 2px dashed var(--accent2); }
+            .incorrect-item { border-left: 4px solid var(--error); background: none; }
+            .incorrect-answer { color: var(--accent2); }
+            .correct-answer { color: var(--success); }
+            .name-input { display: none; }
+            .name-display { display: block; font-size: 1.5rem; font-weight: 600; color: var(--primary); margin-bottom: 1rem; }
+        }
+
+        @media (max-width: 768px) {
+            .quiz-container { padding: 1.5rem; max-width: 100%; }
+            .quiz-title { font-size: 1.75rem; }
+            .question { font-size: 1.25rem; }
+            .option-label { padding: 1rem; }
+            .btn { padding: 0.75rem 1.5rem; }
+            .score-circle { width: 100px; height: 100px; }
+            .score-circle::before { width: 80px; height: 80px; }
+            .score-text { font-size: 1.75rem; }
+            .report-title { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <div id="quiz-content">
+            <div class="quiz-header">
+                <div class="globe-icon"><i class="fas fa-globe-americas"></i></div>
+                <h1 class="quiz-title">GEE Datatypes Quiz</h1>
+                <p class="quiz-subtitle">Test your Google Earth Engine expertise</p>
+                <div class="timer"><i class="fas fa-stopwatch"></i> <span id="time-display">00:00</span></div>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+
+            <div id="question-container" class="question-container"></div>
+            <div id="feedback" class="feedback"></div>
+            <button id="next-btn" class="btn" disabled>
+                <span id="btn-text">Check Answer</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+            <div id="results-container" class="results-container"></div>
+        </div>
+    </div>
+    <script>
+        const originalQuestions = [
+            { q: "What is the primary purpose of the Google Earth Engine Data Catalog?", options: ["To store personal datasets", "To provide public datasets for analysis", "To visualize data in 3D", "To edit vector data"], answer: "To provide public datasets for analysis", explanation: "The GEE Data Catalog provides a vast collection of satellite imagery and geospatial datasets for analysis." },
+            { q: "Which section of the GEE Code Editor is used to view and manage datasets?", options: ["Inspector", "Map", "Console", "Scripts"], answer: "Scripts", explanation: "The Scripts section allows users to manage, edit, and save their code files and projects." },
+            { q: "What is the function of the 'Inspector' tab in the GEE Code Editor?", options: ["To write and run code", "To inspect pixel values and properties", "To apply visualizations", "To view error messages"], answer: "To inspect pixel values and properties", explanation: "The Inspector tool allows users to click on the map and view pixel values, properties, and feature details." },
+            { q: "Which function is used to load datasets from the Data Catalog in Google Earth Engine?", options: ["ee.ImageCollection", "ee.Dataset", "ee.Load", "ee.Feature"], answer: "ee.ImageCollection", explanation: "The ee.ImageCollection function is often used to load satellite imagery datasets from the catalog." },
+            { q: "What is the purpose of the 'Map' object in GEE?", options: ["To store feature data", "To run reducers", "To display images and vectors on the map", "To filter datasets"], answer: "To display images and vectors on the map", explanation: "The Map object is used for visualizing geospatial data using layers." },
+            { q: "Which file format is commonly used to export raster data from GEE?", options: ["CSV", "GeoJSON", "GeoTIFF", "Shapefile"], answer: "GeoTIFF", explanation: "GeoTIFF is a popular format for exporting raster data as it preserves geospatial information." },
+            { q: "What does 'ee.Image' represent in Google Earth Engine?", options: ["A single satellite image or raster layer", "A vector feature", "A table of data", "A JavaScript object"], answer: "A single satellite image or raster layer", explanation: "An ee.Image represents a raster dataset, often derived from satellite sensors." },
+            { q: "How can you filter an ImageCollection in GEE?", options: ["Using Map.addLayer", "Using ee.Filter", "Using ee.Dictionary", "Using Export.image"], answer: "Using ee.Filter", explanation: "The ee.Filter function is commonly used to filter an ImageCollection by date, bounds, or properties." },
+            { q: "Which of the following is NOT a valid data type in GEE?", options: ["ee.Geometry", "ee.Number", "ee.Vector", "ee.String"], answer: "ee.Vector", explanation: "GEE does not have an ee.Vector type; vector data is represented using ee.Geometry or ee.Feature." },
+            { q: "What is the purpose of the 'Console' section in the GEE Code Editor?", options: ["To inspect code execution logs and outputs", "To manage datasets", "To view map layers", "To write feature data"], answer: "To inspect code execution logs and outputs", explanation: "The Console displays messages, results from print statements, and errors from code execution." }
+        ];
+
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let incorrectAnswers = [];
+        let answered = false;
+        let timerInterval;
+        let seconds = 0;
+        let userName = "";
+
+        const quizContainer = document.getElementById("quiz-container");
+        const quizContent = document.getElementById("quiz-content");
+        const nextBtn = document.getElementById("next-btn");
+        const progressBar = document.getElementById("progress-bar");
+        const questionContainer = document.getElementById("question-container");
+        const feedbackContainer = document.getElementById("feedback");
+        const resultsContainer = document.getElementById("results-container");
+        const timeDisplay = document.getElementById("time-display");
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function initializeQuiz() {
+            questions = shuffleArray([...originalQuestions]);
+            currentQuestionIndex = 0;
+            score = 0;
+            incorrectAnswers = [];
+            answered = false;
+            seconds = 0;
+            userName = "";
+            updateProgress();
+            loadQuestion();
+        }
+
+        function startTimer() {
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                seconds++;
+                updateTimerDisplay();
+            }, 1000);
+        }
+
+        function stopTimer() {
+            clearInterval(timerInterval);
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            timeDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestionIndex) / questions.length) * 100;
+            progressBar.style.width = `${progress}%`;
+        }
+
+        function scorePercentage() {
+            return (score / questions.length) * 100;
+        }
+
+        function loadQuestion() {
+            answered = false;
+            const question = questions[currentQuestionIndex];
+            questionContainer.innerHTML = `
+                <div class="question-number">
+                    <span class="badge">${currentQuestionIndex + 1}/${questions.length}</span>
+                    <span>Question ${currentQuestionIndex + 1}</span>
+                </div>
+                <div class="question">${question.q}</div>
+                <div class="options">
+                    ${question.options.map((option, index) => `
+                        <label class="option-label">
+                            <input type="radio" name="answer" value="${option}" class="option-input">
+                            <span class="option-radio"></span>
+                            <span class="option-text">${option}</span>
+                        </label>
+                    `).join('')}
+                </div>
+            `;
+            setupOptionListeners();
+            updateButtonText();
+            feedbackContainer.classList.remove('show');
+            nextBtn.disabled = true;
+            resultsContainer.style.display = "none";
+            if (currentQuestionIndex === 0) startTimer();
+        }
+
+        function setupOptionListeners() {
+            const optionLabels = document.querySelectorAll('.option-label');
+            optionLabels.forEach(label => {
+                label.addEventListener('click', () => {
+                    if (answered) return;
+                    const input = label.querySelector('.option-input');
+                    input.checked = true;
+                    optionLabels.forEach(opt => opt.classList.remove('selected'));
+                    label.classList.add('selected');
+                    nextBtn.disabled = false;
+                });
+            });
+        }
+
+        function updateButtonText() {
+            document.getElementById("btn-text").textContent = 
+                currentQuestionIndex === questions.length - 1 ? "Finish Quiz" : "Check Answer";
+        }
+
+        function checkAnswer() {
+            if (!answered) {
+                const selected = document.querySelector(".option-input:checked");
+                if (!selected) return;
+
+                answered = true;
+                const selectedOption = selected.value;
+                const correctAnswer = questions[currentQuestionIndex].answer;
+                const explanation = questions[currentQuestionIndex].explanation;
+                const allLabels = document.querySelectorAll('.option-label');
+
+                feedbackContainer.classList.add('show');
+
+                if (selectedOption === correctAnswer) {
+                    score++;
+                    selected.parentElement.classList.add('correct');
+                    feedbackContainer.innerHTML = `<i class="fas fa-check-circle"></i> Correct! ${explanation}`;
+                    feedbackContainer.classList.add('correct');
+                    feedbackContainer.classList.remove('incorrect');
+                } else {
+                    selected.parentElement.classList.add('incorrect');
+                    allLabels.forEach(label => {
+                        if (label.querySelector('.option-input').value === correctAnswer) {
+                            label.classList.add('correct');
+                        }
+                    });
+                    incorrectAnswers.push({ question: questions[currentQuestionIndex].q, incorrectAnswer: selectedOption, correctAnswer });
+                    feedbackContainer.innerHTML = `<i class="fas fa-times-circle"></i> Incorrect. The correct answer is "${correctAnswer}". ${explanation}`;
+                    feedbackContainer.classList.add('incorrect');
+                    feedbackContainer.classList.remove('correct');
+                }
+
+                document.getElementById("btn-text").textContent = 
+                    currentQuestionIndex === questions.length - 1 ? "Show Results" : "Next Question";
+            } else {
+                nextQuestion();
+            }
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                loadQuestion();
+                updateProgress();
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            stopTimer();
+            questionContainer.style.display = "none";
+            feedbackContainer.style.display = "none";
+            nextBtn.style.display = "none";
+            resultsContainer.style.display = "block";
+            const date = new Date().toLocaleDateString();
+            const percentage = Math.round(scorePercentage());
+            resultsContainer.innerHTML = `
+                <div class="report-card">
+                    <div class="report-header">
+                        <h2 class="report-title">Quiz Report Card</h2>
+                        <span class="report-date">${date}</span>
+                    </div>
+                    <input type="text" id="name-input" class="name-input" placeholder="Enter your name">
+                    <div class="score-circle" style="background: conic-gradient(var(--primary) 0% ${percentage}%, var(--secondary) ${percentage}% 100%);">
+                        <span class="score-text">${score}/${questions.length}</span>
+                    </div>
+                    <div class="score-details">
+                        <div class="detail-item correct">
+                            <div class="detail-value">${score}</div>
+                            <div class="detail-label">Correct</div>
+                        </div>
+                        <div class="detail-item incorrect">
+                            <div class="detail-value">${questions.length - score}</div>
+                            <div class="detail-label">Incorrect</div>
+                        </div>
+                        <div class="detail-item time">
+                            <div class="detail-value">${formatTime(seconds)}</div>
+                            <div class="detail-label">Time Taken</div>
+                        </div>
+                        <div class="detail-item percentage">
+                            <div class="detail-value">${percentage}%</div>
+                            <div class="detail-label">Score</div>
+                        </div>
+                    </div>
+                    ${incorrectAnswers.length > 0 ? `
+                        <div class="incorrect-list">
+                            <h3 class="incorrect-title">Incorrect Answers</h3>
+                            ${incorrectAnswers.map(item => `
+                                <div class="incorrect-item">
+                                    <div class="incorrect-question">${item.question}</div>
+                                    <div class="incorrect-answer"><i class="fas fa-times"></i> Your answer: ${item.incorrectAnswer}</div>
+                                    <div class="correct-answer"><i class="fas fa-check"></i> Correct answer: ${item.correctAnswer}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : '<p class="perfect-score" style="color: var(--success); font-size: 1.25rem; font-weight: 600;">Perfect Score! Excellent work!</p>'}
+                </div>
+                <div class="button-group">
+                    <button class="btn" id="restart-btn">
+                        <span>Restart Quiz</span>
+                        <i class="fas fa-redo"></i>
+                    </button>
+                    <button class="btn print-btn" id="print-btn">
+                        <span>Print Report</span>
+                        <i class="fas fa-print"></i>
+                    </button>
+                </div>
+            `;
+
+            const nameInput = document.getElementById("name-input");
+            nameInput.addEventListener("input", (e) => {
+                userName = e.target.value;
+            });
+
+            if (score === questions.length) createConfetti();
+            document.getElementById("restart-btn").addEventListener("click", restartQuiz);
+            document.getElementById("print-btn").addEventListener("click", () => {
+                const nameDisplay = document.createElement('div');
+                nameDisplay.className = 'name-display';
+                nameDisplay.textContent = `Name: ${userName || 'Anonymous'}`;
+                resultsContainer.querySelector('.report-card').prepend(nameDisplay);
+                window.print();
+            });
+        }
+
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${minutes}m ${remainingSeconds}s`;
+        }
+
+        function createConfetti() {
+            const colors = ['#6a5acd', '#00ced1', '#32cd32', '#ff6347', '#ffd700', '#ff69b4'];
+            for (let i = 0; i < 100; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.left = `${Math.random() * 100}%`;
+                confetti.style.animationDuration = `${Math.random() * 3 + 2}s`;
+                confetti.style.opacity = Math.random();
+                quizContainer.appendChild(confetti);
+                setTimeout(() => confetti.remove(), 5000);
+            }
+        }
+
+        function restartQuiz() {
+            stopTimer();
+            initializeQuiz();
+            questionContainer.style.display = "block";
+            feedbackContainer.style.display = "block";
+            nextBtn.style.display = "flex";
+            resultsContainer.style.display = "none";
+        }
+
+        initializeQuiz();
+        nextBtn.addEventListener("click", checkAnswer);
+    </script>
+</body>
+</html>
