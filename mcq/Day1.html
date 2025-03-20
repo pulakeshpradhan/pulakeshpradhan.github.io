@@ -558,18 +558,57 @@
         </div>
     </div>
     <script>
+        // const originalQuestions = [
+        //     { q: "What is the primary purpose of the Google Earth Engine Data Catalog?", options: ["To store personal datasets", "To provide public datasets for analysis", "To visualize data in 3D", "To edit vector data"], answer: "To provide public datasets for analysis", explanation: "The GEE Data Catalog provides a vast collection of satellite imagery and geospatial datasets for analysis." },
+        //     { q: "Which section of the GEE Code Editor is used to view and manage datasets?", options: ["Inspector", "Map", "Console", "Scripts"], answer: "Scripts", explanation: "The Scripts section allows users to manage, edit, and save their code files and projects." },
+        //     { q: "What is the function of the 'Inspector' tab in the GEE Code Editor?", options: ["To write and run code", "To inspect pixel values and properties", "To apply visualizations", "To view error messages"], answer: "To inspect pixel values and properties", explanation: "The Inspector tool allows users to click on the map and view pixel values, properties, and feature details." },
+        //     { q: "Which function is used to load datasets from the Data Catalog in Google Earth Engine?", options: ["ee.ImageCollection", "ee.Dataset", "ee.Load", "ee.Feature"], answer: "ee.ImageCollection", explanation: "The ee.ImageCollection function is often used to load satellite imagery datasets from the catalog." },
+        //     { q: "What is the purpose of the 'Map' object in GEE?", options: ["To store feature data", "To run reducers", "To display images and vectors on the map", "To filter datasets"], answer: "To display images and vectors on the map", explanation: "The Map object is used for visualizing geospatial data using layers." },
+        //     { q: "Which file format is commonly used to export raster data from GEE?", options: ["CSV", "GeoJSON", "GeoTIFF", "Shapefile"], answer: "GeoTIFF", explanation: "GeoTIFF is a popular format for exporting raster data as it preserves geospatial information." },
+        //     { q: "What does 'ee.Image' represent in Google Earth Engine?", options: ["A single satellite image or raster layer", "A vector feature", "A table of data", "A JavaScript object"], answer: "A single satellite image or raster layer", explanation: "An ee.Image represents a raster dataset, often derived from satellite sensors." },
+        //     { q: "How can you filter an ImageCollection in GEE?", options: ["Using Map.addLayer", "Using ee.Filter", "Using ee.Dictionary", "Using Export.image"], answer: "Using ee.Filter", explanation: "The ee.Filter function is commonly used to filter an ImageCollection by date, bounds, or properties." },
+        //     { q: "Which of the following is NOT a valid data type in GEE?", options: ["ee.Geometry", "ee.Number", "ee.Vector", "ee.String"], answer: "ee.Vector", explanation: "GEE does not have an ee.Vector type; vector data is represented using ee.Geometry or ee.Feature." },
+        //     { q: "What is the purpose of the 'Console' section in the GEE Code Editor?", options: ["To inspect code execution logs and outputs", "To manage datasets", "To view map layers", "To write feature data"], answer: "To inspect code execution logs and outputs", explanation: "The Console displays messages, results from print statements, and errors from code execution." }
+        // ];
+
+
         const originalQuestions = [
-            { q: "What is the primary purpose of the Google Earth Engine Data Catalog?", options: ["To store personal datasets", "To provide public datasets for analysis", "To visualize data in 3D", "To edit vector data"], answer: "To provide public datasets for analysis", explanation: "The GEE Data Catalog provides a vast collection of satellite imagery and geospatial datasets for analysis." },
-            { q: "Which section of the GEE Code Editor is used to view and manage datasets?", options: ["Inspector", "Map", "Console", "Scripts"], answer: "Scripts", explanation: "The Scripts section allows users to manage, edit, and save their code files and projects." },
-            { q: "What is the function of the 'Inspector' tab in the GEE Code Editor?", options: ["To write and run code", "To inspect pixel values and properties", "To apply visualizations", "To view error messages"], answer: "To inspect pixel values and properties", explanation: "The Inspector tool allows users to click on the map and view pixel values, properties, and feature details." },
-            { q: "Which function is used to load datasets from the Data Catalog in Google Earth Engine?", options: ["ee.ImageCollection", "ee.Dataset", "ee.Load", "ee.Feature"], answer: "ee.ImageCollection", explanation: "The ee.ImageCollection function is often used to load satellite imagery datasets from the catalog." },
-            { q: "What is the purpose of the 'Map' object in GEE?", options: ["To store feature data", "To run reducers", "To display images and vectors on the map", "To filter datasets"], answer: "To display images and vectors on the map", explanation: "The Map object is used for visualizing geospatial data using layers." },
-            { q: "Which file format is commonly used to export raster data from GEE?", options: ["CSV", "GeoJSON", "GeoTIFF", "Shapefile"], answer: "GeoTIFF", explanation: "GeoTIFF is a popular format for exporting raster data as it preserves geospatial information." },
-            { q: "What does 'ee.Image' represent in Google Earth Engine?", options: ["A single satellite image or raster layer", "A vector feature", "A table of data", "A JavaScript object"], answer: "A single satellite image or raster layer", explanation: "An ee.Image represents a raster dataset, often derived from satellite sensors." },
-            { q: "How can you filter an ImageCollection in GEE?", options: ["Using Map.addLayer", "Using ee.Filter", "Using ee.Dictionary", "Using Export.image"], answer: "Using ee.Filter", explanation: "The ee.Filter function is commonly used to filter an ImageCollection by date, bounds, or properties." },
-            { q: "Which of the following is NOT a valid data type in GEE?", options: ["ee.Geometry", "ee.Number", "ee.Vector", "ee.String"], answer: "ee.Vector", explanation: "GEE does not have an ee.Vector type; vector data is represented using ee.Geometry or ee.Feature." },
-            { q: "What is the purpose of the 'Console' section in the GEE Code Editor?", options: ["To inspect code execution logs and outputs", "To manage datasets", "To view map layers", "To write feature data"], answer: "To inspect code execution logs and outputs", explanation: "The Console displays messages, results from print statements, and errors from code execution." }
-        ];
+    { q: "What type of datasets are available in the Google Earth Engine Data Catalog?", options: ["Only vector data", "Only raster data", "Both raster and vector data", "Only user-uploaded data"], answer: "Both raster and vector data", explanation: "The GEE Data Catalog provides access to a wide range of raster and vector datasets from various sources." },
+
+    { q: "Which organization provides a significant portion of satellite imagery in the GEE Data Catalog?", options: ["NASA", "Google Maps", "OpenStreetMap", "Microsoft"], answer: "NASA", explanation: "NASA contributes many satellite datasets, including MODIS and Landsat, to the GEE Data Catalog." },
+
+    { q: "Which of the following is a commonly used dataset in the GEE Data Catalog?", options: ["MODIS", "Shapefile", "CSV Tables", "JPEG Images"], answer: "MODIS", explanation: "MODIS (Moderate Resolution Imaging Spectroradiometer) is a widely used satellite dataset available in GEE." },
+
+    { q: "How can users find datasets in the Google Earth Engine Data Catalog?", options: ["Using the search bar in the Code Editor", "By manually entering dataset IDs", "Through Google Drive integration", "By uploading CSV files"], answer: "Using the search bar in the Code Editor", explanation: "Users can explore available datasets using the search bar in the GEE Code Editor." },
+
+    { q: "Which metadata information is typically provided for each dataset in the GEE Data Catalog?", options: ["Resolution, provider, and update frequency", "Only dataset name", "Only file format", "User-uploaded descriptions"], answer: "Resolution, provider, and update frequency", explanation: "Each dataset in GEE has metadata that includes resolution, source, update frequency, and other details." },
+
+    { q: "How can users access dataset descriptions and properties in GEE?", options: ["By clicking on the dataset name in the catalog", "By using the Console section", "By writing custom JavaScript functions", "By exporting the dataset"], answer: "By clicking on the dataset name in the catalog", explanation: "Clicking on a dataset in the catalog provides details, including properties, visualization options, and dataset ID." },
+
+    { q: "What is the default way to import a dataset from the GEE Data Catalog into a script?", options: ["By using its dataset ID", "By copying the dataset to Google Drive", "By manually downloading the dataset", "By using Google Maps API"], answer: "By using its dataset ID", explanation: "Datasets in the GEE Data Catalog are accessed using their unique dataset IDs in scripts." },
+
+    { q: "Which of the following is a commonly used vector dataset in the GEE Data Catalog?", options: ["USGS Landsat", "WorldPop Population Data", "MODIS Surface Reflectance", "HydroBASINS"], answer: "HydroBASINS", explanation: "HydroBASINS provides hydrological basin boundaries and is an example of a vector dataset in GEE." },
+
+    { q: "How frequently are datasets updated in the Google Earth Engine Data Catalog?", options: ["Daily, weekly, monthly, or yearly depending on the dataset", "Only once when added", "Every hour", "Users can update datasets manually"], answer: "Daily, weekly, monthly, or yearly depending on the dataset", explanation: "Dataset updates depend on the provider and vary in frequency from daily to yearly." },
+
+    { q: "Which section of the GEE Data Catalog provides direct links to dataset documentation?", options: ["Metadata section", "Scripts tab", "Map section", "Console log"], answer: "Metadata section", explanation: "The metadata section of each dataset contains links to documentation, provider details, and usage guidelines." }
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         let questions = [];
         let currentQuestionIndex = 0;
