@@ -573,26 +573,119 @@
 
 
         const originalQuestions = [
-    { q: "What type of datasets are available in the Google Earth Engine Data Catalog?", options: ["Only vector data", "Only raster data", "Both raster and vector data", "Only user-uploaded data"], answer: "Both raster and vector data", explanation: "The GEE Data Catalog provides access to a wide range of raster and vector datasets from various sources." },
-
-    { q: "Which organization provides a significant portion of satellite imagery in the GEE Data Catalog?", options: ["NASA", "Google Maps", "OpenStreetMap", "Microsoft"], answer: "NASA", explanation: "NASA contributes many satellite datasets, including MODIS and Landsat, to the GEE Data Catalog." },
-
-    { q: "Which of the following is a commonly used dataset in the GEE Data Catalog?", options: ["MODIS", "Shapefile", "CSV Tables", "JPEG Images"], answer: "MODIS", explanation: "MODIS (Moderate Resolution Imaging Spectroradiometer) is a widely used satellite dataset available in GEE." },
-
-    { q: "How can users find datasets in the Google Earth Engine Data Catalog?", options: ["Using the search bar in the Code Editor", "By manually entering dataset IDs", "Through Google Drive integration", "By uploading CSV files"], answer: "Using the search bar in the Code Editor", explanation: "Users can explore available datasets using the search bar in the GEE Code Editor." },
-
-    { q: "Which metadata information is typically provided for each dataset in the GEE Data Catalog?", options: ["Resolution, provider, and update frequency", "Only dataset name", "Only file format", "User-uploaded descriptions"], answer: "Resolution, provider, and update frequency", explanation: "Each dataset in GEE has metadata that includes resolution, source, update frequency, and other details." },
-
-    { q: "How can users access dataset descriptions and properties in GEE?", options: ["By clicking on the dataset name in the catalog", "By using the Console section", "By writing custom JavaScript functions", "By exporting the dataset"], answer: "By clicking on the dataset name in the catalog", explanation: "Clicking on a dataset in the catalog provides details, including properties, visualization options, and dataset ID." },
-
-    { q: "What is the default way to import a dataset from the GEE Data Catalog into a script?", options: ["By using its dataset ID", "By copying the dataset to Google Drive", "By manually downloading the dataset", "By using Google Maps API"], answer: "By using its dataset ID", explanation: "Datasets in the GEE Data Catalog are accessed using their unique dataset IDs in scripts." },
-
-    { q: "Which of the following is a commonly used vector dataset in the GEE Data Catalog?", options: ["USGS Landsat", "WorldPop Population Data", "MODIS Surface Reflectance", "HydroBASINS"], answer: "HydroBASINS", explanation: "HydroBASINS provides hydrological basin boundaries and is an example of a vector dataset in GEE." },
-
-    { q: "How frequently are datasets updated in the Google Earth Engine Data Catalog?", options: ["Daily, weekly, monthly, or yearly depending on the dataset", "Only once when added", "Every hour", "Users can update datasets manually"], answer: "Daily, weekly, monthly, or yearly depending on the dataset", explanation: "Dataset updates depend on the provider and vary in frequency from daily to yearly." },
-
-    { q: "Which section of the GEE Data Catalog provides direct links to dataset documentation?", options: ["Metadata section", "Scripts tab", "Map section", "Console log"], answer: "Metadata section", explanation: "The metadata section of each dataset contains links to documentation, provider details, and usage guidelines." }
+   
+    { 
+        q: "What is the primary purpose of the Google Earth Engine Data Catalog?", 
+        options: [
+            "To store personal datasets", 
+            "To provide public geospatial datasets for analysis", 
+            "To visualize 3D maps", 
+            "To edit user data"
+        ], 
+        answer: "To provide public geospatial datasets for analysis", 
+        explanation: "The GEE Data Catalog is designed to offer a wide range of public datasets for geospatial analysis and research." 
+    },
+    { 
+        q: "Which types of data can be found in the GEE Data Catalog?", 
+        options: [
+            "Only satellite imagery", 
+            "Only vector data", 
+            "Both raster and vector data", 
+            "Only climate data"
+        ], 
+        answer: "Both raster and vector data", 
+        explanation: "The catalog includes diverse data types, including satellite imagery, vector boundaries, digital elevation models, climate data, and more." 
+    },
+    { 
+        q: "How are datasets in the GEE Data Catalog typically organized?", 
+        options: [
+            "By geographic region", 
+            "By file size", 
+            "By data type and theme", 
+            "By upload date"
+        ], 
+        answer: "By data type and theme", 
+        explanation: "Datasets are organized by their type and subject matter, making it easier for users to locate relevant data quickly." 
+    },
+    { 
+        q: "What metadata information is usually provided with a dataset in the catalog?", 
+        options: [
+            "Only the dataset name", 
+            "Data resolution, provider, and sensor details", 
+            "Only the file size", 
+            "Only the geographic extent"
+        ], 
+        answer: "Data resolution, provider, and sensor details", 
+        explanation: "Metadata typically includes details such as resolution, the data provider, sensor specifics, creation date, and update frequency." 
+    },
+    { 
+        q: "Which function is commonly used to load a raster dataset from the catalog in a script?", 
+        options: [
+            "ee.FeatureCollection", 
+            "ee.Image", 
+            "ee.Geometry", 
+            "ee.Table"
+        ], 
+        answer: "ee.Image", 
+        explanation: "Raster datasets are loaded using the ee.Image function in Google Earth Engine scripts." 
+    },
+    { 
+        q: "How can users visualize datasets from the Data Catalog in the Code Editor?", 
+        options: [
+            "By editing metadata", 
+            "By using Map.addLayer", 
+            "By using ee.Filter", 
+            "By downloading files"
+        ], 
+        answer: "By using Map.addLayer", 
+        explanation: "The Map.addLayer function enables users to add datasets as layers on the interactive map for visualization." 
+    },
+    { 
+        q: "What role does the search functionality play in the GEE Data Catalog?", 
+        options: [
+            "It sorts datasets by file size", 
+            "It filters datasets based on keywords, data type, and provider", 
+            "It automatically updates datasets", 
+            "It downloads datasets"
+        ], 
+        answer: "It filters datasets based on keywords, data type, and provider", 
+        explanation: "The search feature helps users quickly locate datasets that match specific criteria such as keywords, themes, or providers." 
+    },
+    { 
+        q: "How are dataset updates managed in the GEE Data Catalog?", 
+        options: [
+            "Datasets are static and never updated", 
+            "Data providers automatically update their datasets", 
+            "Users manually update the datasets", 
+            "Datasets are updated only on request"
+        ], 
+        answer: "Data providers automatically update their datasets", 
+        explanation: "Dataset updates are managed by the original data providers, ensuring that the catalog reflects the most recent data available." 
+    },
+    { 
+        q: "Which of the following best describes the user interface for exploring the GEE Data Catalog?", 
+        options: [
+            "A command-line interface", 
+            "A graphical interface within the Code Editor", 
+            "A mobile app", 
+            "A desktop application"
+        ], 
+        answer: "A graphical interface within the Code Editor", 
+        explanation: "The Data Catalog is integrated into the Code Editor with a user-friendly graphical interface, facilitating easy exploration and selection of datasets." 
+    },
+    { 
+        q: "What is a common use case for accessing data from the GEE Data Catalog?", 
+        options: [
+            "Real-time chat applications", 
+            "Geospatial analysis and remote sensing research", 
+            "Social media management", 
+            "E-commerce tracking"
+        ], 
+        answer: "Geospatial analysis and remote sensing research", 
+        explanation: "Researchers and analysts frequently use the catalog to access large, diverse datasets for geospatial analysis and remote sensing studies." 
+    }
 ];
+
 
 
 
