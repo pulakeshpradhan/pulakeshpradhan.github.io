@@ -1293,6 +1293,68 @@
                 opacity: 0;
             }
         }
+        /* Styles for question count input */
+        .ai-question-count {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 5px;
+            background-color: var(--bg-light);
+            border-radius: 5px;
+        }
+        
+        .ai-question-count-input {
+            width: 60px;
+            padding: 8px;
+            border: 1px solid var(--text-light);
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+            color: var(--text-dark);
+            background-color: var(--card-bg);
+        }
+        
+        /* Styles for question navigation slider */
+        .question-navigation {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            background-color: var(--bg-light);
+            border-radius: 5px;
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+        
+        .question-slider {
+            flex: 1;
+            height: 8px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #ddd;
+            outline: none;
+            border-radius: 4px;
+        }
+        
+        .question-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--primary);
+            cursor: pointer;
+        }
+        
+        .question-slider::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -1348,11 +1410,21 @@
                     <div class="ai-topic-container">
                         <input type="text" id="ai-topic-input" placeholder="Enter a GEE topic (e.g., NDVI, Classification)" class="ai-topic-input">
                     </div>
+                    <div class="ai-question-count">
+                        <label for="ai-question-count-input">Number of questions:</label>
+                        <input type="number" id="ai-question-count-input" min="1" max="10" value="1" class="ai-question-count-input">
+                    </div>
                     <div id="ai-status" class="ai-status">Generating question...</div>
                 </div>
 
                 <div class="progress-container">
                     <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                
+                <div class="question-navigation">
+                    <label for="question-slider">Navigate to question:</label>
+                    <input type="range" id="question-slider" min="1" value="1" class="question-slider">
+                    <span id="question-slider-value">1</span>/<span id="question-slider-total">1</span>
                 </div>
 
                 <div id="question-container" class="question-container"></div>
@@ -1844,6 +1916,9 @@
         const visualizationContainer = document.getElementById('visualization-container');
         const visualizationContent = document.getElementById('visualization-content');
         const closeVisualization = document.getElementById('close-visualization');
+        const questionSlider = document.getElementById('question-slider');
+        const questionSliderValue = document.getElementById('question-slider-value');
+        const questionSliderTotal = document.getElementById('question-slider-total');
 
         // Quiz State
         let questions = [...originalQuestions];
@@ -2197,10 +2272,19 @@
             hintBtn.style.display = 'none';
         }
 
-        // Update progress bar
+        // Update progress bar and question navigation
         function updateProgressBar() {
             const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
             progressBar.style.width = `${progress}%`;
+            
+            // Update question slider
+            // Update max value and total questions display
+            questionSlider.max = questions.length;
+            questionSliderTotal.textContent = questions.length;
+            
+            // Update current value (add 1 because slider is 1-based for user-friendliness)
+            questionSlider.value = currentQuestionIndex + 1;
+            questionSliderValue.textContent = currentQuestionIndex + 1;
         }
 
         // Timer functions
@@ -2531,6 +2615,22 @@
         closeVisualization.addEventListener('click', () => {
             visualizationContainer.classList.remove('visible');
         });
+        
+        // Question navigation slider event listeners
+        questionSlider.addEventListener('input', function() {
+            // Update the displayed value while sliding
+            questionSliderValue.textContent = this.value;
+        });
+        
+        questionSlider.addEventListener('change', function() {
+            // Navigate to the selected question when slider is released
+            const newIndex = parseInt(this.value) - 1; // Convert to 0-based index
+            if (newIndex >= 0 && newIndex < questions.length) {
+                currentQuestionIndex = newIndex;
+                showQuestion();
+                updateProgressBar();
+            }
+        });
 
         // Settings event listeners
         darkModeToggle.addEventListener('change', toggleTheme);
@@ -2552,33 +2652,47 @@
         // LLM Integration
         const generateAiQuestionBtn = document.getElementById('generate-ai-question');
         const aiTopicInput = document.getElementById('ai-topic-input');
+        const aiQuestionCountInput = document.getElementById('ai-question-count-input');
         const aiStatus = document.getElementById('ai-status');
         
-        // Function to generate a question using LLM
+        // Function to generate questions using LLM
         async function generateAiQuestion() {
             const topic = aiTopicInput.value.trim() || "Google Earth Engine";
+            const questionCount = parseInt(aiQuestionCountInput.value) || 1;
             
             // Show loading state
             generateAiQuestionBtn.classList.add('loading');
             generateAiQuestionBtn.disabled = true;
-            aiStatus.textContent = `Generating question about ${topic}...`;
+            aiStatus.textContent = `Generating ${questionCount} question${questionCount > 1 ? 's' : ''} about ${topic}...`;
             aiStatus.classList.add('visible');
             
             try {
-                // In a real implementation, this would call the OpenAI API
-                // For demonstration purposes, we'll simulate the API call
-                const question = await simulateLLMApiCall(topic);
+                // Track the number of questions successfully generated
+                let generatedCount = 0;
                 
-                // Add the generated question to the questions array
-                questions.push(question);
+                // Generate the requested number of questions
+                for (let i = 0; i < questionCount; i++) {
+                    // In a real implementation, this would call the OpenAI API
+                    // For demonstration purposes, we'll simulate the API call
+                    const question = await simulateLLMApiCall(topic);
+                    
+                    // Add the generated question to the questions array
+                    questions.push(question);
+                    generatedCount++;
+                    
+                    // Update status for multiple questions
+                    if (questionCount > 1) {
+                        aiStatus.textContent = `Generated ${generatedCount} of ${questionCount} questions...`;
+                    }
+                }
                 
-                // Update UI to show the new question
-                currentQuestionIndex = questions.length - 1;
+                // Update UI to show the first new question
+                currentQuestionIndex = questions.length - generatedCount;
                 showQuestion();
                 updateProgressBar();
                 
                 // Success message
-                aiStatus.textContent = `New question about ${topic} added!`;
+                aiStatus.textContent = `${generatedCount} new question${generatedCount > 1 ? 's' : ''} about ${topic} added!`;
                 setTimeout(() => {
                     aiStatus.classList.remove('visible');
                 }, 3000);

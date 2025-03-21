@@ -1293,6 +1293,68 @@
                 opacity: 0;
             }
         }
+        /* Styles for question count input */
+        .ai-question-count {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 5px;
+            background-color: var(--bg-light);
+            border-radius: 5px;
+        }
+        
+        .ai-question-count-input {
+            width: 60px;
+            padding: 8px;
+            border: 1px solid var(--text-light);
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+            color: var(--text-dark);
+            background-color: var(--card-bg);
+        }
+        
+        /* Styles for question navigation slider */
+        .question-navigation {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            background-color: var(--bg-light);
+            border-radius: 5px;
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+        
+        .question-slider {
+            flex: 1;
+            height: 8px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #ddd;
+            outline: none;
+            border-radius: 4px;
+        }
+        
+        .question-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--primary);
+            cursor: pointer;
+        }
+        
+        .question-slider::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--primary);
+            cursor: pointer;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -1348,11 +1410,21 @@
                     <div class="ai-topic-container">
                         <input type="text" id="ai-topic-input" placeholder="Enter a GEE topic (e.g., NDVI, Classification)" class="ai-topic-input">
                     </div>
+                    <div class="ai-question-count">
+                        <label for="ai-question-count-input">Number of questions:</label>
+                        <input type="number" id="ai-question-count-input" min="1" max="10" value="1" class="ai-question-count-input">
+                    </div>
                     <div id="ai-status" class="ai-status">Generating question...</div>
                 </div>
 
                 <div class="progress-container">
                     <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                
+                <div class="question-navigation">
+                    <label for="question-slider">Navigate to question:</label>
+                    <input type="range" id="question-slider" min="1" value="1" class="question-slider">
+                    <span id="question-slider-value">1</span>/<span id="question-slider-total">1</span>
                 </div>
 
                 <div id="question-container" class="question-container"></div>
@@ -1542,7 +1614,7 @@
         const LLM_API_URL = "https://api.openai.com/v1/chat/completions";
         // Note: In a production environment, API keys should be handled securely on the server side
         // This is a placeholder for demonstration purposes
-        let API_KEY = ""; // Would be set by user in settings
+        let API_KEY = "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"; // Would be set by user in settings
         
         // Enhanced Quiz Questions with Difficulty Levels and Visualizations
         const originalQuestions = [
@@ -1844,6 +1916,9 @@
         const visualizationContainer = document.getElementById('visualization-container');
         const visualizationContent = document.getElementById('visualization-content');
         const closeVisualization = document.getElementById('close-visualization');
+        const questionSlider = document.getElementById('question-slider');
+        const questionSliderValue = document.getElementById('question-slider-value');
+        const questionSliderTotal = document.getElementById('question-slider-total');
 
         // Quiz State
         let questions = [...originalQuestions];
@@ -1900,10 +1975,13 @@
 
         // Filter questions by difficulty
         function filterQuestionsByDifficulty() {
+            // First limit to 5 questions maximum from original questions
+            let limitedOriginalQuestions = [...originalQuestions].slice(0, 5);
+            
             if (currentDifficulty === 'all') {
-                questions = [...originalQuestions];
+                questions = [...limitedOriginalQuestions];
             } else {
-                questions = originalQuestions.filter(q => q.difficulty === currentDifficulty);
+                questions = limitedOriginalQuestions.filter(q => q.difficulty === currentDifficulty);
             }
         }
 
@@ -2197,10 +2275,19 @@
             hintBtn.style.display = 'none';
         }
 
-        // Update progress bar
+        // Update progress bar and question navigation
         function updateProgressBar() {
             const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
             progressBar.style.width = `${progress}%`;
+            
+            // Update question slider
+            // Update max value and total questions display
+            questionSlider.max = questions.length;
+            questionSliderTotal.textContent = questions.length;
+            
+            // Update current value (add 1 because slider is 1-based for user-friendliness)
+            questionSlider.value = currentQuestionIndex + 1;
+            questionSliderValue.textContent = currentQuestionIndex + 1;
         }
 
         // Timer functions
@@ -2531,6 +2618,22 @@
         closeVisualization.addEventListener('click', () => {
             visualizationContainer.classList.remove('visible');
         });
+        
+        // Question navigation slider event listeners
+        questionSlider.addEventListener('input', function() {
+            // Update the displayed value while sliding
+            questionSliderValue.textContent = this.value;
+        });
+        
+        questionSlider.addEventListener('change', function() {
+            // Navigate to the selected question when slider is released
+            const newIndex = parseInt(this.value) - 1; // Convert to 0-based index
+            if (newIndex >= 0 && newIndex < questions.length) {
+                currentQuestionIndex = newIndex;
+                showQuestion();
+                updateProgressBar();
+            }
+        });
 
         // Settings event listeners
         darkModeToggle.addEventListener('change', toggleTheme);
@@ -2552,33 +2655,47 @@
         // LLM Integration
         const generateAiQuestionBtn = document.getElementById('generate-ai-question');
         const aiTopicInput = document.getElementById('ai-topic-input');
+        const aiQuestionCountInput = document.getElementById('ai-question-count-input');
         const aiStatus = document.getElementById('ai-status');
         
-        // Function to generate a question using LLM
+        // Function to generate questions using LLM
         async function generateAiQuestion() {
             const topic = aiTopicInput.value.trim() || "Google Earth Engine";
+            const questionCount = parseInt(aiQuestionCountInput.value) || 1;
             
             // Show loading state
             generateAiQuestionBtn.classList.add('loading');
             generateAiQuestionBtn.disabled = true;
-            aiStatus.textContent = `Generating question about ${topic}...`;
+            aiStatus.textContent = `Generating ${questionCount} question${questionCount > 1 ? 's' : ''} about ${topic}...`;
             aiStatus.classList.add('visible');
             
             try {
-                // In a real implementation, this would call the OpenAI API
-                // For demonstration purposes, we'll simulate the API call
-                const question = await simulateLLMApiCall(topic);
+                // Track the number of questions successfully generated
+                let generatedCount = 0;
                 
-                // Add the generated question to the questions array
-                questions.push(question);
+                // Generate the requested number of questions
+                for (let i = 0; i < questionCount; i++) {
+                    // In a real implementation, this would call the OpenAI API
+                    // For demonstration purposes, we'll simulate the API call
+                    const question = await simulateLLMApiCall(topic);
+                    
+                    // Add the generated question to the questions array
+                    questions.push(question);
+                    generatedCount++;
+                    
+                    // Update status for multiple questions
+                    if (questionCount > 1) {
+                        aiStatus.textContent = `Generated ${generatedCount} of ${questionCount} questions...`;
+                    }
+                }
                 
-                // Update UI to show the new question
-                currentQuestionIndex = questions.length - 1;
+                // Update UI to show the first new question
+                currentQuestionIndex = questions.length - generatedCount;
                 showQuestion();
                 updateProgressBar();
                 
                 // Success message
-                aiStatus.textContent = `New question about ${topic} added!`;
+                aiStatus.textContent = `${generatedCount} new question${generatedCount > 1 ? 's' : ''} about ${topic} added!`;
                 setTimeout(() => {
                     aiStatus.classList.remove('visible');
                 }, 3000);
@@ -2598,68 +2715,528 @@
             await new Promise(resolve => setTimeout(resolve, 1500));
             
             // This is where you would normally make the actual API call
-            // For demonstration, we'll generate a question based on the topic
+            // For demonstration, we'll generate random questions based on the topic
             
-            // Generate a question based on the topic
-            let question, options, answer, explanation, difficulty, hint;
+            // Define question templates for different topics
+            const questionTemplates = [
+                {
+                    topic: "ndvi",
+                    questions: [
+                        {
+                            q: "What is the formula used to calculate NDVI in Google Earth Engine?",
+                            options: [
+                                "(NIR - RED) / (NIR + RED)",
+                                "(RED - NIR) / (RED + NIR)",
+                                "(NIR - RED) * (NIR + RED)",
+                                "NIR / RED"
+                            ],
+                            answer: "(NIR - RED) / (NIR + RED)",
+                            explanation: "NDVI (Normalized Difference Vegetation Index) is calculated as (NIR - RED) / (NIR + RED), where NIR is the near-infrared band and RED is the red band.",
+                            difficulty: "medium",
+                            hint: "Think about how to normalize the difference between two bands."
+                        },
+                        {
+                            q: "What does NDVI stand for in Google Earth Engine?",
+                            options: [
+                                "Normalized Difference Vegetation Index",
+                                "Natural Density Variation Index",
+                                "Near-Distance Vegetation Indicator",
+                                "Normalized Digital Value Index"
+                            ],
+                            answer: "Normalized Difference Vegetation Index",
+                            explanation: "NDVI stands for Normalized Difference Vegetation Index, which is used to quantify vegetation greenness.",
+                            difficulty: "easy",
+                            hint: "It's a standard index used to measure vegetation health."
+                        },
+                        {
+                            q: "What is the typical range of NDVI values for healthy vegetation?",
+                            options: [
+                                "0.6 to 0.9",
+                                "0.0 to 0.3",
+                                "-0.5 to 0.0",
+                                "-1.0 to -0.5"
+                            ],
+                            answer: "0.6 to 0.9",
+                            explanation: "Healthy vegetation typically has NDVI values between 0.6 and 0.9, with higher values indicating denser vegetation.",
+                            difficulty: "medium",
+                            hint: "Higher values indicate healthier vegetation."
+                        }
+                    ]
+                },
+                {
+                    topic: "classification",
+                    questions: [
+                        {
+                            q: "Which classifier is commonly used for land cover classification in Google Earth Engine?",
+                            options: [
+                                "Random Forest",
+                                "Linear Regression",
+                                "K-Means",
+                                "Principal Component Analysis"
+                            ],
+                            answer: "Random Forest",
+                            explanation: "Random Forest is a popular supervised classification algorithm in GEE due to its accuracy and ability to handle large datasets with many features.",
+                            difficulty: "medium",
+                            hint: "This ensemble learning method builds multiple decision trees."
+                        },
+                        {
+                            q: "What type of classification is K-Means in Google Earth Engine?",
+                            options: [
+                                "Unsupervised classification",
+                                "Supervised classification",
+                                "Semi-supervised classification",
+                                "Reinforcement learning"
+                            ],
+                            answer: "Unsupervised classification",
+                            explanation: "K-Means is an unsupervised classification algorithm that groups data into k clusters based on feature similarity without training data.",
+                            difficulty: "medium",
+                            hint: "This algorithm doesn't require labeled training data."
+                        },
+                        {
+                            q: "What is the purpose of training data in supervised classification in GEE?",
+                            options: [
+                                "To teach the algorithm to recognize different classes",
+                                "To validate the final classification accuracy",
+                                "To determine the number of classes",
+                                "To visualize the classification results"
+                            ],
+                            answer: "To teach the algorithm to recognize different classes",
+                            explanation: "Training data provides labeled examples that help the supervised classification algorithm learn to distinguish between different classes.",
+                            difficulty: "easy",
+                            hint: "Think about what 'supervised' means in this context."
+                        }
+                    ]
+                },
+                {
+                    topic: "sentinel",
+                    questions: [
+                        {
+                            q: "What is the spatial resolution of Sentinel-2 optical bands in Google Earth Engine?",
+                            options: [
+                                "10m, 20m, and 60m depending on the band",
+                                "30m for all bands",
+                                "5m for all bands",
+                                "250m for all bands"
+                            ],
+                            answer: "10m, 20m, and 60m depending on the band",
+                            explanation: "Sentinel-2 provides different resolutions: 10m for visible and NIR bands, 20m for red edge and SWIR bands, and 60m for atmospheric bands.",
+                            difficulty: "easy",
+                            hint: "Different bands have different resolutions based on their intended use."
+                        },
+                        {
+                            q: "How often does Sentinel-2 revisit the same area on Earth?",
+                            options: [
+                                "Every 5 days (with two satellites)",
+                                "Every 16 days",
+                                "Every 30 days",
+                                "Every 365 days"
+                            ],
+                            answer: "Every 5 days (with two satellites)",
+                            explanation: "The Sentinel-2 mission consists of two satellites (2A and 2B) that together provide a revisit time of 5 days at the equator.",
+                            difficulty: "medium",
+                            hint: "The Sentinel-2 mission includes multiple satellites to increase temporal resolution."
+                        },
+                        {
+                            q: "Which Sentinel-2 bands are best for vegetation analysis in GEE?",
+                            options: [
+                                "Red, NIR, and Red Edge bands",
+                                "Thermal bands",
+                                "Coastal aerosol bands",
+                                "Water vapor bands"
+                            ],
+                            answer: "Red, NIR, and Red Edge bands",
+                            explanation: "Red, NIR, and Red Edge bands are most useful for vegetation analysis as they capture chlorophyll absorption and leaf structure reflectance.",
+                            difficulty: "medium",
+                            hint: "Think about which wavelengths plants strongly absorb and reflect."
+                        }
+                    ]
+                },
+                {
+                    topic: "landsat",
+                    questions: [
+                        {
+                            q: "What is the spatial resolution of Landsat 8 optical bands in Google Earth Engine?",
+                            options: [
+                                "30m (15m for panchromatic)",
+                                "10m for all bands",
+                                "250m for all bands",
+                                "1km for all bands"
+                            ],
+                            answer: "30m (15m for panchromatic)",
+                            explanation: "Landsat 8 optical bands have a 30m resolution, while the panchromatic band has a higher resolution of 15m.",
+                            difficulty: "medium",
+                            hint: "The panchromatic band has a higher resolution than the multispectral bands."
+                        },
+                        {
+                            q: "How long has the Landsat program been collecting Earth observation data?",
+                            options: [
+                                "Since the 1970s (over 50 years)",
+                                "Since the 1990s (about 30 years)",
+                                "Since 2010 (about 15 years)",
+                                "Since 2020 (less than 5 years)"
+                            ],
+                            answer: "Since the 1970s (over 50 years)",
+                            explanation: "The Landsat program is the longest-running Earth observation satellite program, beginning with Landsat 1 in 1972.",
+                            difficulty: "easy",
+                            hint: "It's the longest-running Earth observation program in history."
+                        },
+                        {
+                            q: "What is the revisit time for a single Landsat satellite?",
+                            options: [
+                                "16 days",
+                                "5 days",
+                                "1 day",
+                                "30 days"
+                            ],
+                            answer: "16 days",
+                            explanation: "A single Landsat satellite has a revisit time of 16 days, meaning it passes over the same point on Earth every 16 days.",
+                            difficulty: "medium",
+                            hint: "This is longer than Sentinel-2's revisit time."
+                        }
+                    ]
+                },
+                {
+                    topic: "reducers",
+                    questions: [
+                        {
+                            q: "What are reducers in Google Earth Engine?",
+                            options: [
+                                "Functions that aggregate values across dimensions",
+                                "Functions that compress file sizes",
+                                "Functions that simplify code",
+                                "Functions that reduce processing time"
+                            ],
+                            answer: "Functions that aggregate values across dimensions",
+                            explanation: "Reducers in GEE are functions that aggregate values across dimensions, such as calculating statistics over regions or time series.",
+                            difficulty: "medium",
+                            hint: "These functions help you summarize data across space, time, or bands."
+                        },
+                        {
+                            q: "Which reducer would you use to calculate the average value of pixels within a region?",
+                            options: [
+                                "ee.Reducer.mean()",
+                                "ee.Reducer.sum()",
+                                "ee.Reducer.count()",
+                                "ee.Reducer.first()"
+                            ],
+                            answer: "ee.Reducer.mean()",
+                            explanation: "ee.Reducer.mean() calculates the average value of all pixels within a region or across an image collection.",
+                            difficulty: "easy",
+                            hint: "Think about which statistical function calculates an average."
+                        },
+                        {
+                            q: "What is the purpose of ee.Reducer.percentile() in GEE?",
+                            options: [
+                                "To calculate values at specified percentiles of a distribution",
+                                "To reduce the size of an image by a percentage",
+                                "To count the percentage of pixels meeting a condition",
+                                "To calculate the percent change between images"
+                            ],
+                            answer: "To calculate values at specified percentiles of a distribution",
+                            explanation: "ee.Reducer.percentile() calculates values at specified percentiles of a distribution, useful for finding medians or creating robust composites.",
+                            difficulty: "hard",
+                            hint: "This is useful for finding values like the median (50th percentile)."
+                        }
+                    ]
+                },
+                {
+                    topic: "default",
+                    questions: [
+                        {
+                            q: "What is the purpose of the scale parameter in Google Earth Engine?",
+                            options: [
+                                "To determine the pixel resolution for computations",
+                                "To set the visual size of the output",
+                                "To scale values between 0 and 1",
+                                "To set the maximum extent of the analysis"
+                            ],
+                            answer: "To determine the pixel resolution for computations",
+                            explanation: "The scale parameter in GEE determines the pixel resolution at which computations are performed, affecting both accuracy and processing time.",
+                            difficulty: "hard",
+                            hint: "This parameter affects how detailed your analysis will be."
+                        },
+                        {
+                            q: "What is the Earth Engine Data Catalog?",
+                            options: [
+                                "A repository of geospatial datasets available in GEE",
+                                "A tool for cataloging your own datasets",
+                                "A visualization platform for Earth data",
+                                "A programming language for GEE"
+                            ],
+                            answer: "A repository of geospatial datasets available in GEE",
+                            explanation: "The Earth Engine Data Catalog is a repository of petabytes of geospatial datasets that are ready to use in Google Earth Engine.",
+                            difficulty: "easy",
+                            hint: "It contains many public datasets that you can access through GEE."
+                        },
+                        {
+                            q: "What is the difference between client-side and server-side operations in GEE?",
+                            options: [
+                                "Server-side runs on Google's servers, client-side runs in your browser",
+                                "Server-side is for data storage, client-side is for processing",
+                                "Server-side is for visualization, client-side is for analysis",
+                                "There is no difference in GEE"
+                            ],
+                            answer: "Server-side runs on Google's servers, client-side runs in your browser",
+                            explanation: "Server-side operations in GEE run on Google's distributed computing infrastructure, while client-side operations run locally in your web browser.",
+                            difficulty: "hard",
+                            hint: "Think about where the computation actually happens."
+                        }
+                    ]
+                }
+            ];
             
-            // Different question templates based on topic
-            if (topic.toLowerCase().includes('ndvi')) {
-                question = "What is the formula used to calculate NDVI in Google Earth Engine?";
-                options = [
-                    "(NIR - RED) / (NIR + RED)",
-                    "(RED - NIR) / (RED + NIR)",
-                    "(NIR - RED) * (NIR + RED)",
-                    "NIR / RED"
-                ];
-                answer = "(NIR - RED) / (NIR + RED)";
-                explanation = "NDVI (Normalized Difference Vegetation Index) is calculated as (NIR - RED) / (NIR + RED), where NIR is the near-infrared band and RED is the red band.";
-                difficulty = "medium";
-                hint = "Think about how to normalize the difference between two bands.";
-            } else if (topic.toLowerCase().includes('classification')) {
-                question = "Which classifier is commonly used for land cover classification in Google Earth Engine?";
-                options = [
-                    "Random Forest",
-                    "Linear Regression",
-                    "K-Means",
-                    "Principal Component Analysis"
-                ];
-                answer = "Random Forest";
-                explanation = "Random Forest is a popular supervised classification algorithm in GEE due to its accuracy and ability to handle large datasets with many features.";
-                difficulty = "medium";
-                hint = "This ensemble learning method builds multiple decision trees.";
-            } else if (topic.toLowerCase().includes('sentinel')) {
-                question = "What is the spatial resolution of Sentinel-2 optical bands in Google Earth Engine?";
-                options = [
-                    "10m, 20m, and 60m depending on the band",
-                    "30m for all bands",
-                    "5m for all bands",
-                    "250m for all bands"
-                ];
-                answer = "10m, 20m, and 60m depending on the band";
-                explanation = "Sentinel-2 provides different resolutions: 10m for visible and NIR bands, 20m for red edge and SWIR bands, and 60m for atmospheric bands.";
-                difficulty = "easy";
-                hint = "Different bands have different resolutions based on their intended use.";
-            } else {
-                // Default GEE question
-                question = `What is the purpose of the scale parameter in Google Earth Engine when working with ${topic}?`;
-                options = [
-                    "To set the visual size of the output",
-                    "To determine the pixel resolution for computations",
-                    "To scale values between 0 and 1",
-                    "To set the maximum extent of the analysis"
-                ];
-                answer = "To determine the pixel resolution for computations";
-                explanation = `The scale parameter in GEE determines the pixel resolution at which computations are performed when working with ${topic}, affecting both accuracy and processing time.`;
-                difficulty = "hard";
-                hint = "This parameter affects how detailed your analysis will be.";
+            // Improved topic matching logic
+            let matchedTopic = "default";
+            let bestMatchScore = 0;
+            
+            // Define related keywords for each topic to improve matching
+            const topicKeywords = {
+                "ndvi": ["ndvi", "vegetation", "index", "normalized difference", "plant", "chlorophyll", "greenness", "health", "biomass", "forest", "agriculture", "crop", "photosynthesis", "leaf", "canopy"],
+                "classification": ["classification", "classifier", "supervised", "unsupervised", "random forest", "land cover", "land use", "classes", "training", "machine learning", "categorize", "segment", "cluster", "decision tree", "svm", "neural network", "accuracy", "confusion matrix", "validation"],
+                "sentinel": ["sentinel", "esa", "copernicus", "s2", "sentinel-2", "sentinel2", "optical", "multispectral", "10m", "20m", "60m", "bands", "satellite", "imagery", "remote sensing", "revisit", "temporal", "resolution", "swir", "nir", "red edge"],
+                "landsat": ["landsat", "usgs", "nasa", "l8", "landsat-8", "landsat8", "30m", "15m", "panchromatic", "oli", "tirs", "thermal", "tm", "etm+", "collection", "tier", "surface reflectance", "top of atmosphere", "landsat 7", "landsat 5", "landsat 9"],
+                "reducers": ["reducer", "reduce", "aggregate", "statistics", "mean", "median", "sum", "min", "max", "percentile", "count", "standard deviation", "variance", "mode", "histogram", "frequency", "zonal", "regional", "summarize", "calculate"],
+                "image": ["image", "raster", "pixel", "band", "composite", "mosaic", "stack", "collection", "mask", "clip", "projection", "resolution", "scale", "extent", "boundary"],
+                "vector": ["vector", "feature", "geometry", "polygon", "point", "line", "shapefile", "geojson", "buffer", "intersection", "union", "dissolve", "merge", "boundary", "area", "perimeter", "distance"],
+                "time series": ["time series", "temporal", "trend", "change", "dynamic", "seasonal", "annual", "monthly", "daily", "frequency", "period", "cycle", "pattern", "anomaly", "forecast", "historical", "monitoring"]
+            };
+            
+            // Add new template categories for the additional topics
+            const imageQuestions = [
+                {
+                    topic: "image",
+                    questions: [
+                        {
+                            q: "What is the purpose of image masking in Google Earth Engine?",
+                            options: [
+                                "To remove unwanted pixels from analysis",
+                                "To change the visual appearance of images",
+                                "To increase image resolution",
+                                "To convert raster data to vector data"
+                            ],
+                            answer: "To remove unwanted pixels from analysis",
+                            explanation: "Image masking in GEE is used to exclude specific pixels (like clouds, shadows, or areas outside a region of interest) from analysis calculations.",
+                            difficulty: "medium",
+                            hint: "Think about how you might want to exclude certain areas from your analysis."
+                        },
+                        {
+                            q: "What does the 'scale' parameter control when working with images in GEE?",
+                            options: [
+                                "The pixel resolution for computations",
+                                "The visual size of the output",
+                                "The color intensity of the image",
+                                "The geographic projection of the data"
+                            ],
+                            answer: "The pixel resolution for computations",
+                            explanation: "The scale parameter in GEE determines the pixel resolution (in meters) at which computations are performed on images.",
+                            difficulty: "medium",
+                            hint: "This parameter affects the spatial detail of your analysis."
+                        }
+                    ]
+                }
+            ];
+            
+            const vectorQuestions = [
+                {
+                    topic: "vector",
+                    questions: [
+                        {
+                            q: "What is a FeatureCollection in Google Earth Engine?",
+                            options: [
+                                "A group of vector features with geometry and properties",
+                                "A collection of satellite images",
+                                "A set of pixel values",
+                                "A database of Earth Engine users"
+                            ],
+                            answer: "A group of vector features with geometry and properties",
+                            explanation: "A FeatureCollection in GEE is a group of vector features (points, lines, or polygons) that each have geometry and can contain properties (attributes).",
+                            difficulty: "easy",
+                            hint: "Think about how vector data is organized in GIS systems."
+                        },
+                        {
+                            q: "Which function would you use to calculate the area of a polygon in GEE?",
+                            options: [
+                                "feature.area()",
+                                "feature.size()",
+                                "feature.perimeter()",
+                                "feature.dimension()"
+                            ],
+                            answer: "feature.area()",
+                            explanation: "The area() function calculates the area of a polygon feature's geometry in square meters.",
+                            difficulty: "easy",
+                            hint: "This is a common measurement for polygon features."
+                        }
+                    ]
+                }
+            ];
+            
+            const timeSeriesQuestions = [
+                {
+                    topic: "time series",
+                    questions: [
+                        {
+                            q: "What is the purpose of the 'timeField' parameter in time series analysis in GEE?",
+                            options: [
+                                "To specify which property contains the timestamp for each feature",
+                                "To set the time zone for analysis",
+                                "To determine how long the analysis will run",
+                                "To control the temporal resolution of the output"
+                            ],
+                            answer: "To specify which property contains the timestamp for each feature",
+                            explanation: "The timeField parameter identifies which property in each feature contains the timestamp information needed for temporal analysis.",
+                            difficulty: "hard",
+                            hint: "This parameter helps GEE know when each data point occurred."
+                        },
+                        {
+                            q: "Which reducer is commonly used to create a monthly composite from a daily image collection?",
+                            options: [
+                                "ee.Reducer.median()",
+                                "ee.Reducer.count()",
+                                "ee.Reducer.first()",
+                                "ee.Reducer.toList()"
+                            ],
+                            answer: "ee.Reducer.median()",
+                            explanation: "The median reducer is often used to create monthly composites as it helps eliminate outliers and cloud effects in time series data.",
+                            difficulty: "medium",
+                            hint: "This statistical measure is less affected by extreme values than mean."
+                        }
+                    ]
+                }
+            ];
+            
+            // Add the new question templates to the existing array
+            questionTemplates.push(...imageQuestions, ...vectorQuestions, ...timeSeriesQuestions);
+            // Calculate match score for each topic based on keyword matches
+            for (const template of questionTemplates) {
+                const keywords = topicKeywords[template.topic] || [];
+                let score = 0;
+                
+                // Direct match with template topic
+                if (topic.toLowerCase().includes(template.topic)) {
+                    score += 10; // High score for direct match
+                }
+                
+                // Check for keyword matches
+                for (const keyword of keywords) {
+                    if (topic.toLowerCase().includes(keyword)) {
+                        score += 5; // Add points for each keyword match
+                    }
+                }
+                
+                // Check if this is the best match so far
+                if (score > bestMatchScore) {
+                    bestMatchScore = score;
+                    matchedTopic = template.topic;
+                }
             }
             
-            // Create visualization object
-            const visualization = {
-                image: `https://developers.google.com/earth-engine/images/${topic.replace(/\s+/g, '')}.png`,
-                description: `This visualization shows an example of ${topic} analysis in Google Earth Engine.`
-            };
+            // If no good match found, customize a default question with the user's topic
+            if (bestMatchScore === 0) {
+                // Create a custom default question that incorporates the user's topic
+                return {
+                    q: `What is the significance of ${topic} in Google Earth Engine applications?`,
+                    options: [
+                        `${topic} is essential for accurate spatial analysis`,
+                        `${topic} is primarily used for visualization purposes`,
+                        `${topic} helps optimize computational efficiency`,
+                        `${topic} is mainly used for data preprocessing`
+                    ],
+                    answer: `${topic} is essential for accurate spatial analysis`,
+                    explanation: `${topic} plays an important role in Google Earth Engine as it contributes to more accurate spatial analysis and interpretation of Earth observation data.`,
+                    difficulty: "medium",
+                    hint: `Consider how ${topic} might be applied in different GEE analysis workflows.`,
+                    visualization: {
+                        image: "https://developers.google.com/earth-engine/images/analysis.png",
+                        description: `Visualization related to ${topic} analysis in Google Earth Engine.`
+                    },
+                    isAiGenerated: true
+                };
+            }
+            
+            // Find the template for the matched topic
+            const topicTemplate = questionTemplates.find(t => t.topic === matchedTopic) || 
+                                 questionTemplates.find(t => t.topic === "default");
+            
+            // Select a random question from the template
+            const randomIndex = Math.floor(Math.random() * topicTemplate.questions.length);
+            const questionTemplate = topicTemplate.questions[randomIndex];
+            
+            // Create a copy of the question to avoid modifying the template
+            let question = questionTemplate.q;
+            const options = [...questionTemplate.options]; // Create a copy of the options array
+            const answer = questionTemplate.answer;
+            let explanation = questionTemplate.explanation;
+            const difficulty = questionTemplate.difficulty;
+            let hint = questionTemplate.hint;
+            
+            // Customize the question with the user's specific topic if it's not already included
+            if (!question.toLowerCase().includes(topic.toLowerCase()) && matchedTopic !== "default") {
+                // Add the specific topic to the question for more relevance
+                question = question.replace("in Google Earth Engine", `for ${topic} in Google Earth Engine`);
+                explanation = explanation.replace("in GEE", `for ${topic} in GEE`);
+                hint = `When working with ${topic}, ${hint.toLowerCase()}`;
+            }
+            
+            // Randomize the order of options
+            for (let i = options.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [options[i], options[j]] = [options[j], options[i]];
+            }
+            
+            // Create visualization object with more variety
+            let visualization;
+            
+            // Create more varied visualizations based on topic
+            if (topic.toLowerCase().includes('ndvi')) {
+                const ndviVisuals = [
+                    {
+                        image: "https://developers.google.com/earth-engine/images/NDVI.png",
+                        description: "NDVI visualization showing vegetation health across a landscape."
+                    },
+                    {
+                        image: "https://developers.google.com/earth-engine/images/ndvi_timeseries.png",
+                        description: "Time series of NDVI values showing seasonal vegetation changes."
+                    }
+                ];
+                visualization = ndviVisuals[Math.floor(Math.random() * ndviVisuals.length)];
+            } else if (topic.toLowerCase().includes('classification')) {
+                const classVisuals = [
+                    {
+                        image: "https://developers.google.com/earth-engine/images/classification.png",
+                        description: "Land cover classification showing different surface types."
+                    },
+                    {
+                        image: "https://developers.google.com/earth-engine/images/RandomForest.png",
+                        description: "Random Forest classification results showing land use categories."
+                    }
+                ];
+                visualization = classVisuals[Math.floor(Math.random() * classVisuals.length)];
+            } else if (topic.toLowerCase().includes('sentinel')) {
+                const sentinelVisuals = [
+                    {
+                        image: "https://developers.google.com/earth-engine/images/Sentinel2.png",
+                        description: "Sentinel-2 imagery showing true color composite."
+                    },
+                    {
+                        image: "https://developers.google.com/earth-engine/images/sentinel_bands.png",
+                        description: "Different band combinations from Sentinel-2 satellite imagery."
+                    }
+                ];
+                visualization = sentinelVisuals[Math.floor(Math.random() * sentinelVisuals.length)];
+            } else {
+                // Default visualization with some randomness
+                const defaultVisuals = [
+                    {
+                        image: `https://developers.google.com/earth-engine/images/GEE_general.png`,
+                        description: `Visualization related to ${topic} in Google Earth Engine.`
+                    },
+                    {
+                        image: `https://developers.google.com/earth-engine/images/analysis.png`,
+                        description: `Example analysis of ${topic} using Google Earth Engine tools.`
+                    }
+                ];
+                visualization = defaultVisuals[Math.floor(Math.random() * defaultVisuals.length)];
+            }
             
             // Return the generated question in the same format as our original questions
             return {
