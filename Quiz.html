@@ -1613,8 +1613,9 @@
         // LLM API Configuration
         const LLM_API_URL = "https://api.openai.com/v1/chat/completions";
         // Note: In a production environment, API keys should be handled securely on the server side
-        // This is a placeholder for demonstration purposes
-        let API_KEY = "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"; // Would be set by user in settings
+        // API key should only be entered by the user and never stored in the code
+        // This prevents accidental exposure of sensitive credentials
+        let API_KEY = null; // Will be set by user in settings
         
         // Enhanced Quiz Questions with Difficulty Levels and Visualizations
         const originalQuestions = [
