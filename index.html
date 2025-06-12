@@ -18,6 +18,7 @@
             --soft-gray: #f4f7f9;
             --text-primary: #2c3e50;
             --highlight-green: #2ecc71;
+            --highlight-bg: #eaf4f8; /* New color for highlighted section */
         }
     
         * {
@@ -58,8 +59,9 @@
             height: 280px;
             border-radius: 50%;
             object-fit: cover;
-            border: 6px solid var(--accent-blue);
+            border: 6px solid; /* Set border style, color will be animated */
             margin-bottom: 1.5rem;
+            animation: profile-border-animation 6s ease-in-out infinite;
         }
     
         .social-icons {
@@ -101,6 +103,26 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
+
+        /* Highlighted section for tools/projects */
+        .highlight-section {
+            background-color: var(--highlight-bg);
+            border: 2px solid; /* Make border slightly thicker to be more visible */
+            animation: highlight-border-animation 6s ease-in-out infinite;
+        }
+
+        /* Keyframes for animations */
+        @keyframes profile-border-animation {
+            0%   { border-color: var(--accent-blue); }
+            50%  { border-color: var(--deep-blue); }
+            100% { border-color: var(--accent-blue); }
+        }
+
+        @keyframes highlight-border-animation {
+            0%   { border-color: #d1e5ee; }
+            50%  { border-color: var(--accent-blue); }
+            100% { border-color: #d1e5ee; }
+        }
     
         .academic-entry {
             margin-bottom: 1.5rem;
@@ -128,7 +150,13 @@
             padding-bottom: 1.5rem;
             border-bottom: 1px solid #e9ecef;
         }
-    
+        
+        .publication:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
         .publication-title {
             color: var(--deep-blue);
             font-weight: 600;
@@ -153,31 +181,63 @@
         .project-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
+            gap: 1.5rem; /* Increased gap for better spacing */
         }
     
         .project-card {
-            background-color: #f9f9f9;
-            padding: 1rem;
+            background-color: white; /* Changed from var(--soft-gray) for contrast */
+            padding: 1.5rem; /* Increased padding */
             border-radius: 8px;
-            transition: transform 0.3s ease;
+            transition: all 0.3s ease;
+            border: 1px solid #e9ecef;
+            text-decoration: none;
         }
     
         .project-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 15px rgba(44, 125, 160, 0.15);
+            border-color: var(--accent-blue);
         }
     
-        .external-link {
-            color: var(--accent-blue);
+        /* Publication Link Styles */
+        .publication-links {
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+        }
+
+        .publication-link {
+            display: inline-block;
+            padding: 0.4rem 0.8rem; /* Reduced padding */
+            border-radius: 5px;
             text-decoration: none;
             font-weight: 600;
-            transition: color 0.3s ease;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+            font-size: 0.9rem; /* Slightly smaller font */
         }
-    
-        .external-link:hover {
+
+        .publication-link.view-pub {
+            background-color: var(--accent-blue);
+            color: white;
+        }
+
+        .publication-link.view-pub:hover {
+            background-color: var(--deep-blue);
+            color: white;
+        }
+
+        .publication-link.view-pdf {
+            background-color: transparent;
             color: var(--deep-blue);
-            text-decoration: underline;
+            border: 1px solid var(--deep-blue);
+        }
+
+        .publication-link.view-pdf:hover {
+            background-color: var(--deep-blue);
+            color: white;
         }
     
         ul {
@@ -191,16 +251,14 @@
             gap: 1.5rem;
         }
 
-        
         .gallery-grid-new {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1.5rem;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-}
-
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.5rem;
+            padding: 30px;
+            justify-content: center;
+            align-items: center;
+        }
         
         .gallery-image {
             width: 100%;
@@ -239,6 +297,47 @@
         .download-button:hover {
             background-color: var(--deep-blue);
         }
+
+        /* Tab Styles */
+        .tabs-container {
+            overflow: hidden;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 1.5rem;
+        }
+
+        .tabs-container button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+            border-bottom: 3px solid transparent;
+        }
+
+        .tabs-container button:hover {
+            background-color: #f1f1f1;
+        }
+
+        .tabs-container button.active {
+            border-bottom: 3px solid var(--deep-blue);
+            color: var(--deep-blue);
+        }
+
+        .tab-content {
+            display: none;
+            padding-top: 1rem;
+            animation: fadeEffect 0.5s;
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
     
         @media (max-width: 1100px) {
             .academic-container {
@@ -255,6 +354,7 @@
             .academic-container {
                 grid-template-columns: 1fr;
                 gap: 1rem;
+                padding: 1.5rem;
             }
     
             .profile-sidebar {
@@ -302,6 +402,10 @@
         }
     
         @media (max-width: 480px) {
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+
             .gallery-image {
                 height: 150px;
             }
@@ -324,7 +428,7 @@
     <div class="academic-container">
         <!-- Sidebar Profile -->
         <aside class="profile-sidebar">
-            <img src="images/pulakesh.jpg" alt="Pulakesh Pradhan">
+            <img src="images/pulakesh.jpg" alt="Pulakesh Pradhan" onerror="this.onerror=null;this.src='https://placehold.co/280x280/2c7da0/f4f7f9?text=PP';">
             <h1>Pulakesh Pradhan</h1>
             <!-- <p>PhD Research Scholar</p>
             <p>Ravenshw University, India</p> -->
@@ -343,10 +447,10 @@
                 <a href="https://x.com/codeforgeo" target="_blank" title="Twitter">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://scholar.google.com/citations?user=yourID&user=_DhEQHEAAAAJ" target="_blank" title="Google Scholar">
+                <a href="https://scholar.google.com/citations?user=_DhEQHEAAAAJ" target="_blank" title="Google Scholar">
                     <i class="fas fa-graduation-cap"></i>
                 </a>
-                <a href="https://www.instagram.com/pradhan_pulakesh" target="_blank" title="Medium">
+                <a href="https://www.instagram.com/pradhan_pulakesh" target="_blank" title="Instagram">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
@@ -356,222 +460,166 @@
                 <p>☏ +91-8617812861</p>
                 <p>📧 pulakesh.mid@gmail.com</p>
                 <p>📕 Department of Geography<br>
-                    🏫 Ravenshw University</p>
+                    🏫 Ravenshaw University</p>
             </div>
             <div style="margin-top: 1.5rem;">
-                <a href="https://wa.me/918617812861" class="download-button" download>Say Hi...</a>
-                <!-- <p>I want to collaborate...</p> -->
+                <a href="https://wa.me/918617812861" target="_blank" class="download-button">
+                    Hi... <i class="fab fa-whatsapp" style="margin-left: 0.5rem;"></i>
+                </a>
             </div>
         </aside>
-<!--  Main Content -->
+<!-- Main Content -->
 <main>
+    <!-- Publications -->
+    <section class="academic-card">
+        <!-- <h2 class="section-header">Research Publications</h2> -->
+        
+        <div class="tabs-container">
+            <button class="tab-link active" onclick="openTab(event, 'Drought')">Drought</button>
+            <button class="tab-link" onclick="openTab(event, 'Flood')">Flood</button>
+            <button class="tab-link" onclick="openTab(event, 'SocioEconomic')">Socio-Economic</button>
+        </div>
 
-                <!-- Professional Profile -->
-                <!-- <section class="academic-card">
-                    <h2 class="section-header">About Me</h2>
-                    <p>
-                        I am <strong>Pulakesh Pradhan</strong>, a Ph.D. Scholar in Geography at Ravenshaw University, Cuttack, Odisha. 
-                        I completed my M.Phil. in 2020. I qualified for the UGC-JRF in 2019 and cleared the West Bengal SET in 2018.
-                    </p>
-                    
-                </section> -->
-
-            <!-- Image Gallery -->
-            <!-- Image Gallery -->
- 
-            <!-- <section class="academic-card">
-                <h2 class="section-header">My Research Interests</h2>
-                <p class="subsection-description">
-                    I am interested in <strong>remote sensing and empirical analysis</strong> for 
-                    <strong>sustainable agriculture, climate change, and rural development</strong>, 
-                    focusing on <strong>crop monitoring, land use, and climate resilience</strong>.
+        <div id="Drought" class="tab-content" style="display: block;">
+            <div class="publication">
+                <h3 class="publication-title">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
+                <p class="publication-details">
+                    <strong>Book:</strong> Modern Cartography Series
+                    <strong>Year:</strong> 2024
+                    <span class="badge">Google Earth Engine</span>
                 </p>
-                <div class="gallery-grid-new">
-                    <div class="gallery-item">
-                        <i class="fas fa-tree gallery-icon"></i>
-                        <div class="gallery-caption">Vegetation</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-water gallery-icon"></i>
-                        <div class="gallery-caption">Water</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-cloud-sun-rain gallery-icon"></i>
-                        <div class="gallery-caption">Climate</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-globe gallery-icon"></i>
-                        <div class="gallery-caption">Soil</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-mountain gallery-icon"></i>
-                        <div class="gallery-caption">Topography</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-faucet gallery-icon"></i>
-                        <div class="gallery-caption">Ground Water</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-sun gallery-icon"></i>
-                        <div class="gallery-caption">Drought</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fa-solid fa-house-flood-water gallery-icon"></i>
-                        <div class="gallery-caption">Flood</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-bolt gallery-icon"></i>
-                        <div class="gallery-caption">Extreme Events</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-satellite gallery-icon"></i>
-                        <div class="gallery-caption">SAR Radar</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-fire gallery-icon"></i>
-                        <div class="gallery-caption">Forest Fire</div>
-                    </div>
-                    <div class="gallery-item">
-                        <i class="fas fa-layer-group gallery-icon"></i>
-                        <div class="gallery-caption">LULC</div>
-                    </div>
+                <p class="publication-description">This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends, highlighting extreme droughts, shifting water availability, and resilience improvements through NDVI and land surface cooling.</p>
+                <div class="publication-links">
+                    <a href="https://doi.org/10.1016/B978-0-443-23890-1.00011-6" target="_blank" class="publication-link view-pub">View Publication</a>
+                    <a href="https://drive.google.com/file/d/1P0k1iLDrUPfr0BSYS7Xi_a6muw2Ox2Zz/view?usp=sharing" target="_blank" class="publication-link view-pdf">View PDF <i class="fas fa-file-pdf"></i></a>
                 </div>
-            </section> -->
+            </div>
+        </div>
 
-            <!-- Publications -->
-            <section class="academic-card">
-                <h2 class="section-header">Research Publications</h2>
-                <div class="publication">
-                    <h3 class="publication-title">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
-                    <p class="publication-details">
-                        <strong>Book:</strong> Modern Cartography Series
-                        <strong>Year:</strong> 2024
-                        <span class="badge">Google Earth Engine</span>
-                    </p>
-                    <p class="publication-description">This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends, highlighting extreme droughts, shifting water availability, and resilience improvements through NDVI and land surface cooling.</p>
-                    <a href="https://doi.org/10.1016/B978-0-443-23890-1.00011-6" class="external-link">View Publication</a>
+        <div id="Flood" class="tab-content">
+             <div class="publication">
+                <h3 class="publication-title">Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine</h3>
+                <p class="publication-details">
+                    <strong>Book:</strong> Google Earth Engine and Artificial Intelligence for Earth Observation
+                    <strong>Year:</strong> 2025
+                    <span class="badge" style="background-color: var(--accent-blue);">Google Earth Engine</span>
+                </p>
+                <p class="publication-description">The analytic hierarchy process (AHP) is a structured technique to support complex decision-making by giving weights to the parameters of a problem into a hierarchy of criteria. This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters selected for this study are elevation, rainfall distribution, land cover, slope, Topographic Wetness Index (TWI), Normalized Difference Vegetation Index (NDVI), Soil, and Distance from water bodies identified through an extensive literature review. Pairwise Comparisons Matrix (PCM), Priority Weights (PW), Principal Eigen Value (PEV) and Consistency Index (CI) were calculated between parameters. CI value for this study is 0.062, indicating high consistency in subjective judgments with 4.446% Consistency Ratio (CR). The weighted overlay method in Earth Engine integrated these spatial layers based on the AHP criteria weights. The resulting maps provide a robust delineation of areas highly prone to flooding. Ganjam, Puri, and Balasore districts are associated with high flood vulnerability. Whereas the Bhadrak, Jajpur, Koraput, Sundargarh, and Cuttack district are associated with moderate vulnerability and Bolangir, Kalahandi, and Dhenkanal with low vulnerability zone.</p>
+                <div class="publication-links">
+                    <a href="https://doi.org/10.1016/B978-0-443-27372-8.00025-8" target="_blank" class="publication-link view-pub">View Publication</a>
+                    <a href="https://drive.google.com/file/d/1QhhcVkj7_kMIuh1LOCtFqU0NM3OWUHB8/view?usp=sharing" target="_blank" class="publication-link view-pdf">View PDF <i class="fas fa-file-pdf"></i></a>
                 </div>
-                <!-- <div class="publication">
-                    <h3 class="publication-title">Monsoon Dynamics and Environmental Interactions in Indian Subcontinent</h3>
-                    <p class="publication-details">
-                        <strong>Journal:</strong> Climate Research Journal
-                        <strong>Year:</strong> 2021
-                    </p>
-                    <p class="publication-description">Detailed analysis of monsoon onset patterns, their variability, and environmental implications in the Indian subcontinent.</p>
-                    <a href="#" class="external-link">View Publication</a>
-                </div> -->
-            </section>
-
-            <section class="academic-card">
-                <h3>🌍 AHP Flood Map (Earth Engine APP) </h3>
-       
-                <!-- Embedded GEE App -->
-                <div id="gee-embed-container" class="hidden-content">
-                    <iframe src="https://pulakeshpradhan.users.earthengine.app/view/odishaflood" width="100%" height="500px" style="border: none; border-radius: 8px;"></iframe>
-                </div>                
-            
-            </section>
-            <!-- <section class="academic-card"> -->
-                <!-- <h2 class="section-header">Image Gallery</h2> -->
-
-                <!-- India Subsection -->
-                <!-- <h3 class="subsection-header">Ravenshaw University</h3>
-                <div class="gallery-grid">
-                    <img src="images/Ravenshaw/1.jpg" alt="Description of Image 1" class="gallery-image">
-                    <img src="images/Ravenshaw/2.jpg" alt="Description of Image 2" class="gallery-image">
-                    <img src="images/Ravenshaw/3.jpg" alt="Description of Image 3" class="gallery-image">
-                </div> -->
-
-
-                <!-- France Subsection -->
-                <!-- <h3 class="subsection-header">IIT Bombay</h3>
-                <div class="gallery-grid">
-                    <img src="images/IIT Bombay/1.jpg" alt="Description of Image 1" class="gallery-image">
-                    <img src="images/IIT Bombay/2.jpg" alt="Description of Image 2" class="gallery-image">
-                    <img src="images/IIT Bombay/3.jpg" alt="Description of Image 3" class="gallery-image">
-                    <img src="images/IIT Bombay/4.jpg" alt="Description of Image 3" class="gallery-image">
-                </div> -->
- 
-                <!-- France Subsection -->
-                <!-- <h3 class="subsection-header">Ganpat University (GUNI), Gujarat</h3>
-                <div class="gallery-grid">
-                    <img src="images/Ganpat University/guni1.jpeg" alt="Description of Image 1" class="gallery-image"> -->
-                    <!-- <img src="images/Ganpat University/guni2.jpeg" alt="Description of Image 2" class="gallery-image"> -->
-                    <!-- <img src="images/Ganpat University/guni3.jpeg" alt="Description of Image 3" class="gallery-image">
-                    <img src="images/Ganpat University/guni4.JPG" alt="Description of Image 3" class="gallery-image">
-                </div> -->
-                <!-- France Subsection -->
-                <!-- <h3 class="subsection-header">BHU (GEE Workshop)</h3>
-                <div class="gallery-grid">
-                    <img src="images/BHU/BHU4.jpg" alt="Description of Image 1" class="gallery-image">
-                    <img src="images/BHU/BHU2.jpg" alt="Description of Image 3" class="gallery-image">
-                    <img src="images/BHU/BHU3.jpg" alt="Description of Image 3" class="gallery-image">
-                </div> -->
-           
-                           <!-- France Subsection -->
-                <!-- <h3 class="subsection-header">IIIT Bhubaneswar</h3>
-                <div class="gallery-grid">
-                    <img src="images/IIITBBS/img1.jpg" alt="Description of Image 1" class="gallery-image">
-                    <img src="images/IIITBBS/img2.png" alt="Description of Image 3" class="gallery-image">
-                    <img src="images/IIITBBS/img3.jpg" alt="Description of Image 3" class="gallery-image">
-                </div> -->
-
-           
-
-
-
-            <!-- </section> -->
-
-            
-
-
-
-
-            <!-- Quick Links Section (Password Protected) -->
-<!-- <section class="academic-card"> -->
+            </div>
+        </div>
         
-    <!-- Button to trigger password prompt -->
-    <!-- <button onclick="verifyPassword()" class="download-button">🔒 Unlock Links</button> -->
+        <div id="SocioEconomic" class="tab-content">
+            <p>New publications coming soon.</p>
+        </div>
+    </section>
 
-    <!-- Hidden Quick Links Content -->
-    <!-- <div id="quick-links-content" style="display: none; margin-top: 1rem;">
+    <!-- Tools & Projects Section -->
+    <!-- <section class="academic-card highlight-section">
         <div class="project-grid">
-            <a href="analysis.html" class="download-button" target="_blank">Analysis</a>
-            <a href="datasets.html" class="download-button" target="_blank">Datasets</a>
-            <a href="topics.html" class="download-button" target="_blank">Topics</a>
-            <a href="training.html" class="download-button" target="_blank">Training</a>
-        </div> -->
-<!-- 
-        <div class="project-grid">
-            <a href="gee.html" class="download-button">GEE</a>
-            <a href="blogs.html" class="download-button">Blogs</a>
-            <a href="datasets.html" class="download-button">Datasets</a>
-            <a href="visualization.html" class="download-button">Visualization</a>
-        </div> -->
-    <!-- </div>
-</section> -->
+            <a href="https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb" target="_blank" class="project-card">
+                <div style="text-align: center;">
+                    <i class="fab fa-chrome" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                    <h3 class="entry-title" style="margin-bottom: 0.25rem;">Google Earth Engine AI Assistant</h3>
+                    <p style="color: var(--text-primary); font-size: 0.9rem;">Chrome Extension created by Pulakesh Pradhan</p>
+                </div>
+            </a>
+            <a href="https://pulakeshpradhan.github.io/geeai.html" target="_blank" class="project-card">
+                <div style="text-align: center;">
+                    <i class="fa-solid fa-users-line" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                    <h3 class="entry-title" style="margin-bottom: 0.25rem;"> Homepage</h3>
+                    <p style="color: var(--text-primary); font-size: 0.9rem;">Learn more about the tool</p>
+                </div>
+            </a>
+        </div>
+    </section> -->
 
-<!-- JavaScript for Password Protection -->
-<!-- <script>
-    function verifyPassword() {
-        var password = prompt("Enter the password to access Quick Links:");
-        var correctPassword = "****"; 
-        
-        if (password === correctPassword) {
-            document.getElementById("quick-links-content").style.display = "block";
-        } else {
-            alert("Incorrect password. Access denied.");
-        }
-    }
-</script>
-  -->
+    <!-- GEE App Section -->
+    <section class="academic-card">
+        <h2 class="section-header">🌍 AHP Flood Map (Earth Engine APP)</h2>
+        <!-- Embedded GEE App -->
+        <div id="gee-embed-container">
+            <iframe src="https://pulakeshpradhan.users.earthengine.app/view/odishaflood" width="100%" height="500px" style="border: none; border-radius: 8px;"></iframe>
+        </div>
+    </section>
 
-        </main>
+    <!-- Featured Analysis Section -->
+    <section class="academic-card">
+        <!-- <h2 class="section-header">Featured Analysis</h2> -->
+        <img src="https://media.licdn.com/dms/image/v2/D5612AQEFUPoYyMzx4Q/article-inline_image-shrink_400_744/B56ZdKOj2hGsAY-/0/1749297020811?e=1755129600&v=beta&t=FzZiacilGbBFLE_nmMWQDZQjyydKW7yrm8AFqnL7Pa4" alt="Featured Research Analysis" style="width: 100%; border-radius: 12px;">
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="academic-card">
+        <h2 class="section-header">Image Gallery</h2>
+
+        <!-- Ravenshaw University Subsection -->
+        <h3 class="subsection-header">Ravenshaw University</h3>
+        <div class="gallery-grid">
+            <img src="images/Ravenshaw/1.jpg" alt="Ravenshaw University Image 1" class="gallery-image">
+            <img src="images/Ravenshaw/2.jpg" alt="Ravenshaw University Image 2" class="gallery-image">
+            <img src="images/Ravenshaw/3.jpg" alt="Ravenshaw University Image 3" class="gallery-image">
+        </div>
+
+        <!-- IIT Bombay Subsection -->
+        <h3 class="subsection-header">IIT Bombay</h3>
+        <div class="gallery-grid">
+            <img src="images/IIT Bombay/1.jpg" alt="IIT Bombay Image 1" class="gallery-image">
+            <img src="images/IIT Bombay/2.jpg" alt="IIT Bombay Image 2" class="gallery-image">
+            <img src="images/IIT Bombay/3.jpg" alt="IIT Bombay Image 3" class="gallery-image">
+            <img src="images/IIT Bombay/4.jpg" alt="IIT Bombay Image 4" class="gallery-image">
+        </div>
+
+        <!-- Ganpat University (GUNI), Gujarat Subsection -->
+        <h3 class="subsection-header">Ganpat University (GUNI), Gujarat</h3>
+        <div class="gallery-grid">
+            <img src="images/Ganpat University/guni1.jpeg" alt="Ganpat University Image 1" class="gallery-image">
+            <img src="images/Ganpat University/guni2.jpeg" alt="Ganpat University Image 2" class="gallery-image">
+            <img src="images/Ganpat University/guni3.jpeg" alt="Ganpat University Image 3" class="gallery-image">
+            <img src="images/Ganpat University/guni4.JPG" alt="Ganpat University Image 4" class="gallery-image">
+        </div>
+        <!-- BHU (GEE Workshop) Subsection -->
+        <h3 class="subsection-header">BHU (GEE Workshop)</h3>
+        <div class="gallery-grid">
+            <img src="images/BHU/BHU4.jpg" alt="BHU GEE Workshop Image 1" class="gallery-image">
+            <img src="images/BHU/BHU2.jpg" alt="BHU GEE Workshop Image 2" class="gallery-image">
+            <img src="images/BHU/BHU3.jpg" alt="BHU GEE Workshop Image 3" class="gallery-image">
+        </div>
+
+        <!-- IIIT Bhubaneswar Subsection -->
+        <h3 class="subsection-header">IIIT Bhubaneswar</h3>
+        <div class="gallery-grid">
+            <img src="images/IIITBBS/img1.jpg" alt="IIIT Bhubaneswar Image 1" class="gallery-image">
+            <img src="images/IIITBBS/img2.png" alt="IIIT Bhubaneswar Image 2" class="gallery-image">
+            <img src="images/IIITBBS/img3.jpg" alt="IIIT Bhubaneswar Image 3" class="gallery-image">
+        </div>
+    </section>
+
+</main>
     </div>
 
     <!-- Footer -->
     <footer style="background-color: var(--deep-blue); color: white; text-align: center; padding: 1rem;">
         <p>© 2025 Pulakesh Pradhan | Geography Research Scholar</p>
     </footer>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
 </body>
 </html>

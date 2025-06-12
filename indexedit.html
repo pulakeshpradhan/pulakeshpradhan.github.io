@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulakesh Pradhan - Geography Research Scholar</title>
+
+    <!-- Font Awesome for Social Icons and other UI Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Academic Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --deep-blue: #1a3b5c;
+            --accent-blue: #2c7da0;
+            --soft-gray: #f4f7f9;
+            --text-primary: #2c3e50;
+            --highlight-green: #2ecc71;
+            --light-gray-border: #e0e0e0; /* For subtle borders */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.7;
+            background-color: var(--soft-gray);
+            color: var(--text-primary);
+        }
+
+        .academic-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 2.5rem;
+            padding: 2.5rem;
+        }
+
+        .profile-sidebar {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem;
+            text-align: center;
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+        }
+
+        .profile-sidebar img.profile-image { /* Added class for specificity */
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid var(--accent-blue);
+            margin-bottom: 1.5rem;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-icons a {
+            color: var(--deep-blue);
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: var(--accent-blue);
+        }
+
+        .section-header {
+            font-family: 'Merriweather', serif;
+            border-bottom: 3px solid var(--accent-blue);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--deep-blue);
+            font-size: 1.75rem; /* Slightly larger section header */
+        }
+
+        .academic-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+            padding: 2.5rem; /* Increased padding slightly */
+            margin-bottom: 2.5rem; /* Increased margin slightly */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .academic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12); /* Enhanced hover shadow */
+        }
+
+        .publication {
+            margin-bottom: 2rem; /* Increased spacing */
+            padding-bottom: 2rem; /* Increased spacing */
+            border-bottom: 1px solid var(--light-gray-border);
+        }
+
+        .publication:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .publication-title {
+            color: var(--deep-blue);
+            font-weight: 700; /* Bolder title */
+            font-family: 'Merriweather', serif;
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-details {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 0.75rem;
+        }
+        .publication-description {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-primary);
+        }
+
+
+        .badge {
+            display: inline-block;
+            background-color: var(--highlight-green);
+            color: white;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.75rem; /* Slightly smaller badge text */
+            margin-left: 0.5rem;
+            font-weight: 600;
+        }
+
+        /* Technical Skills Grid */
+        .technical-skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); /* Adjusted minmax for better fit */
+            gap: 1.5rem;
+            text-align: center;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.25rem 1rem; /* Adjusted padding */
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid var(--light-gray-border);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .skill-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .skill-item img.skill-icon { /* Style for skill icons (images) */
+            width: 48px;  /* Increased size */
+            height: 48px; /* Increased size */
+            object-fit: contain;
+            margin-bottom: 0.75rem;
+            border-radius: 4px; /* Optional, if images have bg */
+        }
+
+        .skill-item span.skill-name { /* Style for skill names */
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .publication-actions {
+            margin-top: 1.25rem; /* Increased margin */
+            display: flex;
+            flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .publication-action-btn { /* Common class for publication buttons */
+            padding: 0.6rem 1.2rem; /* Adjusted padding */
+            border-radius: 6px; /* Slightly more rounded */
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 2px solid transparent;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .publication-action-btn:hover{
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .view-publication-btn { /* Specific style for view button */
+            background-color: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        .view-publication-btn:hover {
+            background-color: var(--deep-blue);
+            border-color: var(--deep-blue);
+            color: white;
+        }
+
+        .download-pdf-btn { /* Specific style for download button */
+            background-color: var(--highlight-green);
+            color: white;
+            border-color: var(--highlight-green);
+        }
+
+        .download-pdf-btn:hover {
+            background-color: #27ae60; /* Darker green */
+            border-color: #27ae60;
+            color: white;
+        }
+
+
+        .download-button { /* General download button (like "Say Hi") */
+            display: inline-block;
+            background-color: var(--accent-blue);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .download-button:hover {
+            background-color: var(--deep-blue);
+            transform: translateY(-2px);
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 1100px) {
+            .academic-container {
+                grid-template-columns: 1fr;
+                padding: 1.5rem; /* Adjust padding */
+            }
+            .technical-skills-grid {
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .profile-sidebar {
+                position: static;
+                margin-bottom: 2rem;
+                padding: 1.5rem;
+            }
+             .profile-sidebar img.profile-image {
+                width: 200px;
+                height: 200px;
+            }
+            .academic-card {
+                padding: 1.5rem;
+            }
+            .section-header {
+                font-size: 1.5rem;
+            }
+            .technical-skills-grid {
+                 grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+            }
+            .skill-item img.skill-icon {
+                width: 40px;
+                height: 40px;
+            }
+            .skill-item span.skill-name {
+                font-size: 0.8rem;
+            }
+            .publication-actions {
+                flex-direction: column; /* Stack buttons on small screens */
+                align-items: stretch; /* Make buttons full width */
+            }
+            .publication-action-btn {
+                width: 100%;
+                justify-content: center; /* Center text/icon in button */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile-sidebar img.profile-image {
+                width: 180px;
+                height: 180px;
+            }
+            .social-icons {
+                gap: 0.8rem;
+            }
+            .social-icons a {
+                font-size: 1.3rem;
+            }
+             .technical-skills-grid {
+                grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            }
+             .skill-item img.skill-icon {
+                width: 36px;
+                height: 36px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="academic-container">
+        <!-- Sidebar Profile -->
+        <aside class="profile-sidebar">
+            <!-- Ensure this path is correct, or use a placeholder -->
+            <img src="images/pulakesh.jpg" alt="Pulakesh Pradhan" class="profile-image" onerror="this.onerror=null;this.src='https://placehold.co/280x280/2c7da0/ffffff?text=PP';">
+            <h1>Pulakesh Pradhan</h1>
+
+            <div class="social-icons">
+                <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                <a href="https://orcid.org/0000-0003-3103-3617" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
+                <a href="https://www.linkedin.com/in/pulakeshpradhan/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/codeforgeo" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://scholar.google.com/citations?user=_DhEQHEAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.instagram.com/pradhan_pulakesh" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div style="margin-top: 1.5rem; text-align: left; padding-left:10px;"> <!-- Aligned contact info left -->
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone fa-fw"></i> +91-8617812861</p>
+                <p><i class="fas fa-envelope fa-fw"></i> pulakesh.mid@gmail.com</p>
+                <p><i class="fas fa-university fa-fw"></i> Dept. of Geography</p>
+                <p style="padding-left: 22px;"><i class="fas fa-school fa-fw"></i> Ravenshaw University</p> <!-- Indented second line -->
+            </div>
+            <div style="margin-top: 2rem;">
+                <a href="https://wa.me/918617812861" class="download-button" target="_blank"><i class="fab fa-whatsapp"></i> Say Hi...</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Technical Skills Section -->
+            <section class="academic-card">
+                <h2 class="section-header">Technical Skills</h2>
+                <div class="technical-skills-grid">
+                    <div class="skill-item">
+                        <img src="https://earthengine.google.com/static/images/earth-engine-logo.png" alt="GEE Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">GEE</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">R</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://www.insightplatforms.com/wp-content/uploads/2019/09/stata_logo.png" alt="Stata Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">Stata</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/SmartPLS_Logo.png" alt="SmartPLS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">SmartPLS</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/1/1b/IBM_SPSS_v23.png" alt="SPSS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">SPSS</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://s45055.pcdn.co/centers/geospatial-analytics/www-content/blogs.dir/7/files/sites/354/2024/11/Spiral-Drawing-Transparent.png" alt="TerraSat Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">TerraSat</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://www.esri.in/content/dam/distributor-share/esri-se/icons/product-logos/ArcGIS-Pro.png" alt="ArcGIS Pro Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">ArcGIS Pro</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/QGIS_logo_new.svg" alt="QGIS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">QGIS</span>
+                    </div>
+                     <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="SQL Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">Github</span>
+                    </div>
+                     <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/JASP_logo.svg" alt="JavaScript Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">JASP</span>
+                    </div>
+
+                     <div class="skill-item">
+                        <img src="https://avatars.githubusercontent.com/u/16259639?s=200&v=4" alt="JavaScript Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">GeoDa</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications -->
+            <section class="academic-card">
+                <h2 class="section-header">Research Publications</h2>
+                <div class="publication">
+                    <h3 class="publication-title">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
+                    <p class="publication-details">
+                        <strong>Book:</strong> Modern Cartography Series
+                        | <strong>Year:</strong> 2024
+                        <span class="badge">Google Earth Engine</span>
+                    </p>
+                    <p class="publication-description">This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends, highlighting extreme droughts, shifting water availability, and resilience improvements through NDVI and land surface cooling.</p>
+                    <div class="publication-actions">
+                        <a href="https://doi.org/10.1016/B978-0-443-23890-1.00011-6" class="publication-action-btn view-publication-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> View Publication
+                        </a>
+                        <a href="path/to/your/publication.pdf" class="publication-action-btn download-pdf-btn" download="Pradhan_Agricultural_Drought_Monitoring_2024.pdf"> <!-- Replace with actual PDF path -->
+                            <i class="fas fa-file-pdf"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+                <!-- Add more publications here following the same structure -->
+            </section>
+
+            <section class="academic-card">
+                <h3><i class="fas fa-globe-asia"></i> AHP Flood Map (Earth Engine APP) </h3>
+                <div id="gee-embed-container" style="margin-top:1rem;">
+                    <iframe src="https://pulakeshpradhan.users.earthengine.app/view/odishaflood" width="100%" height="500px" style="border: 1px solid var(--light-gray-border); border-radius: 8px;"></iframe>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--deep-blue); color: white; text-align: center; padding: 1.5rem; margin-top: 2rem;">
+        <p>© <span id="currentYear"></span> Pulakesh Pradhan | Geography Research Scholar. All Rights Reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
