@@ -180,7 +180,7 @@
     
         .project-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 1.5rem; /* Increased gap for better spacing */
         }
     
@@ -191,6 +191,10 @@
             transition: all 0.3s ease;
             border: 1px solid #e9ecef;
             text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
     
         .project-card:hover {
@@ -343,9 +347,11 @@
             .academic-container {
                 grid-template-columns: 1fr;
             }
-    
-            .project-grid, .skills-grid {
-                grid-template-columns: 1fr;
+        }
+
+        @media (max-width: 992px) {
+            .project-grid {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
     
@@ -360,6 +366,10 @@
             .profile-sidebar {
                 position: static;
                 margin-bottom: 2rem;
+            }
+
+            .project-grid, .skills-grid {
+                grid-template-columns: 1fr;
             }
     
             .gallery-grid {
@@ -402,10 +412,6 @@
         }
     
         @media (max-width: 480px) {
-            .project-grid {
-                grid-template-columns: 1fr;
-            }
-
             .gallery-image {
                 height: 150px;
             }
@@ -519,32 +525,52 @@
 
     <!-- Tools & Projects Section -->
     <section class="academic-card highlight-section">
+        <h2 class="section-header">Tools & Projects</h2>
         <div class="project-grid">
             <a href="https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb" target="_blank" class="project-card">
-                <div style="text-align: center;">
-                    <i class="fab fa-chrome" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
-                    <h3 class="entry-title" style="margin-bottom: 0.25rem;">Google Earth Engine AI Assistant</h3>
-                    <p style="color: var(--text-primary); font-size: 0.9rem;">Chrome Extension created by Pulakesh Pradhan</p>
-                </div>
+                <i class="fab fa-chrome" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                <h3 class="entry-title" style="margin-bottom: 0.25rem;">Google Earth Engine AI Assistant</h3>
+                <p style="color: var(--text-primary); font-size: 0.9rem;">Chrome Extension created by Pulakesh Pradhan</p>
             </a>
             <a href="https://pulakeshpradhan.github.io/geeai.html" target="_blank" class="project-card">
-                <div style="text-align: center;">
-                    <i class="fa-solid fa-users-line" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
-                    <h3 class="entry-title" style="margin-bottom: 0.25rem;"> Homepage</h3>
-                    <p style="color: var(--text-primary); font-size: 0.9rem;">Learn more about the tool</p>
-                </div>
+                <i class="fa-solid fa-users-line" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                <h3 class="entry-title" style="margin-bottom: 0.25rem;">Homepage</h3>
+                <p style="color: var(--text-primary); font-size: 0.9rem;">Learn more about the tool</p>
             </a>
         </div>
     </section>
 
     <!-- GEE App Section -->
     <section class="academic-card">
-        <h2 class="section-header">🌍 AHP Flood Map (Earth Engine APP)</h2>
+        <h2 class="section-header">� AHP Flood Map (Earth Engine APP)</h2>
         <!-- Embedded GEE App -->
         <div id="gee-embed-container">
             <iframe src="https://pulakeshpradhan.users.earthengine.app/view/odishaflood" width="100%" height="500px" style="border: none; border-radius: 8px;"></iframe>
         </div>
     </section>
+
+    <!-- NEW Google Earth Engine Apps Section -->
+    <section class="academic-card highlight-section">
+        <h2 class="section-header">Google Earth Engine Apps</h2>
+        <div class="project-grid">
+            <a href="https://pulakeshpradhan.projects.earthengine.app/view/spectral" target="_blank" class="project-card">
+                <i class="fa-solid fa-wave-square" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                <h3 class="entry-title" style="margin-bottom: 0.25rem;">Spectral Library</h3>
+                <p style="color: var(--text-primary); font-size: 0.9rem;">Analyze and visualize spectral signatures of various land cover features.</p>
+            </a>
+            <a href="https://pulakeshpradhan.projects.earthengine.app/view/signature" target="_blank" class="project-card">
+                <i class="fa-solid fa-pen-ruler" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                <h3 class="entry-title" style="margin-bottom: 0.25rem;">Signature Editor</h3>
+                <p style="color: var(--text-primary); font-size: 0.9rem;">A tool for creating and managing spectral signatures for image classification.</p>
+            </a>
+            <a href="https://pulakeshpradhan.projects.earthengine.app/view/floodsusceptibility" target="_blank" class="project-card">
+                <i class="fa-solid fa-house-flood-water" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                <h3 class="entry-title" style="margin-bottom: 0.25rem;">Flood Susceptibility Map</h3>
+                <p style="color: var(--text-primary); font-size: 0.9rem;">Assess and map areas susceptible to flooding based on various parameters.</p>
+            </a>
+        </div>
+    </section>
+
 
     <!-- Featured Analysis Section -->
     <section class="academic-card">
