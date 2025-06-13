@@ -12,13 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     
     <style>
+        /* CSS Variables for consistent theming */
         :root {
             --deep-blue: #1a3b5c;
             --accent-blue: #2c7da0;
             --soft-gray: #f4f7f9;
             --text-primary: #2c3e50;
             --highlight-green: #2ecc71;
-            --highlight-bg: #eaf4f8; /* New color for highlighted section */
+            --highlight-bg: #eaf4f8;
         }
     
         * {
@@ -32,6 +33,7 @@
             line-height: 1.7;
             background-color: var(--soft-gray);
             color: var(--text-primary);
+            overflow-x: hidden; /* Prevent horizontal scroll */
         }
     
         .academic-container {
@@ -43,6 +45,7 @@
             padding: 2.5rem;
         }
     
+        /* --- Sidebar --- */
         .profile-sidebar {
             background-color: white;
             border-radius: 12px;
@@ -59,7 +62,7 @@
             height: 280px;
             border-radius: 50%;
             object-fit: cover;
-            border: 6px solid; /* Set border style, color will be animated */
+            border: 6px solid;
             margin-bottom: 1.5rem;
             animation: profile-border-animation 6s ease-in-out infinite;
         }
@@ -69,6 +72,7 @@
             justify-content: center;
             gap: 1rem;
             margin-top: 1rem;
+            flex-wrap: wrap; /* Allow icons to wrap on smaller screens */
         }
     
         .social-icons a {
@@ -81,214 +85,7 @@
         .social-icons a:hover {
             color: var(--accent-blue);
         }
-    
-        .section-header {
-            font-family: 'Merriweather', serif;
-            border-bottom: 3px solid var(--accent-blue);
-            padding-bottom: 0.75rem;
-            margin-bottom: 1.5rem;
-            color: var(--deep-blue);
-        }
-    
-        .academic-card {
-            background-color: white;
-            border-radius: 12px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
-            padding: 2rem;
-            margin-bottom: 2rem;
-            transition: transform 0.3s ease;
-        }
-    
-        .academic-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Highlighted section for tools/projects */
-        .highlight-section {
-            background-color: var(--highlight-bg);
-            border: 2px solid; /* Make border slightly thicker to be more visible */
-            animation: highlight-border-animation 6s ease-in-out infinite;
-        }
-
-        /* Keyframes for animations */
-        @keyframes profile-border-animation {
-            0%   { border-color: var(--accent-blue); }
-            50%  { border-color: var(--deep-blue); }
-            100% { border-color: var(--accent-blue); }
-        }
-
-        @keyframes highlight-border-animation {
-            0%   { border-color: #d1e5ee; }
-            50%  { border-color: var(--accent-blue); }
-            100% { border-color: #d1e5ee; }
-        }
-    
-        .academic-entry {
-            margin-bottom: 1.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #e9ecef;
-        }
-    
-        .academic-entry:last-child {
-            border-bottom: none;
-        }
-    
-        .entry-title {
-            color: var(--deep-blue);
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-    
-        .entry-subtitle {
-            color: var(--accent-blue);
-            font-style: italic;
-        }
-    
-        .publication {
-            margin-bottom: 1.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #e9ecef;
-        }
         
-        .publication:last-child {
-            margin-bottom: 0;
-            padding-bottom: 0;
-            border-bottom: none;
-        }
-
-        .publication-title {
-            color: var(--deep-blue);
-            font-weight: 600;
-        }
-    
-        .badge {
-            display: inline-block;
-            background-color: var(--highlight-green);
-            color: white;
-            padding: 0.25rem 0.5rem;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            margin-left: 0.5rem;
-        }
-    
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-        }
-    
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1.5rem; /* Increased gap for better spacing */
-        }
-        
-        .project-grid-app {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem; /* Increased gap for better spacing */
-        }
-    
-        .project-card {
-            background-color: white; /* Changed from var(--soft-gray) for contrast */
-            padding: 1.5rem; /* Increased padding */
-            border-radius: 8px;
-            transition: all 0.3s ease;
-            border: 1px solid #e9ecef;
-            text-decoration: none;
-        }
-    
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(44, 125, 160, 0.15);
-            border-color: var(--accent-blue);
-        }
-    
-        /* Publication Link Styles */
-        .publication-links {
-            margin-top: 1rem;
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-            flex-wrap: wrap; /* Allow links to wrap on smaller screens */
-        }
-
-        .publication-link {
-            display: inline-block;
-            padding: 0.4rem 0.8rem; /* Reduced padding */
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            border: 1px solid transparent;
-            font-size: 0.9rem; /* Slightly smaller font */
-        }
-
-        .publication-link.view-pub {
-            background-color: var(--accent-blue);
-            color: white;
-        }
-
-        .publication-link.view-pub:hover {
-            background-color: var(--deep-blue);
-            color: white;
-        }
-
-        .publication-link.view-pdf {
-            background-color: transparent;
-            color: var(--deep-blue);
-            border: 1px solid var(--deep-blue);
-        }
-
-        .publication-link.view-pdf:hover {
-            background-color: var(--deep-blue);
-            color: white;
-        }
-    
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .gallery-grid-new {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 1.5rem;
-            padding: 30px;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .gallery-image {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-    
-        .gallery-image:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-        }
-    
-        .subsection-header {
-            font-family: 'Merriweather', serif;
-            color: var(--deep-blue);
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            border-bottom: 2px solid var(--accent-blue);
-            padding-bottom: 0.5rem;
-        }
-    
         .download-button {
             display: inline-block;
             background-color: var(--accent-blue);
@@ -304,16 +101,67 @@
             background-color: var(--deep-blue);
         }
 
-        /* Tab Styles */
+        /* --- Main Content Cards --- */
+        .academic-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+    
+        .academic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            font-family: 'Merriweather', serif;
+            border-bottom: 3px solid var(--accent-blue);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--deep-blue);
+        }
+        
+        .subsection-header {
+            font-family: 'Merriweather', serif;
+            color: var(--deep-blue);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--accent-blue);
+            padding-bottom: 0.5rem;
+        }
+
+        /* --- Highlighted Section & Animations --- */
+        .highlight-section {
+            background-color: var(--highlight-bg);
+            border: 2px solid;
+            animation: highlight-border-animation 6s ease-in-out infinite;
+        }
+
+        @keyframes profile-border-animation {
+            0%   { border-color: var(--accent-blue); }
+            50%  { border-color: var(--deep-blue); }
+            100% { border-color: var(--accent-blue); }
+        }
+
+        @keyframes highlight-border-animation {
+            0%   { border-color: #d1e5ee; }
+            50%  { border-color: var(--accent-blue); }
+            100% { border-color: #d1e5ee; }
+        }
+    
+        /* --- Tab System --- */
         .tabs-container {
-            overflow: hidden;
+            display: flex; /* Use flexbox for better alignment and wrapping */
+            flex-wrap: wrap; /* Allow tabs to wrap on small screens */
             border-bottom: 1px solid #ccc;
             margin-bottom: 1.5rem;
         }
 
         .tabs-container button {
             background-color: inherit;
-            float: left;
             border: none;
             outline: none;
             cursor: pointer;
@@ -344,55 +192,229 @@
             from {opacity: 0;}
             to {opacity: 1;}
         }
+
+        /* --- Publication Styling --- */
+        .publication {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .publication:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .publication-title {
+            color: var(--deep-blue);
+            font-weight: 600;
+        }
+
+        .publication-links {
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .publication-link {
+            display: inline-block;
+            padding: 0.4rem 0.8rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+            font-size: 0.9rem;
+        }
+
+        .publication-link.view-pub {
+            background-color: var(--accent-blue);
+            color: white;
+        }
+
+        .publication-link.view-pub:hover {
+            background-color: var(--deep-blue);
+        }
+
+        .publication-link.view-pdf {
+            background-color: transparent;
+            color: var(--deep-blue);
+            border: 1px solid var(--deep-blue);
+        }
+
+        .publication-link.view-pdf:hover {
+            background-color: var(--deep-blue);
+            color: white;
+        }
+        
+        .badge {
+            display: inline-block;
+            background-color: var(--highlight-green);
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-left: 0.5rem;
+        }
+
+        /* --- Project Grids --- */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        
+        .project-grid-app {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
     
+        .project-card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 1px solid #e9ecef;
+            text-decoration: none;
+            display: block; /* Ensure the anchor tag behaves like a block */
+        }
+    
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(44, 125, 160, 0.15);
+            border-color: var(--accent-blue);
+        }
+
+        .entry-title {
+            color: var(--deep-blue);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* --- Image Gallery --- */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .gallery-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer; /* Indicates the image is clickable */
+        }
+    
+        .gallery-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* --- Image Modal (Lightbox) --- */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Sit on top */
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @keyframes zoom {
+            from {transform: scale(0.1)}
+            to {transform: scale(1)}
+        }
+
+        .close-button {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close-button:hover,
+        .close-button:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        /* --- Footer --- */
+        .site-footer {
+            background-color: var(--deep-blue);
+            color: white;
+            text-align: center;
+            padding: 1.5rem 1rem;
+        }
+
+        /* --- Responsive Design --- */
+    
+        /* For Tablets and smaller desktops */
         @media (max-width: 1100px) {
             .academic-container {
-                grid-template-columns: 1fr;
+                grid-template-columns: 1fr; /* Stack main content and sidebar */
             }
-    
-            .project-grid, .skills-grid {
-                grid-template-columns: 1fr;
+            .profile-sidebar {
+                position: static; /* Remove sticky positioning */
+                margin-bottom: 2rem;
+            }
+            .project-grid-app {
+                grid-template-columns: repeat(2, 1fr); /* 2 columns for apps on tablets */
             }
         }
     
-        /* Mobile Optimization */
+        /* For Mobile Phones */
         @media (max-width: 768px) {
             .academic-container {
-                grid-template-columns: 1fr;
-                gap: 1rem;
                 padding: 1.5rem;
-            }
-    
-            .profile-sidebar {
-                position: static;
-                margin-bottom: 2rem;
-            }
-    
-            .gallery-grid {
-                grid-template-columns: 1fr;
-                gap: 1rem;
-            }
-
-            .gallery-item {
-                text-align: center;
-            }
-    
-            .gallery-image {
-                height: auto;
-            }
-
-            .gallery-caption {
-                font-size: 16px;
-                color: #444;
-                font-weight: 600;
+                gap: 1.5rem;
             }
     
             .academic-card {
                 padding: 1.5rem;
             }
-    
+            
             .section-header, .subsection-header {
                 font-size: 1.5rem;
+            }
+
+            .project-grid, .project-grid-app {
+                grid-template-columns: 1fr; /* Single column for all projects on phones */
+            }
+            
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+            
+            .gallery-image {
+                height: 180px; /* Adjust image height for mobile */
+            }
+            
+            #gee-embed-container iframe {
+                height: 400px; /* Reduce iframe height on mobile */
             }
     
             .download-button {
@@ -403,32 +425,39 @@
             }
     
             .social-icons a {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
+            }
+
+            .modal-content {
+                width: 95%;
             }
         }
     
+        /* For Small Mobile Phones */
         @media (max-width: 480px) {
-            .project-grid {
-                grid-template-columns: 1fr;
+            body {
+                font-size: 15px; /* Slightly adjust base font size */
             }
 
-            .gallery-image {
-                height: 150px;
+            .academic-container {
+                padding: 1rem;
             }
-    
+
             .profile-sidebar img {
                 width: 200px;
                 height: 200px;
             }
     
-            .social-icons {
-                flex-wrap: wrap;
-                gap: 0.5rem;
+            .gallery-grid {
+                grid-template-columns: 1fr; /* Single column gallery on small phones */
+            }
+            
+            .gallery-image {
+                height: auto;
+                max-height: 250px;
             }
         }
-        
     </style>
-    
 </head>
 <body>
     <div class="academic-container">
@@ -436,36 +465,22 @@
         <aside class="profile-sidebar">
             <img src="images/pulakesh.jpg" alt="Pulakesh Pradhan" onerror="this.onerror=null;this.src='https://placehold.co/280x280/2c7da0/f4f7f9?text=PP';">
             <h1>Pulakesh Pradhan</h1>
-            <!-- <p>PhD Research Scholar</p>
-            <p>Ravenshw University, India</p> -->
-
+            
             <!-- Social Media Icons -->
             <div class="social-icons">
-                <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank" title="ResearchGate">
-                    <i class="fab fa-researchgate"></i>
-                </a>
-                <a href="https://orcid.org/0000-0003-3103-3617" target="_blank" title="ORCID">
-                    <i class="fab fa-orcid"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/pulakeshpradhan/" target="_blank" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://x.com/codeforgeo" target="_blank" title="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://scholar.google.com/citations?user=_DhEQHEAAAAJ" target="_blank" title="Google Scholar">
-                    <i class="fas fa-graduation-cap"></i>
-                </a>
-                <a href="https://www.instagram.com/pradhan_pulakesh" target="_blank" title="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
+                <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                <a href="https://orcid.org/0000-0003-3103-3617" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
+                <a href="https://www.linkedin.com/in/pulakeshpradhan/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/codeforgeo" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://scholar.google.com/citations?user=_DhEQHEAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.instagram.com/pradhan_pulakesh" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
 
-            <div style="margin-top: 1.5rem;">
+            <div style="margin-top: 1.5rem; text-align: left; padding: 0 1rem;">
                 <h3>Contact</h3>
                 <p>☏ +91-8617812861</p>
                 <p>📧 pulakesh.mid@gmail.com</p>
-                <p>📕 Department of Geography<br>
+                <p>📕 Dept. of Geography<br>
                     🏫 Ravenshaw University</p>
             </div>
             <div style="margin-top: 1.5rem;">
@@ -474,168 +489,168 @@
                 </a>
             </div>
         </aside>
-<!-- Main Content -->
-<main>
-    <!-- Publications -->
-    <section class="academic-card">
-        <!-- <h2 class="section-header">Research Publications</h2> -->
-        
-        <div class="tabs-container">
-            <button class="tab-link active" onclick="openTab(event, 'Drought')">Drought</button>
-            <button class="tab-link" onclick="openTab(event, 'Flood')">Flood</button>
-            <button class="tab-link" onclick="openTab(event, 'SocioEconomic')">Socio-Economic</button>
-        </div>
 
-        <div id="Drought" class="tab-content" style="display: block;">
-            <div class="publication">
-                <h3 class="publication-title">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
-                <p class="publication-details">
-                    <strong>Book:</strong> Modern Cartography Series
-                    <strong>Year:</strong> 2024
-                    <span class="badge">Google Earth Engine</span>
-                </p>
-                <p class="publication-description">This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends, highlighting extreme droughts, shifting water availability, and resilience improvements through NDVI and land surface cooling.</p>
-                <div class="publication-links">
-                    <a href="https://doi.org/10.1016/B978-0-443-23890-1.00011-6" target="_blank" class="publication-link view-pub">View Publication</a>
-                    <a href="https://drive.google.com/file/d/1P0k1iLDrUPfr0BSYS7Xi_a6muw2Ox2Zz/view?usp=sharing" target="_blank" class="publication-link view-pdf">View PDF <i class="fas fa-file-pdf"></i></a>
+        <!-- Main Content -->
+        <main>
+            <!-- Publications Section -->
+            <section class="academic-card">
+                <h2 class="section-header">Research Publications</h2>
+                
+                <div class="tabs-container">
+                    <button class="tab-link active" onclick="openTab(event, 'Drought')">Drought</button>
+                    <button class="tab-link" onclick="openTab(event, 'Flood')">Flood</button>
+                    <button class="tab-link" onclick="openTab(event, 'SocioEconomic')">Socio-Economic</button>
                 </div>
-            </div>
-        </div>
 
-        <div id="Flood" class="tab-content">
-             <div class="publication">
-                <h3 class="publication-title">Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine</h3>
-                <p class="publication-details">
-                    <strong>Book:</strong> Google Earth Engine and Artificial Intelligence for Earth Observation
-                    <strong>Year:</strong> 2025
-                    <span class="badge" style="background-color: var(--accent-blue);">Google Earth Engine</span>
-                </p>
-                <p class="publication-description">The analytic hierarchy process (AHP) is a structured technique to support complex decision-making by giving weights to the parameters of a problem into a hierarchy of criteria. This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters selected for this study are elevation, rainfall distribution, land cover, slope, Topographic Wetness Index (TWI), Normalized Difference Vegetation Index (NDVI), Soil, and Distance from water bodies identified through an extensive literature review. Pairwise Comparisons Matrix (PCM), Priority Weights (PW), Principal Eigen Value (PEV) and Consistency Index (CI) were calculated between parameters. CI value for this study is 0.062, indicating high consistency in subjective judgments with 4.446% Consistency Ratio (CR). The weighted overlay method in Earth Engine integrated these spatial layers based on the AHP criteria weights. The resulting maps provide a robust delineation of areas highly prone to flooding. Ganjam, Puri, and Balasore districts are associated with high flood vulnerability. Whereas the Bhadrak, Jajpur, Koraput, Sundargarh, and Cuttack district are associated with moderate vulnerability and Bolangir, Kalahandi, and Dhenkanal with low vulnerability zone.</p>
-                <div class="publication-links">
-                    <a href="https://doi.org/10.1016/B978-0-443-27372-8.00025-8" target="_blank" class="publication-link view-pub">View Publication</a>
-                    <a href="https://drive.google.com/file/d/1QhhcVkj7_kMIuh1LOCtFqU0NM3OWUHB8/view?usp=sharing" target="_blank" class="publication-link view-pdf">View PDF <i class="fas fa-file-pdf"></i></a>
+                <div id="Drought" class="tab-content" style="display: block;">
+                    <div class="publication">
+                        <h3 class="publication-title">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
+                        <p class="publication-details">
+                            <strong>Book:</strong> Modern Cartography Series
+                            <strong>Year:</strong> 2024
+                            <span class="badge">Google Earth Engine</span>
+                        </p>
+                        <p class="publication-description">This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends, highlighting extreme droughts, shifting water availability, and resilience improvements through NDVI and land surface cooling.</p>
+                        <div class="publication-links">
+                            <a href="https://doi.org/10.1016/B978-0-443-23890-1.00011-6" target="_blank" class="publication-link view-pub">View Publication</a>
+                            <a href="https://drive.google.com/file/d/1P0k1iLDrUPfr0BSYS7Xi_a6muw2Ox2Zz/view?usp=sharing" target="_blank" class="publication-link view-pdf">View PDF <i class="fas fa-file-pdf"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        
-        <div id="SocioEconomic" class="tab-content">
-            <p>New publications coming soon.</p>
-        </div>
-    </section>
 
-    <!-- Tools & Projects Section -->
-    <section class="academic-card highlight-section">
-        <div class="project-grid">
-            <a href="https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb" target="_blank" class="project-card">
-                <div style="text-align: center;">
-                    <i class="fab fa-chrome" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
-                    <h3 class="entry-title" style="margin-bottom: 0.25rem;">Google Earth Engine AI Assistant</h3>
-                    <p style="color: var(--text-primary); font-size: 0.9rem;">Chrome Extension created by Pulakesh Pradhan</p>
+                <div id="Flood" class="tab-content">
+                     <div class="publication">
+                        <h3 class="publication-title">Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine</h3>
+                        <p class="publication-details">
+                            <strong>Book:</strong> Google Earth Engine and Artificial Intelligence for Earth Observation
+                            <strong>Year:</strong> 2025
+                            <span class="badge" style="background-color: var(--accent-blue);">Google Earth Engine</span>
+                        </p>
+                        <p class="publication-description">This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters selected for this study are elevation, rainfall distribution, land cover, slope, TWI, NDVI, Soil, and Distance from water bodies. The resulting maps provide a robust delineation of areas highly prone to flooding.</p>
+                        <div class="publication-links">
+                            <a href="https://doi.org/10.1016/B978-0-443-27372-8.00025-8" target="_blank" class="publication-link view-pub">View Publication</a>
+                            <a href="https://drive.google.com/file/d/1QhhcVkj7_kMIuh1LOCtFqU0NM3OWUHB8/view?usp=sharing" target="_blank" class="publication-link view-pdf">View PDF <i class="fas fa-file-pdf"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </a>
-            <a href="https://pulakeshpradhan.github.io/geeai.html" target="_blank" class="project-card">
-                <div style="text-align: center;">
-                    <i class="fa-solid fa-users-line" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
-                    <h3 class="entry-title" style="margin-bottom: 0.25rem;"> Homepage</h3>
-                    <p style="color: var(--text-primary); font-size: 0.9rem;">Learn more about the tool</p>
+                
+                <div id="SocioEconomic" class="tab-content">
+                    <p>New publications coming soon.</p>
                 </div>
-            </a>
-        </div>
-    </section>
+            </section>
 
-    <!-- GEE App Section -->
-    <section class="academic-card">
-        <h2 class="section-header">🌍 AHP Flood Map (Earth Engine APP)</h2>
-        <!-- Embedded GEE App -->
-        <div id="gee-embed-container">
-            <iframe src="https://pulakeshpradhan.users.earthengine.app/view/odishaflood" width="100%" height="500px" style="border: none; border-radius: 8px;"></iframe>
-        </div>
-    </section>
+            <!-- Tools & Projects Section -->
+            <section class="academic-card highlight-section">
+                <div class="project-grid">
+                    <a href="https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb" target="_blank" class="project-card">
+                        <div style="text-align: center;">
+                            <i class="fab fa-chrome" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                            <h3 class="entry-title" style="margin-bottom: 0.25rem;">Google Earth Engine AI Assistant</h3>
+                            <p style="color: var(--text-primary); font-size: 0.9rem;">Chrome Extension created by Pulakesh Pradhan</p>
+                        </div>
+                    </a>
+                    <a href="https://pulakeshpradhan.github.io/geeai.html" target="_blank" class="project-card">
+                        <div style="text-align: center;">
+                            <i class="fa-solid fa-users-line" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                            <h3 class="entry-title" style="margin-bottom: 0.25rem;"> Homepage</h3>
+                            <p style="color: var(--text-primary); font-size: 0.9rem;">Learn more about the tool</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
 
-    <!-- NEW Google Earth Engine Apps Section -->
-    <section class="academic-card highlight-section">
-        <h2 class="section-header">Other Google Earth Engine Apps</h2>
-        <div class="project-grid-app">
-            <a href="https://pulakeshpradhan.projects.earthengine.app/view/spectral" target="_blank" class="project-card">
-                <i class="fa-solid fa-chart-line" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
-                <h3 class="entry-title" style="margin-bottom: 0.25rem;">Spectral Reflectance Curve</h3>
-                <p style="color: var(--text-primary); font-size: 0.9rem;">Generate accurate training sample checked by spectral signatures curves.</p>
-            </a>
-            <a href="https://pulakeshpradhan.projects.earthengine.app/view/signature" target="_blank" class="project-card">
-                <i class="fa-solid fa-seedling" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
-                <h3 class="entry-title" style="margin-bottom: 0.25rem;">Phenology Signature Crop classification</h3>
-                <p style="color: var(--text-primary); font-size: 0.9rem;">A tool for analyzing spectral signatures on temporal bands, the Phenology.</p>
-            </a>
-            <a href="https://pulakeshpradhan.projects.earthengine.app/view/floodsusceptibility" target="_blank" class="project-card">
-                <i class="fa-solid fa-house-flood-water" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
-                <h3 class="entry-title" style="margin-bottom: 0.25rem;">Flood Susceptibility AHP Tool</h3>
-                <p style="color: var(--text-primary); font-size: 0.9rem;">Create any Indian State/District Flood Susceptibility Map with AHP.</p>
-            </a>
-        </div>
-    </section>
+            <!-- GEE App Section -->
+            <section class="academic-card">
+                <h2 class="section-header">🌍 AHP Flood Map (Earth Engine APP)</h2>
+                <div id="gee-embed-container">
+                    <iframe src="https://pulakeshpradhan.users.earthengine.app/view/odishaflood" width="100%" height="500px" style="border: none; border-radius: 8px;"></iframe>
+                </div>
+            </section>
 
+            <!-- Other Google Earth Engine Apps Section -->
+            <section class="academic-card highlight-section">
+                <h2 class="section-header">Other Google Earth Engine Apps</h2>
+                <div class="project-grid-app">
+                    <a href="https://pulakeshpradhan.projects.earthengine.app/view/spectral" target="_blank" class="project-card">
+                        <i class="fa-solid fa-chart-line" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                        <h3 class="entry-title" style="margin-bottom: 0.25rem;">Spectral Reflectance Curve</h3>
+                        <p style="color: var(--text-primary); font-size: 0.9rem;">Generate accurate training sample checked by spectral signatures curves.</p>
+                    </a>
+                    <a href="https://pulakeshpradhan.projects.earthengine.app/view/signature" target="_blank" class="project-card">
+                        <i class="fa-solid fa-seedling" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                        <h3 class="entry-title" style="margin-bottom: 0.25rem;">Phenology Signature Crop classification</h3>
+                        <p style="color: var(--text-primary); font-size: 0.9rem;">A tool for analyzing spectral signatures on temporal bands, the Phenology.</p>
+                    </a>
+                    <a href="https://pulakeshpradhan.projects.earthengine.app/view/floodsusceptibility" target="_blank" class="project-card">
+                        <i class="fa-solid fa-house-flood-water" style="font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-blue);"></i>
+                        <h3 class="entry-title" style="margin-bottom: 0.25rem;">Flood Susceptibility AHP Tool</h3>
+                        <p style="color: var(--text-primary); font-size: 0.9rem;">Create any Indian State/District Flood Susceptibility Map with AHP.</p>
+                    </a>
+                </div>
+            </section>
 
-    <!-- Featured Analysis Section -->
-    <section class="academic-card">
-        <!-- <h2 class="section-header">Featured Analysis</h2> -->
-        <img src="images/letswrok.png" alt="Featured Research Analysis" style="width: 100%; border-radius: 12px;">
-    </section>
+            <!-- Featured Analysis Section -->
+            <section class="academic-card">
+                <img src="images/letswrok.png" alt="Featured Research Analysis" style="width: 100%; border-radius: 12px;">
+            </section>
 
-    <!-- Image Gallery -->
-    <section class="academic-card">
-        <h2 class="section-header">Image Gallery</h2>
+            <!-- Image Gallery -->
+            <section class="academic-card">
+                <h2 class="section-header">Image Gallery</h2>
 
-        <!-- Ravenshaw University Subsection -->
-        <h3 class="subsection-header">Ravenshaw University</h3>
-        <div class="gallery-grid">
-            <img src="images/Ravenshaw/1.jpg" alt="Ravenshaw University Image 1" class="gallery-image">
-            <img src="images/Ravenshaw/2.jpg" alt="Ravenshaw University Image 2" class="gallery-image">
-            <img src="images/Ravenshaw/3.jpg" alt="Ravenshaw University Image 3" class="gallery-image">
-        </div>
+                <h3 class="subsection-header">Ravenshaw University</h3>
+                <div class="gallery-grid">
+                    <img src="images/Ravenshaw/1.jpg" alt="Ravenshaw University Image 1" class="gallery-image">
+                    <img src="images/Ravenshaw/2.jpg" alt="Ravenshaw University Image 2" class="gallery-image">
+                    <img src="images/Ravenshaw/3.jpg" alt="Ravenshaw University Image 3" class="gallery-image">
+                </div>
 
-        <!-- IIT Bombay Subsection -->
-        <h3 class="subsection-header">IIT Bombay</h3>
-        <div class="gallery-grid">
-            <img src="images/IIT Bombay/1.jpg" alt="IIT Bombay Image 1" class="gallery-image">
-            <img src="images/IIT Bombay/2.jpg" alt="IIT Bombay Image 2" class="gallery-image">
-            <img src="images/IIT Bombay/3.jpg" alt="IIT Bombay Image 3" class="gallery-image">
-            <img src="images/IIT Bombay/4.jpg" alt="IIT Bombay Image 4" class="gallery-image">
-        </div>
+                <h3 class="subsection-header">IIT Bombay</h3>
+                <div class="gallery-grid">
+                    <img src="images/IIT Bombay/1.jpg" alt="IIT Bombay Image 1" class="gallery-image">
+                    <img src="images/IIT Bombay/2.jpg" alt="IIT Bombay Image 2" class="gallery-image">
+                    <img src="images/IIT Bombay/3.jpg" alt="IIT Bombay Image 3" class="gallery-image">
+                    <img src="images/IIT Bombay/4.jpg" alt="IIT Bombay Image 4" class="gallery-image">
+                </div>
 
-        <!-- Ganpat University (GUNI), Gujarat Subsection -->
-        <h3 class="subsection-header">Ganpat University (GUNI), Gujarat</h3>
-        <div class="gallery-grid">
-            <img src="images/Ganpat University/guni1.jpeg" alt="Ganpat University Image 1" class="gallery-image">
-            <img src="images/Ganpat University/guni2.jpeg" alt="Ganpat University Image 2" class="gallery-image">
-            <img src="images/Ganpat University/guni3.jpeg" alt="Ganpat University Image 3" class="gallery-image">
-            <img src="images/Ganpat University/guni4.JPG" alt="Ganpat University Image 4" class="gallery-image">
-        </div>
-        <!-- BHU (GEE Workshop) Subsection -->
-        <h3 class="subsection-header">BHU (GEE Workshop)</h3>
-        <div class="gallery-grid">
-            <img src="images/BHU/BHU4.jpg" alt="BHU GEE Workshop Image 1" class="gallery-image">
-            <img src="images/BHU/BHU2.jpg" alt="BHU GEE Workshop Image 2" class="gallery-image">
-            <img src="images/BHU/BHU3.jpg" alt="BHU GEE Workshop Image 3" class="gallery-image">
-        </div>
+                <h3 class="subsection-header">Ganpat University (GUNI), Gujarat</h3>
+                <div class="gallery-grid">
+                    <img src="images/Ganpat University/guni1.jpeg" alt="Ganpat University Image 1" class="gallery-image">
+                    <img src="images/Ganpat University/guni2.jpeg" alt="Ganpat University Image 2" class="gallery-image">
+                    <img src="images/Ganpat University/guni3.jpeg" alt="Ganpat University Image 3" class="gallery-image">
+                    <img src="images/Ganpat University/guni4.JPG" alt="Ganpat University Image 4" class="gallery-image">
+                </div>
+                
+                <h3 class="subsection-header">BHU (GEE Workshop)</h3>
+                <div class="gallery-grid">
+                    <img src="images/BHU/BHU4.jpg" alt="BHU GEE Workshop Image 1" class="gallery-image">
+                    <img src="images/BHU/BHU2.jpg" alt="BHU GEE Workshop Image 2" class="gallery-image">
+                    <img src="images/BHU/BHU3.jpg" alt="BHU GEE Workshop Image 3" class="gallery-image">
+                </div>
 
-        <!-- IIIT Bhubaneswar Subsection -->
-        <h3 class="subsection-header">IIIT Bhubaneswar</h3>
-        <div class="gallery-grid">
-            <img src="images/IIITBBS/img1.jpg" alt="IIIT Bhubaneswar Image 1" class="gallery-image">
-            <img src="images/IIITBBS/img2.png" alt="IIIT Bhubaneswar Image 2" class="gallery-image">
-            <img src="images/IIITBBS/img3.jpg" alt="IIIT Bhubaneswar Image 3" class="gallery-image">
-        </div>
-    </section>
-
-</main>
+                <h3 class="subsection-header">IIIT Bhubaneswar</h3>
+                <div class="gallery-grid">
+                    <img src="images/IIITBBS/img1.jpg" alt="IIIT Bhubaneswar Image 1" class="gallery-image">
+                    <img src="images/IIITBBS/img2.png" alt="IIIT Bhubaneswar Image 2" class="gallery-image">
+                    <img src="images/IIITBBS/img3.jpg" alt="IIIT Bhubaneswar Image 3" class="gallery-image">
+                </div>
+            </section>
+        </main>
     </div>
 
     <!-- Footer -->
-    <footer style="background-color: var(--deep-blue); color: white; text-align: center; padding: 1rem;">
+    <footer class="site-footer">
         <p>© 2025 Pulakesh Pradhan | Geography Research Scholar</p>
     </footer>
 
+    <!-- Image Modal Lightbox -->
+    <div id="imageModal" class="modal">
+        <span class="close-button">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
     <script>
+        // JavaScript for tab functionality
         function openTab(evt, tabName) {
             var i, tabcontent, tablinks;
             tabcontent = document.getElementsByClassName("tab-content");
@@ -649,6 +664,32 @@
             document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += " active";
         }
+    </script>
+    <script>
+        // JavaScript for Image Modal (Lightbox)
+        document.addEventListener('DOMContentLoaded', function() {
+            var modal = document.getElementById("imageModal");
+            var modalImg = document.getElementById("modalImage");
+            
+            document.querySelectorAll('.gallery-image').forEach(image => {
+                image.onclick = function(){
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                }
+            });
+
+            var closeBtn = document.querySelector(".close-button");
+
+            closeBtn.onclick = function() { 
+                modal.style.display = "none";
+            }
+
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        });
     </script>
 </body>
 </html>
