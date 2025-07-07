@@ -750,7 +750,17 @@
             <!-- Contact Section -->
             <section class="academic-card contact-card-styled">
                 <div class="contact-form-container">
-                    <form action="mailto:pulakesh.mid@gmail.com" method="post" enctype="text/plain">
+                    <!-- 
+                        FIXED: The form action is now pointing to Formspree for secure email delivery.
+                        The 'mailto:' action was insecure and unreliable.
+                        
+                        ACTION REQUIRED: 
+                        1. Go to https://formspree.io/ and sign up for a free account.
+                        2. Create a new form and set the recipient email to 'pulakesh.mid@gmail.com'.
+                        3. Formspree will give you a unique URL like 'https://formspree.io/f/your_unique_id'.
+                        4. Replace the placeholder action URL below with your actual Formspree URL.
+                    -->
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
                         <div class="form-group">
                             <label for="email" class="form-label">Email Address</label>
                             <input type="email" id="email" name="email" class="form-input" placeholder="Your Email Address" required>
