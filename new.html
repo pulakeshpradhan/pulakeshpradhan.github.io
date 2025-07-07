@@ -647,8 +647,12 @@
                 padding: 1.5rem;
             }
             
+            h1 {
+                font-size: 1.8rem;
+            }
+
             .section-header, .subsection-header {
-                font-size: 1.5rem;
+                font-size: 1.4rem;
             }
 
             .project-grid, .project-grid-app, .tutorials-grid, .ai-assistant-features {
@@ -692,24 +696,47 @@
         @media (max-width: 480px) {
             body {
                 font-size: 15px;
+                line-height: 1.6;
             }
 
             .academic-container {
                 padding: 1rem;
             }
 
-            .profile-sidebar img {
-                width: 200px;
-                height: 200px;
+            .profile-sidebar {
+                padding: 1.5rem 1rem;
             }
-    
+
+            .profile-sidebar img {
+                width: 180px;
+                height: 180px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .section-header, .subsection-header {
+                font-size: 1.25rem;
+            }
+            
+            .academic-card {
+                padding: 1rem;
+            }
+
             .gallery-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
             }
             
             .gallery-image {
-                height: auto;
-                max-height: 250px;
+                height: 140px;
+            }
+
+            /* Adjust review card grid for better fit */
+            .review-grid > a > div {
+                padding: 1rem;
+                gap: 1rem;
             }
         }
     </style>
@@ -947,12 +974,10 @@
             </section> 
 
             
-
-
             <!-- Reviews -->
             <section class="academic-card">
                 <h2 class="section-header">Reviews</h2>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                <div class="review-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
                     <!-- Review 1 -->
                     <a href="https://chromewebstore.google.com/reviews/440d96d0-a6fe-4db7-9c95-9bda1a8c7ddb" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
@@ -1087,9 +1112,6 @@
                         </div>
                     </a>
         
-
-
-
                     <!-- Review -- -->
                      <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7343876927029477378?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7343876927029477378%2C7344048040070025217%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287344048040070025217%2Curn%3Ali%3AugcPost%3A7343876927029477378%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
@@ -1139,7 +1161,6 @@
                         </div>
                     </a>
     
-
                     <!-- Review 3 -->
                      <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7345492281522606085?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7345492281522606085%2C7345518099267215360%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287345518099267215360%2Curn%3Ali%3AugcPost%3A7345492281522606085%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
@@ -1155,10 +1176,6 @@
                             </div>
                         </div>
                     </a>
-     
-
-
-
                 </div>
                 <div style="margin-top: 1.5rem; text-align: right;">
                     <a href="https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl/reviews" target="_blank" style="color: var(--accent-blue); font-weight: 600; font-size: 1rem; text-decoration: none;">
@@ -1170,18 +1187,14 @@
             <!-- Contact Section -->
             <section class="academic-card contact-card-styled">
                 <div class="contact-form-container">
-                    <!-- 
-                        UPDATED: This form now sends a pre-filled message to WhatsApp.
-                        The functionality is handled by JavaScript.
-                    -->
                     <form id="whatsapp-form">
                         <div class="form-group">
                             <label for="name" class="form-label">Your Name</label>
-                            <input type="text" id="name" name="name" class="form-input" placeholder="e.g., Your Name">
+                            <input type="text" id="name" name="name" class="form-input" placeholder="e.g., Your Name" required>
                         </div>
                         <div class="form-group">
                             <label for="message" class="form-label">Message</label>
-                            <textarea id="message" name="message" rows="4" class="form-input" placeholder="Your message here..."></textarea>
+                            <textarea id="message" name="message" rows="4" class="form-input" placeholder="Your message here..." required></textarea>
                         </div>
                         <div style="text-align: center;">
                             <button type="submit" class="form-button">Send via WhatsApp</button>
@@ -1189,8 +1202,6 @@
                     </form>
                 </div>
             </section>
-
-
         </main>
     </div>
 
@@ -1213,36 +1224,20 @@
                 whatsappForm.addEventListener('submit', function(event) {
                     event.preventDefault(); // Prevent the default form submission
 
-                    // Get values from the form
                     const nameInput = document.getElementById('name');
                     const messageInput = document.getElementById('message');
-                    
                     const name = nameInput.value;
                     const message = messageInput.value;
 
-                    // Simple validation to ensure fields are not empty
                     if (!name.trim() || !message.trim()) {
-                        console.error('Name and message are required.');
-                        // Add a visual indicator for missing fields
-                        if (!name.trim()) nameInput.style.borderColor = 'red';
-                        if (!message.trim()) messageInput.style.borderColor = 'red';
+                        alert('Please fill in both your name and message.');
                         return;
                     }
 
-                    // Reset border color on successful validation
-                    nameInput.style.borderColor = '#ccc';
-                    messageInput.style.borderColor = '#ccc';
-
                     const whatsappNumber = '918617812861';
-                    // Construct the message for WhatsApp
-                    const formattedMessage = `Hi, I'm ${name}.\n\n ${message}`;
-                    // URL-encode the message to make it safe for a URL
+                    const formattedMessage = `Hi, I'm ${name}.\n\n${message}`;
                     const encodedMessage = encodeURIComponent(formattedMessage);
-                    
-                    // Create the final WhatsApp URL
                     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-
-                    // Open the URL in a new browser tab
                     window.open(whatsappUrl, '_blank');
                 });
             }
