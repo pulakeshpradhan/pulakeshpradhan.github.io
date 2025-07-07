@@ -288,8 +288,9 @@
         /* --- Tutorials Section --- */
         .tutorials-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.5rem;
+            grid-template-columns: 1fr;
+            gap: 2.2rem; /* Increased gap for more height */
+            min-height: 220px; /* Added minimum height */
         }
         .tutorial-card {
             background-color: white;
@@ -306,7 +307,7 @@
         }
         .tutorial-card img {
             width: 100%;
-            height: 180px;
+            height: 240px; /* Increased image height */
             object-fit: cover;
         }
         .tutorial-card-content {
@@ -811,13 +812,13 @@
                             </div>
                         </a>
                        
-                         <a href="https://www.youtube.com/watch?v=your_video_id_4" target="_blank" class="tutorial-card">
+                         <!-- <a href="https://www.youtube.com/watch?v=your_video_id_4" target="_blank" class="tutorial-card">
                             <img src="https://i9.ytimg.com/vi_webp/Bpt1lgurIMs/mqdefault.webp?v=6856a9f5&sqp=CKCWsMMG&rs=AOn4CLCB87D23CTOze2hpO_CzAtYp9IFNw" alt="Tutorial Thumbnail">
                             <div class="tutorial-card-content">
                                 <h3 class="entry-title">LULC Sample Generator:GEE Web App</h3>
                                 <p style="display: flex; align-items: center; color: var(--text-primary);"><i class="fab fa-youtube" style="color: #ef4444; margin-right: 0.5rem;"></i>Watch on YouTube</p>
                             </div>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </section>
