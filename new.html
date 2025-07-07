@@ -751,30 +751,20 @@
             <section class="academic-card contact-card-styled">
                 <div class="contact-form-container">
                     <!-- 
-                        FIXED: The form action is now pointing to Formspree for secure email delivery.
-                        The 'mailto:' action was insecure and unreliable.
-                        
-                        ACTION REQUIRED: 
-                        1. Go to https://formspree.io/ and sign up for a free account.
-                        2. Create a new form and set the recipient email to 'pulakesh.mid@gmail.com'.
-                        3. Formspree will give you a unique URL like 'https://formspree.io/f/your_unique_id'.
-                        4. Replace the placeholder action URL below with your actual Formspree URL.
+                        UPDATED: This form now sends a pre-filled message to WhatsApp.
+                        The functionality is handled by JavaScript.
                     -->
-                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <form id="whatsapp-form">
                         <div class="form-group">
-                            <label for="email" class="form-label">Email Address</label>
-                            <input type="email" id="email" name="email" class="form-input" placeholder="Your Email Address" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="research" class="form-label">Research Area</label>
-                            <input type="text" id="research" name="research_area" class="form-input" placeholder="e.g., Agricultural Drought, Flood Mapping">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="e.g., Jane Doe">
                         </div>
                         <div class="form-group">
                             <label for="message" class="form-label">Message</label>
-                            <textarea id="message" name="message" rows="4" class="form-input" placeholder="Your Message"></textarea>
+                            <textarea id="message" name="message" rows="4" class="form-input" placeholder="Your message here..."></textarea>
                         </div>
                         <div style="text-align: center;">
-                            <button type="submit" class="form-button">Submit Contact Form Request</button>
+                            <button type="submit" class="form-button">Send via WhatsApp</button>
                         </div>
                     </form>
                 </div>
@@ -988,8 +978,48 @@
     </div>
 
     <script>
-        // JavaScript for Image Modal (Lightbox)
         document.addEventListener('DOMContentLoaded', function() {
+            // --- WhatsApp Form Handler ---
+            const whatsappForm = document.getElementById('whatsapp-form');
+            if (whatsappForm) {
+                whatsappForm.addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevent the default form submission
+
+                    // Get values from the form
+                    const nameInput = document.getElementById('name');
+                    const messageInput = document.getElementById('message');
+                    
+                    const name = nameInput.value;
+                    const message = messageInput.value;
+
+                    // Simple validation to ensure fields are not empty
+                    if (!name.trim() || !message.trim()) {
+                        console.error('Name and message are required.');
+                        // Add a visual indicator for missing fields
+                        if (!name.trim()) nameInput.style.borderColor = 'red';
+                        if (!message.trim()) messageInput.style.borderColor = 'red';
+                        return;
+                    }
+
+                    // Reset border color on successful validation
+                    nameInput.style.borderColor = '#ccc';
+                    messageInput.style.borderColor = '#ccc';
+
+                    const whatsappNumber = '918617812861';
+                    // Construct the message for WhatsApp
+                    const formattedMessage = `Hi, I'm ${name}.\n\nMy message is: ${message}`;
+                    // URL-encode the message to make it safe for a URL
+                    const encodedMessage = encodeURIComponent(formattedMessage);
+                    
+                    // Create the final WhatsApp URL
+                    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+                    // Open the URL in a new browser tab
+                    window.open(whatsappUrl, '_blank');
+                });
+            }
+
+            // --- Image Modal (Lightbox) ---
             var modal = document.getElementById("imageModal");
             var modalImg = document.getElementById("modalImage");
             
@@ -1002,8 +1032,10 @@
 
             var closeBtn = document.querySelector(".close-button");
 
-            closeBtn.onclick = function() { 
-                modal.style.display = "none";
+            if(closeBtn) {
+                closeBtn.onclick = function() { 
+                    modal.style.display = "none";
+                }
             }
 
             window.onclick = function(event) {
@@ -1011,47 +1043,47 @@
                     modal.style.display = "none";
                 }
             }
-        });
 
-        // Counter animation
-        const counters = document.querySelectorAll('.counter-value');
-        const speed = 200; 
+            // --- Counter Animation ---
+            const counters = document.querySelectorAll('.counter-value');
+            const speed = 200; 
 
-        const animateCounters = (entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const counter = entry.target;
-                    const updateCount = () => {
-                        const target = +counter.getAttribute('data-target');
-                        const isDecimal = counter.getAttribute('data-decimal') === 'true';
-                        let count = +counter.innerText;
-                        
-                        const inc = target / speed;
+            const animateCounters = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counter = entry.target;
+                        const updateCount = () => {
+                            const target = +counter.getAttribute('data-target');
+                            const isDecimal = counter.getAttribute('data-decimal') === 'true';
+                            let count = +counter.innerText;
+                            
+                            const inc = target / speed;
 
-                        if (count < target) {
-                            if(isDecimal) {
-                                counter.innerText = (count + inc).toFixed(1);
+                            if (count < target) {
+                                if(isDecimal) {
+                                    counter.innerText = (count + inc).toFixed(1);
+                                } else {
+                                    counter.innerText = Math.ceil(count + inc);
+                                }
+                                setTimeout(updateCount, 15);
                             } else {
-                                counter.innerText = Math.ceil(count + inc);
+                                counter.innerText = isDecimal ? target.toFixed(1).replace('.0','') : target;
                             }
-                            setTimeout(updateCount, 15);
-                        } else {
-                            counter.innerText = isDecimal ? target.toFixed(1).replace('.0','') : target;
-                        }
-                    };
-                    updateCount();
-                    observer.unobserve(counter); // Animate only once
-                }
+                        };
+                        updateCount();
+                        observer.unobserve(counter); // Animate only once
+                    }
+                });
+            };
+
+            const observer = new IntersectionObserver(animateCounters, {
+                root: null,
+                threshold: 0.5
             });
-        };
 
-        const observer = new IntersectionObserver(animateCounters, {
-            root: null,
-            threshold: 0.5
-        });
-
-        counters.forEach(counter => {
-            observer.observe(counter);
+            counters.forEach(counter => {
+                observer.observe(counter);
+            });
         });
     </script>
 </body>
