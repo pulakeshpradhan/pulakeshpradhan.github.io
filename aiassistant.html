@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulakesh Pradhan | GIS & Remote Sensing Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --deep-blue: #1a3b5c;
+            --accent-blue: #2c7da0;
+            --soft-gray: #f4f7f9;
+            --text-primary: #2c3e50;
+            --highlight-bg: #eaf4f8;
+            --premium-gold: #c5a47e;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: var(--soft-gray);
+            color: var(--text-primary);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Merriweather', serif;
+            color: var(--deep-blue);
+        }
+
+        /* --- New Hero Background --- */
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Parallax effect */
+        }
+
+        .hero-overlay {
+            background-color: rgba(26, 59, 92, 0.75); /* Darker overlay for better text contrast */
+            backdrop-filter: blur(3px); /* Frosted glass effect */
+        }
+        
+        .hero-text-shadow {
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        /* --- Hero Form Styling --- */
+        .hero-form .form-label {
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 600;
+        }
+        .hero-form .form-input {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            border-radius: 8px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .hero-form .form-input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .hero-form .form-input:focus {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.7);
+            outline: none;
+        }
+        .hero-form .submit-button {
+            background-color: white;
+            color: var(--deep-blue);
+            font-weight: 700;
+            border-radius: 8px;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+        .hero-form .submit-button:hover {
+            background-color: var(--soft-gray);
+            transform: translateY(-2px);
+        }
+
+
+        .highlight-section {
+            background: linear-gradient(135deg, #673de6, #8c85ff);
+        }
+        
+        .academic-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .academic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(44, 62, 80, 0.15);
+        }
+
+        .counter-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--deep-blue);
+        }
+        
+        .stat-card {
+             transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .cta-button {
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        
+        .publication {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .publication:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        .publication-title {
+            color: var(--deep-blue);
+            font-weight: 600;
+        }
+        .publication-link {
+            display: inline-block;
+            padding: 0.4rem 0.8rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+            font-size: 0.9rem;
+            background-color: var(--accent-blue);
+            color: white;
+        }
+        .publication-link:hover {
+            background-color: var(--deep-blue);
+        }
+        .badge {
+            display: inline-block;
+            background-color: #2ecc71;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-left: 0.5rem;
+        }
+        .skill-badge {
+            background-color: var(--highlight-bg);
+            color: var(--accent-blue);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: 1px solid var(--accent-blue);
+            transition: all 0.3s ease;
+        }
+        .skill-badge:hover {
+            background-color: var(--accent-blue);
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="flex items-center">
+                <img src="https://lh3.googleusercontent.com/mSw2vqTxfj3oM2XWyFkKraH8-wvEjmrVQkg3egeyLKk4XXquqgNldu9ckhraK062Oe8tWCNRGwqgC5JPe3_olba811A=s120" alt="GEE AI Assistant Logo" class="h-10 mr-3">
+                <span class="text-2xl font-bold text-gray-800">Pulakesh Pradhan</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-var(--accent-blue)">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-var(--accent-blue)">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-var(--accent-blue)">Skills</a>
+                <a href="#community" class="text-gray-600 hover:text-var(--accent-blue)">Community</a>
+                <a href="#publications" class="text-gray-600 hover:text-var(--accent-blue)">Publications</a>
+                <a href="#projects" class="text-gray-600 hover:text-var(--accent-blue)">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-var(--accent-blue)">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 hover:text-gray-800 focus:outline-none">
+                    <i class="fas fa-bars fa-lg"></i>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#home" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">Home</a>
+            <a href="#about" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">About</a>
+            <a href="#skills" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">Skills</a>
+            <a href="#community" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">Community</a>
+            <a href="#publications" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">Publications</a>
+            <a href="#projects" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">Projects</a>
+            <a href="#contact" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white">
+        <div class="hero-overlay w-full h-full">
+            <div class="container mx-auto px-6 py-24 h-full flex items-center">
+                <div class="grid md:grid-cols-2 gap-16 items-center w-full">
+                    <!-- Left Column: Title -->
+                    <div class="text-center md:text-left">
+                        <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-4 text-white hero-text-shadow">Google Earth Engine Learning</h1>
+                        <p class="text-xl lg:text-2xl mb-8 hero-text-shadow font-light">with Pulakesh Pradhan</p>
+                        <p class="max-w-lg mx-auto md:mx-0 text-lg text-gray-200">Transforming complex satellite data into actionable knowledge. Explore research, innovative GEE applications, and educational tutorials.</p>
+                    </div>
+
+                    <!-- Right Column: Form -->
+                    <div class="bg-black bg-opacity-25 p-8 rounded-xl shadow-2xl hero-form">
+                        <h2 class="text-2xl font-bold text-center mb-6 text-white">Request Information</h2>
+                        <form>
+                            <div class="mb-4">
+                                <label for="hero-email" class="form-label block mb-2 text-sm">Email Address</label>
+                                <input type="email" id="hero-email" class="form-input w-full px-4 py-2" placeholder="you@example.com" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="hero-research" class="form-label block mb-2 text-sm">Research Area</label>
+                                <input type="text" id="hero-research" class="form-input w-full px-4 py-2" placeholder="e.g., Flood Mapping, NDVI Analysis">
+                            </div>
+                            <div class="mb-6">
+                                <label for="hero-message" class="form-label block mb-2 text-sm">Message</label>
+                                <textarea id="hero-message" rows="4" class="form-input w-full px-4 py-2" placeholder="I'm interested in collaborating..."></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="submit-button w-full py-3 px-8">Submit Contact Form Request</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="md:flex items-center">
+                <div class="md:w-1/3 flex justify-center mb-10 md:mb-0">
+                    <div class="text-center">
+                        <img src="https://pulakeshpradhan.github.io/images/pulakesh.jpg" alt="Pulakesh Pradhan" class="rounded-full shadow-lg w-64 h-64 object-cover border-4 border-gray-300 hover:border-var(--accent-blue) transition-all duration-300">
+                         <div class="mt-6 flex justify-center space-x-5">
+                            <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank" title="ResearchGate" class="text-2xl text-gray-600 hover:text-var(--accent-blue) transition-transform transform hover:scale-125"><i class="fab fa-researchgate"></i></a>
+                            <a href="https://orcid.org/0000-0003-3103-3617" target="_blank" title="ORCID" class="text-2xl text-gray-600 hover:text-var(--accent-blue) transition-transform transform hover:scale-125"><i class="fab fa-orcid"></i></a>
+                            <a href="https://www.linkedin.com/in/pulakeshpradhan/" target="_blank" title="LinkedIn" class="text-2xl text-gray-600 hover:text-var(--accent-blue) transition-transform transform hover:scale-125"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://scholar.google.com/citations?user=_DhEQHEAAAAJ" target="_blank" title="Google Scholar" class="text-2xl text-gray-600 hover:text-var(--accent-blue) transition-transform transform hover:scale-125"><i class="fas fa-graduation-cap"></i></a>
+                            <a href="https://www.youtube.com/@SpatialGeography?sub_confirmation=1" target="_blank" title="YouTube" class="text-2xl text-gray-600 hover:text-red-500 transition-transform transform hover:scale-125"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-2/3 md:pl-16">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-2">Pulakesh Pradhan</h2>
+                    <h3 class="text-xl font-semibold text-gray-600 mb-4">Geography Research Scholar, Ravenshaw University</h3>
+                    <p class="text-gray-700 mb-4 text-justify">
+                        A passionate geospatial professional with expertise in GIS, remote sensing, and web development. I focus on creating innovative solutions and tools that make complex spatial data more accessible and understandable. My work involves developing applications in Google Earth Engine, creating insightful data visualizations, and sharing knowledge through tutorials and open-source projects.
+                    </p>
+                    <div class="text-gray-700 space-y-2">
+                        <p><i class="fas fa-envelope fa-fw mr-2 text-gray-500"></i> pulakesh.mid@gmail.com</p>
+                        <p><i class="fas fa-phone fa-fw mr-2 text-gray-500"></i> +91-8617812861</p>
+                        <p><i class="fas fa-map-marker-alt fa-fw mr-2 text-gray-500"></i> Ravenshaw University, Cuttack, Odisha, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Core Competencies</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">A blend of technical skills in programming, geospatial analysis, and data science.</p>
+            </div>
+            <div class="max-w-4xl mx-auto flex flex-wrap justify-center gap-4">
+                <span class="skill-badge">Google Earth Engine</span>
+                <span class="skill-badge">Remote Sensing</span>
+                <span class="skill-badge">GIS Analysis</span>
+                <span class="skill-badge">Python (Pandas, GeoPandas)</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">QGIS & ArcGIS</span>
+                <span class="skill-badge">Data Visualization</span>
+                <span class="skill-badge">Web Development (HTML, CSS)</span>
+                <span class="skill-badge">Machine Learning</span>
+                <span class="skill-badge">Drought & Flood Analysis</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Community Stats Section -->
+    <section id="community" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Trusted by the Community</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">My tools and tutorials are actively used and highly rated by a growing community of Earth Engine users.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- GEE AI Assistant Stats -->
+                <div class="stat-card bg-white p-8 rounded-lg shadow-lg flex flex-col">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">GEE AI Assistant</h3>
+                    <div class="flex-grow flex justify-around items-center">
+                        <div class="text-center">
+                            <i class="fas fa-users fa-3x text-indigo-500 mb-4"></i>
+                            <div class="counter-value" data-target="379">0</div>
+                            <p class="text-gray-500 font-semibold text-lg mt-2">Users</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-star fa-3x text-yellow-500 mb-4"></i>
+                            <div class="counter-value" data-target="4" data-decimal="true">0.0</div>
+                            <p class="text-gray-500 font-semibold text-lg mt-2">Rating</p>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <a href="https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb" target="_blank" class="cta-button inline-block bg-indigo-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-indigo-600">Get Extension</a>
+                    </div>
+                </div>
+                <!-- YouTube Stats -->
+                <div class="stat-card bg-white p-8 rounded-lg shadow-lg flex flex-col">
+                     <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">YouTube Channel</h3>
+                     <div class="flex-grow grid grid-cols-3 gap-4 text-center items-center">
+                         <div>
+                             <i class="fas fa-user-plus fa-3x text-red-500 mb-4"></i>
+                             <div class="counter-value" data-target="197">0</div>
+                             <p class="text-gray-500 font-semibold text-lg mt-2">Subscribers</p>
+                         </div>
+                         <div>
+                             <i class="fas fa-video fa-3x text-red-500 mb-4"></i>
+                             <div class="counter-value" data-target="16">0</div>
+                             <p class="text-gray-500 font-semibold text-lg mt-2">Videos</p>
+                         </div>
+                         <div>
+                             <i class="fas fa-eye fa-3x text-red-500 mb-4"></i>
+                             <div class="counter-value" data-target="2407">0</div>
+                             <p class="text-gray-500 font-semibold text-lg mt-2">Views</p>
+                         </div>
+                     </div>
+                     <div class="mt-8 text-center">
+                         <a href="https://www.youtube.com/@SpatialGeography?sub_confirmation=1" target="_blank" class="cta-button inline-block bg-red-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-red-600">Subscribe Now</a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Research Publications</h2>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="academic-card p-8">
+                    <div class="publication">
+                        <h3 class="publication-title text-xl">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
+                        <p class="text-gray-600 mt-1">
+                            <strong>Book:</strong> Modern Cartography Series | <strong>Year:</strong> 2024
+                            <span class="badge">Google Earth Engine</span>
+                        </p>
+                        <p class="text-gray-700 mt-3">
+                            This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends, highlighting extreme droughts, shifting water availability, and resilience improvements through NDVI and land surface cooling.
+                        </p>
+                        <div class="mt-4">
+                            <a href="https://doi.org/10.1016/B978-0-443-23890-1.00011-6" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+                    <div class="publication">
+                        <h3 class="publication-title text-xl">Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine</h3>
+                        <p class="text-gray-600 mt-1">
+                            <strong>Book:</strong> Google Earth Engine and Artificial Intelligence for Earth Observation | <strong>Year:</strong> 2025
+                            <span class="badge">Google Earth Engine</span>
+                        </p>
+                        <p class="text-gray-700 mt-3">
+                            This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters selected for this study are elevation, rainfall distribution, land cover, slope, TWI, NDVI, Soil, and Distance from water bodies. The resulting maps provide a robust delineation of areas highly prone to flooding.
+                        </p>
+                        <div class="mt-4">
+                            <a href="https://doi.org/10.1016/B978-0-443-27372-8.00025-8" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GEE AI Assistant Section -->
+    <section id="ai-assistant" class="py-20 highlight-section text-white">
+        <div class="container mx-auto px-6 text-center">
+            <img src="https://lh3.googleusercontent.com/mSw2vqTxfj3oM2XWyFkKraH8-wvEjmrVQkg3egeyLKk4XXquqgNldu9ckhraK062Oe8tWCNRGwqgC5JPe3_olba811A=s120" alt="GEE AI Assistant Logo" class="h-20 mx-auto mb-4">
+            <h2 class="text-4xl font-bold mb-4 text-white">Introducing the GEE AI Assistant</h2>
+            <p class="max-w-3xl mx-auto mb-8 text-lg">
+                Your personal AI helper, embedded directly into the GEE Code Editor. Instantly generate, modify, and fix Google Earth Engine code using our new AI Assistant Chrome Extension.
+            </p>
+            <div class="max-w-4xl mx-auto bg-white bg-opacity-20 p-8 rounded-lg shadow-lg text-left">
+                <h3 class="text-2xl font-bold mb-6 text-center text-white">Key Features</h3>
+                <ul class="grid md:grid-cols-2 gap-x-8 gap-y-4">
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i><span>Generate GEE code from plain-language prompts.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i><span>Fix code errors automatically using AI.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i><span>Convert JavaScript code to Python.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i><span>Export outputs (CSV, GeoTIFF, SHP).</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i><span>Calculate zonal or temporal statistics.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i><span>Create visual charts and time series.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i><span>Build complete GEE Apps with UI components.</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i><span>Access 4000+ GEE datasets via prompts.</span></li>
+                </ul>
+            </div>
+            <a href="https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb" target="_blank" class="cta-button mt-10 inline-block bg-white text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-200 text-lg">Get the Extension</a>
+            <p class="mt-6 text-sm text-gray-300">⚠️ Disclaimer: This is a third-party extension and not officially affiliated with Google.</p>
+        </div>
+    </section>
+
+    <!-- Projects & Tutorials Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">GEE Apps & Tutorials</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Explore my Google Earth Engine applications and watch video tutorials on the Spatial Geography YouTube channel.</p>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Featured Apps</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                 <a href="https://pulakeshpradhan.projects.earthengine.app/view/spectral" target="_blank" class="block academic-card p-6 text-center">
+                    <i class="fa-solid fa-chart-line text-4xl mb-4" style="color: var(--accent-blue);"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Spectral Reflectance Curve</h3>
+                    <p class="text-gray-600">Generate accurate training samples checked by spectral signatures curves.</p>
+                </a>
+                <a href="https://pulakeshpradhan.projects.earthengine.app/view/signature" target="_blank" class="block academic-card p-6 text-center">
+                    <i class="fa-solid fa-seedling text-4xl mb-4" style="color: var(--accent-blue);"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Phenology Signature Crop Classification</h3>
+                    <p class="text-gray-600">A tool for analyzing spectral signatures on temporal bands.</p>
+                </a>
+                <a href="https://pulakeshpradhan.projects.earthengine.app/view/floodsusceptibility" target="_blank" class="block academic-card p-6 text-center">
+                    <i class="fa-solid fa-house-flood-water text-4xl mb-4" style="color: var(--accent-blue);"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Flood Susceptibility AHP Tool</h3>
+                    <p class="text-gray-600">Create any Indian State/District Flood Susceptibility Map with AHP.</p>
+                </a>
+            </div>
+
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Latest Tutorials</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="https://www.youtube.com/watch?v=your_video_id_1" target="_blank" class="block academic-card overflow-hidden">
+                    <img src="https://placehold.co/600x400/2c7da0/ffffff?text=GEE+Beginner's+Guide" alt="Tutorial Thumbnail" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Mastering Google Earth Engine</h3>
+                        <p class="text-gray-600 flex items-center"><i class="fab fa-youtube text-red-500 mr-2"></i>Watch on YouTube</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=your_video_id_2" target="_blank" class="block academic-card overflow-hidden">
+                    <img src="https://placehold.co/600x400/2c7da0/ffffff?text=Land+Use+Classification" alt="Tutorial Thumbnail" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Land Use Land Cover Classification</h3>
+                        <p class="text-gray-600 flex items-center"><i class="fab fa-youtube text-red-500 mr-2"></i>Watch on YouTube</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=your_video_id_3" target="_blank" class="block academic-card overflow-hidden">
+                    <img src="https://placehold.co/600x400/2c7da0/ffffff?text=NDVI+Time+Series" alt="Tutorial Thumbnail" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Time Series Analysis of NDVI</h3>
+                        <p class="text-gray-600 flex items-center"><i class="fab fa-youtube text-red-500 mr-2"></i>Watch on YouTube</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Get In Touch</h2>
+            <div class="max-w-2xl mx-auto academic-card p-8">
+                <form>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="research" class="block text-gray-700 font-medium mb-2">Research Area</label>
+                        <input type="text" id="research" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="e.g., Agricultural Drought, Flood Mapping">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="cta-button bg-blue-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-600">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--deep-blue);" class="text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+             <div class="flex justify-center space-x-4 mb-4">
+                <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-researchgate fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/pulakeshpradhan/" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="https://www.youtube.com/@SpatialGeography" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="https://scholar.google.com/citations?user=_DhEQHEAAAAJ" target="_blank" class="text-gray-400 hover:text-white"><i class="fas fa-graduation-cap fa-lg"></i></a>
+             </div>
+            <p class="text-gray-400">&copy; 2024 Pulakesh Pradhan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                if(mobileMenu.classList.contains('hidden') === false){
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Counter animation
+        const counters = document.querySelectorAll('.counter-value');
+        const speed = 200; 
+
+        const animateCounters = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const updateCount = () => {
+                        const target = +counter.getAttribute('data-target');
+                        const isDecimal = counter.getAttribute('data-decimal') === 'true';
+                        let count = +counter.innerText;
+                        
+                        const inc = target / speed;
+
+                        if (count < target) {
+                            if(isDecimal) {
+                                counter.innerText = (count + inc).toFixed(1);
+                            } else {
+                                counter.innerText = Math.ceil(count + inc);
+                            }
+                            setTimeout(updateCount, 15);
+                        } else {
+                            counter.innerText = isDecimal ? target.toFixed(1).replace('.0','') : target;
+                        }
+                    };
+                    updateCount();
+                    observer.unobserve(counter); // Animate only once
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(animateCounters, {
+            root: null,
+            threshold: 0.5
+        });
+
+        counters.forEach(counter => {
+            observer.observe(counter);
+        });
+    </script>
+
+</body>
+</html>
