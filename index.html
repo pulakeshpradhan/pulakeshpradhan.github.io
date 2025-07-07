@@ -208,6 +208,45 @@
             margin-left: 0.5rem;
         }
 
+        /* Technical Skills Grid */
+        .technical-skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); /* Adjusted minmax for better fit */
+            gap: 1.5rem;
+            text-align: center;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.25rem 1rem; /* Adjusted padding */
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid var(--light-gray-border);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .skill-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .skill-item img.skill-icon { /* Style for skill icons (images) */
+            width: 48px;  /* Increased size */
+            height: 48px; /* Increased size */
+            object-fit: contain;
+            margin-bottom: 0.75rem;
+            border-radius: 4px; /* Optional, if images have bg */
+        }
+
+        .skill-item span.skill-name { /* Style for skill names */
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
         /* --- Project Grids --- */
         .project-grid {
             display: grid;
@@ -454,7 +493,6 @@
             color: var(--text-primary);
         }
 
-
         /* --- YouTube Section --- */
          .youtube-section-bg {
             background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://yt3.googleusercontent.com/AQDu5L2IS7qch-hMMnd-n5DcF4vJRiVaalDdnqj-9oRPdttvhVvwzXot6lmO1d8HXP0DKWGUrg=s160-c-k-c0x00ffffff-no-rj');
@@ -492,7 +530,7 @@
         }
         .youtube-section-grid {
             display: grid;
-            grid-template-columns: 1fr 2.5fr;
+            grid-template-columns: 1.3fr 2.5fr; /* Increased stats section width */
             gap: 2.5rem;
             align-items: flex-start;
         }
@@ -775,7 +813,62 @@
 
         <!-- Main Content -->
         <main>
-          
+           <!-- Technical Skills Section -->
+            <!-- <section class="academic-card">
+                <h2 class="section-header">Technical Skills</h2>
+                <div class="technical-skills-grid">
+                    <div class="skill-item">
+                        <img src="https://earthengine.google.com/static/images/earth-engine-logo.png" alt="GEE Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">GEE</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">R</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://www.insightplatforms.com/wp-content/uploads/2019/09/stata_logo.png" alt="Stata Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">Stata</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/SmartPLS_Logo.png" alt="SmartPLS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">SmartPLS</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/1/1b/IBM_SPSS_v23.png" alt="SPSS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">SPSS</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://s45055.pcdn.co/centers/geospatial-analytics/www-content/blogs.dir/7/files/sites/354/2024/11/Spiral-Drawing-Transparent.png" alt="TerraSat Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">TerraSat</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://www.esri.in/content/dam/distributor-share/esri-se/icons/product-logos/ArcGIS-Pro.png" alt="ArcGIS Pro Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">ArcGIS Pro</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/QGIS_logo_new.svg" alt="QGIS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">QGIS</span>
+                    </div>
+                     <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="SQL Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">Github</span>
+                    </div>
+                     <div class="skill-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/JASP_logo.svg" alt="JavaScript Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">JASP</span>
+                    </div>
+
+                     <div class="skill-item">
+                        <img src="https://avatars.githubusercontent.com/u/16259639?s=200&v=4" alt="JavaScript Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
+                        <span class="skill-name">GeoDa</span>
+                    </div>
+                </div>
+            </section> -->
             <!-- Latest Tutorials Section -->
             <section class="academic-card youtube-section-bg">
                 <div class="youtube-section-grid">
@@ -825,7 +918,7 @@
             
             <!-- GEE AI Assistant Details Section -->
             <section class="academic-card gee-ai-section-bg">
-                <h2 class="section-header">GEE AI Assistant - Chrome Extension created by Pulakesh Pradhan</h2>
+                <h2 class="section-header">GEE AI Assistant - Created by Pulakesh Pradhan</h2>
                 <div class="gee-grid-two-col">
                     <div>
                         <p>
@@ -952,24 +1045,24 @@
                 <div class="gallery-grid">
                     <img src="images/Ravenshaw/1.jpg" alt="Ravenshaw University Image 1" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
                     <img src="images/Ravenshaw/2.jpg" alt="Ravenshaw University Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-                    <img src="images/Ravenshaw/3.jpg" alt="Ravenshaw University Image 3" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
+                    <!-- <img src="images/Ravenshaw/3.jpg" alt="Ravenshaw University Image 3" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';"> -->
                 </div>
                 <h3 class="subsection-header">IIT Bombay</h3>
                 <div class="gallery-grid">
                     <img src="images/IIT Bombay/1.jpg" alt="IIT Bombay Image 1" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
                     <img src="images/IIT Bombay/2.jpg" alt="IIT Bombay Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-                    <img src="images/IIT Bombay/3.jpg" alt="IIT Bombay Image 3" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
+                    <!-- <img src="images/IIT Bombay/3.jpg" alt="IIT Bombay Image 3" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';"> -->
                 </div>
                 <h3 class="subsection-header">Ganpat University (GUNI), Gujarat</h3>
                 <div class="gallery-grid">
                     <img src="images/Ganpat University/guni1.jpeg" alt="Ganpat University Image 1" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-                    <img src="images/Ganpat University/guni2.jpeg" alt="Ganpat University Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
+                    <!-- <img src="images/Ganpat University/guni2.jpeg" alt="Ganpat University Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';"> -->
                     <img src="images/Ganpat University/guni4.JPG" alt="Ganpat University Image 4" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
                 </div>
                 <h3 class="subsection-header">BHU (GEE Workshop)</h3>
                 <div class="gallery-grid">
                     <img src="images/BHU/BHU4.jpg" alt="BHU GEE Workshop Image 1" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-                    <img src="images/BHU/BHU2.jpg" alt="BHU GEE Workshop Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
+                    <!-- <img src="images/BHU/BHU2.jpg" alt="BHU GEE Workshop Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';"> -->
                     <img src="images/BHU/BHU3.jpg" alt="BHU GEE Workshop Image 3" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
                 </div>
             </section> 
