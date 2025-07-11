@@ -368,15 +368,39 @@
         
         /* --- Contact Form --- */
         .contact-card-styled {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1742544699721-ce0cebb82e05?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-            background-size: cover;
-            background-position: center;
+            /* Soft professional circular gradient background with deeper blue and green tones */
+            background:
+            repeating-radial-gradient(
+            circle at 30% 40%,
+            #b2dfdb 0px,
+            #4dd0e1 60px,
+            #b2dfdb 120px
+            ),
+            repeating-radial-gradient(
+            circle at 70% 60%,
+            #b3e5fc 0px,
+            #26c6da 80px,
+            #b3e5fc 160px
+            ),
+            linear-gradient(120deg, #b2dfdb 0%, #b3e5fc 50%, #80cbc4 100%);
+            background-blend-mode: lighten, lighten, normal;
             padding: 3rem 2rem;
-            color: white;
+            color: #14304a; /* Darker text for better visibility */
         }
         .contact-card-styled .section-header {
-            color: white;
+            color: #14304a; /* Match text color for consistency */
             border-bottom-color: var(--accent-blue);
+        }
+        .contact-card-styled .form-label,
+        .contact-card-styled .form-button {
+            color: #14304a; /* Ensure label and button text are also darker */
+        }
+        .contact-card-styled .form-button {
+            border-color: #14304a;
+        }
+        .contact-card-styled .form-button:hover {
+            background-color: #14304a;
+            color: #fff;
         }
         .contact-form-container {
             max-width: 700px;
@@ -600,7 +624,7 @@
         /* --- Image Gallery --- */
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-template-columns: repeat(2, 1fr); /* Two images per row */
             gap: 1.5rem;
         }
         
@@ -886,7 +910,7 @@
 
             <!-- Publications Section -->
             <section class="academic-card">
-                <h2 class="section-header">Research Publications</h2>
+                <h2 class="section-header">Recent Publications</h2>
                 <div class="publication">
                     <h3 class="publication-title">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
                     <p class="publication-details">
@@ -907,7 +931,7 @@
                     <p class="publication-details">
                         <strong>Book:</strong> Google Earth Engine and Artificial Intelligence for Earth Observation<br>
                         <strong>Year:</strong> 2025
-                        <span class="badge">Google Earth Engine</span>
+                        <span class="badge">Google Earth Engine</span><span class="badge">AHP</span>
                     </p>
                     <p class="publication-description">
                         This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters selected for this study are elevation, rainfall distribution, land cover, slope, TWI, NDVI, Soil, and Distance from water bodies. The resulting maps provide a robust delineation of areas highly prone to flooding.
@@ -918,7 +942,15 @@
                     </div>
                 </div>
             </section>
-            
+            <!-- Ravenshaw University Section -->
+            <section class="academic-card"> 
+                <a href="https://ravenshawuniversity.ac.in/" target="_blank" title="Ravenshaw University">
+                <img src="https://github.com/pulakeshpradhan/pulakeshpradhan/raw/main/ravenshaw.jpg" alt="Featured Research Analysis" style="width: 100%; border-radius: 2px;" onerror="this.onerror=null;this.src='https://placehold.co/1000x200/2c7da0/ffffff?text=Let\'s+Work+Together';">
+                </a>
+            </section>         
+
+
+
 
             <!-- GEE App Section -->
             <section class="academic-card">
@@ -936,7 +968,7 @@
                             <div class="youtube-stat-card">
                                 <i class="fas fa-user-plus"></i>
                                 <div>
-                                    <span class="counter-value" data-target="210+">0</span>
+                                    <span class="counter-value" data-target="210">0</span>
                                     <span class="stat-label">Subscribers</span>
                                 </div>
                             </div>
@@ -944,7 +976,7 @@
                             <div class="youtube-stat-card">
                                 <i class="fas fa-eye"></i>
                                 <div>
-                                    <span class="counter-value" data-target="2500+">0</span>
+                                    <span class="counter-value" data-target="2500">0</span>
                                     <span class="stat-label">Views</span>
                                 </div>
                             </div>
@@ -1087,39 +1119,7 @@
             <section class="academic-card">
                 <h2 class="section-header">Reviews</h2>
                 <div class="review-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
-                    <!-- Review 1 -->
-                    <a href="https://chromewebstore.google.com/reviews/440d96d0-a6fe-4db7-9c95-9bda1a8c7ddb" target="_blank" style="text-decoration: none; color: inherit;">
-                        <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
-                            <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
-                            <div>
-                                <p style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem;">
-                                    "It's a great tool! Keep it up Pulakesh."
-                                </p>
-                                <span style="color: #888; font-size: 0.95rem;">
-                                    <i class="fa-brands fa-chrome" style="color: #4f46e5; margin-right: 0.4em;"></i>
-                                    B Goutami
 
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-                    <!-- Review 2 -->
-                    <a href="https://chromewebstore.google.com/reviews/a637bfd3-7765-43be-bd7a-960503296272" target="_blank" style="text-decoration: none; color: inherit;">
-                        <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
-                            <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
-                            <div>
-                                <p style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem;">
-                                    "excellent!!!"
-                                </p>
-                                <span style="color: #888; font-size: 0.95rem;">
-                                    <i class="fa-brands fa-chrome" style="color: #4f46e5; margin-right: 0.4em;"></i>
-                                    Pedro Casagrande
-
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-               
                     <!-- Review 3 -->
                     <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7343284672128348161?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7343284672128348161%2C7343332243974565889%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287343332243974565889%2Curn%3Ali%3AugcPost%3A7343284672128348161%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
@@ -1269,7 +1269,39 @@
                             </div>
                         </div>
                     </a>
-    
+                    <!-- Review 1 -->
+                    <a href="https://chromewebstore.google.com/reviews/440d96d0-a6fe-4db7-9c95-9bda1a8c7ddb" target="_blank" style="text-decoration: none; color: inherit;">
+                        <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
+                            <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
+                            <div>
+                                <p style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem;">
+                                    "It's a great tool! Keep it up Pulakesh."
+                                </p>
+                                <span style="color: #888; font-size: 0.95rem;">
+                                    <i class="fa-brands fa-chrome" style="color: #4f46e5; margin-right: 0.4em;"></i>
+                                    B Goutami
+
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Review 2 -->
+                    <a href="https://chromewebstore.google.com/reviews/a637bfd3-7765-43be-bd7a-960503296272" target="_blank" style="text-decoration: none; color: inherit;">
+                        <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
+                            <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
+                            <div>
+                                <p style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem;">
+                                    "excellent!!!"
+                                </p>
+                                <span style="color: #888; font-size: 0.95rem;">
+                                    <i class="fa-brands fa-chrome" style="color: #4f46e5; margin-right: 0.4em;"></i>
+                                    Pedro Casagrande
+
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                   
                     <!-- Review 3 -->
                      <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7345492281522606085?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7345492281522606085%2C7345518099267215360%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287345518099267215360%2Curn%3Ali%3AugcPost%3A7345492281522606085%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
@@ -1299,7 +1331,7 @@
                     <form id="whatsapp-form">
                         <div class="form-group">
                             <label for="name" class="form-label">Your Name</label>
-                            <input type="text" id="name" name="name" class="form-input" placeholder="e.g., Your Name" required>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your Name..." required>
                         </div>
                         <div class="form-group">
                             <label for="message" class="form-label">Message</label>
