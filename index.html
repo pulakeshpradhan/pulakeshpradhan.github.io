@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulakesh Pradhan | Ravenshaw University</title>
     
-    <!-- Font Awesome for Social Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Academic Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     
     <style>
@@ -101,7 +99,7 @@
         .download-button:hover {
             background-color: var(--deep-blue);
         }
-        /* Add this CSS for the download button style */
+        
         .publication-link.download-pub {
             background-color: #2ecc71;
             color: #fff;
@@ -114,6 +112,7 @@
             border-color: #219150;
             text-decoration: none;
         }
+        
         /* --- Main Content Cards --- */
         .academic-card {
             background-color: white;
@@ -221,45 +220,6 @@
             margin-left: 0.5rem;
         }
 
-        /* Technical Skills Grid */
-        .technical-skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); /* Adjusted minmax for better fit */
-            gap: 1.5rem;
-            text-align: center;
-        }
-
-        .skill-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 1.25rem 1rem; /* Adjusted padding */
-            background-color: white;
-            border-radius: 8px;
-            border: 1px solid var(--light-gray-border);
-            box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-
-        .skill-item:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-        }
-
-        .skill-item img.skill-icon { /* Style for skill icons (images) */
-            width: 48px;  /* Increased size */
-            height: 48px; /* Increased size */
-            object-fit: contain;
-            margin-bottom: 0.75rem;
-            border-radius: 4px; /* Optional, if images have bg */
-        }
-
-        .skill-item span.skill-name { /* Style for skill names */
-            font-size: 0.9rem;
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
         /* --- Project Grids --- */
         .project-grid {
             display: grid;
@@ -280,7 +240,7 @@
             transition: all 0.3s ease;
             border: 1px solid #e9ecef;
             text-decoration: none;
-            display: block; /* Ensure the anchor tag behaves like a block */
+            display: block; 
         }
     
         .project-card:hover {
@@ -341,8 +301,8 @@
         .tutorials-grid {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 2.2rem; /* Increased gap for more height */
-            min-height: 220px; /* Added minimum height */
+            gap: 2.2rem;
+            min-height: 220px;
         }
         .tutorial-card {
             background-color: white;
@@ -359,7 +319,7 @@
         }
         .tutorial-card img {
             width: 100%;
-            height: 240px; /* Increased image height */
+            height: 240px;
             object-fit: cover;
         }
         .tutorial-card-content {
@@ -368,7 +328,6 @@
         
         /* --- Contact Form --- */
         .contact-card-styled {
-            /* Soft professional circular gradient background with deeper blue and green tones */
             background:
             repeating-radial-gradient(
             circle at 30% 40%,
@@ -385,15 +344,15 @@
             linear-gradient(120deg, #b2dfdb 0%, #b3e5fc 50%, #80cbc4 100%);
             background-blend-mode: lighten, lighten, normal;
             padding: 3rem 2rem;
-            color: #14304a; /* Darker text for better visibility */
+            color: #14304a;
         }
         .contact-card-styled .section-header {
-            color: #14304a; /* Match text color for consistency */
+            color: #14304a;
             border-bottom-color: var(--accent-blue);
         }
         .contact-card-styled .form-label,
         .contact-card-styled .form-button {
-            color: #14304a; /* Ensure label and button text are also darker */
+            color: #14304a;
         }
         .contact-card-styled .form-button {
             border-color: #14304a;
@@ -542,7 +501,7 @@
             border-bottom-color: var(--accent-blue);
         }
         .youtube-section-bg .youtube-stats-cta {
-            background-color: transparent; /* Remove the highlight-bg color */
+            background-color: transparent;
             padding: 0;
         }
         .youtube-section-bg .youtube-stat-card {
@@ -557,7 +516,7 @@
         }
         .youtube-section-bg .tutorial-card {
             background-color: rgba(255, 255, 255, 0.95);
-            color: var(--text-primary); /* Reset text color for cards */
+            color: var(--text-primary);
         }
         .youtube-section-bg .tutorial-card:hover {
             box-shadow: 0 10px 20px rgba(0,0,0,0.3);
@@ -567,7 +526,7 @@
         }
         .youtube-section-grid {
             display: grid;
-            grid-template-columns: 1.3fr 2.5fr; /* Increased stats section width */
+            grid-template-columns: 1.3fr 2.5fr;
             gap: 2.5rem;
             align-items: flex-start;
         }
@@ -601,7 +560,7 @@
         .youtube-stat-card i {
             font-size: 2rem;
             margin-right: 1.5rem;
-            width: 40px; /* fixed width for alignment */
+            width: 40px;
             text-align: center;
             color: #ef4444;
         }
@@ -612,7 +571,7 @@
         }
 
         .youtube-stat-card .counter-value {
-            font-size: 1.75rem; /* slightly smaller for the card */
+            font-size: 1.75rem;
             line-height: 1.2;
         }
 
@@ -624,7 +583,7 @@
         /* --- Image Gallery --- */
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Two images per row */
+            grid-template-columns: repeat(2, 1fr);
             gap: 1.5rem;
         }
         
@@ -635,7 +594,7 @@
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer; /* Indicates the image is clickable */
+            cursor: pointer;
         }
     
         .gallery-image:hover {
@@ -643,17 +602,25 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
         }
 
+        /* --- Featured In Section --- */
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            align-items: start;
+        }
+
         /* --- Image Modal (Lightbox) --- */
         .modal {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1000; /* Sit on top */
+            display: none;
+            position: fixed;
+            z-index: 1000;
             padding-top: 60px;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
-            overflow: auto; /* Enable scroll if needed */
+            overflow: auto;
             background-color: rgba(0,0,0,0.9);
         }
 
@@ -705,7 +672,7 @@
                 position: static; /* Remove sticky positioning */
                 margin-bottom: 2rem;
             }
-            .project-grid-app, .tutorials-grid {
+            .project-grid-app {
                 grid-template-columns: repeat(2, 1fr);
             }
             .gee-grid-two-col, .youtube-section-grid {
@@ -731,16 +698,13 @@
                 font-size: 1.4rem;
             }
 
-            .project-grid, .project-grid-app, .tutorials-grid, .ai-assistant-features {
+            .project-grid, .project-grid-app, .tutorials-grid, .ai-assistant-features, .featured-grid, .gallery-grid {
                 grid-template-columns: 1fr;
             }
             
-            .gallery-grid {
-                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            }
-            
             .gallery-image {
-                height: 180px;
+                height: auto; /* Let height adjust to aspect ratio */
+                max-height: 250px;
             }
             
             #gee-embed-container iframe {
@@ -764,9 +728,6 @@
             .stats-grid-detailed {
                 grid-template-columns: 1fr; /* Stack stats on smaller screens */
             }
-            .tutorials-grid {
-                 grid-template-columns: 1fr;
-            }
         }
     
         @media (max-width: 480px) {
@@ -780,7 +741,7 @@
             }
 
             .profile-sidebar {
-                padding: 1.5rem 1rem;
+                padding: 1.5rem;
             }
 
             .profile-sidebar img {
@@ -797,34 +758,25 @@
             }
             
             .academic-card {
-                padding: 1rem;
-            }
-
-            .gallery-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 1rem;
+                padding: 1.25rem;
             }
             
-            .gallery-image {
-                height: 140px;
-            }
-
-            /* Adjust review card grid for better fit */
             .review-grid > a > div {
                 padding: 1rem;
                 gap: 1rem;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
             }
         }
     </style>
 </head>
 <body>
     <div class="academic-container">
-        <!-- Sidebar Profile -->
         <aside class="profile-sidebar">
             <img src="images/pulakesh.jpg" alt="Pulakesh Pradhan" onerror="this.onerror=null;this.src='https://placehold.co/280x280/2c7da0/f4f7f9?text=PP';">
             <h1>Pulakesh Pradhan</h1>
             
-            <!-- Social Media Icons -->
             <div class="social-icons">
                 <a href="https://www.researchgate.net/profile/Pulakesh-Pradhan" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
                 <a href="https://orcid.org/0000-0003-3103-3617" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
@@ -836,7 +788,6 @@
 
             <div style="margin-top: 1.5rem;">
                 <h3>Contact</h3>
-                <!-- <p>☏ +91-8617812861</p> -->
                 <p>📧 pulakesh.mid@gmail.com</p>
                 <p>📕 Department of Geography<br>
                     🏫 Ravenshaw University</p>
@@ -848,67 +799,7 @@
             </div>
         </aside>
 
-        <!-- Main Content -->
         <main>
-           <!-- Technical Skills Section -->
-            <!-- <section class="academic-card">
-                <h2 class="section-header">Technical Skills</h2>
-                <div class="technical-skills-grid">
-                    <div class="skill-item">
-                        <img src="https://earthengine.google.com/static/images/earth-engine-logo.png" alt="GEE Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">GEE</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">Python</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">R</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://www.insightplatforms.com/wp-content/uploads/2019/09/stata_logo.png" alt="Stata Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">Stata</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/SmartPLS_Logo.png" alt="SmartPLS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">SmartPLS</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/en/1/1b/IBM_SPSS_v23.png" alt="SPSS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">SPSS</span>
-                    </div>
-
-                    <div class="skill-item">
-                        <img src="https://s45055.pcdn.co/centers/geospatial-analytics/www-content/blogs.dir/7/files/sites/354/2024/11/Spiral-Drawing-Transparent.png" alt="TerraSat Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">TerraSat</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://www.esri.in/content/dam/distributor-share/esri-se/icons/product-logos/ArcGIS-Pro.png" alt="ArcGIS Pro Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">ArcGIS Pro</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/QGIS_logo_new.svg" alt="QGIS Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">QGIS</span>
-                    </div>
-                     <div class="skill-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="SQL Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">Github</span>
-                    </div>
-                     <div class="skill-item">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/JASP_logo.svg" alt="JavaScript Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">JASP</span>
-                    </div>
-
-                     <div class="skill-item">
-                        <img src="https://avatars.githubusercontent.com/u/16259639?s=200&v=4" alt="JavaScript Icon" class="skill-icon" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=Error';">
-                        <span class="skill-name">GeoDa</span>
-                    </div>
-                </div>
-            </section> -->
-
-
-            <!-- Publications Section -->
             <section class="academic-card">
                 <h2 class="section-header">Recent Publications</h2>
                 <div class="publication">
@@ -942,24 +833,18 @@
                     </div>
                 </div>
             </section>
-            <!-- Ravenshaw University Section -->
             <section class="academic-card"> 
                 <a href="https://maps.app.goo.gl/9Y2QYzW8k1QMdD7XA" target="_blank" title="Ravenshaw University">
-                <img src="https://github.com/pulakeshpradhan/pulakeshpradhan/raw/main/ravenshaw.jpg" alt="Featured Research Analysis" style="width: 100%; border-radius: 2px;" onerror="this.onerror=null;this.src='https://placehold.co/1000x200/2c7da0/ffffff?text=Let\'s+Work+Together';">
+                <img src="https://github.com/pulakeshpradhan/pulakeshpradhan/raw/main/ravenshaw.jpg" alt="Ravenshaw University Campus" style="width: 100%; border-radius: 8px;" onerror="this.onerror=null;this.src='https://placehold.co/1000x200/2c7da0/ffffff?text=Ravenshaw+University';">
                 </a>
             </section>         
 
-
-
-
-            <!-- GEE App Section -->
             <section class="academic-card">
                 <h2 class="section-header">🌍 AHP Flood Map (Earth Engine APP)</h2>
                 <div id="gee-embed-container">
                     <iframe src="https://pulakeshpradhan.users.earthengine.app/view/odishaflood" width="100%" height="500px" style="border: none; border-radius: 8px;"></iframe>
                 </div>
             </section>
-            <!-- Latest Tutorials Section -->
             <section class="academic-card youtube-section-bg">
                 <div class="youtube-section-grid">
                     <div class="youtube-stats-cta">
@@ -994,19 +879,10 @@
                                 <p style="display: flex; align-items: center; color: var(--text-primary);"><i class="fab fa-youtube" style="color: #ef4444; margin-right: 0.5rem;"></i>Watch on YouTube</p>
                             </div>
                         </a>
-                       
-                         <!-- <a href="https://www.youtube.com/watch?v=your_video_id_4" target="_blank" class="tutorial-card">
-                            <img src="https://i9.ytimg.com/vi_webp/Bpt1lgurIMs/mqdefault.webp?v=6856a9f5&sqp=CKCWsMMG&rs=AOn4CLCB87D23CTOze2hpO_CzAtYp9IFNw" alt="Tutorial Thumbnail">
-                            <div class="tutorial-card-content">
-                                <h3 class="entry-title">LULC Sample Generator:GEE Web App</h3>
-                                <p style="display: flex; align-items: center; color: var(--text-primary);"><i class="fab fa-youtube" style="color: #ef4444; margin-right: 0.5rem;"></i>Watch on YouTube</p>
-                            </div>
-                        </a> -->
                     </div>
                 </div>
             </section>
             
-            <!-- GEE AI Assistant Details Section -->
             <section class="academic-card gee-ai-section-bg">
                 <h2 class="section-header">GEE AI Assistant - Created by Pulakesh Pradhan</h2>
                 <div class="gee-grid-two-col">
@@ -1055,9 +931,7 @@
                     </div>
                 </div>
             </section>
-
  
-            <!-- Other Google Earth Engine Apps Section -->
             <section class="academic-card highlight-section">
                 <h2 class="section-header">Other Google Earth Engine Apps</h2>
                 <div class="project-grid-app">
@@ -1079,8 +953,6 @@
                 </div>
             </section>
  
-
-            <!-- Featured Analysis Section -->
             <section class="academic-card"> 
                 <a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" target="_blank" rel="noopener noreferrer">
                     <img src="images/gdg.jpg" 
@@ -1090,8 +962,7 @@
                 </a>
             </section>
 
-
-<section class="academic-card">
+            <section class="academic-card">
                <h2 class="section-header">GEE AI Assistant User Statistics</h2>
                 <p>
                     The GEE AI Assistant has seen rapid adoption by a global community of researchers, students, and professionals. 
@@ -1131,48 +1002,37 @@
 
                 <div style="margin-top: 2rem;">
                     <h3 class="subsection-header">User Distribution</h3>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); gap: 1.5rem;">
-                        <img src="images/GEE AI Assistant 2.jpg" alt="World map showing active users by country" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" title="Active users by country.">
-</div>
+                    <img src="images/GEE AI Assistant 2.jpg" alt="World map showing active users by country" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" title="Active users by country.">
                 </div>
             </section>
 
-            <!-- Image Gallery -->
             <section class="academic-card">
                 <h2 class="section-header">Image Gallery</h2>
                 <h3 class="subsection-header">Ravenshaw University</h3>
                 <div class="gallery-grid">
                     <img src="images/Ravenshaw/1.jpg" alt="Ravenshaw University Image 1" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
                     <img src="images/Ravenshaw/2.jpg" alt="Ravenshaw University Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-                    <!-- <img src="images/Ravenshaw/3.jpg" alt="Ravenshaw University Image 3" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';"> -->
                 </div>
                 <h3 class="subsection-header">IIT Bombay</h3>
                 <div class="gallery-grid">
                     <img src="images/IIT Bombay/1.jpg" alt="IIT Bombay Image 1" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
                     <img src="images/IIT Bombay/2.jpg" alt="IIT Bombay Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-                    <!-- <img src="images/IIT Bombay/3.jpg" alt="IIT Bombay Image 3" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';"> -->
                 </div>
                 <h3 class="subsection-header">Ganpat University (GUNI), Gujarat</h3>
                 <div class="gallery-grid">
                     <img src="images/Ganpat University/guni1.jpeg" alt="Ganpat University Image 1" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-                    <!-- <img src="images/Ganpat University/guni2.jpeg" alt="Ganpat University Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';"> -->
                     <img src="images/Ganpat University/guni4.JPG" alt="Ganpat University Image 4" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
                 </div>
                 <h3 class="subsection-header">BHU (GEE Workshop)</h3>
                 <div class="gallery-grid">
                     <img src="images/BHU/BHU4.jpg" alt="BHU GEE Workshop Image 1" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-                    <!-- <img src="images/BHU/BHU2.jpg" alt="BHU GEE Workshop Image 2" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';"> -->
                     <img src="images/BHU/BHU3.jpg" alt="BHU GEE Workshop Image 3" class="gallery-image" onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
                 </div>
             </section> 
 
-            
-            <!-- Reviews -->
             <section class="academic-card">
                 <h2 class="section-header">Reviews</h2>
                 <div class="review-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
-
-                    <!-- Review 3 -->
                     <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7343284672128348161?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7343284672128348161%2C7343332243974565889%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287343332243974565889%2Curn%3Ali%3AugcPost%3A7343284672128348161%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1187,8 +1047,6 @@
                             </div>
                         </div>
                     </a>
- 
-    <!-- Review 4 -->
                     <a href="https://www.linkedin.com/feed/update/urn:li:activity:7339912046659948544?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7339912046659948544%2C7339931997638709249%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287339931997638709249%2Curn%3Ali%3Aactivity%3A7339912046659948544%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1203,9 +1061,6 @@
                             </div>
                         </div>
                     </a>
- 
- 
-                    <!-- Review 5 -->
                     <a href="https://www.linkedin.com/feed/update/urn:li:activity:7340454910804533250?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7340454910804533250%2C7340547953532555264%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340547953532555264%2Curn%3Ali%3Aactivity%3A7340454910804533250%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1220,8 +1075,6 @@
                             </div>
                         </div>
                     </a>
-
-      <!-- Review 6 -->
                     <a href="https://www.linkedin.com/feed/update/urn:li:activity:7340318354533924864?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7340318354533924864%2C7340394181133049857%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340394181133049857%2Curn%3Ali%3Aactivity%3A7340318354533924864%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1232,15 +1085,10 @@
                                 <span style="color: #888; font-size: 0.95rem;">
                                     <i class="fa-brands fa-linkedin"  style="color: #4f46e5; margin-right: 0.4em;"></i>
                                     Sujit Kumar Roy
- 
                                 </span>
                             </div>
                         </div>
                     </a>
-        
-   
-        
-  <!-- Review 8 -->
                     <a href="https://www.linkedin.com/feed/update/urn:li:activity:7340318354533924864?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7340318354533924864%2C7340340308234203136%29&replyUrn=urn%3Ali%3Acomment%3A%28activity%3A7340318354533924864%2C7340344730242732032%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287340340308234203136%2Curn%3Ali%3Aactivity%3A7340318354533924864%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287340344730242732032%2Curn%3Ali%3Aactivity%3A7340318354533924864%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1255,9 +1103,6 @@
                             </div>
                         </div>
                     </a>
-
-        
-                    <!-- Review -- -->
                      <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7343876927029477378?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7343876927029477378%2C7344048040070025217%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287344048040070025217%2Curn%3Ali%3AugcPost%3A7343876927029477378%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1272,8 +1117,6 @@
                             </div>
                         </div>
                     </a>
-  
-                    <!-- Review -- -->
                      <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7343876927029477378?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7343876927029477378%2C7343884277207502850%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287343884277207502850%2Curn%3Ali%3AugcPost%3A7343876927029477378%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1288,8 +1131,6 @@
                             </div>
                         </div>
                     </a>
-  
-                    <!-- Review -- -->
                      <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7343876927029477378?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7343876927029477378%2C7343890952589062144%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287343890952589062144%2Curn%3Ali%3AugcPost%3A7343876927029477378%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1300,12 +1141,10 @@
                                 <span style="color: #888; font-size: 0.95rem;">
                                     <i class="fa-brands fa-linkedin"  style="color: #4f46e5; margin-right: 0.4em;"></i>
                                     Sasanka Ghosh
-
                                 </span>
                             </div>
                         </div>
                     </a>
-                    <!-- Review 1 -->
                     <a href="https://chromewebstore.google.com/reviews/440d96d0-a6fe-4db7-9c95-9bda1a8c7ddb" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1316,12 +1155,10 @@
                                 <span style="color: #888; font-size: 0.95rem;">
                                     <i class="fa-brands fa-chrome" style="color: #4f46e5; margin-right: 0.4em;"></i>
                                     B Goutami
-
                                 </span>
                             </div>
                         </div>
                     </a>
-                    <!-- Review 2 -->
                     <a href="https://chromewebstore.google.com/reviews/a637bfd3-7765-43be-bd7a-960503296272" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1332,13 +1169,10 @@
                                 <span style="color: #888; font-size: 0.95rem;">
                                     <i class="fa-brands fa-chrome" style="color: #4f46e5; margin-right: 0.4em;"></i>
                                     Pedro Casagrande
-
                                 </span>
                             </div>
                         </div>
                     </a>
-                   
-                    <!-- Review 3 -->
                      <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7345492281522606085?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7345492281522606085%2C7345518099267215360%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287345518099267215360%2Curn%3Ali%3AugcPost%3A7345492281522606085%29" target="_blank" style="text-decoration: none; color: inherit;">
                         <div style="display: flex; align-items: flex-start; gap: 1.25rem; background: #f4f7f9; border-radius: 10px; padding: 1.25rem;">
                             <img src="https://www.gravatar.com/avatar/?d=mp&s=60" alt="Profile Icon" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #2c7da0;">
@@ -1356,47 +1190,34 @@
                 </div>
                 <div style="margin-top: 1.5rem; text-align: right;">
                     <a href="https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl/reviews" target="_blank" style="color: var(--accent-blue); font-weight: 600; font-size: 1rem; text-decoration: none;">
-                        Read more reviews &rarr;
+                        Read more reviews →
                     </a>
                 </div>
             </section>
 
+            <section class="academic-card">
+                <h2 class="section-header">Featured In</h2>
+                <div class="featured-grid">
+                    <div style="background: #f4f7f9; border-radius: 10px; padding: 1rem;">
+                        <iframe width="100%" height="215" src="https://www.youtube.com/embed/fMVyb_1Ld4g?start=3633" title="RevoMap Solutions" frameborder="0" allowfullscreen style="border-radius: 8px;"></iframe>
+                        <div style="margin-top: 0.75rem;">
+                            <a href="https://youtu.be/fMVyb_1Ld4g?t=3633" target="_blank" style="color: var(--accent-blue); font-weight: 600; text-decoration: none;">
+                                RevoMap Solutions <i class="fab fa-youtube" style="color: #ef4444; margin-left: 0.5em;"></i>
+                            </a>
+                        </div>
+                    </div>
 
+                    <div style="background: #f4f7f9; border-radius: 10px; padding: 1rem;">
+                        <iframe width="100%" height="215" src="https://www.youtube.com/embed/_ggEUvdWnjQ?start=1586" title="SAIARD Webinar" frameborder="0" allowfullscreen style="border-radius: 8px;"></iframe>
+                        <div style="margin-top: 0.75rem;">
+                            <a href="https://youtu.be/_ggEUvdWnjQ?t=1595" target="_blank" style="color: var(--accent-blue); font-weight: 600; text-decoration: none;">
+                                SAIARD Webinar <i class="fab fa-youtube" style="color: #ef4444; margin-left: 0.5em;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-
-
-<!-- Featured In Section -->
-<section class="academic-card">
-    <h2 class="section-header">Featured In</h2>
-    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; align-items: start;">
-        
-        <!-- Card 1 -->
-        <div style="background: #f4f7f9; border-radius: 10px; padding: 1rem;">
-            <iframe width="100%" height="215" src="https://www.youtube.com/embed/fMVyb_1Ld4g?start=3633" title="RevoMap Solutions" frameborder="0" allowfullscreen style="border-radius: 8px;"></iframe>
-            <div style="margin-top: 0.75rem;">
-                <a href="https://youtu.be/fMVyb_1Ld4g?t=3633" target="_blank" style="color: var(--accent-blue); font-weight: 600; text-decoration: none;">
-                    RevoMap Solutions <i class="fab fa-youtube" style="color: #ef4444; margin-left: 0.5em;"></i>
-                </a>
-            </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div style="background: #f4f7f9; border-radius: 10px; padding: 1rem;">
-            <iframe width="100%" height="215" src="https://www.youtube.com/embed/_ggEUvdWnjQ?start=1586" title="SAIARD Webinar" frameborder="0" allowfullscreen style="border-radius: 8px;"></iframe>
-            <div style="margin-top: 0.75rem;">
-                <a href="https://youtu.be/_ggEUvdWnjQ?t=1595" target="_blank" style="color: var(--accent-blue); font-weight: 600; text-decoration: none;">
-                    SAIARD Webinar <i class="fab fa-youtube" style="color: #ef4444; margin-left: 0.5em;"></i>
-                </a>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-
-
-
-            <!-- Contact Section -->
             <section class="academic-card contact-card-styled">
                 <div class="contact-form-container">
                     <form id="whatsapp-form">
@@ -1415,64 +1236,51 @@
                 </div>
             </section>
 
+            <section class="academic-card">
+              <h2 class="section-header">Invited as a Resource Person</h2>
+              <div class="gallery-grid">
+                <div style="background: #f4f7f9; border-radius: 12px; padding: 1rem; display: flex; flex-direction: column; align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
+                  <img src="images/resource2.jpg" 
+                       alt="Resource Person at Maharaja Sriram Chandra Bhanja Deo University" 
+                       class="gallery-image" 
+                       style="object-fit: cover; border-radius: 8px; margin-bottom: 0.75rem;" 
+                       onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
+                  <div style="margin-top: 0.5rem; text-align: center;">
+                    <a href="https://www.linkedin.com/posts/pulakeshpradhan_activity-7372908186498080768-xCBG?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC68umIBtZyD3GLWcRA8Lii25_o_lCdWXOw" 
+                       target="_blank" 
+                       style="color: var(--accent-blue); font-weight: 700; font-size: 1.05rem; text-decoration: none;">
+                       Maharaja Sriram Chandra Bhanja Deo University
+                    </a><br>
+                    <span style="color: #666; font-size: 0.9rem; font-style: italic;">Sept. 2025</span>
+                  </div>
+                </div>
 
-<!-- As a Resource Person Section -->
-<section class="academic-card">
-  <h2 class="section-header">Invited as a Resource Person</h2>
-  <div class="gallery-grid">
-
-    <!-- MSCB University -->
-    <div style="background: #f4f7f9; border-radius: 12px; padding: 1rem; display: flex; flex-direction: column; align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
-      <img src="images/resource2.jpg" 
-           alt="Resource Person at Maharaja Sriram Chandra Bhanja Deo University" 
-           class="gallery-image" 
-           style="object-fit: cover; border-radius: 8px; margin-bottom: 0.75rem;" 
-           onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-      <div style="margin-top: 0.5rem; text-align: center;">
-        <a href="https://www.linkedin.com/posts/pulakeshpradhan_activity-7372908186498080768-xCBG?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC68umIBtZyD3GLWcRA8Lii25_o_lCdWXOw" 
-           target="_blank" 
-           style="color: var(--accent-blue); font-weight: 700; font-size: 1.05rem; text-decoration: none;">
-           Maharaja Sriram Chandra Bhanja Deo University
-        </a><br>
-        <span style="color: #666; font-size: 0.9rem; font-style: italic;">Sept. 2025</span>
-      </div>
-    </div>
-
-    <!-- Centurion University -->
-    <div style="background: #f4f7f9; border-radius: 12px; padding: 1rem; display: flex; flex-direction: column; align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
-      <img src="images/resource1.png" 
-           alt="Resource Person at Centurion University" 
-           class="gallery-image" 
-           style="object-fit: cover; border-radius: 8px; margin-bottom: 0.75rem;" 
-           onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
-      <div style="margin-top: 0.5rem; text-align: center;">
-        <a href="https://www.linkedin.com/pulse/glimpse-10-day-online-google-earth-engine-gee-training-pradhan-owdwc" 
-           target="_blank" 
-           style="color: var(--accent-blue); font-weight: 700; font-size: 1.05rem; text-decoration: none;">
-           Centurion University
-        </a><br>
-        <span style="color: #666; font-size: 0.9rem; font-style: italic;">March 2025</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-
+                <div style="background: #f4f7f9; border-radius: 12px; padding: 1rem; display: flex; flex-direction: column; align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.08);">
+                  <img src="images/resource1.png" 
+                       alt="Resource Person at Centurion University" 
+                       class="gallery-image" 
+                       style="object-fit: cover; border-radius: 8px; margin-bottom: 0.75rem;" 
+                       onerror="this.onerror=null;this.src='https://placehold.co/250x200/cccccc/ffffff?text=Image+Not+Found';">
+                  <div style="margin-top: 0.5rem; text-align: center;">
+                    <a href="https://www.linkedin.com/pulse/glimpse-10-day-online-google-earth-engine-gee-training-pradhan-owdwc" 
+                       target="_blank" 
+                       style="color: var(--accent-blue); font-weight: 700; font-size: 1.05rem; text-decoration: none;">
+                       Centurion University
+                    </a><br>
+                    <span style="color: #666; font-size: 0.9rem; font-style: italic;">March 2025</span>
+                  </div>
+                </div>
+              </div>
+            </section>
         </main>
     </div>
 
-    <!-- Footer -->
     <footer class="site-footer">
         <p>© 2025 Pulakesh Pradhan | Ravenshaw University</p>
     </footer>
 
-    <!-- Image Modal Lightbox -->
     <div id="imageModal" class="modal">
-        <span class="close-button">&times;</span>
+        <span class="close-button">×</span>
         <img class="modal-content" id="modalImage">
     </div>
 
@@ -1482,18 +1290,15 @@
             const whatsappForm = document.getElementById('whatsapp-form');
             if (whatsappForm) {
                 whatsappForm.addEventListener('submit', function(event) {
-                    event.preventDefault(); // Prevent the default form submission
-
+                    event.preventDefault(); 
                     const nameInput = document.getElementById('name');
                     const messageInput = document.getElementById('message');
                     const name = nameInput.value;
                     const message = messageInput.value;
-
                     if (!name.trim() || !message.trim()) {
                         alert('Please fill in both your name and message.');
                         return;
                     }
-
                     const whatsappNumber = '918617812861';
                     const formattedMessage = `Hi, I'm ${name}.\n\n${message}`;
                     const encodedMessage = encodeURIComponent(formattedMessage);
@@ -1505,22 +1310,18 @@
             // --- Image Modal (Lightbox) ---
             var modal = document.getElementById("imageModal");
             var modalImg = document.getElementById("modalImage");
-            
             document.querySelectorAll('.gallery-image').forEach(image => {
                 image.onclick = function(){
                     modal.style.display = "block";
                     modalImg.src = this.src;
                 }
             });
-
             var closeBtn = document.querySelector(".close-button");
-
             if(closeBtn) {
                 closeBtn.onclick = function() { 
                     modal.style.display = "none";
                 }
             }
-
             window.onclick = function(event) {
                 if (event.target == modal) {
                     modal.style.display = "none";
@@ -1530,7 +1331,6 @@
             // --- Counter Animation ---
             const counters = document.querySelectorAll('.counter-value');
             const speed = 200; 
-
             const animateCounters = (entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -1539,9 +1339,7 @@
                             const target = +counter.getAttribute('data-target');
                             const isDecimal = counter.getAttribute('data-decimal') === 'true';
                             let count = +counter.innerText;
-                            
                             const inc = target / speed;
-
                             if (count < target) {
                                 if(isDecimal) {
                                     counter.innerText = (count + inc).toFixed(1);
@@ -1554,16 +1352,14 @@
                             }
                         };
                         updateCount();
-                        observer.unobserve(counter); // Animate only once
+                        observer.unobserve(counter);
                     }
                 });
             };
-
             const observer = new IntersectionObserver(animateCounters, {
                 root: null,
                 threshold: 0.5
             });
-
             counters.forEach(counter => {
                 observer.observe(counter);
             });
