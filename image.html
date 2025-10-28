@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to JPG Converter</title>
+    
+    <!-- 1. Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 2. PDF.js library for reading and rendering PDFs -->
+    <!-- We need both the main library and the worker script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+
+    <!-- 3. Custom Styles and Font -->
+    <style>
+        /* Use the Inter font, a clean sans-serif */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Custom style for the file input */
+        #pdfInput {
+            display: none; /* Hide the default ugly input */
+        }
+
+        /* Style the label to look like a modern dropzone */
+        #fileLabel {
+            border: 2px dashed #cbd5e1; /* gray-300 */
+            border-radius: 0.75rem; /* rounded-xl */
+            padding: 2.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        
+        #fileLabel:hover {
+            background-color: #f8fafc; /* gray-50 */
+            border-color: #3b82f6; /* blue-500 */
+        }
+
+        /* Add a subtle animation for the status messages */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        #status, .page-output {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-white w-full max-w-3xl p-8 md:p-12 rounded-2xl shadow-2xl">
+        
+        <!-- Header Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800">PDF to JPG Converter</h1>
+            <p class="text-gray-500 mt-2">Upload your PDF and get high-quality JPG images for each page.</p>
+        </header>
+
+        <!-- Uploader Section -->
+        <div class="mb-6">
+            <!-- The label is styled to be the dropzone -->
+            <label for="pdfInput" id="fileLabel">
+                <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+                    <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="mt-2 block font-medium text-gray-600">
+                    Click to upload or drag and drop
+                </span>
+                <span class="mt-1 block text-sm text-gray-500">PDF files only</span>
+            </label>
+            
+            <!-- The actual hidden file input -->
+            <input type="file" id="pdfInput" accept="application/pdf">
+            
+            <!-- This will display the selected file name -->
+            <p id="fileName" class="text-center text-gray-500 mt-4"></p>
+        </div>
+
+        <!-- Control Button -->
+        <div class="text-center">
+            <button id="convertBtn" class="w-full md:w-auto bg-blue-600 text-white font-bold py-3 px-10 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 disabled:bg-gray-400 disabled:cursor-not-allowed" disabled>
+                Convert to JPG
+            </button>
+        </div>
+
+        <!-- Status & Output Section -->
+        <div class="mt-8">
+            <!-- Status message area -->
+            <div id="status" class="text-center text-lg font-medium text-blue-600 hidden"></div>
+            
+            <!-- Output grid for generated images -->
+            <div id="output" class="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                <!-- Generated JPGs will be appended here -->
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // --- 1. Setup PDF.js Worker ---
+        // This is required for pdf.js to run in the background
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
+
+        // --- 2. Get DOM Elements ---
+        const pdfInput = document.getElementById('pdfInput');
+        const fileLabel = document.getElementById('fileLabel');
+        const fileName = document.getElementById('fileName');
+        const convertBtn = document.getElementById('convertBtn');
+        const status = document.getElementById('status');
+        const output = document.getElementById('output');
+
+        let selectedFile = null;
+
+        // --- 3. Handle File Selection ---
+        pdfInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file && file.type === 'application/pdf') {
+                selectedFile = file;
+                fileName.textContent = `Selected: ${file.name}`;
+                convertBtn.disabled = false;
+                // Reset UI
+                output.innerHTML = '';
+                status.classList.add('hidden');
+                status.textContent = '';
+            } else {
+                selectedFile = null;
+                fileName.textContent = 'Please select a valid PDF file.';
+                convertBtn.disabled = true;
+            }
+        });
+
+        // --- 4. Handle Convert Button Click ---
+        convertBtn.addEventListener('click', () => {
+            if (!selectedFile) return;
+
+            // Reset UI for conversion
+            convertBtn.disabled = true;
+            status.classList.remove('hidden');
+            status.classList.remove('text-red-600');
+            status.classList.add('text-blue-600');
+            status.textContent = 'Preparing file...';
+            output.innerHTML = '';
+
+            // Use FileReader to read the file as an ArrayBuffer
+            const reader = new FileReader();
+            reader.onload = async (e) => {
+                const pdfData = new Uint8Array(e.target.result);
+                await convertPdfToJpg(pdfData);
+            };
+            reader.readAsArrayBuffer(selectedFile);
+        });
+
+        // --- 5. The Core Conversion Function ---
+        async function convertPdfToJpg(pdfData) {
+            try {
+                status.textContent = 'Loading PDF document...';
+                
+                // Load the PDF document
+                const pdfDoc = await pdfjsLib.getDocument({ data: pdfData }).promise;
+                const numPages = pdfDoc.numPages;
+                status.textContent = `Found ${numPages} page(s). Starting conversion...`;
+
+                // Loop through each page
+                for (let i = 1; i <= numPages; i++) {
+                    status.textContent = `Processing page ${i} of ${numPages}...`;
+                    
+                    const page = await pdfDoc.getPage(i);
+                    
+                    // Set a high scale for better quality
+                    const scale = 2.0;
+                    const viewport = page.getViewport({ scale: scale });
+
+                    // Create a canvas element
+                    const canvas = document.createElement('canvas');
+                    const context = canvas.getContext('2d');
+                    canvas.height = viewport.height;
+                    canvas.width = viewport.width;
+
+                    // Render the PDF page onto the canvas
+                    const renderContext = {
+                        canvasContext: context,
+                        viewport: viewport
+                    };
+                    await page.render(renderContext).promise;
+
+                    // Convert the canvas to a JPG data URL
+                    // 0.9 = 90% quality
+                    const jpgDataUrl = canvas.toDataURL('image/jpeg', 0.9);
+
+                    // Create and display the output image and download link
+                    createOutputCard(jpgDataUrl, i);
+                }
+
+                status.textContent = 'Conversion Complete!';
+                status.classList.replace('text-blue-600', 'text-green-600');
+
+            } catch (error) {
+                console.error('Conversion Error:', error);
+                status.textContent = 'Error: Could not process PDF. See console for details.';
+                status.classList.replace('text-blue-600', 'text-red-600');
+            } finally {
+                // Re-enable the button for another conversion
+                convertBtn.disabled = false;
+            }
+        }
+
+        // --- 6. Helper Function to Display Output ---
+        function createOutputCard(jpgDataUrl, pageNum) {
+            // Create container
+            const card = document.createElement('div');
+            card.className = 'page-output bg-gray-50 p-3 rounded-lg shadow-md flex flex-col items-center';
+
+            // Create image preview
+            const img = document.createElement('img');
+            img.src = jpgDataUrl;
+            img.className = 'w-full h-auto rounded-md border border-gray-200 mb-3';
+
+            // Create download link
+            const link = document.createElement('a');
+            link.href = jpgDataUrl;
+            
+            // Generate a clean file name
+            const baseName = selectedFile.name.replace(/\.pdf$/i, '');
+            link.download = `${baseName}_page_${pageNum}.jpg`;
+            
+            link.textContent = `Download Page ${pageNum}`;
+            link.className = 'w-full text-center bg-green-600 text-white text-sm font-medium py-2 px-3 rounded-md hover:bg-green-700 transition-colors no-underline';
+
+            // Append to DOM
+            card.appendChild(img);
+            card.appendChild(link);
+            output.appendChild(card);
+        }
+
+    </script>
+</body>
+</html>
