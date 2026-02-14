@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/events.html",
+    "items": [
+      "/events/agri-mooc.html",
+      "/events/icc-2026.html",
+      "/events/gdg-nairobi.html",
+      "/events/bhu-workshop.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/earthengine/cloudgis.html",
@@ -24,7 +33,8 @@
       "/posts/welcome/index.html",
       "/posts/academic-journey/index.html",
       "/software.html",
-      "/events.html",
+      "/events/agri-mooc.html",
+      "/events/icc-2026.html",
       "/publications.html"
     ]
   }
