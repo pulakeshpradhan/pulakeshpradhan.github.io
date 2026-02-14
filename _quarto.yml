@@ -39,9 +39,9 @@ website:
         href: https://scholar.google.com/citations?user=_DhEQHEAAAAJ
       - icon: youtube
         href: https://www.youtube.com/@SpatialGeography
-  google-analytics: "G-XXXXXXXXXX" # Replace with your Actual Google Analytics ID
+
   page-footer:
-    left: "© 2026 Pulakesh Pradhan | ![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpulakeshpradhan.github.io&count_bg=%231a5f7a&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visits&edge_flat=false)"
+    left: "© 2026 Pulakesh Pradhan"
     center: "Ravenshaw University | Cuttack, India"
 
     right: 
