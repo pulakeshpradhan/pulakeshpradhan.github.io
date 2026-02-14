@@ -82,25 +82,25 @@ page-layout: full
 ## 📌 Latest Insights
 ::: {#latest-posts}
 :::
-[View all posts →](blog.qmd){.btn .btn-outline-primary .btn-sm .mt-2}
+[<i class="bi bi-arrow-right-circle"></i> View all posts](blog.qmd){.social-btn .mt-2}
 
 <hr>
 
 ## 🚀 Featured Innovations
 ::: {#latest-innovations}
 :::
-[View all innovations →](software.qmd){.btn .btn-outline-primary .btn-sm .mt-2}
+[<i class="bi bi-arrow-right-circle"></i> View all innovations](software.qmd){.social-btn .mt-2}
 
 <hr>
 
 ## 📖 Featured Tutorials
 ::: {#latest-tutorials}
 :::
-[View all tutorials →](tutorials.qmd){.btn .btn-outline-primary .btn-sm .mt-2}
+[<i class="bi bi-arrow-right-circle"></i> View all tutorials](tutorials.qmd){.social-btn .mt-2}
 
 <hr>
 
 ## 📚 Recent Work
 ::: {#recent-pubs}
 :::
-[View all publications →](publications.qmd){.btn .btn-outline-primary .btn-sm .mt-2}
+[<i class="bi bi-arrow-right-circle"></i> View all publications](publications.qmd){.social-btn .mt-2}

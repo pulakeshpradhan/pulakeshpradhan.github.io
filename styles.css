@@ -108,6 +108,7 @@ h3 {
     align-items: center;
     gap: 8px;
     font-weight: 500;
+    margin-top: 5px;
 }
 
 .social-btn:hover {
@@ -220,7 +221,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.software-card .btn {
+.software-card .social-btn {
     margin-top: 10px;
     margin-right: 8px;
 }

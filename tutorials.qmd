@@ -12,21 +12,21 @@ I maintain several dedicated tutorial sites covering various aspects of spatial 
 ![R Spatial](https://placehold.co/400x200/27ae60/ffffff?text=R+Spatial+Tutorials)
 ### R for Spatial Analysis
 Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *stars*).
-[📖 Visit Tutorial](https://pulakeshpradhan.github.io/rspatial/){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/rspatial/){.social-btn}
 :::
 
 ::: {.software-card}
 ![Google Earth Engine](https://placehold.co/400x200/2c7da0/ffffff?text=GEE+Tutorials)
 ### Google Earth Engine
 Interactive guide and documentation for mastering cloud-based remote sensing.
-[📖 Visit Tutorial](https://pulakeshpradhan.github.io/gee/intro.html){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/gee/intro.html){.social-btn}
 :::
 
 ::: {.software-card}
 ![Geo-Python](https://placehold.co/400x200/34495e/ffffff?text=Geo-Python)
 ### Geo-Python
 Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xarray*.
-[📖 Visit Tutorial](https://pulakeshpradhan.github.io/geopython/){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/geopython/){.social-btn}
 :::
 
 :::
@@ -39,14 +39,14 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 ![Cloud GIS](https://placehold.co/400x200/2980b9/ffffff?text=Cloud+GIS)
 ### Cloud GIS & AI
 Resources on merging cloud computing with artificial intelligence for advanced GIS.
-[📖 Visit Tutorial](https://pulakeshpradhan.github.io/cloudgis){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/cloudgis){.social-btn}
 :::
 
 ::: {.software-card}
 ![Geospatial Reference](https://placehold.co/400x200/e67e22/ffffff?text=Geospatial+Reference)
 ### Geospatial Reference
 A quick-reference guide for common geospatial operations in Python, R, and GEE.
-[📖 Visit Tutorial](https://pulakeshpradhan.github.io/geospatial/){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/geospatial/){.social-btn}
 :::
 
 :::
@@ -59,14 +59,14 @@ A quick-reference guide for common geospatial operations in Python, R, and GEE.
 ![English for Academics](https://placehold.co/400x200/8e44ad/ffffff?text=Academic+English)
 ### English for Academics
 Essential resources for scientific writing, presentations, and clear academic communication.
-[📖 Visit Tutorial](https://pulakeshpradhan.github.io/english/){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/english/){.social-btn}
 :::
 
 ::: {.software-card}
 ![LaTeX](https://placehold.co/400x200/2c3e50/ffffff?text=LaTeX+for+Scientists)
 ### LaTeX for Geographers
 Professional document composition and high-quality thesis writing using LaTeX.
-[📖 Visit Tutorial](https://pulakeshpradhan.github.io/latex){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/latex){.social-btn}
 :::
 
 :::
