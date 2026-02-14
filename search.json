@@ -77,20 +77,6 @@
     "text": "Location\nOffice Hours: Tuesdays & Thursdays, 2:00 PM – 4:00 PM (or by appointment)."
   },
   {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Image Gallery",
-    "section": "",
-    "text": "Exploring the campus and life at Ravenshaw University."
-  },
-  {
-    "objectID": "gallery.html#ravenshaw-university",
-    "href": "gallery.html#ravenshaw-university",
-    "title": "Image Gallery",
-    "section": "",
-    "text": "Exploring the campus and life at Ravenshaw University."
-  },
-  {
     "objectID": "gallery.html#anveshan-student-research-convention",
     "href": "gallery.html#anveshan-student-research-convention",
     "title": "Image Gallery",
@@ -102,21 +88,14 @@
     "href": "gallery.html#iit-bombay",
     "title": "Image Gallery",
     "section": "IIT Bombay",
-    "text": "IIT Bombay\nVisit to IIT Bombay for research and collaboration."
+    "text": "IIT Bombay"
   },
   {
-    "objectID": "gallery.html#ganpat-university-guni-gujarat",
-    "href": "gallery.html#ganpat-university-guni-gujarat",
+    "objectID": "gallery.html#academic-field-work",
+    "href": "gallery.html#academic-field-work",
     "title": "Image Gallery",
-    "section": "Ganpat University (GUNI), Gujarat",
-    "text": "Ganpat University (GUNI), Gujarat"
-  },
-  {
-    "objectID": "gallery.html#bhu-gee-workshop",
-    "href": "gallery.html#bhu-gee-workshop",
-    "title": "Image Gallery",
-    "section": "BHU (GEE Workshop)",
-    "text": "BHU (GEE Workshop)\nGoogle Earth Engine workshop conducted at Banaras Hindu University."
+    "section": "Academic & Field Work",
+    "text": "Academic & Field Work"
   },
   {
     "objectID": "gallery.html#nagi-ranchi-university",
@@ -126,11 +105,11 @@
     "text": "NAGI (Ranchi University)"
   },
   {
-    "objectID": "gallery.html#featured-events-research",
-    "href": "gallery.html#featured-events-research",
+    "objectID": "gallery.html#featured-engagements",
+    "href": "gallery.html#featured-engagements",
     "title": "Image Gallery",
-    "section": "Featured Events & Research",
-    "text": "Featured Events & Research"
+    "section": "Featured Engagements",
+    "text": "Featured Engagements"
   },
   {
     "objectID": "index.html",
