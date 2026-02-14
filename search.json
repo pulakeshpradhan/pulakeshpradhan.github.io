@@ -228,20 +228,27 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Modern Cartography Series • 2024\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, and climate trends.\nDOI Link Download PDF\n\n\n\n GEE and AI for Earth Observation • 2025\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, and TWI.\nResearchGate Download PDF"
+    "text": "Pradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. Available at ResearchGate.\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal.” In Modern Cartography Series. Available at ResearchGate."
   },
   {
-    "objectID": "publications.html#peer-reviewed-publications",
-    "href": "publications.html#peer-reviewed-publications",
+    "objectID": "publications.html#peer-reviewed-journal-articles",
+    "href": "publications.html#peer-reviewed-journal-articles",
     "title": "Publications",
     "section": "",
-    "text": "Modern Cartography Series • 2024\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, and climate trends.\nDOI Link Download PDF\n\n\n\n GEE and AI for Earth Observation • 2025\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, and TWI.\nResearchGate Download PDF"
+    "text": "Pradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. Available at ResearchGate.\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal.” In Modern Cartography Series. Available at ResearchGate."
   },
   {
-    "objectID": "publications.html#presentations-workshops",
-    "href": "publications.html#presentations-workshops",
+    "objectID": "publications.html#conference-presentations-workshops",
+    "href": "publications.html#conference-presentations-workshops",
     "title": "Publications",
-    "section": "🎤 Presentations & Workshops",
-    "text": "🎤 Presentations & Workshops\n\nDrought Monitoring with GEE AI Assistant powerd by Gemini API\n GDG Nairobi (Virtual) • 2024\nPresented the integration of Generative AI (Gemini) with Google Earth Engine for automated drought detection and reporting.\nEvent Details\n\n\nThe Future of Open Source GIS\n International Cartographic Conference 2026 • Keynote\nInvited Keynote Speaker discussing the shift towards cloud-native spatial analysis and the democratisation of GIS data.\n\n\n\nFor a full list of research output, visit my Google Scholar or ResearchGate."
+    "section": "Conference Presentations & Workshops",
+    "text": "Conference Presentations & Workshops\n\nPradhan, P. (2024). “Drought Monitoring with GEE AI Assistant powered by Gemini API.” GDG for Earth Engine Nairobi (Virtual). Abstract/Details.\nPradhan, P. (2026, Upcoming). “The Future of Open Source GIS.” Keynote Address, International Cartographic Conference."
+  },
+  {
+    "objectID": "publications.html#other-scholarly-works",
+    "href": "publications.html#other-scholarly-works",
+    "title": "Publications",
+    "section": "Other Scholarly Works",
+    "text": "Other Scholarly Works\n\nPradhan, P. (2023). “Remote Sensing in the Anthropocene.” In Modern Geography: A Review. Springer.\n\n\nFull publication lists available via: Google Scholar | ResearchGate"
   }
 ]
