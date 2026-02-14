@@ -115,46 +115,6 @@ page-layout: full
 
 <hr>
 
-## 🗺️ Global Traffic
-::: {.grid}
 
-::: {.g-col-12 .g-col-md-3}
-### Statistics
-::: {.status-card}
-<div class="text-center">
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpulakeshpradhan.github.io&count_bg=%231a5f7a&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Total+Visitors&edge_flat=false" alt="Total Visitors" style="width: 100%; max-width: 200px; margin-bottom: 20px;">
 
-<div style="font-size: 0.9rem; color: #64748b; text-align: left;">
-This section provides real-time insights into the global reach of my research and developments. 
-
-**Tracking:**
-- Unique visitors
-- Geographic location
-- Country-wise distribution
-</div>
-</div>
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### Global Presence
-::: {.map-card}
-<div class="visitor-map-container">
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=nLl3KIj4auOY3L_3kYhBLd9fKTHpzihQI-jRuDM7abQ"></script>
-</div>
-:::
-:::
-
-::: {.g-col-12 .g-col-md-3}
-### Top Regions
-::: {.flag-card}
-<div class="flag-counter-container">
-<a href="https://info.flagcounter.com/PshX">
-<img src="https://s01.flagcounter.com/count2/PshX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_1/maxflags_12/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" style="width: 100%;">
-</a>
-</div>
-:::
-:::
-
-:::
 
