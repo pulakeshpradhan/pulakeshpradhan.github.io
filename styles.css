@@ -34,12 +34,25 @@ h3 {
     width: 100%;
 }
 
+.profile-img-container {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
 .profile-img {
-    width: 250px;
-    height: 250px;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block;
+}
+
+/* Force roundness even if Quarto wraps it */
+.profile-card img {
     border-radius: 50% !important;
-    object-fit: cover;
-    margin-bottom: 25px;
 }
 
 .profile-card h1 {

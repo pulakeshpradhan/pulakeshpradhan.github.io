@@ -14,7 +14,9 @@ page-layout: full
 
 ::: {.g-col-12 .g-col-md-5 .profile-column}
 ::: {.profile-card}
+<div class="profile-img-container">
 ![](images/pulakesh.jpg){.profile-img}
+</div>
 
 # Pulakesh Pradhan
 
