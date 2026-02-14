@@ -258,3 +258,51 @@ footer.nav-footer .nav-footer-center {
     font-weight: 600;
     color: var(--brand-primary);
 }
+
+/* Visitor Traffic Widgets */
+.status-card,
+.map-card,
+.flag-card {
+    border: 1px solid #f1f5f9;
+    padding: 24px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+    transition: all 0.4s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.status-card:hover,
+.map-card:hover,
+.flag-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+    border-color: #e2e8f0;
+}
+
+.visitor-map-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    overflow: hidden;
+}
+
+/* Ensure ClustrMaps globe fits well */
+#clstr_globe {
+    max-width: 100%;
+}
+
+.flag-counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.flag-counter-container img {
+    border-radius: 8px;
+}
