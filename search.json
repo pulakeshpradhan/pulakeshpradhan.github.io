@@ -77,18 +77,11 @@
     "text": "Welcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "Exploring the intersection of climate change, urban planning, and spatial equity."
-  },
-  {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Welcome",
     "section": "About Me",
-    "text": "About Me\nI am a quantitative geographer focused on developing open-source tools for spatial analysis. My work leverages satellite imagery and machine learning to understand urban heat islands and coastal erosion."
+    "text": "About Me\nI am a geographer and spatial data scientist specialized in GIS and Remote Sensing."
   },
   {
     "objectID": "index.html#upcoming-events",
@@ -116,20 +109,20 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Deep Learning for Global Shoreline Mapping: Challenges and Opportunities\nRivera, A., Smith, J., & Doe, L.\n[Nature Communications Earth & Environment, 2025]\nDOI: 10.1038/s43247-025-00123-x\n\n\nUrban Heat Inequality: A Spatial Analysis of 50 Global Cities\nRivera, A., & Zhang, Y.\n[Global Environmental Change, 2024]\nDOI: 10.1016/j.gloenvcha.2024.102834\n\n\nGeoFlow-Py: Scaling Hydrological Models with Dask\nRivera, A., & Wilson, K.\n[Journal of Open Source Software (JOSS), 2023]\nDOI: 10.21105/joss.05202"
+    "text": "Deep Learning for Global Shoreline Mapping: Challenges and Opportunities\nPradhan, P., Smith, J., & Doe, L.\n[Nature Communications Earth & Environment, 2025]\nDOI: 10.1038/s43247-025-00123-x\n\n\nUrban Heat Inequality: A Spatial Analysis of 50 Global Cities\nPradhan, P., & Zhang, Y.\n[Global Environmental Change, 2024]\nDOI: 10.1016/j.gloenvcha.2024.102834\n\n\nGeoFlow-Py: Scaling Hydrological Models with Dask\nPradhan, P., & Wilson, K.\n[Journal of Open Source Software (JOSS), 2023]\nDOI: 10.21105/joss.05202"
   },
   {
     "objectID": "publications.html#selected-peer-reviewed-journals",
     "href": "publications.html#selected-peer-reviewed-journals",
     "title": "Publications",
     "section": "",
-    "text": "Deep Learning for Global Shoreline Mapping: Challenges and Opportunities\nRivera, A., Smith, J., & Doe, L.\n[Nature Communications Earth & Environment, 2025]\nDOI: 10.1038/s43247-025-00123-x\n\n\nUrban Heat Inequality: A Spatial Analysis of 50 Global Cities\nRivera, A., & Zhang, Y.\n[Global Environmental Change, 2024]\nDOI: 10.1016/j.gloenvcha.2024.102834\n\n\nGeoFlow-Py: Scaling Hydrological Models with Dask\nRivera, A., & Wilson, K.\n[Journal of Open Source Software (JOSS), 2023]\nDOI: 10.21105/joss.05202"
+    "text": "Deep Learning for Global Shoreline Mapping: Challenges and Opportunities\nPradhan, P., Smith, J., & Doe, L.\n[Nature Communications Earth & Environment, 2025]\nDOI: 10.1038/s43247-025-00123-x\n\n\nUrban Heat Inequality: A Spatial Analysis of 50 Global Cities\nPradhan, P., & Zhang, Y.\n[Global Environmental Change, 2024]\nDOI: 10.1016/j.gloenvcha.2024.102834\n\n\nGeoFlow-Py: Scaling Hydrological Models with Dask\nPradhan, P., & Wilson, K.\n[Journal of Open Source Software (JOSS), 2023]\nDOI: 10.21105/joss.05202"
   },
   {
     "objectID": "publications.html#book-chapters",
     "href": "publications.html#book-chapters",
     "title": "Publications",
     "section": "Book Chapters",
-    "text": "Book Chapters\n\nRivera, A. (2023). “Remote Sensing in the Anthropocene.” In Modern Geography: A Review. Springer."
+    "text": "Book Chapters\n\nPradhan, P. (2023). “Remote Sensing in the Anthropocene.” In Modern Geography: A Review. Springer."
   }
 ]
