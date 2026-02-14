@@ -133,6 +133,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-tutorials .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-tutorials'] = new List('listing-latest-tutorials', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-recent-pubs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -385,14 +413,14 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Pub. &amp; Pres.</span></a>
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tutorials.qmd"> 
+    <a class="nav-link" href="./tutorials.html"> 
 <span class="menu-text">Tutorials</span></a>
   </li>  
   <li class="nav-item">
@@ -448,7 +476,8 @@ window.Quarto = {
   <ul>
   <li><a href="#latest-insights" id="toc-latest-insights" class="nav-link active" data-scroll-target="#latest-insights">📌 Latest Insights</a></li>
   <li><a href="#featured-innovations" id="toc-featured-innovations" class="nav-link" data-scroll-target="#featured-innovations">🚀 Featured Innovations</a></li>
-  <li><a href="#recent-work" id="toc-recent-work" class="nav-link" data-scroll-target="#recent-work">📚 Recent Work</a></li>
+  <li><a href="#featured-tutorials" id="toc-featured-tutorials" class="nav-link" data-scroll-target="#featured-tutorials">� Featured Tutorials</a></li>
+  <li><a href="#recent-work" id="toc-recent-work" class="nav-link" data-scroll-target="#recent-work">�📚 Recent Work</a></li>
   </ul>
 </nav>
     </div>
@@ -478,7 +507,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="latest-insights">📌 Latest Insights</h2>
 <div id="listing-latest-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bmV3cyUyQ2VkdWNhdGlvbg==" data-listing-date-sort="1771027200000" data-listing-file-modified-sort="1771081854599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="g-col-1" data-index="0" data-categories="bmV3cyUyQ2VkdWNhdGlvbg==" data-listing-date-sort="1771027200000" data-listing-file-modified-sort="1771081939163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
 <a href="./posts/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -502,7 +531,7 @@ Feb 14, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="R0VFJTJDdGlwcw==" data-listing-date-sort="1770940800000" data-listing-file-modified-sort="1771081854599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="g-col-1" data-index="1" data-categories="R0VFJTJDdGlwcw==" data-listing-date-sort="1770940800000" data-listing-file-modified-sort="1771081939163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./posts/gee-tips/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -526,7 +555,7 @@ Feb 13, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UHl0aG9uJTJDR0lT" data-listing-date-sort="1770854400000" data-listing-file-modified-sort="1771081854599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="g-col-1" data-index="2" data-categories="UHl0aG9uJTJDR0lT" data-listing-date-sort="1770854400000" data-listing-file-modified-sort="1771081939163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
 <a href="./posts/python-gis/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -559,7 +588,7 @@ Feb 12, 2026
 <h2 class="anchored" data-anchor-id="featured-innovations">🚀 Featured Innovations</h2>
 <div id="listing-latest-innovations" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771081854599" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771081939163" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
 <a href="./software.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -617,11 +646,68 @@ Spectral Reflectance Curve
 </div>
 <hr>
 </section>
+<section id="featured-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="featured-tutorials">� Featured Tutorials</h2>
+<div id="listing-latest-tutorials" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="https://pulakeshpradhan.github.io/rspatial/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://placehold.co/400x200/27ae60/ffffff?text=R+Spatial" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+R for Spatial
+</h5>
+<div class="card-text listing-description delink">
+<p>Guide to spatial analysis using R.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="https://pulakeshpradhan.github.io/gee/intro.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://placehold.co/400x200/2c7da0/ffffff?text=GEE+Intro" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GEE Tutorials
+</h5>
+<div class="card-text listing-description delink">
+<p>Cloud-based remote sensing with Earth Engine.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="https://pulakeshpradhan.github.io/geopython/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://placehold.co/400x200/34495e/ffffff?text=Geo-Python" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Geo-Python
+</h5>
+<div class="card-text listing-description delink">
+<p>Spatial data science with Python.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
 <section id="recent-work" class="level2">
-<h2 class="anchored" data-anchor-id="recent-work">📚 Recent Work</h2>
+<h2 class="anchored" data-anchor-id="recent-work">�📚 Recent Work</h2>
 <div id="listing-recent-pubs" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771081854599" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771081939163" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
 <a href="./publications.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -640,7 +726,7 @@ Agricultural drought monitoring using GEE
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1771081854599" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1771081939163" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
 <a href="./publications.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -659,7 +745,7 @@ Drought Monitoring with Gemini API
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1771081854599" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1771081939163" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
 <a href="./publications.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
