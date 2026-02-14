@@ -184,9 +184,30 @@
   {
     "objectID": "tutorials.html",
     "href": "tutorials.html",
-    "title": "Tutorials",
+    "title": "Tutorials & Courses",
     "section": "",
-    "text": "I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools.\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars). 📖 Visit Tutorial\n\n\n ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing. 📖 Visit Tutorial\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE. 📖 Visit Tutorial\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray. 📖 Visit Tutorial\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS. 📖 Visit Tutorial\n\n\n ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication. 📖 Visit Tutorial\n\n\n ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX. 📖 Visit Tutorial"
+    "text": "I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools."
+  },
+  {
+    "objectID": "tutorials.html#geospatial-programming",
+    "href": "tutorials.html#geospatial-programming",
+    "title": "Tutorials & Courses",
+    "section": "💻 Geospatial Programming",
+    "text": "💻 Geospatial Programming\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars). 📖 Visit Tutorial\n\n\n ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing. 📖 Visit Tutorial\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray. 📖 Visit Tutorial"
+  },
+  {
+    "objectID": "tutorials.html#advanced-gis-reference",
+    "href": "tutorials.html#advanced-gis-reference",
+    "title": "Tutorials & Courses",
+    "section": "🚀 Advanced GIS & Reference",
+    "text": "🚀 Advanced GIS & Reference\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS. 📖 Visit Tutorial\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE. 📖 Visit Tutorial"
+  },
+  {
+    "objectID": "tutorials.html#academic-writing-tools",
+    "href": "tutorials.html#academic-writing-tools",
+    "title": "Tutorials & Courses",
+    "section": "✍️ Academic Writing & Tools",
+    "text": "✍️ Academic Writing & Tools\n\n\n ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication. 📖 Visit Tutorial\n\n\n ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX. 📖 Visit Tutorial"
   },
   {
     "objectID": "posts/flood-mapping/index.html",
