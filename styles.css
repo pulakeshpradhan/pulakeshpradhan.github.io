@@ -30,9 +30,9 @@ h3 {
 .profile-column {
     display: flex;
     justify-content: center;
-    padding: 60px 20px;
-    background: radial-gradient(circle at 50% 50%, #f1f5f9 0%, #ffffff 100%);
-    border-bottom: 1px solid #e2e8f0;
+    padding: 40px 20px;
+    background: white;
+    border-bottom: 1px solid #e1e4e8;
 }
 
 .profile-card {
@@ -101,28 +101,24 @@ h3 {
 }
 
 .social-btn {
-    background: white;
-    padding: 8px 18px;
-    border-radius: 50px;
-    /* Pillow style */
+    background: #ffffff;
+    padding: 6px 14px;
+    border-radius: 6px;
     font-size: 0.85rem;
-    color: #475569;
+    color: #4b5563;
     text-decoration: none;
-    transition: all 0.3s ease;
-    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+    border: 1px solid #d1d5db;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-weight: 600;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    font-weight: 500;
 }
 
 .social-btn:hover {
-    background: var(--brand-primary);
-    color: white !important;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(26, 95, 122, 0.2);
-    border-color: var(--brand-primary);
+    background: #f9fafb;
+    border-color: #9ca3af;
+    color: #111827 !important;
 }
 
 .social-btn i {
