@@ -18,20 +18,18 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: software.qmd
-        text: Innovations
       - href: publications.qmd
         text: Publications
+      - href: events.qmd
+        text: Events
       - href: blog.qmd
         text: Blog
       - href: tutorials.qmd
         text: Tutorials
-      - href: events.qmd
-        text: Events
-      - href: gallery.qmd
-        text: Gallery
       - href: cv.qmd
         text: CV
+      - href: gallery.qmd
+        text: Gallery
     right:
       - icon: text-paragraph
         href: https://www.researchgate.net/profile/Pulakesh-Pradhan
@@ -43,7 +41,7 @@ website:
         href: https://www.youtube.com/@SpatialGeography
   page-footer:
     left: "© 2026 Pulakesh Pradhan"
-    center: "Ravenshaw University"
+    center: "PhD Scholar in Geography, MPhil, UGC-SRF"
     right: 
       - icon: github
         href: https://github.com/pulakeshpradhan

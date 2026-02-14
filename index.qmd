@@ -74,7 +74,7 @@ page-layout: full
 </div>
 
 # Pulakesh Pradhan
-### Ravenshaw University
+### PhD Scholar in Geography, MPhil, UGC-SRF
 *Transforming Earth Observation data into actionable insights through AI & Cloud Computing.*
 
 ::: {.social-links}
@@ -91,20 +91,6 @@ page-layout: full
 
 <hr>
 
-## 📌 Latest Insights
-::: {#latest-posts}
-:::
-[<i class="bi bi-arrow-right-circle"></i> View all posts](blog.qmd){.social-btn .mt-2}
-
-<hr>
-
-## 🚀 Featured Innovations
-::: {#latest-innovations}
-:::
-[<i class="bi bi-arrow-right-circle"></i> View all innovations](software.qmd){.social-btn .mt-2}
-
-<hr>
-
 ## 📅 Upcoming Events
 ::: {#upcoming-events}
 :::
@@ -112,10 +98,24 @@ page-layout: full
 
 <hr>
 
+## 📌 Latest Insights
+::: {#latest-posts}
+:::
+[<i class="bi bi-arrow-right-circle"></i> View all posts](blog.qmd){.social-btn .mt-2}
+
+<hr>
+
 ## 📖 Featured Tutorials
 ::: {#latest-tutorials}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all tutorials](tutorials.qmd){.social-btn .mt-2}
+
+<hr>
+
+## 🚀 Featured Innovations
+::: {#latest-innovations}
+:::
+[<i class="bi bi-arrow-right-circle"></i> View all innovations](software.qmd){.social-btn .mt-2}
 
 <hr>
 
