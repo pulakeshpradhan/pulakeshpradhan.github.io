@@ -3,7 +3,15 @@ project:
 
 website:
   title: "Pulakesh Pradhan"
-  description: "Geographer, GIS Specialist, and Spatial Data Scientist. Department of Geography, Ravenshaw University."
+  description: "Geographer, GIS Specialist, and Spatial Data Scientist. Specializing in Google Earth Engine, AI, and Remote Sensing."
+  site-url: "https://pulakeshpradhan.github.io"
+  twitter-card:
+    creator: "@pulakesh_p"
+    card-style: summary_large_image
+    image: "images/pulakesh.jpg"
+  open-graph:
+    image: "images/pulakesh.jpg"
+    locale: en_US
   navbar:
     background: primary
     search: true
@@ -31,6 +39,15 @@ website:
         href: https://scholar.google.com/citations?user=_DhEQHEAAAAJ
       - icon: youtube
         href: https://www.youtube.com/@SpatialGeography
+  page-footer:
+    left: "© 2024 Pulakesh Pradhan"
+    center: "Geographer & Spatial Data Scientist"
+    right: 
+      - icon: github
+        href: https://github.com/pulakeshpradhan
+      - icon: linkedin
+        href: https://www.linkedin.com/in/pulakeshpradhan/
+    background: light
 
 comments:
   giscus:
