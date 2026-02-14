@@ -12,28 +12,28 @@ My work involves developing open-source tools, cloud applications, and browser e
 ![Spectral Curve](https://placehold.co/400x200/2c7da0/ffffff?text=Spectral+Reflectance+Curve)
 ### Spectral Reflectance Curve
 Analyze spectral signatures across multiple bands for precise land cover characterization.
-[🚀 Visit App](https://spatialgeography.projects.earthengine.app/view/spectral){.btn .btn-outline-primary .btn-sm}
+[🚀 Visit App](https://spatialgeography.projects.earthengine.app/view/spectral){.btn .btn-outline-primary .btn-sm} [💻 GitHub](https://github.com/pulakeshpradhan/){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.software-card}
 ![Phenology signature](https://placehold.co/400x200/2c7da0/ffffff?text=Phenology+Signature)
 ### Phenology Signature
 A specialized tool for crop classification utilizing phenological signatures and time-series analysis.
-[🚀 Visit App](https://spatialgeography.projects.earthengine.app/view/signature){.btn .btn-outline-primary .btn-sm}
+[🚀 Visit App](https://spatialgeography.projects.earthengine.app/view/signature){.btn .btn-outline-primary .btn-sm} [💻 GitHub](https://github.com/pulakeshpradhan/){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.software-card}
 ![Flood Susceptibility](https://placehold.co/400x200/2c7da0/ffffff?text=Flood+Susceptibility+AHP)
 ### Flood Susceptibility
 Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.
-[🚀 Visit App](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility){.btn .btn-outline-primary .btn-sm}
+[🚀 Visit App](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility){.btn .btn-outline-primary .btn-sm} [💻 GitHub](https://github.com/pulakeshpradhan/){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.software-card}
 ![Odisha Flood Map](https://placehold.co/400x200/2c7da0/ffffff?text=Odisha+Flood+Map)
 ### Odisha Flood Map
 Visualizing regional flood extent using multi-date satellite imagery for immediate response support.
-[🚀 Visit App](https://spatialgeography.projects.earthengine.app/view/odishaflood){.btn .btn-outline-primary .btn-sm}
+[🚀 Visit App](https://spatialgeography.projects.earthengine.app/view/odishaflood){.btn .btn-outline-primary .btn-sm} [💻 GitHub](https://github.com/pulakeshpradhan/){.btn .btn-outline-secondary .btn-sm}
 :::
 
 :::
@@ -46,21 +46,21 @@ Visualizing regional flood extent using multi-date satellite imagery for immedia
 ![geeadvance](https://placehold.co/400x200/27ae60/ffffff?text=geeadvance+Package)
 ### geeadvance
 Advanced functional programming utilities to supercharge your GEE Python API workflows.
-[📦 PyPI](https://pypi.org/project/geeadvance/){.btn .btn-outline-success .btn-sm}
+[📦 PyPI](https://pypi.org/project/geeadvance/){.btn .btn-outline-success .btn-sm} [💻 GitHub](https://github.com/pulakeshpradhan/geeadvance){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.software-card}
 ![deepgee](https://placehold.co/400x200/27ae60/ffffff?text=deepgee+Package)
 ### deepgee
 A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.
-[📦 PyPI](https://pypi.org/project/deepgee/){.btn .btn-outline-success .btn-sm}
+[📦 PyPI](https://pypi.org/project/deepgee/){.btn .btn-outline-success .btn-sm} [💻 GitHub](https://github.com/pulakeshpradhan/deepgee){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.software-card}
 ![geeassist](images/geeai.jpg)
 ### geeassist
 Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.
-[📦 PyPI](https://pypi.org/project/geeassist/){.btn .btn-outline-success .btn-sm}
+[📦 PyPI](https://pypi.org/project/geeassist/){.btn .btn-outline-success .btn-sm} [💻 GitHub](https://github.com/pulakeshpradhan/geeassist){.btn .btn-outline-secondary .btn-sm}
 :::
 
 :::
@@ -73,7 +73,7 @@ Personal AI coding assistant for the GEE Python environment, powered by Large La
 ![GEE AI Assistant](images/geeai.jpg)
 ### GEE AI Assistant
 Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.
-[🌐 Web Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl){.btn .btn-outline-info .btn-sm}
+[🌐 Web Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl){.btn .btn-outline-info .btn-sm} [💻 GitHub](https://github.com/pulakeshpradhan/gee-ai-assistant){.btn .btn-outline-secondary .btn-sm}
 :::
 
 ::: {.software-card}
