@@ -35,46 +35,32 @@
     "text": "Academic Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nYouTube Creator: “Spatial Geography” channel (Tutorials on GEE, Python, R)\n\n\nView PDF Version of CV (Coming Soon)"
   },
   {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Innovations",
     "section": "",
-    "text": "I regularly present my research at international conferences and university seminars."
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
   },
   {
-    "objectID": "presentations.html#featured-talks",
-    "href": "presentations.html#featured-talks",
-    "title": "Presentations",
-    "section": "Featured Talks",
-    "text": "Featured Talks\n\n2026\n\nKeynote: Open Source GIS in the 2020s\nInternational Cartographic Conference, Tokyo. Slides (PDF)\n\n\n\n2025\n\nMapping Coastal Change with Deep Learning\nAGU Fall Meeting, New Orleans. Watch Presentation\nThe Spatial Equity of Urban Green Space\nAmerican Association of Geographers (AAG), Detroit. Slides\n\n\n\n2024\n\nDask and Xarray for Hydrology\nSciPy Conference, Austin, TX. Video Demo"
+    "objectID": "software.html#google-earth-engine-apps",
+    "href": "software.html#google-earth-engine-apps",
+    "title": "Innovations",
+    "section": "🌍 Google Earth Engine Apps",
+    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization.  Visit App  GitHub\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis.  Visit App  GitHub\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.  Visit App  GitHub\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support.  Visit App  GitHub"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I am always open to collaborations, speaking engagements, or discussing spatial data science."
+    "objectID": "software.html#python-packages",
+    "href": "software.html#python-packages",
+    "title": "Innovations",
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows.  PyPI  GitHub\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.  PyPI  GitHub\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.  PyPI  GitHub"
   },
   {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact",
-    "section": "Get in Touch",
-    "text": "Get in Touch\nEmail: alex.rivera@example-uni.edu\nOffice: 402 Geography Building, [University Name]\nPhone: +1 (555) 123-4567"
-  },
-  {
-    "objectID": "contact.html#social-research-networks",
-    "href": "contact.html#social-research-networks",
-    "title": "Contact",
-    "section": "Social & Research Networks",
-    "text": "Social & Research Networks\n\nTwitter/X\nGitHub\nGoogle Scholar\nLinkedIn"
-  },
-  {
-    "objectID": "contact.html#location",
-    "href": "contact.html#location",
-    "title": "Contact",
-    "section": "Location",
-    "text": "Location\nOffice Hours: Tuesdays & Thursdays, 2:00 PM – 4:00 PM (or by appointment)."
+    "objectID": "software.html#chrome-extensions",
+    "href": "software.html#chrome-extensions",
+    "title": "Innovations",
+    "section": "🛠️ Chrome Extensions",
+    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.  Web Store  GitHub\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation.  Web Store"
   },
   {
     "objectID": "posts/python-gis/index.html",
@@ -229,34 +215,6 @@
     "title": "Top 5 Tips for Google Earth Engine Developers",
     "section": "",
     "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
-  },
-  {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Innovations",
-    "section": "",
-    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
-  },
-  {
-    "objectID": "software.html#google-earth-engine-apps",
-    "href": "software.html#google-earth-engine-apps",
-    "title": "Innovations",
-    "section": "🌍 Google Earth Engine Apps",
-    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization.  Visit App  GitHub\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis.  Visit App  GitHub\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.  Visit App  GitHub\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support.  Visit App  GitHub"
-  },
-  {
-    "objectID": "software.html#python-packages",
-    "href": "software.html#python-packages",
-    "title": "Innovations",
-    "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows.  PyPI  GitHub\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.  PyPI  GitHub\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.  PyPI  GitHub"
-  },
-  {
-    "objectID": "software.html#chrome-extensions",
-    "href": "software.html#chrome-extensions",
-    "title": "Innovations",
-    "section": "🛠️ Chrome Extensions",
-    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.  Web Store  GitHub\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation.  Web Store"
   },
   {
     "objectID": "publications.html",
