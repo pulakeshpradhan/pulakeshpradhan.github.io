@@ -112,7 +112,11 @@ page-layout: full
 ::: {#latest-innovations}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all innovations](software.qmd){.social-btn .mt-2}
+
+<hr>
+
 ## 📚 Recent Publications
 ::: {#recent-pubs}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all publications](publications.qmd){.social-btn .mt-2}
+
