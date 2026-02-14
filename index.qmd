@@ -75,7 +75,7 @@ page-layout: full
 
 # Pulakesh Pradhan
 ### PhD Scholar in Geography, MPhil, UGC-SRF
-*Transforming Earth Observation data into actionable insights through AI & Cloud Computing.*
+*Spatial Geography: Where Exploration Meets Earth’s Spatial Story...*
 
 ::: {.social-links}
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}

@@ -18,11 +18,8 @@ title: "Publications"
   [<i class="bi bi-presentation-ctnr"></i> Presentation](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/){.social-btn}
   [<i class="bi bi-link-45deg"></i> Details](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/){.social-btn}
 
-- **Pradhan, P.** (2026, Upcoming). "The Future of Open Source GIS." Keynote Address, International Cartographic Conference.
-
 ## Other Scholarly Works
 
-- **Pradhan, P.** (2023). "Remote Sensing in the Anthropocene." In *Modern Geography: A Review*. Springer.
 
 ---
 
