@@ -166,6 +166,20 @@ h2 {
     gap: 10px;
 }
 
+/* Innovations Grid - Strict 2-Column */
+.software-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .software-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Grid Cards Modernization */
 .software-card,
 .listing-item {
@@ -182,6 +196,33 @@ h2 {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
     border-color: #e2e8f0;
+}
+
+.software-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.software-card h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.software-card p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.software-card .btn {
+    margin-top: 10px;
+    margin-right: 8px;
 }
 
 /* Gallery - Circular aesthetics where appropriate */

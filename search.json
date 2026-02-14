@@ -221,21 +221,21 @@
     "href": "software.html#google-earth-engine-apps",
     "title": "Innovations",
     "section": "🌍 Google Earth Engine Apps",
-    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization. 🚀 Visit App\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis. 🚀 Visit App\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping. 🚀 Visit App\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support. 🚀 Visit App"
+    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization. 🚀 Visit App 💻 GitHub\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis. 🚀 Visit App 💻 GitHub\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping. 🚀 Visit App 💻 GitHub\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support. 🚀 Visit App 💻 GitHub"
   },
   {
     "objectID": "software.html#python-packages",
     "href": "software.html#python-packages",
     "title": "Innovations",
     "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows. 📦 PyPI\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models. 📦 PyPI\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models. 📦 PyPI"
+    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows. 📦 PyPI 💻 GitHub\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models. 📦 PyPI 💻 GitHub\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models. 📦 PyPI 💻 GitHub"
   },
   {
     "objectID": "software.html#chrome-extensions",
     "href": "software.html#chrome-extensions",
     "title": "Innovations",
     "section": "🛠️ Chrome Extensions",
-    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation. 🌐 Web Store\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation. 🌐 Web Store"
+    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation. 🌐 Web Store 💻 GitHub\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation. 🌐 Web Store"
   },
   {
     "objectID": "publications.html",
