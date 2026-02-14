@@ -30,9 +30,11 @@ h3 {
 
 .profile-card {
     background: white;
-    padding: 15px;
+    padding: 30px;
     text-align: center;
     width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .profile-img-container {
@@ -102,22 +104,12 @@ h3 {
     color: #111827;
 }
 
-.bio-column {
-    padding: 20px;
-}
-
-.bio-text {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #4b5563;
-}
-
 .cv-link {
     color: var(--brand-secondary);
     font-size: 0.95rem;
     text-decoration: none;
-    margin: 10px 0;
-    display: inline-block;
+    margin: 20px 0 0;
+    display: block;
     font-weight: 600;
 }
 

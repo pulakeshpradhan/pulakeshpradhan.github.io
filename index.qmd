@@ -39,9 +39,7 @@ listing:
 page-layout: full
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-5 .profile-column}
+::: {.profile-column}
 ::: {.profile-card}
 <div class="profile-img-container">
 <img src="images/pulakesh.jpg" class="profile-img" alt="Pulakesh Pradhan">
@@ -56,19 +54,9 @@ page-layout: full
 [<i class="bi bi-youtube"></i> YouTube](https://www.youtube.com/@SpatialGeography){.social-btn}
 [<i class="bi bi-envelope"></i> Email](mailto:pulakesh.mid@gmail.com){.social-btn}
 :::
-:::
-:::
-
-::: {.g-col-12 .g-col-md-7 .bio-column}
-::: {.bio-text}
-I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. My work leverages Google Earth Engine (GEE), Machine Learning, and Cloud Computing to solve complex environmental and spatial problems. I have developed several [apps and packages](software.qmd) (like `geeadvance` and `deepgee`) and [tutorials](blog.qmd) to simplify geospatial workflows for the research community.
-
-Currently, I am exploring the fusion of Artificial Intelligence with Earth Observation data to improve agricultural monitoring and disaster management. I am passionate about open-source development and academic research in spatial science.
-:::
 
 [**View full CV →**](cv.qmd){.cv-link}
 :::
-
 :::
 
 <hr>
