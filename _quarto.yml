@@ -22,8 +22,6 @@ website:
         text: Gallery
       - href: cv.qmd
         text: CV
-      - href: contact.qmd
-        text: Contact
     right:
       - icon: github
         href: https://github.com/pulakeshpradhan
