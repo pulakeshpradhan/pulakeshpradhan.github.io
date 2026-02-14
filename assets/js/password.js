@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Configuration
-    const PASSWORD_HASH = '945e43c5b3648f86797cb2438361093155106518175e1136aff96d678b403310'; // Default: spatial2026
+    const PASSWORD_HASH = '36a92b4c638d3333c43900bed79dec5a6e3f4862ef4f6f62fc191917639904f4'; // Correct hash for: spatial2026
     const SALT = 'quarto-site-salt'; // Optional salt
-    
+
     const body = document.body;
     const mainContent = document.querySelector('main');
-    
+
     // Check if page is already unlocked in this session
     if (sessionStorage.getItem('page_unlocked') === 'true') {
         return;
@@ -59,14 +59,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 mainContent.classList.add('unlocked');
             }
             sessionStorage.setItem('page_unlocked', 'true');
-            
+
             // Remove overlay from DOM after transition
             setTimeout(() => overlay.remove(), 500);
         } else {
             error.style.display = 'block';
             input.value = '';
             input.focus();
-            
+
             // Shake effect
             const card = document.querySelector('.password-card');
             card.style.animation = 'shake 0.5s';
