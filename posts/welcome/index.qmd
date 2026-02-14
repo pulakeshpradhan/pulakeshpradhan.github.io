@@ -1,12 +1,22 @@
 ---
-title: "Welcome To My Blog"
+title: "Welcome To My Academic Blog"
 author: "Pulakesh Pradhan"
 date: "2026-02-14"
-categories: [news]
+image: "thumbnail.jpg"
+categories: [news, education]
 ---
 
-This is the first post in my Quarto blog. Welcome!
+# Welcome to the Spatial Geography Hub
 
-![](thumbnail.jpg)
+Welcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers. 
 
-Since this is a blog for a geographer, expect to see posts about GIS, remote sensing, and spatial analysis here.
+This blog will serve as a space for:
+- **Tutorials**: Deep dives into Google Earth Engine, Python, and R for geospatial analysis.
+- **Project Updates**: Behind-the-scenes looks at the development of my innovations like `geeadvance` and `deepgee`.
+- **Field Notes**: Insights from workshops, research conventions, and academic fieldwork.
+
+Since this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.
+
+Feel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!
+
+![](https://placehold.co/1200x600/2c7da0/ffffff?text=Spatial+Analysis+with+Python)

@@ -6,24 +6,28 @@ title: "Innovations"
 
 ::: {.software-grid}
 ::: {.software-card}
+![Spectral Curve](https://placehold.co/400x200/2c7da0/ffffff?text=Spectral+Reflectance+Curve)
 ### Spectral Reflectance Curve
 A tool for analyzing spectral signatures across multiple bands.
 [Visit App](https://spatialgeography.projects.earthengine.app/view/spectral)
 :::
 
 ::: {.software-card}
+![Phenology signature](https://placehold.co/400x200/2c7da0/ffffff?text=Phenology+Signature)
 ### Phenology Signature
 Crop classification tool based on phenological signatures.
 [Visit App](https://spatialgeography.projects.earthengine.app/view/signature)
 :::
 
 ::: {.software-card}
+![Flood Susceptibility](https://placehold.co/400x200/2c7da0/ffffff?text=Flood+Susceptibility+AHP)
 ### Flood Susceptibility
 AHP-based tool for flood susceptibility mapping.
 [Visit App](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility)
 :::
 
 ::: {.software-card}
+![Odisha Flood Map](https://placehold.co/400x200/2c7da0/ffffff?text=Odisha+Flood+Map)
 ### Odisha Flood Map
 Real-time flood mapping tool for the Odisha region.
 [Visit App](https://spatialgeography.projects.earthengine.app/view/odishaflood)
@@ -34,18 +38,21 @@ Real-time flood mapping tool for the Odisha region.
 
 ::: {.software-grid}
 ::: {.software-card}
+![geeadvance](https://placehold.co/400x200/27ae60/ffffff?text=geeadvance+Package)
 ### geeadvance
 Advanced functional tools for Google Earth Engine.
 [PyPI](https://pypi.org/project/geeadvance/)
 :::
 
 ::: {.software-card}
+![deepgee](https://placehold.co/400x200/27ae60/ffffff?text=deepgee+Package)
 ### deepgee
 Seamless integration of Deep Learning with Earth Engine.
 [PyPI](https://pypi.org/project/deepgee/)
 :::
 
 ::: {.software-card}
+![geeassist](images/geeai.jpg)
 ### geeassist
 AI-powered coding assistant for the GEE playground.
 [PyPI](https://pypi.org/project/geeassist/)
@@ -56,12 +63,14 @@ AI-powered coding assistant for the GEE playground.
 
 ::: {.software-grid}
 ::: {.software-card}
+![GEE AI Assistant](images/geeai.jpg)
 ### GEE AI Assistant
 Enhance your GEE development with Gemini-powered AI.
 [Chrome Web Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl)
 :::
 
 ::: {.software-card}
+![Quick Screenshot](https://placehold.co/400x200/e67e22/ffffff?text=Quick+Screenshot)
 ### Quick Screenshot
 Capture and annotate screenshots directly in your browser.
 [Chrome Web Store](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm)

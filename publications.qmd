@@ -6,6 +6,9 @@ title: "Publications"
 
 ::: {.publication-item}
 ### Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal
+
+![Agricultural Drought Analysis](https://placehold.co/800x400/2c7da0/ffffff?text=Drought+Monitoring+Analysis)
+
 **Book:** Modern Cartography Series<br>
 **Year:** 2024
 [View Publication](https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal) | [Download PDF](https://drive.google.com/file/d/1P0k1iLDrUPfr0BSYS7Xi_a6muw2Ox2Zz/view?usp=sharing)
@@ -15,6 +18,9 @@ This study analyzes agricultural drought in Paschim Medinipur, West Bengal, usin
 
 ::: {.publication-item}
 ### Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine
+
+![Flood Vulnerability Map](https://placehold.co/800x400/27ae60/ffffff?text=Flood+Vulnerability+AHP)
+
 **Book:** Google Earth Engine and Artificial Intelligence for Earth Observation<br>
 **Year:** 2025
 [View Publication](https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine) | [Download PDF](https://drive.google.com/file/d/1QhhcVkj7_kMIuh1LOCtFqU0NM3OWUHB8/view?usp=sharing)

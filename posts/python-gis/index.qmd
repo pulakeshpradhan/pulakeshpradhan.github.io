@@ -1,0 +1,8 @@
+---
+title: "Modern GIS with Python: Beyond the Desktop"
+author: "Pulakesh Pradhan"
+date: "2026-02-12"
+image: "https://placehold.co/400x300/27ae60/ffffff?text=Python+GIS"
+categories: [Python, GIS]
+---
+Python has become the de-facto language for spatial data science...
