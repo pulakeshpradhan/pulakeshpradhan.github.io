@@ -1,10 +1,11 @@
-/* Custom styles for Pulakesh Pradhan's Portfolio */
+/* Professional Layout for Pulakesh Pradhan */
 
 :root {
     --brand-primary: #2c7da0;
     --brand-secondary: #27ae60;
     --bg-light: #f8fafc;
     --text-main: #1a202c;
+    --text-muted: #4b5563;
 }
 
 body {
@@ -29,10 +30,8 @@ h3 {
 .profile-card {
     background: white;
     padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
     text-align: center;
-    border: 1px solid #e2e8f0;
     width: 100%;
 }
 
@@ -41,9 +40,16 @@ h3 {
     height: 220px;
     border-radius: 50% !important;
     object-fit: cover;
+    margin-bottom: 15px;
+    border: 1px solid #e5e7eb;
+}
+
+.profile-card h1 {
+    font-size: 1.7rem;
+    margin-top: 10px;
     margin-bottom: 20px;
-    border: 5px solid white;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    color: #111827;
+    font-weight: 700;
 }
 
 .social-links {
@@ -51,25 +57,29 @@ h3 {
     flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
-    margin-top: 15px;
-    padding: 0 10px;
+    margin-top: 10px;
 }
 
 .social-btn {
     background: #ffffff;
-    padding: 5px 12px;
-    border-radius: 4px;
-    font-size: 0.85rem;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
     color: #4b5563;
     text-decoration: none;
     transition: all 0.2s ease;
-    border: 1.5px solid #d1d5db;
+    border: 1px solid #d1d5db;
     display: inline-flex;
     align-items: center;
+    gap: 6px;
+}
+
+.social-btn i {
+    font-size: 0.9rem;
 }
 
 .social-btn:hover {
-    background: #f3f4f6;
+    background: #f9fafb;
     border-color: #9ca3af;
     color: #111827;
 }
@@ -87,20 +97,6 @@ h3 {
     text-decoration: none;
     margin: 15px 0;
     display: inline-block;
-}
-
-.profile-card h1 {
-    font-size: 1.8rem;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #111827;
-}
-
-.profile-card h3 {
-    font-size: 1.1rem;
-    color: #6b7280;
-    font-weight: 500;
-    margin-bottom: 15px;
 }
 
 /* Section Header styling */
@@ -162,12 +158,6 @@ h2::after {
     border-left: 5px solid var(--brand-secondary);
 }
 
-.publication-item img {
-    margin: 15px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 /* Gallery Styling (Strict 2-Column Grid) */
 .quarto-layout-row {
     display: flex !important;
@@ -183,7 +173,6 @@ h2::after {
 .lightbox img {
     width: 100%;
     max-width: 450px;
-    /* Reduced Size */
     display: block;
     margin: 0 auto;
     border-radius: 15px !important;
