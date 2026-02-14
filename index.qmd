@@ -19,11 +19,11 @@ page-layout: full
 # Pulakesh Pradhan
 
 ::: {.social-links}
-[LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}
-[Github](https://github.com/pulakeshpradhan){.social-btn}
-[Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
-[YouTube](https://www.youtube.com/@SpatialGeography){.social-btn}
-[Email](mailto:pulakesh.mid@gmail.com){.social-btn}
+[<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}
+[<i class="bi bi-github"></i> Github](https://github.com/pulakeshpradhan/){.social-btn}
+[<i class="bi bi-mortarboard"></i> Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
+[<i class="bi bi-youtube"></i> YouTube](https://www.youtube.com/@SpatialGeography){.social-btn}
+[<i class="bi bi-envelope"></i> Email](mailto:pulakesh.mid@gmail.com){.social-btn}
 :::
 :::
 :::
@@ -32,7 +32,6 @@ page-layout: full
 I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. My work leverages Google Earth Engine and AI to solve complex spatial problems.
 
 [**View full CV →**](cv.qmd){.cv-link}
-
 :::
 
 :::
