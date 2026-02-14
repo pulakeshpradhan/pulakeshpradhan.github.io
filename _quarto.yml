@@ -2,8 +2,8 @@ project:
   type: website
 
 website:
-  title: "Dr. Geographer's Portfolio"
-  description: "Personal website of a Geographer specializing in GIS, Remote Sensing, and Spatial Analysis."
+  title: "Pulakesh Pradhan"
+  description: "Portfolio of Pulakesh Pradhan - Geographer, GIS Specialist, and Spatial Data Scientist."
   navbar:
     background: primary
     search: true
@@ -26,6 +26,8 @@ website:
 comments:
   giscus:
     repo: pulakeshpradhan/pulakeshpradhan.github.io
+    category: Announcements
+    category-id: DIC_kwDON96A8s4CnP_z
 
 format:
   html:

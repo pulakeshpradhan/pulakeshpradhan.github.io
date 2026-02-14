@@ -3,14 +3,13 @@ title: "Welcome"
 ---
 
 ::: {.hero-banner}
-# Dr. Alex Rivera
+# Pulakesh Pradhan
 ### Geographer | GIS Specialist | Spatial Data Scientist
-Exploring the intersection of climate change, urban planning, and spatial equity.
 :::
 
 ## About Me
 
-I am a quantitative geographer focused on developing open-source tools for spatial analysis. My work leverages satellite imagery and machine learning to understand urban heat islands and coastal erosion.
+I am a geographer and spatial data scientist specialized in GIS and Remote Sensing.
 
 ## Upcoming Events
 

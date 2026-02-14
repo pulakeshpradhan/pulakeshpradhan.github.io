@@ -6,25 +6,25 @@ title: "Publications"
 
 ::: {.publication-item}
 [**Deep Learning for Global Shoreline Mapping: Challenges and Opportunities**]{.pub-title}  
-[Rivera, A., Smith, J., & Doe, L.]{.pub-authors}  
+[Pradhan, P., Smith, J., & Doe, L.]{.pub-authors}  
 [*Nature Communications Earth & Environment*, 2025]  
 [DOI: 10.1038/s43247-025-00123-x](https://doi.org)
 :::
 
 ::: {.publication-item}
 [**Urban Heat Inequality: A Spatial Analysis of 50 Global Cities**]{.pub-title}  
-[Rivera, A., & Zhang, Y.]{.pub-authors}  
+[Pradhan, P., & Zhang, Y.]{.pub-authors}  
 [*Global Environmental Change*, 2024]  
 [DOI: 10.1016/j.gloenvcha.2024.102834](https://doi.org)
 :::
 
 ::: {.publication-item}
 [**GeoFlow-Py: Scaling Hydrological Models with Dask**]{.pub-title}  
-[Rivera, A., & Wilson, K.]{.pub-authors}  
+[Pradhan, P., & Wilson, K.]{.pub-authors}  
 [*Journal of Open Source Software (JOSS)*, 2023]  
 [DOI: 10.21105/joss.05202](https://doi.org)
 :::
 
 ## Book Chapters
 
-- Rivera, A. (2023). "Remote Sensing in the Anthropocene." In *Modern Geography: A Review*. Springer.
+- Pradhan, P. (2023). "Remote Sensing in the Anthropocene." In *Modern Geography: A Review*. Springer.
