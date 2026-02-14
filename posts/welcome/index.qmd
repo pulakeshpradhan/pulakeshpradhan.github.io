@@ -1,0 +1,12 @@
+---
+title: "Welcome To My Blog"
+author: "Pulakesh Pradhan"
+date: "2026-02-14"
+categories: [news]
+---
+
+This is the first post in my Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+Since this is a blog for a geographer, expect to see posts about GIS, remote sensing, and spatial analysis here.

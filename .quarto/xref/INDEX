@@ -16,5 +16,11 @@
   },
   "software.qmd": {
     "software.html": "83f3494c"
+  },
+  "blog.qmd": {
+    "blog.html": "7cdd2ad9"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "bfed7f16"
   }
 }

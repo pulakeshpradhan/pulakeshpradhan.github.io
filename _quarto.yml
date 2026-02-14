@@ -16,10 +16,16 @@ website:
         text: Publications
       - href: presentations.qmd
         text: Presentations
+      - href: blog.qmd
+        text: Blog
       - href: cv.qmd
         text: CV
       - href: contact.qmd
         text: Contact
+
+comments:
+  giscus:
+    repo: pulakeshpradhan/pulakeshpradhan.github.io
 
 format:
   html:
