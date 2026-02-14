@@ -205,21 +205,28 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "Publications",
+    "title": "Publications & Presentations",
     "section": "",
-    "text": "Agricultural Drought Analysis\n\n\nBook: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.\n\n\n\n\n\n\nFlood Vulnerability Map\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil."
+    "text": "Book: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022.\n\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha."
   },
   {
     "objectID": "publications.html#recent-publications",
     "href": "publications.html#recent-publications",
-    "title": "Publications",
+    "title": "Publications & Presentations",
     "section": "",
-    "text": "Agricultural Drought Analysis\n\n\nBook: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.\n\n\n\n\n\n\nFlood Vulnerability Map\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil."
+    "text": "Book: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022.\n\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha."
+  },
+  {
+    "objectID": "publications.html#presentations",
+    "href": "publications.html#presentations",
+    "title": "Publications & Presentations",
+    "section": "Presentations",
+    "text": "Presentations\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\nVenue: GDG for Earth Engine Nairobi (Virtual) Year: 2024 Event Details\n\n\nThe Future of Open Source GIS\nVenue: International Cartographic Conference 2026 Role: Keynote Speaker"
   },
   {
     "objectID": "publications.html#other-works",
     "href": "publications.html#other-works",
-    "title": "Publications",
+    "title": "Publications & Presentations",
     "section": "Other Works",
     "text": "Other Works\n\nPradhan, P. (2023). “Remote Sensing in the Anthropocene.” In Modern Geography: A Review. Springer.\n\n\nFor a full list of publications, please visit my Google Scholar or ResearchGate profile."
   }
