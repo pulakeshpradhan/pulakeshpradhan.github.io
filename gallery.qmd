@@ -1,0 +1,63 @@
+---
+title: "Image Gallery"
+---
+
+## Ravenshaw University
+Exploring the campus and life at Ravenshaw University.
+
+![](https://github.com/pulakeshpradhan/pulakeshpradhan/raw/main/ravenshaw.jpg){.lightbox width="100%" group="ravenshaw"}
+
+::: {layout-ncol=2}
+![](images/Ravenshaw/rugeo1.jpeg){.lightbox group="ravenshaw-gallery"}
+![](images/Ravenshaw/rugeo2.jpeg){.lightbox group="ravenshaw-gallery"}
+:::
+
+## ANVESHAN Student Research Convention
+
+::: {layout-ncol=2}
+![](images/Ravenshaw/1.jpg){.lightbox group="anveshan"}
+![](images/Ravenshaw/2.jpg){.lightbox group="anveshan"}
+:::
+
+## IIT Bombay
+Visit to IIT Bombay for research and collaboration.
+
+::: {layout-ncol=2}
+![](images/IIT%20Bombay/1.jpg){.lightbox group="iitb"}
+![](images/IIT%20Bombay/2.jpg){.lightbox group="iitb"}
+:::
+
+## Ganpat University (GUNI), Gujarat
+
+::: {layout-ncol=2}
+![](images/Ganpat%20University/guni1.jpeg){.lightbox group="guni"}
+![](images/Ganpat%20University/guni4.JPG){.lightbox group="guni"}
+:::
+
+## BHU (GEE Workshop)
+Google Earth Engine workshop conducted at Banaras Hindu University.
+
+::: {layout-ncol=2}
+![](images/BHU/BHU4.jpg){.lightbox group="bhu"}
+![](images/BHU/BHU3.jpg){.lightbox group="bhu"}
+:::
+
+## NAGI (Ranchi University)
+
+::: {layout-ncol=2}
+![](images/NAGI/NAGI1.jpg){.lightbox group="nagi"}
+![](images/NAGI/NAGI2.jpg){.lightbox group="nagi"}
+![](images/NAGI/NAGI3.jpg){.lightbox group="nagi"}
+![](images/NAGI/NAGI4.jpg){.lightbox group="nagi"}
+:::
+
+## Featured Events & Research
+
+::: {layout-ncol=1}
+[![](images/gdg.jpg){.lightbox group="featured"}](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/)
+:::
+
+::: {layout-ncol=2}
+![Maharaja Sriram Chandra Bhanja Deo University](images/resource2.jpg){.lightbox group="resource"}
+![Centurion University](images/resource1.png){.lightbox group="resource"}
+:::

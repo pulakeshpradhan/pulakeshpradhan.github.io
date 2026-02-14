@@ -16,6 +16,8 @@ website:
         text: Publications
       - href: blog.qmd
         text: Blog
+      - href: gallery.qmd
+        text: Gallery
       - href: cv.qmd
         text: CV
       - href: contact.qmd
@@ -44,6 +46,7 @@ format:
     css: styles.css
     toc: true
     code-fold: true
+    lightbox: true
     mainfont: "Inter, sans-serif"
     header-includes: |
       <link rel="preconnect" href="https://fonts.googleapis.com">

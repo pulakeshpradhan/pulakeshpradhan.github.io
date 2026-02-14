@@ -10,7 +10,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-h1, h2, h3, .navbar-brand {
+h1,
+h2,
+h3,
+.navbar-brand {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
 }
@@ -23,7 +26,7 @@ h1, h2, h3, .navbar-brand {
     border-radius: 12px;
     margin-bottom: 40px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .hero-banner h1 {
@@ -86,13 +89,13 @@ h1, h2, h3, .navbar-brand {
     padding: 20px;
     border-radius: 12px;
     background: #ffffff;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .software-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     border-color: #2c7da0;
 }
 
@@ -132,4 +135,24 @@ h1, h2, h3, .navbar-brand {
 .dark .publication-item {
     background: #2d3748;
     color: #e2e8f0;
+}
+
+/* Gallery Styling */
+.gallery-grid img {
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.02);
+}
+
+.quarto-figure {
+    margin-bottom: 2rem;
+}
+
+.lightbox-content img {
+    border-radius: 4px;
 }

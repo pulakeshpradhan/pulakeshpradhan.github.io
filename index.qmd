@@ -3,6 +3,7 @@ title: "Pulakesh Pradhan"
 about:
   template: trestles
   image: images/pulakesh.jpg
+  image-shape: round
   links:
     - icon: linkedin
       text: LinkedIn
