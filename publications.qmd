@@ -2,29 +2,30 @@
 title: "Publications"
 ---
 
-## Selected Peer-Reviewed Journals
+## Recent Publications
 
 ::: {.publication-item}
-[**Deep Learning for Global Shoreline Mapping: Challenges and Opportunities**]{.pub-title}  
-[Pradhan, P., Smith, J., & Doe, L.]{.pub-authors}  
-[*Nature Communications Earth & Environment*, 2025]  
-[DOI: 10.1038/s43247-025-00123-x](https://doi.org)
+### Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal
+**Book:** Modern Cartography Series<br>
+**Year:** 2024
+[View Publication](https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal) | [Download PDF](https://drive.google.com/file/d/1P0k1iLDrUPfr0BSYS7Xi_a6muw2Ox2Zz/view?usp=sharing)
+
+This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.
 :::
 
 ::: {.publication-item}
-[**Urban Heat Inequality: A Spatial Analysis of 50 Global Cities**]{.pub-title}  
-[Pradhan, P., & Zhang, Y.]{.pub-authors}  
-[*Global Environmental Change*, 2024]  
-[DOI: 10.1016/j.gloenvcha.2024.102834](https://doi.org)
+### Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine
+**Book:** Google Earth Engine and Artificial Intelligence for Earth Observation<br>
+**Year:** 2025
+[View Publication](https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine) | [Download PDF](https://drive.google.com/file/d/1QhhcVkj7_kMIuh1LOCtFqU0NM3OWUHB8/view?usp=sharing)
+
+This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil.
 :::
 
-::: {.publication-item}
-[**GeoFlow-Py: Scaling Hydrological Models with Dask**]{.pub-title}  
-[Pradhan, P., & Wilson, K.]{.pub-authors}  
-[*Journal of Open Source Software (JOSS)*, 2023]  
-[DOI: 10.21105/joss.05202](https://doi.org)
-:::
-
-## Book Chapters
+## Other Works
 
 - Pradhan, P. (2023). "Remote Sensing in the Anthropocene." In *Modern Geography: A Review*. Springer.
+
+---
+
+For a full list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ) or [ResearchGate](https://www.researchgate.net/profile/Pulakesh-Pradhan) profile.

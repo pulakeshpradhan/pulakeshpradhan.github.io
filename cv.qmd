@@ -2,19 +2,29 @@
 title: "Curriculum Vitae"
 ---
 
-[Download Full CV (PDF)](#)
+## Pulakesh Pradhan
+**Geographer | GIS Specialist | Spatial Data Scientist**  
+📧 [pulakesh.mid@gmail.com](mailto:pulakesh.mid@gmail.com)  
+📞 [+91 8617812861](tel:+918617812861)  
+🏠 Department of Geography, Ravenshaw University
+
+---
 
 ## Education
-- **Ph.D. in Geography**, University of Oxford, 2022
-- **M.Sc. in GIS**, University of Southern California, 2018
-- **B.A. in Environmental Studies**, Universidad de Chile, 2016
-
-## Academic Appointments
-- **Assistant Professor**, Department of Geography, [University Name], 2023–Present
-- **Postdoctoral Researcher**, NASA Jet Propulsion Laboratory, 2022–2023
+- **Department of Geography**, Ravenshaw University
+- **Specialization:** GIS, Remote Sensing, Google Earth Engine
 
 ## Technical Skills
-- **Languages:** Python (Expert), R (Expert), JavaScript, SQL
-- **GIS/Remote Sensing:** ArcGIS Pro, QGIS, Google Earth Engine, ENVI
-- **Data Science:** Scikit-learn, PyTorch, Xarray, Dask
-- **Field Work:** RTK-GPS, Lidar Drone Operations, Bathymetric Surveys
+- **Languages:** Python, R, JavaScript, SQL
+- **GIS Platforms:** Google Earth Engine (Expert), ArcGIS Pro, QGIS
+- **Data Science:** Geospatial AI, Deep Learning, Phenology Analysis
+- **Tools:** LaTeX, Git/GitHub, Chrome Extension Development
+
+## Academic Highlights
+- **Resource Person:** Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)
+- **Resource Person:** Centurion University (March 2025)
+- **YouTube Creator:** "Spatial Geography" channel (Tutorials on GEE, Python, R)
+
+---
+
+[View PDF Version of CV](#) (Coming Soon)

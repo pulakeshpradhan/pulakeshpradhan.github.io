@@ -1,25 +1,60 @@
 ---
-title: "Welcome"
-listing:
-  id: latest-posts
-  contents: posts
-  sort: "date desc"
-  type: grid
-  max-items: 3
-  categories: false
+title: "Pulakesh Pradhan"
+about:
+  template: trestles
+  image: images/pulakesh.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/pulakeshpradhan/
+    - icon: github
+      text: Github
+      href: https://github.com/pulakeshpradhan
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=_DhEQHEAAAAJ
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/@SpatialGeography
+    - icon: envelope
+      text: Email
+      href: mailto:pulakesh.mid@gmail.com
 ---
 
-::: {.hero-banner}
-# Pulakesh Pradhan
-### Geographer | GIS Specialist | Spatial Data Scientist
-:::
+## Biography
 
-## About Me
+I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. Currently, I am associated with the Department of Geography at Ravenshaw University. My work focuses on developing open-source tools and leveraging Google Earth Engine for environmental monitoring and spatial analysis.
 
-I am a geographer and spatial data scientist specialized in GIS and Remote Sensing.
+## 🎓 Education
+- **Department of Geography**, Ravenshaw University
+- **Focus:** GIS, Remote Sensing, Google Earth Engine
 
-## Latest Posts
+## 🌍 Google Earth Engine Apps
+I develop interactive tools for spatial analysis:
+- [Spectral Reflectance Curve](https://spatialgeography.projects.earthengine.app/view/spectral)
+- [Phenology Signature Crop classification](https://spatialgeography.projects.earthengine.app/view/signature)
+- [Flood Susceptibility AHP Tool](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility)
+- [Odisha Flood Map](https://spatialgeography.projects.earthengine.app/view/odishaflood)
 
+## 🐍 Python & R Packages
+My open-source contributions include:
+- **`geeadvance`**: Advanced tools for GEE ([PyPI](https://pypi.org/project/geeadvance/))
+- **`deepgee`**: Deep learning with GEE ([PyPI](https://pypi.org/project/deepgee/))
+- **`geeassist`**: AI-powered GEE assistant ([PyPI](https://pypi.org/project/geeassist/))
+- **`rpygee`**: R interface for GEE ([Website](https://pulakeshpradhan.github.io/rpygee/))
+
+## 📺 Spatial Geography (YouTube)
+I share tutorials on geospatial technology:
+- **Subscribers:** 418+
+- **Views:** 7,000+
+- [Subscribe to Spatial Geography](https://www.youtube.com/@SpatialGeography?sub_confirmation=1)
+
+## 📞 Contact
+- **Email:** [pulakesh.mid@gmail.com](mailto:pulakesh.mid@gmail.com)
+- **WhatsApp:** [+91 8617812861](https://wa.me/918617812861)
+- **Location:** Department of Geography, Ravenshaw University
+
+## 📌 Latest Posts
 ::: {#latest-posts}
 :::
 

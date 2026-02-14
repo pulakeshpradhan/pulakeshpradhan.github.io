@@ -1,27 +1,69 @@
 ---
-title: "Software & Packages"
+title: "Software & Apps"
 ---
 
-I am passionate about building tools that make spatial analysis more accessible. Below are some of the open-source projects I lead or contribute to.
+## Google Earth Engine Apps
 
 ::: {.software-grid}
-
 ::: {.software-card}
-### `GeoFlow-Py`
-A high-performance Python library for modeling hydrology in mountainous terrains using distributed computing.
-[GitHub Repo](https://github.com/example/geoflow-py) | [Docs](https://example.com/geoflow-py)
+### Spectral Reflectance Curve
+A tool for analyzing spectral signatures across multiple bands.
+[Visit App](https://spatialgeography.projects.earthengine.app/view/spectral)
 :::
 
 ::: {.software-card}
-### `CoastalRisk-R`
-An R package for assessing coastal vulnerability using Bayesian neural networks and historical flood data.
-[CRAN](https://cran.r-project.org) | [GitHub](https://github.com/example/coastalrisk)
+### Phenology Signature
+Crop classification tool based on phenological signatures.
+[Visit App](https://spatialgeography.projects.earthengine.app/view/signature)
 :::
 
 ::: {.software-card}
-### `UrbanHeatMapper`
-A web application for visualizing urban heat islands in real-time using Landsat 8 and Sentinel-2 data.
-[Live Demo](https://example.com/urbanheat) | [Software Paper](publications.qmd)
+### Flood Susceptibility
+AHP-based tool for flood susceptibility mapping.
+[Visit App](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility)
 :::
 
+::: {.software-card}
+### Odisha Flood Map
+Real-time flood mapping tool for the Odisha region.
+[Visit App](https://spatialgeography.projects.earthengine.app/view/odishaflood)
+:::
+:::
+
+## Python Packages
+
+::: {.software-grid}
+::: {.software-card}
+### geeadvance
+Advanced functional tools for Google Earth Engine.
+[PyPI](https://pypi.org/project/geeadvance/)
+:::
+
+::: {.software-card}
+### deepgee
+Seamless integration of Deep Learning with Earth Engine.
+[PyPI](https://pypi.org/project/deepgee/)
+:::
+
+::: {.software-card}
+### geeassist
+AI-powered coding assistant for the GEE playground.
+[PyPI](https://pypi.org/project/geeassist/)
+:::
+:::
+
+## Chrome Extensions
+
+::: {.software-grid}
+::: {.software-card}
+### GEE AI Assistant
+Enhance your GEE development with Gemini-powered AI.
+[Chrome Web Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl)
+:::
+
+::: {.software-card}
+### Quick Screenshot
+Capture and annotate screenshots directly in your browser.
+[Chrome Web Store](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm)
+:::
 :::
