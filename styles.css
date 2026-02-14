@@ -49,25 +49,29 @@ h3 {
 .social-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
+    padding: 0 10px;
 }
 
 .social-btn {
-    background: #f1f5f9;
-    padding: 6px 14px;
-    border-radius: 8px;
+    background: #ffffff;
+    padding: 5px 12px;
+    border-radius: 4px;
     font-size: 0.85rem;
-    color: var(--brand-primary);
+    color: #4b5563;
     text-decoration: none;
     transition: all 0.2s ease;
-    border: 1px solid #e2e8f0;
+    border: 1.5px solid #d1d5db;
+    display: inline-flex;
+    align-items: center;
 }
 
 .social-btn:hover {
-    background: var(--brand-primary);
-    color: white;
+    background: #f3f4f6;
+    border-color: #9ca3af;
+    color: #111827;
 }
 
 .bio-column {
@@ -85,21 +89,18 @@ h3 {
     display: inline-block;
 }
 
-/* Home Stats Section */
-.home-stats {
-    display: flex;
-    gap: 12px;
-    margin: 15px 0;
-    flex-wrap: wrap;
+.profile-card h1 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #111827;
 }
 
-.stat {
-    background: linear-gradient(135deg, #2c7da0 0%, #00b4d8 100%);
-    color: white;
-    padding: 6px 14px;
-    border-radius: 50px;
-    font-size: 0.85rem;
-    font-weight: 600;
+.profile-card h3 {
+    font-size: 1.1rem;
+    color: #6b7280;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
 /* Section Header styling */
