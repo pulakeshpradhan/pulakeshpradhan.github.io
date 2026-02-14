@@ -115,7 +115,15 @@ page-layout: full
 
 <hr>
 
-## 📚 Recent Work
-::: {#recent-pubs}
+## 🗺️ Global Traffic
+::: {.grid}
+::: {.g-col-12 .g-col-md-8}
+### Visitor Map
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=nLl3KIj4auOY3L_3kYhBLd9fKTHpzihQI-jRuDM7abQ"></script>
 :::
-[<i class="bi bi-arrow-right-circle"></i> View all publications](publications.qmd){.social-btn .mt-2}
+
+::: {.g-col-12 .g-col-md-4}
+### Visitors by Country
+<a href="https://info.flagcounter.com/PshX"><img src="https://s01.flagcounter.com/count2/PshX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+:::
+:::
