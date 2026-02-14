@@ -35,165 +35,53 @@
     "text": "Academic Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nYouTube Creator: “Spatial Geography” channel (Tutorials on GEE, Python, R)\n\n\nView PDF Version of CV (Coming Soon)"
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Innovations",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Engagements",
     "section": "",
-    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
+    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
   },
   {
-    "objectID": "software.html#google-earth-engine-apps",
-    "href": "software.html#google-earth-engine-apps",
-    "title": "Innovations",
-    "section": "🌍 Google Earth Engine Apps",
-    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization.  Visit App  GitHub\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis.  Visit App  GitHub\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.  Visit App  GitHub\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support.  Visit App  GitHub"
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events & Engagements",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n ### International Cartographic Conference The Future of Open Source GIS\nKeynote Address | August 2026\nJoin me for a deep dive into how open-source ecosystems are transforming global mapping standards.  Conference Link"
   },
   {
-    "objectID": "software.html#python-packages",
-    "href": "software.html#python-packages",
-    "title": "Innovations",
-    "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows.  PyPI  GitHub\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.  PyPI  GitHub\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.  PyPI  GitHub"
+    "objectID": "events.html#past-seminars-workshops",
+    "href": "events.html#past-seminars-workshops",
+    "title": "Events & Engagements",
+    "section": "🏛️ Past Seminars & Workshops",
+    "text": "🏛️ Past Seminars & Workshops\n\n\n ### GDG Earth Engine Nairobi Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.  View Abstract  Slides\n\n\n ### Banaras Hindu University Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.  Gallery"
   },
   {
-    "objectID": "software.html#chrome-extensions",
-    "href": "software.html#chrome-extensions",
-    "title": "Innovations",
-    "section": "🛠️ Chrome Extensions",
-    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.  Web Store  GitHub\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation.  Web Store"
+    "objectID": "events.html#call-for-abstracts-participation",
+    "href": "events.html#call-for-abstracts-participation",
+    "title": "Events & Engagements",
+    "section": "📄 Call for Abstracts & Participation",
+    "text": "📄 Call for Abstracts & Participation\nStay tuned for upcoming calls for abstracts in the regional and international geography congresses I am co-organizing.\n\nState Level Seminar on Geoinformatics (Upcoming Q4 2026)\nSpecial Issue on AI for Earth Observation - Open for submissions\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
   },
   {
-    "objectID": "posts/python-gis/index.html",
-    "href": "posts/python-gis/index.html",
-    "title": "Modern GIS with Python: Beyond the Desktop",
+    "objectID": "posts/gee-tips/index.html",
+    "href": "posts/gee-tips/index.html",
+    "title": "Top 5 Tips for Google Earth Engine Developers",
     "section": "",
-    "text": "Python has become the de-facto language for spatial data science…"
+    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Academic Blog",
+    "objectID": "posts/academic-journey/index.html",
+    "href": "posts/academic-journey/index.html",
+    "title": "My Journey in Spatial Data Science",
     "section": "",
-    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Tutorials: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
+    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
   },
   {
-    "objectID": "posts/remote-sensing-ai/index.html",
-    "href": "posts/remote-sensing-ai/index.html",
-    "title": "The Future of AI in Remote Sensing",
+    "objectID": "posts/flood-mapping/index.html",
+    "href": "posts/flood-mapping/index.html",
+    "title": "Advanced Flood Mapping using AHP and GEE",
     "section": "",
-    "text": "How deep learning is changing how we interpret satellite imagery…"
-  },
-  {
-    "objectID": "tutorials.html",
-    "href": "tutorials.html",
-    "title": "Tutorials & Courses",
-    "section": "",
-    "text": "I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools."
-  },
-  {
-    "objectID": "tutorials.html#geospatial-programming",
-    "href": "tutorials.html#geospatial-programming",
-    "title": "Tutorials & Courses",
-    "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars).  Visit Tutorial\n\n\n ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing.  Visit Tutorial\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray.  Visit Tutorial"
-  },
-  {
-    "objectID": "tutorials.html#advanced-gis-reference",
-    "href": "tutorials.html#advanced-gis-reference",
-    "title": "Tutorials & Courses",
-    "section": "🚀 Advanced GIS & Reference",
-    "text": "🚀 Advanced GIS & Reference\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS.  Visit Tutorial\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE.  Visit Tutorial"
-  },
-  {
-    "objectID": "tutorials.html#academic-writing-tools",
-    "href": "tutorials.html#academic-writing-tools",
-    "title": "Tutorials & Courses",
-    "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication.  Visit Tutorial\n\n\n ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX.  Visit Tutorial"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Top 5 Tips for Google Earth Engine Developers\n\n\n\nGEE\n\ntips\n\n\n\n\n\n\n\n\n\nFeb 13, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\nPython\n\nGIS\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\nAHP\n\nGEE\n\nResearch\n\n\n\n\n\n\n\n\n\nFeb 11, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Future of AI in Remote Sensing\n\n\n\nAI\n\nRemote Sensing\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Academic Blog\n\n\n\nnews\n\neducation\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nMy Journey in Spatial Data Science\n\n\n\nPersonal\n\nCareer\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nBeyond Google Earth Engine: Exploring Open Source Options\n\n\n\nOpen Source\n\nGIS\n\nPython\n\nCloud\n\n\n\nWhile GEE is powerful, the geospatial ecosystem offers robust open-source alternatives for cloud computing and local processing.\n\n\n\n\n\nFeb 6, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pulakesh Pradhan",
-    "section": "",
-    "text": "Transforming Earth Observation data into actionable insights through AI & Cloud Computing.\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
-  },
-  {
-    "objectID": "index.html#latest-insights",
-    "href": "index.html#latest-insights",
-    "title": "Pulakesh Pradhan",
-    "section": "📌 Latest Insights",
-    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 13, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 11, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
-  },
-  {
-    "objectID": "index.html#featured-innovations",
-    "href": "index.html#featured-innovations",
-    "title": "Pulakesh Pradhan",
-    "section": "🚀 Featured Innovations",
-    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
-  },
-  {
-    "objectID": "index.html#featured-tutorials",
-    "href": "index.html#featured-tutorials",
-    "title": "Pulakesh Pradhan",
-    "section": "📖 Featured Tutorials",
-    "text": "📖 Featured Tutorials\n\n\n\n\n\n\n\n\n\n\nR for Spatial\n\n\nGuide to spatial analysis using R.\n\n\n\n\n\n\n\n\n\n\n\n\nGEE Tutorials\n\n\nCloud-based remote sensing with Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nGeo-Python\n\n\nSpatial data science with Python.\n\n\n\n\n\nNo matching items\n\n View all tutorials"
-  },
-  {
-    "objectID": "index.html#recent-work",
-    "href": "index.html#recent-work",
-    "title": "Pulakesh Pradhan",
-    "section": "📚 Recent Work",
-    "text": "📚 Recent Work\n\n\n\n\n\n\n\n\nAgricultural drought monitoring using GEE\n\n\nStudy of Paschim Medinipur district, West Bengal (2024).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with Gemini API\n\n\nPresentation at GDG Earth Engine Nairobi.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFlood vulnerability mapping in Odisha\n\n\nAHP-based study in Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n View all publications"
-  },
-  {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Image Gallery",
-    "section": "",
-    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand."
-  },
-  {
-    "objectID": "gallery.html#institutional-highlights",
-    "href": "gallery.html#institutional-highlights",
-    "title": "Image Gallery",
-    "section": "🏢 Institutional Highlights",
-    "text": "🏢 Institutional Highlights"
-  },
-  {
-    "objectID": "gallery.html#research-conventions",
-    "href": "gallery.html#research-conventions",
-    "title": "Image Gallery",
-    "section": "🎓 Research Conventions",
-    "text": "🎓 Research Conventions"
-  },
-  {
-    "objectID": "gallery.html#workshops-field-work",
-    "href": "gallery.html#workshops-field-work",
-    "title": "Image Gallery",
-    "section": "🌍 Workshops & Field Work",
-    "text": "🌍 Workshops & Field Work"
-  },
-  {
-    "objectID": "gallery.html#academic-meetings",
-    "href": "gallery.html#academic-meetings",
-    "title": "Image Gallery",
-    "section": "🤝 Academic Meetings",
-    "text": "🤝 Academic Meetings"
-  },
-  {
-    "objectID": "gallery.html#key-engagements",
-    "href": "gallery.html#key-engagements",
-    "title": "Image Gallery",
-    "section": "✨ Key Engagements",
-    "text": "✨ Key Engagements"
+    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
   },
   {
     "objectID": "posts/beyond-gee/index.html",
@@ -238,25 +126,172 @@
     "text": "Exploring open-source options isn’t about replacing GEE entirely—it’s about adding more tools to your belt. Many of my innovations, like deepgee, actually serve as bridges between the GEE cloud and the local open-source Python ecosystem.\nBy mastering both, you become a more versatile Spatial Data Scientist, capable of handling data wherever it lives.\n\nWhat is your favorite open-source spatial tool? Let me know in the comments!"
   },
   {
-    "objectID": "posts/flood-mapping/index.html",
-    "href": "posts/flood-mapping/index.html",
-    "title": "Advanced Flood Mapping using AHP and GEE",
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Image Gallery",
     "section": "",
-    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
+    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand."
   },
   {
-    "objectID": "posts/academic-journey/index.html",
-    "href": "posts/academic-journey/index.html",
-    "title": "My Journey in Spatial Data Science",
-    "section": "",
-    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
+    "objectID": "gallery.html#institutional-highlights",
+    "href": "gallery.html#institutional-highlights",
+    "title": "Image Gallery",
+    "section": "🏢 Institutional Highlights",
+    "text": "🏢 Institutional Highlights"
   },
   {
-    "objectID": "posts/gee-tips/index.html",
-    "href": "posts/gee-tips/index.html",
-    "title": "Top 5 Tips for Google Earth Engine Developers",
+    "objectID": "gallery.html#research-conventions",
+    "href": "gallery.html#research-conventions",
+    "title": "Image Gallery",
+    "section": "🎓 Research Conventions",
+    "text": "🎓 Research Conventions"
+  },
+  {
+    "objectID": "gallery.html#workshops-field-work",
+    "href": "gallery.html#workshops-field-work",
+    "title": "Image Gallery",
+    "section": "🌍 Workshops & Field Work",
+    "text": "🌍 Workshops & Field Work"
+  },
+  {
+    "objectID": "gallery.html#academic-meetings",
+    "href": "gallery.html#academic-meetings",
+    "title": "Image Gallery",
+    "section": "🤝 Academic Meetings",
+    "text": "🤝 Academic Meetings"
+  },
+  {
+    "objectID": "gallery.html#key-engagements",
+    "href": "gallery.html#key-engagements",
+    "title": "Image Gallery",
+    "section": "✨ Key Engagements",
+    "text": "✨ Key Engagements"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
     "section": "",
-    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
+    "text": "Transforming Earth Observation data into actionable insights through AI & Cloud Computing.\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
+  },
+  {
+    "objectID": "index.html#latest-insights",
+    "href": "index.html#latest-insights",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Insights",
+    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 13, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 11, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
+  },
+  {
+    "objectID": "index.html#featured-innovations",
+    "href": "index.html#featured-innovations",
+    "title": "Pulakesh Pradhan",
+    "section": "🚀 Featured Innovations",
+    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
+  },
+  {
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "Pulakesh Pradhan",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nICC 2026 Keynote\n\n\nThe Future of Open Source GIS (August 2026).\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n View all events"
+  },
+  {
+    "objectID": "index.html#featured-tutorials",
+    "href": "index.html#featured-tutorials",
+    "title": "Pulakesh Pradhan",
+    "section": "📖 Featured Tutorials",
+    "text": "📖 Featured Tutorials\n\n\n\n\n\n\n\n\n\n\nR for Spatial\n\n\nGuide to spatial analysis using R.\n\n\n\n\n\n\n\n\n\n\n\n\nGEE Tutorials\n\n\nCloud-based remote sensing with Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nGeo-Python\n\n\nSpatial data science with Python.\n\n\n\n\n\nNo matching items\n\n View all tutorials"
+  },
+  {
+    "objectID": "index.html#recent-work",
+    "href": "index.html#recent-work",
+    "title": "Pulakesh Pradhan",
+    "section": "📚 Recent Work",
+    "text": "📚 Recent Work\n\n\n\n\n\n\n\n\nAgricultural drought monitoring using GEE\n\n\nStudy of Paschim Medinipur district, West Bengal (2024).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with Gemini API\n\n\nPresentation at GDG Earth Engine Nairobi.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFlood vulnerability mapping in Odisha\n\n\nAHP-based study in Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n View all publications"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Top 5 Tips for Google Earth Engine Developers\n\n\n\nGEE\n\ntips\n\n\n\n\n\n\n\n\n\nFeb 13, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\nPython\n\nGIS\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\nAHP\n\nGEE\n\nResearch\n\n\n\n\n\n\n\n\n\nFeb 11, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Future of AI in Remote Sensing\n\n\n\nAI\n\nRemote Sensing\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Academic Blog\n\n\n\nnews\n\neducation\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nMy Journey in Spatial Data Science\n\n\n\nPersonal\n\nCareer\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nBeyond Google Earth Engine: Exploring Open Source Options\n\n\n\nOpen Source\n\nGIS\n\nPython\n\nCloud\n\n\n\nWhile GEE is powerful, the geospatial ecosystem offers robust open-source alternatives for cloud computing and local processing.\n\n\n\n\n\nFeb 6, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Tutorials & Courses",
+    "section": "",
+    "text": "I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools."
+  },
+  {
+    "objectID": "tutorials.html#geospatial-programming",
+    "href": "tutorials.html#geospatial-programming",
+    "title": "Tutorials & Courses",
+    "section": "💻 Geospatial Programming",
+    "text": "💻 Geospatial Programming\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars).  Visit Tutorial\n\n\n ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing.  Visit Tutorial\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray.  Visit Tutorial"
+  },
+  {
+    "objectID": "tutorials.html#advanced-gis-reference",
+    "href": "tutorials.html#advanced-gis-reference",
+    "title": "Tutorials & Courses",
+    "section": "🚀 Advanced GIS & Reference",
+    "text": "🚀 Advanced GIS & Reference\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS.  Visit Tutorial\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE.  Visit Tutorial"
+  },
+  {
+    "objectID": "tutorials.html#academic-writing-tools",
+    "href": "tutorials.html#academic-writing-tools",
+    "title": "Tutorials & Courses",
+    "section": "✍️ Academic Writing & Tools",
+    "text": "✍️ Academic Writing & Tools\n\n\n ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication.  Visit Tutorial\n\n\n ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX.  Visit Tutorial"
+  },
+  {
+    "objectID": "posts/remote-sensing-ai/index.html",
+    "href": "posts/remote-sensing-ai/index.html",
+    "title": "The Future of AI in Remote Sensing",
+    "section": "",
+    "text": "How deep learning is changing how we interpret satellite imagery…"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Academic Blog",
+    "section": "",
+    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Tutorials: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
+  },
+  {
+    "objectID": "posts/python-gis/index.html",
+    "href": "posts/python-gis/index.html",
+    "title": "Modern GIS with Python: Beyond the Desktop",
+    "section": "",
+    "text": "Python has become the de-facto language for spatial data science…"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Innovations",
+    "section": "",
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
+  },
+  {
+    "objectID": "software.html#google-earth-engine-apps",
+    "href": "software.html#google-earth-engine-apps",
+    "title": "Innovations",
+    "section": "🌍 Google Earth Engine Apps",
+    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization.  Visit App  GitHub\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis.  Visit App  GitHub\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.  Visit App  GitHub\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support.  Visit App  GitHub"
+  },
+  {
+    "objectID": "software.html#python-packages",
+    "href": "software.html#python-packages",
+    "title": "Innovations",
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows.  PyPI  GitHub\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.  PyPI  GitHub\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.  PyPI  GitHub"
+  },
+  {
+    "objectID": "software.html#chrome-extensions",
+    "href": "software.html#chrome-extensions",
+    "title": "Innovations",
+    "section": "🛠️ Chrome Extensions",
+    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.  Web Store  GitHub\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation.  Web Store"
   },
   {
     "objectID": "publications.html",
