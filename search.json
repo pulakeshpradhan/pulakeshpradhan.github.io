@@ -186,7 +186,7 @@
     "href": "tutorials.html",
     "title": "Tutorials",
     "section": "",
-    "text": "I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools.\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars). Visit Tutorial\n\n\n ### Google Earth Engine Interactive guide and documentation for cloud-based remote sensing. Visit Tutorial\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE. Visit Tutorial\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray. Visit Tutorial\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for GIS. Visit Tutorial\n\n\n ### English for Academics Resources for scientific writing, presentations, and academic communication. Visit Tutorial\n\n\n ### LaTeX for Geographers Professional document composition and thesis writing using LaTeX. Visit Tutorial"
+    "text": "I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools.\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars). 📖 Visit Tutorial\n\n\n ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing. 📖 Visit Tutorial\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE. 📖 Visit Tutorial\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray. 📖 Visit Tutorial\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS. 📖 Visit Tutorial\n\n\n ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication. 📖 Visit Tutorial\n\n\n ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX. 📖 Visit Tutorial"
   },
   {
     "objectID": "posts/flood-mapping/index.html",
@@ -214,28 +214,28 @@
     "href": "software.html",
     "title": "Innovations",
     "section": "",
-    "text": "### Spectral Reflectance Curve A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n ### Phenology Signature Crop classification tool based on phenological signatures. Visit App\n\n\n ### Flood Susceptibility AHP-based tool for flood susceptibility mapping. Visit App\n\n\n ### Odisha Flood Map Real-time flood mapping tool for the Odisha region. Visit App"
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
   },
   {
     "objectID": "software.html#google-earth-engine-apps",
     "href": "software.html#google-earth-engine-apps",
     "title": "Innovations",
-    "section": "",
-    "text": "### Spectral Reflectance Curve A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n ### Phenology Signature Crop classification tool based on phenological signatures. Visit App\n\n\n ### Flood Susceptibility AHP-based tool for flood susceptibility mapping. Visit App\n\n\n ### Odisha Flood Map Real-time flood mapping tool for the Odisha region. Visit App"
+    "section": "🌍 Google Earth Engine Apps",
+    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization. 🚀 Visit App\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis. 🚀 Visit App\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping. 🚀 Visit App\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support. 🚀 Visit App"
   },
   {
     "objectID": "software.html#python-packages",
     "href": "software.html#python-packages",
     "title": "Innovations",
-    "section": "Python Packages",
-    "text": "Python Packages\n\n\n ### geeadvance Advanced functional tools for Google Earth Engine. PyPI\n\n\n ### deepgee Seamless integration of Deep Learning with Earth Engine. PyPI\n\n\n ### geeassist AI-powered coding assistant for the GEE playground. PyPI"
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows. 📦 PyPI\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models. 📦 PyPI\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models. 📦 PyPI"
   },
   {
     "objectID": "software.html#chrome-extensions",
     "href": "software.html#chrome-extensions",
     "title": "Innovations",
-    "section": "Chrome Extensions",
-    "text": "Chrome Extensions\n\n\n ### GEE AI Assistant Enhance your GEE development with Gemini-powered AI. Chrome Web Store\n\n\n ### Quick Screenshot Capture and annotate screenshots directly in your browser. Chrome Web Store"
+    "section": "🛠️ Chrome Extensions",
+    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation. 🌐 Web Store\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation. 🌐 Web Store"
   },
   {
     "objectID": "publications.html",
