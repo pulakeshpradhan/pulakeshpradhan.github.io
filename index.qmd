@@ -1,0 +1,38 @@
+---
+title: "Welcome"
+---
+
+::: {.hero-banner}
+# Dr. Alex Rivera
+### Geographer | GIS Specialist | Spatial Data Scientist
+Exploring the intersection of climate change, urban planning, and spatial equity.
+:::
+
+## About Me
+
+I am a quantitative geographer focused on developing open-source tools for spatial analysis. My work leverages satellite imagery and machine learning to understand urban heat islands and coastal erosion.
+
+## Upcoming Events
+
+::: {.event-card}
+### [International Cartographic Conference 2026]{.text-secondary}
+**Date:** March 15-20, 2026  
+**Location:** Tokyo, Japan  
+**Role:** Keynote Speaker on "The Future of Open Source GIS"
+:::
+
+::: {.event-card}
+### [AGU Fall Meeting - Session on Remote Sensing]{.text-secondary}
+**Date:** May 12, 2026  
+**Location:** Virtual  
+**Role:** Presenting "Automated Shoreline Detection using Sentinel-2"
+:::
+
+::: {.event-card}
+### [Workshop: Spatial Data Science with Python]{.text-secondary}
+**Date:** June 05, 2026  
+**Location:** University of California, Berkeley  
+**Role:** Instructor
+:::
+
+[View all past events →](presentations.qmd)

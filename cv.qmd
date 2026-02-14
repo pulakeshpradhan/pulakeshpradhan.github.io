@@ -1,0 +1,20 @@
+---
+title: "Curriculum Vitae"
+---
+
+[Download Full CV (PDF)](#)
+
+## Education
+- **Ph.D. in Geography**, University of Oxford, 2022
+- **M.Sc. in GIS**, University of Southern California, 2018
+- **B.A. in Environmental Studies**, Universidad de Chile, 2016
+
+## Academic Appointments
+- **Assistant Professor**, Department of Geography, [University Name], 2023–Present
+- **Postdoctoral Researcher**, NASA Jet Propulsion Laboratory, 2022–2023
+
+## Technical Skills
+- **Languages:** Python (Expert), R (Expert), JavaScript, SQL
+- **GIS/Remote Sensing:** ArcGIS Pro, QGIS, Google Earth Engine, ENVI
+- **Data Science:** Scikit-learn, PyTorch, Xarray, Dask
+- **Field Work:** RTK-GPS, Lidar Drone Operations, Bathymetric Surveys

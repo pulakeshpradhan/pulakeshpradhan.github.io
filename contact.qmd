@@ -1,0 +1,22 @@
+---
+title: "Contact"
+---
+
+I am always open to collaborations, speaking engagements, or discussing spatial data science.
+
+## Get in Touch
+
+**Email:** [alex.rivera@example-uni.edu](mailto:alex.rivera@example-uni.edu)  
+**Office:** 402 Geography Building, [University Name]  
+**Phone:** +1 (555) 123-4567
+
+## Social & Research Networks
+
+- [Twitter/X](https://twitter.com/example)
+- [GitHub](https://github.com/example)
+- [Google Scholar](https://scholar.google.com)
+- [LinkedIn](https://linkedin.com/in/example)
+
+## Location
+
+Office Hours: Tuesdays & Thursdays, 2:00 PM – 4:00 PM (or by appointment).
