@@ -45,4 +45,4 @@ By mastering both, you become a more versatile Spatial Data Scientist, capable o
 
 **What is your favorite open-source spatial tool? Let me know in the comments!**
 
-![](https://placehold.co/1200x600/27ae60/ffffff?text=Open+Source+Geospatial+Stack)
+![](/images/GEE AI Assistant 1.jpg)
