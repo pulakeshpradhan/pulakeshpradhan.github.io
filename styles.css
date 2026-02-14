@@ -1,17 +1,22 @@
-/* Professional Layout for Pulakesh Pradhan */
+/* Premium Academic Styling for Pulakesh Pradhan */
 
 :root {
-    --brand-primary: #2c7da0;
-    --brand-secondary: #27ae60;
-    --brand-accent: #e67e22;
-    --bg-light: #f8fafc;
-    --text-main: #1a202c;
+    --brand-primary: #1a5f7a;
+    /* Deeper professional blue */
+    --brand-secondary: #219150;
+    /* Rich forest green */
+    --brand-accent: #d35400;
+    --text-main: #1e293b;
     --text-muted: #64748b;
+    --bg-light: #f8fafc;
+    --white: #ffffff;
 }
 
 body {
     font-family: 'Inter', sans-serif;
     color: var(--text-main);
+    line-height: 1.6;
+    background-color: #fbfcfd;
 }
 
 h1,
@@ -21,33 +26,38 @@ h3 {
     font-weight: 700;
 }
 
-/* Home Page Grid Layout */
+/* Home Page Profile Section */
 .profile-column {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 60px 20px;
+    background: radial-gradient(circle at 50% 50%, #f1f5f9 0%, #ffffff 100%);
+    border-bottom: 1px solid #e2e8f0;
 }
 
 .profile-card {
-    background: white;
-    padding: 30px;
     text-align: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
 .profile-img-container {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto 20px;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto 30px;
     border-radius: 50% !important;
     overflow: hidden !important;
-    border: 5px solid white !important;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15) !important;
+    border: 8px solid white !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12) !important;
     position: relative;
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.profile-img-container:hover {
+    transform: scale(1.03) rotate(2deg);
 }
 
 .profile-img {
@@ -58,130 +68,132 @@ h3 {
 }
 
 .profile-card h1 {
-    font-size: 1.5rem;
-    /* Reduced font size as requested */
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #1a202c;
-    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+    color: #0f172a;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.profile-card h3 {
+    font-size: 1.25rem;
+    color: var(--brand-primary);
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.profile-card em {
+    display: block;
+    max-width: 650px;
+    margin: 0 auto 30px;
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    font-style: normal;
 }
 
 .social-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    /* Reduced gap */
+    gap: 12px;
     justify-content: center;
-    max-width: 400px;
-    margin: 0 auto;
+    margin: 0 auto 25px;
 }
 
 .social-btn {
-    background: #ffffff;
-    padding: 4px 10px;
-    /* Reduced padding */
-    border-radius: 4px;
-    font-size: 0.75rem;
-    /* Reduced font size */
-    color: #4b5563;
+    background: white;
+    padding: 8px 18px;
+    border-radius: 50px;
+    /* Pillow style */
+    font-size: 0.85rem;
+    color: #475569;
     text-decoration: none;
-    transition: all 0.2s ease;
-    border: 1px solid #d1d5db;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    font-weight: 500;
-}
-
-.social-btn i {
-    font-size: 0.85rem;
-    color: #64748b;
+    gap: 8px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
 }
 
 .social-btn:hover {
-    background: #f8fafc;
-    border-color: #4b5563;
-    color: #111827;
+    background: var(--brand-primary);
+    color: white !important;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(26, 95, 122, 0.2);
+    border-color: var(--brand-primary);
+}
+
+.social-btn i {
+    font-size: 1rem;
 }
 
 .cv-link {
     color: var(--brand-secondary);
-    font-size: 0.95rem;
+    font-size: 1rem;
     text-decoration: none;
-    margin: 20px 0 0;
-    display: block;
-    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
 }
 
+.cv-link:hover {
+    border-color: var(--brand-secondary);
+}
 
-/* Section Headers */
+/* Section Headers Modern Styling */
 h2 {
     border-bottom: 2px solid #e1e4e8;
-    padding-bottom: 10px;
-    margin-top: 40px;
-    margin-bottom: 25px;
-    font-size: 1.6rem;
+    padding-bottom: 12px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-hr {
-    margin: 3rem 0;
-    opacity: 0.1;
-}
-
-/* Innovations Grid */
-.software-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-@media (min-width: 992px) {
-    .software-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-.software-card {
-    border: 1px solid #e2e8f0;
-    padding: 20px;
-    border-radius: 12px;
-    background: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
-}
-
-/* Gallery Styling (Strict 2-Column Grid) */
-.quarto-layout-row {
-    display: flex !important;
-    gap: 25px !important;
-    margin-bottom: 40px;
-}
-
-.quarto-layout-cell {
-    flex: 1 1 48% !important;
-    max-width: 48% !important;
-}
-
-.quarto-figure {
-    margin-bottom: 0;
-}
-
-.lightbox img {
-    width: 100%;
-    border-radius: 12px !important;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+/* Grid Cards Modernization */
+.software-card,
+.listing-item {
     border: 1px solid #f1f5f9;
+    padding: 24px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+    transition: all 0.4s ease;
+}
+
+.software-card:hover,
+.listing-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border-color: #e2e8f0;
+}
+
+/* Gallery - Circular aesthetics where appropriate */
+.lightbox img {
+    border-radius: 16px !important;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.5s ease;
 }
 
 .lightbox img:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2) !important;
+    transform: scale(1.02);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2) !important;
 }
 
-.quarto-figure figcaption {
-    font-size: 0.9rem;
-    margin-top: 12px;
-    color: #475569;
-    line-height: 1.5;
+/* Horizontal Rules */
+hr {
+    margin: 4rem 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
 }
