@@ -2,38 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pulakeshpradhan.github.io/cv.html</loc>
-    <lastmod>2026-02-14T14:14:54.744Z</lastmod>
+    <lastmod>2026-02-14T14:19:41.591Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/presentations.html</loc>
-    <lastmod>2026-02-14T14:14:54.897Z</lastmod>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/contact.html</loc>
-    <lastmod>2026-02-14T14:14:54.744Z</lastmod>
+    <lastmod>2026-02-14T14:19:41.591Z</lastmod>
   </url>
   <url>
-    <loc>https://pulakeshpradhan.github.io/gallery.html</loc>
-    <lastmod>2026-02-14T14:14:54.744Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/index.html</loc>
-    <lastmod>2026-02-14T14:14:54.896Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/blog.html</loc>
-    <lastmod>2026-02-14T14:14:54.743Z</lastmod>
+    <loc>https://pulakeshpradhan.github.io/posts/python-gis/index.html</loc>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/posts/welcome/index.html</loc>
-    <lastmod>2026-02-14T14:14:54.897Z</lastmod>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/remote-sensing-ai/index.html</loc>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/blog.html</loc>
+    <lastmod>2026-02-14T14:19:41.591Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/index.html</loc>
+    <lastmod>2026-02-14T14:19:41.737Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/gallery.html</loc>
+    <lastmod>2026-02-14T14:19:41.591Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/flood-mapping/index.html</loc>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/academic-journey/index.html</loc>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/gee-tips/index.html</loc>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/software.html</loc>
-    <lastmod>2026-02-14T14:14:54.897Z</lastmod>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/publications.html</loc>
-    <lastmod>2026-02-14T14:14:54.897Z</lastmod>
+    <lastmod>2026-02-14T14:19:41.739Z</lastmod>
   </url>
 </urlset>

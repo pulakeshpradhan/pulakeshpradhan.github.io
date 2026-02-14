@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-aef5577676190f5ec358883feef2e4ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-ee43d71b52cdacaf967b17e2de73f6cf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-aef5577676190f5ec358883feef2e4ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -362,11 +365,23 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="recent-publications">Recent Publications</h2>
 <section id="agricultural-drought-monitoring-using-google-earth-engine-a-study-of-paschim-medinipur-district-west-bengal" class="level3 publication-item">
 <h3 class="anchored" data-anchor-id="agricultural-drought-monitoring-using-google-earth-engine-a-study-of-paschim-medinipur-district-west-bengal">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://placehold.co/800x400/2c7da0/ffffff?text=Drought+Monitoring+Analysis.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Agricultural Drought Analysis"><img src="https://placehold.co/800x400/2c7da0/ffffff?text=Drought+Monitoring+Analysis.png" class="img-fluid figure-img" alt="Agricultural Drought Analysis"></a></p>
+<figcaption>Agricultural Drought Analysis</figcaption>
+</figure>
+</div>
 <p><strong>Book:</strong> Modern Cartography Series<br> <strong>Year:</strong> 2024 <a href="https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal">View Publication</a> | <a href="https://drive.google.com/file/d/1P0k1iLDrUPfr0BSYS7Xi_a6muw2Ox2Zz/view?usp=sharing">Download PDF</a></p>
 <p>This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.</p>
 </section>
 <section id="application-of-analytic-hierarchy-process-for-mapping-flood-vulnerability-in-odisha-using-google-earth-engine" class="level3 publication-item">
 <h3 class="anchored" data-anchor-id="application-of-analytic-hierarchy-process-for-mapping-flood-vulnerability-in-odisha-using-google-earth-engine">Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://placehold.co/800x400/27ae60/ffffff?text=Flood+Vulnerability+AHP.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Flood Vulnerability Map"><img src="https://placehold.co/800x400/27ae60/ffffff?text=Flood+Vulnerability+AHP.png" class="img-fluid figure-img" alt="Flood Vulnerability Map"></a></p>
+<figcaption>Flood Vulnerability Map</figcaption>
+</figure>
+</div>
 <p><strong>Book:</strong> Google Earth Engine and Artificial Intelligence for Earth Observation<br> <strong>Year:</strong> 2025 <a href="https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine">View Publication</a> | <a href="https://drive.google.com/file/d/1QhhcVkj7_kMIuh1LOCtFqU0NM3OWUHB8/view?usp=sharing">Download PDF</a></p>
 <p>This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil.</p>
 </section>
@@ -829,6 +844,38 @@ ul.task-list li input[type="checkbox"] {
   loadGiscus();
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -77,6 +77,48 @@
     "text": "Location\nOffice Hours: Tuesdays & Thursdays, 2:00 PM – 4:00 PM (or by appointment)."
   },
   {
+    "objectID": "posts/python-gis/index.html",
+    "href": "posts/python-gis/index.html",
+    "title": "Modern GIS with Python: Beyond the Desktop",
+    "section": "",
+    "text": "Python has become the de-facto language for spatial data science…"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Academic Blog",
+    "section": "",
+    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Tutorials: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
+  },
+  {
+    "objectID": "posts/remote-sensing-ai/index.html",
+    "href": "posts/remote-sensing-ai/index.html",
+    "title": "The Future of AI in Remote Sensing",
+    "section": "",
+    "text": "How deep learning is changing how we interpret satellite imagery…"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome To My Academic Blog\n\n\n\nnews\n\neducation\n\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\nGEE\n\ntips\n\n\n\n\n\n\n\n\n\nFeb 13, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\nPython\n\nGIS\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\nAHP\n\nGEE\n\nResearch\n\n\n\n\n\n\n\n\n\nFeb 11, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Future of AI in Remote Sensing\n\n\n\nAI\n\nRemote Sensing\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nMy Journey in Spatial Data Science\n\n\n\nPersonal\n\nCareer\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. My work leverages Google Earth Engine and AI to solve complex spatial problems.\nView full CV →"
+  },
+  {
+    "objectID": "index.html#latest-posts",
+    "href": "index.html#latest-posts",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Posts",
+    "text": "📌 Latest Posts\n\n\n\n\n\n\n\n\n\n\nWelcome To My Academic Blog\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 13, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Future of AI in Remote Sensing\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Journey in Spatial Data Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 9, 2026\n\n\n\n\n\n\nNo matching items\n\nView all posts →"
+  },
+  {
     "objectID": "gallery.html#anveshan-student-research-convention",
     "href": "gallery.html#anveshan-student-research-convention",
     "title": "Image Gallery",
@@ -112,81 +154,67 @@
     "text": "Featured Engagements"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pulakesh Pradhan",
+    "objectID": "posts/flood-mapping/index.html",
+    "href": "posts/flood-mapping/index.html",
+    "title": "Advanced Flood Mapping using AHP and GEE",
     "section": "",
-    "text": "I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. My work leverages Google Earth Engine and AI to solve complex spatial problems."
+    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
   },
   {
-    "objectID": "index.html#innovations",
-    "href": "index.html#innovations",
-    "title": "Pulakesh Pradhan",
-    "section": "🚀 Innovations",
-    "text": "🚀 Innovations\nSpectral Curve App | Phenology App | Flood Tool\nExplore all Innovations →"
-  },
-  {
-    "objectID": "index.html#latest-posts",
-    "href": "index.html#latest-posts",
-    "title": "Pulakesh Pradhan",
-    "section": "📌 Latest Posts",
-    "text": "📌 Latest Posts\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 14, 2026\n\n\n\n\n\n\nNo matching items\n\nView all posts →"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "posts/academic-journey/index.html",
+    "href": "posts/academic-journey/index.html",
+    "title": "My Journey in Spatial Data Science",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/gee-tips/index.html",
+    "href": "posts/gee-tips/index.html",
+    "title": "Top 5 Tips for Google Earth Engine Developers",
     "section": "",
-    "text": "This is the first post in my Quarto blog. Welcome!\n\nSince this is a blog for a geographer, expect to see posts about GIS, remote sensing, and spatial analysis here."
+    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
   },
   {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Innovations",
     "section": "",
-    "text": "A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n\nCrop classification tool based on phenological signatures. Visit App\n\n\n\nAHP-based tool for flood susceptibility mapping. Visit App\n\n\n\nReal-time flood mapping tool for the Odisha region. Visit App"
+    "text": "### Spectral Reflectance Curve A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n ### Phenology Signature Crop classification tool based on phenological signatures. Visit App\n\n\n ### Flood Susceptibility AHP-based tool for flood susceptibility mapping. Visit App\n\n\n ### Odisha Flood Map Real-time flood mapping tool for the Odisha region. Visit App"
   },
   {
     "objectID": "software.html#google-earth-engine-apps",
     "href": "software.html#google-earth-engine-apps",
     "title": "Innovations",
     "section": "",
-    "text": "A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n\nCrop classification tool based on phenological signatures. Visit App\n\n\n\nAHP-based tool for flood susceptibility mapping. Visit App\n\n\n\nReal-time flood mapping tool for the Odisha region. Visit App"
+    "text": "### Spectral Reflectance Curve A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n ### Phenology Signature Crop classification tool based on phenological signatures. Visit App\n\n\n ### Flood Susceptibility AHP-based tool for flood susceptibility mapping. Visit App\n\n\n ### Odisha Flood Map Real-time flood mapping tool for the Odisha region. Visit App"
   },
   {
     "objectID": "software.html#python-packages",
     "href": "software.html#python-packages",
     "title": "Innovations",
     "section": "Python Packages",
-    "text": "Python Packages\n\n\ngeeadvance\nAdvanced functional tools for Google Earth Engine. PyPI\n\n\ndeepgee\nSeamless integration of Deep Learning with Earth Engine. PyPI\n\n\ngeeassist\nAI-powered coding assistant for the GEE playground. PyPI"
+    "text": "Python Packages\n\n\n ### geeadvance Advanced functional tools for Google Earth Engine. PyPI\n\n\n ### deepgee Seamless integration of Deep Learning with Earth Engine. PyPI\n\n\n ### geeassist AI-powered coding assistant for the GEE playground. PyPI"
   },
   {
     "objectID": "software.html#chrome-extensions",
     "href": "software.html#chrome-extensions",
     "title": "Innovations",
     "section": "Chrome Extensions",
-    "text": "Chrome Extensions\n\n\nGEE AI Assistant\nEnhance your GEE development with Gemini-powered AI. Chrome Web Store\n\n\nQuick Screenshot\nCapture and annotate screenshots directly in your browser. Chrome Web Store"
+    "text": "Chrome Extensions\n\n\n ### GEE AI Assistant Enhance your GEE development with Gemini-powered AI. Chrome Web Store\n\n\n ### Quick Screenshot Capture and annotate screenshots directly in your browser. Chrome Web Store"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Book: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.\n\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil."
+    "text": "Agricultural Drought Analysis\n\n\nBook: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.\n\n\n\n\n\n\nFlood Vulnerability Map\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil."
   },
   {
     "objectID": "publications.html#recent-publications",
     "href": "publications.html#recent-publications",
     "title": "Publications",
     "section": "",
-    "text": "Book: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.\n\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil."
+    "text": "Agricultural Drought Analysis\n\n\nBook: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.\n\n\n\n\n\n\nFlood Vulnerability Map\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil."
   },
   {
     "objectID": "publications.html#other-works",

@@ -1,14 +1,24 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/gee-tips/index.html",
+      "/posts/python-gis/index.html",
+      "/posts/flood-mapping/index.html",
+      "/posts/remote-sensing-ai/index.html",
+      "/posts/academic-journey/index.html"
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/gee-tips/index.html",
+      "/posts/python-gis/index.html",
+      "/posts/flood-mapping/index.html",
+      "/posts/remote-sensing-ai/index.html",
+      "/posts/academic-journey/index.html"
     ]
   }
 ]
