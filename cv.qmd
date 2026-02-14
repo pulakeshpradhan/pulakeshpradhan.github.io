@@ -1,5 +1,8 @@
 ---
 title: "Curriculum Vitae"
+include-in-header: 
+  text: |
+    <script src="assets/js/password.js"></script>
 ---
 
 ## Pulakesh Pradhan

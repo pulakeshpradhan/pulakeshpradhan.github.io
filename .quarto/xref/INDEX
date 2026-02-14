@@ -22,5 +22,8 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "bfed7f16"
+  },
+  "tutorials.qmd": {
+    "tutorials.html": "c055659e"
   }
 }
