@@ -42,6 +42,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const error = document.getElementById('pwd-error');
 
     async function sha256(message) {
+        // Fallback for non-secure contexts (like file:// protocol)
+        if (!crypto.subtle) {
+            console.warn('Crypto API not available. Using basic verification.');
+            // This is NOT secure but allows local testing without HTTPS
+            return message;
+        }
         const msgBuffer = new TextEncoder().encode(message);
         const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
         const hashArray = Array.from(new Uint8Array(hashBuffer));
@@ -50,10 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function verifyPassword() {
-        const typedPassword = input.value;
+        const typedPassword = input.value.trim(); // Added trim()
         const hashedTyped = await sha256(typedPassword);
 
-        if (hashedTyped === PASSWORD_HASH) {
+        // Check against hash OR plain text fallback for local testing
+        if (hashedTyped === PASSWORD_HASH || (!crypto.subtle && typedPassword === 'spatial2026')) {
             overlay.classList.add('hidden');
             if (mainContent) {
                 mainContent.classList.add('unlocked');
