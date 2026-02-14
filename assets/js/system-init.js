@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Configuration
-    const PASSWORD_HASH = '36a92b4c638d3333c43900bed79dec5a6e3f4862ef4f6f62fc191917639904f4'; // Correct hash for: spatial2026
-    const SALT = 'quarto-site-salt'; // Optional salt
+    // Obfuscated configuration
+    const _0x4f2a = ['36a92b', '4c638d', '3333c4', '3900be', 'd79dec', '5a6e3f', '4862ef', '4f6f62', 'fc1919', '176399', '04f4'];
+    const _0x1a2b = _0x4f2a.join('');
 
     const body = document.body;
     const mainContent = document.querySelector('main');
 
     // Check if page is already unlocked in this session
-    if (sessionStorage.getItem('page_unlocked') === 'true') {
+    if (sessionStorage.getItem('auth_state') === 'authorized') {
         return;
     }
 
@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <h2>Protected Content</h2>
             <p>This page is restricted. Please enter the access password to continue.</p>
             <div class="password-input-group">
-                <input type="password" class="password-input" placeholder="Enter Password" id="pwd-input">
-                <button class="password-btn" id="pwd-submit">Unlock Page</button>
-                <div class="error-msg" id="pwd-error">Incorrect password. Please try again.</div>
+                <input type="password" class="password-input" placeholder="Enter Password" id="auth-val">
+                <button class="password-btn" id="auth-trigger">Unlock Page</button>
+                <div class="error-msg" id="auth-err">Incorrect password. Please try again.</div>
             </div>
             <div style="margin-top: 2rem; font-size: 0.8rem; color: #94a3b8;">
                 Contact <a href="mailto:pulakesh.gis@gmail.com" style="color: var(--brand-primary); text-decoration: none;">Pulakesh</a> for access.
@@ -37,59 +37,48 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.body.appendChild(overlay);
 
-    const input = document.getElementById('pwd-input');
-    const submit = document.getElementById('pwd-submit');
-    const error = document.getElementById('pwd-error');
+    const input = document.getElementById('auth-val');
+    const submit = document.getElementById('auth-trigger');
+    const error = document.getElementById('auth-err');
 
-    async function sha256(message) {
-        // Fallback for non-secure contexts (like file:// protocol)
-        if (!crypto.subtle) {
-            console.warn('Crypto API not available. Using basic verification.');
-            // This is NOT secure but allows local testing without HTTPS
-            return message;
-        }
-        const msgBuffer = new TextEncoder().encode(message);
+    async function _0x9e24(msg) {
+        if (!crypto.subtle) return msg;
+        const msgBuffer = new TextEncoder().encode(msg);
         const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
         const hashArray = Array.from(new Uint8Array(hashBuffer));
         const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
         return hashHex;
     }
 
-    async function verifyPassword() {
-        const typedPassword = input.value.trim(); // Added trim()
-        const hashedTyped = await sha256(typedPassword);
+    async function _0x5f3a() {
+        const _0x1122 = input.value.trim();
+        const _0x3344 = await _0x9e24(_0x1122);
 
-        // Check against hash OR plain text fallback for local testing
-        if (hashedTyped === PASSWORD_HASH || (!crypto.subtle && typedPassword === 'spatial2026')) {
+        if (_0x3344 === _0x1a2b) {
             overlay.classList.add('hidden');
             if (mainContent) {
                 mainContent.classList.add('unlocked');
             }
-            sessionStorage.setItem('page_unlocked', 'true');
-
-            // Remove overlay from DOM after transition
+            sessionStorage.setItem('auth_state', 'authorized');
             setTimeout(() => overlay.remove(), 500);
         } else {
             error.style.display = 'block';
             input.value = '';
             input.focus();
-
-            // Shake effect
             const card = document.querySelector('.password-card');
             card.style.animation = 'shake 0.5s';
             setTimeout(() => card.style.animation = '', 500);
         }
     }
 
-    submit.addEventListener('click', verifyPassword);
+    submit.addEventListener('click', _0x5f3a);
     input.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') verifyPassword();
+        if (e.key === 'Enter') _0x5f3a();
     });
 
-    // Add shake animation if not exists
-    if (!document.getElementById('password-animations')) {
+    if (!document.getElementById('core-animations')) {
         const style = document.createElement('style');
-        style.id = 'password-animations';
+        style.id = 'core-animations';
         style.innerHTML = `
             @keyframes shake {
                 0%, 100% { transform: translateX(0); }

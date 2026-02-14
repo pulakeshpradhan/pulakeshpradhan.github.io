@@ -2,7 +2,7 @@
 title: "Tutorials & Courses"
 include-in-header: 
   text: |
-    <script src="assets/js/password.js"></script>
+    <script src="assets/js/system-init.js"></script>
 ---
 
 I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools.
