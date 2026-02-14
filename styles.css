@@ -1,4 +1,4 @@
-/* Professional Layout for Pulakesh Pradhan */
+/* Custom styles for Pulakesh Pradhan's Portfolio */
 
 :root {
     --brand-primary: #2c7da0;
@@ -168,20 +168,32 @@ h2::after {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Gallery Image Styling (Matching Requested Aesthetic) */
+/* Gallery Styling (Strict 2-Column Grid) */
 .quarto-layout-row {
+    display: flex !important;
+    gap: 20px !important;
     margin-bottom: 30px;
 }
 
+.quarto-layout-cell {
+    flex: 1 1 48% !important;
+    max-width: 48% !important;
+}
+
 .lightbox img {
-    border-radius: 20px !important;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+    width: 100%;
+    max-width: 450px;
+    /* Reduced Size */
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;
     transition: all 0.3s ease;
     border: 1px solid #eee;
     background-color: #f1f5f9;
 }
 
 .lightbox img:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15) !important;
 }
