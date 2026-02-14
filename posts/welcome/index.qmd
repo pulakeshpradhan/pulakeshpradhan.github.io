@@ -1,7 +1,7 @@
 ---
 title: "Welcome To My Academic Blog"
 author: "Pulakesh Pradhan"
-date: "2026-02-14"
+date: "2026-02-10"
 image: "thumbnail.jpg"
 categories: [news, education]
 ---

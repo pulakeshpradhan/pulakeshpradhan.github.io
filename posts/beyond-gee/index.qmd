@@ -1,7 +1,7 @@
 ---
 title: "Beyond Google Earth Engine: Exploring Open Source Options"
 author: "Pulakesh Pradhan"
-date: "2026-02-15"
+date: "2026-02-06"
 categories: [Open Source, GIS, Python, Cloud]
 image: "image.jpg"
 description: "While GEE is powerful, the geospatial ecosystem offers robust open-source alternatives for cloud computing and local processing."
