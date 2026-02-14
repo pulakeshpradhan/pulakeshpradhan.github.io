@@ -1,46 +1,47 @@
 ---
-title: "Publications & Presentations"
+title: "Publications"
 ---
 
-## Recent Publications
+## 📚 Peer-Reviewed Publications
 
 ::: {.publication-item}
 ### Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal
-**Book:** Modern Cartography Series<br>
-**Year:** 2024
-[View Publication](https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal) | [Download PDF](https://drive.google.com/file/d/1P0k1iLDrUPfr0BSYS7Xi_a6muw2Ox2Zz/view?usp=sharing)
+[<i class="bi bi-journal-text"></i> Modern Cartography Series]{.meta-info} • [2024]{.year-tag}
 
-This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022.
+This study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, and climate trends.
+
+[[DOI Link](https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal)]{.btn-action} [[Download PDF](https://drive.google.com/file/d/1P0k1iLDrUPfr0BSYS7Xi_a6muw2Ox2Zz/view?usp=sharing)]{.btn-action}
 :::
 
 ::: {.publication-item}
 ### Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine
-**Book:** Google Earth Engine and Artificial Intelligence for Earth Observation<br>
-**Year:** 2025
-[View Publication](https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine) | [Download PDF](https://drive.google.com/file/d/1QhhcVkj7_kMIuh1LOCtFqU0NM3OWUHB8/view?usp=sharing)
+[<i class="bi bi-journal-check"></i> GEE and AI for Earth Observation]{.meta-info} • [2025]{.year-tag}
 
-This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha.
+This study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, and TWI.
+
+[[ResearchGate](https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine)]{.btn-action} [[Download PDF](https://drive.google.com/file/d/1QhhcVkj7_kMIuh1LOCtFqU0NM3OWUHB8/view?usp=sharing)]{.btn-action}
 :::
 
-## Presentations
+## 🎤 Presentations & Workshops
 
 ::: {.publication-item}
-### Drought Monitoring with GEE AI Assistant powered by Gemini API
-**Venue:** GDG for Earth Engine Nairobi (Virtual)<br>
-**Year:** 2024
-[Event Details](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/)
+### Drought Monitoring with GEE AI Assistant powerd by Gemini API
+[<i class="bi bi-geo-alt"></i> GDG Nairobi (Virtual)]{.meta-info} • [2024]{.year-tag}
+
+Presented the integration of Generative AI (Gemini) with Google Earth Engine for automated drought detection and reporting.
+
+[[Event Details](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/)]{.btn-action}
 :::
 
 ::: {.publication-item}
 ### The Future of Open Source GIS
-**Venue:** International Cartographic Conference 2026<br>
-**Role:** Keynote Speaker
+[<i class="bi bi-mic"></i> International Cartographic Conference 2026]{.meta-info} • [Keynote]{.year-tag}
+
+Invited Keynote Speaker discussing the shift towards cloud-native spatial analysis and the democratisation of GIS data.
 :::
-
-## Other Works
-
-- Pradhan, P. (2023). "Remote Sensing in the Anthropocene." In *Modern Geography: A Review*. Springer.
 
 ---
 
-For a full list of publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ) or [ResearchGate](https://www.researchgate.net/profile/Pulakesh-Pradhan) profile.
+::: {.text-center}
+*For a full list of research output, visit my [Google Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ) or [ResearchGate](https://www.researchgate.net/profile/Pulakesh-Pradhan).*
+:::

@@ -2,49 +2,43 @@
 title: "Image Gallery"
 ---
 
-## Ravenshaw University
+Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.
+
+## 🏢 Institutional Highlights
 
 ::: {layout-ncol=2}
-![](images/Ravenshaw/rugeo1.jpeg){.lightbox group="ravenshaw"}
-![](images/Ravenshaw/rugeo2.jpeg){.lightbox group="ravenshaw"}
+![**Ravenshaw University**<br>Department of Geography campus views](images/Ravenshaw/rugeo1.jpeg){.lightbox group="inst"}
+![**Ravenshaw University**<br>Academic research environment](images/Ravenshaw/rugeo2.jpeg){.lightbox group="inst"}
+![**IIT Bombay**<br>Collaborative research visit](images/IIT%20Bombay/1.jpg){.lightbox group="inst"}
+![**IIT Bombay**<br>Field study discussion](images/IIT%20Bombay/2.jpg){.lightbox group="inst"}
 :::
 
-## ANVESHAN Student Research Convention
+## 🎓 Research Conventions
 
 ::: {layout-ncol=2}
-![](images/Ravenshaw/1.jpg){.lightbox group="anveshan"}
-![](images/Ravenshaw/2.jpg){.lightbox group="anveshan"}
+![**ANVESHAN 2024**<br>Student Research Convention](images/Ravenshaw/1.jpg){.lightbox group="anveshan"}
+![**Award Ceremony**<br>Recognizing spatial research excellence](images/Ravenshaw/2.jpg){.lightbox group="anveshan"}
 :::
 
-## IIT Bombay
+## 🌍 Workshops & Field Work
 
 ::: {layout-ncol=2}
-![](images/IIT%20Bombay/1.jpg){.lightbox group="iitb"}
-![](images/IIT%20Bombay/2.jpg){.lightbox group="iitb"}
+![**BHU GEE Workshop**<br>Banaras Hindu University training session](images/BHU/BHU4.jpg){.lightbox group="workshops"}
+![**Field Data Collection**<br>Practical GIS applications](images/BHU/BHU3.jpg){.lightbox group="workshops"}
+![**Ganpat University**<br>Gujarat technical workshop](images/Ganpat%20University/guni1.jpeg){.lightbox group="workshops"}
+![**Technical Session**<br>GUNI research talk](images/Ganpat%20University/guni4.JPG){.lightbox group="workshops"}
 :::
 
-## Academic & Field Work
+## 🤝 Academic Meetings
 
 ::: {layout-ncol=2}
-![Ganpat University](images/Ganpat%20University/guni1.jpeg){.lightbox group="field"}
-![Ganpat University](images/Ganpat%20University/guni4.JPG){.lightbox group="field"}
-![BHU Workshop](images/BHU/BHU4.jpg){.lightbox group="field"}
-![BHU Workshop](images/BHU/BHU3.jpg){.lightbox group="field"}
+![**NAGI Congress**<br>Ranchi University conference](images/NAGI/NAGI1.jpg){.lightbox group="nagi"}
+![**Cartographic Expert Group**<br>NAGI Technical session](images/NAGI/NAGI3.jpg){.lightbox group="nagi"}
 :::
 
-## NAGI (Ranchi University)
+## ✨ Key Engagements
 
 ::: {layout-ncol=2}
-![](images/NAGI/NAGI1.jpg){.lightbox group="nagi"}
-![](images/NAGI/NAGI2.jpg){.lightbox group="nagi"}
-![](images/NAGI/NAGI3.jpg){.lightbox group="nagi"}
-![](images/NAGI/NAGI4.jpg){.lightbox group="nagi"}
-:::
-
-## Featured Engagements
-
-::: {layout-ncol=2}
-![GDG Nairobi Presentation](images/gdg.jpg){.lightbox group="engagements"}
-![MSB University Resource Person](images/resource2.jpg){.lightbox group="engagements"}
-![Centurion University Training](images/resource1.png){.lightbox group="engagements"}
+![**GDG Earth Engine Nairobi**<br>Gemini AI Presentation](images/gdg.jpg){.lightbox group="featured"}
+![**Resource Person**<br>MSBD University training](images/resource2.jpg){.lightbox group="featured"}
 :::

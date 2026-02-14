@@ -3,9 +3,10 @@
 :root {
     --brand-primary: #2c7da0;
     --brand-secondary: #27ae60;
+    --brand-accent: #e67e22;
     --bg-light: #f8fafc;
     --text-main: #1a202c;
-    --text-muted: #4b5563;
+    --text-muted: #64748b;
 }
 
 body {
@@ -43,7 +44,6 @@ h3 {
     border: 5px solid white !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15) !important;
     position: relative;
-    /* Extra enforcement */
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 }
@@ -53,7 +53,6 @@ h3 {
     height: 100% !important;
     object-fit: cover !important;
     display: block !important;
-    border-radius: 50% !important;
 }
 
 .profile-card h1 {
@@ -90,7 +89,7 @@ h3 {
 
 .social-btn i {
     font-size: 1.1rem;
-    color: #6b7280;
+    color: #64748b;
 }
 
 .social-btn:hover {
@@ -106,7 +105,7 @@ h3 {
 .bio-text {
     font-size: 0.95rem;
     line-height: 1.6;
-    color: var(--text-muted);
+    color: #4b5563;
 }
 
 .cv-link {
@@ -118,23 +117,78 @@ h3 {
     font-weight: 600;
 }
 
-/* Section Header styling */
-h2 {
-    border-bottom: 2px solid #e2e8f0;
-    padding-bottom: 8px;
+/* Publication Styling */
+.publication-item {
+    margin-bottom: 35px;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    border-left: 5px solid var(--brand-primary);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    border: 1px solid #f1f5f9;
+    border-left: 5px solid var(--brand-primary);
+    transition: transform 0.2s ease;
+}
+
+.publication-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.publication-item h3 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    color: #1e293b;
+    line-height: 1.4;
+}
+
+.meta-info {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.year-tag {
+    background: #f1f5f9;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--brand-primary);
+    font-weight: 600;
+}
+
+.btn-action {
+    display: inline-block;
     margin-top: 15px;
-    /* Reduced */
-    position: relative;
-    font-size: 1.5rem;
-    /* Smaller */
+    margin-right: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.btn-action a {
+    color: var(--brand-primary);
+    text-decoration: none;
+}
+
+.btn-action a:hover {
+    text-decoration: underline;
+}
+
+/* Section Headers */
+h2 {
+    border-bottom: 2px solid #e1e4e8;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
 }
 
 hr {
-    margin: 2rem 0;
+    margin: 3rem 0;
     opacity: 0.1;
 }
 
-/* Grid & Card Styling for Innovations */
+/* Innovations Grid */
 .software-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -153,33 +207,14 @@ hr {
     border-radius: 12px;
     background: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease;
-}
-
-.software-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-}
-
-.software-card img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.publication-item {
-    margin-bottom: 40px;
-    padding: 25px;
-    background: #f8fafc;
-    border-radius: 15px;
-    border-left: 5px solid var(--brand-secondary);
+    transition: all 0.3s ease;
 }
 
 /* Gallery Styling (Strict 2-Column Grid) */
 .quarto-layout-row {
     display: flex !important;
-    gap: 20px !important;
-    margin-bottom: 30px;
+    gap: 25px !important;
+    margin-bottom: 40px;
 }
 
 .quarto-layout-cell {
@@ -187,19 +222,26 @@ hr {
     max-width: 48% !important;
 }
 
+.quarto-figure {
+    margin-bottom: 0;
+}
+
 .lightbox img {
     width: 100%;
-    max-width: 450px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 15px !important;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;
-    transition: all 0.3s ease;
-    border: 1px solid #eee;
-    background-color: #f1f5f9;
+    border-radius: 12px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border: 1px solid #f1f5f9;
 }
 
 .lightbox img:hover {
-    transform: translateY(-5px) scale(1.02);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2) !important;
+}
+
+.quarto-figure figcaption {
+    font-size: 0.9rem;
+    margin-top: 12px;
+    color: #475569;
+    line-height: 1.5;
 }
