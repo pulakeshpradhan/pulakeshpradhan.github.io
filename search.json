@@ -140,18 +140,18 @@
     "text": "I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. Currently, I am associated with the Department of Geography at Ravenshaw University. My work focuses on developing open-source tools and leveraging Google Earth Engine for environmental monitoring and spatial analysis."
   },
   {
-    "objectID": "index.html#biography",
-    "href": "index.html#biography",
-    "title": "Pulakesh Pradhan",
-    "section": "",
-    "text": "I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. Currently, I am associated with the Department of Geography at Ravenshaw University. My work focuses on developing open-source tools and leveraging Google Earth Engine for environmental monitoring and spatial analysis."
-  },
-  {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Pulakesh Pradhan",
     "section": "🎓 Education",
     "text": "🎓 Education\n\nDepartment of Geography, Ravenshaw University\nFocus: GIS, Remote Sensing, Google Earth Engine"
+  },
+  {
+    "objectID": "index.html#key-highlights",
+    "href": "index.html#key-highlights",
+    "title": "Pulakesh Pradhan",
+    "section": "✨ Key Highlights",
+    "text": "✨ Key Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nDeveloper: Creator of geeadvance, deepgee, and geeassist Python packages.\nYouTube Creator: Founder of “Spatial Geography” channel (Tutorials on GEE, Python, R).\n\nView Full CV →"
   },
   {
     "objectID": "index.html#google-earth-engine-apps",
@@ -161,32 +161,25 @@
     "text": "🌍 Google Earth Engine Apps\nI develop interactive tools for spatial analysis: - Spectral Reflectance Curve - Phenology Signature Crop classification - Flood Susceptibility AHP Tool - Odisha Flood Map"
   },
   {
-    "objectID": "index.html#python-r-packages",
-    "href": "index.html#python-r-packages",
-    "title": "Pulakesh Pradhan",
-    "section": "🐍 Python & R Packages",
-    "text": "🐍 Python & R Packages\nMy open-source contributions include: - geeadvance: Advanced tools for GEE (PyPI) - deepgee: Deep learning with GEE (PyPI) - geeassist: AI-powered GEE assistant (PyPI) - rpygee: R interface for GEE (Website)"
-  },
-  {
     "objectID": "index.html#spatial-geography-youtube",
     "href": "index.html#spatial-geography-youtube",
     "title": "Pulakesh Pradhan",
     "section": "📺 Spatial Geography (YouTube)",
-    "text": "📺 Spatial Geography (YouTube)\nI share tutorials on geospatial technology: - Subscribers: 418+ - Views: 7,000+ - Subscribe to Spatial Geography"
+    "text": "📺 Spatial Geography (YouTube)\n\nSubscribers: 418+ | Views: 7,000+\nSubscribe to Spatial Geography"
   },
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
     "title": "Pulakesh Pradhan",
     "section": "📞 Contact",
-    "text": "📞 Contact\n\nEmail: pulakesh.mid@gmail.com\nWhatsApp: +91 8617812861\nLocation: Department of Geography, Ravenshaw University"
+    "text": "📞 Contact\n\nEmail: pulakesh.mid@gmail.com\nWhatsApp: +91 8617812861"
   },
   {
     "objectID": "index.html#latest-posts",
     "href": "index.html#latest-posts",
     "title": "Pulakesh Pradhan",
     "section": "📌 Latest Posts",
-    "text": "📌 Latest Posts\n\n\nView all posts →"
+    "text": "📌 Latest Posts\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 14, 2026\n\n\n\n\n\n\nNo matching items\n\nView all posts →"
   },
   {
     "objectID": "blog.html",
@@ -205,28 +198,28 @@
   {
     "objectID": "software.html",
     "href": "software.html",
-    "title": "Software & Apps",
+    "title": "Innovations",
     "section": "",
     "text": "A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n\nCrop classification tool based on phenological signatures. Visit App\n\n\n\nAHP-based tool for flood susceptibility mapping. Visit App\n\n\n\nReal-time flood mapping tool for the Odisha region. Visit App"
   },
   {
     "objectID": "software.html#google-earth-engine-apps",
     "href": "software.html#google-earth-engine-apps",
-    "title": "Software & Apps",
+    "title": "Innovations",
     "section": "",
     "text": "A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n\nCrop classification tool based on phenological signatures. Visit App\n\n\n\nAHP-based tool for flood susceptibility mapping. Visit App\n\n\n\nReal-time flood mapping tool for the Odisha region. Visit App"
   },
   {
     "objectID": "software.html#python-packages",
     "href": "software.html#python-packages",
-    "title": "Software & Apps",
+    "title": "Innovations",
     "section": "Python Packages",
     "text": "Python Packages\n\n\ngeeadvance\nAdvanced functional tools for Google Earth Engine. PyPI\n\n\ndeepgee\nSeamless integration of Deep Learning with Earth Engine. PyPI\n\n\ngeeassist\nAI-powered coding assistant for the GEE playground. PyPI"
   },
   {
     "objectID": "software.html#chrome-extensions",
     "href": "software.html#chrome-extensions",
-    "title": "Software & Apps",
+    "title": "Innovations",
     "section": "Chrome Extensions",
     "text": "Chrome Extensions\n\n\nGEE AI Assistant\nEnhance your GEE development with Gemini-powered AI. Chrome Web Store\n\n\nQuick Screenshot\nCapture and annotate screenshots directly in your browser. Chrome Web Store"
   },
