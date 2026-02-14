@@ -1,8 +1,10 @@
 ---
-title: "Tutorials"
+title: "Tutorials & Courses"
 ---
 
 I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools.
+
+## 💻 Geospatial Programming
 
 ::: {.software-grid}
 
@@ -21,18 +23,17 @@ Interactive guide and documentation for mastering cloud-based remote sensing.
 :::
 
 ::: {.software-card}
-![Geospatial Reference](https://placehold.co/400x200/e67e22/ffffff?text=Geospatial+Reference)
-### Geospatial Reference
-A quick-reference guide for common geospatial operations in Python, R, and GEE.
-[📖 Visit Tutorial](https://pulakeshpradhan.github.io/geospatial/){.btn .btn-outline-primary .btn-sm}
-:::
-
-::: {.software-card}
 ![Geo-Python](https://placehold.co/400x200/34495e/ffffff?text=Geo-Python)
 ### Geo-Python
 Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xarray*.
 [📖 Visit Tutorial](https://pulakeshpradhan.github.io/geopython/){.btn .btn-outline-primary .btn-sm}
 :::
+
+:::
+
+## 🚀 Advanced GIS & Reference
+
+::: {.software-grid}
 
 ::: {.software-card}
 ![Cloud GIS](https://placehold.co/400x200/2980b9/ffffff?text=Cloud+GIS)
@@ -40,6 +41,19 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 Resources on merging cloud computing with artificial intelligence for advanced GIS.
 [📖 Visit Tutorial](https://pulakeshpradhan.github.io/cloudgis){.btn .btn-outline-primary .btn-sm}
 :::
+
+::: {.software-card}
+![Geospatial Reference](https://placehold.co/400x200/e67e22/ffffff?text=Geospatial+Reference)
+### Geospatial Reference
+A quick-reference guide for common geospatial operations in Python, R, and GEE.
+[📖 Visit Tutorial](https://pulakeshpradhan.github.io/geospatial/){.btn .btn-outline-primary .btn-sm}
+:::
+
+:::
+
+## ✍️ Academic Writing & Tools
+
+::: {.software-grid}
 
 ::: {.software-card}
 ![English for Academics](https://placehold.co/400x200/8e44ad/ffffff?text=Academic+English)
