@@ -49,15 +49,15 @@ listing:
     categories: false
   - id: recent-pubs
     contents:
-      - title: "Agricultural drought monitoring using GEE"
-        description: "Study of Paschim Medinipur district, West Bengal (2024)."
-        path: "publications.qmd"
-      - title: "Flood vulnerability mapping in Odisha"
-        description: "AHP-based study in Google Earth Engine (2025)."
-        path: "publications.qmd"
-      - title: "Drought Monitoring with Gemini API"
-        description: "Presentation at GDG Earth Engine Nairobi."
-        path: "publications.qmd"
+      - title: "Flood Vulnerability Mapping in Odisha"
+        description: "Application of AHP for mapping flood vulnerability using Google Earth Engine (2025)."
+        path: "https://doi.org/10.1016/b978-0-443-27372-8.00025-8"
+      - title: "Agricultural Drought Monitoring using GEE"
+        description: "A study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024)."
+        path: "https://doi.org/10.1016/b978-0-443-23890-1.00011-6"
+      - title: "GEE AI Assistant for Drought Monitoring"
+        description: "Presentation on Gemini-powered coding assistant for Earth Engine at GDG Nairobi."
+        path: "https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/"
     type: grid
     max-items: 3
 page-layout: full
@@ -112,9 +112,7 @@ page-layout: full
 ::: {#latest-innovations}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all innovations](software.qmd){.social-btn .mt-2}
-
-<hr>
-
-
-
-
+## 📚 Recent Publications
+::: {#recent-pubs}
+:::
+[<i class="bi bi-arrow-right-circle"></i> View all publications](publications.qmd){.social-btn .mt-2}
