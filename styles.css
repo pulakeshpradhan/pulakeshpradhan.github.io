@@ -29,58 +29,59 @@ h3 {
 
 .profile-card {
     background: white;
-    padding: 30px;
-    border-radius: 12px;
+    padding: 20px;
     text-align: center;
     width: 100%;
 }
 
 .profile-img {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     border-radius: 50% !important;
     object-fit: cover;
-    margin-bottom: 15px;
-    border: 1px solid #e5e7eb;
+    margin-bottom: 25px;
 }
 
 .profile-card h1 {
-    font-size: 1.7rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #111827;
-    font-weight: 700;
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #1a202c;
+    font-weight: 800;
 }
 
 .social-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 12px;
     justify-content: center;
-    margin-top: 10px;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .social-btn {
     background: #ffffff;
-    padding: 6px 12px;
+    padding: 8px 16px;
     border-radius: 6px;
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     color: #4b5563;
     text-decoration: none;
     transition: all 0.2s ease;
-    border: 1px solid #d1d5db;
+    border: 1.5px solid #99a1af;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
+    font-weight: 500;
 }
 
 .social-btn i {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+    color: #6b7280;
 }
 
 .social-btn:hover {
-    background: #f9fafb;
-    border-color: #9ca3af;
+    background: #f8fafc;
+    border-color: #4b5563;
     color: #111827;
 }
 
