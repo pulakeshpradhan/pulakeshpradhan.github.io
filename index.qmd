@@ -5,7 +5,7 @@ listing:
   contents: posts
   sort: "date desc"
   type: grid
-  max-items: 6
+  max-items: 3
   categories: false
 about:
   template: trestles
@@ -29,39 +29,20 @@ about:
       href: mailto:pulakesh.mid@gmail.com
 ---
 
-I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. Currently, I am associated with the Department of Geography at Ravenshaw University. My work focuses on developing open-source tools and leveraging Google Earth Engine for environmental monitoring and spatial analysis.
+I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. My work leverages Google Earth Engine and AI to solve complex spatial problems.
 
-## 🎓 Education
-- **Department of Geography**, Ravenshaw University
-- **Focus:** GIS, Remote Sensing, Google Earth Engine
+::: {.home-stats}
+[**418+** YouTube Subscribers]{.stat}
+[**7,000+** Views]{.stat}
+[**3+** Python Packages]{.stat}
+:::
 
-## ✨ Key Highlights
-- **Resource Person:** Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)
-- **Resource Person:** Centurion University (March 2025)
-- **Developer:** Creator of `geeadvance`, `deepgee`, and `geeassist` Python packages.
-- **YouTube Creator:** Founder of "Spatial Geography" channel (Tutorials on GEE, Python, R).
+## 🚀 Innovations
+[Spectral Curve App](https://spatialgeography.projects.earthengine.app/view/spectral) | [Phenology App](https://spatialgeography.projects.earthengine.app/view/signature) | [Flood Tool](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility)
 
-[View Full CV →](cv.qmd)
-
----
-
-## 🌍 Google Earth Engine Apps
-I develop interactive tools for spatial analysis:
-- [Spectral Reflectance Curve](https://spatialgeography.projects.earthengine.app/view/spectral)
-- [Phenology Signature Crop classification](https://spatialgeography.projects.earthengine.app/view/signature)
-- [Flood Susceptibility AHP Tool](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility)
-- [Odisha Flood Map](https://spatialgeography.projects.earthengine.app/view/odishaflood)
-
-## 📺 Spatial Geography (YouTube)
-- **Subscribers:** 418+ | **Views:** 7,000+
-- [Subscribe to Spatial Geography](https://www.youtube.com/@SpatialGeography?sub_confirmation=1)
-
-## 📞 Contact
-- **Email:** [pulakesh.mid@gmail.com](mailto:pulakesh.mid@gmail.com)
-- **WhatsApp:** [+91 8617812861](https://wa.me/918617812861)
+[Explore all Innovations →](software.qmd)
 
 ## 📌 Latest Posts
-
 ::: {#latest-posts}
 :::
 
