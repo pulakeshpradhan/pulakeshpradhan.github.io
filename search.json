@@ -133,39 +133,46 @@
     "text": "📚 Recent Work\n\n\n\n\n\n\n\n\nAgricultural drought monitoring using GEE\n\n\nStudy of Paschim Medinipur district, West Bengal (2024).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with Gemini API\n\n\nPresentation at GDG Earth Engine Nairobi.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFlood vulnerability mapping in Odisha\n\n\nAHP-based study in Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\nView all publications →"
   },
   {
-    "objectID": "gallery.html#anveshan-student-research-convention",
-    "href": "gallery.html#anveshan-student-research-convention",
+    "objectID": "gallery.html",
+    "href": "gallery.html",
     "title": "Image Gallery",
-    "section": "ANVESHAN Student Research Convention",
-    "text": "ANVESHAN Student Research Convention"
+    "section": "",
+    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand."
   },
   {
-    "objectID": "gallery.html#iit-bombay",
-    "href": "gallery.html#iit-bombay",
+    "objectID": "gallery.html#institutional-highlights",
+    "href": "gallery.html#institutional-highlights",
     "title": "Image Gallery",
-    "section": "IIT Bombay",
-    "text": "IIT Bombay"
+    "section": "🏢 Institutional Highlights",
+    "text": "🏢 Institutional Highlights"
   },
   {
-    "objectID": "gallery.html#academic-field-work",
-    "href": "gallery.html#academic-field-work",
+    "objectID": "gallery.html#research-conventions",
+    "href": "gallery.html#research-conventions",
     "title": "Image Gallery",
-    "section": "Academic & Field Work",
-    "text": "Academic & Field Work"
+    "section": "🎓 Research Conventions",
+    "text": "🎓 Research Conventions"
   },
   {
-    "objectID": "gallery.html#nagi-ranchi-university",
-    "href": "gallery.html#nagi-ranchi-university",
+    "objectID": "gallery.html#workshops-field-work",
+    "href": "gallery.html#workshops-field-work",
     "title": "Image Gallery",
-    "section": "NAGI (Ranchi University)",
-    "text": "NAGI (Ranchi University)"
+    "section": "🌍 Workshops & Field Work",
+    "text": "🌍 Workshops & Field Work"
   },
   {
-    "objectID": "gallery.html#featured-engagements",
-    "href": "gallery.html#featured-engagements",
+    "objectID": "gallery.html#academic-meetings",
+    "href": "gallery.html#academic-meetings",
     "title": "Image Gallery",
-    "section": "Featured Engagements",
-    "text": "Featured Engagements"
+    "section": "🤝 Academic Meetings",
+    "text": "🤝 Academic Meetings"
+  },
+  {
+    "objectID": "gallery.html#key-engagements",
+    "href": "gallery.html#key-engagements",
+    "title": "Image Gallery",
+    "section": "✨ Key Engagements",
+    "text": "✨ Key Engagements"
   },
   {
     "objectID": "posts/flood-mapping/index.html",
@@ -219,29 +226,22 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "Publications & Presentations",
+    "title": "Publications",
     "section": "",
-    "text": "Book: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022.\n\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha."
+    "text": "Modern Cartography Series • 2024\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, and climate trends.\nDOI Link Download PDF\n\n\n\n GEE and AI for Earth Observation • 2025\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, and TWI.\nResearchGate Download PDF"
   },
   {
-    "objectID": "publications.html#recent-publications",
-    "href": "publications.html#recent-publications",
-    "title": "Publications & Presentations",
+    "objectID": "publications.html#peer-reviewed-publications",
+    "href": "publications.html#peer-reviewed-publications",
+    "title": "Publications",
     "section": "",
-    "text": "Book: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022.\n\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha."
+    "text": "Modern Cartography Series • 2024\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, and climate trends.\nDOI Link Download PDF\n\n\n\n GEE and AI for Earth Observation • 2025\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, and TWI.\nResearchGate Download PDF"
   },
   {
-    "objectID": "publications.html#presentations",
-    "href": "publications.html#presentations",
-    "title": "Publications & Presentations",
-    "section": "Presentations",
-    "text": "Presentations\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\nVenue: GDG for Earth Engine Nairobi (Virtual) Year: 2024 Event Details\n\n\nThe Future of Open Source GIS\nVenue: International Cartographic Conference 2026 Role: Keynote Speaker"
-  },
-  {
-    "objectID": "publications.html#other-works",
-    "href": "publications.html#other-works",
-    "title": "Publications & Presentations",
-    "section": "Other Works",
-    "text": "Other Works\n\nPradhan, P. (2023). “Remote Sensing in the Anthropocene.” In Modern Geography: A Review. Springer.\n\n\nFor a full list of publications, please visit my Google Scholar or ResearchGate profile."
+    "objectID": "publications.html#presentations-workshops",
+    "href": "publications.html#presentations-workshops",
+    "title": "Publications",
+    "section": "🎤 Presentations & Workshops",
+    "text": "🎤 Presentations & Workshops\n\nDrought Monitoring with GEE AI Assistant powerd by Gemini API\n GDG Nairobi (Virtual) • 2024\nPresented the integration of Generative AI (Gemini) with Google Earth Engine for automated drought detection and reporting.\nEvent Details\n\n\nThe Future of Open Source GIS\n International Cartographic Conference 2026 • Keynote\nInvited Keynote Speaker discussing the shift towards cloud-native spatial analysis and the democratisation of GIS data.\n\n\n\nFor a full list of research output, visit my Google Scholar or ResearchGate."
   }
 ]
