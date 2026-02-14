@@ -43,8 +43,8 @@ website:
     left: "© 2026 Pulakesh Pradhan"
     center: "Ravenshaw University"
     right: 
-      - icon: text-paragraph
-        href: https://www.researchgate.net/profile/Pulakesh-Pradhan
+      - icon: github
+        href: https://github.com/pulakeshpradhan
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
     background: light
