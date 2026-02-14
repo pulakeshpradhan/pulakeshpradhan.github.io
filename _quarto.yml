@@ -31,8 +31,8 @@ website:
       - href: cv.qmd
         text: CV
     right:
-      - icon: github
-        href: https://github.com/pulakeshpradhan
+      - icon: text-paragraph
+        href: https://www.researchgate.net/profile/Pulakesh-Pradhan
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
       - icon: mortarboard
@@ -40,11 +40,11 @@ website:
       - icon: youtube
         href: https://www.youtube.com/@SpatialGeography
   page-footer:
-    left: "© 2024 Pulakesh Pradhan"
-    center: "Geographer & Spatial Data Scientist"
+    left: "© 2026 Pulakesh Pradhan"
+    center: "Ravenshaw University"
     right: 
-      - icon: github
-        href: https://github.com/pulakeshpradhan
+      - icon: text-paragraph
+        href: https://www.researchgate.net/profile/Pulakesh-Pradhan
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
     background: light

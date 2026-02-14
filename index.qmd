@@ -62,12 +62,12 @@ page-layout: full
 </div>
 
 # Pulakesh Pradhan
-### Geographer & Spatial Data Scientist
+### Ravenshaw University
 *Transforming Earth Observation data into actionable insights through AI & Cloud Computing.*
 
 ::: {.social-links}
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}
-[<i class="bi bi-github"></i> Github](https://github.com/pulakeshpradhan/){.social-btn}
+[<i class="bi bi-text-paragraph"></i> ResearchGate](https://www.researchgate.net/profile/Pulakesh-Pradhan){.social-btn}
 [<i class="bi bi-mortarboard"></i> Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
 [<i class="bi bi-youtube"></i> YouTube](https://www.youtube.com/@SpatialGeography){.social-btn}
 [<i class="bi bi-envelope"></i> Email](mailto:pulakesh.mid@gmail.com){.social-btn}
