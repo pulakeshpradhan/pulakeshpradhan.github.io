@@ -121,11 +121,17 @@ h2::after {
     background: var(--brand-primary);
 }
 
-/* Grid & Card Styling for Innovations/Publications */
+/* Grid & Card Styling for Innovations */
 .software-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+@media (min-width: 992px) {
+    .software-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .software-card {
