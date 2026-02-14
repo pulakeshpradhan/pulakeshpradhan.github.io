@@ -25,12 +25,12 @@ h3 {
 .profile-column {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .profile-card {
     background: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     width: 100%;
 }
@@ -56,39 +56,43 @@ h3 {
 }
 
 .profile-card h1 {
-    font-size: 2.2rem;
-    margin-top: 0;
-    margin-bottom: 25px;
+    font-size: 1.5rem;
+    /* Reduced font size as requested */
+    margin-top: 10px;
+    margin-bottom: 20px;
     color: #1a202c;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .social-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
+    /* Reduced gap */
     justify-content: center;
-    max-width: 450px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
 .social-btn {
     background: #ffffff;
-    padding: 8px 16px;
-    border-radius: 6px;
-    font-size: 0.95rem;
+    padding: 4px 10px;
+    /* Reduced padding */
+    border-radius: 4px;
+    font-size: 0.75rem;
+    /* Reduced font size */
     color: #4b5563;
     text-decoration: none;
     transition: all 0.2s ease;
-    border: 1.5px solid #99a1af;
+    border: 1px solid #d1d5db;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     font-weight: 500;
 }
 
 .social-btn i {
-    font-size: 1.1rem;
+    font-size: 0.85rem;
     color: #64748b;
 }
 
@@ -103,14 +107,14 @@ h3 {
 }
 
 .bio-text {
-    font-size: 0.95rem;
+    font-size: 1rem;
     line-height: 1.6;
     color: #4b5563;
 }
 
 .cv-link {
     color: var(--brand-secondary);
-    font-size: 1rem;
+    font-size: 0.95rem;
     text-decoration: none;
     margin: 10px 0;
     display: inline-block;
