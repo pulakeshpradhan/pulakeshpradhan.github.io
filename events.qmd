@@ -9,6 +9,16 @@ I regularly participate in international conferences, workshops, and seminars to
 ::: {.software-grid}
 
 ::: {.software-card}
+![AI in Agriculture MOOC](images/agrimooc.jpg)
+### AI in Agriculture | Free MOOC by ICAR NAARM 🌾
+**Artificial Intelligence in Agriculture**  
+*March 1–31, 2026 | Online*  
+Learn AI, ML & Deep Learning for agricultural applications. Covers Python programming, image processing, and hands-on AI tools for agriculture. Free access with optional certification.  
+**Registration Deadline:** March 7, 2026  
+[<i class="bi bi-mortarboard"></i> Course Portal](https://elearning.naarm.org.in/){.social-btn} [<i class="bi bi-pencil-square"></i> Register Now](https://docs.google.com/forms/u/0/d/e/1FAIpQLSeflelQGrveulu5BD-RYydU_GHKl4UqJokd9Hxku4oRkeyEZw/alreadyresponded?usp=send_form){.social-btn}
+:::
+
+::: {.software-card}
 ![ICC 2026](https://placehold.co/400x200/34495e/ffffff?text=ICC+2026)
 ### International Cartographic Conference
 **The Future of Open Source GIS**  
