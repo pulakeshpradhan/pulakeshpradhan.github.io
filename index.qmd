@@ -91,13 +91,13 @@ page-layout: full
 
 <hr>
 
-## � Featured Tutorials
+## 📖 Featured Tutorials
 ::: {#latest-tutorials}
 :::
 
 <hr>
 
-## �📚 Recent Work
+## 📚 Recent Work
 ::: {#recent-pubs}
 :::
 
