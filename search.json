@@ -4,28 +4,35 @@
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Download Full CV (PDF)"
+    "text": "Geographer | GIS Specialist | Spatial Data Scientist\n📧 pulakesh.mid@gmail.com\n📞 +91 8617812861\n🏠 Department of Geography, Ravenshaw University"
+  },
+  {
+    "objectID": "cv.html#pulakesh-pradhan",
+    "href": "cv.html#pulakesh-pradhan",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Geographer | GIS Specialist | Spatial Data Scientist\n📧 pulakesh.mid@gmail.com\n📞 +91 8617812861\n🏠 Department of Geography, Ravenshaw University"
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education\n\nPh.D. in Geography, University of Oxford, 2022\nM.Sc. in GIS, University of Southern California, 2018\nB.A. in Environmental Studies, Universidad de Chile, 2016"
-  },
-  {
-    "objectID": "cv.html#academic-appointments",
-    "href": "cv.html#academic-appointments",
-    "title": "Curriculum Vitae",
-    "section": "Academic Appointments",
-    "text": "Academic Appointments\n\nAssistant Professor, Department of Geography, [University Name], 2023–Present\nPostdoctoral Researcher, NASA Jet Propulsion Laboratory, 2022–2023"
+    "text": "Education\n\nDepartment of Geography, Ravenshaw University\nSpecialization: GIS, Remote Sensing, Google Earth Engine"
   },
   {
     "objectID": "cv.html#technical-skills",
     "href": "cv.html#technical-skills",
     "title": "Curriculum Vitae",
     "section": "Technical Skills",
-    "text": "Technical Skills\n\nLanguages: Python (Expert), R (Expert), JavaScript, SQL\nGIS/Remote Sensing: ArcGIS Pro, QGIS, Google Earth Engine, ENVI\nData Science: Scikit-learn, PyTorch, Xarray, Dask\nField Work: RTK-GPS, Lidar Drone Operations, Bathymetric Surveys"
+    "text": "Technical Skills\n\nLanguages: Python, R, JavaScript, SQL\nGIS Platforms: Google Earth Engine (Expert), ArcGIS Pro, QGIS\nData Science: Geospatial AI, Deep Learning, Phenology Analysis\nTools: LaTeX, Git/GitHub, Chrome Extension Development"
+  },
+  {
+    "objectID": "cv.html#academic-highlights",
+    "href": "cv.html#academic-highlights",
+    "title": "Curriculum Vitae",
+    "section": "Academic Highlights",
+    "text": "Academic Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nYouTube Creator: “Spatial Geography” channel (Tutorials on GEE, Python, R)\n\n\nView PDF Version of CV (Coming Soon)"
   },
   {
     "objectID": "presentations.html",
@@ -77,18 +84,60 @@
     "text": "Welcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Welcome",
-    "section": "About Me",
-    "text": "About Me\nI am a geographer and spatial data scientist specialized in GIS and Remote Sensing."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. Currently, I am associated with the Department of Geography at Ravenshaw University. My work focuses on developing open-source tools and leveraging Google Earth Engine for environmental monitoring and spatial analysis."
+  },
+  {
+    "objectID": "index.html#biography",
+    "href": "index.html#biography",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. Currently, I am associated with the Department of Geography at Ravenshaw University. My work focuses on developing open-source tools and leveraging Google Earth Engine for environmental monitoring and spatial analysis."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Pulakesh Pradhan",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nDepartment of Geography, Ravenshaw University\nFocus: GIS, Remote Sensing, Google Earth Engine"
+  },
+  {
+    "objectID": "index.html#google-earth-engine-apps",
+    "href": "index.html#google-earth-engine-apps",
+    "title": "Pulakesh Pradhan",
+    "section": "🌍 Google Earth Engine Apps",
+    "text": "🌍 Google Earth Engine Apps\nI develop interactive tools for spatial analysis: - Spectral Reflectance Curve - Phenology Signature Crop classification - Flood Susceptibility AHP Tool - Odisha Flood Map"
+  },
+  {
+    "objectID": "index.html#python-r-packages",
+    "href": "index.html#python-r-packages",
+    "title": "Pulakesh Pradhan",
+    "section": "🐍 Python & R Packages",
+    "text": "🐍 Python & R Packages\nMy open-source contributions include: - geeadvance: Advanced tools for GEE (PyPI) - deepgee: Deep learning with GEE (PyPI) - geeassist: AI-powered GEE assistant (PyPI) - rpygee: R interface for GEE (Website)"
+  },
+  {
+    "objectID": "index.html#spatial-geography-youtube",
+    "href": "index.html#spatial-geography-youtube",
+    "title": "Pulakesh Pradhan",
+    "section": "📺 Spatial Geography (YouTube)",
+    "text": "📺 Spatial Geography (YouTube)\nI share tutorials on geospatial technology: - Subscribers: 418+ - Views: 7,000+ - Subscribe to Spatial Geography"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Pulakesh Pradhan",
+    "section": "📞 Contact",
+    "text": "📞 Contact\n\nEmail: pulakesh.mid@gmail.com\nWhatsApp: +91 8617812861\nLocation: Department of Geography, Ravenshaw University"
   },
   {
     "objectID": "index.html#latest-posts",
     "href": "index.html#latest-posts",
-    "title": "Welcome",
-    "section": "Latest Posts",
-    "text": "Latest Posts\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 14, 2026\n\n\n\n\n\n\nNo matching items\n\nView all posts →"
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Posts",
+    "text": "📌 Latest Posts\n\n\nView all posts →"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -100,29 +149,50 @@
   {
     "objectID": "software.html",
     "href": "software.html",
-    "title": "Software & Packages",
+    "title": "Software & Apps",
     "section": "",
-    "text": "I am passionate about building tools that make spatial analysis more accessible. Below are some of the open-source projects I lead or contribute to.\n\n\nGeoFlow-Py\nA high-performance Python library for modeling hydrology in mountainous terrains using distributed computing. GitHub Repo | Docs\n\n\nCoastalRisk-R\nAn R package for assessing coastal vulnerability using Bayesian neural networks and historical flood data. CRAN | GitHub\n\n\nUrbanHeatMapper\nA web application for visualizing urban heat islands in real-time using Landsat 8 and Sentinel-2 data. Live Demo | Software Paper"
+    "text": "A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n\nCrop classification tool based on phenological signatures. Visit App\n\n\n\nAHP-based tool for flood susceptibility mapping. Visit App\n\n\n\nReal-time flood mapping tool for the Odisha region. Visit App"
+  },
+  {
+    "objectID": "software.html#google-earth-engine-apps",
+    "href": "software.html#google-earth-engine-apps",
+    "title": "Software & Apps",
+    "section": "",
+    "text": "A tool for analyzing spectral signatures across multiple bands. Visit App\n\n\n\nCrop classification tool based on phenological signatures. Visit App\n\n\n\nAHP-based tool for flood susceptibility mapping. Visit App\n\n\n\nReal-time flood mapping tool for the Odisha region. Visit App"
+  },
+  {
+    "objectID": "software.html#python-packages",
+    "href": "software.html#python-packages",
+    "title": "Software & Apps",
+    "section": "Python Packages",
+    "text": "Python Packages\n\n\ngeeadvance\nAdvanced functional tools for Google Earth Engine. PyPI\n\n\ndeepgee\nSeamless integration of Deep Learning with Earth Engine. PyPI\n\n\ngeeassist\nAI-powered coding assistant for the GEE playground. PyPI"
+  },
+  {
+    "objectID": "software.html#chrome-extensions",
+    "href": "software.html#chrome-extensions",
+    "title": "Software & Apps",
+    "section": "Chrome Extensions",
+    "text": "Chrome Extensions\n\n\nGEE AI Assistant\nEnhance your GEE development with Gemini-powered AI. Chrome Web Store\n\n\nQuick Screenshot\nCapture and annotate screenshots directly in your browser. Chrome Web Store"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Deep Learning for Global Shoreline Mapping: Challenges and Opportunities\nPradhan, P., Smith, J., & Doe, L.\n[Nature Communications Earth & Environment, 2025]\nDOI: 10.1038/s43247-025-00123-x\n\n\nUrban Heat Inequality: A Spatial Analysis of 50 Global Cities\nPradhan, P., & Zhang, Y.\n[Global Environmental Change, 2024]\nDOI: 10.1016/j.gloenvcha.2024.102834\n\n\nGeoFlow-Py: Scaling Hydrological Models with Dask\nPradhan, P., & Wilson, K.\n[Journal of Open Source Software (JOSS), 2023]\nDOI: 10.21105/joss.05202"
+    "text": "Book: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.\n\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil."
   },
   {
-    "objectID": "publications.html#selected-peer-reviewed-journals",
-    "href": "publications.html#selected-peer-reviewed-journals",
+    "objectID": "publications.html#recent-publications",
+    "href": "publications.html#recent-publications",
     "title": "Publications",
     "section": "",
-    "text": "Deep Learning for Global Shoreline Mapping: Challenges and Opportunities\nPradhan, P., Smith, J., & Doe, L.\n[Nature Communications Earth & Environment, 2025]\nDOI: 10.1038/s43247-025-00123-x\n\n\nUrban Heat Inequality: A Spatial Analysis of 50 Global Cities\nPradhan, P., & Zhang, Y.\n[Global Environmental Change, 2024]\nDOI: 10.1016/j.gloenvcha.2024.102834\n\n\nGeoFlow-Py: Scaling Hydrological Models with Dask\nPradhan, P., & Wilson, K.\n[Journal of Open Source Software (JOSS), 2023]\nDOI: 10.21105/joss.05202"
+    "text": "Book: Modern Cartography Series Year: 2024 View Publication | Download PDF\nThis study analyzes agricultural drought in Paschim Medinipur, West Bengal, using Google Earth Engine with satellite and climate datasets from 2002–2022. It assesses precipitation variability, drought indices, vegetation responses, and climate trends.\n\n\n\nBook: Google Earth Engine and Artificial Intelligence for Earth Observation Year: 2025 View Publication | Download PDF\nThis study demonstrates the use of AHP in Google Earth Engine to identify vulnerable areas for flood hazards in Odisha. Key parameters include elevation, rainfall, land cover, slope, TWI, NDVI, and soil."
   },
   {
-    "objectID": "publications.html#book-chapters",
-    "href": "publications.html#book-chapters",
+    "objectID": "publications.html#other-works",
+    "href": "publications.html#other-works",
     "title": "Publications",
-    "section": "Book Chapters",
-    "text": "Book Chapters\n\nPradhan, P. (2023). “Remote Sensing in the Anthropocene.” In Modern Geography: A Review. Springer."
+    "section": "Other Works",
+    "text": "Other Works\n\nPradhan, P. (2023). “Remote Sensing in the Anthropocene.” In Modern Geography: A Review. Springer.\n\n\nFor a full list of publications, please visit my Google Scholar or ResearchGate profile."
   }
 ]

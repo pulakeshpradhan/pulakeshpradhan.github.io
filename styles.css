@@ -74,28 +74,62 @@ h1, h2, h3, .navbar-brand {
     color: var(--brand-secondary);
 }
 
-/* Software Cards */
+/* Academic Grid Styling */
 .software-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
 }
 
 .software-card {
-    border: 1px solid #eee;
-    padding: 25px;
+    border: 1px solid #e1e4e8;
+    padding: 20px;
     border-radius: 12px;
-    background: white;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    transition: all 0.3s ease;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .software-card:hover {
-    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
-    border-color: var(--brand-secondary);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    border-color: #2c7da0;
 }
 
+.software-card h3 {
+    margin-top: 0;
+    color: #2c7da0;
+    font-size: 1.25rem;
+}
+
+/* Publication Enhancements */
+.publication-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 10px;
+    border-left: 4px solid #27ae60;
+}
+
+.publication-item h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+/* Hero Section Adjustments for Trestles Teamplate */
+.quarto-about-trestles .about-entity {
+    border-right: 1px solid #eee;
+    padding-right: 2rem;
+}
+
+/* Dark Mode Fixes */
 .dark .software-card {
-    background: #1a252f;
-    border-color: #34495e;
+    background: #1a202c;
+    border-color: #2d3748;
+    color: #e2e8f0;
+}
+
+.dark .publication-item {
+    background: #2d3748;
+    color: #e2e8f0;
 }
