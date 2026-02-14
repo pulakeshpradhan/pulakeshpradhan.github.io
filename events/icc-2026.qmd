@@ -1,0 +1,14 @@
+---
+title: "International Cartographic Conference"
+date: "2026-08-01"
+description: "The Future of Open Source GIS (Keynote Address)."
+image: "https://placehold.co/400x200/34495e/ffffff?text=ICC+2026"
+categories: [Upcoming]
+---
+
+**The Future of Open Source GIS**  
+*Keynote Address | August 2026*  
+
+Join me for a deep dive into how open-source ecosystems are transforming global mapping standards.
+
+[<i class="bi bi-info-circle"></i> Conference Link](https://icc2026.org/){.social-btn}

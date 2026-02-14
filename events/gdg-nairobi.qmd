@@ -1,0 +1,14 @@
+---
+title: "GDG Earth Engine Nairobi"
+date: "2024-10-01"
+description: "Drought Monitoring with GEE AI Assistant."
+image: "../images/gdg.jpg"
+categories: [Past]
+---
+
+**Drought Monitoring with GEE AI Assistant**  
+*Technical Seminar | 2024*  
+
+Presented the integration of Gemini Pro API with Earth Engine for automated drought detection.
+
+[<i class="bi bi-file-earmark-text"></i> View Abstract](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/){.social-btn} [<i class="bi bi-presentation-ctnr"></i> Slides](https://pulakeshpradhan.github.io/publications.html){.social-btn}

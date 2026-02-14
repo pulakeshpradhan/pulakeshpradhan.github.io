@@ -40,17 +40,13 @@ listing:
     type: grid
     max-items: 3
   - id: upcoming-events
-    contents:
-      - title: "ICC 2026 Keynote"
-        description: "The Future of Open Source GIS (August 2026)."
-        path: "events.qmd"
-        image: "https://placehold.co/400x200/34495e/ffffff?text=ICC+2026"
-      - title: "GDG Earth Engine"
-        description: "Drought Monitoring with GEE AI Assistant."
-        path: "events.qmd"
-        image: "images/gdg.jpg"
+    contents: events
+    sort: "date asc"
     type: grid
     max-items: 3
+    include:
+      categories: Upcoming
+    categories: false
   - id: recent-pubs
     contents:
       - title: "Agricultural drought monitoring using GEE"
