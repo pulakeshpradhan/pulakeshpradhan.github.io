@@ -35,23 +35,24 @@ h3 {
 }
 
 .profile-img-container {
-    width: 280px;
-    height: 280px;
-    margin: 0 auto 25px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 1px solid #e5e7eb;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 20px;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    border: 5px solid white !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15) !important;
+    position: relative;
+    /* Extra enforcement */
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
 }
 
 .profile-img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
-    display: block;
-}
-
-/* Force roundness even if Quarto wraps it */
-.profile-card img {
+    display: block !important;
     border-radius: 50% !important;
 }
 
