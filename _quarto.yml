@@ -39,8 +39,9 @@ website:
         href: https://scholar.google.com/citations?user=_DhEQHEAAAAJ
       - icon: youtube
         href: https://www.youtube.com/@SpatialGeography
+  google-analytics: "G-XXXXXXXXXX" # Replace with your Actual Google Analytics ID
   page-footer:
-    left: "© 2026 Pulakesh Pradhan"
+    left: "© 2026 Pulakesh Pradhan | ![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpulakeshpradhan.github.io&count_bg=%232C7DA0&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)"
     center: "Ravenshaw University"
     right: 
       - icon: github
@@ -66,6 +67,7 @@ format:
     lightbox: true
     mainfont: "Inter, sans-serif"
     header-includes: |
+      <meta name="google-site-verification" content="nLl3KIj4auOY3L_3kYhBLd9fKTHpzihQI-jRuDM7abQ" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
