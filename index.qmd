@@ -73,7 +73,7 @@ page-layout: full
 [<i class="bi bi-envelope"></i> Email](mailto:pulakesh.mid@gmail.com){.social-btn}
 :::
 
-[**View full CV →**](cv.qmd){.cv-link}
+
 :::
 :::
 
