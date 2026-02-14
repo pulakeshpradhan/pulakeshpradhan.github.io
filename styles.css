@@ -1,90 +1,95 @@
-/* Custom styles for Pulakesh Pradhan's Portfolio */
+/* Professional Layout for Pulakesh Pradhan */
 
 :root {
     --brand-primary: #2c7da0;
     --brand-secondary: #27ae60;
-    --accent-color: #e67e22;
+    --bg-light: #f8fafc;
+    --text-main: #1a202c;
 }
 
 body {
     font-family: 'Inter', sans-serif;
+    color: var(--text-main);
 }
 
 h1,
 h2,
-h3,
-.navbar-brand {
+h3 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
 }
 
-/* Hero Section Styling */
-.hero-banner {
-    padding: 60px 0;
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-    color: white;
-    border-radius: 12px;
-    margin-bottom: 40px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-/* Academic Grid Styling */
-.software-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
-}
-
-.software-card {
-    border: 1px solid #e1e4e8;
+/* Home Page Grid Layout */
+.profile-column {
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    border-radius: 12px;
-    background: #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.software-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    border-color: #2c7da0;
-}
-
-.software-card h3 {
-    margin-top: 0;
-    color: #2c7da0;
-    font-size: 1.25rem;
-}
-
-/* Publication Enhancements */
-.publication-item {
-    margin-bottom: 30px;
-    padding: 20px;
-    background: #f8fafc;
-    border-radius: 10px;
-    border-left: 4px solid #27ae60;
-}
-
-.publication-item h3 {
-    margin-top: 0;
-    font-size: 1.3rem;
-}
-
-/* Hero Section Adjustments for Trestles */
-.quarto-about-trestles .about-entity {
-    background: #f8fafc;
-    border-radius: 20px;
+.profile-card {
+    background: white;
     padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    text-align: center;
     border: 1px solid #e2e8f0;
-    margin-right: 20px;
+    width: 100%;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-btn {
+    background: #f1f5f9;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: var(--brand-primary);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.social-btn:hover {
+    background: var(--brand-primary);
+    color: white;
+}
+
+.bio-column {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cv-link {
+    color: var(--brand-secondary);
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 15px 0;
+    display: inline-block;
 }
 
 /* Home Stats Section */
 .home-stats {
     display: flex;
     gap: 12px;
-    margin: 20px 0;
+    margin: 15px 0;
     flex-wrap: wrap;
 }
 
@@ -95,15 +100,13 @@ h3,
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 600;
-    box-shadow: 0 4px 12px rgba(0, 180, 216, 0.15);
 }
 
-/* Section Header Beautification */
+/* Section Header styling */
 h2 {
-    border-bottom: 2px solid #e1e4e8;
+    border-bottom: 2px solid #e2e8f0;
     padding-bottom: 8px;
-    margin-top: 35px;
-    color: #1a202c;
+    margin-top: 30px;
     position: relative;
 }
 
@@ -114,42 +117,60 @@ h2::after {
     left: 0;
     width: 50px;
     height: 2px;
-    background: #2c7da0;
+    background: var(--brand-primary);
 }
 
-/* Dark Mode Fixes */
-.dark .software-card {
-    background: #1a202c;
-    border-color: #2d3748;
-    color: #e2e8f0;
+/* Grid & Card Styling for Innovations/Publications */
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
 }
 
-.dark .publication-item {
-    background: #2d3748;
-    color: #e2e8f0;
+.software-card {
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
 }
 
-.dark h2 {
-    color: #f7fafc;
-    border-bottom-color: #2d3748;
+.software-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.software-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.publication-item {
+    margin-bottom: 40px;
+    padding: 25px;
+    background: #f8fafc;
+    border-radius: 15px;
+    border-left: 5px solid var(--brand-secondary);
+}
+
+.publication-item img {
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Gallery Styling */
-.gallery-grid img {
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
+.quarto-layout-row {
     margin-bottom: 20px;
 }
 
-.gallery-grid img:hover {
+.lightbox img {
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.lightbox img:hover {
     transform: scale(1.02);
-}
-
-.quarto-figure {
-    margin-bottom: 2rem;
-}
-
-.lightbox-content img {
-    border-radius: 4px;
 }
