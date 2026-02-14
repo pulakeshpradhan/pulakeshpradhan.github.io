@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - href: software.qmd
-        text: Software & Apps
+        text: Innovations
       - href: publications.qmd
         text: Publications
       - href: blog.qmd

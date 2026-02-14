@@ -1,5 +1,5 @@
 ---
-title: "Software & Apps"
+title: "Innovations"
 ---
 
 ## Google Earth Engine Apps
