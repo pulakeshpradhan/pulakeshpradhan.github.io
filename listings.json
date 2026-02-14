@@ -1,7 +1,20 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/beyond-gee/index.html",
+      "/posts/welcome/index.html",
+      "/posts/gee-tips/index.html",
+      "/posts/python-gis/index.html",
+      "/posts/flood-mapping/index.html",
+      "/posts/remote-sensing-ai/index.html",
+      "/posts/academic-journey/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/posts/beyond-gee/index.html",
       "/posts/welcome/index.html",
       "/posts/gee-tips/index.html",
       "/posts/python-gis/index.html",
@@ -10,17 +23,6 @@
       "/posts/academic-journey/index.html",
       "/software.html",
       "/publications.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/welcome/index.html",
-      "/posts/gee-tips/index.html",
-      "/posts/python-gis/index.html",
-      "/posts/flood-mapping/index.html",
-      "/posts/remote-sensing-ai/index.html",
-      "/posts/academic-journey/index.html"
     ]
   }
 ]
