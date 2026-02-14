@@ -33,6 +33,15 @@ I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensi
 
 [**View full CV →**](cv.qmd){.cv-link}
 
+## 🎓 Education
+- **Department of Geography**, Ravenshaw University
+- **Focus:** GIS, Remote Sensing, Google Earth Engine
+
+## ✨ Key Highlights
+- **Resource Person:** MSBD University & Centurion University
+- **Developer:** Creator of `geeadvance`, `deepgee`, and `geeassist`
+- **YouTube Creator:** Founder of "Spatial Geography" channel
+
 ::: {.home-stats}
 [**418+** YouTube Subscribers]{.stat}
 [**7,000+** Views]{.stat}
