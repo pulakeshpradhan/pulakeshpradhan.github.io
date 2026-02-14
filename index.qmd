@@ -23,6 +23,22 @@ listing:
         image: "images/geeai.jpg"
     type: grid
     max-items: 3
+  - id: latest-tutorials
+    contents:
+      - title: "R for Spatial"
+        description: "Guide to spatial analysis using R."
+        path: "https://pulakeshpradhan.github.io/rspatial/"
+        image: "https://placehold.co/400x200/27ae60/ffffff?text=R+Spatial"
+      - title: "GEE Tutorials"
+        description: "Cloud-based remote sensing with Earth Engine."
+        path: "https://pulakeshpradhan.github.io/gee/intro.html"
+        image: "https://placehold.co/400x200/2c7da0/ffffff?text=GEE+Intro"
+      - title: "Geo-Python"
+        description: "Spatial data science with Python."
+        path: "https://pulakeshpradhan.github.io/geopython/"
+        image: "https://placehold.co/400x200/34495e/ffffff?text=Geo-Python"
+    type: grid
+    max-items: 3
   - id: recent-pubs
     contents:
       - title: "Agricultural drought monitoring using GEE"
@@ -73,7 +89,13 @@ page-layout: full
 
 <hr>
 
-## 📚 Recent Work
+## � Featured Tutorials
+::: {#latest-tutorials}
+:::
+
+<hr>
+
+## �📚 Recent Work
 ::: {#recent-pubs}
 :::
 

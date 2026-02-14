@@ -13,7 +13,7 @@ website:
       - href: software.qmd
         text: Innovations
       - href: publications.qmd
-        text: Pub. & Pres.
+        text: Publications
       - href: blog.qmd
         text: Blog
       - href: tutorials.qmd

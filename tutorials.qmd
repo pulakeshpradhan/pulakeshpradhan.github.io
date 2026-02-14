@@ -1,0 +1,58 @@
+---
+title: "Tutorials"
+---
+
+I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools.
+
+::: {.software-grid}
+
+::: {.software-card}
+![R Spatial](https://placehold.co/400x200/27ae60/ffffff?text=R+Spatial+Tutorials)
+### R for Spatial Analysis
+Comprehensive guide to handling vector and raster data using R (sf, terra, stars).
+[Visit Tutorial](https://pulakeshpradhan.github.io/rspatial/)
+:::
+
+::: {.software-card}
+![Google Earth Engine](https://placehold.co/400x200/2c7da0/ffffff?text=GEE+Tutorials)
+### Google Earth Engine
+Interactive guide and documentation for cloud-based remote sensing.
+[Visit Tutorial](https://pulakeshpradhan.github.io/gee/intro.html)
+:::
+
+::: {.software-card}
+![Geospatial Reference](https://placehold.co/400x200/e67e22/ffffff?text=Geospatial+Reference)
+### Geospatial Reference
+A quick-reference guide for common geospatial operations in Python, R, and GEE.
+[Visit Tutorial](https://pulakeshpradhan.github.io/geospatial/)
+:::
+
+::: {.software-card}
+![Geo-Python](https://placehold.co/400x200/34495e/ffffff?text=Geo-Python)
+### Geo-Python
+Learning spatial data science with Python using Geopandas, Rasterio, and Xarray.
+[Visit Tutorial](https://pulakeshpradhan.github.io/geopython/)
+:::
+
+::: {.software-card}
+![Cloud GIS](https://placehold.co/400x200/2980b9/ffffff?text=Cloud+GIS)
+### Cloud GIS & AI
+Resources on merging cloud computing with artificial intelligence for GIS.
+[Visit Tutorial](https://pulakeshpradhan.github.io/cloudgis)
+:::
+
+::: {.software-card}
+![English for Academics](https://placehold.co/400x200/8e44ad/ffffff?text=Academic+English)
+### English for Academics
+Resources for scientific writing, presentations, and academic communication.
+[Visit Tutorial](https://pulakeshpradhan.github.io/english/)
+:::
+
+::: {.software-card}
+![LaTeX](https://placehold.co/400x200/2c3e50/ffffff?text=LaTeX+for+Scientists)
+### LaTeX for Geographers
+Professional document composition and thesis writing using LaTeX.
+[Visit Tutorial](https://pulakeshpradhan.github.io/latex)
+:::
+
+:::
