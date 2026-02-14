@@ -39,6 +39,18 @@ listing:
         image: "https://placehold.co/400x200/34495e/ffffff?text=Geo-Python"
     type: grid
     max-items: 3
+  - id: upcoming-events
+    contents:
+      - title: "ICC 2026 Keynote"
+        description: "The Future of Open Source GIS (August 2026)."
+        path: "events.qmd"
+        image: "https://placehold.co/400x200/34495e/ffffff?text=ICC+2026"
+      - title: "GDG Earth Engine"
+        description: "Drought Monitoring with GEE AI Assistant."
+        path: "events.qmd"
+        image: "images/gdg.jpg"
+    type: grid
+    max-items: 3
   - id: recent-pubs
     contents:
       - title: "Agricultural drought monitoring using GEE"
@@ -90,6 +102,13 @@ page-layout: full
 ::: {#latest-innovations}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all innovations](software.qmd){.social-btn .mt-2}
+
+<hr>
+
+## 📅 Upcoming Events
+::: {#upcoming-events}
+:::
+[<i class="bi bi-arrow-right-circle"></i> View all events](events.qmd){.social-btn .mt-2}
 
 <hr>
 

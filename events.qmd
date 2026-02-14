@@ -1,0 +1,55 @@
+---
+title: "Events & Engagements"
+---
+
+I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing.
+
+## 📅 Upcoming Events
+
+::: {.software-grid}
+
+::: {.software-card}
+![ICC 2026](https://placehold.co/400x200/34495e/ffffff?text=ICC+2026)
+### International Cartographic Conference
+**The Future of Open Source GIS**  
+*Keynote Address | August 2026*  
+Join me for a deep dive into how open-source ecosystems are transforming global mapping standards.
+[<i class="bi bi-info-circle"></i> Conference Link](https://icc2026.org/){.social-btn}
+:::
+
+:::
+
+## 🏛️ Past Seminars & Workshops
+
+::: {.software-grid}
+
+::: {.software-card}
+![GDG Nairobi](images/gdg.jpg)
+### GDG Earth Engine Nairobi
+**Drought Monitoring with GEE AI Assistant**  
+*Technical Seminar | 2024*  
+Presented the integration of Gemini Pro API with Earth Engine for automated drought detection.
+[<i class="bi bi-file-earmark-text"></i> View Abstract](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/){.social-btn} [<i class="bi bi-presentation-ctnr"></i> Slides](https://pulakeshpradhan.github.io/publications.html){.social-btn}
+:::
+
+::: {.software-card}
+![BHU Workshop](https://placehold.co/400x200/2c7da0/ffffff?text=BHU+Workshop)
+### Banaras Hindu University
+**Cloud Computing in Geography**  
+*Guest Lecture | 2024*  
+A workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.
+[<i class="bi bi-images"></i> Gallery](gallery.qmd){.social-btn}
+:::
+
+:::
+
+## 📄 Call for Abstracts & Participation
+
+Stay tuned for upcoming calls for abstracts in the regional and international geography congresses I am co-organizing. 
+
+- **State Level Seminar on Geoinformatics** (Upcoming Q4 2026)
+- **Special Issue on AI for Earth Observation** - *Open for submissions*
+
+---
+
+For invitations or collaborations for guest lectures and workshops, please reach out via [LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/).

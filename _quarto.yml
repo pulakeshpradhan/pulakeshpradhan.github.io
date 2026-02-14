@@ -26,6 +26,8 @@ website:
         text: Blog
       - href: tutorials.qmd
         text: Tutorials
+      - href: events.qmd
+        text: Events
       - href: gallery.qmd
         text: Gallery
       - href: cv.qmd
