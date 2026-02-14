@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download Full CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Geography, University of Oxford, 2022\nM.Sc. in GIS, University of Southern California, 2018\nB.A. in Environmental Studies, Universidad de Chile, 2016"
+  },
+  {
+    "objectID": "cv.html#academic-appointments",
+    "href": "cv.html#academic-appointments",
+    "title": "Curriculum Vitae",
+    "section": "Academic Appointments",
+    "text": "Academic Appointments\n\nAssistant Professor, Department of Geography, [University Name], 2023–Present\nPostdoctoral Researcher, NASA Jet Propulsion Laboratory, 2022–2023"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nLanguages: Python (Expert), R (Expert), JavaScript, SQL\nGIS/Remote Sensing: ArcGIS Pro, QGIS, Google Earth Engine, ENVI\nData Science: Scikit-learn, PyTorch, Xarray, Dask\nField Work: RTK-GPS, Lidar Drone Operations, Bathymetric Surveys"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "I regularly present my research at international conferences and university seminars."
+  },
+  {
+    "objectID": "presentations.html#featured-talks",
+    "href": "presentations.html#featured-talks",
+    "title": "Presentations",
+    "section": "Featured Talks",
+    "text": "Featured Talks\n\n2026\n\nKeynote: Open Source GIS in the 2020s\nInternational Cartographic Conference, Tokyo. Slides (PDF)\n\n\n\n2025\n\nMapping Coastal Change with Deep Learning\nAGU Fall Meeting, New Orleans. Watch Presentation\nThe Spatial Equity of Urban Green Space\nAmerican Association of Geographers (AAG), Detroit. Slides\n\n\n\n2024\n\nDask and Xarray for Hydrology\nSciPy Conference, Austin, TX. Video Demo"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am always open to collaborations, speaking engagements, or discussing spatial data science."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "Get in Touch",
+    "text": "Get in Touch\nEmail: alex.rivera@example-uni.edu\nOffice: 402 Geography Building, [University Name]\nPhone: +1 (555) 123-4567"
+  },
+  {
+    "objectID": "contact.html#social-research-networks",
+    "href": "contact.html#social-research-networks",
+    "title": "Contact",
+    "section": "Social & Research Networks",
+    "text": "Social & Research Networks\n\nTwitter/X\nGitHub\nGoogle Scholar\nLinkedIn"
+  },
+  {
+    "objectID": "contact.html#location",
+    "href": "contact.html#location",
+    "title": "Contact",
+    "section": "Location",
+    "text": "Location\nOffice Hours: Tuesdays & Thursdays, 2:00 PM – 4:00 PM (or by appointment)."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 14, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Exploring the intersection of climate change, urban planning, and spatial equity."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Welcome",
+    "section": "About Me",
+    "text": "About Me\nI am a quantitative geographer focused on developing open-source tools for spatial analysis. My work leverages satellite imagery and machine learning to understand urban heat islands and coastal erosion."
+  },
+  {
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "Welcome",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\n\nInternational Cartographic Conference 2026\nDate: March 15-20, 2026\nLocation: Tokyo, Japan\nRole: Keynote Speaker on “The Future of Open Source GIS”\n\n\nAGU Fall Meeting - Session on Remote Sensing\nDate: May 12, 2026\nLocation: Virtual\nRole: Presenting “Automated Shoreline Detection using Sentinel-2”\n\n\nWorkshop: Spatial Data Science with Python\nDate: June 05, 2026\nLocation: University of California, Berkeley\nRole: Instructor\n\nView all past events →"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in my Quarto blog. Welcome!\n\nSince this is a blog for a geographer, expect to see posts about GIS, remote sensing, and spatial analysis here."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software & Packages",
+    "section": "",
+    "text": "I am passionate about building tools that make spatial analysis more accessible. Below are some of the open-source projects I lead or contribute to.\n\n\nGeoFlow-Py\nA high-performance Python library for modeling hydrology in mountainous terrains using distributed computing. GitHub Repo | Docs\n\n\nCoastalRisk-R\nAn R package for assessing coastal vulnerability using Bayesian neural networks and historical flood data. CRAN | GitHub\n\n\nUrbanHeatMapper\nA web application for visualizing urban heat islands in real-time using Landsat 8 and Sentinel-2 data. Live Demo | Software Paper"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Deep Learning for Global Shoreline Mapping: Challenges and Opportunities\nRivera, A., Smith, J., & Doe, L.\n[Nature Communications Earth & Environment, 2025]\nDOI: 10.1038/s43247-025-00123-x\n\n\nUrban Heat Inequality: A Spatial Analysis of 50 Global Cities\nRivera, A., & Zhang, Y.\n[Global Environmental Change, 2024]\nDOI: 10.1016/j.gloenvcha.2024.102834\n\n\nGeoFlow-Py: Scaling Hydrological Models with Dask\nRivera, A., & Wilson, K.\n[Journal of Open Source Software (JOSS), 2023]\nDOI: 10.21105/joss.05202"
+  },
+  {
+    "objectID": "publications.html#selected-peer-reviewed-journals",
+    "href": "publications.html#selected-peer-reviewed-journals",
+    "title": "Publications",
+    "section": "",
+    "text": "Deep Learning for Global Shoreline Mapping: Challenges and Opportunities\nRivera, A., Smith, J., & Doe, L.\n[Nature Communications Earth & Environment, 2025]\nDOI: 10.1038/s43247-025-00123-x\n\n\nUrban Heat Inequality: A Spatial Analysis of 50 Global Cities\nRivera, A., & Zhang, Y.\n[Global Environmental Change, 2024]\nDOI: 10.1016/j.gloenvcha.2024.102834\n\n\nGeoFlow-Py: Scaling Hydrological Models with Dask\nRivera, A., & Wilson, K.\n[Journal of Open Source Software (JOSS), 2023]\nDOI: 10.21105/joss.05202"
+  },
+  {
+    "objectID": "publications.html#book-chapters",
+    "href": "publications.html#book-chapters",
+    "title": "Publications",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nRivera, A. (2023). “Remote Sensing in the Anthropocene.” In Modern Geography: A Review. Springer."
+  }
+]
