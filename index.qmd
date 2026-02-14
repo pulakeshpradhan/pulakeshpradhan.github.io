@@ -1,12 +1,41 @@
 ---
 title: "Pulakesh Pradhan"
 listing:
-  id: latest-posts
-  contents: posts
-  sort: "date desc"
-  type: grid
-  max-items: 6
-  categories: false
+  - id: latest-posts
+    contents: posts
+    sort: "date desc"
+    type: grid
+    max-items: 3
+    categories: false
+  - id: latest-innovations
+    contents: 
+      - title: "Spectral Reflectance Curve"
+        description: "Analyze spectral signatures across multiple bands."
+        path: "https://spatialgeography.projects.earthengine.app/view/spectral"
+        image: "https://placehold.co/400x200/2c7da0/ffffff?text=Spectral+Curve"
+      - title: "Phenology Signature"
+        description: "Crop classification based on phenological patterns."
+        path: "https://spatialgeography.projects.earthengine.app/view/signature"
+        image: "https://placehold.co/400x200/2c7da0/ffffff?text=Phenology+App"
+      - title: "GEE AI Assistant"
+        description: "Gemini-powered coding assistant for Earth Engine."
+        path: "software.qmd"
+        image: "images/geeai.jpg"
+    type: grid
+    max-items: 3
+  - id: recent-pubs
+    contents:
+      - title: "Agricultural drought monitoring using GEE"
+        description: "Study of Paschim Medinipur district, West Bengal (2024)."
+        path: "publications.qmd"
+      - title: "Flood vulnerability mapping in Odisha"
+        description: "AHP-based study in Google Earth Engine (2025)."
+        path: "publications.qmd"
+      - title: "Drought Monitoring with Gemini API"
+        description: "Presentation at GDG Earth Engine Nairobi."
+        path: "publications.qmd"
+    type: grid
+    max-items: 3
 page-layout: full
 ---
 
@@ -23,7 +52,7 @@ page-layout: full
 ::: {.social-links}
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}
 [<i class="bi bi-github"></i> Github](https://github.com/pulakeshpradhan/){.social-btn}
-[<i class="bi bi-mortarboard"></i> Google Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
+[<i class="bi bi-mortarboard"></i> Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
 [<i class="bi bi-youtube"></i> YouTube](https://www.youtube.com/@SpatialGeography){.social-btn}
 [<i class="bi bi-envelope"></i> Email](mailto:pulakesh.mid@gmail.com){.social-btn}
 :::
@@ -31,7 +60,11 @@ page-layout: full
 :::
 
 ::: {.g-col-12 .g-col-md-7 .bio-column}
-I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. My work leverages Google Earth Engine and AI to solve complex spatial problems.
+::: {.bio-text}
+I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. My work focuses on leveraging Google Earth Engine (GEE), Machine Learning, and Cloud Computing to solve complex environmental and spatial problems.
+
+Currently, I am exploring the fusion of Artificial Intelligence with Earth Observation data to improve agricultural monitoring and disaster management. I am passionate about open-source development and have created several Python packages to simplify GEE workflows for the research community.
+:::
 
 [**View full CV →**](cv.qmd){.cv-link}
 :::
@@ -44,4 +77,16 @@ I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensi
 ::: {#latest-posts}
 :::
 
-[View all posts →](blog.qmd){.btn .btn-outline-primary .mt-3}
+<hr>
+
+## 🚀 Featured Innovations
+::: {#latest-innovations}
+:::
+
+<hr>
+
+## 📚 Recent Work
+::: {#recent-pubs}
+:::
+
+[View all publications →](publications.qmd){.btn .btn-outline-primary .mt-3}

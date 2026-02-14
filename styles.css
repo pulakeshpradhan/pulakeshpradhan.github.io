@@ -100,35 +100,37 @@ h3 {
 
 .bio-column {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+}
+
+.bio-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-muted);
 }
 
 .cv-link {
     color: var(--brand-secondary);
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-decoration: none;
-    margin: 15px 0;
+    margin: 10px 0;
     display: inline-block;
+    font-weight: 600;
 }
 
 /* Section Header styling */
 h2 {
     border-bottom: 2px solid #e2e8f0;
     padding-bottom: 8px;
-    margin-top: 30px;
+    margin-top: 15px;
+    /* Reduced */
     position: relative;
+    font-size: 1.5rem;
+    /* Smaller */
 }
 
-h2::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 50px;
-    height: 2px;
-    background: var(--brand-primary);
+hr {
+    margin: 2rem 0;
+    opacity: 0.1;
 }
 
 /* Grid & Card Styling for Innovations */
