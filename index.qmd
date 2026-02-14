@@ -12,46 +12,27 @@ page-layout: full
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-4 .profile-column}
+::: {.g-col-12 .g-col-md-5 .profile-column}
 ::: {.profile-card}
 ![](images/pulakesh.jpg){.profile-img}
 
 # Pulakesh Pradhan
-### Geographer | GIS Specialist
 
 ::: {.social-links}
 [LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}
 [Github](https://github.com/pulakeshpradhan){.social-btn}
 [Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
 [YouTube](https://www.youtube.com/@SpatialGeography){.social-btn}
+[Email](mailto:pulakesh.mid@gmail.com){.social-btn}
 :::
 :::
 :::
 
-::: {.g-col-12 .g-col-md-8 .bio-column}
+::: {.g-col-12 .g-col-md-7 .bio-column}
 I am a Geographer and Spatial Data Scientist specialized in GIS and Remote Sensing. My work leverages Google Earth Engine and AI to solve complex spatial problems.
 
 [**View full CV →**](cv.qmd){.cv-link}
 
-## 🎓 Education
-- **Department of Geography**, Ravenshaw University
-- **Focus:** GIS, Remote Sensing, Google Earth Engine
-
-## ✨ Key Highlights
-- **Resource Person:** MSBD University & Centurion University
-- **Developer:** Creator of `geeadvance`, `deepgee`, and `geeassist`
-- **YouTube Creator:** Founder of "Spatial Geography" channel
-
-::: {.home-stats}
-[**418+** YouTube Subscribers]{.stat}
-[**7,000+** Views]{.stat}
-[**3+** Python Packages]{.stat}
-:::
-
-## 🚀 Quick Links
-[Spectral Curve App](https://spatialgeography.projects.earthengine.app/view/spectral) | [Phenology App](https://spatialgeography.projects.earthengine.app/view/signature) | [Flood Tool](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility)
-
-[Explore Innovations →](software.qmd)
 :::
 
 :::
