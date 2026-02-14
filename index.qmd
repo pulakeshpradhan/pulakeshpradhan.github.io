@@ -1,5 +1,12 @@
 ---
 title: "Welcome"
+listing:
+  id: latest-posts
+  contents: posts
+  sort: "date desc"
+  type: grid
+  max-items: 3
+  categories: false
 ---
 
 ::: {.hero-banner}
@@ -11,27 +18,9 @@ title: "Welcome"
 
 I am a geographer and spatial data scientist specialized in GIS and Remote Sensing.
 
-## Upcoming Events
+## Latest Posts
 
-::: {.event-card}
-### [International Cartographic Conference 2026]{.text-secondary}
-**Date:** March 15-20, 2026  
-**Location:** Tokyo, Japan  
-**Role:** Keynote Speaker on "The Future of Open Source GIS"
+::: {#latest-posts}
 :::
 
-::: {.event-card}
-### [AGU Fall Meeting - Session on Remote Sensing]{.text-secondary}
-**Date:** May 12, 2026  
-**Location:** Virtual  
-**Role:** Presenting "Automated Shoreline Detection using Sentinel-2"
-:::
-
-::: {.event-card}
-### [Workshop: Spatial Data Science with Python]{.text-secondary}
-**Date:** June 05, 2026  
-**Location:** University of California, Berkeley  
-**Role:** Instructor
-:::
-
-[View all past events →](presentations.qmd)
+[View all posts →](blog.qmd)
