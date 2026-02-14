@@ -161,16 +161,20 @@ h2::after {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Gallery Styling */
+/* Gallery Image Styling (Matching Requested Aesthetic) */
 .quarto-layout-row {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .lightbox img {
-    border-radius: 10px;
-    transition: transform 0.2s ease;
+    border-radius: 20px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+    background-color: #f1f5f9;
 }
 
 .lightbox img:hover {
-    transform: scale(1.02);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
 }
