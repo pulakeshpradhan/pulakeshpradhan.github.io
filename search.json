@@ -4,35 +4,35 @@
     "href": "innovations.html",
     "title": "Innovations",
     "section": "",
-    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists.\nMy work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists.\n:::\n:::\n:::"
   },
   {
     "objectID": "innovations.html#earth-engine-apps",
     "href": "innovations.html#earth-engine-apps",
     "title": "Innovations",
     "section": "🌍 Earth Engine Apps",
-    "text": "🌍 Earth Engine Apps\n\n\n ::: {.software-card-body} ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization.\n\n Visit App  GitHub\n\n\n\n\n ::: {.software-card-body} ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis.\n\n Visit App  GitHub\n\n\n:::\n\n ::: {.software-card-body} ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.\n\n Visit App  GitHub\n\n\n:::\n\n ::: {.software-card-body} ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support.\n\n Visit App  GitHub\n\n\n:::\n:::"
+    "text": "🌍 Earth Engine Apps\n\n\n ::: {.innovation-card-label} Spectral Reflectance Curve\n\n\n App  GitHub\n\n\n\n ::: {.innovation-card-label} Phenology Signature\n\n\n App  GitHub"
   },
   {
     "objectID": "innovations.html#python-packages",
     "href": "innovations.html#python-packages",
     "title": "Innovations",
     "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n ::: {.software-card-body} ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows.\n\n PyPI  GitHub\n\n\n\n\n ::: {.software-card-body} ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.\n\n PyPI  GitHub\n\n\n:::\n\n ::: {.software-card-body} ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.\n\n PyPI  GitHub\n\n\n:::\n:::"
+    "text": "📦 Python Packages\n\n\n ::: {.innovation-card-label} geeadvance\n\n\n PyPI  GitHub\n\n\n\n ::: {.innovation-card-label} deepgee\n\n\n PyPI  GitHub\n\n:::\n\n ::: {.innovation-card-label} geeassist\n\n\n PyPI  GitHub\n\n:::\n:::"
   },
   {
     "objectID": "innovations.html#r-library",
     "href": "innovations.html#r-library",
     "title": "Innovations",
     "section": "📚 R Library",
-    "text": "📚 R Library\n\n\n ::: {.software-card-body} ### rpygee A wrapper for running Google Earth Engine Python API within the R environment seamlessly.\n\n Documentation  GitHub\n\n\n\n:::"
+    "text": "📚 R Library\n\n\n ::: {.innovation-card-label} rpygee\n\n\n Docs  GitHub\n\n\n:::"
   },
   {
     "objectID": "innovations.html#extensions-tools",
     "href": "innovations.html#extensions-tools",
     "title": "Innovations",
     "section": "🛠️ Extensions & Tools",
-    "text": "🛠️ Extensions & Tools\n\n\n ::: {.software-card-body} ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.\n\n Web Store  GitHub\n\n\n\n\n ::: {.software-card-body} ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation.\n\n Web Store\n\n\n:::\n:::\n:::\n:::\n:::"
+    "text": "🛠️ Extensions & Tools\n\n\n ::: {.innovation-card-label} GEE AI Assistant\n\n\n Store  GitHub\n\n\n\n ::: {.innovation-card-label} Quick Screenshot\n\n\n Store\n\n:::\n:::\n:::\n:::\n:::\n:::\n:::\n:::"
   },
   {
     "objectID": "events/gdg-nairobi.html",
@@ -319,20 +319,20 @@
     "href": "courses.html#geospatial-programming",
     "title": "Courses",
     "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n ::: {.software-card-body} ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n ::: {.software-card-body} ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n:::\n\n ::: {.software-card-body} ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n:::\n:::"
+    "text": "💻 Geospatial Programming\n\n\n ::: {.course-card-body} ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n ::: {.course-card-body} ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n:::\n\n ::: {.course-card-body} ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n:::\n:::"
   },
   {
     "objectID": "courses.html#gis-spatial-reference",
     "href": "courses.html#gis-spatial-reference",
     "title": "Courses",
     "section": "🚀 GIS & Spatial Reference",
-    "text": "🚀 GIS & Spatial Reference\n\n\n ::: {.software-card-body} ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n ::: {.software-card-body} ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE.\n\n Visit Course\n\n\n:::\n:::"
+    "text": "🚀 GIS & Spatial Reference\n\n\n ::: {.course-card-body} ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n ::: {.course-card-body} ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE.\n\n Visit Course\n\n\n:::\n:::"
   },
   {
     "objectID": "courses.html#academic-writing-tools",
     "href": "courses.html#academic-writing-tools",
     "title": "Courses",
     "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n ::: {.software-card-body} ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n ::: {.software-card-body} ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course\n\n\n:::\n:::\n:::\n:::\n:::"
+    "text": "✍️ Academic Writing & Tools\n\n\n ::: {.course-card-body} ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n ::: {.course-card-body} ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course\n\n\n:::\n:::\n:::\n:::\n:::"
   }
 ]
