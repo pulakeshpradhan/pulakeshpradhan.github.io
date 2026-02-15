@@ -4,7 +4,7 @@ title: "Curriculum Vitae"
 
 <div class="cv-header">
 # Pulakesh Pradhan
-### Geographer | GIS Specialist 
+### Geographer | GIS Enthusiast 
 </div>
 
 ---
@@ -32,10 +32,10 @@ title: "Curriculum Vitae"
 **UGC-SRF (Senior Research Fellow)**  
 
 ## 🛠️ Technical Skills
-**Programming:** `Python`, `R`, `JavaScript` 
+**Programming:** `Python`, `R`, `JavaScript`, `LaTeX` 
 **GIS & Remote Sensing:** `Google Earth Engine`, `ArcGIS Pro`, `QGIS`  
 **Data Science:** `Machine Learning`, `Phenology Analysis`  
-**Tools & Workflow:** `LaTeX`, `Git/GitHub`, `Chrome Extension Development`
+**Tools & Workflow:** `Git/GitHub`, `Chrome Extension Development`
 
 ## 💼 Professional Experience
 **Resource Person** | Maharaja Sriram Chandra Bhanja Deo University  
@@ -57,6 +57,7 @@ title: "Curriculum Vitae"
 ## 🏆 Honors & Awards
 - **Senior Research Fellowship (UGC-SRF)** 
 - **Junior Research Fellowship (UGC-JRF)** 
+- **Association of Indian Universities Eastern Zone Runnerup 2023**  
 
 ## 🤝 Professional Memberships
 - **Life Member**, National Association of Geographers, India (NAGI) | *Oct. 2025 - Present*
