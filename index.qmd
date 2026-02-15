@@ -71,7 +71,7 @@ page-layout: full
 
 # Pulakesh Pradhan
 ### PhD Scholar in Geography, MPhil, UGC-SRF
-*Spatial Geography: Where Exploration Meets Earth’s Spatial Story...*
+*Fooding | Coading | Writing | Exercising*
 
 ::: {.social-links}
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}

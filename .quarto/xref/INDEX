@@ -25,5 +25,50 @@
   },
   "tutorials.qmd": {
     "tutorials.html": "c055659e"
+  },
+  "courses.qmd": {
+    "courses.html": "1f469254"
+  },
+  "events/agri-mooc.qmd": {
+    "agri-mooc.html": "9a93548b"
+  },
+  "events/bhu-workshop.qmd": {
+    "bhu-workshop.html": "cd17edd8"
+  },
+  "events/gdg-nairobi.qmd": {
+    "gdg-nairobi.html": "fcc76539"
+  },
+  "events/icc-2026.qmd": {
+    "icc-2026.html": "329b51e5"
+  },
+  "events.qmd": {
+    "events.html": "50d1c8ce"
+  },
+  "gallery.qmd": {
+    "gallery.html": "e2043313"
+  },
+  "innovations.qmd": {
+    "innovations.html": "4896396b"
+  },
+  "posts/academic-journey/index.qmd": {
+    "index.html": "3b9217ca"
+  },
+  "posts/beyond-gee/index.qmd": {
+    "index.html": "e7cbf8ed"
+  },
+  "posts/earthengine/cloudgis.qmd": {
+    "cloudgis.html": "362b9007"
+  },
+  "posts/flood-mapping/index.qmd": {
+    "index.html": "49e970af"
+  },
+  "posts/gee-tips/index.qmd": {
+    "index.html": "9dd91a4d"
+  },
+  "posts/python-gis/index.qmd": {
+    "index.html": "55f0884f"
+  },
+  "posts/remote-sensing-ai/index.qmd": {
+    "index.html": "7b1252d5"
   }
 }
