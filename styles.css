@@ -258,16 +258,68 @@ h2 {
     font-size: 0.775rem;
 }
 
-/* Gallery - Circular aesthetics where appropriate */
-.lightbox img {
-    border-radius: 16px !important;
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1) !important;
-    transition: all 0.5s ease;
+/* Professional Academic Gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
 }
 
-.lightbox img:hover {
-    transform: scale(1.02);
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2) !important;
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-color: var(--brand-primary);
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-caption {
+    padding: 12px 15px;
+    background: white;
+    border-top: 1px solid #f1f5f9;
+}
+
+.gallery-caption strong {
+    display: block;
+    font-size: 0.95rem;
+    color: #1e293b;
+    margin-bottom: 3px;
+}
+
+.gallery-caption span {
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+/* Lightbox specific overrides for professional look */
+.gslide-description {
+    background: rgba(255, 255, 255, 0.95) !important;
+    color: #1e293b !important;
+}
+
+.gslide-title {
+    color: var(--brand-primary) !important;
+    font-weight: 700 !important;
 }
 
 /* Horizontal Rules */
