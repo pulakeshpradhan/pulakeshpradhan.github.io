@@ -1,5 +1,6 @@
 ---
 title: "Innovations"
+toc: true
 ---
 
 My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists.
