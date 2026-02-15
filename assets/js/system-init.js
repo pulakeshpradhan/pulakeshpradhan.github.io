@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="error-msg" id="auth-err">Incorrect password. Please try again.</div>
             </div>
             <div style="margin-top: 2rem; font-size: 0.8rem; color: #94a3b8;">
-                Contact <a href="mailto:pulakesh.gis@gmail.com" style="color: var(--brand-primary); text-decoration: none;">Pulakesh</a> for access.
+                Contact <a href="mailto:pulakesh.mid@gmail.com" style="color: var(--brand-primary); text-decoration: none;">Pulakesh</a> for access.
             </div>
         </div>
     `;
