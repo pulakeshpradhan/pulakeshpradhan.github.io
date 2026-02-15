@@ -11,7 +11,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-![](images/geeai.jpg)
+[<img src="images/geeai.jpg" class="nolightbox">](https://spatialgeography.projects.earthengine.app/view/spectral)
 
 ::: {.innovation-card-label}
 Spectral Reflectance Curve
@@ -28,7 +28,7 @@ Advanced tool for analyzing spectral signatures across multiple bands for land c
 :::
 
 ::: {.innovation-card}
-![](images/agrimooc.jpg)
+[<img src="images/agrimooc.jpg" class="nolightbox">](https://spatialgeography.projects.earthengine.app/view/signature)
 
 ::: {.innovation-card-label}
 Phenology Signature
@@ -45,7 +45,7 @@ Automating crop classification using multi-temporal phenological patterns and si
 :::
 
 ::: {.innovation-card}
-![](https://placehold.co/400x300/2c7da0/ffffff?text=Flood+Risk)
+[<img src="https://placehold.co/400x300/2c7da0/ffffff?text=Flood+Risk" class="nolightbox">](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility)
 
 ::: {.innovation-card-label}
 Flood Susceptibility
@@ -62,7 +62,7 @@ Analytic Hierarchy Process (AHP) implementation for rigorous regional flood vuln
 :::
 
 ::: {.innovation-card}
-![](https://placehold.co/400x300/2c7da0/ffffff?text=Odisha+Flood)
+[<img src="https://placehold.co/400x300/2c7da0/ffffff?text=Odisha+Flood" class="nolightbox">](https://spatialgeography.projects.earthengine.app/view/odishaflood)
 
 ::: {.innovation-card-label}
 Odisha Flood Map
@@ -85,7 +85,7 @@ Real-time monitoring and visualization of flood extent using SAR and multi-spect
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-![](https://placehold.co/400x300/27ae60/ffffff?text=geeadvance)
+[<img src="https://placehold.co/400x300/27ae60/ffffff?text=geeadvance" class="nolightbox">](https://pypi.org/project/geeadvance/)
 
 ::: {.innovation-card-label}
 geeadvance
@@ -102,7 +102,7 @@ A Python package for functional programming utilities to streamline Earth Engine
 :::
 
 ::: {.innovation-card}
-![](https://placehold.co/400x300/34495e/ffffff?text=deepgee)
+[<img src="https://placehold.co/400x300/34495e/ffffff?text=deepgee" class="nolightbox">](https://pypi.org/project/deepgee/)
 
 ::: {.innovation-card-label}
 deepgee
@@ -119,7 +119,7 @@ Bridge GEE datasets with Deep Learning models for automated satellite imagery cl
 :::
 
 ::: {.innovation-card}
-![](images/geeai.jpg)
+[<img src="images/geeai.jpg" class="nolightbox">](https://pypi.org/project/geeassist/)
 
 ::: {.innovation-card-label}
 geeassist
@@ -142,7 +142,7 @@ Small Python library to interact with LLMs for generating and debugging GEE code
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-![](https://placehold.co/400x300/2980b9/ffffff?text=rpygee)
+[<img src="https://placehold.co/400x300/2980b9/ffffff?text=rpygee" class="nolightbox">](https://pulakeshpradhan.github.io/rpygee/)
 
 ::: {.innovation-card-label}
 rpygee
@@ -165,7 +165,7 @@ An R wrapper providing a seamless interface to run Google Earth Engine via the P
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-![](images/geeaibg.JPG)
+[<img src="images/geeaibg.JPG" class="nolightbox">](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl)
 
 ::: {.innovation-card-label}
 GEE AI Assistant
@@ -182,7 +182,7 @@ Chrome extension that integrates Gemini AI directly into the GEE Code Editor for
 :::
 
 ::: {.innovation-card}
-![](https://placehold.co/400x300/e67e22/ffffff?text=Screenshot)
+[<img src="https://placehold.co/400x300/e67e22/ffffff?text=Screenshot" class="nolightbox">](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm)
 
 ::: {.innovation-card-label}
 Quick Screenshot

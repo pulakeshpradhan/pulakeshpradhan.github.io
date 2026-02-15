@@ -12,7 +12,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 ::: {.course-grid}
 
 ::: {.course-card}
-<img src="images/agrimooc.jpg" alt="R Spatial">
+[<img src="images/agrimooc.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/rspatial/)
 
 ::: {.course-card-body}
 ### R for Spatial Analysis
@@ -25,7 +25,7 @@ Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *
 :::
 
 ::: {.course-card}
-<img src="images/geeai.jpg" alt="GEE">
+[<img src="images/geeai.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/gee/intro.html)
 
 ::: {.course-card-body}
 ### Google Earth Engine
@@ -38,7 +38,7 @@ Interactive guide and documentation for mastering cloud-based remote sensing.
 :::
 
 ::: {.course-card}
-<img src="https://placehold.co/400x250/34495e/ffffff?text=Python" alt="Geo-Python">
+[<img src="https://placehold.co/400x250/34495e/ffffff?text=Python" class="nolightbox">](https://pulakeshpradhan.github.io/geopython/)
 
 ::: {.course-card-body}
 ### Geo-Python
@@ -57,7 +57,7 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 ::: {.course-grid}
 
 ::: {.course-card}
-<img src="images/Skills/arcpro.png" alt="Cloud GIS">
+[<img src="images/Skills/arcpro.png" class="nolightbox">](https://pulakeshpradhan.github.io/cloudgis/)
 
 ::: {.course-card-body}
 ### Cloud GIS & AI
@@ -70,7 +70,7 @@ Resources on merging cloud computing with artificial intelligence for advanced G
 :::
 
 ::: {.course-card}
-<img src="https://placehold.co/400x250/e67e22/ffffff?text=Reference" alt="Geospatial Reference">
+[<img src="https://placehold.co/400x250/e67e22/ffffff?text=Reference" class="nolightbox">](https://pulakeshpradhan.github.io/geospatial/)
 
 ::: {.course-card-body}
 ### Geospatial Reference
@@ -89,7 +89,7 @@ A quick-reference guide for common geospatial operations in Python, R, and GEE.
 ::: {.course-grid}
 
 ::: {.course-card}
-<img src="images/trainings.jpg" alt="English">
+[<img src="images/trainings.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/english/)
 
 ::: {.course-card-body}
 ### English for Academics
@@ -102,7 +102,7 @@ Essential resources for scientific writing, presentations, and clear academic co
 :::
 
 ::: {.course-card}
-<img src="https://placehold.co/400x250/2c3e50/ffffff?text=LaTeX" alt="LaTeX">
+[<img src="https://placehold.co/400x250/2c3e50/ffffff?text=LaTeX" class="nolightbox">](https://pulakeshpradhan.github.io/latex/)
 
 ::: {.course-card-body}
 ### LaTeX for Geographers
