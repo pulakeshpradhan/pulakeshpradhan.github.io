@@ -22,7 +22,7 @@ Advanced tool for analyzing spectral signatures across multiple bands for land c
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/spectral){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
+[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/spectral){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
 :::
 
 :::
@@ -39,7 +39,7 @@ Automating crop classification using multi-temporal phenological patterns and si
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/signature){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
+[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/signature){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
 :::
 
 :::
@@ -56,7 +56,7 @@ Analytic Hierarchy Process (AHP) implementation for rigorous regional flood vuln
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
+[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
 :::
 
 :::
@@ -73,7 +73,7 @@ Real-time monitoring and visualization of flood extent using SAR and multi-spect
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/odishaflood){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
+[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/odishaflood){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
 :::
 
 :::
@@ -96,7 +96,7 @@ A Python package for functional programming utilities to streamline Earth Engine
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/geeadvance/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/geeadvance){.social-btn}
+[<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/geeadvance/){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/geeadvance){.social-btn}
 :::
 
 :::
@@ -113,7 +113,7 @@ Bridge GEE datasets with Deep Learning models for automated satellite imagery cl
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/deepgee/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/deepgee){.social-btn}
+[<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/deepgee/){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/deepgee){.social-btn}
 :::
 
 :::
@@ -130,7 +130,7 @@ Small Python library to interact with LLMs for generating and debugging GEE code
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/geeassist/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/geeassist){.social-btn}
+[<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/geeassist/){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/geeassist){.social-btn}
 :::
 
 :::
@@ -153,7 +153,7 @@ An R wrapper providing a seamless interface to run Google Earth Engine via the P
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-book"></i> Docs](https://pulakeshpradhan.github.io/rpygee/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/rpygee){.social-btn}
+[<i class="bi bi-book"></i> Docs](https://pulakeshpradhan.github.io/rpygee/){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/rpygee){.social-btn}
 :::
 
 :::
@@ -176,7 +176,7 @@ Chrome extension that integrates Gemini AI directly into the GEE Code Editor for
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-browser-chrome"></i> Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/gee-ai-assistant){.social-btn}
+[<i class="bi bi-browser-chrome"></i> Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/gee-ai-assistant){.social-btn}
 :::
 
 :::
@@ -193,21 +193,8 @@ Browser tool for high-resolution geospatial map capture, optimized for academic 
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-browser-chrome"></i> Store](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm){.social-btn}
+[<i class="bi bi-browser-chrome"></i> Store](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm){.social-btn .stretched-link}
 :::
-
-:::
-
-:::
-
-:::
-
-
-:::
-
-
-:::
-
 
 :::
 

@@ -260,6 +260,8 @@ h2 {
 }
 
 .innovation-card {
+    position: relative;
+    /* For stretched link */
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 12px;
     overflow: hidden;
@@ -267,6 +269,7 @@ h2 {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 
 .innovation-card:nth-child(5n+1) {
@@ -335,6 +338,20 @@ h2 {
     padding: 6px 12px;
     font-size: 0.8rem;
     background: white;
+    position: relative;
+    z-index: 2;
+    /* Stay above stretched link */
+}
+
+/* Stretched link to make whole card clickable */
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
 }
 
 @media (max-width: 900px) {
