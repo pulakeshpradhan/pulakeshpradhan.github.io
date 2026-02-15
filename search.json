@@ -49,39 +49,53 @@
     "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
     "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Geographer | GIS Specialist | Spatial Data Scientist\n📧 pulakesh.mid@gmail.com\n📞 +91 8617812861\n🏠 Department of Geography, Ravenshaw University"
-  },
-  {
-    "objectID": "cv.html#pulakesh-pradhan",
-    "href": "cv.html#pulakesh-pradhan",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Geographer | GIS Specialist | Spatial Data Scientist\n📧 pulakesh.mid@gmail.com\n📞 +91 8617812861\n🏠 Department of Geography, Ravenshaw University"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "Education",
-    "text": "Education\n\nDepartment of Geography, Ravenshaw University\nSpecialization: GIS, Remote Sensing, Google Earth Engine"
+    "section": "📞 Contact",
+    "text": "📞 Contact\n pulakesh.mid@gmail.com\n +91 8617812861\n Ravenshaw University, Odisha, India\n LinkedIn\n Google Scholar\n GitHub"
   },
   {
     "objectID": "cv.html#technical-skills",
     "href": "cv.html#technical-skills",
     "title": "Curriculum Vitae",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nLanguages: Python, R, JavaScript, SQL\nGIS Platforms: Google Earth Engine (Expert), ArcGIS Pro, QGIS\nData Science: Geospatial AI, Deep Learning, Phenology Analysis\nTools: LaTeX, Git/GitHub, Chrome Extension Development"
+    "section": "🛠️ Technical Skills",
+    "text": "🛠️ Technical Skills\nProgramming\nPython R JavaScript SQL\nGIS & Remote Sensing\nGoogle Earth Engine ArcGIS Pro QGIS\nData Science\nGeospatial AI Deep Learning Phenology\nTools & Workflow\nLaTeX Git/GitHub Chrome Extensions"
   },
   {
-    "objectID": "cv.html#academic-highlights",
-    "href": "cv.html#academic-highlights",
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
     "title": "Curriculum Vitae",
-    "section": "Academic Highlights",
-    "text": "Academic Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nYouTube Creator: “Spatial Geography” channel (Courses on GEE, Python, R)\n\n\nView PDF Version of CV (Coming Soon)"
+    "section": "🎓 Education",
+    "text": "🎓 Education\nPhD Scholar in Geography | Ravenshaw University\nSpecialization: GIS, Remote Sensing, and Google Earth Engine\nMPhil in Geography | Ravenshaw University\nUGC-SRF (Senior Research Fellow)"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "💼 Professional Experience",
+    "text": "💼 Professional Experience\nResource Person | Maharaja Sriram Chandra Bhanja Deo University\nSept. 2025\n- Conducted workshops on GEE and spatial data science.\nResource Person | Centurion University\nMarch 2025\n- Facilitated training sessions for PG students on geospatial technologies.\nYouTube Creator | Spatial Geography\n- Developed comprehensive courses on Google Earth Engine, Python, and R for a global audience."
+  },
+  {
+    "objectID": "cv.html#selected-publications",
+    "href": "cv.html#selected-publications",
+    "title": "Curriculum Vitae",
+    "section": "📄 Selected Publications",
+    "text": "📄 Selected Publications\nPradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine.” In Modern Cartography Series. DOI: 10.1016/b978-0-443-23890-1.00011-6"
+  },
+  {
+    "objectID": "cv.html#honors-awards",
+    "href": "cv.html#honors-awards",
+    "title": "Curriculum Vitae",
+    "section": "🏆 Honors & Awards",
+    "text": "🏆 Honors & Awards\n\nSenior Research Fellowship (UGC-SRF) | 2024 - Present\nJunior Research Fellowship (UGC-JRF) | 2022 - 2024\n[Award Name Placeholder] | [Year]"
+  },
+  {
+    "objectID": "cv.html#professional-memberships",
+    "href": "cv.html#professional-memberships",
+    "title": "Curriculum Vitae",
+    "section": "🤝 Professional Memberships",
+    "text": "🤝 Professional Memberships\n\nMember, [Organization Name Placeholder]\nMember, [Organization Name Placeholder]\n\n\n\n Download Full CV (PDF)"
   },
   {
     "objectID": "events.html",
