@@ -13,36 +13,39 @@ I maintain several dedicated course sites covering various aspects of spatial da
 
 ::: {.course-card}
 <img src="images/agrimooc.jpg" alt="R Spatial">
+
 ::: {.course-card-body}
 ### R for Spatial Analysis
 Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *stars*).
 
 ::: {.card-footer}
-[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/rspatial/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/rspatial/){.social-btn .stretched-link}
 :::
 :::
 :::
 
 ::: {.course-card}
 <img src="images/geeai.jpg" alt="GEE">
+
 ::: {.course-card-body}
 ### Google Earth Engine
 Interactive guide and documentation for mastering cloud-based remote sensing.
 
 ::: {.card-footer}
-[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/gee/intro.html){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/gee/intro.html){.social-btn .stretched-link}
 :::
 :::
 :::
 
 ::: {.course-card}
 <img src="https://placehold.co/400x250/34495e/ffffff?text=Python" alt="Geo-Python">
+
 ::: {.course-card-body}
 ### Geo-Python
 Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xarray*.
 
 ::: {.card-footer}
-[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/geopython/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/geopython/){.social-btn .stretched-link}
 :::
 :::
 :::
@@ -55,24 +58,26 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 
 ::: {.course-card}
 <img src="images/Skills/arcpro.png" alt="Cloud GIS">
+
 ::: {.course-card-body}
 ### Cloud GIS & AI
 Resources on merging cloud computing with artificial intelligence for advanced GIS.
 
 ::: {.card-footer}
-[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/cloudgis/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/cloudgis/){.social-btn .stretched-link}
 :::
 :::
 :::
 
 ::: {.course-card}
 <img src="https://placehold.co/400x250/e67e22/ffffff?text=Reference" alt="Geospatial Reference">
+
 ::: {.course-card-body}
 ### Geospatial Reference
 A quick-reference guide for common geospatial operations in Python, R, and GEE.
 
 ::: {.card-footer}
-[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/geospatial/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/geospatial/){.social-btn .stretched-link}
 :::
 :::
 :::
@@ -85,33 +90,28 @@ A quick-reference guide for common geospatial operations in Python, R, and GEE.
 
 ::: {.course-card}
 <img src="images/trainings.jpg" alt="English">
+
 ::: {.course-card-body}
 ### English for Academics
 Essential resources for scientific writing, presentations, and clear academic communication.
 
 ::: {.card-footer}
-[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/english/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/english/){.social-btn .stretched-link}
 :::
 :::
 :::
 
 ::: {.course-card}
 <img src="https://placehold.co/400x250/2c3e50/ffffff?text=LaTeX" alt="LaTeX">
+
 ::: {.course-card-body}
 ### LaTeX for Geographers
 Professional document composition and high-quality thesis writing using LaTeX.
 
 ::: {.card-footer}
-[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/latex/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/latex/){.social-btn .stretched-link}
 :::
 :::
-:::
-
-:::
-
-
-:::
-
 :::
 
 :::
