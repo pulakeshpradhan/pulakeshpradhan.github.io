@@ -49,18 +49,11 @@
     "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
   },
   {
-    "objectID": "cv.html#contact",
-    "href": "cv.html#contact",
+    "objectID": "cv.html#contact-information",
+    "href": "cv.html#contact-information",
     "title": "Curriculum Vitae",
-    "section": "📞 Contact",
-    "text": "📞 Contact\n pulakesh.mid@gmail.com\n +91 8617812861\n Ravenshaw University, Odisha, India\n LinkedIn\n Google Scholar\n GitHub"
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "Curriculum Vitae",
-    "section": "🛠️ Technical Skills",
-    "text": "🛠️ Technical Skills\nProgramming\nPython R JavaScript SQL\nGIS & Remote Sensing\nGoogle Earth Engine ArcGIS Pro QGIS\nData Science\nGeospatial AI Deep Learning Phenology\nTools & Workflow\nLaTeX Git/GitHub Chrome Extensions"
+    "section": "📬 Contact Information",
+    "text": "📬 Contact Information\n\n pulakesh.mid@gmail.com |  +91 8617812861 |  Ravenshaw University, Odisha, India\n\n\n LinkedIn |  Google Scholar |  GitHub"
   },
   {
     "objectID": "cv.html#education",
@@ -68,6 +61,13 @@
     "title": "Curriculum Vitae",
     "section": "🎓 Education",
     "text": "🎓 Education\nPhD Scholar in Geography | Ravenshaw University\nSpecialization: GIS, Remote Sensing, and Google Earth Engine\nMPhil in Geography | Ravenshaw University\nUGC-SRF (Senior Research Fellow)"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "🛠️ Technical Skills",
+    "text": "🛠️ Technical Skills\nProgramming: Python, R, JavaScript, SQL\nGIS & Remote Sensing: Google Earth Engine, ArcGIS Pro, QGIS\nData Science: Geospatial AI, Deep Learning, Phenology Analysis\nTools & Workflow: LaTeX, Git/GitHub, Chrome Extension Development"
   },
   {
     "objectID": "cv.html#professional-experience",
