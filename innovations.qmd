@@ -11,7 +11,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-![Spectral Curve](images/geeai.jpg)
+![](images/geeai.jpg)
 
 ::: {.innovation-card-label}
 Spectral Reflectance Curve
@@ -28,7 +28,7 @@ Advanced tool for analyzing spectral signatures across multiple bands for land c
 :::
 
 ::: {.innovation-card}
-![Phenology signature](images/agrimooc.jpg)
+![](images/agrimooc.jpg)
 
 ::: {.innovation-card-label}
 Phenology Signature
@@ -45,7 +45,7 @@ Automating crop classification using multi-temporal phenological patterns and si
 :::
 
 ::: {.innovation-card}
-![Flood Susceptibility](https://placehold.co/400x300/2c7da0/ffffff?text=Flood+Risk)
+![](https://placehold.co/400x300/2c7da0/ffffff?text=Flood+Risk)
 
 ::: {.innovation-card-label}
 Flood Susceptibility
@@ -62,7 +62,7 @@ Analytic Hierarchy Process (AHP) implementation for rigorous regional flood vuln
 :::
 
 ::: {.innovation-card}
-![Odisha Flood Map](https://placehold.co/400x300/2c7da0/ffffff?text=Odisha+Flood)
+![](https://placehold.co/400x300/2c7da0/ffffff?text=Odisha+Flood)
 
 ::: {.innovation-card-label}
 Odisha Flood Map
@@ -85,7 +85,7 @@ Real-time monitoring and visualization of flood extent using SAR and multi-spect
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-![geeadvance](https://placehold.co/400x300/27ae60/ffffff?text=geeadvance)
+![](https://placehold.co/400x300/27ae60/ffffff?text=geeadvance)
 
 ::: {.innovation-card-label}
 geeadvance
@@ -102,7 +102,7 @@ A Python package for functional programming utilities to streamline Earth Engine
 :::
 
 ::: {.innovation-card}
-![deepgee](https://placehold.co/400x300/34495e/ffffff?text=deepgee)
+![](https://placehold.co/400x300/34495e/ffffff?text=deepgee)
 
 ::: {.innovation-card-label}
 deepgee
@@ -119,7 +119,7 @@ Bridge GEE datasets with Deep Learning models for automated satellite imagery cl
 :::
 
 ::: {.innovation-card}
-![geeassist](images/geeai.jpg)
+![](images/geeai.jpg)
 
 ::: {.innovation-card-label}
 geeassist
@@ -142,7 +142,7 @@ Small Python library to interact with LLMs for generating and debugging GEE code
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-![rpygee](https://placehold.co/400x300/2980b9/ffffff?text=rpygee)
+![](https://placehold.co/400x300/2980b9/ffffff?text=rpygee)
 
 ::: {.innovation-card-label}
 rpygee
@@ -165,7 +165,7 @@ An R wrapper providing a seamless interface to run Google Earth Engine via the P
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-![GEE AI Assistant](images/geeaibg.JPG)
+![](images/geeaibg.JPG)
 
 ::: {.innovation-card-label}
 GEE AI Assistant
@@ -182,7 +182,7 @@ Chrome extension that integrates Gemini AI directly into the GEE Code Editor for
 :::
 
 ::: {.innovation-card}
-![Quick Screenshot](https://placehold.co/400x300/e67e22/ffffff?text=Screenshot)
+![](https://placehold.co/400x300/e67e22/ffffff?text=Screenshot)
 
 ::: {.innovation-card-label}
 Quick Screenshot
