@@ -710,8 +710,47 @@ footer.nav-footer .nav-footer-center {
     user-select: none;
 }
 
-.protected-content.unlocked {
-    filter: none;
-    pointer-events: auto;
-    user-select: auto;
+/* CV Page Specific Styling */
+.cv-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.cv-header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: var(--brand-primary);
+}
+
+.cv-header h3 {
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+/* Shaded Contact Section */
+.g-col-md-4 {
+    background-color: #f1f5f9;
+    padding: 2rem;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.g-col-md-4 h2 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    border-bottom: 2px solid #cbd5e1;
+}
+
+.g-col-md-8 h2 {
+    font-size: 1.8rem;
+    color: var(--brand-primary);
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.cv-header {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border-radius: 16px;
+    margin-top: 20px;
 }
