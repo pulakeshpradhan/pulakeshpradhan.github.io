@@ -7,25 +7,32 @@
     "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
   },
   {
-    "objectID": "innovations.html#google-earth-engine-apps",
-    "href": "innovations.html#google-earth-engine-apps",
+    "objectID": "innovations.html#earth-engine-apps",
+    "href": "innovations.html#earth-engine-apps",
     "title": "Innovations",
-    "section": "🌍 Google Earth Engine Apps",
-    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization.  Visit App  GitHub\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis.  Visit App  GitHub\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.  Visit App  GitHub\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support.  Visit App  GitHub"
+    "section": "🌍 Earth Engine Apps",
+    "text": "🌍 Earth Engine Apps\n\n\n ::: {.software-card-body} ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization. ::: {.card-footer}  Visit App  GitHub\n\n\n:::\n\n ::: {.software-card-body} ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis. ::: {.card-footer}  Visit App  GitHub\n\n::: :::\n\n ::: {.software-card-body} ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping. ::: {.card-footer}  Visit App  GitHub\n\n::: :::\n\n ::: {.software-card-body} ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support. ::: {.card-footer}  Visit App  GitHub\n\n::: :::\n:::"
   },
   {
     "objectID": "innovations.html#python-packages",
     "href": "innovations.html#python-packages",
     "title": "Innovations",
     "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows.  PyPI  GitHub\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.  PyPI  GitHub\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.  PyPI  GitHub"
+    "text": "📦 Python Packages\n\n\n ::: {.software-card-body} ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows. ::: {.card-footer}  PyPI  GitHub\n\n\n:::\n\n ::: {.software-card-body} ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models. ::: {.card-footer}  PyPI  GitHub\n\n::: :::\n\n ::: {.software-card-body} ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models. ::: {.card-footer}  PyPI  GitHub\n\n::: :::\n:::"
   },
   {
-    "objectID": "innovations.html#chrome-extensions",
-    "href": "innovations.html#chrome-extensions",
+    "objectID": "innovations.html#r-library",
+    "href": "innovations.html#r-library",
     "title": "Innovations",
-    "section": "🛠️ Chrome Extensions",
-    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.  Web Store  GitHub\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation.  Web Store"
+    "section": "📚 R Library",
+    "text": "📚 R Library\n\n\n ::: {.software-card-body} ### rpygee A wrapper for running Google Earth Engine Python API within the R environment seamlessly. ::: {.card-footer}  Documentation  GitHub\n\n\n:::\n:::"
+  },
+  {
+    "objectID": "innovations.html#extensions-tools",
+    "href": "innovations.html#extensions-tools",
+    "title": "Innovations",
+    "section": "🛠️ Extensions & Tools",
+    "text": "🛠️ Extensions & Tools\n\n\n ::: {.software-card-body} ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation. ::: {.card-footer}  Web Store  GitHub\n\n\n:::\n\n ::: {.software-card-body} ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation. ::: {.card-footer}  Web Store\n\n::: :::\n:::"
   },
   {
     "objectID": "events/gdg-nairobi.html",
@@ -231,41 +238,6 @@
     "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand."
   },
   {
-    "objectID": "gallery.html#institutional-highlights",
-    "href": "gallery.html#institutional-highlights",
-    "title": "Image Gallery",
-    "section": "🏢 Institutional Highlights",
-    "text": "🏢 Institutional Highlights"
-  },
-  {
-    "objectID": "gallery.html#research-conventions",
-    "href": "gallery.html#research-conventions",
-    "title": "Image Gallery",
-    "section": "🎓 Research Conventions",
-    "text": "🎓 Research Conventions"
-  },
-  {
-    "objectID": "gallery.html#workshops-field-work",
-    "href": "gallery.html#workshops-field-work",
-    "title": "Image Gallery",
-    "section": "🌍 Workshops & Field Work",
-    "text": "🌍 Workshops & Field Work"
-  },
-  {
-    "objectID": "gallery.html#academic-meetings",
-    "href": "gallery.html#academic-meetings",
-    "title": "Image Gallery",
-    "section": "🤝 Academic Meetings",
-    "text": "🤝 Academic Meetings"
-  },
-  {
-    "objectID": "gallery.html#key-engagements",
-    "href": "gallery.html#key-engagements",
-    "title": "Image Gallery",
-    "section": "✨ Key Engagements",
-    "text": "✨ Key Engagements"
-  },
-  {
     "objectID": "posts/remote-sensing-ai/index.html",
     "href": "posts/remote-sensing-ai/index.html",
     "title": "The Future of AI in Remote Sensing",
@@ -347,20 +319,20 @@
     "href": "courses.html#geospatial-programming",
     "title": "Courses",
     "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars).  Visit Course\n\n\n ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing.  Visit Course\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray.  Visit Course"
+    "text": "💻 Geospatial Programming\n\n\n ::: {.software-card-body} ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars). ::: {.card-footer}  Visit Course\n\n\n:::\n\n ::: {.software-card-body} ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing. ::: {.card-footer}  Visit Course\n\n::: :::\n\n ::: {.software-card-body} ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray. ::: {.card-footer}  Visit Course\n\n::: :::\n:::"
   },
   {
-    "objectID": "courses.html#advanced-gis-reference",
-    "href": "courses.html#advanced-gis-reference",
+    "objectID": "courses.html#gis-spatial-reference",
+    "href": "courses.html#gis-spatial-reference",
     "title": "Courses",
-    "section": "🚀 Advanced GIS & Reference",
-    "text": "🚀 Advanced GIS & Reference\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS.  Visit Course\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE.  Visit Course"
+    "section": "🚀 GIS & Spatial Reference",
+    "text": "🚀 GIS & Spatial Reference\n\n\n ::: {.software-card-body} ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS. ::: {.card-footer}  Visit Course\n\n\n:::\n\n ::: {.software-card-body} ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE. ::: {.card-footer}  Visit Course\n\n::: :::\n:::"
   },
   {
     "objectID": "courses.html#academic-writing-tools",
     "href": "courses.html#academic-writing-tools",
     "title": "Courses",
     "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication.  Visit Course\n\n\n ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX.  Visit Course"
+    "text": "✍️ Academic Writing & Tools\n\n\n ::: {.software-card-body} ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication. ::: {.card-footer}  Visit Course\n\n\n:::\n\n ::: {.software-card-body} ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX. ::: {.card-footer}  Visit Course\n\n::: :::\n:::"
   }
 ]
