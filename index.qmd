@@ -87,7 +87,7 @@ page-layout: full
 
 <hr>
 
-## � Upcoming Events
+## 📅 Upcoming Events
 ::: {#upcoming-events}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all events](events.qmd){.social-btn .mt-2}
@@ -108,7 +108,7 @@ page-layout: full
 
 <hr>
 
-## � Featured Innovations
+## 🚀 Featured Innovations
 ::: {#latest-innovations}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all innovations](innovations.qmd){.social-btn .mt-2}

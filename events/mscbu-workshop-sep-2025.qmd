@@ -2,7 +2,7 @@
 title: "Basics of Google Earth Engine & LULC Classification"
 date: "2025-09-13"
 description: "Virtual workshop on GEE fundamentals and Land Use Land Cover classification."
-image: "../images/Events/geelogo.png"
+image: "../images/resource2.jpg"
 categories: [Past]
 ---
 
