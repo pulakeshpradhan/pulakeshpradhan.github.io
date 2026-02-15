@@ -42,11 +42,11 @@
     "text": "Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.\n View Abstract  Slides"
   },
   {
-    "objectID": "events/icc-2026.html",
-    "href": "events/icc-2026.html",
-    "title": "International Cartographic Conference",
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
     "section": "",
-    "text": "The Future of Open Source GIS\nKeynote Address | August 2026\nJoin me for a deep dive into how open-source ecosystems are transforming global mapping standards.\n Conference Link"
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
   },
   {
     "objectID": "cv.html",
@@ -95,7 +95,7 @@
     "href": "events.html#upcoming-events",
     "title": "Events & Engagements",
     "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nAI in Agriculture | Free MOOC by ICAR NAARM\n\n\nLearn AI, ML & Deep Learning for agricultural applications.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternational Cartographic Conference\n\n\nThe Future of Open Source GIS (Keynote Address).\n\n\n\n\n\n\nAug 1, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Central University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Agriculture | Free MOOC by ICAR NAARM\n\n\nLearn AI, ML & Deep Learning for agricultural applications.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "events.html#past-seminars-workshops",
@@ -221,7 +221,7 @@
     "href": "index.html#upcoming-events",
     "title": "Pulakesh Pradhan",
     "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nAI in Agriculture | Free MOOC by ICAR NAARM\n\n\nLearn AI, ML & Deep Learning for agricultural applications.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternational Cartographic Conference\n\n\nThe Future of Open Source GIS (Keynote Address).\n\n\n\n\n\n\nAug 1, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Central University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Agriculture | Free MOOC by ICAR NAARM\n\n\nLearn AI, ML & Deep Learning for agricultural applications.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
   },
   {
     "objectID": "index.html#recent-publications",
@@ -294,11 +294,18 @@
     "text": "Other Scholarly Works\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
   },
   {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
     "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Central University, Bhubaneswar"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
   },
   {
     "objectID": "events/agri-mooc.html",

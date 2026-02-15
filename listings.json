@@ -2,8 +2,8 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/gee-workshop-feb-2026.html",
       "/events/agri-mooc.html",
-      "/events/icc-2026.html",
       "/events/gdg-nairobi.html",
       "/events/bhu-workshop.html"
     ]
@@ -33,8 +33,8 @@
       "/posts/welcome/index.html",
       "/posts/academic-journey/index.html",
       "/innovations.html",
-      "/events/agri-mooc.html",
-      "/events/icc-2026.html"
+      "/events/gee-workshop-feb-2026.html",
+      "/events/agri-mooc.html"
     ]
   }
 ]
