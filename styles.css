@@ -251,8 +251,14 @@ h2 {
 
 .innovation-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .innovation-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .innovation-card {
@@ -277,11 +283,19 @@ h2 {
 }
 
 .innovation-card-label {
-    padding: 15px;
-    font-size: 1rem;
-    color: #1e293b;
-    font-weight: 500;
-    background: rgba(255, 255, 255, 0.3);
+    padding: 15px 15px 5px;
+    font-size: 1.1rem;
+    color: #0f172a;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.innovation-card-desc {
+    padding: 0 15px 15px;
+    font-size: 0.9rem;
+    color: #334155;
+    background: rgba(255, 255, 255, 0.4);
+    line-height: 1.4;
 }
 
 .innovation-card-links {
