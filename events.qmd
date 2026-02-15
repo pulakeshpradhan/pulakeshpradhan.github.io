@@ -1,5 +1,7 @@
 ---
 title: "Events & Engagements"
+description: "Explore my upcoming workshops, seminars, and conference talks on GEE and Spatial Data Science."
+image: "images/trainings.jpg"
 listing:
   - id: upcoming-events
     contents: events

@@ -12,6 +12,7 @@ website:
   open-graph:
     image: "images/pulakesh.jpg"
     locale: en_US
+  sharing: [twitter, linkedin, facebook]
   navbar:
     background: primary
     search: true

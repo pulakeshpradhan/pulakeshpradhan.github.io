@@ -1,6 +1,8 @@
 ---
 title: "Innovations"
 toc: true
+description: "Discover open-source geospatial tools, Earth Engine apps, and Python packages for spatial data science."
+image: "images/geeai.jpg"
 ---
 
 My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists.
