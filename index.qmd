@@ -69,8 +69,8 @@ page-layout: full
 <img src="images/pulakesh.jpg" class="profile-img" alt="Pulakesh Pradhan">
 </div>
 
-## Pulakesh Pradhan
-#### PhD Scholar in Geography, MPhil, UGC-SRF
+# Pulakesh Pradhan
+### PhD Scholar in Geography, MPhil, UGC-SRF
 *Spatial Geography: Where Exploration Meets Earth’s Spatial Story...*
 
 ::: {.social-links}
@@ -84,13 +84,6 @@ page-layout: full
 
 :::
 :::
-
-<hr>
-
-## 📅 Upcoming Events
-::: {#upcoming-events}
-:::
-[<i class="bi bi-arrow-right-circle"></i> View all events](events.qmd){.social-btn .mt-2}
 
 <hr>
 
@@ -112,6 +105,13 @@ page-layout: full
 ::: {#latest-innovations}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all innovations](innovations.qmd){.social-btn .mt-2}
+
+<hr>
+
+## 📅 Upcoming Events
+::: {#upcoming-events}
+:::
+[<i class="bi bi-arrow-right-circle"></i> View all events](events.qmd){.social-btn .mt-2}
 
 <hr>
 
