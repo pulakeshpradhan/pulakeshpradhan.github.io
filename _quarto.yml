@@ -24,8 +24,10 @@ website:
         text: Events
       - href: blog.qmd
         text: Blog
-      - href: tutorials.qmd
-        text: Tutorials
+      - href: innovations.qmd
+        text: Innovations
+      - href: courses.qmd
+        text: Courses
       - href: cv.qmd
         text: CV
       - href: gallery.qmd

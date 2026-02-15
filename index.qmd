@@ -19,7 +19,7 @@ listing:
         image: "https://placehold.co/400x200/2c7da0/ffffff?text=Phenology+App"
       - title: "GEE AI Assistant"
         description: "Gemini-powered coding assistant for Earth Engine."
-        path: "software.qmd"
+        path: "innovations.qmd"
         image: "images/geeai.jpg"
     type: grid
     max-items: 3
@@ -101,17 +101,17 @@ page-layout: full
 
 <hr>
 
-## 📖 Featured Tutorials
+## 🎓 Featured Courses
 ::: {#latest-tutorials}
 :::
-[<i class="bi bi-arrow-right-circle"></i> View all tutorials](tutorials.qmd){.social-btn .mt-2}
+[<i class="bi bi-arrow-right-circle"></i> View all courses](courses.qmd){.social-btn .mt-2}
 
 <hr>
 
 ## 🚀 Featured Innovations
 ::: {#latest-innovations}
 :::
-[<i class="bi bi-arrow-right-circle"></i> View all innovations](software.qmd){.social-btn .mt-2}
+[<i class="bi bi-arrow-right-circle"></i> View all innovations](innovations.qmd){.social-btn .mt-2}
 
 <hr>
 

@@ -1,35 +1,35 @@
 ---
-title: "Tutorials & Courses"
+title: "Courses"
 include-in-header: 
   text: |
     <script src="assets/js/system-init.js"></script>
 ---
 
-I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools.
+I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools.
 
 ## 💻 Geospatial Programming
 
 ::: {.software-grid}
 
 ::: {.software-card}
-![R Spatial](https://placehold.co/400x200/27ae60/ffffff?text=R+Spatial+Tutorials)
+![R Spatial](https://placehold.co/400x200/27ae60/ffffff?text=R+Spatial+Courses)
 ### R for Spatial Analysis
 Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *stars*).
-[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/rspatial/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/rspatial/){.social-btn}
 :::
 
 ::: {.software-card}
-![Google Earth Engine](https://placehold.co/400x200/2c7da0/ffffff?text=GEE+Tutorials)
+![Google Earth Engine](https://placehold.co/400x200/2c7da0/ffffff?text=GEE+Courses)
 ### Google Earth Engine
 Interactive guide and documentation for mastering cloud-based remote sensing.
-[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/gee/intro.html){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/gee/intro.html){.social-btn}
 :::
 
 ::: {.software-card}
 ![Geo-Python](https://placehold.co/400x200/34495e/ffffff?text=Geo-Python)
 ### Geo-Python
 Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xarray*.
-[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/geopython/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/geopython/){.social-btn}
 :::
 
 :::
@@ -42,14 +42,14 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 ![Cloud GIS](https://placehold.co/400x200/2980b9/ffffff?text=Cloud+GIS)
 ### Cloud GIS & AI
 Resources on merging cloud computing with artificial intelligence for advanced GIS.
-[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/cloudgis){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/cloudgis){.social-btn}
 :::
 
 ::: {.software-card}
 ![Geospatial Reference](https://placehold.co/400x200/e67e22/ffffff?text=Geospatial+Reference)
 ### Geospatial Reference
 A quick-reference guide for common geospatial operations in Python, R, and GEE.
-[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/geospatial/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/geospatial/){.social-btn}
 :::
 
 :::
@@ -62,14 +62,14 @@ A quick-reference guide for common geospatial operations in Python, R, and GEE.
 ![English for Academics](https://placehold.co/400x200/8e44ad/ffffff?text=Academic+English)
 ### English for Academics
 Essential resources for scientific writing, presentations, and clear academic communication.
-[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/english/){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/english/){.social-btn}
 :::
 
 ::: {.software-card}
 ![LaTeX](https://placehold.co/400x200/2c3e50/ffffff?text=LaTeX+for+Scientists)
 ### LaTeX for Geographers
 Professional document composition and high-quality thesis writing using LaTeX.
-[<i class="bi bi-book"></i> Visit Tutorial](https://pulakeshpradhan.github.io/latex){.social-btn}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/latex){.social-btn}
 :::
 
 :::

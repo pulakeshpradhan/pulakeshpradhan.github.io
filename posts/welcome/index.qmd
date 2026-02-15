@@ -11,7 +11,7 @@ categories: [news, education]
 Welcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers. 
 
 This blog will serve as a space for:
-- **Tutorials**: Deep dives into Google Earth Engine, Python, and R for geospatial analysis.
+- **Courses**: Deep dives into Google Earth Engine, Python, and R for geospatial analysis.
 - **Project Updates**: Behind-the-scenes looks at the development of my innovations like `geeadvance` and `deepgee`.
 - **Field Notes**: Insights from workshops, research conventions, and academic fieldwork.
 

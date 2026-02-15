@@ -26,7 +26,7 @@ include-in-header:
 ## Academic Highlights
 - **Resource Person:** Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)
 - **Resource Person:** Centurion University (March 2025)
-- **YouTube Creator:** "Spatial Geography" channel (Tutorials on GEE, Python, R)
+- **YouTube Creator:** "Spatial Geography" channel (Courses on GEE, Python, R)
 
 ---
 
