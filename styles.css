@@ -260,15 +260,40 @@ h2 {
 }
 
 .innovation-card {
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
+    border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 12px;
     overflow: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
+
+.innovation-card:nth-child(5n+1) {
+    background: #f0f7ff;
+}
+
+/* Soft Blue */
+.innovation-card:nth-child(5n+2) {
+    background: #f0fff4;
+}
+
+/* Soft Green */
+.innovation-card:nth-child(5n+3) {
+    background: #fff9f0;
+}
+
+/* Soft Cream */
+.innovation-card:nth-child(5n+4) {
+    background: #fdf2f8;
+}
+
+/* Soft Rose */
+.innovation-card:nth-child(5n+5) {
+    background: #f5f3ff;
+}
+
+/* Soft Violet */
 
 .innovation-card:hover {
     transform: translateY(-8px);
@@ -302,8 +327,8 @@ h2 {
     padding: 15px 20px;
     display: flex;
     gap: 12px;
-    background: #f8fafc;
-    border-top: 1px solid #f1f5f9;
+    background: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .innovation-card-links .social-btn {
