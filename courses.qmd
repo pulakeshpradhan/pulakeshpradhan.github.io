@@ -9,11 +9,11 @@ I maintain several dedicated course sites covering various aspects of spatial da
 
 ## 💻 Geospatial Programming
 
-::: {.software-grid}
+::: {.course-grid}
 
-::: {.software-card}
-![R Spatial](images/agrimooc.jpg)
-::: {.software-card-body}
+::: {.course-card}
+<img src="images/agrimooc.jpg" alt="R Spatial">
+::: {.course-card-body}
 ### R for Spatial Analysis
 Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *stars*).
 
@@ -23,9 +23,9 @@ Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *
 :::
 :::
 
-::: {.software-card}
-![Google Earth Engine](images/geeai.jpg)
-::: {.software-card-body}
+::: {.course-card}
+<img src="images/geeai.jpg" alt="GEE">
+::: {.course-card-body}
 ### Google Earth Engine
 Interactive guide and documentation for mastering cloud-based remote sensing.
 
@@ -35,9 +35,9 @@ Interactive guide and documentation for mastering cloud-based remote sensing.
 :::
 :::
 
-::: {.software-card}
-![Geo-Python](https://placehold.co/400x200/34495e/ffffff?text=Geo-Python)
-::: {.software-card-body}
+::: {.course-card}
+<img src="https://placehold.co/400x250/34495e/ffffff?text=Python" alt="Geo-Python">
+::: {.course-card-body}
 ### Geo-Python
 Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xarray*.
 
@@ -51,11 +51,11 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 
 ## 🚀 GIS & Spatial Reference
 
-::: {.software-grid}
+::: {.course-grid}
 
-::: {.software-card}
-![Cloud GIS](images/Skills/arcpro.png)
-::: {.software-card-body}
+::: {.course-card}
+<img src="images/Skills/arcpro.png" alt="Cloud GIS">
+::: {.course-card-body}
 ### Cloud GIS & AI
 Resources on merging cloud computing with artificial intelligence for advanced GIS.
 
@@ -65,9 +65,9 @@ Resources on merging cloud computing with artificial intelligence for advanced G
 :::
 :::
 
-::: {.software-card}
-![Geospatial Reference](https://placehold.co/400x200/e67e22/ffffff?text=Geospatial+Reference)
-::: {.software-card-body}
+::: {.course-card}
+<img src="https://placehold.co/400x250/e67e22/ffffff?text=Reference" alt="Geospatial Reference">
+::: {.course-card-body}
 ### Geospatial Reference
 A quick-reference guide for common geospatial operations in Python, R, and GEE.
 
@@ -81,11 +81,11 @@ A quick-reference guide for common geospatial operations in Python, R, and GEE.
 
 ## ✍️ Academic Writing & Tools
 
-::: {.software-grid}
+::: {.course-grid}
 
-::: {.software-card}
-![English for Academics](images/trainings.jpg)
-::: {.software-card-body}
+::: {.course-card}
+<img src="images/trainings.jpg" alt="English">
+::: {.course-card-body}
 ### English for Academics
 Essential resources for scientific writing, presentations, and clear academic communication.
 
@@ -95,9 +95,9 @@ Essential resources for scientific writing, presentations, and clear academic co
 :::
 :::
 
-::: {.software-card}
-![LaTeX](https://placehold.co/400x200/2c3e50/ffffff?text=LaTeX+for+Scientists)
-::: {.software-card-body}
+::: {.course-card}
+<img src="https://placehold.co/400x250/2c3e50/ffffff?text=LaTeX" alt="LaTeX">
+::: {.course-card-body}
 ### LaTeX for Geographers
 Professional document composition and high-quality thesis writing using LaTeX.
 
