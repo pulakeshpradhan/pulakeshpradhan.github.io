@@ -4,7 +4,7 @@ title: "Curriculum Vitae"
 
 <div class="cv-header">
 # Pulakesh Pradhan
-### Geographer | GIS Specialist | Spatial Data Scientist
+### Geographer | GIS Specialist 
 </div>
 
 ---
@@ -32,9 +32,9 @@ title: "Curriculum Vitae"
 **UGC-SRF (Senior Research Fellow)**  
 
 ## 🛠️ Technical Skills
-**Programming:** `Python`, `R`, `JavaScript`, `SQL`  
+**Programming:** `Python`, `R`, `JavaScript` 
 **GIS & Remote Sensing:** `Google Earth Engine`, `ArcGIS Pro`, `QGIS`  
-**Data Science:** `Geospatial AI`, `Deep Learning`, `Phenology Analysis`  
+**Data Science:** `Machine Learning`, `Phenology Analysis`  
 **Tools & Workflow:** `LaTeX`, `Git/GitHub`, `Chrome Extension Development`
 
 ## 💼 Professional Experience
@@ -55,9 +55,8 @@ title: "Curriculum Vitae"
 **Pradhan, P.** (2024). "Agricultural drought monitoring using Google Earth Engine." In *Modern Cartography Series*. [DOI: 10.1016/b978-0-443-23890-1.00011-6](https://doi.org/10.1016/b978-0-443-23890-1.00011-6)
 
 ## 🏆 Honors & Awards
-- **Senior Research Fellowship (UGC-SRF)** | *2024 - Present*
-- **Junior Research Fellowship (UGC-JRF)** | *2022 - 2024*
-- [Award Name Placeholder] | *[Year]*  
+- **Senior Research Fellowship (UGC-SRF)** 
+- **Junior Research Fellowship (UGC-JRF)** 
 
 ## 🤝 Professional Memberships
 - **Life Member**, National Association of Geographers, India (NAGI) | *Oct. 2025 - Present*
