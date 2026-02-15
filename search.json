@@ -42,95 +42,144 @@
     "text": "Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.\n View Abstract  Slides"
   },
   {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
+    "objectID": "events/mscbu-workshop-sep-2025.html",
+    "href": "events/mscbu-workshop-sep-2025.html",
+    "title": "Basics of Google Earth Engine & LULC Classification",
     "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
+    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "Event Overview",
+    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
     "section": "",
-    "text": "Geographer | GIS Specialist | Spatial Data Scientist\n📧 pulakesh.mid@gmail.com\n📞 +91 8617812861\n🏠 Department of Geography, Ravenshaw University"
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
   },
   {
-    "objectID": "cv.html#pulakesh-pradhan",
-    "href": "cv.html#pulakesh-pradhan",
-    "title": "Curriculum Vitae",
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Geographer | GIS Specialist | Spatial Data Scientist\n📧 pulakesh.mid@gmail.com\n📞 +91 8617812861\n🏠 Department of Geography, Ravenshaw University"
+    "text": "Pradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation.  ResearchGate  DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal.” In Modern Cartography Series.  ResearchGate  DOI: 10.1016/j.mcs.2024.011"
   },
   {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "Education",
-    "text": "Education\n\nDepartment of Geography, Ravenshaw University\nSpecialization: GIS, Remote Sensing, Google Earth Engine"
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "Curriculum Vitae",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nLanguages: Python, R, JavaScript, SQL\nGIS Platforms: Google Earth Engine (Expert), ArcGIS Pro, QGIS\nData Science: Geospatial AI, Deep Learning, Phenology Analysis\nTools: LaTeX, Git/GitHub, Chrome Extension Development"
-  },
-  {
-    "objectID": "cv.html#academic-highlights",
-    "href": "cv.html#academic-highlights",
-    "title": "Curriculum Vitae",
-    "section": "Academic Highlights",
-    "text": "Academic Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nYouTube Creator: “Spatial Geography” channel (Courses on GEE, Python, R)\n\n\nView PDF Version of CV (Coming Soon)"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events & Engagements",
+    "objectID": "publications.html#peer-reviewed-journal-articles",
+    "href": "publications.html#peer-reviewed-journal-articles",
+    "title": "Publications",
     "section": "",
-    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
+    "text": "Pradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation.  ResearchGate  DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal.” In Modern Cartography Series.  ResearchGate  DOI: 10.1016/j.mcs.2024.011"
   },
   {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events & Engagements",
-    "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Agriculture | Free MOOC by ICAR NAARM\n\n\nLearn AI, ML & Deep Learning for agricultural applications.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items"
+    "objectID": "publications.html#conference-presentations-workshops",
+    "href": "publications.html#conference-presentations-workshops",
+    "title": "Publications",
+    "section": "Conference Presentations & Workshops",
+    "text": "Conference Presentations & Workshops\n\nPradhan, P. (2024). “Drought Monitoring with GEE AI Assistant powered by Gemini API.” GDG for Earth Engine Nairobi (Virtual).  Presentation  Details"
   },
   {
-    "objectID": "events.html#past-seminars-workshops",
-    "href": "events.html#past-seminars-workshops",
-    "title": "Events & Engagements",
-    "section": "🏛️ Past Seminars & Workshops",
-    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine Nairobi\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items"
+    "objectID": "publications.html#other-scholarly-works",
+    "href": "publications.html#other-scholarly-works",
+    "title": "Publications",
+    "section": "Other Scholarly Works",
+    "text": "Other Scholarly Works\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
   },
   {
-    "objectID": "events.html#call-for-abstracts-participation",
-    "href": "events.html#call-for-abstracts-participation",
-    "title": "Events & Engagements",
-    "section": "📄 Call for Abstracts & Participation",
-    "text": "📄 Call for Abstracts & Participation\nStay tuned for upcoming calls for abstracts in the regional and international geography congresses I am co-organizing.\n\nState Level Seminar on Geoinformatics (Upcoming Q4 2026)\nSpecial Issue on AI for Earth Observation - Open for submissions\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
-  },
-  {
-    "objectID": "posts/gee-tips/index.html",
-    "href": "posts/gee-tips/index.html",
-    "title": "Top 5 Tips for Google Earth Engine Developers",
+    "objectID": "posts/earthengine/cloudgis.html",
+    "href": "posts/earthengine/cloudgis.html",
+    "title": "Why in Cloud GIS Google Earth Engien is the only option left?",
     "section": "",
-    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
+    "text": "Why Cloud GIS?\nThe Cloud GIS is the new paradigm in GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS.\nWith the advancement of the Google Earth Engine this concept has become more popular."
   },
   {
-    "objectID": "posts/academic-journey/index.html",
-    "href": "posts/academic-journey/index.html",
-    "title": "My Journey in Spatial Data Science",
+    "objectID": "posts/python-gis/index.html",
+    "href": "posts/python-gis/index.html",
+    "title": "Modern GIS with Python: Beyond the Desktop",
     "section": "",
-    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
+    "text": "Python has become the de-facto language for spatial data science…"
   },
   {
-    "objectID": "posts/flood-mapping/index.html",
-    "href": "posts/flood-mapping/index.html",
-    "title": "Advanced Flood Mapping using AHP and GEE",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Academic Blog",
     "section": "",
-    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
+    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Courses: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
+  },
+  {
+    "objectID": "posts/remote-sensing-ai/index.html",
+    "href": "posts/remote-sensing-ai/index.html",
+    "title": "The Future of AI in Remote Sensing",
+    "section": "",
+    "text": "How deep learning is changing how we interpret satellite imagery…"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Image Gallery",
+    "section": "",
+    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "Fooding | Coading | Writing | Exercising\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
+  },
+  {
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "Pulakesh Pradhan",
+    "section": "� Upcoming Events",
+    "text": "� Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Agriculture | Free MOOC by ICAR NAARM\n\n\nLearn AI, ML & Deep Learning for agricultural applications.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
+  },
+  {
+    "objectID": "index.html#latest-insights",
+    "href": "index.html#latest-insights",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Insights",
+    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nThe Future of Google Earth Engine: Balancing Cloud Power with Local Control\n\n\nExploring the pros and cons of GEE in the current quota-limited landscape and why a hybrid ‘Cloud-Local’ workflow is the key to a sustainable geospatial career.\n\n\n\nPulakesh Pradhan\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy in Cloud GIS Google Earth Engien is the only option left?\n\n\nWhile cloud GIS is popular but the processing environment and ease of use is the main bottleneck.\n\n\n\nPulakesh Pradhan\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 13, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
+  },
+  {
+    "objectID": "index.html#featured-courses",
+    "href": "index.html#featured-courses",
+    "title": "Pulakesh Pradhan",
+    "section": "🎓 Featured Courses",
+    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nR for Spatial\n\n\nGuide to spatial analysis using R.\n\n\n\n\n\n\n\n\n\n\n\n\nGEE Tutorials\n\n\nCloud-based remote sensing with Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nGeo-Python\n\n\nSpatial data science with Python.\n\n\n\n\n\nNo matching items\n\n View all courses"
+  },
+  {
+    "objectID": "index.html#featured-innovations",
+    "href": "index.html#featured-innovations",
+    "title": "Pulakesh Pradhan",
+    "section": "� Featured Innovations",
+    "text": "� Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Pulakesh Pradhan",
+    "section": "📚 Recent Publications",
+    "text": "📚 Recent Publications\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\nGEE AI Assistant for Drought Monitoring\n\n\nPresentation on Gemini-powered coding assistant for Earth Engine at GDG Nairobi.\n\n\n\n\n\nNo matching items\n\n View all publications"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "The Future of Google Earth Engine: Balancing Cloud Power with Local Control\n\n\n\nGoogle Earth Engine\n\nPython\n\nR\n\nGeospatial Strategy\n\n\n\nExploring the pros and cons of GEE in the current quota-limited landscape and why a hybrid ‘Cloud-Local’ workflow is the key to a sustainable geospatial career.\n\n\n\n\n\nFeb 15, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWhy in Cloud GIS Google Earth Engien is the only option left?\n\n\n\nOpen Source\n\nGIS\n\nPython\n\nCloud\n\n\n\nWhile cloud GIS is popular but the processing environment and ease of use is the main bottleneck.\n\n\n\n\n\nFeb 15, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\nGEE\n\ntips\n\n\n\n\n\n\n\n\n\nFeb 13, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\nPython\n\nGIS\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\nAHP\n\nGEE\n\nResearch\n\n\n\n\n\n\n\n\n\nFeb 11, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Future of AI in Remote Sensing\n\n\n\nAI\n\nRemote Sensing\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Academic Blog\n\n\n\nnews\n\neducation\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nMy Journey in Spatial Data Science\n\n\n\nPersonal\n\nCareer\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/beyond-gee/index.html",
@@ -182,130 +231,95 @@
     "text": "Google Earth Engine is a starting point, not a destination. By utilizing the cloud for what it does best—crunching massive numbers—and utilizing local environments for what they do best—precision and aesthetic control—you ensure that your geospatial career remains resilient, affordable, and high-quality.\nThe future belongs to those who can bridge the gap between the Cloud and the Desktop."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "posts/flood-mapping/index.html",
+    "href": "posts/flood-mapping/index.html",
+    "title": "Advanced Flood Mapping using AHP and GEE",
     "section": "",
-    "text": "The Future of Google Earth Engine: Balancing Cloud Power with Local Control\n\n\n\nGoogle Earth Engine\n\nPython\n\nR\n\nGeospatial Strategy\n\n\n\nExploring the pros and cons of GEE in the current quota-limited landscape and why a hybrid ‘Cloud-Local’ workflow is the key to a sustainable geospatial career.\n\n\n\n\n\nFeb 15, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWhy in Cloud GIS Google Earth Engien is the only option left?\n\n\n\nOpen Source\n\nGIS\n\nPython\n\nCloud\n\n\n\nWhile cloud GIS is popular but the processing environment and ease of use is the main bottleneck.\n\n\n\n\n\nFeb 15, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\nGEE\n\ntips\n\n\n\n\n\n\n\n\n\nFeb 13, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\nPython\n\nGIS\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\nAHP\n\nGEE\n\nResearch\n\n\n\n\n\n\n\n\n\nFeb 11, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Future of AI in Remote Sensing\n\n\n\nAI\n\nRemote Sensing\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Academic Blog\n\n\n\nnews\n\neducation\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nMy Journey in Spatial Data Science\n\n\n\nPersonal\n\nCareer\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pulakesh Pradhan",
+    "objectID": "posts/academic-journey/index.html",
+    "href": "posts/academic-journey/index.html",
+    "title": "My Journey in Spatial Data Science",
     "section": "",
-    "text": "Fooding | Coading | Writing | Exercising\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
+    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
   },
   {
-    "objectID": "index.html#upcoming-events",
-    "href": "index.html#upcoming-events",
-    "title": "Pulakesh Pradhan",
-    "section": "� Upcoming Events",
-    "text": "� Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Agriculture | Free MOOC by ICAR NAARM\n\n\nLearn AI, ML & Deep Learning for agricultural applications.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
-  },
-  {
-    "objectID": "index.html#latest-insights",
-    "href": "index.html#latest-insights",
-    "title": "Pulakesh Pradhan",
-    "section": "📌 Latest Insights",
-    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nThe Future of Google Earth Engine: Balancing Cloud Power with Local Control\n\n\nExploring the pros and cons of GEE in the current quota-limited landscape and why a hybrid ‘Cloud-Local’ workflow is the key to a sustainable geospatial career.\n\n\n\nPulakesh Pradhan\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy in Cloud GIS Google Earth Engien is the only option left?\n\n\nWhile cloud GIS is popular but the processing environment and ease of use is the main bottleneck.\n\n\n\nPulakesh Pradhan\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 13, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
-  },
-  {
-    "objectID": "index.html#featured-courses",
-    "href": "index.html#featured-courses",
-    "title": "Pulakesh Pradhan",
-    "section": "🎓 Featured Courses",
-    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nR for Spatial\n\n\nGuide to spatial analysis using R.\n\n\n\n\n\n\n\n\n\n\n\n\nGEE Tutorials\n\n\nCloud-based remote sensing with Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nGeo-Python\n\n\nSpatial data science with Python.\n\n\n\n\n\nNo matching items\n\n View all courses"
-  },
-  {
-    "objectID": "index.html#featured-innovations",
-    "href": "index.html#featured-innovations",
-    "title": "Pulakesh Pradhan",
-    "section": "� Featured Innovations",
-    "text": "� Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
-  },
-  {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
-    "title": "Pulakesh Pradhan",
-    "section": "📚 Recent Publications",
-    "text": "📚 Recent Publications\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\nGEE AI Assistant for Drought Monitoring\n\n\nPresentation on Gemini-powered coding assistant for Earth Engine at GDG Nairobi.\n\n\n\n\n\nNo matching items\n\n View all publications"
-  },
-  {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Image Gallery",
+    "objectID": "posts/gee-tips/index.html",
+    "href": "posts/gee-tips/index.html",
+    "title": "Top 5 Tips for Google Earth Engine Developers",
     "section": "",
-    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
+    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
   },
   {
-    "objectID": "posts/remote-sensing-ai/index.html",
-    "href": "posts/remote-sensing-ai/index.html",
-    "title": "The Future of AI in Remote Sensing",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Engagements",
     "section": "",
-    "text": "How deep learning is changing how we interpret satellite imagery…"
+    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Academic Blog",
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events & Engagements",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Agriculture | Free MOOC by ICAR NAARM\n\n\nLearn AI, ML & Deep Learning for agricultural applications.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html#past-seminars-workshops",
+    "href": "events.html#past-seminars-workshops",
+    "title": "Events & Engagements",
+    "section": "🏛️ Past Seminars & Workshops",
+    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine Nairobi\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html#call-for-abstracts-participation",
+    "href": "events.html#call-for-abstracts-participation",
+    "title": "Events & Engagements",
+    "section": "📄 Call for Abstracts & Participation",
+    "text": "📄 Call for Abstracts & Participation\nStay tuned for upcoming calls for abstracts in the regional and international geography congresses I am co-organizing.\n\nState Level Seminar on Geoinformatics (Upcoming Q4 2026)\nSpecial Issue on AI for Earth Observation - Open for submissions\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Courses: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
+    "text": "Geographer | GIS Specialist | Spatial Data Scientist\n📧 pulakesh.mid@gmail.com\n📞 +91 8617812861\n🏠 Department of Geography, Ravenshaw University"
   },
   {
-    "objectID": "posts/python-gis/index.html",
-    "href": "posts/python-gis/index.html",
-    "title": "Modern GIS with Python: Beyond the Desktop",
+    "objectID": "cv.html#pulakesh-pradhan",
+    "href": "cv.html#pulakesh-pradhan",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Python has become the de-facto language for spatial data science…"
+    "text": "Geographer | GIS Specialist | Spatial Data Scientist\n📧 pulakesh.mid@gmail.com\n📞 +91 8617812861\n🏠 Department of Geography, Ravenshaw University"
   },
   {
-    "objectID": "posts/earthengine/cloudgis.html",
-    "href": "posts/earthengine/cloudgis.html",
-    "title": "Why in Cloud GIS Google Earth Engien is the only option left?",
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nDepartment of Geography, Ravenshaw University\nSpecialization: GIS, Remote Sensing, Google Earth Engine"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nLanguages: Python, R, JavaScript, SQL\nGIS Platforms: Google Earth Engine (Expert), ArcGIS Pro, QGIS\nData Science: Geospatial AI, Deep Learning, Phenology Analysis\nTools: LaTeX, Git/GitHub, Chrome Extension Development"
+  },
+  {
+    "objectID": "cv.html#academic-highlights",
+    "href": "cv.html#academic-highlights",
+    "title": "Curriculum Vitae",
+    "section": "Academic Highlights",
+    "text": "Academic Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nYouTube Creator: “Spatial Geography” channel (Courses on GEE, Python, R)\n\n\nView PDF Version of CV (Coming Soon)"
+  },
+  {
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
     "section": "",
-    "text": "Why Cloud GIS?\nThe Cloud GIS is the new paradigm in GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS.\nWith the advancement of the Google Earth Engine this concept has become more popular."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Pradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation.  ResearchGate  DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal.” In Modern Cartography Series.  ResearchGate  DOI: 10.1016/j.mcs.2024.011"
-  },
-  {
-    "objectID": "publications.html#peer-reviewed-journal-articles",
-    "href": "publications.html#peer-reviewed-journal-articles",
-    "title": "Publications",
-    "section": "",
-    "text": "Pradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation.  ResearchGate  DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal.” In Modern Cartography Series.  ResearchGate  DOI: 10.1016/j.mcs.2024.011"
-  },
-  {
-    "objectID": "publications.html#conference-presentations-workshops",
-    "href": "publications.html#conference-presentations-workshops",
-    "title": "Publications",
-    "section": "Conference Presentations & Workshops",
-    "text": "Conference Presentations & Workshops\n\nPradhan, P. (2024). “Drought Monitoring with GEE AI Assistant powered by Gemini API.” GDG for Earth Engine Nairobi (Virtual).  Presentation  Details"
-  },
-  {
-    "objectID": "publications.html#other-scholarly-works",
-    "href": "publications.html#other-scholarly-works",
-    "title": "Publications",
-    "section": "Other Scholarly Works",
-    "text": "Other Scholarly Works\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html",
-    "href": "events/gee-workshop-feb-2026.html",
-    "title": "Basics of Google Earth Engine",
-    "section": "",
-    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html#schedule",
-    "href": "events/gee-workshop-feb-2026.html#schedule",
-    "title": "Basics of Google Earth Engine",
-    "section": "Schedule",
-    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
   },
   {
     "objectID": "events/agri-mooc.html",

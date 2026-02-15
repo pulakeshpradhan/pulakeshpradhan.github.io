@@ -1,11 +1,18 @@
 [
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/beyond-gee/index.html",
+      "/posts/earthengine/cloudgis.html",
+      "/posts/gee-tips/index.html",
+      "/posts/python-gis/index.html",
+      "/posts/flood-mapping/index.html",
+      "/posts/remote-sensing-ai/index.html",
+      "/posts/welcome/index.html",
+      "/posts/academic-journey/index.html",
+      "/innovations.html",
       "/events/gee-workshop-feb-2026.html",
-      "/events/agri-mooc.html",
-      "/events/gdg-nairobi.html",
-      "/events/bhu-workshop.html"
+      "/events/agri-mooc.html"
     ]
   },
   {
@@ -22,19 +29,13 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
-      "/posts/beyond-gee/index.html",
-      "/posts/earthengine/cloudgis.html",
-      "/posts/gee-tips/index.html",
-      "/posts/python-gis/index.html",
-      "/posts/flood-mapping/index.html",
-      "/posts/remote-sensing-ai/index.html",
-      "/posts/welcome/index.html",
-      "/posts/academic-journey/index.html",
-      "/innovations.html",
       "/events/gee-workshop-feb-2026.html",
-      "/events/agri-mooc.html"
+      "/events/agri-mooc.html",
+      "/events/mscbu-workshop-sep-2025.html",
+      "/events/gdg-nairobi.html",
+      "/events/bhu-workshop.html"
     ]
   }
 ]
