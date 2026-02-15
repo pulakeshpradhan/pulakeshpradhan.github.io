@@ -1,0 +1,24 @@
+---
+title: "Basics of Google Earth Engine"
+date: "2026-02-16"
+description: "A 5-day virtual workshop for PG students at Central University, Bhubaneswar."
+image: "../images/Events/geelogo.png"
+categories: [Upcoming]
+---
+
+**Topic:** Basics of Google Earth Engine  
+**Trainer:** Pulakesh Pradhan  
+**Mode:** Virtual (Online)  
+**Host:** Central University, Bhubaneswar  
+
+## Schedule
+
+The workshop will be held from **7:00 PM to 9:30 PM** on the following dates:
+
+- **Monday, Feb 16, 2026**
+- **Wednesday, Feb 18, 2026**
+- **Thursday, Feb 19, 2026**
+- **Saturday, Feb 21, 2026**
+- **Sunday, Feb 22, 2026**
+
+This intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis.
