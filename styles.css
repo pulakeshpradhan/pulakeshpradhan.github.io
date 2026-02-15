@@ -240,19 +240,17 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Minimalist Innovation Grid (Based on Request Image) */
+/* Clean White Innovation Section */
 .innovation-section {
-    background: #8fb397;
-    /* Soft sage green from image */
-    padding: 60px 40px;
-    border-radius: 20px;
-    margin: 40px 0;
+    background: #ffffff;
+    padding: 40px 0;
+    margin: 20px 0;
 }
 
 .innovation-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 40px;
 }
 
 @media (max-width: 768px) {
@@ -262,52 +260,80 @@ h2 {
 }
 
 .innovation-card {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
     overflow: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
+.innovation-card:nth-child(5n+1) {
+    background: #f0f7ff;
+}
+
+/* Soft Blue */
+.innovation-card:nth-child(5n+2) {
+    background: #f0fff4;
+}
+
+/* Soft Green */
+.innovation-card:nth-child(5n+3) {
+    background: #fff9f0;
+}
+
+/* Soft Cream */
+.innovation-card:nth-child(5n+4) {
+    background: #fdf2f8;
+}
+
+/* Soft Rose */
+.innovation-card:nth-child(5n+5) {
+    background: #f5f3ff;
+}
+
+/* Soft Violet */
+
 .innovation-card:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: scale(1.02);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    border-color: var(--brand-primary);
 }
 
 .innovation-card img {
     width: 100%;
-    aspect-ratio: 4/3;
+    aspect-ratio: 16/9;
     object-fit: cover;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #f1f5f9;
 }
 
 .innovation-card-label {
-    padding: 15px 15px 5px;
-    font-size: 1.1rem;
+    padding: 20px 20px 8px;
+    font-size: 1.25rem;
     color: #0f172a;
     font-weight: 700;
-    background: rgba(255, 255, 255, 0.4);
 }
 
 .innovation-card-desc {
-    padding: 0 15px 15px;
-    font-size: 0.9rem;
-    color: #334155;
-    background: rgba(255, 255, 255, 0.4);
-    line-height: 1.4;
+    padding: 0 20px 20px;
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.6;
+    flex-grow: 1;
 }
 
 .innovation-card-links {
-    padding: 10px 15px;
+    padding: 15px 20px;
     display: flex;
-    gap: 10px;
-    background: rgba(255, 255, 255, 0.2);
+    gap: 12px;
+    background: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .innovation-card-links .social-btn {
-    padding: 4px 8px;
-    font-size: 0.7rem;
+    padding: 6px 12px;
+    font-size: 0.8rem;
     background: white;
 }
 
