@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "innovations.html",
+    "href": "innovations.html",
+    "title": "Innovations",
+    "section": "",
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
+  },
+  {
+    "objectID": "innovations.html#google-earth-engine-apps",
+    "href": "innovations.html#google-earth-engine-apps",
+    "title": "Innovations",
+    "section": "🌍 Google Earth Engine Apps",
+    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization.  Visit App  GitHub\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis.  Visit App  GitHub\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.  Visit App  GitHub\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support.  Visit App  GitHub"
+  },
+  {
+    "objectID": "innovations.html#python-packages",
+    "href": "innovations.html#python-packages",
+    "title": "Innovations",
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows.  PyPI  GitHub\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.  PyPI  GitHub\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.  PyPI  GitHub"
+  },
+  {
+    "objectID": "innovations.html#chrome-extensions",
+    "href": "innovations.html#chrome-extensions",
+    "title": "Innovations",
+    "section": "🛠️ Chrome Extensions",
+    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.  Web Store  GitHub\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation.  Web Store"
+  },
+  {
     "objectID": "events/gdg-nairobi.html",
     "href": "events/gdg-nairobi.html",
     "title": "GDG Earth Engine Nairobi",
@@ -46,7 +74,7 @@
     "href": "cv.html#academic-highlights",
     "title": "Curriculum Vitae",
     "section": "Academic Highlights",
-    "text": "Academic Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nYouTube Creator: “Spatial Geography” channel (Tutorials on GEE, Python, R)\n\n\nView PDF Version of CV (Coming Soon)"
+    "text": "Academic Highlights\n\nResource Person: Maharaja Sriram Chandra Bhanja Deo University (Sept. 2025)\nResource Person: Centurion University (March 2025)\nYouTube Creator: “Spatial Geography” channel (Courses on GEE, Python, R)\n\n\nView PDF Version of CV (Coming Soon)"
   },
   {
     "objectID": "events.html",
@@ -77,60 +105,67 @@
     "text": "📄 Call for Abstracts & Participation\nStay tuned for upcoming calls for abstracts in the regional and international geography congresses I am co-organizing.\n\nState Level Seminar on Geoinformatics (Upcoming Q4 2026)\nSpecial Issue on AI for Earth Observation - Open for submissions\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
   },
   {
-    "objectID": "posts/earthengine/cloudgis.html",
-    "href": "posts/earthengine/cloudgis.html",
-    "title": "Why in Cloud GIS Google Earth Engien is the only option left?",
+    "objectID": "posts/gee-tips/index.html",
+    "href": "posts/gee-tips/index.html",
+    "title": "Top 5 Tips for Google Earth Engine Developers",
     "section": "",
-    "text": "Why Cloud GIS?\nThe Cloud GIS is the new paradigm in GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS.\nWith the advancement of the Google Earth Engine this concept has become more popular."
+    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
   },
   {
-    "objectID": "posts/python-gis/index.html",
-    "href": "posts/python-gis/index.html",
-    "title": "Modern GIS with Python: Beyond the Desktop",
+    "objectID": "posts/academic-journey/index.html",
+    "href": "posts/academic-journey/index.html",
+    "title": "My Journey in Spatial Data Science",
     "section": "",
-    "text": "Python has become the de-facto language for spatial data science…"
+    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Academic Blog",
+    "objectID": "posts/flood-mapping/index.html",
+    "href": "posts/flood-mapping/index.html",
+    "title": "Advanced Flood Mapping using AHP and GEE",
     "section": "",
-    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Tutorials: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
+    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
   },
   {
-    "objectID": "posts/remote-sensing-ai/index.html",
-    "href": "posts/remote-sensing-ai/index.html",
-    "title": "The Future of AI in Remote Sensing",
+    "objectID": "posts/beyond-gee/index.html",
+    "href": "posts/beyond-gee/index.html",
+    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
     "section": "",
-    "text": "How deep learning is changing how we interpret satellite imagery…"
+    "text": "Google Earth Engine (GEE) has revolutionized the way we handle petabytes of satellite imagery. However, as the field of Spatial Data Science matures, many researchers are looking for open-source alternatives that offer more flexibility, data sovereignty, and integration with modern AI frameworks.\nIn this post, we explore the “Beyond GEE” ecosystem—a combination of cloud-native formats, distributed computing, and powerful programming libraries.\n\n\nThe backbone of the modern open-source stack is the Cloud Optimized GeoTIFF (COG). Unlike traditional TIFFs, COGs allow for “range requests,” meaning you only download the specific pixels you need.\nComplementing this is STAC (SpatioTemporal Asset Catalog). It provides a common language to describe geospatial datasets, making data discovery across different providers (Microsoft Planetary Computer, AWS, etc.) seamless.\n\n\n\nIf you miss the “instant” scalability of GEE, the Pangeo ecosystem is your answer. By combining Xarray (for multidimensional arrays) with Dask (for parallel computing), you can perform heavy-duty analysis on your own cluster or local machine.\n\nCheck out: odc-stac for loading STAC items into Xarray objects.\n\n\n\n\nThe Planetary Computer is perhaps the strongest competitor to GEE. It provides a massive catalog of open data and a managed JupyterHub environment (the Explorer and Hub). Since it’s built on STAC and Xarray, it provides a much more “Pythonic” experience compared to GEE’s JavaScript-centric API.\n\n\n\nFor those who prefer keeping data local or working on smaller scales: - Python: libraries like geopandas, rasterio, and rioxarray have become the industry standard. - R: The terra and sf packages offer incredible speed and reliability for spatial operations.\n\n\n\nExploring open-source options isn’t about replacing GEE entirely—it’s about adding more tools to your belt. Many of my innovations, like deepgee, actually serve as bridges between the GEE cloud and the local open-source Python ecosystem.\nBy mastering both, you become a more versatile Spatial Data Scientist, capable of handling data wherever it lives.\n\nWhat is your favorite open-source spatial tool? Let me know in the comments!"
   },
   {
-    "objectID": "tutorials.html",
-    "href": "tutorials.html",
-    "title": "Tutorials & Courses",
+    "objectID": "posts/beyond-gee/index.html#cloud-native-formats-cog-stac",
+    "href": "posts/beyond-gee/index.html#cloud-native-formats-cog-stac",
+    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
     "section": "",
-    "text": "I maintain several dedicated tutorial sites covering various aspects of spatial data science, programming, and academic tools."
+    "text": "The backbone of the modern open-source stack is the Cloud Optimized GeoTIFF (COG). Unlike traditional TIFFs, COGs allow for “range requests,” meaning you only download the specific pixels you need.\nComplementing this is STAC (SpatioTemporal Asset Catalog). It provides a common language to describe geospatial datasets, making data discovery across different providers (Microsoft Planetary Computer, AWS, etc.) seamless."
   },
   {
-    "objectID": "tutorials.html#geospatial-programming",
-    "href": "tutorials.html#geospatial-programming",
-    "title": "Tutorials & Courses",
-    "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars).  Visit Tutorial\n\n\n ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing.  Visit Tutorial\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray.  Visit Tutorial"
+    "objectID": "posts/beyond-gee/index.html#distributed-computing-with-dask-and-pangeo",
+    "href": "posts/beyond-gee/index.html#distributed-computing-with-dask-and-pangeo",
+    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
+    "section": "",
+    "text": "If you miss the “instant” scalability of GEE, the Pangeo ecosystem is your answer. By combining Xarray (for multidimensional arrays) with Dask (for parallel computing), you can perform heavy-duty analysis on your own cluster or local machine.\n\nCheck out: odc-stac for loading STAC items into Xarray objects."
   },
   {
-    "objectID": "tutorials.html#advanced-gis-reference",
-    "href": "tutorials.html#advanced-gis-reference",
-    "title": "Tutorials & Courses",
-    "section": "🚀 Advanced GIS & Reference",
-    "text": "🚀 Advanced GIS & Reference\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS.  Visit Tutorial\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE.  Visit Tutorial"
+    "objectID": "posts/beyond-gee/index.html#microsoft-planetary-computer",
+    "href": "posts/beyond-gee/index.html#microsoft-planetary-computer",
+    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
+    "section": "",
+    "text": "The Planetary Computer is perhaps the strongest competitor to GEE. It provides a massive catalog of open data and a managed JupyterHub environment (the Explorer and Hub). Since it’s built on STAC and Xarray, it provides a much more “Pythonic” experience compared to GEE’s JavaScript-centric API."
   },
   {
-    "objectID": "tutorials.html#academic-writing-tools",
-    "href": "tutorials.html#academic-writing-tools",
-    "title": "Tutorials & Courses",
-    "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication.  Visit Tutorial\n\n\n ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX.  Visit Tutorial"
+    "objectID": "posts/beyond-gee/index.html#local-processing-power",
+    "href": "posts/beyond-gee/index.html#local-processing-power",
+    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
+    "section": "",
+    "text": "For those who prefer keeping data local or working on smaller scales: - Python: libraries like geopandas, rasterio, and rioxarray have become the industry standard. - R: The terra and sf packages offer incredible speed and reliability for spatial operations."
+  },
+  {
+    "objectID": "posts/beyond-gee/index.html#why-explore-alternatives",
+    "href": "posts/beyond-gee/index.html#why-explore-alternatives",
+    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
+    "section": "",
+    "text": "Exploring open-source options isn’t about replacing GEE entirely—it’s about adding more tools to your belt. Many of my innovations, like deepgee, actually serve as bridges between the GEE cloud and the local open-source Python ecosystem.\nBy mastering both, you become a more versatile Spatial Data Scientist, capable of handling data wherever it lives.\n\nWhat is your favorite open-source spatial tool? Let me know in the comments!"
   },
   {
     "objectID": "blog.html",
@@ -168,11 +203,11 @@
     "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nWhy in Cloud GIS Google Earth Engien is the only option left?\n\n\nWhile cloud GIS is popular but the processing environment and ease of use is the main bottleneck.\n\n\n\nPulakesh Pradhan\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeyond Google Earth Engine: Exploring Open Source Options\n\n\nWhile GEE is powerful, the geospatial ecosystem offers robust open-source alternatives for cloud computing and local processing.\n\n\n\nPulakesh Pradhan\n\n\nFeb 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 13, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
   },
   {
-    "objectID": "index.html#featured-tutorials",
-    "href": "index.html#featured-tutorials",
+    "objectID": "index.html#featured-courses",
+    "href": "index.html#featured-courses",
     "title": "Pulakesh Pradhan",
-    "section": "📖 Featured Tutorials",
-    "text": "📖 Featured Tutorials\n\n\n\n\n\n\n\n\n\n\nR for Spatial\n\n\nGuide to spatial analysis using R.\n\n\n\n\n\n\n\n\n\n\n\n\nGEE Tutorials\n\n\nCloud-based remote sensing with Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nGeo-Python\n\n\nSpatial data science with Python.\n\n\n\n\n\nNo matching items\n\n View all tutorials"
+    "section": "🎓 Featured Courses",
+    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nR for Spatial\n\n\nGuide to spatial analysis using R.\n\n\n\n\n\n\n\n\n\n\n\n\nGEE Tutorials\n\n\nCloud-based remote sensing with Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nGeo-Python\n\n\nSpatial data science with Python.\n\n\n\n\n\nNo matching items\n\n View all courses"
   },
   {
     "objectID": "index.html#featured-innovations",
@@ -231,95 +266,32 @@
     "text": "✨ Key Engagements"
   },
   {
-    "objectID": "posts/beyond-gee/index.html",
-    "href": "posts/beyond-gee/index.html",
-    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
+    "objectID": "posts/remote-sensing-ai/index.html",
+    "href": "posts/remote-sensing-ai/index.html",
+    "title": "The Future of AI in Remote Sensing",
     "section": "",
-    "text": "Google Earth Engine (GEE) has revolutionized the way we handle petabytes of satellite imagery. However, as the field of Spatial Data Science matures, many researchers are looking for open-source alternatives that offer more flexibility, data sovereignty, and integration with modern AI frameworks.\nIn this post, we explore the “Beyond GEE” ecosystem—a combination of cloud-native formats, distributed computing, and powerful programming libraries.\n\n\nThe backbone of the modern open-source stack is the Cloud Optimized GeoTIFF (COG). Unlike traditional TIFFs, COGs allow for “range requests,” meaning you only download the specific pixels you need.\nComplementing this is STAC (SpatioTemporal Asset Catalog). It provides a common language to describe geospatial datasets, making data discovery across different providers (Microsoft Planetary Computer, AWS, etc.) seamless.\n\n\n\nIf you miss the “instant” scalability of GEE, the Pangeo ecosystem is your answer. By combining Xarray (for multidimensional arrays) with Dask (for parallel computing), you can perform heavy-duty analysis on your own cluster or local machine.\n\nCheck out: odc-stac for loading STAC items into Xarray objects.\n\n\n\n\nThe Planetary Computer is perhaps the strongest competitor to GEE. It provides a massive catalog of open data and a managed JupyterHub environment (the Explorer and Hub). Since it’s built on STAC and Xarray, it provides a much more “Pythonic” experience compared to GEE’s JavaScript-centric API.\n\n\n\nFor those who prefer keeping data local or working on smaller scales: - Python: libraries like geopandas, rasterio, and rioxarray have become the industry standard. - R: The terra and sf packages offer incredible speed and reliability for spatial operations.\n\n\n\nExploring open-source options isn’t about replacing GEE entirely—it’s about adding more tools to your belt. Many of my innovations, like deepgee, actually serve as bridges between the GEE cloud and the local open-source Python ecosystem.\nBy mastering both, you become a more versatile Spatial Data Scientist, capable of handling data wherever it lives.\n\nWhat is your favorite open-source spatial tool? Let me know in the comments!"
+    "text": "How deep learning is changing how we interpret satellite imagery…"
   },
   {
-    "objectID": "posts/beyond-gee/index.html#cloud-native-formats-cog-stac",
-    "href": "posts/beyond-gee/index.html#cloud-native-formats-cog-stac",
-    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Academic Blog",
     "section": "",
-    "text": "The backbone of the modern open-source stack is the Cloud Optimized GeoTIFF (COG). Unlike traditional TIFFs, COGs allow for “range requests,” meaning you only download the specific pixels you need.\nComplementing this is STAC (SpatioTemporal Asset Catalog). It provides a common language to describe geospatial datasets, making data discovery across different providers (Microsoft Planetary Computer, AWS, etc.) seamless."
+    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Courses: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
   },
   {
-    "objectID": "posts/beyond-gee/index.html#distributed-computing-with-dask-and-pangeo",
-    "href": "posts/beyond-gee/index.html#distributed-computing-with-dask-and-pangeo",
-    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
+    "objectID": "posts/python-gis/index.html",
+    "href": "posts/python-gis/index.html",
+    "title": "Modern GIS with Python: Beyond the Desktop",
     "section": "",
-    "text": "If you miss the “instant” scalability of GEE, the Pangeo ecosystem is your answer. By combining Xarray (for multidimensional arrays) with Dask (for parallel computing), you can perform heavy-duty analysis on your own cluster or local machine.\n\nCheck out: odc-stac for loading STAC items into Xarray objects."
+    "text": "Python has become the de-facto language for spatial data science…"
   },
   {
-    "objectID": "posts/beyond-gee/index.html#microsoft-planetary-computer",
-    "href": "posts/beyond-gee/index.html#microsoft-planetary-computer",
-    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
+    "objectID": "posts/earthengine/cloudgis.html",
+    "href": "posts/earthengine/cloudgis.html",
+    "title": "Why in Cloud GIS Google Earth Engien is the only option left?",
     "section": "",
-    "text": "The Planetary Computer is perhaps the strongest competitor to GEE. It provides a massive catalog of open data and a managed JupyterHub environment (the Explorer and Hub). Since it’s built on STAC and Xarray, it provides a much more “Pythonic” experience compared to GEE’s JavaScript-centric API."
-  },
-  {
-    "objectID": "posts/beyond-gee/index.html#local-processing-power",
-    "href": "posts/beyond-gee/index.html#local-processing-power",
-    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
-    "section": "",
-    "text": "For those who prefer keeping data local or working on smaller scales: - Python: libraries like geopandas, rasterio, and rioxarray have become the industry standard. - R: The terra and sf packages offer incredible speed and reliability for spatial operations."
-  },
-  {
-    "objectID": "posts/beyond-gee/index.html#why-explore-alternatives",
-    "href": "posts/beyond-gee/index.html#why-explore-alternatives",
-    "title": "Beyond Google Earth Engine: Exploring Open Source Options",
-    "section": "",
-    "text": "Exploring open-source options isn’t about replacing GEE entirely—it’s about adding more tools to your belt. Many of my innovations, like deepgee, actually serve as bridges between the GEE cloud and the local open-source Python ecosystem.\nBy mastering both, you become a more versatile Spatial Data Scientist, capable of handling data wherever it lives.\n\nWhat is your favorite open-source spatial tool? Let me know in the comments!"
-  },
-  {
-    "objectID": "posts/flood-mapping/index.html",
-    "href": "posts/flood-mapping/index.html",
-    "title": "Advanced Flood Mapping using AHP and GEE",
-    "section": "",
-    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
-  },
-  {
-    "objectID": "posts/academic-journey/index.html",
-    "href": "posts/academic-journey/index.html",
-    "title": "My Journey in Spatial Data Science",
-    "section": "",
-    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
-  },
-  {
-    "objectID": "posts/gee-tips/index.html",
-    "href": "posts/gee-tips/index.html",
-    "title": "Top 5 Tips for Google Earth Engine Developers",
-    "section": "",
-    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
-  },
-  {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Innovations",
-    "section": "",
-    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
-  },
-  {
-    "objectID": "software.html#google-earth-engine-apps",
-    "href": "software.html#google-earth-engine-apps",
-    "title": "Innovations",
-    "section": "🌍 Google Earth Engine Apps",
-    "text": "🌍 Google Earth Engine Apps\n\n\n ### Spectral Reflectance Curve Analyze spectral signatures across multiple bands for precise land cover characterization.  Visit App  GitHub\n\n\n ### Phenology Signature A specialized tool for crop classification utilizing phenological signatures and time-series analysis.  Visit App  GitHub\n\n\n ### Flood Susceptibility Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.  Visit App  GitHub\n\n\n ### Odisha Flood Map Visualizing regional flood extent using multi-date satellite imagery for immediate response support.  Visit App  GitHub"
-  },
-  {
-    "objectID": "software.html#python-packages",
-    "href": "software.html#python-packages",
-    "title": "Innovations",
-    "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n ### geeadvance Advanced functional programming utilities to supercharge your GEE Python API workflows.  PyPI  GitHub\n\n\n ### deepgee A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.  PyPI  GitHub\n\n\n ### geeassist Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.  PyPI  GitHub"
-  },
-  {
-    "objectID": "software.html#chrome-extensions",
-    "href": "software.html#chrome-extensions",
-    "title": "Innovations",
-    "section": "🛠️ Chrome Extensions",
-    "text": "🛠️ Chrome Extensions\n\n\n ### GEE AI Assistant Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.  Web Store  GitHub\n\n\n ### Quick Screenshot High-resolution browser capture tool optimized for geospatial mapping and documentation.  Web Store"
+    "text": "Why Cloud GIS?\nThe Cloud GIS is the new paradigm in GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS.\nWith the advancement of the Google Earth Engine this concept has become more popular."
   },
   {
     "objectID": "publications.html",
@@ -362,5 +334,33 @@
     "title": "AI in Agriculture | Free MOOC by ICAR NAARM",
     "section": "",
     "text": "Artificial Intelligence in Agriculture\nMarch 1–31, 2026 | Online\nLearn AI, ML & Deep Learning for agricultural applications. Covers Python programming, image processing, and hands-on AI tools for agriculture. Free access with optional certification.\nRegistration Deadline: March 7, 2026\n Course Portal  Register Now"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
+  },
+  {
+    "objectID": "courses.html#geospatial-programming",
+    "href": "courses.html#geospatial-programming",
+    "title": "Courses",
+    "section": "💻 Geospatial Programming",
+    "text": "💻 Geospatial Programming\n\n\n ### R for Spatial Analysis Comprehensive guide to handling vector and raster data using R (sf, terra, stars).  Visit Course\n\n\n ### Google Earth Engine Interactive guide and documentation for mastering cloud-based remote sensing.  Visit Course\n\n\n ### Geo-Python Learning spatial data science with Python using Geopandas, Rasterio, and Xarray.  Visit Course"
+  },
+  {
+    "objectID": "courses.html#advanced-gis-reference",
+    "href": "courses.html#advanced-gis-reference",
+    "title": "Courses",
+    "section": "🚀 Advanced GIS & Reference",
+    "text": "🚀 Advanced GIS & Reference\n\n\n ### Cloud GIS & AI Resources on merging cloud computing with artificial intelligence for advanced GIS.  Visit Course\n\n\n ### Geospatial Reference A quick-reference guide for common geospatial operations in Python, R, and GEE.  Visit Course"
+  },
+  {
+    "objectID": "courses.html#academic-writing-tools",
+    "href": "courses.html#academic-writing-tools",
+    "title": "Courses",
+    "section": "✍️ Academic Writing & Tools",
+    "text": "✍️ Academic Writing & Tools\n\n\n ### English for Academics Essential resources for scientific writing, presentations, and clear academic communication.  Visit Course\n\n\n ### LaTeX for Geographers Professional document composition and high-quality thesis writing using LaTeX.  Visit Course"
   }
 ]
