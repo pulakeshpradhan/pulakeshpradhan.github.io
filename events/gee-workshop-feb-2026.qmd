@@ -1,7 +1,7 @@
 ---
 title: "Basics of Google Earth Engine"
 date: "2026-02-16"
-description: "A 5-day virtual workshop for PG students at Central University, Bhubaneswar."
+description: "A 5-day virtual workshop for PG students at Centurion University, Bhubaneswar."
 image: "../images/Events/geelogo.png"
 categories: [Upcoming]
 ---
@@ -9,7 +9,7 @@ categories: [Upcoming]
 **Topic:** Basics of Google Earth Engine  
 **Trainer:** Pulakesh Pradhan  
 **Mode:** Virtual (Online)  
-**Host:** Central University, Bhubaneswar  
+**Host:** Centurion University, Bhubaneswar  
 
 ## Schedule
 
