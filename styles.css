@@ -167,63 +167,88 @@ h2 {
     gap: 10px;
 }
 
-/* Innovations Grid - Strict 2-Column */
+/* Innovations & Courses Grid - Modern & Professional */
 .software-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    margin-bottom: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
     .software-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
     }
 }
 
-/* Grid Cards Modernization */
+/* Grid Cards Professional Look */
 .software-card,
 .listing-item {
-    border: 1px solid #f1f5f9;
-    padding: 24px;
-    border-radius: 16px;
-    background: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
-    transition: all 0.4s ease;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    padding: 0;
+    /* Remove padding to handle image correctly */
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
 }
 
 .software-card:hover,
 .listing-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-    border-color: #e2e8f0;
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+    border-color: var(--brand-primary);
 }
 
 .software-card img {
     width: 100%;
-    border-radius: 12px;
-    margin-bottom: 20px;
+    border-radius: 0;
+    margin-bottom: 0;
     object-fit: cover;
     aspect-ratio: 16/9;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.software-card-body {
+    padding: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .software-card h3 {
     margin-top: 0;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #0f172a;
     margin-bottom: 12px;
+    font-weight: 700;
 }
 
 .software-card p {
     font-size: 0.95rem;
     color: var(--text-muted);
-    line-height: 1.5;
-    margin-bottom: 20px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+.software-card .card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #f1f5f9;
 }
 
 .software-card .social-btn {
-    margin-top: 10px;
-    margin-right: 8px;
+    margin: 0;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 /* Gallery - Circular aesthetics where appropriate */
