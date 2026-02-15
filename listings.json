@@ -11,8 +11,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/earthengine/cloudgis.html",
       "/posts/beyond-gee/index.html",
+      "/posts/earthengine/cloudgis.html",
       "/posts/gee-tips/index.html",
       "/posts/python-gis/index.html",
       "/posts/flood-mapping/index.html",
@@ -24,8 +24,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/earthengine/cloudgis.html",
       "/posts/beyond-gee/index.html",
+      "/posts/earthengine/cloudgis.html",
       "/posts/gee-tips/index.html",
       "/posts/python-gis/index.html",
       "/posts/flood-mapping/index.html",
