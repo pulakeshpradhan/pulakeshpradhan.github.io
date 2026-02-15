@@ -710,47 +710,43 @@ footer.nav-footer .nav-footer-center {
     user-select: none;
 }
 
-/* CV Page Specific Styling */
+/* CV Page Specific Styling - Single Column Layout */
 .cv-header {
     text-align: center;
-    margin-bottom: 3rem;
-    padding: 2rem 0;
+    margin-bottom: 2rem;
+    padding: 2.5rem 1rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
 }
 
 .cv-header h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     margin-bottom: 10px;
     color: var(--brand-primary);
 }
 
 .cv-header h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: var(--text-muted);
     font-weight: 400;
 }
 
-/* Shaded Contact Section */
-.g-col-md-4 {
-    background-color: #f1f5f9;
-    padding: 2rem;
-    border-radius: 12px;
-    height: fit-content;
+.cv-contact-row {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: var(--text-muted);
 }
 
-.g-col-md-4 h2 {
-    font-size: 1.4rem;
-    margin-top: 0;
-    border-bottom: 2px solid #cbd5e1;
+.cv-contact-row i {
+    color: var(--brand-primary);
+    margin-right: 5px;
 }
 
-.g-col-md-8 h2 {
-    font-size: 1.8rem;
+h2 {
+    font-size: 1.6rem;
     color: var(--brand-primary);
     border-bottom: 2px solid #e2e8f0;
-}
-
-.cv-header {
-    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-    border-radius: 16px;
-    margin-top: 20px;
+    margin-top: 2.5rem;
+    padding-bottom: 8px;
 }

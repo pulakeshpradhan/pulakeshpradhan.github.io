@@ -9,32 +9,20 @@ title: "Curriculum Vitae"
 
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-## 📞 Contact
-<i class="bi bi-envelope"></i> [pulakesh.mid@gmail.com](mailto:pulakesh.mid@gmail.com)  
-<i class="bi bi-telephone"></i> [+91 8617812861](tel:+918617812861)  
-<i class="bi bi-geo-alt"></i> Ravenshaw University, Odisha, India  
-<i class="bi bi-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/)  
-<i class="bi bi-mortarboard"></i> [Google Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ)  
+## 📬 Contact Information
+::: {.cv-contact-row}
+<i class="bi bi-envelope"></i> [pulakesh.mid@gmail.com](mailto:pulakesh.mid@gmail.com) | 
+<i class="bi bi-telephone"></i> [+91 8617812861](tel:+918617812861) | 
+<i class="bi bi-geo-alt"></i> Ravenshaw University, Odisha, India
+:::
+::: {.cv-contact-row}
+<i class="bi bi-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/) | 
+<i class="bi bi-mortarboard"></i> [Google Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ) | 
 <i class="bi bi-github"></i> [GitHub](https://github.com/pulakeshpradhan)
-
-## 🛠️ Technical Skills
-**Programming**  
-`Python` `R` `JavaScript` `SQL`
-
-**GIS & Remote Sensing**  
-`Google Earth Engine` `ArcGIS Pro` `QGIS`
-
-**Data Science**  
-`Geospatial AI` `Deep Learning` `Phenology`
-
-**Tools & Workflow**  
-`LaTeX` `Git/GitHub` `Chrome Extensions`
 :::
 
-::: {.g-col-12 .g-col-md-8}
+---
+
 ## 🎓 Education
 **PhD Scholar in Geography** | *Ravenshaw University*  
 *Specialization:* GIS, Remote Sensing, and Google Earth Engine  
@@ -42,6 +30,12 @@ title: "Curriculum Vitae"
 **MPhil in Geography** | *Ravenshaw University*  
 
 **UGC-SRF (Senior Research Fellow)**  
+
+## 🛠️ Technical Skills
+**Programming:** `Python`, `R`, `JavaScript`, `SQL`  
+**GIS & Remote Sensing:** `Google Earth Engine`, `ArcGIS Pro`, `QGIS`  
+**Data Science:** `Geospatial AI`, `Deep Learning`, `Phenology Analysis`  
+**Tools & Workflow:** `LaTeX`, `Git/GitHub`, `Chrome Extension Development`
 
 ## 💼 Professional Experience
 **Resource Person** | Maharaja Sriram Chandra Bhanja Deo University  
@@ -74,6 +68,3 @@ title: "Curriculum Vitae"
 <div class="text-center">
 [<i class="bi bi-file-earmark-pdf"></i> Download Full CV (PDF)](#){.social-btn}
 </div>
-:::
-
-:::
