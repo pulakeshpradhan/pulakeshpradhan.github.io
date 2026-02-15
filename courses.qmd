@@ -12,6 +12,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 ::: {.course-list}
 
 ::: {.course-entry}
+<img src="images/agrimooc.jpg" class="course-thumbnail" alt="R Spatial">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-code-square"></i> R for Spatial Analysis</div>
 <div class="course-description">Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *stars*).</div>
@@ -25,6 +26,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 :::
 
 ::: {.course-entry}
+<img src="images/geeai.jpg" class="course-thumbnail" alt="GEE">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-cloud-sun"></i> Google Earth Engine</div>
 <div class="course-description">Interactive guide and documentation for mastering cloud-based remote sensing.</div>
@@ -38,6 +40,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 :::
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/34495e/ffffff?text=Python" class="course-thumbnail" alt="Python">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-hash"></i> Geo-Python</div>
 <div class="course-description">Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xarray*.</div>
@@ -57,6 +60,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 ::: {.course-list}
 
 ::: {.course-entry}
+<img src="images/Skills/arcpro.png" class="course-thumbnail" alt="Cloud GIS">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-cpu"></i> Cloud GIS & AI</div>
 <div class="course-description">Resources on merging cloud computing with artificial intelligence for advanced GIS.</div>
@@ -70,6 +74,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 :::
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/e67e22/ffffff?text=Reference" class="course-thumbnail" alt="Reference">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-bookmarks"></i> Geospatial Reference</div>
 <div class="course-description">A quick-reference guide for common geospatial operations in Python, R, and GEE.</div>
@@ -89,6 +94,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 ::: {.course-list}
 
 ::: {.course-entry}
+<img src="images/trainings.jpg" class="course-thumbnail" alt="Academic English">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-pencil-square"></i> English for Academics</div>
 <div class="course-description">Essential resources for scientific writing, presentations, and clear academic communication.</div>
@@ -102,6 +108,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 :::
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/2c3e50/ffffff?text=LaTeX" class="course-thumbnail" alt="LaTeX">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-file-earmark-pdf"></i> LaTeX for Geographers</div>
 <div class="course-description">Professional document composition and high-quality thesis writing using LaTeX.</div>
@@ -112,6 +119,8 @@ I maintain several dedicated course sites covering various aspects of spatial da
 ::: {.course-action}
 [<i class="bi bi-box-arrow-up-right"></i> Visit Course](https://pulakeshpradhan.github.io/latex/){.social-btn}
 :::
+:::
+
 :::
 
 :::

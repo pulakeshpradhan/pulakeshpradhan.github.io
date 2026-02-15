@@ -9,6 +9,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 ::: {.course-list}
 
 ::: {.course-entry}
+<img src="images/geeai.jpg" class="course-thumbnail" alt="Spectral">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-graph-up"></i> Spectral Reflectance Curve</div>
 <div class="course-description">Analyze spectral signatures across multiple bands for precise land cover characterization.</div>
@@ -22,6 +23,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 :::
 
 ::: {.course-entry}
+<img src="images/agrimooc.jpg" class="course-thumbnail" alt="Phenology">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-tree"></i> Phenology Signature</div>
 <div class="course-description">A specialized tool for crop classification utilizing phenological signatures and time-series analysis.</div>
@@ -35,6 +37,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 :::
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/2c7da0/ffffff?text=Flood" class="course-thumbnail" alt="Flood">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-water"></i> Flood Susceptibility</div>
 <div class="course-description">Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.</div>
@@ -48,6 +51,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 :::
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/2c7da0/ffffff?text=Map" class="course-thumbnail" alt="Map">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-map"></i> Odisha Flood Map</div>
 <div class="course-description">Visualizing regional flood extent using multi-date satellite imagery for immediate response support.</div>
@@ -67,6 +71,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 ::: {.course-list}
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/27ae60/ffffff?text=Python" class="course-thumbnail" alt="Python">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-box-seam"></i> geeadvance</div>
 <div class="course-description">Advanced functional programming utilities to supercharge your GEE Python API workflows.</div>
@@ -80,6 +85,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 :::
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/34495e/ffffff?text=AI" class="course-thumbnail" alt="AI">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-cpu"></i> deepgee</div>
 <div class="course-description">A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.</div>
@@ -93,6 +99,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 :::
 
 ::: {.course-entry}
+<img src="images/geeai.jpg" class="course-thumbnail" alt="Assistant">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-chat-left-dots"></i> geeassist</div>
 <div class="course-description">Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.</div>
@@ -112,6 +119,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 ::: {.course-list}
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/2980b9/ffffff?text=R" class="course-thumbnail" alt="R">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-book"></i> rpygee</div>
 <div class="course-description">A wrapper for running Google Earth Engine Python API within the R environment seamlessly.</div>
@@ -131,6 +139,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 ::: {.course-list}
 
 ::: {.course-entry}
+<img src="images/geeaibg.JPG" class="course-thumbnail" alt="Extension">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-browser-chrome"></i> GEE AI Assistant</div>
 <div class="course-description">Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.</div>
@@ -144,6 +153,7 @@ My work involves developing open-source tools, cloud applications, and browser e
 :::
 
 ::: {.course-entry}
+<img src="https://placehold.co/400x250/e67e22/ffffff?text=Capture" class="course-thumbnail" alt="Capture">
 ::: {.course-info}
 <div class="course-title"><i class="bi bi-camera"></i> Quick Screenshot</div>
 <div class="course-description">High-resolution browser capture tool optimized for geospatial mapping and documentation.</div>
@@ -154,6 +164,8 @@ My work involves developing open-source tools, cloud applications, and browser e
 ::: {.course-action}
 [<i class="bi bi-browser-chrome"></i> Web Store](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm){.social-btn}
 :::
+:::
+
 :::
 
 :::
