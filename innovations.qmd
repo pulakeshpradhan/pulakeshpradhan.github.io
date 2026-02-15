@@ -4,6 +4,8 @@ title: "Innovations"
 
 My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists.
 
+## 🌍 Earth Engine Apps
+
 ::: {.software-grid}
 
 ::: {.software-card}
@@ -50,6 +52,12 @@ Visualizing regional flood extent using multi-date satellite imagery for immedia
 :::
 :::
 
+:::
+
+## 📦 Python Packages
+
+::: {.software-grid}
+
 ::: {.software-card}
 ![geeadvance](https://placehold.co/400x200/27ae60/ffffff?text=geeadvance+Package)
 ::: {.software-card-body}
@@ -83,8 +91,31 @@ Personal AI coding assistant for the GEE Python environment, powered by Large La
 :::
 :::
 
+:::
+
+## 📚 R Library
+
+::: {.software-grid}
+
 ::: {.software-card}
-![GEE AI Assistant](images/geeai.jpg)
+![rpygee](https://placehold.co/400x200/2980b9/ffffff?text=rpygee+Package)
+::: {.software-card-body}
+### rpygee
+A wrapper for running Google Earth Engine Python API within the R environment seamlessly.
+::: {.card-footer}
+[<i class="bi bi-book"></i> Documentation](https://pulakeshpradhan.github.io/rpygee/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/rpygee){.social-btn}
+:::
+:::
+:::
+
+:::
+
+## 🛠️ Extensions & Tools
+
+::: {.software-grid}
+
+::: {.software-card}
+![geeai](images/geeai.jpg)
 ::: {.software-card-body}
 ### GEE AI Assistant
 Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.

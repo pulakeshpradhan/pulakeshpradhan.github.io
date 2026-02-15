@@ -7,6 +7,8 @@ include-in-header:
 
 I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools.
 
+## 💻 Geospatial Programming
+
 ::: {.software-grid}
 
 ::: {.software-card}
@@ -42,6 +44,12 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 :::
 :::
 
+:::
+
+## 🚀 GIS & Spatial Reference
+
+::: {.software-grid}
+
 ::: {.software-card}
 ![Cloud GIS](https://placehold.co/400x200/2980b9/ffffff?text=Cloud+GIS)
 ::: {.software-card-body}
@@ -63,6 +71,12 @@ A quick-reference guide for common geospatial operations in Python, R, and GEE.
 :::
 :::
 :::
+
+:::
+
+## ✍️ Academic Writing & Tools
+
+::: {.software-grid}
 
 ::: {.software-card}
 ![English for Academics](https://placehold.co/400x200/8e44ad/ffffff?text=Academic+English)
