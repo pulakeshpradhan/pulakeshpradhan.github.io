@@ -6,61 +6,57 @@ My work involves developing open-source tools, cloud applications, and browser e
 
 ## 🌍 Earth Engine Apps
 
-::: {.software-grid}
+::: {.course-list}
 
-::: {.software-card}
-![Spectral Curve](https://placehold.co/400x200/2c7da0/ffffff?text=Spectral+Reflectance+Curve)
-
-::: {.software-card-body}
-### Spectral Reflectance Curve
-Analyze spectral signatures across multiple bands for precise land cover characterization.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-graph-up"></i> Spectral Reflectance Curve</div>
+<div class="course-description">Analyze spectral signatures across multiple bands for precise land cover characterization.</div>
+::: {.course-meta}
+[GEE App]{.course-tag} [Remote Sensing]{.course-tag} [Spectral Analysis]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-rocket-takeoff"></i> Visit App](https://spatialgeography.projects.earthengine.app/view/spectral){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
 :::
-
-:::
 :::
 
-::: {.software-card}
-![Phenology signature](https://placehold.co/400x200/2c7da0/ffffff?text=Phenology+Signature)
-
-::: {.software-card-body}
-### Phenology Signature
-A specialized tool for crop classification utilizing phenological signatures and time-series analysis.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-tree"></i> Phenology Signature</div>
+<div class="course-description">A specialized tool for crop classification utilizing phenological signatures and time-series analysis.</div>
+::: {.course-meta}
+[GEE App]{.course-tag} [Agriculture]{.course-tag} [Time-Series]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-rocket-takeoff"></i> Visit App](https://spatialgeography.projects.earthengine.app/view/signature){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
 :::
-
-:::
 :::
 
-::: {.software-card}
-![Flood Susceptibility](https://placehold.co/400x200/2c7da0/ffffff?text=Flood+Susceptibility+AHP)
-
-::: {.software-card-body}
-### Flood Susceptibility
-Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-water"></i> Flood Susceptibility</div>
+<div class="course-description">Implementing Analytic Hierarchy Process (AHP) for rigorous flood risk assessment and mapping.</div>
+::: {.course-meta}
+[GEE App]{.course-tag} [AHP]{.course-tag} [Flood Risk]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-rocket-takeoff"></i> Visit App](https://spatialgeography.projects.earthengine.app/view/floodsusceptibility){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
 :::
-
-:::
 :::
 
-::: {.software-card}
-![Odisha Flood Map](https://placehold.co/400x200/2c7da0/ffffff?text=Odisha+Flood+Map)
-
-::: {.software-card-body}
-### Odisha Flood Map
-Visualizing regional flood extent using multi-date satellite imagery for immediate response support.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-map"></i> Odisha Flood Map</div>
+<div class="course-description">Visualizing regional flood extent using multi-date satellite imagery for immediate response support.</div>
+::: {.course-meta}
+[GEE App]{.course-tag} [Emergency Response]{.course-tag} [Satellite]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-rocket-takeoff"></i> Visit App](https://spatialgeography.projects.earthengine.app/view/odishaflood){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
-:::
-
 :::
 :::
 
@@ -68,47 +64,44 @@ Visualizing regional flood extent using multi-date satellite imagery for immedia
 
 ## 📦 Python Packages
 
-::: {.software-grid}
+::: {.course-list}
 
-::: {.software-card}
-![geeadvance](https://placehold.co/400x200/27ae60/ffffff?text=geeadvance+Package)
-
-::: {.software-card-body}
-### geeadvance
-Advanced functional programming utilities to supercharge your GEE Python API workflows.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-box-seam"></i> geeadvance</div>
+<div class="course-description">Advanced functional programming utilities to supercharge your GEE Python API workflows.</div>
+::: {.course-meta}
+[Python]{.course-tag} [Functional Programming]{.course-tag} [GEE]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/geeadvance/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/geeadvance){.social-btn}
 :::
-
-:::
 :::
 
-::: {.software-card}
-![deepgee](https://placehold.co/400x200/27ae60/ffffff?text=deepgee+Package)
-
-::: {.software-card-body}
-### deepgee
-A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-cpu"></i> deepgee</div>
+<div class="course-description">A framework for bridging Earth Engine datasets with state-of-the-art Deep Learning models.</div>
+::: {.course-meta}
+[Python]{.course-tag} [Deep Learning]{.course-tag} [AI]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/deepgee/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/deepgee){.social-btn}
 :::
-
-:::
 :::
 
-::: {.software-card}
-![geeassist](images/geeai.jpg)
-
-::: {.software-card-body}
-### geeassist
-Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-chat-left-dots"></i> geeassist</div>
+<div class="course-description">Personal AI coding assistant for the GEE Python environment, powered by Large Language Models.</div>
+::: {.course-meta}
+[Python]{.course-tag} [LLM]{.course-tag} [AI Assistant]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-box-seam"></i> PyPI](https://pypi.org/project/geeassist/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/geeassist){.social-btn}
-:::
-
 :::
 :::
 
@@ -116,19 +109,18 @@ Personal AI coding assistant for the GEE Python environment, powered by Large La
 
 ## 📚 R Library
 
-::: {.software-grid}
+::: {.course-list}
 
-::: {.software-card}
-![rpygee](https://placehold.co/400x200/2980b9/ffffff?text=rpygee+Package)
-
-::: {.software-card-body}
-### rpygee
-A wrapper for running Google Earth Engine Python API within the R environment seamlessly.
-
-::: {.card-footer}
-[<i class="bi bi-book"></i> Documentation](https://pulakeshpradhan.github.io/rpygee/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/rpygee){.social-btn}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-book"></i> rpygee</div>
+<div class="course-description">A wrapper for running Google Earth Engine Python API within the R environment seamlessly.</div>
+::: {.course-meta}
+[R Programming]{.course-tag} [Python Interop]{.course-tag} [GEE]{.course-tag}
 :::
-
+:::
+::: {.course-action}
+[<i class="bi bi-book"></i> Documentation](https://pulakeshpradhan.github.io/rpygee/){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/rpygee){.social-btn}
 :::
 :::
 
@@ -136,33 +128,31 @@ A wrapper for running Google Earth Engine Python API within the R environment se
 
 ## 🛠️ Extensions & Tools
 
-::: {.software-grid}
+::: {.course-list}
 
-::: {.software-card}
-![geeai](images/geeai.jpg)
-
-::: {.software-card-body}
-### GEE AI Assistant
-Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-browser-chrome"></i> GEE AI Assistant</div>
+<div class="course-description">Transform the GEE Code Editor with integrated AI assistance for debugging and script generation.</div>
+::: {.course-meta}
+[Chrome Extension]{.course-tag} [Gemini AI]{.course-tag} [Productivity]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-browser-chrome"></i> Web Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl){.social-btn} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/gee-ai-assistant){.social-btn}
 :::
-
-:::
 :::
 
-::: {.software-card}
-![Quick Screenshot](https://placehold.co/400x200/e67e22/ffffff?text=Quick+Screenshot)
-
-::: {.software-card-body}
-### Quick Screenshot
-High-resolution browser capture tool optimized for geospatial mapping and documentation.
-
-::: {.card-footer}
+::: {.course-entry}
+::: {.course-info}
+<div class="course-title"><i class="bi bi-camera"></i> Quick Screenshot</div>
+<div class="course-description">High-resolution browser capture tool optimized for geospatial mapping and documentation.</div>
+::: {.course-meta}
+[Chrome Extension]{.course-tag} [Visualization]{.course-tag} [Mapping]{.course-tag}
+:::
+:::
+::: {.course-action}
 [<i class="bi bi-browser-chrome"></i> Web Store](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm){.social-btn}
-:::
-
 :::
 :::
 
