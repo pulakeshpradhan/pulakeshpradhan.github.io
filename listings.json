@@ -9,21 +9,9 @@
     ]
   },
   {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/beyond-gee/index.html",
-      "/posts/earthengine/cloudgis.html",
-      "/posts/gee-tips/index.html",
-      "/posts/python-gis/index.html",
-      "/posts/flood-mapping/index.html",
-      "/posts/remote-sensing-ai/index.html",
-      "/posts/welcome/index.html",
-      "/posts/academic-journey/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/2026_02_16_social_vs_spatial/index.html",
       "/posts/beyond-gee/index.html",
       "/posts/earthengine/cloudgis.html",
       "/posts/gee-tips/index.html",
@@ -34,6 +22,20 @@
       "/posts/academic-journey/index.html",
       "/innovations.html",
       "/events/gee-workshop-feb-2026.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2026_02_16_social_vs_spatial/index.html",
+      "/posts/beyond-gee/index.html",
+      "/posts/earthengine/cloudgis.html",
+      "/posts/gee-tips/index.html",
+      "/posts/python-gis/index.html",
+      "/posts/flood-mapping/index.html",
+      "/posts/remote-sensing-ai/index.html",
+      "/posts/welcome/index.html",
+      "/posts/academic-journey/index.html"
     ]
   }
 ]
