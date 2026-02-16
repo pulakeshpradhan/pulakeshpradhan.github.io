@@ -70,5 +70,8 @@
   },
   "posts/remote-sensing-ai/index.qmd": {
     "index.html": "7b1252d5"
+  },
+  "journals.qmd": {
+    "journals.html": "1cb08cfc"
   }
 }
