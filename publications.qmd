@@ -144,23 +144,26 @@ A demonstration of integrating Large Language Models (LLMs) with geospatial plat
 
 ::: {.publication-item}
 <div class="publication-title">
-  <a href="#" class="stretched-link" style="color: inherit; text-decoration: none;">Poster Presentation Placeholder</a>
+  <a href="https://www.researchgate.net/publication/382254955_Near_Real-Time_Air_Quality_Trend_Monitoring_in_Odisha_Using_Multi-Sensor_Satellite_Images" class="stretched-link" style="color: inherit; text-decoration: none;">Near Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images</a>
 </div>
 
 ::: {.publication-main}
 ::: {.publication-image}
-![](https://placehold.co/600x400/f1f5f9/475569?text=Coming+Soon)
+![](https://placehold.co/600x400/1a5f7a/ffffff?text=Air+Quality+Poster)
 :::
 
 ::: {.publication-body}
-<div class="publication-authors">**Pradhan, P.** (Year)</div>
-<div class="publication-journal">Conference Name</div>
+<div class="publication-authors">**Pradhan, P.** (2023)</div>
+<div class="publication-journal">Odisha Research Conclave (ORC-2023)</div>
 <div class="publication-overview">
-This is a placeholder for upcoming conference posters and visual research presentations. High-resolution images and download links will be integrated here upon release.
+This poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.
 </div>
 <div class="publication-actions">
-  <a href="#" class="capsule-btn btn-download">
-    <i class="bi bi-file-earmark-image"></i> Download
+  <a href="publications/ORC2023_Pulakesh_Pradhan.pdf" class="capsule-btn btn-download">
+    <i class="bi bi-file-earmark-pdf"></i> Download PDF
+  </a>
+  <a href="https://www.researchgate.net/publication/382254955_Near_Real-Time_Air_Quality_Trend_Monitoring_in_Odisha_Using_Multi-Sensor_Satellite_Images" class="capsule-btn btn-doi">
+    <i class="bi bi-link-45deg"></i> Details
   </a>
 </div>
 :::
