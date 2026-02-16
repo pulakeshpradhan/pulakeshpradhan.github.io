@@ -51,6 +51,19 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 :::
 :::
 
+::: {.course-card}
+[<img src="images/geeai.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/python-ai/)
+
+::: {.course-card-body}
+### Python for AI-Driven Research
+Leveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.
+
+::: {.card-footer}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/python-ai/){.social-btn .stretched-link}
+:::
+:::
+:::
+
 :::
 
 ## 🚀 GIS & Spatial Reference

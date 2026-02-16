@@ -33,9 +33,9 @@ listing:
         description: "Resources on merging cloud computing with open source GIS."
         path: "https://pulakeshpradhan.github.io/cloudgis"
         image: "courses/dask_xarray_workflow.png"
-      - title: "Python for Geospatial"
-        description: "Learning spatial data science with Python."
-        path: "https://pulakeshpradhan.github.io/python/"
+      - title: "Python for AI-Driven Research"
+        description: "Modern geospatial workflow using Python - ML, DL, AI etc."
+        path: "https://pulakeshpradhan.github.io/python"
         image: "courses/geopy.png"
     type: grid
     max-items: 3
