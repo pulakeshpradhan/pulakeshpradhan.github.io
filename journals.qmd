@@ -108,138 +108,138 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 
 **Focus:** Rural Development, Livelihoods, Socio-economic Geography, Regional Studies.
 
-| Journal | Index | Publisher | Fee Model | Review Speed |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Journal of Rural Studies](https://www.sciencedirect.com/journal/journal-of-rural-studies){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[World Development](https://www.sciencedirect.com/journal/world-development){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Land Use Policy](https://www.sciencedirect.com/journal/land-use-policy){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Journal of Peasant Studies](https://www.tandfonline.com/journals/fjps20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Sociologia Ruralis](https://onlinelibrary.wiley.com/journal/14679523){target="_blank"}** | SSCI (Q1) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Geoforum](https://www.sciencedirect.com/journal/geoforum){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Applied Geography](https://www.sciencedirect.com/journal/applied-geography){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Regional Studies](https://www.tandfonline.com/journals/cres20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Habitat International](https://www.sciencedirect.com/journal/habitat-international){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Journal of Rural & Community Dev.](https://journals.brandonu.ca/jrcd/){target="_blank"}** | ESCI | Brandon Univ. | Diamond OA (No Fee) | Check Website |
-| **[Population, Space and Place](https://onlinelibrary.wiley.com/journal/15448452){target="_blank"}** | SSCI (Q1) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Journal of Agrarian Change](https://onlinelibrary.wiley.com/journal/14710366){target="_blank"}** | SSCI (Q1) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Agriculture and Human Values](https://link.springer.com/journal/10460){target="_blank"}** | SSCI (Q1) | Springer | Hybrid (Free Option) | Check Website |
-| **[Journal of Development Studies](https://www.tandfonline.com/journals/fjds20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) | Check Website |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Journal of Rural Studies](https://www.sciencedirect.com/journal/journal-of-rural-studies){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[World Development](https://www.sciencedirect.com/journal/world-development){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Land Use Policy](https://www.sciencedirect.com/journal/land-use-policy){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Journal of Peasant Studies](https://www.tandfonline.com/journals/fjps20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
+| **[Sociologia Ruralis](https://onlinelibrary.wiley.com/journal/14679523){target="_blank"}** | SSCI (Q1) | Wiley | Hybrid (Free Option) |
+| **[Geoforum](https://www.sciencedirect.com/journal/geoforum){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Applied Geography](https://www.sciencedirect.com/journal/applied-geography){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Regional Studies](https://www.tandfonline.com/journals/cres20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
+| **[Habitat International](https://www.sciencedirect.com/journal/habitat-international){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Journal of Rural & Community Dev.](https://journals.brandonu.ca/jrcd/){target="_blank"}** | ESCI | Brandon Univ. | Diamond OA (No Fee) |
+| **[Population, Space and Place](https://onlinelibrary.wiley.com/journal/15448452){target="_blank"}** | SSCI (Q1) | Wiley | Hybrid (Free Option) |
+| **[Journal of Agrarian Change](https://onlinelibrary.wiley.com/journal/14710366){target="_blank"}** | SSCI (Q1) | Wiley | Hybrid (Free Option) |
+| **[Agriculture and Human Values](https://link.springer.com/journal/10460){target="_blank"}** | SSCI (Q1) | Springer | Hybrid (Free Option) |
+| **[Journal of Development Studies](https://www.tandfonline.com/journals/fjds20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
 
 ## Environment & LULC
 
 **Focus:** LULC Change, Degradation, Soil Science, Environmental Management.
 
-| Journal | Index | Publisher | Fee Model | Review Speed |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Journal of Environmental Management](https://www.sciencedirect.com/journal/journal-of-environmental-management){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Global Environmental Change](https://www.sciencedirect.com/journal/global-environmental-change){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Science of the Total Environment](https://www.sciencedirect.com/journal/science-of-the-total-environment){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Land Degradation & Development](https://onlinelibrary.wiley.com/journal/1099145x){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Catena](https://www.sciencedirect.com/journal/catena){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Geoderma](https://www.sciencedirect.com/journal/geoderma){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Soil and Tillage Research](https://www.sciencedirect.com/journal/soil-and-tillage-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Ecological Indicators](https://www.sciencedirect.com/journal/ecological-indicators){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Geomorphology](https://www.sciencedirect.com/journal/geomorphology){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Earth Surface Processes and Landforms](https://onlinelibrary.wiley.com/journal/10969837){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Landscape and Urban Planning](https://www.sciencedirect.com/journal/landscape-and-urban-planning){target="_blank"}** | SSCI/SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Environmental Monitoring and Assessment](https://www.springer.com/journal/10661){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[Environmental Science & Policy](https://www.sciencedirect.com/journal/environmental-science-and-policy){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Environmental Management](https://link.springer.com/journal/267){target="_blank"}** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[J. of Env. Planning and Management](https://www.tandfonline.com/journals/cjep20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Environmental Earth Sciences](https://link.springer.com/journal/12665){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) | Check Website |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Journal of Environmental Management](https://www.sciencedirect.com/journal/journal-of-environmental-management){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Global Environmental Change](https://www.sciencedirect.com/journal/global-environmental-change){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Science of the Total Environment](https://www.sciencedirect.com/journal/science-of-the-total-environment){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Land Degradation & Development](https://onlinelibrary.wiley.com/journal/1099145x){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
+| **[Catena](https://www.sciencedirect.com/journal/catena){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Geoderma](https://www.sciencedirect.com/journal/geoderma){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Soil and Tillage Research](https://www.sciencedirect.com/journal/soil-and-tillage-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Ecological Indicators](https://www.sciencedirect.com/journal/ecological-indicators){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Geomorphology](https://www.sciencedirect.com/journal/geomorphology){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Earth Surface Processes and Landforms](https://onlinelibrary.wiley.com/journal/10969837){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
+| **[Landscape and Urban Planning](https://www.sciencedirect.com/journal/landscape-and-urban-planning){target="_blank"}** | SSCI/SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Environmental Monitoring and Assessment](https://www.springer.com/journal/10661){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Environmental Science & Policy](https://www.sciencedirect.com/journal/environmental-science-and-policy){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Environmental Management](https://link.springer.com/journal/267){target="_blank"}** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) |
+| **[J. of Env. Planning and Management](https://www.tandfonline.com/journals/cjep20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Environmental Earth Sciences](https://link.springer.com/journal/12665){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
 
 ## Water Resources
 
 **Focus:** Hydrology, Water Management, Groundwater, Ecohydrology.
 
-| Journal | Index | Publisher | Fee Model | Review Speed |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Journal of Hydrology](https://www.sciencedirect.com/journal/journal-of-hydrology){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Water Research](https://www.sciencedirect.com/journal/water-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Water Resources Research](https://agupubs.onlinelibrary.wiley.com/journal/19447973){target="_blank"}** | SCIE (Q1) | AGU / Wiley | Hybrid (Free Option) | Check Website |
-| **[Water Resources Management](https://www.springer.com/journal/11269){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[Hydrological Processes](https://onlinelibrary.wiley.com/journal/10991085){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Advances in Water Resources](https://www.sciencedirect.com/journal/advances-in-water-resources){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Hydrological Sciences Journal](https://www.tandfonline.com/journals/thsj20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Groundwater](https://ngwa.onlinelibrary.wiley.com/journal/17456584){target="_blank"}** | SCIE (Q2) | Wiley | Hybrid (Free Option) | Check Website |
-| **[River Research and Applications](https://onlinelibrary.wiley.com/journal/15351467){target="_blank"}** | SCIE (Q2) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Water International](https://www.tandfonline.com/journals/rwin20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[J. of Water Res. Planning and Management](https://ascelibrary.org/journal/jwrmd5){target="_blank"}** | SCIE (Q2) | ASCE | Hybrid (Free Option) | Check Website |
-| **[Water Policy](https://iwaponline.com/wp){target="_blank"}** | SCIE (Q2) | IWA Publishing | Hybrid (Free Option) | Check Website |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Journal of Hydrology](https://www.sciencedirect.com/journal/journal-of-hydrology){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Water Research](https://www.sciencedirect.com/journal/water-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Water Resources Research](https://agupubs.onlinelibrary.wiley.com/journal/19447973){target="_blank"}** | SCIE (Q1) | AGU / Wiley | Hybrid (Free Option) |
+| **[Water Resources Management](https://www.springer.com/journal/11269){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Hydrological Processes](https://onlinelibrary.wiley.com/journal/10991085){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
+| **[Advances in Water Resources](https://www.sciencedirect.com/journal/advances-in-water-resources){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Hydrological Sciences Journal](https://www.tandfonline.com/journals/thsj20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Groundwater](https://ngwa.onlinelibrary.wiley.com/journal/17456584){target="_blank"}** | SCIE (Q2) | Wiley | Hybrid (Free Option) |
+| **[River Research and Applications](https://onlinelibrary.wiley.com/journal/15351467){target="_blank"}** | SCIE (Q2) | Wiley | Hybrid (Free Option) |
+| **[Water International](https://www.tandfonline.com/journals/rwin20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[J. of Water Res. Planning and Management](https://ascelibrary.org/journal/jwrmd5){target="_blank"}** | SCIE (Q2) | ASCE | Hybrid (Free Option) |
+| **[Water Policy](https://iwaponline.com/wp){target="_blank"}** | SCIE (Q2) | IWA Publishing | Hybrid (Free Option) |
 
 ## Natural Hazards & Climate
 
 **Focus:** Climate Change, Extreme Events, Disaster Risk Reduction, Flood/Drought Monitoring.
 
-| Journal | Index | Publisher | Fee Model | Review Speed |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Global and Planetary Change](https://www.sciencedirect.com/journal/global-and-planetary-change){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Climate Dynamics](https://link.springer.com/journal/382){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) | Check Website |
-| **[Natural Hazards](https://www.springer.com/journal/11069){target="_blank"}** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[Int. J. of Disaster Risk Reduction](https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Climatic Change](https://www.springer.com/journal/10584){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) | Check Website |
-| **[International Journal of Climatology](https://rmets.onlinelibrary.wiley.com/journal/10970088){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Atmospheric Research](https://www.sciencedirect.com/journal/atmospheric-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Journal of Flood Risk Management](https://onlinelibrary.wiley.com/journal/1753318x){target="_blank"}** | SCIE (Q1/Q2) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Environmental Hazards](https://www.tandfonline.com/journals/tenh20){target="_blank"}** | SSCI/SCIE (Q1)| Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Theoretical and Applied Climatology](https://www.springer.com/journal/704){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[Disaster Prevention and Management](https://www.emerald.com/insight/publication/issn/0965-3562){target="_blank"}** | SCIE (Q3) | Emerald | Hybrid (Free Option) | Check Website |
-| **[Nature Climate Change](https://www.nature.com/nclimate/){target="_blank"}** | SCIE (Q1) | Nature Portfolio | Subscription (No Fee) | Check Website |
-| **[Climate Policy](https://www.tandfonline.com/journals/cclp20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) | Check Website |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Global and Planetary Change](https://www.sciencedirect.com/journal/global-and-planetary-change){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Climate Dynamics](https://link.springer.com/journal/382){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) |
+| **[Natural Hazards](https://www.springer.com/journal/11069){target="_blank"}** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) |
+| **[Int. J. of Disaster Risk Reduction](https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Climatic Change](https://www.springer.com/journal/10584){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) |
+| **[International Journal of Climatology](https://rmets.onlinelibrary.wiley.com/journal/10970088){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
+| **[Atmospheric Research](https://www.sciencedirect.com/journal/atmospheric-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Journal of Flood Risk Management](https://onlinelibrary.wiley.com/journal/1753318x){target="_blank"}** | SCIE (Q1/Q2) | Wiley | Hybrid (Free Option) |
+| **[Environmental Hazards](https://www.tandfonline.com/journals/tenh20){target="_blank"}** | SSCI/SCIE (Q1)| Taylor & Francis | Hybrid (Free Option) |
+| **[Theoretical and Applied Climatology](https://www.springer.com/journal/704){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Disaster Prevention and Management](https://www.emerald.com/insight/publication/issn/0965-3562){target="_blank"}** | SCIE (Q3) | Emerald | Hybrid (Free Option) |
+| **[Nature Climate Change](https://www.nature.com/nclimate/){target="_blank"}** | SCIE (Q1) | Nature Portfolio | Subscription (No Fee) |
+| **[Climate Policy](https://www.tandfonline.com/journals/cclp20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
 
 ## RS & GIS
 
 **Focus:** Remote Sensing, GIS, Spatial Analysis, Radar/SAR.
 
-| Journal | Index | Publisher | Fee Model | Review Speed |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Remote Sensing of Environment](https://www.sciencedirect.com/journal/remote-sensing-of-environment){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[ISPRS J. of Photogrammetry & RS](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[IEEE Trans. on Geoscience & RS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36){target="_blank"}** | SCIE (Q1) | IEEE | Hybrid (Page Charges) | Check Website |
-| **[Int. Journal of Remote Sensing](https://www.tandfonline.com/journals/tres20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Computers & Geosciences](https://www.sciencedirect.com/journal/computers-and-geosciences){target="_blank"}** | SCIE (Q2) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Transactions in GIS](https://onlinelibrary.wiley.com/journal/14679671){target="_blank"}** | SSCI (Q2) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Cartography & Geog. Info. Science](https://www.tandfonline.com/journals/tcag20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Journal of Spatial Science](https://www.tandfonline.com/journals/tjss20){target="_blank"}** | SCIE (Q3) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Photogrammetric Eng. & Remote Sensing](https://www.asprs.org/photogrammetric-engineering-and-remote-sensing){target="_blank"}**| SCIE (Q2) | ASPRS | Hybrid (Page Charges) | Check Website |
-| **[GeoInformatica](https://www.springer.com/journal/10707){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[Spatial Statistics](https://www.sciencedirect.com/journal/spatial-statistics){target="_blank"}** | SCIE (Q2) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Survey Review](https://www.tandfonline.com/journals/ysre20){target="_blank"}** | SCIE (Q3) | Taylor & Francis | Hybrid (Free Option) | Check Website |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Remote Sensing of Environment](https://www.sciencedirect.com/journal/remote-sensing-of-environment){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[ISPRS J. of Photogrammetry & RS](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[IEEE Trans. on Geoscience & RS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36){target="_blank"}** | SCIE (Q1) | IEEE | Hybrid (Page Charges) |
+| **[Int. Journal of Remote Sensing](https://www.tandfonline.com/journals/tres20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Computers & Geosciences](https://www.sciencedirect.com/journal/computers-and-geosciences){target="_blank"}** | SCIE (Q2) | Elsevier | Hybrid (Free Option) |
+| **[Transactions in GIS](https://onlinelibrary.wiley.com/journal/14679671){target="_blank"}** | SSCI (Q2) | Wiley | Hybrid (Free Option) |
+| **[Cartography & Geog. Info. Science](https://www.tandfonline.com/journals/tcag20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Journal of Spatial Science](https://www.tandfonline.com/journals/tjss20){target="_blank"}** | SCIE (Q3) | Taylor & Francis | Hybrid (Free Option) |
+| **[Photogrammetric Eng. & Remote Sensing](https://www.asprs.org/photogrammetric-engineering-and-remote-sensing){target="_blank"}**| SCIE (Q2) | ASPRS | Hybrid (Page Charges) |
+| **[GeoInformatica](https://www.springer.com/journal/10707){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Spatial Statistics](https://www.sciencedirect.com/journal/spatial-statistics){target="_blank"}** | SCIE (Q2) | Elsevier | Hybrid (Free Option) |
+| **[Survey Review](https://www.tandfonline.com/journals/ysre20){target="_blank"}** | SCIE (Q3) | Taylor & Francis | Hybrid (Free Option) |
 
 ## Agriculture & Ecology
 
 **Focus:** Agroforestry, Crop Science, Forest Management, Soil-Plant Systems.
 
-| Journal | Index | Publisher | Fee Model | Review Speed |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Agricultural Water Management](https://www.sciencedirect.com/journal/agricultural-water-management){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Agriculture, Ecosystems & Env.](https://www.sciencedirect.com/journal/agriculture-ecosystems-and-environment){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Forest Ecology and Management](https://www.sciencedirect.com/journal/forest-ecology-and-management){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Agroforestry Systems](https://www.springer.com/journal/10457){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[Paddy and Water Environment](https://www.springer.com/journal/10333){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[Soil Use and Management](https://onlinelibrary.wiley.com/journal/14752743){target="_blank"}** | SCIE (Q2) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Nutrient Cycling in Agroecosystems](https://www.springer.com/journal/10705){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) | Check Website |
-| **[Crop Protection](https://www.sciencedirect.com/journal/crop-protection){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Agronomy for Sustainable Development](https://link.springer.com/journal/13593){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) | Check Website |
-| **[Field Crops Research](https://www.sciencedirect.com/journal/field-crops-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[European Journal of Agronomy](https://www.sciencedirect.com/journal/european-journal-of-agronomy){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Agricultural Water Management](https://www.sciencedirect.com/journal/agricultural-water-management){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Agriculture, Ecosystems & Env.](https://www.sciencedirect.com/journal/agriculture-ecosystems-and-environment){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Forest Ecology and Management](https://www.sciencedirect.com/journal/forest-ecology-and-management){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Agroforestry Systems](https://www.springer.com/journal/10457){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Paddy and Water Environment](https://www.springer.com/journal/10333){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Soil Use and Management](https://onlinelibrary.wiley.com/journal/14752743){target="_blank"}** | SCIE (Q2) | Wiley | Hybrid (Free Option) |
+| **[Nutrient Cycling in Agroecosystems](https://www.springer.com/journal/10705){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Crop Protection](https://www.sciencedirect.com/journal/crop-protection){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Agronomy for Sustainable Development](https://link.springer.com/journal/13593){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) |
+| **[Field Crops Research](https://www.sciencedirect.com/journal/field-crops-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[European Journal of Agronomy](https://www.sciencedirect.com/journal/european-journal-of-agronomy){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
 
 ## Urban & Planning
 
 **Focus:** Urbanization, Regional Planning, Smart Cities, Sustainable Cities.
 
-| Journal | Index | Publisher | Fee Model | Review Speed |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Cities](https://www.sciencedirect.com/journal/cities){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Sustainable Cities and Society](https://www.sciencedirect.com/journal/sustainable-cities-and-society){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Urban Forestry & Urban Greening](https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Computers, Env. & Urban Systems](https://www.sciencedirect.com/journal/computers-environment-and-urban-systems){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | Check Website |
-| **[Journal of Urban Planning & Dev.](https://ascelibrary.org/journal/jupddm){target="_blank"}** | SSCI (Q2) | ASCE | Hybrid (Free Option) | Check Website |
-| **[European Planning Studies](https://www.tandfonline.com/journals/ceps20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) | Check Website |
-| **[Journal of Regional Science](https://onlinelibrary.wiley.com/journal/14679787){target="_blank"}** | SSCI (Q2) | Wiley | Hybrid (Free Option) | Check Website |
-| **[Urban Studies](https://journals.sagepub.com/home/usj){target="_blank"}** | SSCI (Q1) | Sage | Hybrid (Free Option) | Check Website |
-| **[Environment and Planning B](https://journals.sagepub.com/home/epb){target="_blank"}** | SSCI (Q1) | Sage | Hybrid (Free Option) | Check Website |
-| **[Journal of the American Planning Association](https://www.tandfonline.com/journals/rjpa20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) | Check Website |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Cities](https://www.sciencedirect.com/journal/cities){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Sustainable Cities and Society](https://www.sciencedirect.com/journal/sustainable-cities-and-society){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Urban Forestry & Urban Greening](https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Computers, Env. & Urban Systems](https://www.sciencedirect.com/journal/computers-environment-and-urban-systems){target="_blank"}** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Journal of Urban Planning & Dev.](https://ascelibrary.org/journal/jupddm){target="_blank"}** | SSCI (Q2) | ASCE | Hybrid (Free Option) |
+| **[European Planning Studies](https://www.tandfonline.com/journals/ceps20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Journal of Regional Science](https://onlinelibrary.wiley.com/journal/14679787){target="_blank"}** | SSCI (Q2) | Wiley | Hybrid (Free Option) |
+| **[Urban Studies](https://journals.sagepub.com/home/usj){target="_blank"}** | SSCI (Q1) | Sage | Hybrid (Free Option) |
+| **[Environment and Planning B](https://journals.sagepub.com/home/epb){target="_blank"}** | SSCI (Q1) | Sage | Hybrid (Free Option) |
+| **[Journal of the American Planning Association](https://www.tandfonline.com/journals/rjpa20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
 
 :::
 
@@ -278,16 +278,16 @@ Be cautious of **"Clone Journals"** that mimic the names of reputable titles.
 
 List of specific journals targeted for future submissions (Jan 2026).
 
-| Journal | Publisher | Indexing | ISSN | Metrics (IF / SJR / Q) | Review Speed |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **[Environmental Sustainability](https://link.springer.com/journal/42398){target="_blank"}** | Springer Nature | ESCI (WoS), UGC CARE | 2523-8922 | IF: 2.8 | Check Website |
-| **[Journal of City Climate Policy and Economy](https://jccpe.utpjournals.press/){target="_blank"}** | Univ. of Toronto Press | Scilit (New Journal) | 2816-7414 | N/A (New) | Check Website |
-| **[J. of Arid Land Resources and Env.](https://mall.cnki.net/magazine/magadetail/GHZG202401.htm){target="_blank"}** | China Science Pub. | CSCD, Scopus (Check) | 1003-7578 | N/A | Check Website |
-| **[J. of Asian Business & Econ. Studies](https://www.emeraldgrouppublishing.com/journal/jabes){target="_blank"}** | Emerald | Scopus (Q1), ESCI, DOAJ | 2516-1598 | IF: 3.6 / SJR: 0.66 | Check Website |
-| **[Swiss J. of Economics and Statistics](https://sjes.springeropen.com/){target="_blank"}** | SpringerOpen | Scopus (Q1/Q3), DOAJ | 2235-6282 | IF: 1.6 / SJR: 0.36 | Check Website |
-| **[Cureus J. of Agriculture & Food Science](https://www.cureusjournals.com/journal/agriculture-and-food-science){target="_blank"}** | Springer Nature | *Not yet indexed* | N/A | *Fee Waived till June 2026* | Check Website |
-| **[Discover Social Science & Health](https://diser.springeropen.com/){target="_blank"}** | SpringerOpen | Scopus, DOAJ | 2731-0469 | IF: 1.3 / SJR: 0.45 | Check Website |
-| **[SERIEs - J. of Spanish Econ. Assoc.](https://link.springer.com/journal/13209){target="_blank"}** | Springer | Scopus (Q2), SSCI | 1869-4195 | IF: 1.8 / SJR: 0.55 | Check Website |
+| Journal | Publisher | Indexing | ISSN | Metrics (IF / SJR / Q) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Environmental Sustainability](https://link.springer.com/journal/42398){target="_blank"}** | Springer Nature | ESCI (WoS), UGC CARE | 2523-8922 | IF: 2.8 |
+| **[Journal of City Climate Policy and Economy](https://jccpe.utpjournals.press/){target="_blank"}** | Univ. of Toronto Press | Scilit (New Journal) | 2816-7414 | N/A (New) |
+| **[J. of Arid Land Resources and Env.](https://mall.cnki.net/magazine/magadetail/GHZG202401.htm){target="_blank"}** | China Science Pub. | CSCD, Scopus (Check) | 1003-7578 | N/A |
+| **[J. of Asian Business & Econ. Studies](https://www.emeraldgrouppublishing.com/journal/jabes){target="_blank"}** | Emerald | Scopus (Q1), ESCI, DOAJ | 2516-1598 | IF: 3.6 / SJR: 0.66 |
+| **[Swiss J. of Economics and Statistics](https://sjes.springeropen.com/){target="_blank"}** | SpringerOpen | Scopus (Q1/Q3), DOAJ | 2235-6282 | IF: 1.6 / SJR: 0.36 |
+| **[Cureus J. of Agriculture & Food Science](https://www.cureusjournals.com/journal/agriculture-and-food-science){target="_blank"}** | Springer Nature | *Not yet indexed* | N/A | *Fee Waived till June 2026* |
+| **[Discover Social Science & Health](https://diser.springeropen.com/){target="_blank"}** | SpringerOpen | Scopus, DOAJ | 2731-0469 | IF: 1.3 / SJR: 0.45 |
+| **[SERIEs - J. of Spanish Econ. Assoc.](https://link.springer.com/journal/13209){target="_blank"}** | Springer | Scopus (Q2), SSCI | 1869-4195 | IF: 1.8 / SJR: 0.55 |
 
 ::: {.callout-warning}
 **Note on Cureus:** This is a new journal under the Cureus/Springer umbrella. It is currently **not indexed** in Web of Science or Scopus. Proceed with caution for academic credit requirements.
