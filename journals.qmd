@@ -142,23 +142,39 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **[Environmental Monitoring and Assessment](https://www.springer.com/journal/10661){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
 | **[Environmental Science & Policy](https://www.sciencedirect.com/journal/environmental-science-and-policy){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
 
-## Water & Hazards
+## Water Resources
 
-**Focus:** Hydrology, Climate Change, Floods, Droughts, Extreme Events.
+**Focus:** Hydrology, Water Management, Groundwater, Ecohydrology.
 
 | Journal | Index | Publisher | Fee Model |
 | :--- | :--- | :--- | :--- |
 | **[Journal of Hydrology](https://www.sciencedirect.com/journal/journal-of-hydrology){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Water Research](https://www.sciencedirect.com/journal/water-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
 | **[Water Resources Research](https://agupubs.onlinelibrary.wiley.com/journal/19447973){target="_blank"}** | SCIE (Q1) | AGU / Wiley | Hybrid (Free Option) |
 | **[Water Resources Management](https://www.springer.com/journal/11269){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
 | **[Hydrological Processes](https://onlinelibrary.wiley.com/journal/10991085){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
-| **[Natural Hazards](https://www.springer.com/journal/11069){target="_blank"}** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) |
-| **[Int. J. of Disaster Risk Reduction](https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
-| **[Climatic Change](https://www.springer.com/journal/10584){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) |
-| **[Journal of Flood Risk Management](https://onlinelibrary.wiley.com/journal/1753318x){target="_blank"}** | SCIE (Q1/Q2) | Wiley | Hybrid (Free Option) |
 | **[Advances in Water Resources](https://www.sciencedirect.com/journal/advances-in-water-resources){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
 | **[Hydrological Sciences Journal](https://www.tandfonline.com/journals/thsj20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) |
 | **[Groundwater](https://ngwa.onlinelibrary.wiley.com/journal/17456584){target="_blank"}** | SCIE (Q2) | Wiley | Hybrid (Free Option) |
+| **[River Research and Applications](https://onlinelibrary.wiley.com/journal/15351467){target="_blank"}** | SCIE (Q2) | Wiley | Hybrid (Free Option) |
+
+## Natural Hazards & Climate
+
+**Focus:** Climate Change, Extreme Events, Disaster Risk Reduction, Flood/Drought Monitoring.
+
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Global and Planetary Change](https://www.sciencedirect.com/journal/global-and-planetary-change){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Climate Dynamics](https://link.springer.com/journal/382){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) |
+| **[Natural Hazards](https://www.springer.com/journal/11069){target="_blank"}** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) |
+| **[Int. J. of Disaster Risk Reduction](https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Climatic Change](https://www.springer.com/journal/10584){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) |
+| **[International Journal of Climatology](https://rmets.onlinelibrary.wiley.com/journal/10970088){target="_blank"}** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
+| **[Atmospheric Research](https://www.sciencedirect.com/journal/atmospheric-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Journal of Flood Risk Management](https://onlinelibrary.wiley.com/journal/1753318x){target="_blank"}** | SCIE (Q1/Q2) | Wiley | Hybrid (Free Option) |
+| **[Environmental Hazards](https://www.tandfonline.com/journals/tenh20){target="_blank"}** | SSCI/SCIE (Q1)| Taylor & Francis | Hybrid (Free Option) |
+| **[Theoretical and Applied Climatology](https://www.springer.com/journal/704){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Disaster Prevention and Management](https://www.emerald.com/insight/publication/issn/0965-3562){target="_blank"}** | SCIE (Q3) | Emerald | Hybrid (Free Option) |
 | **[Nature Climate Change](https://www.nature.com/nclimate/){target="_blank"}** | SCIE (Q1) | Nature Portfolio | Subscription (No Fee) |
 
 ## RS & GIS
