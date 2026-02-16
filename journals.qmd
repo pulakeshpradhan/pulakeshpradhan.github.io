@@ -234,7 +234,7 @@ Journals are ranked by **Impact Factor (IF)** within their subject categories (e
 :::
 
 :::{.g-col-12 .g-col-md-6}
-### 🚩 avoiding Predatory Journals
+### 🚩 Avoiding Predatory Journals
 Be cautious of **"Clone Journals"** that mimic the names of reputable titles.
 
 1.  **Verify Indexing**: Always check the journal on the official [Master Journal List (MJL)](https://mjl.clarivate.com/).
