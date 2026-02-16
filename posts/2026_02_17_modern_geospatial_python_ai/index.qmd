@@ -4,7 +4,7 @@ author: "Pulakesh Pradhan"
 date: "2026-02-17"
 categories: [Python, Machine Learning, Deep Learning, AI, Geospatial]
 description: "Exploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research."
-image: "modern_geospatial_ai.png"
+image: "modern_geospatial_ai.jpg"
 ---
 
 The geospatial landscape is undergoing a monumental shift. What once required specialized, heavy desktop software is now being executed with lines of elegant Python code. The integration of **Machine Learning (ML)**, **Deep Learning (DL)**, and **Artificial Intelligence (AI)** has transformed GIS from a mapping tool into a predictive and analytical powerhouse.
