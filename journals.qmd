@@ -96,7 +96,7 @@ Most top-tier journals are **Hybrid**, meaning they offer both a **Subscription*
 
 ## Prioritized Journal Lists
 
-The following lists are curated for researchers seeking **Web of Science (SCIE/SSCI/AHCI/ESCI)** indexed journals with **No-Fee (Subscription/Hybrid)** publication options.
+The following lists have been expanded to include journals across all quartiles (**Q1, Q2, Q3, Q4**) to suit different research impacts. While **Web of Science (SCIE/SSCI)** is prioritized, reputable **Scopus-indexed** journals are also included where appropriate.
 
 ::: {.callout-note}
 **Note:** "Hybrid" journals allow authors to choose between publishing via the subscription model (free for authors) or Open Access (APC applies). Select the **Subscription** option upon submission to avoid fees.
@@ -124,6 +124,10 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **[Journal of Agrarian Change](https://onlinelibrary.wiley.com/journal/14710366){target="_blank"}** | SSCI (Q1) | Wiley | Hybrid (Free Option) |
 | **[Agriculture and Human Values](https://link.springer.com/journal/10460){target="_blank"}** | SSCI (Q1) | Springer | Hybrid (Free Option) |
 | **[Journal of Development Studies](https://www.tandfonline.com/journals/fjds20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
+| **[Development in Practice](https://www.tandfonline.com/journals/cdip20){target="_blank"}** | Scopus (Q2) / ESCI | Taylor & Francis | Hybrid (Free Option) |
+| **[International Journal of Social Economics](https://www.emerald.com/insight/publication/issn/0306-8293){target="_blank"}** | Scopus (Q2) / ESCI | Emerald | Hybrid (Free Option) |
+| **[Journal of International Development](https://onlinelibrary.wiley.com/journal/10991328){target="_blank"}** | SSCI (Q2/Q3) | Wiley | Hybrid (Free Option) |
+| **[Local Environment](https://www.tandfonline.com/journals/cloe20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) |
 
 ## Environment & LULC
 
@@ -147,6 +151,11 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **[Environmental Management](https://link.springer.com/journal/267){target="_blank"}** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) |
 | **[J. of Env. Planning and Management](https://www.tandfonline.com/journals/cjep20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) |
 | **[Environmental Earth Sciences](https://link.springer.com/journal/12665){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Environment, Development and Sustainability](https://link.springer.com/journal/10668){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Modeling Earth Systems and Environment](https://link.springer.com/journal/40808){target="_blank"}** | Scopus (Q1/Q2) / ESCI | Springer | Hybrid (Free Option) |
+| **[Environmental Systems Research](https://environmentalsystemsresearch.springeropen.com/){target="_blank"}** | Scopus (Q1) / ESCI | Springer | Hybrid (Free Option) |
+| **[Environmental Challenges](https://www.sciencedirect.com/journal/environmental-challenges){target="_blank"}** | Scopus (Q1) | Elsevier | Gold OA (Check Waivers) |
+| **[Geology, Ecology, and Landscapes](https://www.tandfonline.com/journals/tgel20){target="_blank"}** | Scopus (Q1) | Taylor & Francis | Gold OA (Check Waivers) |
 
 ## Water Resources
 
@@ -166,6 +175,11 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **[Water International](https://www.tandfonline.com/journals/rwin20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) |
 | **[J. of Water Res. Planning and Management](https://ascelibrary.org/journal/jwrmd5){target="_blank"}** | SCIE (Q2) | ASCE | Hybrid (Free Option) |
 | **[Water Policy](https://iwaponline.com/wp){target="_blank"}** | SCIE (Q2) | IWA Publishing | Hybrid (Free Option) |
+| **[Applied Water Science](https://link.springer.com/journal/13201){target="_blank"}** | Scopus (Q1) / ESCI | Springer | Hybrid (Free Option) |
+| **[Sustainable Water Resources Management](https://link.springer.com/journal/40899){target="_blank"}** | Scopus (Q1/Q2) / ESCI| Springer | Hybrid (Free Option) |
+| **[Water Supply](https://iwaponline.com/ws){target="_blank"}** | SCIE (Q4) | IWA Publishing | Hybrid (Free Option) |
+| **[Water Science & Technology](https://iwaponline.com/wst){target="_blank"}** | SCIE (Q3) | IWA Publishing | Hybrid (Free Option) |
+| **[H2Open Journal](https://iwaponline.com/h2open){target="_blank"}** | Scopus (Q2) | IWA Publishing | Gold OA (Check Waivers) |
 
 ## Natural Hazards & Climate
 
@@ -186,6 +200,11 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **[Disaster Prevention and Management](https://www.emerald.com/insight/publication/issn/0965-3562){target="_blank"}** | SCIE (Q3) | Emerald | Hybrid (Free Option) |
 | **[Nature Climate Change](https://www.nature.com/nclimate/){target="_blank"}** | SCIE (Q1) | Nature Portfolio | Subscription (No Fee) |
 | **[Climate Policy](https://www.tandfonline.com/journals/cclp20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
+| **[Geomatics, Natural Hazards and Risk](https://www.tandfonline.com/journals/tgnh20){target="_blank"}** | SCIE (Q1/Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Natural Hazards Review](https://ascelibrary.org/journal/nhrefo){target="_blank"}** | SCIE (Q2) | ASCE | Hybrid (Free Option) |
+| **[Weather](https://rmets.onlinelibrary.wiley.com/journal/14778696){target="_blank"}** | SCIE (Q4) | Wiley | Hybrid (Free Option) |
+| **[Weather, Climate, and Society](https://journals.ametsoc.org/view/journals/wcas/wcas-overview.xml){target="_blank"}** | SSCI (Q2) | AMS | Hybrid (Page Charges) |
+| **[Climate Risk Management](https://www.sciencedirect.com/journal/climate-risk-management){target="_blank"}** | Scopus (Q1) | Elsevier | Gold OA (Check Waivers) |
 
 ## RS & GIS
 
@@ -205,6 +224,10 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **[GeoInformatica](https://www.springer.com/journal/10707){target="_blank"}** | SCIE (Q2) | Springer | Hybrid (Free Option) |
 | **[Spatial Statistics](https://www.sciencedirect.com/journal/spatial-statistics){target="_blank"}** | SCIE (Q2) | Elsevier | Hybrid (Free Option) |
 | **[Survey Review](https://www.tandfonline.com/journals/ysre20){target="_blank"}** | SCIE (Q3) | Taylor & Francis | Hybrid (Free Option) |
+| **[Geocarto International](https://www.tandfonline.com/journals/tgei20){target="_blank"}** | SCIE (Q1/Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Remote Sensing Letters](https://www.tandfonline.com/journals/trsl20){target="_blank"}** | SCIE (Q3) | Taylor & Francis | Hybrid (Free Option) |
+| **[Egyptian Journal of Remote Sensing and Space Science](https://www.sciencedirect.com/journal/the-egyptian-journal-of-remote-sensing-and-space-science){target="_blank"}** | Scopus (Q1) | Elsevier | Gold OA (Check Waivers) |
+| **[Journal of Geomatics](https://www.isgindia.org/journal-of-geomatics/){target="_blank"}** | Scopus | ISG | Diamond OA (No Fee) |
 
 ## Agriculture & Ecology
 
@@ -223,6 +246,9 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **[Agronomy for Sustainable Development](https://link.springer.com/journal/13593){target="_blank"}** | SCIE (Q1) | Springer | Hybrid (Free Option) |
 | **[Field Crops Research](https://www.sciencedirect.com/journal/field-crops-research){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
 | **[European Journal of Agronomy](https://www.sciencedirect.com/journal/european-journal-of-agronomy){target="_blank"}** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Agronomy Journal](https://acsess.onlinelibrary.wiley.com/journal/14350645){target="_blank"}** | SCIE (Q2) | Wiley / ASA | Hybrid (Page Charges) |
+| **[Archives of Agronomy and Soil Science](https://www.tandfonline.com/journals/gags20){target="_blank"}** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[International Journal of Agricultural Sustainability](https://www.tandfonline.com/journals/tags20){target="_blank"}** | SCIE (Q1) | Taylor & Francis | Hybrid (Free Option) |
 
 ## Urban & Planning
 
@@ -240,6 +266,10 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **[Urban Studies](https://journals.sagepub.com/home/usj){target="_blank"}** | SSCI (Q1) | Sage | Hybrid (Free Option) |
 | **[Environment and Planning B](https://journals.sagepub.com/home/epb){target="_blank"}** | SSCI (Q1) | Sage | Hybrid (Free Option) |
 | **[Journal of the American Planning Association](https://www.tandfonline.com/journals/rjpa20){target="_blank"}** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
+| **[Journal of Urban Design](https://www.tandfonline.com/journals/cjud20){target="_blank"}** | Scopus (Q1) / ESCI | Taylor & Francis | Hybrid (Free Option) |
+| **[Planning Theory & Practice](https://www.tandfonline.com/journals/rptp20){target="_blank"}** | Scopus (Q1) / ESCI | Taylor & Francis | Hybrid (Free Option) |
+| **[Urban Research & Practice](https://www.tandfonline.com/journals/rurp20){target="_blank"}** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[International Planning Studies](https://www.tandfonline.com/journals/cips20){target="_blank"}** | Scopus (Q2) / ESCI | Taylor & Francis | Hybrid (Free Option) |
 
 :::
 
