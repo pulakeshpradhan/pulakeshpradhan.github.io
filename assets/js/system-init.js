@@ -11,18 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // Ensure viewport is set for mobile
-    if (!document.querySelector('meta[name="viewport"]')) {
-        const meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, initial-scale=1.0';
-        document.head.appendChild(meta);
-    }
-
     // Add protected class to main content
     if (mainContent) {
         mainContent.classList.add('protected-content');
-        document.body.style.overflow = 'hidden'; // Prevent scrolling while locked
     }
 
     // Create Overlay HTML
@@ -68,7 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (mainContent) {
                 mainContent.classList.add('unlocked');
             }
-            document.body.style.overflow = ''; // Restore scrolling
             sessionStorage.setItem('auth_state', 'authorized');
             setTimeout(() => overlay.remove(), 500);
         } else {
