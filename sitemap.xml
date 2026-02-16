@@ -2,90 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pulakeshpradhan.github.io/innovations.html</loc>
-    <lastmod>2026-02-16T06:25:14.152Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.306Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/events/gdg-nairobi.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.161Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/events/bhu-workshop.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.160Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/cv.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.160Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/events.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.160Z</lastmod>
   </url>
   <url>
-    <loc>https://pulakeshpradhan.github.io/posts/earthengine/cloudgis.html</loc>
-    <lastmod>2026-02-16T06:25:14.155Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/posts/gee-tips/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.156Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/posts/academic-journey/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.155Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/posts/flood-mapping/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.155Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/gallery.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.152Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/journals.html</loc>
-    <lastmod>2026-02-16T06:25:14.152Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/blog.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/posts/remote-sensing-ai/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.156Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/posts/welcome/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.156Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/posts/python-gis/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.156Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pulakeshpradhan.github.io/posts/2026_02_16_social_vs_spatial/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.155Z</lastmod>
+    <loc>https://pulakeshpradhan.github.io/publications/pradhan-2025-flood/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.905Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html</loc>
-    <lastmod>2026-02-16T06:25:14.153Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/2026_02_16_social_vs_spatial/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/python-gis/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/welcome/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/remote-sensing-ai/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/blog.html</loc>
+    <lastmod>2026-02-16T08:43:48.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/journals.html</loc>
+    <lastmod>2026-02-16T08:43:48.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/gallery.html</loc>
+    <lastmod>2026-02-16T08:43:48.161Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/flood-mapping/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/academic-journey/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/gee-tips/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/posts/earthengine/cloudgis.html</loc>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/publications/pradhan-2024-gdg-nairobi/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.705Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pulakeshpradhan.github.io/publications/pradhan-2024-drought/index.html</loc>
+    <lastmod>2026-02-16T08:43:48.705Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/publications.html</loc>
-    <lastmod>2026-02-16T06:25:14.156Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.310Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/events/gee-workshop-feb-2026.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.161Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/events/mscbu-workshop-sep-2025.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.161Z</lastmod>
   </url>
   <url>
     <loc>https://pulakeshpradhan.github.io/courses.html</loc>
-    <lastmod>2026-02-16T06:25:14.008Z</lastmod>
+    <lastmod>2026-02-16T08:43:48.160Z</lastmod>
   </url>
 </urlset>

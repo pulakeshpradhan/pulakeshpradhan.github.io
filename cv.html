@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-18616e042642d7e7af3e852468fab5aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-02ebbf3f9308e20f138ad959372e7615.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-18616e042642d7e7af3e852468fab5aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -425,8 +428,34 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="selected-publications" class="level2">
 <h2 class="anchored" data-anchor-id="selected-publications">📄 Selected Publications</h2>
-<p><strong>Pradhan, P.</strong> (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In <em>Google Earth Engine and Artificial Intelligence for Earth Observation</em>. <a href="https://doi.org/10.1016/b978-0-443-27372-8.00025-8">DOI: 10.1016/j.gee.2025.025</a></p>
-<p><strong>Pradhan, P.</strong> (2024). “Agricultural drought monitoring using Google Earth Engine.” In <em>Modern Cartography Series</em>. <a href="https://doi.org/10.1016/b978-0-443-23890-1.00011-6">DOI: 10.1016/b978-0-443-23890-1.00011-6</a></p>
+<div class="publication-container">
+<div class="publication-card">
+<section id="application-of-analytic-hierarchy-process-for-mapping-flood-vulnerability-in-odisha-using-google-earth-engine" class="level3 pub-title pub-content">
+<h3 class="pub-title anchored" data-anchor-id="application-of-analytic-hierarchy-process-for-mapping-flood-vulnerability-in-odisha-using-google-earth-engine"><a href="./publications/pradhan-2025-flood/index.html">Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine</a></h3>
+<p><strong>Google Earth Engine and Artificial Intelligence for Earth Observation</strong> {.pub-journal}</p>
+<p>This research presents a comprehensive flood vulnerability mapping approach for Odisha, India. By leveraging AHP within GEE, we identified high-risk zones for better disaster mitigation. {.pub-overview}</p>
+<div class="pub-buttons">
+<p><a href="https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine" class="pub-btn"><i class="bi bi-file-earmark-pdf"></i> Download</a> <a href="https://doi.org/10.1016/b978-0-443-27372-8.00025-8" class="pub-btn"><i class="bi bi-link-45deg"></i> Doi open</a></p>
+</div>
+</section>
+<div class="pub-image-container">
+<p><a href="images/GEE AI Assistant 1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/GEE AI Assistant 1.jpg" class="pub-image img-fluid"></a></p>
+</div>
+</div>
+<div class="publication-card">
+<section id="agricultural-drought-monitoring-using-google-earth-engine-a-study-of-paschim-medinipur-district-west-bengal" class="level3 pub-title pub-content">
+<h3 class="pub-title anchored" data-anchor-id="agricultural-drought-monitoring-using-google-earth-engine-a-study-of-paschim-medinipur-district-west-bengal"><a href="./publications/pradhan-2024-drought/index.html">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</a></h3>
+<p><strong>Modern Cartography Series</strong> {.pub-journal}</p>
+<p>Analyzed vegetation health and soil moisture trends using multi-temporal satellite data within GEE to monitor agricultural drought patterns. {.pub-overview}</p>
+<div class="pub-buttons">
+<p><a href="https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal" class="pub-btn"><i class="bi bi-file-earmark-pdf"></i> Download</a> <a href="https://doi.org/10.1016/b978-0-443-23890-1.00011-6" class="pub-btn"><i class="bi bi-link-45deg"></i> Doi open</a></p>
+</div>
+</section>
+<div class="pub-image-container">
+<p><a href="images/GEE AI Assistant 2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/GEE AI Assistant 2.jpg" class="pub-image img-fluid"></a></p>
+</div>
+</div>
+</div>
 </section>
 <section id="honors-awards" class="level2">
 <h2 class="anchored" data-anchor-id="honors-awards">🏆 Honors &amp; Awards</h2>
@@ -922,6 +951,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

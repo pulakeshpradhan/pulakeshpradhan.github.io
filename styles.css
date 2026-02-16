@@ -804,3 +804,118 @@ h2 {
 .resource-card:hover .resource-link-text {
     color: var(--brand-primary);
 }
+
+/* Publication Card Styling */
+.publication-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.publication-card {
+    display: flex;
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    padding: 30px;
+    gap: 40px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+    text-decoration: none !important;
+}
+
+.publication-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border-color: var(--brand-primary);
+}
+
+.pub-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.pub-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+    line-height: 1.3;
+    font-family: 'Outfit', sans-serif;
+}
+
+.pub-journal {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--brand-primary);
+    margin-bottom: 15px;
+}
+
+.pub-overview {
+    font-size: 1rem;
+    color: #475569;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.pub-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.pub-btn {
+    padding: 10px 24px;
+    border: 1px solid #d1d5db;
+    background: #f8fafc;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1e293b;
+    text-decoration: none !important;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pub-btn:hover {
+    background: #f1f5f9;
+    border-color: var(--brand-primary);
+    color: var(--brand-primary);
+    transform: translateY(-2px);
+}
+
+.pub-image-container {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.pub-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #f1f5f9;
+    background: #f1f5f9;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 992px) {
+    .publication-card {
+        flex-direction: column-reverse;
+        padding: 20px;
+        gap: 25px;
+    }
+    .pub-image-container {
+        width: 100%;
+    }
+    .pub-image {
+        height: 200px;
+    }
+    .pub-title {
+        font-size: 1.3rem;
+    }
+}
