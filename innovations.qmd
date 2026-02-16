@@ -185,7 +185,7 @@ An R wrapper providing a seamless interface to run Google Earth Engine via the P
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
-[<img src="images/geeaibg.JPG" class="nolightbox">](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl)
+[<img src="images/gee_course.jpg" class="nolightbox">](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl)
 
 ::: {.innovation-card-label}
 GEE AI Assistant

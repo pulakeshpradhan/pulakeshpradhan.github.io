@@ -51,24 +51,6 @@ The most recent addition to our toolkit is the **Large Language Model (LLM)**. A
 
 To transition from traditional GIS to AI-driven research, I recommend following this structured 7-step roadmap. This is the core curriculum I follow in my workflows:
 
-```{mermaid}
-flowchart TD
-    A["1. Python & Statistics"] --> B["2. Intro to NN"]
-    B --> C["3. Preprocessing & ANN"]
-    C --> D["4. CNNs"]
-    D --> E["5. Transfer Learning"]
-    E --> F["6. Object Detection"]
-    F --> G["7. Deployment & Serving"]
-
-    style A fill:#f0f7ff,stroke:#1a5f7a,stroke-width:2px
-    style B fill:#f0fff4,stroke:#219150,stroke-width:2px
-    style C fill:#fff9f0,stroke:#d35400,stroke-width:2px
-    style D fill:#fdf2f8,stroke:#d35400,stroke-width:2px
-    style E fill:#f5f3ff,stroke:#7c3aed,stroke-width:2px
-    style F fill:#fff1f2,stroke:#e11d48,stroke-width:2px
-    style G fill:#f0fdf4,stroke:#16a34a,stroke-width:2px
-```
-
 ::: {.roadmap-container}
 
 ### 1. Python & Statistics
