@@ -13,7 +13,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 ::: {.course-grid}
 
 ::: {.course-card}
-[<img src="images/agrimooc.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/rspatial/)
+[<img src="images/rspatial_course.png" class="nolightbox">](https://pulakeshpradhan.github.io/rspatial/)
 
 ::: {.course-card-body}
 ### R for Spatial Analysis
@@ -26,7 +26,7 @@ Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *
 :::
 
 ::: {.course-card}
-[<img src="images/geeai.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/gee/intro.html)
+[<img src="images/gee_course.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/gee/intro.html)
 
 ::: {.course-card-body}
 ### Google Earth Engine
@@ -39,7 +39,7 @@ Interactive guide and documentation for mastering cloud-based remote sensing.
 :::
 
 ::: {.course-card}
-[<img src="https://placehold.co/400x250/34495e/ffffff?text=Python" class="nolightbox">](https://pulakeshpradhan.github.io/geopython/)
+[<img src="images/geopython_course.png" class="nolightbox">](https://pulakeshpradhan.github.io/geopython/)
 
 ::: {.course-card-body}
 ### Geo-Python
@@ -58,7 +58,7 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 ::: {.course-grid}
 
 ::: {.course-card}
-[<img src="images/Skills/arcpro.png" class="nolightbox">](https://pulakeshpradhan.github.io/cloudgis/)
+[<img src="images/cloud_gis_course.png" class="nolightbox">](https://pulakeshpradhan.github.io/cloudgis/)
 
 ::: {.course-card-body}
 ### Cloud GIS & AI
@@ -71,11 +71,11 @@ Resources on merging cloud computing with artificial intelligence for advanced G
 :::
 
 ::: {.course-card}
-[<img src="https://placehold.co/400x250/e67e22/ffffff?text=Reference" class="nolightbox">](https://pulakeshpradhan.github.io/geospatial/)
+[<img src="courses/geospatial_trinity.png" class="nolightbox">](https://pulakeshpradhan.github.io/geospatial/)
 
 ::: {.course-card-body}
-### Geospatial Reference
-A quick-reference guide for common geospatial operations in Python, R, and GEE.
+### Geospatial Trinity
+A comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.
 
 ::: {.card-footer}
 [<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/geospatial/){.social-btn .stretched-link}
@@ -90,7 +90,7 @@ A quick-reference guide for common geospatial operations in Python, R, and GEE.
 ::: {.course-grid}
 
 ::: {.course-card}
-[<img src="images/trainings.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/english/)
+[<img src="images/academic_course.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/english/)
 
 ::: {.course-card-body}
 ### English for Academics

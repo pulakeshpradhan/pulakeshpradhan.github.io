@@ -25,6 +25,10 @@ listing:
     max-items: 3
   - id: latest-tutorials
     contents:
+      - title: "Geospatial Trinity"
+        description: "The ultimate reference for Python, R, and Google Earth Engine."
+        path: "https://pulakeshpradhan.github.io/geospatial/"
+        image: "courses/geospatial_trinity.png"
       - title: "R for Spatial"
         description: "Guide to spatial analysis using R."
         path: "https://pulakeshpradhan.github.io/rspatial/"
@@ -38,7 +42,7 @@ listing:
         path: "https://pulakeshpradhan.github.io/geopython/"
         image: "https://placehold.co/400x200/34495e/ffffff?text=Geo-Python"
     type: grid
-    max-items: 3
+    max-items: 4
   - id: upcoming-events
     contents: events
     sort: "date asc"
