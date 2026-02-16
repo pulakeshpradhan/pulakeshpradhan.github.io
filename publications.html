@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-description','listing-pub-journal','listing-venue','listing-image','listing-pdf','listing-researchgate','listing-doi','listing-details','listing-presentation','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-comments","listing-format","listing-language","listing-title","listing-date","listing-author","listing-venue","listing-presentation","listing-details","listing-image","listing-categories","listing-description","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-pub-journal","listing-doi","listing-researchgate","listing-pdf"],
+      searchColumns: ["listing-project","listing-website","listing-comments","listing-format","listing-language","listing-title","listing-date","listing-author","listing-venue","listing-presentation","listing-details","listing-image","listing-categories","listing-description","listing-title-block-banner","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-pub-journal","listing-doi","listing-researchgate","listing-pdf"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -448,10 +448,30 @@ window.Quarto = {
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <div class="publication-container">
 <pre><code>&lt;div class="publication-card"&gt;
+  &lt;div class="pub-image-container"&gt;
+    &lt;img src="/images/GEE AI Assistant 1.jpg" class="pub-image"&gt;
+  &lt;/div&gt;
+
   &lt;div class="pub-content"&gt;
+    &lt;div class="pub-meta"&gt;
+      &lt;span class="pub-date"&gt;Jan 2025&lt;/span&gt;
+      
+        &lt;div class="pub-tags"&gt;
+          
+            &lt;span class="pub-tag"&gt;#Journal Article&lt;/span&gt;
+            
+            &lt;span class="pub-tag"&gt;#Flood&lt;/span&gt;
+            
+            &lt;span class="pub-tag"&gt;#GEE&lt;/span&gt;
+            
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+
     &lt;a href="/publications/pradhan-2025-flood/index.qmd" class="pub-title"&gt;Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine&lt;/a&gt;
     &lt;div class="pub-journal"&gt;Google Earth Engine and Artificial Intelligence for Earth Observation&lt;/div&gt;
     &lt;div class="pub-overview"&gt;Integrated multiple spatial parameters using AHP in GEE to identify high-risk flood zones in Odisha.&lt;/div&gt;
+
     &lt;div class="pub-buttons"&gt;
       
         
@@ -465,16 +485,33 @@ window.Quarto = {
                   
     &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class="pub-image-container"&gt;
-    &lt;img src="/images/GEE AI Assistant 1.jpg" class="pub-image"&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class="publication-card"&gt;
+  &lt;div class="pub-image-container"&gt;
+    &lt;img src="/images/gdg.jpg" class="pub-image"&gt;
+  &lt;/div&gt;
+
   &lt;div class="pub-content"&gt;
+    &lt;div class="pub-meta"&gt;
+      &lt;span class="pub-date"&gt;May 2024&lt;/span&gt;
+      
+        &lt;div class="pub-tags"&gt;
+          
+            &lt;span class="pub-tag"&gt;#Conference&lt;/span&gt;
+            
+            &lt;span class="pub-tag"&gt;#GEE&lt;/span&gt;
+            
+            &lt;span class="pub-tag"&gt;#AI&lt;/span&gt;
+            
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+
     &lt;a href="/publications/pradhan-2024-gdg-nairobi/index.qmd" class="pub-title"&gt;Drought Monitoring with GEE AI Assistant powered by Gemini API&lt;/a&gt;
     &lt;div class="pub-journal"&gt;GDG for Earth Engine Nairobi (Virtual)&lt;/div&gt;
     &lt;div class="pub-overview"&gt;Presented a workflow for automating drought monitoring using Gemini AI within Google Earth Engine at GDG Nairobi.&lt;/div&gt;
+
     &lt;div class="pub-buttons"&gt;
       
               &lt;a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" class="pub-btn" target="_blank"&gt;&lt;i
@@ -487,16 +524,33 @@ window.Quarto = {
                     
     &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class="pub-image-container"&gt;
-    &lt;img src="/images/gdg.jpg" class="pub-image"&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class="publication-card"&gt;
+  &lt;div class="pub-image-container"&gt;
+    &lt;img src="/images/GEE AI Assistant 2.jpg" class="pub-image"&gt;
+  &lt;/div&gt;
+
   &lt;div class="pub-content"&gt;
+    &lt;div class="pub-meta"&gt;
+      &lt;span class="pub-date"&gt;Jan 2024&lt;/span&gt;
+      
+        &lt;div class="pub-tags"&gt;
+          
+            &lt;span class="pub-tag"&gt;#Journal Article&lt;/span&gt;
+            
+            &lt;span class="pub-tag"&gt;#Drought&lt;/span&gt;
+            
+            &lt;span class="pub-tag"&gt;#GEE&lt;/span&gt;
+            
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+
     &lt;a href="/publications/pradhan-2024-drought/index.qmd" class="pub-title"&gt;Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal&lt;/a&gt;
     &lt;div class="pub-journal"&gt;Modern Cartography Series&lt;/div&gt;
     &lt;div class="pub-overview"&gt;Monitored agricultural drought patterns using multi-temporal satellite data and vegetation indices within GEE.&lt;/div&gt;
+
     &lt;div class="pub-buttons"&gt;
       
         
@@ -509,9 +563,6 @@ window.Quarto = {
                       class="bi bi-link-45deg"&gt;&lt;/i&gt; Doi open&lt;/a&gt;
                   
     &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class="pub-image-container"&gt;
-    &lt;img src="/images/GEE AI Assistant 2.jpg" class="pub-image"&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 </div>
