@@ -170,6 +170,65 @@ h2 {
     gap: 10px;
 }
 
+/* Premium Table Styling */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 1.5rem 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+th {
+    background-color: #f8fafc;
+    color: var(--brand-primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    padding: 12px 15px;
+    border-bottom: 2px solid #e2e8f0;
+    text-align: left;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 0.95rem;
+    color: var(--text-main);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #fbfcfe;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+    transition: background-color 0.2s ease;
+}
+
+/* Link in table */
+table a {
+    color: var(--brand-secondary);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+table a:hover {
+    color: var(--brand-primary);
+    text-decoration: underline;
+}
+
+
 /* Innovations & Courses Grid - Modern & Professional */
 .software-grid {
     display: grid;
