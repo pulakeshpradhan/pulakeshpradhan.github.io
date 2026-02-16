@@ -8,47 +8,19 @@ title: "Publications"
 
 ::: {.publication-item}
 <div class="publication-title">
-  <a href="#" class="stretched-link" style="color: inherit; text-decoration: none;">Comparative Analysis of Machine Learning Algorithms for Land Use Land Cover Classification</a>
+  <a href="#" class="stretched-link" style="color: inherit; text-decoration: none;">Journal Article Placeholder</a>
 </div>
 
 ::: {.publication-main}
 ::: {.publication-image}
-![](https://placehold.co/600x400/1a5f7a/ffffff?text=Journal+Article)
+![](https://placehold.co/600x400/f1f5f9/475569?text=Coming+Soon)
 :::
 
 ::: {.publication-body}
-<div class="publication-authors">**Pradhan, P.**, et al. (In Press)</div>
-<div class="publication-journal">International Journal of Remote Sensing</div>
+<div class="publication-authors">**Pradhan, P.** (Year)</div>
+<div class="publication-journal">Journal Name</div>
 <div class="publication-overview">
-This upcoming article explores the efficiency of various machine learning models, including Random Forest, SVM, and Neural Networks, in classifying complex urban and rural landscapes using multi-temporal satellite imagery.
-</div>
-<div class="publication-actions">
-  <a href="#" class="capsule-btn btn-download">
-    <i class="bi bi-file-earmark-pdf"></i> Download
-  </a>
-  <a href="#" class="capsule-btn btn-doi">
-    <i class="bi bi-link-45deg"></i> DOI
-  </a>
-</div>
-:::
-:::
-:::
-
-::: {.publication-item}
-<div class="publication-title">
-  <a href="#" class="stretched-link" style="color: inherit; text-decoration: none;">Spatial Modeling of Groundwater Potential Zones using Multi-Criteria Decision Analysis</a>
-</div>
-
-::: {.publication-main}
-::: {.publication-image}
-![](https://placehold.co/600x400/219150/ffffff?text=Journal+Article)
-:::
-
-::: {.publication-body}
-<div class="publication-authors">**Pradhan, P.** (Under Review)</div>
-<div class="publication-journal">Water Resources Management</div>
-<div class="publication-overview">
-A comprehensive study on mapping groundwater potential zones by integrating geological, hydrological, and climatic factors through advanced spatial modeling techniques within a GIS framework.
+This is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.
 </div>
 <div class="publication-actions">
   <a href="#" class="capsule-btn btn-download">
@@ -130,7 +102,7 @@ This study presents a remote sensing-based approach to monitoring agricultural d
 
 <br>
 
-## 🎤 Conference Presentations
+## 🎤 Presentations
 
 ::: {.publication-list}
 
@@ -172,19 +144,19 @@ A demonstration of integrating Large Language Models (LLMs) with geospatial plat
 
 ::: {.publication-item}
 <div class="publication-title">
-  <a href="#" class="stretched-link" style="color: inherit; text-decoration: none;">Real-time Flood Monitoring using Sentinel-1 SAR Data and GEE</a>
+  <a href="#" class="stretched-link" style="color: inherit; text-decoration: none;">Poster Presentation Placeholder</a>
 </div>
 
 ::: {.publication-main}
 ::: {.publication-image}
-![](https://placehold.co/600x400/d35400/ffffff?text=Poster+Presentation)
+![](https://placehold.co/600x400/f1f5f9/475569?text=Coming+Soon)
 :::
 
 ::: {.publication-body}
-<div class="publication-authors">**Pradhan, P.** (2023)</div>
-<div class="publication-journal">National Symposium on Remote Sensing, India</div>
+<div class="publication-authors">**Pradhan, P.** (Year)</div>
+<div class="publication-journal">Conference Name</div>
 <div class="publication-overview">
-This poster presentation highlights the use of Synthetic Aperture Radar (SAR) data for mapping flood inundated areas in near real-time, providing critical information for emergency response.
+This is a placeholder for upcoming conference posters and visual research presentations. High-resolution images and download links will be integrated here upon release.
 </div>
 <div class="publication-actions">
   <a href="#" class="capsule-btn btn-download">
