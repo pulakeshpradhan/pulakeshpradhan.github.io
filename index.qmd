@@ -57,10 +57,10 @@ listing:
         description: "A study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024)."
         path: "https://doi.org/10.1016/b978-0-443-23890-1.00011-6"
         image: "publications/drought_ndvi.jpeg"
-      - title: "GEE AI Assistant for Drought Monitoring"
-        description: "Presentation on Gemini-powered coding assistant for Earth Engine at GDG Nairobi."
-        path: "https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/"
-        image: "publications/GEE_AI.jpg"
+      - title: "Air Quality Trend Monitoring (Poster)"
+        description: "Near real-time multip-sensor satellite monitoring presented at ORC-2023."
+        path: "publications/ORC2023_Pulakesh_Pradhan.pdf"
+        image: "https://placehold.co/600x400/1a5f7a/ffffff?text=Air+Quality+Poster"
     type: grid
     max-items: 3
 page-layout: full
