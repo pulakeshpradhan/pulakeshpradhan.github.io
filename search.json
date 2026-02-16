@@ -361,21 +361,35 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine\n\n\n\n\n\n\n\nPradhan, P. (2025)\n\n\nIn Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier\n\n\nThis research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.\n\n\n  Download    DOI \n\n\n\n\n\n\nAgricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nIn Modern Cartography Series, Elsevier\n\n\nThis study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, we analyze spatiotemporal drought patterns and their impact on local agriculture.\n\n\n  Download    DOI"
+    "text": "Comparative Analysis of Machine Learning Algorithms for Land Use Land Cover Classification\n\n\n\n\n\n\n\nPradhan, P., et al. (In Press)\n\n\nInternational Journal of Remote Sensing\n\n\nThis upcoming article explores the efficiency of various machine learning models, including Random Forest, SVM, and Neural Networks, in classifying complex urban and rural landscapes using multi-temporal satellite imagery.\n\n\n  Download    DOI \n\n\n\n\n\n\nSpatial Modeling of Groundwater Potential Zones using Multi-Criteria Decision Analysis\n\n\n\n\n\n\n\nPradhan, P. (Under Review)\n\n\nWater Resources Management\n\n\nA comprehensive study on mapping groundwater potential zones by integrating geological, hydrological, and climatic factors through advanced spatial modeling techniques within a GIS framework.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Comparative Analysis of Machine Learning Algorithms for Land Use Land Cover Classification\n\n\n\n\n\n\n\nPradhan, P., et al. (In Press)\n\n\nInternational Journal of Remote Sensing\n\n\nThis upcoming article explores the efficiency of various machine learning models, including Random Forest, SVM, and Neural Networks, in classifying complex urban and rural landscapes using multi-temporal satellite imagery.\n\n\n  Download    DOI \n\n\n\n\n\n\nSpatial Modeling of Groundwater Potential Zones using Multi-Criteria Decision Analysis\n\n\n\n\n\n\n\nPradhan, P. (Under Review)\n\n\nWater Resources Management\n\n\nA comprehensive study on mapping groundwater potential zones by integrating geological, hydrological, and climatic factors through advanced spatial modeling techniques within a GIS framework.\n\n\n  Download    DOI"
   },
   {
     "objectID": "publications.html#book-chapters",
     "href": "publications.html#book-chapters",
     "title": "Publications",
-    "section": "",
-    "text": "Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine\n\n\n\n\n\n\n\nPradhan, P. (2025)\n\n\nIn Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier\n\n\nThis research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.\n\n\n  Download    DOI \n\n\n\n\n\n\nAgricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nIn Modern Cartography Series, Elsevier\n\n\nThis study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, we analyze spatiotemporal drought patterns and their impact on local agriculture.\n\n\n  Download    DOI"
+    "section": "📚 Book Chapters",
+    "text": "📚 Book Chapters\n\n\n\nApplication of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine\n\n\n\n\n\n\n\nPradhan, P. (2025)\n\n\nIn Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier\n\n\nThis research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.\n\n\n  Download    DOI \n\n\n\n\n\n\nAgricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nIn Modern Cartography Series, Elsevier\n\n\nThis study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, we analyze spatiotemporal drought patterns and their impact on local agriculture.\n\n\n  Download    DOI"
   },
   {
     "objectID": "publications.html#conference-presentations",
     "href": "publications.html#conference-presentations",
     "title": "Publications",
     "section": "🎤 Conference Presentations",
-    "text": "🎤 Conference Presentations\n\n\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nGDG for Earth Engine Nairobi (Virtual)\n\n\nA demonstration of integrating Large Language Models (LLMs) with geospatial platforms. This workshop showcases how a Gemini-powered AI assistant can streamline complex GEE coding tasks for drought monitoring, making cloud-based remote sensing more accessible to researchers.\n\n\n  Download    DOI \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
+    "text": "🎤 Conference Presentations\n\n\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nGDG for Earth Engine Nairobi (Virtual)\n\n\nA demonstration of integrating Large Language Models (LLMs) with geospatial platforms. This workshop showcases how a Gemini-powered AI assistant can streamline complex GEE coding tasks for drought monitoring, making cloud-based remote sensing more accessible to researchers.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#posters",
+    "href": "publications.html#posters",
+    "title": "Publications",
+    "section": "🖼️ Posters",
+    "text": "🖼️ Posters\n\n\n\nReal-time Flood Monitoring using Sentinel-1 SAR Data and GEE\n\n\n\n\n\n\n\nPradhan, P. (2023)\n\n\nNational Symposium on Remote Sensing, India\n\n\nThis poster presentation highlights the use of Synthetic Aperture Radar (SAR) data for mapping flood inundated areas in near real-time, providing critical information for emergency response.\n\n\n  Download \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
   },
   {
     "objectID": "events/gee-workshop-feb-2026.html",
