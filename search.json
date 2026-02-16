@@ -119,81 +119,116 @@
     "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine Nairobi\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
   },
   {
-    "objectID": "posts/earthengine/cloudgis.html",
-    "href": "posts/earthengine/cloudgis.html",
-    "title": "Why in Cloud GIS Google Earth Engien is the only option left?",
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
     "section": "",
-    "text": "Why Cloud GIS?\nThe Cloud GIS is the new paradigm in GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS.\nWith the advancement of the Google Earth Engine this concept has become more popular."
+    "text": "The geospatial landscape is undergoing a monumental shift. What once required specialized, heavy desktop software is now being executed with lines of elegant Python code. The integration of Machine Learning (ML), Deep Learning (DL), and Artificial Intelligence (AI) has transformed GIS from a mapping tool into a predictive and analytical powerhouse.\nIn this post, we explore the architecture of a modern geospatial workflow and why Python is at the heart of this revolution."
   },
   {
-    "objectID": "posts/gee-tips/index.html",
-    "href": "posts/gee-tips/index.html",
-    "title": "Top 5 Tips for Google Earth Engine Developers",
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🧱 The Foundation: Python’s Geospatial Stack",
+    "text": "🧱 The Foundation: Python’s Geospatial Stack\nBefore we dive into AI, we must acknowledge the libraries that make Python a GIS titan. The “Geospatial Stack” allows us to treat spatial data as first-class citizens in the data science world.\n\nGeoPandas: Brings the power of pandas to vector data, allowing for complex spatial joins and geometric operations in seconds.\nXarray & Rasterio: The dynamic duo for raster data. rasterio handles the I/O of GeoTIFFs, while xarray provides a multi-dimensional platform for analyzing time-series satellite imagery (Data Cubes).\nShapely & PyProj: The engines under the hood for geometric manipulation and coordinate reference system (CRS) transformations."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🤖 The Rise of Machine Learning (ML)",
+    "text": "🤖 The Rise of Machine Learning (ML)\nTraditional classification methods like Maximum Likelihood are being replaced by robust ML algorithms. Using Scikit-Learn, geographers can now implement:\n\nRandom Forests & SVM: For high-accuracy land cover classification.\nClustering (K-Means): For identifying socio-economic patterns or environmental zones without prior labeling.\nRegression Models: To predict environmental variables like Soil Organic Carbon or Urban Heat Island intensity.\n\nThe beauty of Python is that your spatial data (from GeoPandas) can be fed directly into these models with minimal translation."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision",
+    "text": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision\nWhere ML looks at pixel values, Deep Learning looks at patterns, textures, and context. With frameworks like PyTorch and TensorFlow, we are now performing:\n\nSemantic Segmentation: Identifying every single building or tree in high-resolution aerial imagery (e.g., using U-Net architectures).\nObject Detection: Automatically counting ships in harbors or identifying solar panels on rooftops.\nChange Detection: Using Siamese networks to detect subtle changes in urban sprawl or deforestation between two points in time.\n\nIntegrating DL into a geospatial workflow typically involves using libraries like torch-geo or bridging Google Earth Engine with AI models via Earth Engine’s AI Platform integration."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "✍️ The AI Revolution: LLMs in Geospatial Research",
+    "text": "✍️ The AI Revolution: LLMs in Geospatial Research\nThe most recent addition to our toolkit is the Large Language Model (LLM). AI is not just analyzing the pixels; it is helping us write the code to do so.\n\nAutomated Coding: Tools like the GEE AI Assistant (a Chrome extension I developed) leverage Gemini AI to help researchers generate complex scripts in seconds.\nNatural Language Queries: We are moving toward a future where you can ask, “Find all areas in Odisha that experienced more than 50% vegetation loss after the 2024 cyclone,” and the AI generates the processing pipeline.\nResearch Synthesis: AI helps in summarizing vast amounts of remote sensing literature, identifying gaps, and even formatting citations for academic journals."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "�️ The Roadmap: Mastering Python for AI-Driven Research",
+    "text": "�️ The Roadmap: Mastering Python for AI-Driven Research\nTo transition from traditional GIS to AI-driven research, I recommend following this structured 7-step roadmap. This is the core curriculum I follow in my workflows:\n\n\n\n\n\ngraph TD\n    A[1. Python & Statistics] --&gt; B[2. Intro to NN]\n    B --&gt; C[3. Preprocessing & ANN]\n    C --&gt; D[4. CNNs]\n    D --&gt; E[5. Transfer Learning]\n    E --&gt; F[6. Object Detection]\n    F --&gt; G[7. Deployment & Serving]\n\n    style A fill:#f0f7ff,stroke:#1a5f7a,stroke-width:2px\n    style B fill:#f0fff4,stroke:#219150,stroke-width:2px\n    style C fill:#fff9f0,stroke:#d35400,stroke-width:2px\n    style D fill:#fdf2f8,stroke:#brand-accent,stroke-width:2px\n    style E fill:#f5f3ff,stroke:#7c3aed,stroke-width:2px\n    style F fill:#fff1f2,stroke:#e11d48,stroke-width:2px\n    style G fill:#f0fdf4,stroke:#16a34a,stroke-width:2px\n\n\n\n\n\n\n\n\n1. Python & Statistics\n\nCore Libraries: NumPy, Pandas\nConcepts: Probability, OOPs in Python, Statistics for Data Science\n\n\n\n2. Intro to Neural Networks (NN)\n\nArchitecture: Input Layer, Hidden Layer, Weights, Bias\nLogic: Activation Functions, The Perceptron Model, Multi-Layer (ANN)\n\n\n\n3. Preprocessing & Artificial Neural Networks (ANN)\n\nMechanics: Forward Propagation, Backward propagation, Loss functions\nOptimization: Adam Optimizer, Multi-Layer Perceptrons\n\n\n\n4. Convolutional Neural Networks (CNNs)\n\nGeospatial Power: Convolutional Nets for imagery\nFrameworks: Keras, Pooling layers for spatial reduction\n\n\n\n5. Transfer Learning\n\nPre-trained Models: VGG16, AlexNet, ResNet\nEcosystems: Hugging Face, Timm (PyTorch Image Models)\n\n\n\n6. Object Detection\n\nSOTA Models: YOLO (v8), RCNN, SSD\nSegmentation: Mask R-CNN for individual feature extraction\n\n\n\n7. Deployment & Serving\n\nFrom Code to App: Docker containers, Streamlit dashboards\nServing: Scaling Python scripts for production environments"
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "�🚀 Conclusion: The Hybrid Future",
+    "text": "�🚀 Conclusion: The Hybrid Future\nA modern geospatial workflow is no longer about choosing one tool. It is about orchestration.\nWe use Google Earth Engine for massive data preprocessing, Python for specialized ML/DL modeling, and AI to streamline the entire process. This “Modern Workflow” isn’t just faster—it’s more reproducible, more scalable, and significantly more powerful than anything we’ve seen before.\nThe era of the “Geospatial Data Scientist” has arrived. Are you ready?\n\n\nResources for Further Learning\n\nPython for Geospatial Course\nGeospatial Trinity Reference\nDeep Learning for Remote Sensing (A Review)"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
     "section": "",
-    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
+    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
   },
   {
-    "objectID": "posts/academic-journey/index.html",
-    "href": "posts/academic-journey/index.html",
-    "title": "My Journey in Spatial Data Science",
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🧠 The Social Science Perspective: Understanding “Place”",
+    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
+    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🤝 The Convergence: Why We Need Both",
+    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
+  },
+  {
+    "objectID": "posts/python-gis/index.html",
+    "href": "posts/python-gis/index.html",
+    "title": "Modern GIS with Python: Beyond the Desktop",
     "section": "",
-    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
+    "text": "Python has become the de-facto language for spatial data science…"
   },
   {
-    "objectID": "posts/flood-mapping/index.html",
-    "href": "posts/flood-mapping/index.html",
-    "title": "Advanced Flood Mapping using AHP and GEE",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Academic Blog",
     "section": "",
-    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
+    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Courses: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
   },
   {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Image Gallery",
+    "objectID": "posts/remote-sensing-ai/index.html",
+    "href": "posts/remote-sensing-ai/index.html",
+    "title": "The Future of AI in Remote Sensing",
     "section": "",
-    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
+    "text": "How deep learning is changing how we interpret satellite imagery…"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pulakesh Pradhan",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
-  },
-  {
-    "objectID": "index.html#upcoming-events",
-    "href": "index.html#upcoming-events",
-    "title": "Pulakesh Pradhan",
-    "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
-  },
-  {
-    "objectID": "index.html#latest-insights",
-    "href": "index.html#latest-insights",
-    "title": "Pulakesh Pradhan",
-    "section": "📌 Latest Insights",
-    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R…\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy in Cloud GIS Google Earth Engien is the only option left?\n\n\nWhile cloud GIS is popular but the processing environment and ease of use is the main bottleneck.\n\n\n\nPulakesh Pradhan\n\n\nFeb 15, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
-  },
-  {
-    "objectID": "index.html#featured-courses",
-    "href": "index.html#featured-courses",
-    "title": "Pulakesh Pradhan",
-    "section": "🎓 Featured Courses",
-    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nGeospatial Trinity\n\n\nThe ultimate reference for Python, R, and Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond GEE\n\n\nResources on merging cloud computing with open source GIS.\n\n\n\n\n\n\n\n\n\n\n\n\nPython for AI-Driven Research\n\n\nModern geospatial workflow using Python - ML, DL, AI etc.\n\n\n\n\n\nNo matching items\n\n View all courses"
-  },
-  {
-    "objectID": "index.html#featured-innovations",
-    "href": "index.html#featured-innovations",
-    "title": "Pulakesh Pradhan",
-    "section": "🚀 Featured Innovations",
-    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
-  },
-  {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
-    "title": "Pulakesh Pradhan",
-    "section": "📚 Recent Publications",
-    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
+    "text": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\n\nPython\n\nMachine Learning\n\nDeep Learning\n\nAI\n\nGeospatial\n\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\n\n\nFeb 17, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nTheory\n\nGIS\n\nSocial Science\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\n\nCloud GIS\n\nGoogle Earth Engine\n\nOpen Source\n\nPython\n\nR\n\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R is the future of sustainable geospatial analysis.\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWhy in Cloud GIS Google Earth Engien is the only option left?\n\n\n\nOpen Source\n\nGIS\n\nPython\n\nCloud\n\n\n\nWhile cloud GIS is popular but the processing environment and ease of use is the main bottleneck.\n\n\n\n\n\nFeb 15, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\nGEE\n\ntips\n\n\n\n\n\n\n\n\n\nFeb 13, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\nPython\n\nGIS\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\nAHP\n\nGEE\n\nResearch\n\n\n\n\n\n\n\n\n\nFeb 11, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Future of AI in Remote Sensing\n\n\n\nAI\n\nRemote Sensing\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Academic Blog\n\n\n\nnews\n\neducation\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nMy Journey in Spatial Data Science\n\n\n\nPersonal\n\nCareer\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "journals.html",
@@ -252,67 +287,81 @@
     "text": "✨ Inspirations\nA collection of professional research websites and portfolios that inspire the design and structure of this platform.\n\n\n\n\nAtul Kumar Saini\n\nResearch portfolio focusing on climate dynamics, remote sensing, and environmental modelling. Visit Website \n\n\n\n\nDr. Induj\n\nProfessional academic platform with resources on hydrology, water resource management, and GIS. Visit Website \n\n\n\n\nHydroSense Lab (IIT Delhi)\n\nThe HydroSense Lab at IIT Delhi focuses on cutting-edge research in hydrological modelling and remote sensing. Visit Website \n\n\n\n\nShushobhit Singh (IIT ISM)\n\nAcademic page of Shushobhit Singh at IIT (ISM) Dhanbad, showcasing research in earth sciences. Visit Website"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
     "section": "",
-    "text": "The Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nTheory\n\nGIS\n\nSocial Science\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\n\nCloud GIS\n\nGoogle Earth Engine\n\nOpen Source\n\nPython\n\nR\n\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R is the future of sustainable geospatial analysis.\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWhy in Cloud GIS Google Earth Engien is the only option left?\n\n\n\nOpen Source\n\nGIS\n\nPython\n\nCloud\n\n\n\nWhile cloud GIS is popular but the processing environment and ease of use is the main bottleneck.\n\n\n\n\n\nFeb 15, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nTop 5 Tips for Google Earth Engine Developers\n\n\n\nGEE\n\ntips\n\n\n\n\n\n\n\n\n\nFeb 13, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nModern GIS with Python: Beyond the Desktop\n\n\n\nPython\n\nGIS\n\n\n\n\n\n\n\n\n\nFeb 12, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Flood Mapping using AHP and GEE\n\n\n\nAHP\n\nGEE\n\nResearch\n\n\n\n\n\n\n\n\n\nFeb 11, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Future of AI in Remote Sensing\n\n\n\nAI\n\nRemote Sensing\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Academic Blog\n\n\n\nnews\n\neducation\n\n\n\n\n\n\n\n\n\nFeb 10, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nMy Journey in Spatial Data Science\n\n\n\nPersonal\n\nCareer\n\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
   },
   {
-    "objectID": "posts/remote-sensing-ai/index.html",
-    "href": "posts/remote-sensing-ai/index.html",
-    "title": "The Future of AI in Remote Sensing",
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "Pulakesh Pradhan",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
+  },
+  {
+    "objectID": "index.html#latest-insights",
+    "href": "index.html#latest-insights",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Insights",
+    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\nPulakesh Pradhan\n\n\nFeb 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R…\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
+  },
+  {
+    "objectID": "index.html#featured-courses",
+    "href": "index.html#featured-courses",
+    "title": "Pulakesh Pradhan",
+    "section": "🎓 Featured Courses",
+    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nGeospatial Trinity\n\n\nThe ultimate reference for Python, R, and Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond GEE\n\n\nResources on merging cloud computing with open source GIS.\n\n\n\n\n\n\n\n\n\n\n\n\nPython for AI Research\n\n\nModern geospatial workflow using Python - ML, DL, AI etc.\n\n\n\n\n\nNo matching items\n\n View all courses"
+  },
+  {
+    "objectID": "index.html#featured-innovations",
+    "href": "index.html#featured-innovations",
+    "title": "Pulakesh Pradhan",
+    "section": "🚀 Featured Innovations",
+    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Pulakesh Pradhan",
+    "section": "📚 Recent Publications",
+    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Image Gallery",
     "section": "",
-    "text": "How deep learning is changing how we interpret satellite imagery…"
+    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Academic Blog",
+    "objectID": "posts/flood-mapping/index.html",
+    "href": "posts/flood-mapping/index.html",
+    "title": "Advanced Flood Mapping using AHP and GEE",
     "section": "",
-    "text": "Welcome to the Spatial Geography Hub\nWelcome to my updated personal website and blog! I am thrilled to share my journey as a geographer and spatial data scientist with a global community of researchers and developers.\nThis blog will serve as a space for: - Courses: Deep dives into Google Earth Engine, Python, and R for geospatial analysis. - Project Updates: Behind-the-scenes looks at the development of my innovations like geeadvance and deepgee. - Field Notes: Insights from workshops, research conventions, and academic fieldwork.\nSince this is a platform for geographers, expect to see a lot of satellite imagery, code snippets, and spatial insights. Whether you are a student just starting with GIS or a professional looking for advanced AI-driven spatial tools, I hope you find this content valuable.\nFeel free to leave comments using your GitHub account—I look forward to engaging in technical discussions and collaborations!"
+    "text": "Combining Analytic Hierarchy Process with cloud computing for flood studies…"
   },
   {
-    "objectID": "posts/python-gis/index.html",
-    "href": "posts/python-gis/index.html",
-    "title": "Modern GIS with Python: Beyond the Desktop",
+    "objectID": "posts/academic-journey/index.html",
+    "href": "posts/academic-journey/index.html",
+    "title": "My Journey in Spatial Data Science",
     "section": "",
-    "text": "Python has become the de-facto language for spatial data science…"
+    "text": "Reflecting on the path from geography basics to advanced cloud computing…"
   },
   {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "objectID": "posts/gee-tips/index.html",
+    "href": "posts/gee-tips/index.html",
+    "title": "Top 5 Tips for Google Earth Engine Developers",
     "section": "",
-    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
+    "text": "Google Earth Engine is powerful, but optimizing your scripts is key to performance…"
   },
   {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🧠 The Social Science Perspective: Understanding “Place”",
-    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
-    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🤝 The Convergence: Why We Need Both",
-    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "Conclusion",
-    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
+    "objectID": "posts/earthengine/cloudgis.html",
+    "href": "posts/earthengine/cloudgis.html",
+    "title": "Why in Cloud GIS Google Earth Engien is the only option left?",
+    "section": "",
+    "text": "Why Cloud GIS?\nThe Cloud GIS is the new paradigm in GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS. It is the new way of doing GIS.\nWith the advancement of the Google Earth Engine this concept has become more popular."
   },
   {
     "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
