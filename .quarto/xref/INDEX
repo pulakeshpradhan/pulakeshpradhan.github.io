@@ -73,5 +73,17 @@
   },
   "journals.qmd": {
     "journals.html": "1cb08cfc"
+  },
+  "events/gee-workshop-feb-2026.qmd": {
+    "gee-workshop-feb-2026.html": "f0c08a60"
+  },
+  "events/mscbu-workshop-sep-2025.qmd": {
+    "mscbu-workshop-sep-2025.html": "07261768"
+  },
+  "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.qmd": {
+    "index.html": "09ebece6"
+  },
+  "posts/2026_02_16_social_vs_spatial/index.qmd": {
+    "index.html": "5e4a81fa"
   }
 }
