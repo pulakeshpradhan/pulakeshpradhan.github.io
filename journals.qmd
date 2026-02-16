@@ -108,104 +108,104 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 
 **Focus:** Rural Development, Livelihoods, Socio-economic Geography, Regional Studies.
 
-| Journal | Index | Publisher | Fee Model | Link |
-| :--- | :--- | :--- | :--- | :---: |
-| **Journal of Rural Studies** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/journal-of-rural-studies) |
-| **World Development** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/world-development) |
-| **Land Use Policy** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/land-use-policy) |
-| **Journal of Peasant Studies** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/fjps20) |
-| **Sociologia Ruralis** | SSCI (Q1) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/14679523) |
-| **Geoforum** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/geoforum) |
-| **Applied Geography** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/applied-geography) |
-| **Regional Studies** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/cres20) |
-| **Habitat International** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/habitat-international) |
-| **Journal of Rural & Community Dev.** | ESCI | Brandon Univ. | Diamond OA (No Fee) | [Visit](https://journals.brandonu.ca/jrcd/) |
-| **Population, Space and Place** | SSCI (Q1) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/15448452) |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Journal of Rural Studies](https://www.sciencedirect.com/journal/journal-of-rural-studies)** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[World Development](https://www.sciencedirect.com/journal/world-development)** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Land Use Policy](https://www.sciencedirect.com/journal/land-use-policy)** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Journal of Peasant Studies](https://www.tandfonline.com/journals/fjps20)** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
+| **[Sociologia Ruralis](https://onlinelibrary.wiley.com/journal/14679523)** | SSCI (Q1) | Wiley | Hybrid (Free Option) |
+| **[Geoforum](https://www.sciencedirect.com/journal/geoforum)** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Applied Geography](https://www.sciencedirect.com/journal/applied-geography)** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Regional Studies](https://www.tandfonline.com/journals/cres20)** | SSCI (Q1) | Taylor & Francis | Hybrid (Free Option) |
+| **[Habitat International](https://www.sciencedirect.com/journal/habitat-international)** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Journal of Rural & Community Dev.](https://journals.brandonu.ca/jrcd/)** | ESCI | Brandon Univ. | Diamond OA (No Fee) |
+| **[Population, Space and Place](https://onlinelibrary.wiley.com/journal/15448452)** | SSCI (Q1) | Wiley | Hybrid (Free Option) |
 
 ## Environment & LULC
 
 **Focus:** LULC Change, Degradation, Soil Science, Environmental Management.
 
-| Journal | Index | Publisher | Fee Model | Link |
-| :--- | :--- | :--- | :--- | :---: |
-| **Journal of Environmental Management** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/journal-of-environmental-management) |
-| **Global Environmental Change** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/global-environmental-change) |
-| **Science of the Total Environment** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/science-of-the-total-environment) |
-| **Land Degradation & Development** | SCIE (Q1) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/1099145x) |
-| **Catena** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/catena) |
-| **Geoderma** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/geoderma) |
-| **Soil and Tillage Research** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/soil-and-tillage-research) |
-| **Ecological Indicators** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/ecological-indicators) |
-| **Geomorphology** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/geomorphology) |
-| **Earth Surface Processes and Landforms** | SCIE (Q1) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/10969837) |
-| **Landscape and Urban Planning** | SSCI/SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/landscape-and-urban-planning) |
-| **Environmental Monitoring and Assessment** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10661) |
-| **Environmental Science & Policy** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/environmental-science-and-policy) |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Journal of Environmental Management](https://www.sciencedirect.com/journal/journal-of-environmental-management)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Global Environmental Change](https://www.sciencedirect.com/journal/global-environmental-change)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Science of the Total Environment](https://www.sciencedirect.com/journal/science-of-the-total-environment)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Land Degradation & Development](https://onlinelibrary.wiley.com/journal/1099145x)** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
+| **[Catena](https://www.sciencedirect.com/journal/catena)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Geoderma](https://www.sciencedirect.com/journal/geoderma)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Soil and Tillage Research](https://www.sciencedirect.com/journal/soil-and-tillage-research)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Ecological Indicators](https://www.sciencedirect.com/journal/ecological-indicators)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Geomorphology](https://www.sciencedirect.com/journal/geomorphology)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Earth Surface Processes and Landforms](https://onlinelibrary.wiley.com/journal/10969837)** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
+| **[Landscape and Urban Planning](https://www.sciencedirect.com/journal/landscape-and-urban-planning)** | SSCI/SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Environmental Monitoring and Assessment](https://www.springer.com/journal/10661)** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Environmental Science & Policy](https://www.sciencedirect.com/journal/environmental-science-and-policy)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
 
 ## Water & Hazards
 
 **Focus:** Hydrology, Climate Change, Floods, Droughts, Extreme Events.
 
-| Journal | Index | Publisher | Fee Model | Link |
-| :--- | :--- | :--- | :--- | :---: |
-| **Journal of Hydrology** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/journal-of-hydrology) |
-| **Water Resources Research** | SCIE (Q1) | AGU / Wiley | Hybrid (Free Option) | [Visit](https://agupubs.onlinelibrary.wiley.com/journal/19447973) |
-| **Water Resources Management** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/11269) |
-| **Hydrological Processes** | SCIE (Q1) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/10991085) |
-| **Natural Hazards** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/11069) |
-| **Int. J. of Disaster Risk Reduction** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction) |
-| **Climatic Change** | SCIE (Q1) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10584) |
-| **Journal of Flood Risk Management** | SCIE (Q1/Q2) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/1753318x) |
-| **Advances in Water Resources** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/advances-in-water-resources) |
-| **Hydrological Sciences Journal** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/thsj20) |
-| **Groundwater** | SCIE (Q2) | Wiley | Hybrid (Free Option) | [Visit](https://ngwa.onlinelibrary.wiley.com/journal/17456584) |
-| **Nature Climate Change** | SCIE (Q1) | Nature Portfolio | Subscription (No Fee) | [Visit](https://www.nature.com/nclimate/) |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Journal of Hydrology](https://www.sciencedirect.com/journal/journal-of-hydrology)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Water Resources Research](https://agupubs.onlinelibrary.wiley.com/journal/19447973)** | SCIE (Q1) | AGU / Wiley | Hybrid (Free Option) |
+| **[Water Resources Management](https://www.springer.com/journal/11269)** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Hydrological Processes](https://onlinelibrary.wiley.com/journal/10991085)** | SCIE (Q1) | Wiley | Hybrid (Free Option) |
+| **[Natural Hazards](https://www.springer.com/journal/11069)** | SCIE (Q1/Q2) | Springer | Hybrid (Free Option) |
+| **[Int. J. of Disaster Risk Reduction](https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Climatic Change](https://www.springer.com/journal/10584)** | SCIE (Q1) | Springer | Hybrid (Free Option) |
+| **[Journal of Flood Risk Management](https://onlinelibrary.wiley.com/journal/1753318x)** | SCIE (Q1/Q2) | Wiley | Hybrid (Free Option) |
+| **[Advances in Water Resources](https://www.sciencedirect.com/journal/advances-in-water-resources)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Hydrological Sciences Journal](https://www.tandfonline.com/journals/thsj20)** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Groundwater](https://ngwa.onlinelibrary.wiley.com/journal/17456584)** | SCIE (Q2) | Wiley | Hybrid (Free Option) |
+| **[Nature Climate Change](https://www.nature.com/nclimate/)** | SCIE (Q1) | Nature Portfolio | Subscription (No Fee) |
 
 ## RS & GIS
 
 **Focus:** Remote Sensing, GIS, Spatial Analysis, Radar/SAR.
 
-| Journal | Index | Publisher | Fee Model | Link |
-| :--- | :--- | :--- | :--- | :---: |
-| **Remote Sensing of Environment** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/remote-sensing-of-environment) |
-| **ISPRS J. of Photogrammetry & RS** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing) |
-| **IEEE Trans. on Geoscience & RS** | SCIE (Q1) | IEEE | Hybrid (Page Charges) | [Visit](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36) |
-| **Int. Journal of Remote Sensing** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/tres20) |
-| **Computers & Geosciences** | SCIE (Q2) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/computers-and-geosciences) |
-| **Transactions in GIS** | SSCI (Q2) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/14679671) |
-| **Cartography & Geog. Info. Science** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/tcag20) |
-| **Journal of Spatial Science** | SCIE (Q3) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/tjss20) |
-| **Photogrammetric Eng. & Remote Sensing**| SCIE (Q2) | ASPRS | Hybrid (Page Charges) | [Visit](https://www.asprs.org/photogrammetric-engineering-and-remote-sensing) |
-| **GeoInformatica** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10707) |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Remote Sensing of Environment](https://www.sciencedirect.com/journal/remote-sensing-of-environment)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[ISPRS J. of Photogrammetry & RS](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[IEEE Trans. on Geoscience & RS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36)** | SCIE (Q1) | IEEE | Hybrid (Page Charges) |
+| **[Int. Journal of Remote Sensing](https://www.tandfonline.com/journals/tres20)** | SCIE (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Computers & Geosciences](https://www.sciencedirect.com/journal/computers-and-geosciences)** | SCIE (Q2) | Elsevier | Hybrid (Free Option) |
+| **[Transactions in GIS](https://onlinelibrary.wiley.com/journal/14679671)** | SSCI (Q2) | Wiley | Hybrid (Free Option) |
+| **[Cartography & Geog. Info. Science](https://www.tandfonline.com/journals/tcag20)** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Journal of Spatial Science](https://www.tandfonline.com/journals/tjss20)** | SCIE (Q3) | Taylor & Francis | Hybrid (Free Option) |
+| **[Photogrammetric Eng. & Remote Sensing](https://www.asprs.org/photogrammetric-engineering-and-remote-sensing)**| SCIE (Q2) | ASPRS | Hybrid (Page Charges) |
+| **[GeoInformatica](https://www.springer.com/journal/10707)** | SCIE (Q2) | Springer | Hybrid (Free Option) |
 
 ## Agriculture & Ecology
 
 **Focus:** Agroforestry, Crop Science, Forest Management, Soil-Plant Systems.
 
-| Journal | Index | Publisher | Fee Model | Link |
-| :--- | :--- | :--- | :--- | :---: |
-| **Agricultural Water Management** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/agricultural-water-management) |
-| **Agriculture, Ecosystems & Env.** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/agriculture-ecosystems-and-environment) |
-| **Forest Ecology and Management** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/forest-ecology-and-management) |
-| **Agroforestry Systems** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10457) |
-| **Paddy and Water Environment** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10333) |
-| **Soil Use and Management** | SCIE (Q2) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/14752743) |
-| **Nutrient Cycling in Agroecosystems** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10705) |
-| **Crop Protection** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/crop-protection) |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Agricultural Water Management](https://www.sciencedirect.com/journal/agricultural-water-management)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Agriculture, Ecosystems & Env.](https://www.sciencedirect.com/journal/agriculture-ecosystems-and-environment)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Forest Ecology and Management](https://www.sciencedirect.com/journal/forest-ecology-and-management)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Agroforestry Systems](https://www.springer.com/journal/10457)** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Paddy and Water Environment](https://www.springer.com/journal/10333)** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Soil Use and Management](https://onlinelibrary.wiley.com/journal/14752743)** | SCIE (Q2) | Wiley | Hybrid (Free Option) |
+| **[Nutrient Cycling in Agroecosystems](https://www.springer.com/journal/10705)** | SCIE (Q2) | Springer | Hybrid (Free Option) |
+| **[Crop Protection](https://www.sciencedirect.com/journal/crop-protection)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
 
 ## Urban & Planning
 
 **Focus:** Urbanization, Regional Planning, Smart Cities, Sustainable Cities.
 
-| Journal | Index | Publisher | Fee Model | Link |
-| :--- | :--- | :--- | :--- | :---: |
-| **Cities** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/cities) |
-| **Sustainable Cities and Society** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/sustainable-cities-and-society) |
-| **Urban Forestry & Urban Greening** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening) |
-| **Computers, Env. & Urban Systems** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/computers-environment-and-urban-systems) |
-| **Journal of Urban Planning & Dev.** | SSCI (Q2) | ASCE | Hybrid (Free Option) | [Visit](https://ascelibrary.org/journal/jupddm) |
-| **European Planning Studies** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/ceps20) |
-| **Journal of Regional Science** | SSCI (Q2) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/14679787) |
+| Journal | Index | Publisher | Fee Model |
+| :--- | :--- | :--- | :--- |
+| **[Cities](https://www.sciencedirect.com/journal/cities)** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Sustainable Cities and Society](https://www.sciencedirect.com/journal/sustainable-cities-and-society)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Urban Forestry & Urban Greening](https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening)** | SCIE (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Computers, Env. & Urban Systems](https://www.sciencedirect.com/journal/computers-environment-and-urban-systems)** | SSCI (Q1) | Elsevier | Hybrid (Free Option) |
+| **[Journal of Urban Planning & Dev.](https://ascelibrary.org/journal/jupddm)** | SSCI (Q2) | ASCE | Hybrid (Free Option) |
+| **[European Planning Studies](https://www.tandfonline.com/journals/ceps20)** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) |
+| **[Journal of Regional Science](https://onlinelibrary.wiley.com/journal/14679787)** | SSCI (Q2) | Wiley | Hybrid (Free Option) |
 
 :::
 
