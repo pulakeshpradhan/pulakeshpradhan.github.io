@@ -59,7 +59,7 @@ This is a placeholder for upcoming peer-reviewed journal articles. Details inclu
 This research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.
 </div>
 <div class="publication-actions">
-  <a href="https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine" class="capsule-btn btn-download">
+  <a href="publications/Pulakesh Pradhan AHP.pdf" class="capsule-btn btn-download">
     <i class="bi bi-file-earmark-pdf"></i> Download
   </a>
   <a href="https://doi.org/10.1016/b978-0-443-27372-8.00025-8" class="capsule-btn btn-doi">
@@ -87,7 +87,7 @@ This research utilizes the Analytic Hierarchy Process (AHP) within the Google Ea
 This study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, we analyze spatiotemporal drought patterns and their impact on local agriculture.
 </div>
 <div class="publication-actions">
-  <a href="https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal" class="capsule-btn btn-download">
+  <a href="publications/Agricultural_drought_GEE_Pulakesh_Pradhan_Sribas_Patra.pdf" class="capsule-btn btn-download">
     <i class="bi bi-file-earmark-pdf"></i> Download
   </a>
   <a href="https://doi.org/10.1016/b978-0-443-23890-1.00011-6" class="capsule-btn btn-doi">
@@ -121,7 +121,7 @@ This study presents a remote sensing-based approach to monitoring agricultural d
 A demonstration of integrating Large Language Models (LLMs) with geospatial platforms. This workshop showcases how a Gemini-powered AI assistant can streamline complex GEE coding tasks for drought monitoring, making cloud-based remote sensing more accessible to researchers.
 </div>
 <div class="publication-actions">
-  <a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" class="capsule-btn btn-download">
+  <a href="publications/ORC2023_Pulakesh_Pradhan.pdf" class="capsule-btn btn-download">
     <i class="bi bi-presentation-ctnr"></i> Download
   </a>
   <a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" class="capsule-btn btn-doi">
