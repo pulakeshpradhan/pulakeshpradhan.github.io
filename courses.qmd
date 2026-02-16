@@ -39,14 +39,14 @@ Interactive guide and documentation for mastering cloud-based remote sensing.
 :::
 
 ::: {.course-card}
-[<img src="images/geopython_course.png" class="nolightbox">](https://pulakeshpradhan.github.io/geopython/)
+[<img src="courses/geopy.png" class="nolightbox">](https://pulakeshpradhan.github.io/python/)
 
 ::: {.course-card-body}
-### Geo-Python
+### Python for Geospatial
 Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xarray*.
 
 ::: {.card-footer}
-[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/geopython/){.social-btn .stretched-link}
+[<i class="bi bi-book"></i> Visit Course](https://pulakeshpradhan.github.io/python/){.social-btn .stretched-link}
 :::
 :::
 :::
@@ -58,10 +58,10 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 ::: {.course-grid}
 
 ::: {.course-card}
-[<img src="images/cloud_gis_course.png" class="nolightbox">](https://pulakeshpradhan.github.io/cloudgis/)
+[<img src="courses/dask_xarray_workflow.png" class="nolightbox">](https://pulakeshpradhan.github.io/cloudgis/)
 
 ::: {.course-card-body}
-### Cloud GIS & AI
+### Cloud GIS Beyond GEE
 Resources on merging cloud computing with artificial intelligence for advanced GIS.
 
 ::: {.card-footer}
