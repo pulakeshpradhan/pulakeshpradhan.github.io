@@ -3,6 +3,8 @@ title: "Publications"
 ---
 
 
+## 📚 Book Chapters
+
 ::: {.publication-list}
 
 ::: {.publication-item}
@@ -17,7 +19,7 @@ title: "Publications"
 
 ::: {.publication-body}
 <div class="publication-authors">**Pradhan, P.** (2025)</div>
-<div class="publication-journal">In Google Earth Engine and Artificial Intelligence for Earth Observation</div>
+<div class="publication-journal">In Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier</div>
 <div class="publication-overview">
 This research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.
 </div>
@@ -45,7 +47,7 @@ This research utilizes the Analytic Hierarchy Process (AHP) within the Google Ea
 
 ::: {.publication-body}
 <div class="publication-authors">**Pradhan, P.** (2024)</div>
-<div class="publication-journal">In Modern Cartography Series</div>
+<div class="publication-journal">In Modern Cartography Series, Elsevier</div>
 <div class="publication-overview">
 This study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, we analyze spatiotemporal drought patterns and their impact on local agriculture.
 </div>
@@ -60,6 +62,14 @@ This study presents a remote sensing-based approach to monitoring agricultural d
 :::
 :::
 :::
+
+:::
+
+<br>
+
+## 🎤 Conference Presentations
+
+::: {.publication-list}
 
 ::: {.publication-item}
 <div class="publication-title">
@@ -90,6 +100,7 @@ A demonstration of integrating Large Language Models (LLMs) with geospatial plat
 :::
 
 :::
+
 
 
 
