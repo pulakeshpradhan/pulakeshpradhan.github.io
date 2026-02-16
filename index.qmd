@@ -12,15 +12,15 @@ listing:
       - title: "Spectral Reflectance Curve"
         description: "Analyze spectral signatures across multiple bands."
         path: "https://spatialgeography.projects.earthengine.app/view/spectral"
-        image: "https://placehold.co/400x200/2c7da0/ffffff?text=Spectral+Curve"
+        image: "innovation/spectralcurve.png"
       - title: "Phenology Signature"
         description: "Crop classification based on phenological patterns."
         path: "https://spatialgeography.projects.earthengine.app/view/signature"
-        image: "https://placehold.co/400x200/2c7da0/ffffff?text=Phenology+App"
+        image: "images/agrimooc.jpg"
       - title: "GEE AI Assistant"
         description: "Gemini-powered coding assistant for Earth Engine."
         path: "innovations.qmd"
-        image: "images/geeai.jpg"
+        image: "images/gee_course.jpg"
     type: grid
     max-items: 3
   - id: latest-tutorials
