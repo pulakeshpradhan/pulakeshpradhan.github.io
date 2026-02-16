@@ -16,7 +16,7 @@ listing:
       - title: "Phenology Signature"
         description: "Crop classification based on phenological patterns."
         path: "https://spatialgeography.projects.earthengine.app/view/signature"
-        image: "images/agrimooc.jpg"
+        image: "images/phenology.jpg"
       - title: "GEE AI Assistant"
         description: "Gemini-powered coding assistant for Earth Engine."
         path: "innovations.qmd"
