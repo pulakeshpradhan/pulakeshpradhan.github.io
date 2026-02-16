@@ -815,6 +815,8 @@ h2 {
 
 .publication-item {
     display: flex;
+    flex-direction: row-reverse;
+    /* Images on the right */
     gap: 35px;
     background: #ffffff;
     border: 1px solid #e2e8f0;
@@ -839,7 +841,8 @@ h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-right: 1px solid #f1f5f9;
+    border-left: 1px solid #f1f5f9;
+    /* Border now on the left to separate from content */
 }
 
 .publication-body {
@@ -915,7 +918,8 @@ h2 {
 
 @media (max-width: 900px) {
     .publication-item {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        /* Image on top, content below for mobile */
     }
 
     .publication-image {
@@ -925,6 +929,7 @@ h2 {
 
     .publication-image img {
         border-right: none;
+        border-left: none;
         border-bottom: 1px solid #f1f5f9;
     }
 }
