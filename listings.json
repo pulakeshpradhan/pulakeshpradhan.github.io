@@ -36,17 +36,17 @@
       "/posts/academic-journey/index.html",
       "/innovations.html",
       "/events/gee-workshop-feb-2026.html",
-      "/publications/pradhan-2024-drought/index.html",
-      "/publications/pradhan-2025-flood/index.html",
-      "/publications/pradhan-2024-gdg-nairobi/index.html"
+      "/publications/content/drought-2024.html",
+      "/publications/content/flood-2025.html",
+      "/publications/content/gdg-nairobi-2024.html"
     ]
   },
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/pradhan-2025-flood/index.html",
-      "/publications/pradhan-2024-gdg-nairobi/index.html",
-      "/publications/pradhan-2024-drought/index.html"
+      "/publications/content/flood-2025.html",
+      "/publications/content/gdg-nairobi-2024.html",
+      "/publications/content/drought-2024.html"
     ]
   }
 ]

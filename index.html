@@ -196,9 +196,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-description','listing-categories','listing-pdf','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-comments","listing-format","listing-language","listing-title","listing-date","listing-author","listing-subtitle","listing-path","listing-presentation","listing-details","listing-image","listing-categories","listing-description","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-doi","listing-researchgate","listing-pdf"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -554,7 +554,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="upcoming-events">📅 Upcoming Events</h2>
 <div id="listing-upcoming-events" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="VXBjb21pbmc=" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771234168902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="0" data-categories="VXBjb21pbmc=" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771234918634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="./events/gee-workshop-feb-2026.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -588,7 +588,7 @@ Feb 16, 2026
 <h2 class="anchored" data-anchor-id="latest-insights">📌 Latest Insights</h2>
 <div id="listing-latest-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R2VvZ3JhcGh5JTJDVGhlb3J5JTJDR0lTJTJDU29jaWFsJTIwU2NpZW5jZQ==" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771234169052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
+<div class="g-col-1" data-index="0" data-categories="R2VvZ3JhcGh5JTJDVGhlb3J5JTJDR0lTJTJDU29jaWFsJTIwU2NpZW5jZQ==" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771234918782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
 <a href="./posts/2026_02_16_social_vs_spatial/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -612,7 +612,7 @@ Feb 16, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Q2xvdWQlMjBHSVMlMkNHb29nbGUlMjBFYXJ0aCUyMEVuZ2luZSUyQ09wZW4lMjBTb3VyY2UlMkNQeXRob24lMkNS" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771234169050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="996">
+<div class="g-col-1" data-index="1" data-categories="Q2xvdWQlMjBHSVMlMkNHb29nbGUlMjBFYXJ0aCUyMEVuZ2luZSUyQ09wZW4lMjBTb3VyY2UlMkNQeXRob24lMkNS" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771234918780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="996">
 <a href="./posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -636,7 +636,7 @@ Feb 16, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="T3BlbiUyMFNvdXJjZSUyQ0dJUyUyQ1B5dGhvbiUyQ0Nsb3Vk" data-listing-date-sort="1771113600000" data-listing-file-modified-sort="1771234169052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<div class="g-col-1" data-index="2" data-categories="T3BlbiUyMFNvdXJjZSUyQ0dJUyUyQ1B5dGhvbiUyQ0Nsb3Vk" data-listing-date-sort="1771113600000" data-listing-file-modified-sort="1771234918782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
 <a href="./posts/earthengine/cloudgis.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -728,7 +728,7 @@ Geo-Python
 <h2 class="anchored" data-anchor-id="featured-innovations">🚀 Featured Innovations</h2>
 <div id="listing-latest-innovations" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771234169048" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771234918779" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
 <a href="./innovations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -789,88 +789,193 @@ Spectral Reflectance Curve
 </section>
 <section id="recent-publications" class="level2">
 <h2 class="anchored" data-anchor-id="recent-publications">📚 Recent Publications</h2>
-<div id="listing-recent-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNEcm91Z2h0JTJDR0VFJTJDQWdyaWN1bHR1cmU=" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1771234169453" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="415">
-<div class="thumbnail"><a href="./publications/pradhan-2024-drought/index.html" class="no-external">
+<div id="listing-recent-pubs" class="quarto-listing quarto-listing-container-custom">
+<div class="quarto-post image-right">
+<pre><code>    &lt;div class="body"&gt;
+        &lt;div class="listing-metas"&gt;
+            &lt;div class="listing-date"&gt;
+                Jan 2024
+            &lt;/div&gt;
+            
+                &lt;div class="listing-categories"&gt;
+                    
+                        &lt;div class="listing-category"&gt;
+                            Journal Article
+                        &lt;/div&gt;
+                        
+                        &lt;div class="listing-category"&gt;
+                            Drought
+                        &lt;/div&gt;
+                        
+                        &lt;div class="listing-category"&gt;
+                            GEE
+                        &lt;/div&gt;
+                        
+                &lt;/div&gt;
+                
+        &lt;/div&gt;
 
-<img loading="lazy" src="./images/GEE AI Assistant 2.jpg" class="thumbnail-image">
+        &lt;div class="listing-item"&gt;
+            &lt;a href="/publications/content/drought-2024.qmd" class="no-external"&gt;
+                &lt;h3 class="no-anchor listing-title" style="margin-top: 0; color: #0f172a; font-weight: 700;"&gt;
+                    Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal
+                &lt;/h3&gt;
+                &lt;div class="listing-subtitle" style="font-weight: 600; color: #4b5563; margin-bottom: 8px;"&gt;
+                    Modern Cartography Series
+                &lt;/div&gt;
+            &lt;/a&gt;
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/pradhan-2024-drought/index.html" class="no-external">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./publications/pradhan-2024-drought/index.html" class="no-external">Modern Cartography Series</a>
-</div>
-<div class="delink listing-description"><a href="./publications/pradhan-2024-drought/index.html" class="no-external">
-<p>Monitored agricultural drought patterns using multi-temporal satellite data and vegetation indices within GEE.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/pradhan-2024-drought/index.html" class="no-external">
-<div class="listing-date">
-January 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNGbG9vZCUyQ0dFRSUyQ0FIUA==" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1771234169651" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
-<div class="thumbnail"><a href="./publications/pradhan-2025-flood/index.html" class="no-external">
+            &lt;div class="listing-description"&gt;
+                Monitored agricultural drought patterns using multi-temporal satellite data and vegetation indices within GEE.
+            &lt;/div&gt;
 
-<img loading="lazy" src="./images/GEE AI Assistant 1.jpg" class="thumbnail-image">
+            &lt;div class="pub-buttons" style="margin-top: 15px; display: flex; gap: 10px;"&gt;
+                
+                    &lt;a href="/publications/content/Agricultural_drought_GEE_Pulakesh_Pradhan_Sribas_Patra.pdf" class="pub-btn" target="_blank"&gt;&lt;i class="bi bi-file-earmark-pdf"&gt;&lt;/i&gt;
+                        Download PDF&lt;/a&gt;
+                    
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/pradhan-2025-flood/index.html" class="no-external">Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./publications/pradhan-2025-flood/index.html" class="no-external">Google Earth Engine and Artificial Intelligence for Earth Observation</a>
-</div>
-<div class="delink listing-description"><a href="./publications/pradhan-2025-flood/index.html" class="no-external">
-<p>Integrated multiple spatial parameters using AHP in GEE to identify high-risk flood zones in Odisha.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/pradhan-2025-flood/index.html" class="no-external">
-<div class="listing-date">
-January 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Q29uZmVyZW5jZSUyQ0dFRSUyQ0FJJTJDR2VtaW5p" data-listing-date-sort="1714521600000" data-listing-file-modified-sort="1771234169453" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
-<div class="thumbnail"><a href="./publications/pradhan-2024-gdg-nairobi/index.html" class="no-external">
 
-<img loading="lazy" src="./images/gdg.jpg" class="thumbnail-image">
+                            &lt;a href="https://doi.org/10.1016/b978-0-443-23890-1.00011-6" class="pub-btn" target="_blank"&gt;&lt;i
+                                    class="bi bi-link-45deg"&gt;&lt;/i&gt; DOI&lt;/a&gt;
+                            
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./publications/pradhan-2024-gdg-nairobi/index.html" class="no-external">Drought Monitoring with GEE AI Assistant powered by Gemini API</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./publications/pradhan-2024-gdg-nairobi/index.html" class="no-external">GDG for Earth Engine Nairobi (Virtual)</a>
-</div>
-<div class="delink listing-description"><a href="./publications/pradhan-2024-gdg-nairobi/index.html" class="no-external">
-<p>Presented a workflow for automating drought monitoring using Gemini AI within Google Earth Engine at GDG Nairobi.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./publications/pradhan-2024-gdg-nairobi/index.html" class="no-external">
-<div class="listing-date">
-May 2024
-</div>
-</a>
-</div>
-</div>
-</div>
+    &lt;div class="thumbnail"&gt;
+        &lt;a href="/publications/content/drought-2024.qmd" class="no-external"&gt;
+            
+                &lt;img src="/publications/content/Fig. 18 Normalized Difference Vegetation Index (NDVI) in Pre and Post Monsoon.jpeg" class="thumbnail-image"
+                    style="width: 250px; height: 160px; object-fit: cover; border-radius: 8px;"&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="quarto-post image-right"&gt;
+    &lt;div class="body"&gt;
+        &lt;div class="listing-metas"&gt;
+            &lt;div class="listing-date"&gt;
+                Jan 2025
+            &lt;/div&gt;
+            
+                &lt;div class="listing-categories"&gt;
+                    
+                        &lt;div class="listing-category"&gt;
+                            Journal Article
+                        &lt;/div&gt;
+                        
+                        &lt;div class="listing-category"&gt;
+                            Flood
+                        &lt;/div&gt;
+                        
+                        &lt;div class="listing-category"&gt;
+                            GEE
+                        &lt;/div&gt;
+                        
+                &lt;/div&gt;
+                
+        &lt;/div&gt;
+
+        &lt;div class="listing-item"&gt;
+            &lt;a href="/publications/content/flood-2025.qmd" class="no-external"&gt;
+                &lt;h3 class="no-anchor listing-title" style="margin-top: 0; color: #0f172a; font-weight: 700;"&gt;
+                    Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine
+                &lt;/h3&gt;
+                &lt;div class="listing-subtitle" style="font-weight: 600; color: #4b5563; margin-bottom: 8px;"&gt;
+                    Google Earth Engine and Artificial Intelligence for Earth Observation
+                &lt;/div&gt;
+            &lt;/a&gt;
+
+            &lt;div class="listing-description"&gt;
+                Integrated multiple spatial parameters using AHP in GEE to identify high-risk flood zones in Odisha.
+            &lt;/div&gt;
+
+            &lt;div class="pub-buttons" style="margin-top: 15px; display: flex; gap: 10px;"&gt;
+                
+                    &lt;a href="/publications/content/Pulakesh Pradhan AHP.pdf" class="pub-btn" target="_blank"&gt;&lt;i class="bi bi-file-earmark-pdf"&gt;&lt;/i&gt;
+                        Download PDF&lt;/a&gt;
+                    
+
+
+                            &lt;a href="https://doi.org/10.1016/b978-0-443-27372-8.00025-8" class="pub-btn" target="_blank"&gt;&lt;i
+                                    class="bi bi-link-45deg"&gt;&lt;/i&gt; DOI&lt;/a&gt;
+                            
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="thumbnail"&gt;
+        &lt;a href="/publications/content/flood-2025.qmd" class="no-external"&gt;
+            
+                &lt;img src="/publications/content/AHP_Normalized.jpg" class="thumbnail-image"
+                    style="width: 250px; height: 160px; object-fit: cover; border-radius: 8px;"&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="quarto-post image-right"&gt;
+    &lt;div class="body"&gt;
+        &lt;div class="listing-metas"&gt;
+            &lt;div class="listing-date"&gt;
+                May 2024
+            &lt;/div&gt;
+            
+                &lt;div class="listing-categories"&gt;
+                    
+                        &lt;div class="listing-category"&gt;
+                            Conference
+                        &lt;/div&gt;
+                        
+                        &lt;div class="listing-category"&gt;
+                            GEE
+                        &lt;/div&gt;
+                        
+                        &lt;div class="listing-category"&gt;
+                            AI
+                        &lt;/div&gt;
+                        
+                &lt;/div&gt;
+                
+        &lt;/div&gt;
+
+        &lt;div class="listing-item"&gt;
+            &lt;a href="/publications/content/gdg-nairobi-2024.qmd" class="no-external"&gt;
+                &lt;h3 class="no-anchor listing-title" style="margin-top: 0; color: #0f172a; font-weight: 700;"&gt;
+                    Drought Monitoring with GEE AI Assistant powered by Gemini API
+                &lt;/h3&gt;
+                &lt;div class="listing-subtitle" style="font-weight: 600; color: #4b5563; margin-bottom: 8px;"&gt;
+                    GDG for Earth Engine Nairobi (Virtual)
+                &lt;/div&gt;
+            &lt;/a&gt;
+
+            &lt;div class="listing-description"&gt;
+                Presented a workflow for automating drought monitoring using Gemini AI within Google Earth Engine at GDG Nairobi.
+            &lt;/div&gt;
+
+            &lt;div class="pub-buttons" style="margin-top: 15px; display: flex; gap: 10px;"&gt;
+                
+
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="thumbnail"&gt;
+        &lt;a href="/publications/content/gdg-nairobi-2024.qmd" class="no-external"&gt;
+            
+                &lt;img src="/publications/content/gdg.jpg" class="thumbnail-image"
+                    style="width: 250px; height: 160px; object-fit: cover; border-radius: 8px;"&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 <div class="listing-no-matching d-none">No matching items</div>
+<p>:::</p>
+<p>:::</p>
+
+</div>
 </div>
 <p><a href="./publications.html" class="social-btn mt-2"><i class="bi bi-arrow-right-circle"></i> View all publications</a></p>
-
 
 
 </section>
