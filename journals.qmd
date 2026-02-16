@@ -67,10 +67,6 @@ An advanced tool designed to help researchers identify the most suitable journal
 A comprehensive portal providing daily updates on academic opportunities, research tools, writing guides, and career advice for PhD candidates.
 <span class="resource-link-text">Visit Tool <i class="bi bi-arrow-right"></i></span>
 :::
-
-:::
-
-
 :::
 
 <br>
@@ -182,8 +178,36 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **Photogrammetric Eng. & Remote Sensing**| SCIE (Q2) | ASPRS | Hybrid (Page Charges) | [Visit](https://www.asprs.org/photogrammetric-engineering-and-remote-sensing) |
 | **GeoInformatica** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10707) |
 
-:::
+## Agriculture & Ecology
 
+**Focus:** Agroforestry, Crop Science, Forest Management, Soil-Plant Systems.
+
+| Journal | Index | Publisher | Fee Model | Link |
+| :--- | :--- | :--- | :--- | :---: |
+| **Agricultural Water Management** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/agricultural-water-management) |
+| **Agriculture, Ecosystems & Env.** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/agriculture-ecosystems-and-environment) |
+| **Forest Ecology and Management** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/forest-ecology-and-management) |
+| **Agroforestry Systems** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10457) |
+| **Paddy and Water Environment** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10333) |
+| **Soil Use and Management** | SCIE (Q2) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/14752743) |
+| **Nutrient Cycling in Agroecosystems** | SCIE (Q2) | Springer | Hybrid (Free Option) | [Visit](https://www.springer.com/journal/10705) |
+| **Crop Protection** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/crop-protection) |
+
+## Urban & Planning
+
+**Focus:** Urbanization, Regional Planning, Smart Cities, Sustainable Cities.
+
+| Journal | Index | Publisher | Fee Model | Link |
+| :--- | :--- | :--- | :--- | :---: |
+| **Cities** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/cities) |
+| **Sustainable Cities and Society** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/sustainable-cities-and-society) |
+| **Urban Forestry & Urban Greening** | SCIE (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening) |
+| **Computers, Env. & Urban Systems** | SSCI (Q1) | Elsevier | Hybrid (Free Option) | [Visit](https://www.sciencedirect.com/journal/computers-environment-and-urban-systems) |
+| **Journal of Urban Planning & Dev.** | SSCI (Q2) | ASCE | Hybrid (Free Option) | [Visit](https://ascelibrary.org/journal/jupddm) |
+| **European Planning Studies** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/ceps20) |
+| **Journal of Regional Science** | SSCI (Q2) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/14679787) |
+
+:::
 
 <br>
 
@@ -212,6 +236,8 @@ Be cautious of **"Clone Journals"** that mimic the names of reputable titles.
 
 :::
 
+:::
+
 <br>
 
 ## 🎯 Journals on Target
@@ -233,10 +259,48 @@ List of specific journals targeted for future submissions (Jan 2026).
 **Note on Cureus:** This is a new journal under the Cureus/Springer umbrella. It is currently **not indexed** in Web of Science or Scopus. Proceed with caution for academic credit requirements.
 :::
 
-:::
+<br>
 
 ### ⏱️ How to Estimate Review Speed?
 Most publishers now provide metrics on their journal homepages:
 *   **Elsevier**: Look for "Time to First Decision" and "Review Time" on the Journal Insights page.
 *   **Springer**: Check the "Journal Updates" or "About" section for speed metrics.
 *   **Taylor & Francis**: Often displays "Speed/Acceptance" metrics in the journal banner.
+
+<br>
+
+## ✨ Inspirations
+
+A collection of professional research websites and portfolios that inspire the design and structure of this platform.
+
+::: {.software-grid}
+
+::: {.resource-card}
+<a href="https://atulclimate.github.io/" class="stretched-link"></a>
+<h3>Atul Kumar Saini</h3>
+Research portfolio focusing on climate dynamics, remote sensing, and environmental modelling.
+<span class="resource-link-text">Visit Website <i class="bi bi-arrow-right"></i></span>
+:::
+
+::: {.resource-card}
+<a href="https://drinduj.in/" class="stretched-link"></a>
+<h3>Dr. Induj</h3>
+Professional academic platform with resources on hydrology, water resource management, and GIS.
+<span class="resource-link-text">Visit Website <i class="bi bi-arrow-right"></i></span>
+:::
+
+::: {.resource-card}
+<a href="https://hydrosense.iitd.ac.in/" class="stretched-link"></a>
+<h3>HydroSense Lab (IIT Delhi)</h3>
+The HydroSense Lab at IIT Delhi focuses on cutting-edge research in hydrological modelling and remote sensing.
+<span class="resource-link-text">Visit Website <i class="bi bi-arrow-right"></i></span>
+:::
+
+::: {.resource-card}
+<a href="https://people.iitism.ac.in/~shushobhit/" class="stretched-link"></a>
+<h3>Shushobhit Singh (IIT ISM)</h3>
+Academic page of Shushobhit Singh at IIT (ISM) Dhanbad, showcasing research in earth sciences.
+<span class="resource-link-text">Visit Website <i class="bi bi-arrow-right"></i></span>
+:::
+
+:::
