@@ -2,24 +2,69 @@
 title: "Publications"
 ---
 
-## Peer-Reviewed Journal Articles
 
-1. **Pradhan, P.** (2025). "Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine." In *Google Earth Engine and Artificial Intelligence for Earth Observation*. 
-   [<i class="bi bi-file-earmark-pdf"></i> ResearchGate](https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine){.social-btn}
-   [<i class="bi bi-link-45deg"></i> DOI: 10.1016/j.gee.2025.025](https://doi.org/10.1016/b978-0-443-27372-8.00025-8){.social-btn}
+::: {.publication-list}
 
-2. **Pradhan, P.** (2024). "Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal." In *Modern Cartography Series*. 
-   [<i class="bi bi-file-earmark-pdf"></i> ResearchGate](https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal){.social-btn}
-   [<i class="bi bi-link-45deg"></i> DOI: 10.1016/j.mcs.2024.011](https://doi.org/10.1016/b978-0-443-23890-1.00011-6){.social-btn}
+::: {.publication-item}
+::: {.publication-image}
+![](publications/AHP_Normalized.jpg)
+:::
+::: {.publication-body}
+<div class="publication-title">Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine</div>
+<div class="publication-authors">**Pradhan, P.** (2025)</div>
+<div class="publication-journal">In Google Earth Engine and Artificial Intelligence for Earth Observation</div>
+<div class="publication-actions">
+  <a href="https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine" class="capsule-btn btn-download">
+    <i class="bi bi-file-earmark-pdf"></i> ResearchGate
+  </a>
+  <a href="https://doi.org/10.1016/b978-0-443-27372-8.00025-8" class="capsule-btn btn-doi">
+    <i class="bi bi-link-45deg"></i> DOI: 10.1016/j.gee.2025.025
+  </a>
+</div>
+:::
+:::
 
-## Conference Presentations & Workshops
+::: {.publication-item}
+::: {.publication-image}
+![](publications/drought_ndvi.jpeg)
+:::
+::: {.publication-body}
+<div class="publication-title">Agricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal</div>
+<div class="publication-authors">**Pradhan, P.** (2024)</div>
+<div class="publication-journal">In Modern Cartography Series</div>
+<div class="publication-actions">
+  <a href="https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal" class="capsule-btn btn-download">
+    <i class="bi bi-file-earmark-pdf"></i> ResearchGate
+  </a>
+  <a href="https://doi.org/10.1016/b978-0-443-23890-1.00011-6" class="capsule-btn btn-doi">
+    <i class="bi bi-link-45deg"></i> DOI: 10.1016/j.mcs.2024.011
+  </a>
+</div>
+:::
+:::
 
-- **Pradhan, P.** (2024). "Drought Monitoring with GEE AI Assistant powered by Gemini API." GDG for Earth Engine Nairobi (Virtual). 
-  [<i class="bi bi-presentation-ctnr"></i> Presentation](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/){.social-btn}
-  [<i class="bi bi-link-45deg"></i> Details](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/){.social-btn}
+::: {.publication-item}
+::: {.publication-image}
+![](https://placehold.co/600x400/1a5f7a/ffffff?text=Nairobi+Workshop)
+:::
+::: {.publication-body}
+<div class="publication-title">Drought Monitoring with GEE AI Assistant powered by Gemini API</div>
+<div class="publication-authors">**Pradhan, P.** (2024)</div>
+<div class="publication-journal">GDG for Earth Engine Nairobi (Virtual)</div>
+<div class="publication-actions">
+  <a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" class="capsule-btn btn-download">
+    <i class="bi bi-presentation-ctnr"></i> Presentation
+  </a>
+  <a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" class="capsule-btn btn-doi">
+    <i class="bi bi-link-45deg"></i> Details
+  </a>
+</div>
+:::
+:::
 
-## Other Scholarly Works
+:::
 
+<br>
 
 ---
 
@@ -27,3 +72,4 @@ Full publication lists available via:
 
 [<i class="bi bi-mortarboard"></i> Google Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
 [<i class="bi bi-person-badge"></i> ResearchGate](https://www.researchgate.net/profile/Pulakesh-Pradhan){.social-btn}
+
