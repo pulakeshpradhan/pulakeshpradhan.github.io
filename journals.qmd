@@ -42,22 +42,29 @@ To support researchers with limited funding, this list **prioritizes journals th
 
 ::: {.resource-card}
 <a href="https://wos-journal.info/" class="stretched-link"></a>
-### WoS & SCI Journal Search
+<h3>WoS & SCI Journal Search</h3>
 Easily search for Web of Science (SCI/SCIE/SSCI) indexed journals, verify their quartiles, and check Impact Factors for quality assurance.
 <span class="resource-link-text">Visit Tool <i class="bi bi-arrow-right"></i></span>
 :::
 
 ::: {.resource-card}
 <a href="https://listofjournals.com/" class="stretched-link"></a>
-### List of Journals
+<h3>List of Journals</h3>
 A comprehensive directory to browse and discover academic journals across various disciplines, indexing services, and publishers.
 <span class="resource-link-text">Visit Tool <i class="bi bi-arrow-right"></i></span>
 :::
 
 ::: {.resource-card}
 <a href="https://journalsearches.com/" class="stretched-link"></a>
-### Journal Searches
+<h3>Journal Searches</h3>
 An advanced tool designed to help researchers identify the most suitable journals for their manuscripts based on scope and metrics.
+<span class="resource-link-text">Visit Tool <i class="bi bi-arrow-right"></i></span>
+:::
+
+::: {.resource-card}
+<a href="https://phdtalks.org/" class="stretched-link"></a>
+<h3>PhD Talks</h3>
+A comprehensive portal providing daily updates on academic opportunities, research tools, writing guides, and career advice for PhD candidates.
 <span class="resource-link-text">Visit Tool <i class="bi bi-arrow-right"></i></span>
 :::
 
@@ -206,4 +213,39 @@ The following lists are curated for researchers seeking **Web of Science (SCIE/S
 | **European Planning Studies** | SSCI (Q2) | Taylor & Francis | Hybrid (Free Option) | [Visit](https://www.tandfonline.com/journals/ceps20) |
 | **Journal of Regional Science** | SSCI (Q2) | Wiley | Hybrid (Free Option) | [Visit](https://onlinelibrary.wiley.com/journal/14679787) |
 
+
 :::
+
+<br>
+
+## 🛡️ Submission & Safety Tips
+
+Before submitting your manuscript, ensure you verify the journal's credibility and understand its metrics.
+
+:::{.grid}
+
+:::{.g-col-12 .g-col-md-6}
+### 📊 Understanding Metrics
+Journals are ranked by **Impact Factor (IF)** within their subject categories (e.g., Geography, Environmental Sciences).
+
+*   **Q1 (Top 25%)**: Highest prestige and visibility. Often hardest to accept.
+*   **Q2 (Top 25-50%)**: Excellent quality, balances visibility with slightly higher acceptance rates.
+*   **Q3/Q4**: Good entry points for niche topics or early-career research.
+:::
+
+:::{.g-col-12 .g-col-md-6}
+### 🚩 avoiding Predatory Journals
+Be cautious of **"Clone Journals"** that mimic the names of reputable titles.
+
+1.  **Verify Indexing**: Always check the journal on the official [Master Journal List (MJL)](https://mjl.clarivate.com/).
+2.  **Check ISSN**: Ensure the ISSN on the journal website matches the one on MJL.
+3.  **Red Flags**: Avoid journals promising "Review in 3 days" or "Guaranteed Publication".
+:::
+
+:::
+
+### ⏱️ How to Estimate Review Speed?
+Most publishers now provide metrics on their journal homepages:
+*   **Elsevier**: Look for "Time to First Decision" and "Review Time" on the Journal Insights page.
+*   **Springer**: Check the "Journal Updates" or "About" section for speed metrics.
+*   **Taylor & Francis**: Often displays "Speed/Acceptance" metrics in the journal banner.
