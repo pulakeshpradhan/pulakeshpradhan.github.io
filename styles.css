@@ -182,6 +182,20 @@ table {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
+/* Mobile Table Scrolling to prevent page zoom-out */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Allow text wrapping in links to prevent super wide columns if desired, 
+       but block display usually needs nowrap to trigger scroll. 
+       Let's keep nowrap for scroll behavior. */
+}
+
 th {
     background-color: #f8fafc;
     color: var(--brand-primary);
