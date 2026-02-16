@@ -52,12 +52,15 @@ listing:
       - title: "Flood Vulnerability Mapping in Odisha"
         description: "Application of AHP for mapping flood vulnerability using Google Earth Engine (2025)."
         path: "https://doi.org/10.1016/b978-0-443-27372-8.00025-8"
+        image: "publications/AHP_Normalized.jpg"
       - title: "Agricultural Drought Monitoring using GEE"
         description: "A study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024)."
         path: "https://doi.org/10.1016/b978-0-443-23890-1.00011-6"
+        image: "publications/drought_ndvi.jpeg"
       - title: "GEE AI Assistant for Drought Monitoring"
         description: "Presentation on Gemini-powered coding assistant for Earth Engine at GDG Nairobi."
         path: "https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/"
+        image: "publications/GEE_AI.jpg"
     type: grid
     max-items: 3
 page-layout: full
