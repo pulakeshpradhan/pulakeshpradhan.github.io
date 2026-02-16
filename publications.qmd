@@ -53,7 +53,7 @@ This is a placeholder for upcoming peer-reviewed journal articles. Details inclu
 :::
 
 ::: {.publication-body}
-<div class="publication-authors">**Pradhan, P.** (2025)</div>
+<div class="publication-authors">**Pradhan, P.**, Bajpai, R., & Patra, S. (2025)</div>
 <div class="publication-journal">In Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier</div>
 <div class="publication-overview">
 This research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.
@@ -81,7 +81,7 @@ This research utilizes the Analytic Hierarchy Process (AHP) within the Google Ea
 :::
 
 ::: {.publication-body}
-<div class="publication-authors">**Pradhan, P.** (2024)</div>
+<div class="publication-authors">**Pradhan, P.**, & Patra, S. (2024)</div>
 <div class="publication-journal">In Modern Cartography Series, Elsevier</div>
 <div class="publication-overview">
 This study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, we analyze spatiotemporal drought patterns and their impact on local agriculture.
@@ -153,7 +153,7 @@ A demonstration of integrating Large Language Models (LLMs) with geospatial plat
 :::
 
 ::: {.publication-body}
-<div class="publication-authors">**Pradhan, P.** (2023)</div>
+<div class="publication-authors">**Pradhan, P.**, & Bajpai, R. (2023)</div>
 <div class="publication-journal">Odisha Research Conclave (ORC-2023)</div>
 <div class="publication-overview">
 This poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.
