@@ -804,3 +804,127 @@ h2 {
 .resource-card:hover .resource-link-text {
     color: var(--brand-primary);
 }
+
+/* Update to Publications Page Styling */
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.publication-item {
+    display: flex;
+    gap: 35px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.15);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.publication-item:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    border-color: var(--brand-primary);
+}
+
+.publication-image {
+    width: 320px;
+    height: 220px;
+    flex-shrink: 0;
+}
+
+.publication-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 1px solid #f1f5f9;
+}
+
+.publication-body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.publication-title {
+    font-size: 1.4rem;
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.publication-authors {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-bottom: 5px;
+}
+
+.publication-journal {
+    font-size: 1rem;
+    color: var(--brand-primary);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.publication-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* Capsule Button Styling */
+.capsule-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+}
+
+.btn-download {
+    background: var(--brand-primary);
+    color: white !important;
+}
+
+.btn-download:hover {
+    background: #144a5f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(26, 95, 122, 0.25);
+}
+
+.btn-doi {
+    background: #f1f5f9;
+    color: #475569 !important;
+    border: 1px solid #e2e8f0;
+}
+
+.btn-doi:hover {
+    background: #e2e8f0;
+    border-color: #cbd5e1;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+    .publication-item {
+        flex-direction: column;
+    }
+
+    .publication-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .publication-image img {
+        border-right: none;
+        border-bottom: 1px solid #f1f5f9;
+    }
+}
