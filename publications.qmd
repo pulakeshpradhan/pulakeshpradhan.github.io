@@ -14,11 +14,11 @@ title: "Publications"
 <div class="publication-authors">**Pradhan, P.** (2025)</div>
 <div class="publication-journal">In Google Earth Engine and Artificial Intelligence for Earth Observation</div>
 <div class="publication-actions">
-  <a href="https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine" class="capsule-btn btn-download">
-    <i class="bi bi-file-earmark-pdf"></i> ResearchGate
+  <a href="https://www.researchgate.net/publication/390714931_Application_of_analytic_hierarchy_process_for_mapping_flood_vulnerability_in_Odisha_using_Google_Earth_Engine" class="capsule-btn btn-download stretched-link">
+    <i class="bi bi-file-earmark-pdf"></i> Download
   </a>
   <a href="https://doi.org/10.1016/b978-0-443-27372-8.00025-8" class="capsule-btn btn-doi">
-    <i class="bi bi-link-45deg"></i> DOI: 10.1016/j.gee.2025.025
+    <i class="bi bi-link-45deg"></i> DOI
   </a>
 </div>
 :::
@@ -33,11 +33,11 @@ title: "Publications"
 <div class="publication-authors">**Pradhan, P.** (2024)</div>
 <div class="publication-journal">In Modern Cartography Series</div>
 <div class="publication-actions">
-  <a href="https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal" class="capsule-btn btn-download">
-    <i class="bi bi-file-earmark-pdf"></i> ResearchGate
+  <a href="https://www.researchgate.net/publication/384435525_Agricultural_drought_monitoring_using_Google_Earth_Engine_a_study_of_Paschim_Medinipur_district_West_Bengal" class="capsule-btn btn-download stretched-link">
+    <i class="bi bi-file-earmark-pdf"></i> Download
   </a>
   <a href="https://doi.org/10.1016/b978-0-443-23890-1.00011-6" class="capsule-btn btn-doi">
-    <i class="bi bi-link-45deg"></i> DOI: 10.1016/j.mcs.2024.011
+    <i class="bi bi-link-45deg"></i> DOI
   </a>
 </div>
 :::
@@ -52,17 +52,18 @@ title: "Publications"
 <div class="publication-authors">**Pradhan, P.** (2024)</div>
 <div class="publication-journal">GDG for Earth Engine Nairobi (Virtual)</div>
 <div class="publication-actions">
-  <a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" class="capsule-btn btn-download">
-    <i class="bi bi-presentation-ctnr"></i> Presentation
+  <a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" class="capsule-btn btn-download stretched-link">
+    <i class="bi bi-presentation-ctnr"></i> Download
   </a>
   <a href="https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-drought-monitoring-with-google-earth-engine-ai-assistant-powered-by-gemini-api/" class="capsule-btn btn-doi">
-    <i class="bi bi-link-45deg"></i> Details
+    <i class="bi bi-link-45deg"></i> DOI
   </a>
 </div>
 :::
 :::
 
 :::
+
 
 <br>
 
