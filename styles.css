@@ -750,3 +750,57 @@ h2 {
     margin-top: 2.5rem;
     padding-bottom: 8px;
 }
+
+/* Resource Cards for Tools Grid */
+.resource-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    border-color: var(--brand-primary);
+}
+
+.resource-card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+    color: var(--brand-primary);
+    transition: color 0.2s;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.resource-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.resource-link-text {
+    font-weight: 600;
+    color: var(--brand-secondary);
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: auto;
+}
+
+.resource-card:hover .resource-link-text {
+    color: var(--brand-primary);
+}

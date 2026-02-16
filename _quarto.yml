@@ -29,6 +29,8 @@ website:
         text: Innovations
       - href: courses.qmd
         text: Courses
+      - href: journals.qmd
+        text: Journals
       - href: cv.qmd
         text: CV
       - href: gallery.qmd

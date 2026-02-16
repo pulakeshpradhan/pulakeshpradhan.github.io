@@ -71,7 +71,7 @@ page-layout: full
 
 # Pulakesh Pradhan
 ### PhD Scholar in Geography, MPhil, UGC-SRF
-*Fooding | Coading | Writing | Exercising*
+*Fooding | Coding | Writing | Travelling*
 
 ::: {.social-links}
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}
