@@ -52,18 +52,18 @@ The most recent addition to our toolkit is the **Large Language Model (LLM)**. A
 To transition from traditional GIS to AI-driven research, I recommend following this structured 7-step roadmap. This is the core curriculum I follow in my workflows:
 
 ```{mermaid}
-graph TD
-    A[1. Python & Statistics] --> B[2. Intro to NN]
-    B --> C[3. Preprocessing & ANN]
-    C --> D[4. CNNs]
-    D --> E[5. Transfer Learning]
-    E --> F[6. Object Detection]
-    F --> G[7. Deployment & Serving]
+flowchart TD
+    A["1. Python & Statistics"] --> B["2. Intro to NN"]
+    B --> C["3. Preprocessing & ANN"]
+    C --> D["4. CNNs"]
+    D --> E["5. Transfer Learning"]
+    E --> F["6. Object Detection"]
+    F --> G["7. Deployment & Serving"]
 
     style A fill:#f0f7ff,stroke:#1a5f7a,stroke-width:2px
     style B fill:#f0fff4,stroke:#219150,stroke-width:2px
     style C fill:#fff9f0,stroke:#d35400,stroke-width:2px
-    style D fill:#fdf2f8,stroke:#brand-accent,stroke-width:2px
+    style D fill:#fdf2f8,stroke:#d35400,stroke-width:2px
     style E fill:#f5f3ff,stroke:#7c3aed,stroke-width:2px
     style F fill:#fff1f2,stroke:#e11d48,stroke-width:2px
     style G fill:#f0fdf4,stroke:#16a34a,stroke-width:2px
@@ -108,10 +108,3 @@ We use **Google Earth Engine** for massive data preprocessing, **Python** for sp
 
 The era of the "Geospatial Data Scientist" has arrived. Are you ready?
 
----
-
-### Resources for Further Learning
-
-1.  [Python for Geospatial Course](https://pulakeshpradhan.github.io/python/)
-2.  [Geospatial Trinity Reference](https://pulakeshpradhan.github.io/geospatial/)
-3.  [Deep Learning for Remote Sensing (A Review)](https://doi.org/10.1109/MGRS.2016.2519395)
