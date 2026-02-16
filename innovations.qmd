@@ -31,7 +31,7 @@ Interactive geospatial mapping dashboard built with R Shiny.
 :::
 
 ::: {.innovation-card}
-[<img src="images/geeai.jpg" class="nolightbox">](https://spatialgeography.projects.earthengine.app/view/spectral)
+[<img src="innovation/spectralcurve.png" class="nolightbox">](https://spatialgeography.projects.earthengine.app/view/spectral)
 
 ::: {.innovation-card-label}
 Spectral Reflectance Curve
