@@ -179,7 +179,7 @@
     "href": "index.html#featured-courses",
     "title": "Pulakesh Pradhan",
     "section": "🎓 Featured Courses",
-    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nGeospatial Trinity\n\n\nThe ultimate reference for Python, R, and Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nR for Spatial\n\n\nGuide to spatial analysis using R.\n\n\n\n\n\n\n\n\n\n\n\n\nGEE Tutorials\n\n\nCloud-based remote sensing with Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nGeo-Python\n\n\nSpatial data science with Python.\n\n\n\n\n\nNo matching items\n\n View all courses"
+    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nGeospatial Trinity\n\n\nThe ultimate reference for Python, R, and Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond GEE\n\n\nResources on merging cloud computing with open source GIS.\n\n\n\n\n\n\n\n\n\n\n\n\nPython for Geospatial\n\n\nLearning spatial data science with Python.\n\n\n\n\n\nNo matching items\n\n View all courses"
   },
   {
     "objectID": "index.html#featured-innovations",
@@ -438,14 +438,14 @@
     "href": "courses.html#geospatial-programming",
     "title": "Courses",
     "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nGeo-Python\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course"
+    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course"
   },
   {
     "objectID": "courses.html#gis-spatial-reference",
     "href": "courses.html#gis-spatial-reference",
     "title": "Courses",
     "section": "🚀 GIS & Spatial Reference",
-    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS & AI\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
+    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
   },
   {
     "objectID": "courses.html#academic-writing-tools",
