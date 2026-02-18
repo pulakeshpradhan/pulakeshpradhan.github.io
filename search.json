@@ -60,35 +60,28 @@
     "href": "resources/index.html",
     "title": "Resources",
     "section": "",
-    "text": "Explore curated content spanning modern geospatial technologies, conference workshops, and essential learning materials.\n\n\nSummaries and technical insights from international research gatherings.\n\n\n\n ::: {.innovation-card-label} ML for Remote Sensing (ICLR 2023)\n\n\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n\n:::\n\n\n\n\nTechnical transitions and deep-dives into geospatial methodologies.\n\n\n\n ::: {.innovation-card-label} Cloud GIS & Open Source\n\n\nAnalysis of moving from proprietary cloud platforms to Python and R ecosystems.\n\n\n\n:::\n\n\n\n\nCurated external resources for mastering GIS, ML, and Remote Sensing.\n\n\n\n ::: {.innovation-card-label} Cloud-Based RS with GEE\n\n\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\n ::: {.innovation-card-label} 1. Intro to GIS in Python\n\n\nGeometric objects and GeoPandas fundamentals.\n\n\n\n ::: {.innovation-card-label} 2. CRS and Spatial Joins\n\n\nManaging projections and spatial data integration.\n\n:::\n\n ::: {.innovation-card-label} 3. Geocoding & Queries\n\n\nSpatial queries and address-to-coordinate conversion.\n\n:::\n\n ::: {.innovation-card-label} 4. Reclassification\n\n\nAttribute reclassification and overlay analysis.\n\n:::\n\n ::: {.innovation-card-label} 5. Network Analysis\n\n\nShortest path algorithms and service areas.\n\n:::\n\n ::: {.innovation-card-label} 6. Data Visualization\n\n\nProfessional mapping and interactive web maps.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L1: Getting Started\n\n\nNeural networks and training your first model.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L2: Deployment\n\n\nMoving models from Jupyter to production apps.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L3: Image Models\n\n\nChoosing and fine-tuning computer vision models.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L4: NLP\n\n\nNatural Language Processing and Sentiment Analysis.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L5: From Scratch\n\n\nBuilding neural networks from basic linear algebra.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L6: Random Forests\n\n\nTabular data and high-performance decision trees.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L7: Collab Filtering\n\n\nRecommendation systems and embedding layers.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L8: Convolutions\n\n\nCNN foundations and high-level vision architectures.\n\n:::\n::: :::\n\n\n\n\nFor further technical documentation, visit the Courses section or explore the Blog for the latest research updates."
+    "text": "Explore curated content spanning modern geospatial technologies, conference workshops, and essential learning materials.\n\n\nSummaries and technical insights from international research gatherings.\n\n\n\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n\n\n\n\nTechnical transitions and deep-dives into geospatial methodologies.\n\n\n\nAnalysis of moving from proprietary cloud platforms to Python and R ecosystems.\n\n\n\n\n\n\nCurated external resources for mastering GIS, ML, and Remote Sensing.\n\n\n\nPython-based course for automating geospatial analysis with Geopandas.\n\n\n\nFast.ai’s top-tier practical course for applying Deep Learning to real problems.\n\n\n\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\nApplied Remote SEnsing Training program for learning RS technologies.\n\n\n\nA guide to current satellite remote sensing technology and and apply it."
   },
   {
     "objectID": "resources/index.html#conferences-workshops",
     "href": "resources/index.html#conferences-workshops",
     "title": "Resources",
     "section": "",
-    "text": "Summaries and technical insights from international research gatherings.\n\n\n\n ::: {.innovation-card-label} ML for Remote Sensing (ICLR 2023)\n\n\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n\n:::"
+    "text": "Summaries and technical insights from international research gatherings.\n\n\n\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023."
   },
   {
     "objectID": "resources/index.html#research-guides-notes",
     "href": "resources/index.html#research-guides-notes",
     "title": "Resources",
     "section": "",
-    "text": "Technical transitions and deep-dives into geospatial methodologies.\n\n\n\n ::: {.innovation-card-label} Cloud GIS & Open Source\n\n\nAnalysis of moving from proprietary cloud platforms to Python and R ecosystems.\n\n\n\n:::"
+    "text": "Technical transitions and deep-dives into geospatial methodologies.\n\n\n\nAnalysis of moving from proprietary cloud platforms to Python and R ecosystems."
   },
   {
     "objectID": "resources/index.html#essential-learning-external",
     "href": "resources/index.html#essential-learning-external",
     "title": "Resources",
     "section": "",
-    "text": "Curated external resources for mastering GIS, ML, and Remote Sensing.\n\n\n\n ::: {.innovation-card-label} Cloud-Based RS with GEE\n\n\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\n ::: {.innovation-card-label} 1. Intro to GIS in Python\n\n\nGeometric objects and GeoPandas fundamentals.\n\n\n\n ::: {.innovation-card-label} 2. CRS and Spatial Joins\n\n\nManaging projections and spatial data integration.\n\n:::\n\n ::: {.innovation-card-label} 3. Geocoding & Queries\n\n\nSpatial queries and address-to-coordinate conversion.\n\n:::\n\n ::: {.innovation-card-label} 4. Reclassification\n\n\nAttribute reclassification and overlay analysis.\n\n:::\n\n ::: {.innovation-card-label} 5. Network Analysis\n\n\nShortest path algorithms and service areas.\n\n:::\n\n ::: {.innovation-card-label} 6. Data Visualization\n\n\nProfessional mapping and interactive web maps.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L1: Getting Started\n\n\nNeural networks and training your first model.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L2: Deployment\n\n\nMoving models from Jupyter to production apps.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L3: Image Models\n\n\nChoosing and fine-tuning computer vision models.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L4: NLP\n\n\nNatural Language Processing and Sentiment Analysis.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L5: From Scratch\n\n\nBuilding neural networks from basic linear algebra.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L6: Random Forests\n\n\nTabular data and high-performance decision trees.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L7: Collab Filtering\n\n\nRecommendation systems and embedding layers.\n\n:::\n\n ::: {.innovation-card-label} Fast.ai L8: Convolutions\n\n\nCNN foundations and high-level vision architectures.\n\n:::\n::: :::"
-  },
-  {
-    "objectID": "resources/index.html#additional-material",
-    "href": "resources/index.html#additional-material",
-    "title": "Resources",
-    "section": "",
-    "text": "For further technical documentation, visit the Courses section or explore the Blog for the latest research updates."
+    "text": "Curated external resources for mastering GIS, ML, and Remote Sensing.\n\n\n\nPython-based course for automating geospatial analysis with Geopandas.\n\n\n\nFast.ai’s top-tier practical course for applying Deep Learning to real problems.\n\n\n\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\nApplied Remote SEnsing Training program for learning RS technologies.\n\n\n\nA guide to current satellite remote sensing technology and and apply it."
   },
   {
     "objectID": "courses.html",
