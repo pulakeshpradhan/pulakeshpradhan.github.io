@@ -2,58 +2,30 @@
   {
     "objectID": "resources/ml-remote-sensing.html",
     "href": "resources/ml-remote-sensing.html",
-    "title": "ML for Remote Sensing (ICLR 2023)",
+    "title": "ML for Remote Sensing",
     "section": "",
-    "text": "The Machine Learning for Remote Sensing workshop at ICLR 2023 focused on the advancements in using Earth observation data for addressing global challenges such as climate change, food security, and natural disasters. Remote sensing datasets present unique challenges, including high dimensionality and complex spatial-temporal-spectral dynamics.\n\n\n\nThe workshop solicited research addressing several critical areas in the field:\n\nDomain Adaptation: Methods for handling geographical and temporal shifts in data distribution.\nModel Architectures: Designing neural networks specifically optimized for multi-modal remote sensing data.\nGeographic Equity: Emphasis on research and solutions tailored to the African context.\nSemi-Supervised Learning: Techniques for leveraging large amounts of unlabeled satellite imagery.\n\n\n\n\nSelect highlights from the workshop submissions:\n\n\n\nCategory\nResearch Paper\n\n\n\n\nLand Cover Mapping\nTowards Explainable Land Cover Mapping: a Counterfactual-based Strategy\n\n\nAcoustic Classification\nEnhancing Acoustic Classification using Meta-Data\n\n\nPoverty Prediction\nUrban-rural disparities in satellite-based poverty prediction\n\n\nBuilding Delineation\nPolygonizer: An auto-regressive building delineator\n\n\nYield Forecasting\nState-Level Wheat Yield Forecasts in Kazakhstan\n\n\n\n\n\n\n\nAbigail Annkah (Google AI): Research Software Engineer.\nJoyce Nakatumba-Nabende (Makerere AI Lab): Head of AI Lab, Makerere University.\nKristof Van Tricht (VITO): Remote Sensing Scientist.\n\n\n\n\n\n\n\nStart Time\nTopic\nInstructor\n\n\n\n\n10:00\nBuses pick up and arrive at CMU\n\n\n\n11:00\nLunch and pre-tutorial survey\n\n\n\n12:30\nIntroductory remarks and keynote\nMoise Busogi, CMU\n\n\n13:00\nOverview of remote sensing data [slides]\nHannah Kerner\n\n\n13:20\nOverview of machine learning methods [slides]\nGabi Tseng\n\n\n13:40\nConsiderations for ML and remote sensing data [slides]\nIvan Zvonkov\n\n\n14:00\nQ&A\nHannah, Gabi, Ivan\n\n\n14:20\nCoffee/tea and networking break\n\n\n\n15:00\nML + Earth observations for agriculture in Africa [slides]\nCatherine Nakalembe, Hannah Kerner\n\n\n15:40\nCase study: NASA Harvest approach to cropland and crop type mapping [slides]\nIvan Zvonkov\n\n\n16:10\nCase study: ML4RS: Predictions to Actionable Insights [slides]\nGedeon Muhawenayo\n\n\n16:40\nCase study: Marine debris detection with noisy annotations using Sentinel-2\nMarc Rußwurm\n\n\n17:10\nGuide to post-tutorial resources for continuing your journey in ML+RS\nHannah, Gabi, Ivan\n\n\n17:20\nBuses leave CMU\n\n\n\n\n\n\n\n\nAn Introduction to Machine Learning: The canonical introduction to machine learning.\nPractical Deep Learning for Coders (fast.ai): A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems. There is also a part 2 for those with some experience.\nGoogle Foundational Courses: The foundational courses cover machine learning fundamentals and core concepts.\nThe State of Satellites: A guide to the current state of satellite remote sensing technology, including applications and analysis.\nNASA ARSET: Applied Remote SEnsing Training (ARSET) program offers free online and in-person courses for learning about remote sensing technologies, including ML for remote sensing.\nRadiant Earth Foundation’s ML for Remote Sensing Bootcamp: Course materials are freely available on Github and YouTube.\nCloud-Based Remote Sensing with Google Earth Engine: Fundamentals and Applications: An online book for learning how to use Google Earth Engine for remote sensing data analysis.\nAutomating GIS Processes: An online course for learning programming for GIS using open-source tools like geopandas.\n\n\n\n\n\nOfficial Workshop Website\nNASA Harvest GitHub Repository\nICLR 2023 Program\n\n\nNote: This summary is curated for academic reference based on the ICLR 2023 ML4RS Workshop materials."
+    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection\n\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nDescription\n\n\n\n\nPoster\nPoster\nCounterfactual-based strategy for land cover.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine."
   },
   {
-    "objectID": "resources/ml-remote-sensing.html#iclr-2023-kigali-rwanda",
-    "href": "resources/ml-remote-sensing.html#iclr-2023-kigali-rwanda",
-    "title": "ML for Remote Sensing (ICLR 2023)",
+    "objectID": "resources/ml-remote-sensing.html#workshop-presentations-slides",
+    "href": "resources/ml-remote-sensing.html#workshop-presentations-slides",
+    "title": "ML for Remote Sensing",
     "section": "",
-    "text": "The Machine Learning for Remote Sensing workshop at ICLR 2023 focused on the advancements in using Earth observation data for addressing global challenges such as climate change, food security, and natural disasters. Remote sensing datasets present unique challenges, including high dimensionality and complex spatial-temporal-spectral dynamics."
+    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection"
   },
   {
-    "objectID": "resources/ml-remote-sensing.html#core-research-topics",
-    "href": "resources/ml-remote-sensing.html#core-research-topics",
-    "title": "ML for Remote Sensing (ICLR 2023)",
+    "objectID": "resources/ml-remote-sensing.html#poster",
+    "href": "resources/ml-remote-sensing.html#poster",
+    "title": "ML for Remote Sensing",
     "section": "",
-    "text": "The workshop solicited research addressing several critical areas in the field:\n\nDomain Adaptation: Methods for handling geographical and temporal shifts in data distribution.\nModel Architectures: Designing neural networks specifically optimized for multi-modal remote sensing data.\nGeographic Equity: Emphasis on research and solutions tailored to the African context.\nSemi-Supervised Learning: Techniques for leveraging large amounts of unlabeled satellite imagery."
+    "text": "Resource Type\nTitle / Link\nDescription\n\n\n\n\nPoster\nPoster\nCounterfactual-based strategy for land cover."
   },
   {
-    "objectID": "resources/ml-remote-sensing.html#accepted-research-papers",
-    "href": "resources/ml-remote-sensing.html#accepted-research-papers",
-    "title": "ML for Remote Sensing (ICLR 2023)",
+    "objectID": "resources/ml-remote-sensing.html#research-papers-external-links",
+    "href": "resources/ml-remote-sensing.html#research-papers-external-links",
+    "title": "ML for Remote Sensing",
     "section": "",
-    "text": "Select highlights from the workshop submissions:\n\n\n\nCategory\nResearch Paper\n\n\n\n\nLand Cover Mapping\nTowards Explainable Land Cover Mapping: a Counterfactual-based Strategy\n\n\nAcoustic Classification\nEnhancing Acoustic Classification using Meta-Data\n\n\nPoverty Prediction\nUrban-rural disparities in satellite-based poverty prediction\n\n\nBuilding Delineation\nPolygonizer: An auto-regressive building delineator\n\n\nYield Forecasting\nState-Level Wheat Yield Forecasts in Kazakhstan"
-  },
-  {
-    "objectID": "resources/ml-remote-sensing.html#distinguished-speakers",
-    "href": "resources/ml-remote-sensing.html#distinguished-speakers",
-    "title": "ML for Remote Sensing (ICLR 2023)",
-    "section": "",
-    "text": "Abigail Annkah (Google AI): Research Software Engineer.\nJoyce Nakatumba-Nabende (Makerere AI Lab): Head of AI Lab, Makerere University.\nKristof Van Tricht (VITO): Remote Sensing Scientist."
-  },
-  {
-    "objectID": "resources/ml-remote-sensing.html#workshop-schedule",
-    "href": "resources/ml-remote-sensing.html#workshop-schedule",
-    "title": "ML for Remote Sensing (ICLR 2023)",
-    "section": "",
-    "text": "Start Time\nTopic\nInstructor\n\n\n\n\n10:00\nBuses pick up and arrive at CMU\n\n\n\n11:00\nLunch and pre-tutorial survey\n\n\n\n12:30\nIntroductory remarks and keynote\nMoise Busogi, CMU\n\n\n13:00\nOverview of remote sensing data [slides]\nHannah Kerner\n\n\n13:20\nOverview of machine learning methods [slides]\nGabi Tseng\n\n\n13:40\nConsiderations for ML and remote sensing data [slides]\nIvan Zvonkov\n\n\n14:00\nQ&A\nHannah, Gabi, Ivan\n\n\n14:20\nCoffee/tea and networking break\n\n\n\n15:00\nML + Earth observations for agriculture in Africa [slides]\nCatherine Nakalembe, Hannah Kerner\n\n\n15:40\nCase study: NASA Harvest approach to cropland and crop type mapping [slides]\nIvan Zvonkov\n\n\n16:10\nCase study: ML4RS: Predictions to Actionable Insights [slides]\nGedeon Muhawenayo\n\n\n16:40\nCase study: Marine debris detection with noisy annotations using Sentinel-2\nMarc Rußwurm\n\n\n17:10\nGuide to post-tutorial resources for continuing your journey in ML+RS\nHannah, Gabi, Ivan\n\n\n17:20\nBuses leave CMU"
-  },
-  {
-    "objectID": "resources/ml-remote-sensing.html#recommended-learning-resources",
-    "href": "resources/ml-remote-sensing.html#recommended-learning-resources",
-    "title": "ML for Remote Sensing (ICLR 2023)",
-    "section": "",
-    "text": "An Introduction to Machine Learning: The canonical introduction to machine learning.\nPractical Deep Learning for Coders (fast.ai): A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems. There is also a part 2 for those with some experience.\nGoogle Foundational Courses: The foundational courses cover machine learning fundamentals and core concepts.\nThe State of Satellites: A guide to the current state of satellite remote sensing technology, including applications and analysis.\nNASA ARSET: Applied Remote SEnsing Training (ARSET) program offers free online and in-person courses for learning about remote sensing technologies, including ML for remote sensing.\nRadiant Earth Foundation’s ML for Remote Sensing Bootcamp: Course materials are freely available on Github and YouTube.\nCloud-Based Remote Sensing with Google Earth Engine: Fundamentals and Applications: An online book for learning how to use Google Earth Engine for remote sensing data analysis.\nAutomating GIS Processes: An online course for learning programming for GIS using open-source tools like geopandas."
-  },
-  {
-    "objectID": "resources/ml-remote-sensing.html#resources-and-external-links",
-    "href": "resources/ml-remote-sensing.html#resources-and-external-links",
-    "title": "ML for Remote Sensing (ICLR 2023)",
-    "section": "",
-    "text": "Official Workshop Website\nNASA Harvest GitHub Repository\nICLR 2023 Program\n\n\nNote: This summary is curated for academic reference based on the ICLR 2023 ML4RS Workshop materials."
+    "text": "Resource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine."
   },
   {
     "objectID": "innovations.html",
