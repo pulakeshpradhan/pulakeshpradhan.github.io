@@ -4,28 +4,56 @@
     "href": "resources/ml-remote-sensing.html",
     "title": "ML for Remote Sensing (ICLR 2023)",
     "section": "",
-    "text": "Remote sensing data (Earth observation or satellite data) has become an increasingly popular modality for machine learning research. This interest is driven by the urgent need to address global challenges such as climate change, food security, conservation, and poverty.\n\n\nThe unique characteristics of remote sensing data—high dimensionality, spatial-temporal-spectral complexity—present both challenges and opportunities for the ML community. This workshop aimed to stimulate research on new methods, datasets, and systems.\n\n\n\n\nDomain Adaptation & Concept Drift: Handling data distribution shifts across different geographies and times.\nModel Architectures: Designing models specifically for multi-modal geospatial data.\nFidelity & Fusion: Techniques for multi-fidelity data fusion and semi-supervised learning.\nGeographic Equity: Focusing on solutions specific to the African context and other under-represented regions.\nApplications: Sustainable development, biodiversity, natural hazards, and more.\n\n\n\n\n\n\n\nTopic\nPaper / Resource\n\n\n\n\nLand Cover\nTowards Explainable Land Cover Mapping\n\n\nAcoustics\nEnhancing Acoustic Classification using Meta-Data\n\n\nPoverty\nUrban-rural disparities in satellite-based poverty prediction\n\n\nDelineation\nPolygonizer: An auto-regressive building delineator\n\n\nYield Forecast\nWheat Yield Forecasts in Kazakhstan leveraging Spatial-Aware Techniques\n\n\n\n\n\n\n\nAbigail Annkah (Google AI): Research Software Engineer.\nJoyce Nakatumba-Nabende (Makerere AI Lab): Expert on AI in the African context.\nKristof Van Tricht (VITO): Specialist in remote sensing research.\n\n\n\n\n\n\nOfficial Workshop Website\nCMT Submission Site\nNASA Harvest GitHub"
+    "text": "The Machine Learning for Remote Sensing workshop at ICLR 2023 focused on the advancements in using Earth observation data for addressing global challenges such as climate change, food security, and natural disasters. Remote sensing datasets present unique challenges, including high dimensionality and complex spatial-temporal-spectral dynamics.\n\n\n\nThe workshop solicited research addressing several critical areas in the field:\n\nDomain Adaptation: Methods for handling geographical and temporal shifts in data distribution.\nModel Architectures: Designing neural networks specifically optimized for multi-modal remote sensing data.\nGeographic Equity: Emphasis on research and solutions tailored to the African context.\nSemi-Supervised Learning: Techniques for leveraging large amounts of unlabeled satellite imagery.\n\n\n\n\nSelect highlights from the workshop submissions:\n\n\n\nCategory\nResearch Paper\n\n\n\n\nLand Cover Mapping\nTowards Explainable Land Cover Mapping: a Counterfactual-based Strategy\n\n\nAcoustic Classification\nEnhancing Acoustic Classification using Meta-Data\n\n\nPoverty Prediction\nUrban-rural disparities in satellite-based poverty prediction\n\n\nBuilding Delineation\nPolygonizer: An auto-regressive building delineator\n\n\nYield Forecasting\nState-Level Wheat Yield Forecasts in Kazakhstan\n\n\n\n\n\n\n\nAbigail Annkah (Google AI): Research Software Engineer.\nJoyce Nakatumba-Nabende (Makerere AI Lab): Head of AI Lab, Makerere University.\nKristof Van Tricht (VITO): Remote Sensing Scientist.\n\n\n\n\n\nOfficial Workshop Website\nNASA Harvest GitHub Repository\nICLR 2023 Program\n\n\nNote: This summary is curated for academic reference based on the ICLR 2023 ML4RS Workshop materials."
   },
   {
-    "objectID": "resources/ml-remote-sensing.html#iclr-2023-workshop-may-5",
-    "href": "resources/ml-remote-sensing.html#iclr-2023-workshop-may-5",
+    "objectID": "resources/ml-remote-sensing.html#iclr-2023-kigali-rwanda",
+    "href": "resources/ml-remote-sensing.html#iclr-2023-kigali-rwanda",
     "title": "ML for Remote Sensing (ICLR 2023)",
     "section": "",
-    "text": "Remote sensing data (Earth observation or satellite data) has become an increasingly popular modality for machine learning research. This interest is driven by the urgent need to address global challenges such as climate change, food security, conservation, and poverty.\n\n\nThe unique characteristics of remote sensing data—high dimensionality, spatial-temporal-spectral complexity—present both challenges and opportunities for the ML community. This workshop aimed to stimulate research on new methods, datasets, and systems.\n\n\n\n\nDomain Adaptation & Concept Drift: Handling data distribution shifts across different geographies and times.\nModel Architectures: Designing models specifically for multi-modal geospatial data.\nFidelity & Fusion: Techniques for multi-fidelity data fusion and semi-supervised learning.\nGeographic Equity: Focusing on solutions specific to the African context and other under-represented regions.\nApplications: Sustainable development, biodiversity, natural hazards, and more.\n\n\n\n\n\n\n\nTopic\nPaper / Resource\n\n\n\n\nLand Cover\nTowards Explainable Land Cover Mapping\n\n\nAcoustics\nEnhancing Acoustic Classification using Meta-Data\n\n\nPoverty\nUrban-rural disparities in satellite-based poverty prediction\n\n\nDelineation\nPolygonizer: An auto-regressive building delineator\n\n\nYield Forecast\nWheat Yield Forecasts in Kazakhstan leveraging Spatial-Aware Techniques\n\n\n\n\n\n\n\nAbigail Annkah (Google AI): Research Software Engineer.\nJoyce Nakatumba-Nabende (Makerere AI Lab): Expert on AI in the African context.\nKristof Van Tricht (VITO): Specialist in remote sensing research.\n\n\n\n\n\n\nOfficial Workshop Website\nCMT Submission Site\nNASA Harvest GitHub"
+    "text": "The Machine Learning for Remote Sensing workshop at ICLR 2023 focused on the advancements in using Earth observation data for addressing global challenges such as climate change, food security, and natural disasters. Remote sensing datasets present unique challenges, including high dimensionality and complex spatial-temporal-spectral dynamics."
+  },
+  {
+    "objectID": "resources/ml-remote-sensing.html#core-research-topics",
+    "href": "resources/ml-remote-sensing.html#core-research-topics",
+    "title": "ML for Remote Sensing (ICLR 2023)",
+    "section": "",
+    "text": "The workshop solicited research addressing several critical areas in the field:\n\nDomain Adaptation: Methods for handling geographical and temporal shifts in data distribution.\nModel Architectures: Designing neural networks specifically optimized for multi-modal remote sensing data.\nGeographic Equity: Emphasis on research and solutions tailored to the African context.\nSemi-Supervised Learning: Techniques for leveraging large amounts of unlabeled satellite imagery."
+  },
+  {
+    "objectID": "resources/ml-remote-sensing.html#accepted-research-papers",
+    "href": "resources/ml-remote-sensing.html#accepted-research-papers",
+    "title": "ML for Remote Sensing (ICLR 2023)",
+    "section": "",
+    "text": "Select highlights from the workshop submissions:\n\n\n\nCategory\nResearch Paper\n\n\n\n\nLand Cover Mapping\nTowards Explainable Land Cover Mapping: a Counterfactual-based Strategy\n\n\nAcoustic Classification\nEnhancing Acoustic Classification using Meta-Data\n\n\nPoverty Prediction\nUrban-rural disparities in satellite-based poverty prediction\n\n\nBuilding Delineation\nPolygonizer: An auto-regressive building delineator\n\n\nYield Forecasting\nState-Level Wheat Yield Forecasts in Kazakhstan"
+  },
+  {
+    "objectID": "resources/ml-remote-sensing.html#distinguished-speakers",
+    "href": "resources/ml-remote-sensing.html#distinguished-speakers",
+    "title": "ML for Remote Sensing (ICLR 2023)",
+    "section": "",
+    "text": "Abigail Annkah (Google AI): Research Software Engineer.\nJoyce Nakatumba-Nabende (Makerere AI Lab): Head of AI Lab, Makerere University.\nKristof Van Tricht (VITO): Remote Sensing Scientist."
+  },
+  {
+    "objectID": "resources/ml-remote-sensing.html#resources-and-external-links",
+    "href": "resources/ml-remote-sensing.html#resources-and-external-links",
+    "title": "ML for Remote Sensing (ICLR 2023)",
+    "section": "",
+    "text": "Official Workshop Website\nNASA Harvest GitHub Repository\nICLR 2023 Program\n\n\nNote: This summary is curated for academic reference based on the ICLR 2023 ML4RS Workshop materials."
   },
   {
     "objectID": "resources/index.html",
     "href": "resources/index.html",
     "title": "Resources",
     "section": "",
-    "text": "Welcome to the protected resources section. Here you will find detailed notes, workshop summaries, and curated links to advanced topics in Remote Sensing, Machine Learning, and GIS.\n\n\n\n\n\n\nNoteCurated Content\n\n\n\nThese resources are curated for deep learning and research purposes. Each section covers a specific workshop or a research area with links to original papers and datasets.\n\n\n\n\n\n\n ### ML for Remote Sensing (ICLR 2023) Summary and resources from the ICLR 2023 Workshop on Machine Learning for Remote Sensing. Explore Topic \n\n\n ### Cloud GIS & Open Source Discussion on the shift towards open-source technologies like Python and R in Geospatial science. Explore Topic"
+    "text": "Explore curated content spanning modern geospatial technologies, machine learning workshops, and cloud-native analysis frameworks. These resources are designed for researchers and advanced practitioners.\n\n\n\n\n\nML for Remote Sensing (ICLR 2023)\n\n\nComprehensive summary and resources from the ICLR 2023 Workshop. Includes keynote insights and accepted research papers focused on Earth observation.\n\n\n Read More\n\n\n\n\n\nCloud GIS & Open Source\n\n\nA critical transition guide from proprietary cloud platforms to open-source libraries like Python and R. Focuses on sustainability and reproducibility.\n\n\n Read More\n\n\n\n\n\n\n\nFor further technical documentation, visit the Courses section or explore my Blog for latest research updates."
   },
   {
-    "objectID": "resources/index.html#topics",
-    "href": "resources/index.html#topics",
+    "objectID": "resources/index.html#additional-material",
+    "href": "resources/index.html#additional-material",
     "title": "Resources",
     "section": "",
-    "text": "### ML for Remote Sensing (ICLR 2023) Summary and resources from the ICLR 2023 Workshop on Machine Learning for Remote Sensing. Explore Topic \n\n\n ### Cloud GIS & Open Source Discussion on the shift towards open-source technologies like Python and R in Geospatial science. Explore Topic"
+    "text": "For further technical documentation, visit the Courses section or explore my Blog for latest research updates."
   },
   {
     "objectID": "courses.html",
@@ -534,8 +562,36 @@
   {
     "objectID": "resources/cloud-gis.html",
     "href": "resources/cloud-gis.html",
-    "title": "Cloud GIS and Open Source",
+    "title": "Cloud GIS Beyond Google Earth Engine",
     "section": "",
-    "text": "Cloud GIS Beyond proprietary platforms\nWhile platforms like Google Earth Engine (GEE) provide immense power for large-scale analysis, the importance of open-source technologies like Python and R is growing.\n\n🚀 Why Open Source?\n\nFlexibility: No vendor lock-in.\nReproducibility: Entire workflows can be shared as code.\nCommunity: Massive libraries like geopandas, xarray, sf, and terra.\n\n\n\n🛠️ Key Tools\n\nPython: The powerhouse of AI and ML.\nR: The gold standard for statistical spatial analysis.\nQGIS: The standard for open desktop GIS.\n\n[Placeholder for more detailed content regarding Cloud GIS and Open Source transitions.]"
+    "text": "In the modern geospatial landscape, platforms like Google Earth Engine (GEE) have revolutionized planetary-scale analysis. However, a professional research workflow requires a balance between proprietary cloud power and the flexibility of open-source ecosystems.\n\n\nScientific reproducibility and long-term sustainability are the cornerstones of modern geography. Relying solely on proprietary tools presents several challenges:\n\nVendor Lock-In: Workflows are often trapped within specific cloud ecosystems.\nTransparency: Scientific rigor demands full visibility into algorithmic implementations, which is sometimes limited in “black-box” platforms.\nFuture Sustainability: Ensuring that research remains accessible regardless of changes in corporate licensing or pricing models.\n\n\n\n\nA professional geospatial pipeline leverages the cloud for intensive pre-processing while utilizing local open-source tools for advanced statistical analysis and high-fidelity visualization.\n\n\n\n\n\n\n\n\nPhase\nTechnology\nApplication\n\n\n\n\nData Ingestion\nGoogle Earth Engine\nGlobal-scale filtering and temporal compositing.\n\n\nData Extraction\nGEE to Cloud/Local\nExporting refined datasets for specialized analysis.\n\n\nAdvanced Modeling\nPython (PyTorch/Scikit-Learn)\nMachine Learning and Deep Learning architectures.\n\n\nStatistical Analysis\nR (sf/terra)\nRigorous statistical testing and spatial metrics.\n\n\nVisualization\nggplot2 / Matplotlib\nGeneration of publication-ready cartographic outputs.\n\n\n\n\n\n\n\n\nPython serves as the primary language for AI-driven research. Libraries such as GeoPandas, Rasterio, and Xarray allow for cloud-native workflows that rival proprietary systems while maintaining full code ownership.\n\n\n\nR remains the gold standard for spatial statistics. The sf and terra packages provide the most robust environment for handle vector and raster data with statistical precision.\n\n\n\n\nThe following presentations provide deeper insights into the transition towards open-source Geospatial AI:\n\n Cloud-Native Geospatial Workflows\n The Geospatial Trinity Paradigm\n Air Quality Trend Monitoring (PDF Presentation)\n\n\nFor updates on new technical notes and workshops, please check the Events section."
+  },
+  {
+    "objectID": "resources/cloud-gis.html#architectural-considerations",
+    "href": "resources/cloud-gis.html#architectural-considerations",
+    "title": "Cloud GIS Beyond Google Earth Engine",
+    "section": "",
+    "text": "Scientific reproducibility and long-term sustainability are the cornerstones of modern geography. Relying solely on proprietary tools presents several challenges:\n\nVendor Lock-In: Workflows are often trapped within specific cloud ecosystems.\nTransparency: Scientific rigor demands full visibility into algorithmic implementations, which is sometimes limited in “black-box” platforms.\nFuture Sustainability: Ensuring that research remains accessible regardless of changes in corporate licensing or pricing models."
+  },
+  {
+    "objectID": "resources/cloud-gis.html#the-hybrid-workflow-model",
+    "href": "resources/cloud-gis.html#the-hybrid-workflow-model",
+    "title": "Cloud GIS Beyond Google Earth Engine",
+    "section": "",
+    "text": "A professional geospatial pipeline leverages the cloud for intensive pre-processing while utilizing local open-source tools for advanced statistical analysis and high-fidelity visualization.\n\n\n\n\n\n\n\n\nPhase\nTechnology\nApplication\n\n\n\n\nData Ingestion\nGoogle Earth Engine\nGlobal-scale filtering and temporal compositing.\n\n\nData Extraction\nGEE to Cloud/Local\nExporting refined datasets for specialized analysis.\n\n\nAdvanced Modeling\nPython (PyTorch/Scikit-Learn)\nMachine Learning and Deep Learning architectures.\n\n\nStatistical Analysis\nR (sf/terra)\nRigorous statistical testing and spatial metrics.\n\n\nVisualization\nggplot2 / Matplotlib\nGeneration of publication-ready cartographic outputs."
+  },
+  {
+    "objectID": "resources/cloud-gis.html#key-technical-resources",
+    "href": "resources/cloud-gis.html#key-technical-resources",
+    "title": "Cloud GIS Beyond Google Earth Engine",
+    "section": "",
+    "text": "Python serves as the primary language for AI-driven research. Libraries such as GeoPandas, Rasterio, and Xarray allow for cloud-native workflows that rival proprietary systems while maintaining full code ownership.\n\n\n\nR remains the gold standard for spatial statistics. The sf and terra packages provide the most robust environment for handle vector and raster data with statistical precision."
+  },
+  {
+    "objectID": "resources/cloud-gis.html#presentation-slides-and-references",
+    "href": "resources/cloud-gis.html#presentation-slides-and-references",
+    "title": "Cloud GIS Beyond Google Earth Engine",
+    "section": "",
+    "text": "The following presentations provide deeper insights into the transition towards open-source Geospatial AI:\n\n Cloud-Native Geospatial Workflows\n The Geospatial Trinity Paradigm\n Air Quality Trend Monitoring (PDF Presentation)\n\n\nFor updates on new technical notes and workshops, please check the Events section."
   }
 ]
