@@ -1,0 +1,26 @@
+---
+title: "Cloud GIS and Open Source"
+description: "Exploring the importance of open-source technology like Python and R in Geospatial Analysis."
+toc: true
+include-in-header: 
+  text: |
+    <script src="../assets/js/system-init.js"></script>
+---
+
+# Cloud GIS Beyond proprietary platforms
+
+While platforms like Google Earth Engine (GEE) provide immense power for large-scale analysis, the importance of open-source technologies like Python and R is growing.
+
+### 🚀 Why Open Source?
+
+- **Flexibility**: No vendor lock-in.
+- **Reproducibility**: Entire workflows can be shared as code.
+- **Community**: Massive libraries like `geopandas`, `xarray`, `sf`, and `terra`.
+
+### 🛠️ Key Tools
+
+1. **Python**: The powerhouse of AI and ML.
+2. **R**: The gold standard for statistical spatial analysis.
+3. **QGIS**: The standard for open desktop GIS.
+
+[Placeholder for more detailed content regarding Cloud GIS and Open Source transitions.]

@@ -1,0 +1,37 @@
+---
+title: "Resources"
+description: "A collection of curated resources, research papers, and workshops in Geospatial Data Science and AI."
+toc: true
+include-in-header: 
+  text: |
+    <script src="../assets/js/system-init.js"></script>
+---
+
+# 📚 Research Resources
+
+Welcome to the protected resources section. Here you will find detailed notes, workshop summaries, and curated links to advanced topics in Remote Sensing, Machine Learning, and GIS.
+
+::: {.callout-note}
+## Curated Content
+These resources are curated for deep learning and research purposes. Each section covers a specific workshop or a research area with links to original papers and datasets.
+:::
+
+## 🌐 Topics
+
+::: {.software-grid}
+
+::: {.resource-card}
+<a href="ml-remote-sensing.qmd" class="stretched-link"></a>
+### ML for Remote Sensing (ICLR 2023)
+Summary and resources from the ICLR 2023 Workshop on Machine Learning for Remote Sensing.
+<span class="resource-link-text">Explore Topic <i class="bi bi-arrow-right"></i></span>
+:::
+
+::: {.resource-card}
+<a href="cloud-gis.qmd" class="stretched-link"></a>
+### Cloud GIS & Open Source
+Discussion on the shift towards open-source technologies like Python and R in Geospatial science.
+<span class="resource-link-text">Explore Topic <i class="bi bi-arrow-right"></i></span>
+:::
+
+:::
