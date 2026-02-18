@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-description: "A professional collection of research resources, workshops, and technical notes in Geospatial Science and AI."
+description: "Categorized research materials, conference summaries, and technical learning resources."
 include-in-header: 
   text: |
     <script src="../assets/js/system-init.js"></script>
@@ -8,50 +8,141 @@ include-in-header:
 
 # Research Resources
 
-Explore curated content spanning modern geospatial technologies, machine learning workshops, and cloud-native analysis frameworks. These resources are designed for researchers and advanced practitioners.
+Explore curated content spanning modern geospatial technologies, conference workshops, and essential learning materials.
+
+## 🎤 Conferences & Workshops
+Summaries and technical insights from international research gatherings.
 
 ::: {.innovation-section}
-
 ::: {.innovation-grid}
 
 ::: {.innovation-card}
 <img src="../images/resource2.jpg" class="nolightbox">
-
 ::: {.innovation-card-label}
-ML for Remote Sensing (ICLR 2023)
+[ML for Remote Sensing (ICLR 2023)](ml-remote-sensing.qmd){.stretched-link}
 :::
-
 ::: {.innovation-card-desc}
-Comprehensive summary and resources from the ICLR 2023 Workshop. Includes keynote insights and accepted research papers focused on Earth observation.
-:::
-
-::: {.innovation-card-links}
-[<i class="bi bi-book"></i> Read More](ml-remote-sensing.qmd){.social-btn .stretched-link}
-:::
-:::
-
-::: {.innovation-card}
-<img src="../images/cloud_gis_course.png" class="nolightbox">
-
-::: {.innovation-card-label}
-Cloud GIS & Open Source
-:::
-
-::: {.innovation-card-desc}
-A critical transition guide from proprietary cloud platforms to open-source libraries like Python and R. Focuses on sustainability and reproducibility.
-:::
-
-::: {.innovation-card-links}
-[<i class="bi bi-book"></i> Read More](cloud-gis.qmd){.social-btn .stretched-link}
+Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.
 :::
 :::
 
 :::
-
 :::
 
 <br>
 
-## Additional Material
+## 📖 Research Guides & Notes
+Technical transitions and deep-dives into geospatial methodologies.
 
-For further technical documentation, visit the [Courses](../courses.qmd) section or explore my [Blog](../blog.qmd) for latest research updates.
+::: {.innovation-section}
+::: {.innovation-grid}
+
+::: {.innovation-card}
+<img src="../images/cloud_gis_course.png" class="nolightbox">
+::: {.innovation-card-label}
+[Cloud GIS & Open Source](cloud-gis.qmd){.stretched-link}
+:::
+::: {.innovation-card-desc}
+Analysis of moving from proprietary cloud platforms to Python and R ecosystems.
+:::
+:::
+
+:::
+:::
+
+<br>
+
+## 📚 Essential Learning (External)
+Curated external resources for mastering GIS, ML, and Remote Sensing.
+
+::: {.innovation-section}
+::: {.innovation-grid}
+
+::: {.innovation-card}
+<img src="https://placehold.co/800x450/2c3e50/ffffff?text=EEFA+Book" class="nolightbox">
+::: {.innovation-card-label}
+[Cloud-Based RS with GEE](https://www.eefabook.org/){.stretched-link}
+:::
+::: {.innovation-card-desc}
+The fundamental book for learning Google Earth Engine (EEFA Book).
+:::
+:::
+
+::: {.innovation-card}
+<img src="https://placehold.co/800x450/27ae60/ffffff?text=AutoGIS+L1" class="nolightbox">
+::: {.innovation-card-label}
+[1. Intro to GIS in Python](https://autogis-site.readthedocs.io/en/latest/lessons/L1/overview.html){.stretched-link}
+:::
+::: {.innovation-card-desc}
+Geometric objects and GeoPandas fundamentals.
+:::
+:::
+
+::: {.innovation-card}
+<img src="https://placehold.co/800x450/1a5f7a/ffffff?text=AutoGIS+L2" class="nolightbox">
+::: {.innovation-card-label}
+[2. CRS and Spatial Joins](https://autogis-site.readthedocs.io/en/latest/lessons/L2/overview.html){.stretched-link}
+:::
+::: {.innovation-card-desc}
+Managing projections and spatial data integration.
+:::
+:::
+
+::: {.innovation-card}
+<img src="https://placehold.co/800x450/e67e22/ffffff?text=AutoGIS+L3" class="nolightbox">
+::: {.innovation-card-label}
+[3. Geocoding & Queries](https://autogis-site.readthedocs.io/en/latest/lessons/L3/overview.html){.stretched-link}
+:::
+::: {.innovation-card-desc}
+Spatial queries and address-to-coordinate conversion.
+:::
+:::
+
+::: {.innovation-card}
+<img src="https://placehold.co/800x450/d35400/ffffff?text=AutoGIS+L4" class="nolightbox">
+::: {.innovation-card-label}
+[4. Reclassification](https://autogis-site.readthedocs.io/en/latest/lessons/L4/overview.html){.stretched-link}
+:::
+::: {.innovation-card-desc}
+Attribute reclassification and overlay analysis.
+:::
+:::
+
+::: {.innovation-card}
+<img src="https://placehold.co/800x450/2980b9/ffffff?text=AutoGIS+L5" class="nolightbox">
+::: {.innovation-card-label}
+[5. Network Analysis](https://autogis-site.readthedocs.io/en/latest/lessons/L5/overview.html){.stretched-link}
+:::
+::: {.innovation-card-desc}
+Shortest path algorithms and service areas.
+:::
+:::
+
+::: {.innovation-card}
+<img src="https://placehold.co/800x450/2c3e50/ffffff?text=AutoGIS+L6" class="nolightbox">
+::: {.innovation-card-label}
+[6. Data Visualization](https://autogis-site.readthedocs.io/en/latest/lessons/L6/overview.html){.stretched-link}
+:::
+::: {.innovation-card-desc}
+Professional mapping and interactive web maps.
+:::
+:::
+
+::: {.innovation-card}
+<img src="https://placehold.co/800x450/e74c3c/ffffff?text=Fast.ai" class="nolightbox">
+::: {.innovation-card-label}
+[Practical Deep Learning](https://course.fast.ai/){.stretched-link}
+:::
+::: {.innovation-card-desc}
+Deep Learning applications for real-world problems.
+:::
+:::
+
+:::
+:::
+
+<br>
+
+## 💡 Additional Material
+
+For further technical documentation, visit the [Courses](../courses.qmd) section or explore the [Blog](../blog.qmd) for the latest research updates.
