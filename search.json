@@ -60,14 +60,35 @@
     "href": "resources/index.html",
     "title": "Resources",
     "section": "",
-    "text": "Explore curated content spanning modern geospatial technologies, machine learning workshops, and cloud-native analysis frameworks. These resources are designed for researchers and advanced practitioners.\n\n\n\n\n\nML for Remote Sensing (ICLR 2023)\n\n\nComprehensive summary and resources from the ICLR 2023 Workshop. Includes keynote insights and accepted research papers focused on Earth observation.\n\n\n Read More\n\n\n\n\n\nCloud GIS & Open Source\n\n\nA critical transition guide from proprietary cloud platforms to open-source libraries like Python and R. Focuses on sustainability and reproducibility.\n\n\n Read More\n\n\n\n\n\n\n\nFor further technical documentation, visit the Courses section or explore my Blog for latest research updates."
+    "text": "Explore curated content spanning modern geospatial technologies, conference workshops, and essential learning materials.\n\n\nSummaries and technical insights from international research gatherings.\n\n\n\n ::: {.innovation-card-label} ML for Remote Sensing (ICLR 2023)\n\n\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n\n:::\n\n\n\n\nTechnical transitions and deep-dives into geospatial methodologies.\n\n\n\n ::: {.innovation-card-label} Cloud GIS & Open Source\n\n\nAnalysis of moving from proprietary cloud platforms to Python and R ecosystems.\n\n\n\n:::\n\n\n\n\nCurated external resources for mastering GIS, ML, and Remote Sensing.\n\n\n\n ::: {.innovation-card-label} Cloud-Based RS with GEE\n\n\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\n ::: {.innovation-card-label} 1. Intro to GIS in Python\n\n\nGeometric objects and GeoPandas fundamentals.\n\n\n\n ::: {.innovation-card-label} 2. CRS and Spatial Joins\n\n\nManaging projections and spatial data integration.\n\n:::\n\n ::: {.innovation-card-label} 3. Geocoding & Queries\n\n\nSpatial queries and address-to-coordinate conversion.\n\n:::\n\n ::: {.innovation-card-label} 4. Reclassification\n\n\nAttribute reclassification and overlay analysis.\n\n:::\n\n ::: {.innovation-card-label} 5. Network Analysis\n\n\nShortest path algorithms and service areas.\n\n:::\n\n ::: {.innovation-card-label} 6. Data Visualization\n\n\nProfessional mapping and interactive web maps.\n\n:::\n\n ::: {.innovation-card-label} Practical Deep Learning\n\n\nDeep Learning applications for real-world problems.\n\n:::\n::: :::\n\n\n\n\nFor further technical documentation, visit the Courses section or explore the Blog for the latest research updates."
+  },
+  {
+    "objectID": "resources/index.html#conferences-workshops",
+    "href": "resources/index.html#conferences-workshops",
+    "title": "Resources",
+    "section": "",
+    "text": "Summaries and technical insights from international research gatherings.\n\n\n\n ::: {.innovation-card-label} ML for Remote Sensing (ICLR 2023)\n\n\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n\n:::"
+  },
+  {
+    "objectID": "resources/index.html#research-guides-notes",
+    "href": "resources/index.html#research-guides-notes",
+    "title": "Resources",
+    "section": "",
+    "text": "Technical transitions and deep-dives into geospatial methodologies.\n\n\n\n ::: {.innovation-card-label} Cloud GIS & Open Source\n\n\nAnalysis of moving from proprietary cloud platforms to Python and R ecosystems.\n\n\n\n:::"
+  },
+  {
+    "objectID": "resources/index.html#essential-learning-external",
+    "href": "resources/index.html#essential-learning-external",
+    "title": "Resources",
+    "section": "",
+    "text": "Curated external resources for mastering GIS, ML, and Remote Sensing.\n\n\n\n ::: {.innovation-card-label} Cloud-Based RS with GEE\n\n\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\n ::: {.innovation-card-label} 1. Intro to GIS in Python\n\n\nGeometric objects and GeoPandas fundamentals.\n\n\n\n ::: {.innovation-card-label} 2. CRS and Spatial Joins\n\n\nManaging projections and spatial data integration.\n\n:::\n\n ::: {.innovation-card-label} 3. Geocoding & Queries\n\n\nSpatial queries and address-to-coordinate conversion.\n\n:::\n\n ::: {.innovation-card-label} 4. Reclassification\n\n\nAttribute reclassification and overlay analysis.\n\n:::\n\n ::: {.innovation-card-label} 5. Network Analysis\n\n\nShortest path algorithms and service areas.\n\n:::\n\n ::: {.innovation-card-label} 6. Data Visualization\n\n\nProfessional mapping and interactive web maps.\n\n:::\n\n ::: {.innovation-card-label} Practical Deep Learning\n\n\nDeep Learning applications for real-world problems.\n\n:::\n::: :::"
   },
   {
     "objectID": "resources/index.html#additional-material",
     "href": "resources/index.html#additional-material",
     "title": "Resources",
     "section": "",
-    "text": "For further technical documentation, visit the Courses section or explore my Blog for latest research updates."
+    "text": "For further technical documentation, visit the Courses section or explore the Blog for the latest research updates."
   },
   {
     "objectID": "courses.html",
