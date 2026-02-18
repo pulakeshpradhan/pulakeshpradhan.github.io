@@ -1,37 +1,57 @@
 ---
 title: "Resources"
-description: "A collection of curated resources, research papers, and workshops in Geospatial Data Science and AI."
-toc: true
+description: "A professional collection of research resources, workshops, and technical notes in Geospatial Science and AI."
 include-in-header: 
   text: |
     <script src="../assets/js/system-init.js"></script>
 ---
 
-# 📚 Research Resources
+# Research Resources
 
-Welcome to the protected resources section. Here you will find detailed notes, workshop summaries, and curated links to advanced topics in Remote Sensing, Machine Learning, and GIS.
+Explore curated content spanning modern geospatial technologies, machine learning workshops, and cloud-native analysis frameworks. These resources are designed for researchers and advanced practitioners.
 
-::: {.callout-note}
-## Curated Content
-These resources are curated for deep learning and research purposes. Each section covers a specific workshop or a research area with links to original papers and datasets.
+::: {.innovation-section}
+
+::: {.innovation-grid}
+
+::: {.innovation-card}
+<img src="../images/resource2.jpg" class="nolightbox">
+
+::: {.innovation-card-label}
+ML for Remote Sensing (ICLR 2023)
 :::
 
-## 🌐 Topics
-
-::: {.software-grid}
-
-::: {.resource-card}
-<a href="ml-remote-sensing.qmd" class="stretched-link"></a>
-### ML for Remote Sensing (ICLR 2023)
-Summary and resources from the ICLR 2023 Workshop on Machine Learning for Remote Sensing.
-<span class="resource-link-text">Explore Topic <i class="bi bi-arrow-right"></i></span>
+::: {.innovation-card-desc}
+Comprehensive summary and resources from the ICLR 2023 Workshop. Includes keynote insights and accepted research papers focused on Earth observation.
 :::
 
-::: {.resource-card}
-<a href="cloud-gis.qmd" class="stretched-link"></a>
-### Cloud GIS & Open Source
-Discussion on the shift towards open-source technologies like Python and R in Geospatial science.
-<span class="resource-link-text">Explore Topic <i class="bi bi-arrow-right"></i></span>
+::: {.innovation-card-links}
+[<i class="bi bi-book"></i> Read More](ml-remote-sensing.qmd){.social-btn .stretched-link}
+:::
+:::
+
+::: {.innovation-card}
+<img src="../images/cloud_gis_course.png" class="nolightbox">
+
+::: {.innovation-card-label}
+Cloud GIS & Open Source
+:::
+
+::: {.innovation-card-desc}
+A critical transition guide from proprietary cloud platforms to open-source libraries like Python and R. Focuses on sustainability and reproducibility.
+:::
+
+::: {.innovation-card-links}
+[<i class="bi bi-book"></i> Read More](cloud-gis.qmd){.social-btn .stretched-link}
+:::
 :::
 
 :::
+
+:::
+
+<br>
+
+## Additional Material
+
+For further technical documentation, visit the [Courses](../courses.qmd) section or explore my [Blog](../blog.qmd) for latest research updates.

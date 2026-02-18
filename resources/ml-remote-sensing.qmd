@@ -8,41 +8,42 @@ include-in-header:
 ---
 
 # Machine Learning for Remote Sensing Workshop
-## ICLR 2023 Workshop | May 5
+## ICLR 2023 | Kigali, Rwanda
 
-Remote sensing data (Earth observation or satellite data) has become an increasingly popular modality for machine learning research. This interest is driven by the urgent need to address global challenges such as climate change, food security, conservation, and poverty.
+The Machine Learning for Remote Sensing workshop at ICLR 2023 focused on the advancements in using Earth observation data for addressing global challenges such as climate change, food security, and natural disasters. Remote sensing datasets present unique challenges, including high dimensionality and complex spatial-temporal-spectral dynamics.
 
-### 🌟 Key Highlights
+## Core Research Topics
 
-The unique characteristics of remote sensing data—high dimensionality, spatial-temporal-spectral complexity—present both challenges and opportunities for the ML community. This workshop aimed to stimulate research on new methods, datasets, and systems.
+The workshop solicited research addressing several critical areas in the field:
 
-### 📝 Topics Covered
+- **Domain Adaptation**: Methods for handling geographical and temporal shifts in data distribution.
+- **Model Architectures**: Designing neural networks specifically optimized for multi-modal remote sensing data.
+- **Geographic Equity**: Emphasis on research and solutions tailored to the African context.
+- **Semi-Supervised Learning**: Techniques for leveraging large amounts of unlabeled satellite imagery.
 
-- **Domain Adaptation & Concept Drift**: Handling data distribution shifts across different geographies and times.
-- **Model Architectures**: Designing models specifically for multi-modal geospatial data.
-- **Fidelity & Fusion**: Techniques for multi-fidelity data fusion and semi-supervised learning.
-- **Geographic Equity**: Focusing on solutions specific to the African context and other under-represented regions.
-- **Applications**: Sustainable development, biodiversity, natural hazards, and more.
+## Accepted Research Papers
 
-### 📚 Accepted Papers & Case Studies
+Select highlights from the workshop submissions:
 
-| Topic | Paper / Resource |
+| Category | Research Paper |
 | :--- | :--- |
-| **Land Cover** | [Towards Explainable Land Cover Mapping](https://raw.githubusercontent.com/nasaharvest/ml-for-remote-sensing/main/iclr2023/papers/10/CameraReady/2023_CounterFactualSITS_ICLR_workshop_Camera-ready.pdf) |
-| **Acoustics** | [Enhancing Acoustic Classification using Meta-Data](https://raw.githubusercontent.com/nasaharvest/ml-for-remote-sensing/main/iclr2023/papers/43/CameraReady/Enhancing_Acoustic_Classification_ICLR_2023_Jeantet_Dufourq.pdf) |
-| **Poverty** | [Urban-rural disparities in satellite-based poverty prediction](https://raw.githubusercontent.com/nasaharvest/ml-for-remote-sensing/main/iclr2023/papers/35/CameraReady/ICLRCameraReady.pdf) |
-| **Delineation** | [Polygonizer: An auto-regressive building delineator](https://arxiv.org/pdf/2304.04048.pdf) |
-| **Yield Forecast** | [Wheat Yield Forecasts in Kazakhstan leveraging Spatial-Aware Techniques](https://raw.githubusercontent.com/nasaharvest/ml-for-remote-sensing/main/iclr2023/papers/38/CameraReady/ICLR_1st_Remote_Sensing_Workshop_CameraReady.pdf) |
+| **Land Cover Mapping** | [Towards Explainable Land Cover Mapping: a Counterfactual-based Strategy](https://raw.githubusercontent.com/nasaharvest/ml-for-remote-sensing/main/iclr2023/papers/10/CameraReady/2023_CounterFactualSITS_ICLR_workshop_Camera-ready.pdf) |
+| **Acoustic Classification** | [Enhancing Acoustic Classification using Meta-Data](https://raw.githubusercontent.com/nasaharvest/ml-for-remote-sensing/main/iclr2023/papers/43/CameraReady/Enhancing_Acoustic_Classification_ICLR_2023_Jeantet_Dufourq.pdf) |
+| **Poverty Prediction** | [Urban-rural disparities in satellite-based poverty prediction](https://raw.githubusercontent.com/nasaharvest/ml-for-remote-sensing/main/iclr2023/papers/35/CameraReady/ICLRCameraReady.pdf) |
+| **Building Delineation** | [Polygonizer: An auto-regressive building delineator](https://arxiv.org/pdf/2304.04048.pdf) |
+| **Yield Forecasting** | [State-Level Wheat Yield Forecasts in Kazakhstan](https://raw.githubusercontent.com/nasaharvest/ml-for-remote-sensing/main/iclr2023/papers/38/CameraReady/ICLR_1st_Remote_Sensing_Workshop_CameraReady.pdf) |
 
-### 🎙️ Featured Speakers
+## Distinguished Speakers
 
 - **Abigail Annkah** (Google AI): Research Software Engineer.
-- **Joyce Nakatumba-Nabende** (Makerere AI Lab): Expert on AI in the African context.
-- **Kristof Van Tricht** (VITO): Specialist in remote sensing research.
+- **Joyce Nakatumba-Nabende** (Makerere AI Lab): Head of AI Lab, Makerere University.
+- **Kristof Van Tricht** (VITO): Remote Sensing Scientist.
+
+## Resources and External Links
+
+- [Official Workshop Website](https://nasaharvest.github.io/ml-for-remote-sensing/iclr2023/)
+- [NASA Harvest GitHub Repository](https://github.com/nasaharvest)
+- [ICLR 2023 Program](https://iclr.cc/Conferences/2023/Schedule)
 
 ---
-
-### 🔗 External Resources
-- [Official Workshop Website](https://nasaharvest.github.io/ml-for-remote-sensing/iclr2023/)
-- [CMT Submission Site](https://cmt3.research.microsoft.com/ICLRMLRS2023)
-- [NASA Harvest GitHub](https://github.com/nasaharvest)
+*Note: This summary is curated for academic reference based on the ICLR 2023 ML4RS Workshop materials.*
