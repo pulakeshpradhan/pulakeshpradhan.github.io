@@ -6,28 +6,10 @@ include-in-header:
     <script src="../assets/js/system-init.js"></script>
 ---
 
-## Workshops
+
+## E-Books
 
 ::: {.software-grid}
-
-::: {.resource-card}
-### [ML for Remote Sensing (ICLR 2023)](ml-remote-sensing.qmd){.stretched-link}
-Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.
-:::
-
-:::
-
-
-<br>
-
-## Books and Links
-
-::: {.software-grid}
-
-::: {.resource-card}
-### [Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/){.stretched-link}
-Python-based course for automating geospatial analysis with Geopandas.
-:::
 
 ::: {.resource-card}
 ### [Practical Deep Learning (Fast.ai)](https://course.fast.ai/){.stretched-link}
@@ -35,9 +17,18 @@ Fast.ai's top-tier practical course for applying Deep Learning to real problems.
 :::
 
 ::: {.resource-card}
-### [Cloud-Based RS with GEE](https://www.eefabook.org/){.stretched-link}
-The fundamental book for learning Google Earth Engine (EEFA Book).
+### [Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/){.stretched-link}
+Python-based course for automating geospatial analysis with Geopandas.
 :::
+
+
+:::
+
+
+## Online Courses
+
+::: {.software-grid}
+
 
 ::: {.resource-card}
 ### [NASA ARSET](https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset){.stretched-link}
@@ -49,4 +40,26 @@ Applied Remote SEnsing Training program for learning RS technologies.
 A guide to current satellite remote sensing technology and and apply it.
 :::
 
+:::
+
+
+## Workshops
+
+::: {.software-grid}
+
+::: {.resource-card}
+### [ML for Remote Sensing (ICLR 2023)](ml-remote-sensing.qmd){.stretched-link}
+Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.
+:::
+
+:::
+
+## Extra
+
+::: {.software-grid}
+
+
+::: {.resource-card}
+### [Cloud-Based RS with GEE](https://www.eefabook.org/){.stretched-link}
+The fundamental book for learning Google Earth Engine (EEFA Book).
 :::
