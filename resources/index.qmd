@@ -13,20 +13,13 @@ Explore curated content spanning modern geospatial technologies, conference work
 ## 🎤 Conferences & Workshops
 Summaries and technical insights from international research gatherings.
 
-::: {.innovation-section}
-::: {.innovation-grid}
+::: {.software-grid}
 
-::: {.innovation-card}
-<img src="../images/resource2.jpg" class="nolightbox">
-::: {.innovation-card-label}
-[ML for Remote Sensing (ICLR 2023)](ml-remote-sensing.qmd){.stretched-link}
-:::
-::: {.innovation-card-desc}
+::: {.resource-card}
+### [ML for Remote Sensing (ICLR 2023)](ml-remote-sensing.qmd){.stretched-link}
 Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.
 :::
-:::
 
-:::
 :::
 
 <br>
@@ -34,20 +27,13 @@ Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2
 ## 📖 Research Guides & Notes
 Technical transitions and deep-dives into geospatial methodologies.
 
-::: {.innovation-section}
-::: {.innovation-grid}
+::: {.software-grid}
 
-::: {.innovation-card}
-<img src="../images/cloud_gis_course.png" class="nolightbox">
-::: {.innovation-card-label}
-[Cloud GIS & Open Source](cloud-gis.qmd){.stretched-link}
-:::
-::: {.innovation-card-desc}
+::: {.resource-card}
+### [Cloud GIS & Open Source](cloud-gis.qmd){.stretched-link}
 Analysis of moving from proprietary cloud platforms to Python and R ecosystems.
 :::
-:::
 
-:::
 :::
 
 <br>
@@ -55,164 +41,31 @@ Analysis of moving from proprietary cloud platforms to Python and R ecosystems.
 ## 📚 Essential Learning (External)
 Curated external resources for mastering GIS, ML, and Remote Sensing.
 
-::: {.innovation-section}
-::: {.innovation-grid}
+::: {.software-grid}
 
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/2c3e50/ffffff?text=EEFA+Book" class="nolightbox">
-::: {.innovation-card-label}
-[Cloud-Based RS with GEE](https://www.eefabook.org/){.stretched-link}
+::: {.resource-card}
+### [Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/){.stretched-link}
+Python-based course for automating geospatial analysis with Geopandas.
 :::
-::: {.innovation-card-desc}
+
+::: {.resource-card}
+### [Practical Deep Learning (Fast.ai)](https://course.fast.ai/){.stretched-link}
+Fast.ai's top-tier practical course for applying Deep Learning to real problems.
+:::
+
+::: {.resource-card}
+### [Cloud-Based RS with GEE](https://www.eefabook.org/){.stretched-link}
 The fundamental book for learning Google Earth Engine (EEFA Book).
 :::
+
+::: {.resource-card}
+### [NASA ARSET](https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset){.stretched-link}
+Applied Remote SEnsing Training program for learning RS technologies.
 :::
 
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/27ae60/ffffff?text=AutoGIS+L1" class="nolightbox">
-::: {.innovation-card-label}
-[1. Intro to GIS in Python](https://autogis-site.readthedocs.io/en/latest/lessons/L1/overview.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Geometric objects and GeoPandas fundamentals.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/1a5f7a/ffffff?text=AutoGIS+L2" class="nolightbox">
-::: {.innovation-card-label}
-[2. CRS and Spatial Joins](https://autogis-site.readthedocs.io/en/latest/lessons/L2/overview.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Managing projections and spatial data integration.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/e67e22/ffffff?text=AutoGIS+L3" class="nolightbox">
-::: {.innovation-card-label}
-[3. Geocoding & Queries](https://autogis-site.readthedocs.io/en/latest/lessons/L3/overview.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Spatial queries and address-to-coordinate conversion.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/d35400/ffffff?text=AutoGIS+L4" class="nolightbox">
-::: {.innovation-card-label}
-[4. Reclassification](https://autogis-site.readthedocs.io/en/latest/lessons/L4/overview.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Attribute reclassification and overlay analysis.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/2980b9/ffffff?text=AutoGIS+L5" class="nolightbox">
-::: {.innovation-card-label}
-[5. Network Analysis](https://autogis-site.readthedocs.io/en/latest/lessons/L5/overview.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Shortest path algorithms and service areas.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/2c3e50/ffffff?text=AutoGIS+L6" class="nolightbox">
-::: {.innovation-card-label}
-[6. Data Visualization](https://autogis-site.readthedocs.io/en/latest/lessons/L6/overview.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Professional mapping and interactive web maps.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/34495e/ffffff?text=Fast.ai+L1" class="nolightbox">
-::: {.innovation-card-label}
-[Fast.ai L1: Getting Started](https://course.fast.ai/Lessons/lesson1.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Neural networks and training your first model.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/16a085/ffffff?text=Fast.ai+L2" class="nolightbox">
-::: {.innovation-card-label}
-[Fast.ai L2: Deployment](https://course.fast.ai/Lessons/lesson2.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Moving models from Jupyter to production apps.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/8e44ad/ffffff?text=Fast.ai+L3" class="nolightbox">
-::: {.innovation-card-label}
-[Fast.ai L3: Image Models](https://course.fast.ai/Lessons/lesson3.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Choosing and fine-tuning computer vision models.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/2c3e50/ffffff?text=Fast.ai+L4" class="nolightbox">
-::: {.innovation-card-label}
-[Fast.ai L4: NLP](https://course.fast.ai/Lessons/lesson4.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Natural Language Processing and Sentiment Analysis.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/2980b9/ffffff?text=Fast.ai+L5" class="nolightbox">
-::: {.innovation-card-label}
-[Fast.ai L5: From Scratch](https://course.fast.ai/Lessons/lesson5.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Building neural networks from basic linear algebra.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/27ae60/ffffff?text=Fast.ai+L6" class="nolightbox">
-::: {.innovation-card-label}
-[Fast.ai L6: Random Forests](https://course.fast.ai/Lessons/lesson6.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Tabular data and high-performance decision trees.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/d35400/ffffff?text=Fast.ai+L7" class="nolightbox">
-::: {.innovation-card-label}
-[Fast.ai L7: Collab Filtering](https://course.fast.ai/Lessons/lesson7.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-Recommendation systems and embedding layers.
-:::
-:::
-
-::: {.innovation-card}
-<img src="https://placehold.co/800x450/c0392b/ffffff?text=Fast.ai+L8" class="nolightbox">
-::: {.innovation-card-label}
-[Fast.ai L8: Convolutions](https://course.fast.ai/Lessons/lesson8.html){.stretched-link}
-:::
-::: {.innovation-card-desc}
-CNN foundations and high-level vision architectures.
-:::
+::: {.resource-card}
+### [The State of Satellites](https://landscape.satsummit.io/){.stretched-link}
+A guide to current satellite remote sensing technology and and apply it.
 :::
 
 :::
-:::
-
-<br>
-
-## 💡 Additional Material
-
-For further technical documentation, visit the [Courses](../courses.qmd) section or explore the [Blog](../blog.qmd) for the latest research updates.
