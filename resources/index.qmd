@@ -6,12 +6,7 @@ include-in-header:
     <script src="../assets/js/system-init.js"></script>
 ---
 
-# Research Resources
-
-Explore curated content spanning modern geospatial technologies, conference workshops, and essential learning materials.
-
-## 🎤 Conferences & Workshops
-Summaries and technical insights from international research gatherings.
+## Workshops
 
 ::: {.software-grid}
 
@@ -22,24 +17,10 @@ Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2
 
 :::
 
-<br>
-
-## 📖 Research Guides & Notes
-Technical transitions and deep-dives into geospatial methodologies.
-
-::: {.software-grid}
-
-::: {.resource-card}
-### [Cloud GIS & Open Source](cloud-gis.qmd){.stretched-link}
-Analysis of moving from proprietary cloud platforms to Python and R ecosystems.
-:::
-
-:::
 
 <br>
 
-## 📚 Essential Learning (External)
-Curated external resources for mastering GIS, ML, and Remote Sensing.
+## Books and Links
 
 ::: {.software-grid}
 
