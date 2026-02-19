@@ -878,6 +878,14 @@ h2 {
     color: var(--brand-primary);
 }
 
+.resource-img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
 /* Update to Publications Page Styling */
 .publication-list {
     display: flex;

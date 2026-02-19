@@ -602,6 +602,13 @@
     "text": "Workshops\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023."
   },
   {
+    "objectID": "resources/index.html#python-programming",
+    "href": "resources/index.html#python-programming",
+    "title": "Resources",
+    "section": "Python Programming",
+    "text": "Python Programming\n\n\n ### Cloud Native Geospatial in R & Python Cloud-native workflows for environmental justice research using R and Python.\n\n\n ### SITS: Satellite Image Time Series Analysis of Earth Observation Data Cubes using the sits R package and Python utilities.\n\n\nPython Programming (Gyansetu)\nA comprehensive guide to Python programming from the Gyansetu project.\n\n\n ### Think Python The classic introduction to Python programming by Allen B. Downey.\n\n\nIntro to Stats with Python\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n ### Programming in Python (IIT) IIT Madras course materials for programming and data structures in Python."
+  },
+  {
     "objectID": "resources/index.html#extra",
     "href": "resources/index.html#extra",
     "title": "Resources",
