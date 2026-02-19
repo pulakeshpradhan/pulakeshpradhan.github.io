@@ -6,55 +6,6 @@ include-in-header:
     <script src="assets/js/system-init.js"></script>
 ---
 
-
-## E-Books
-
-::: {.software-grid}
-
-::: {.resource-card}
-### [Practical Deep Learning (Fast.ai)](https://course.fast.ai/){.stretched-link}
-Fast.ai's top-tier practical course for applying Deep Learning to real problems.
-:::
-
-::: {.resource-card}
-### [Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/){.stretched-link}
-Python-based course for automating geospatial analysis with Geopandas.
-:::
-
-
-:::
-
-
-## Online Courses
-
-::: {.software-grid}
-
-
-::: {.resource-card}
-### [NASA ARSET](https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset){.stretched-link}
-Applied Remote SEnsing Training program for learning RS technologies.
-:::
-
-::: {.resource-card}
-### [The State of Satellites](https://landscape.satsummit.io/){.stretched-link}
-A guide to current satellite remote sensing technology and and apply it.
-:::
-
-:::
-
-
-## Workshops
-
-::: {.software-grid}
-
-::: {.resource-card}
-### [ML for Remote Sensing (ICLR 2023)](books/ml-remote-sensing.qmd){.stretched-link}
-Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.
-:::
-
-:::
-
-
 ## Introduction to Python Programming
 
 ::: {.software-grid}
@@ -101,6 +52,16 @@ IIT Madras course materials for programming and data structures in Python.
 ::: {.software-grid}
 
 ::: {.resource-card}
+### [Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/){.stretched-link}
+Python-based course for automating geospatial analysis with Geopandas.
+:::
+
+::: {.resource-card}
+### [Cloud-Based RS with GEE](https://www.eefabook.org/){.stretched-link}
+The fundamental book for learning Google Earth Engine (EEFA Book).
+:::
+
+::: {.resource-card}
 [![](https://spatial-analytics.readthedocs.io/en/latest/_static/Aalto-logo.png){.resource-img}](https://spatial-analytics.readthedocs.io/en/latest/index.html){.stretched-link}
 ### [Spatial Analytics](https://spatial-analytics.readthedocs.io/en/latest/index.html)
 Advanced spatial analytics and geocomputation with Python.
@@ -144,6 +105,86 @@ Core principles and applications of spatial data science as I understand them.
 ::: {.resource-card}
 ### [<i class="bi bi-person-workspace"></i> GeoPython Workshop](https://geopython.github.io/geopython-workshop/){.stretched-link}
 Practical workshop materials for geospatial analysis with Python.
+:::
+
+:::
+
+
+## Machine Learning
+
+::: {.software-grid}
+
+::: {.resource-card}
+### [ML for Remote Sensing (ICLR 2023)](books/ml-remote-sensing.qmd){.stretched-link}
+Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.
+:::
+
+::: {.resource-card}
+[![](https://www.tomasbeuzen.com/python-for-geospatial-analysis/_images/logo.png){.resource-img}](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html){.stretched-link}
+### [Python for Geospatial Analysis](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html)
+Integrating machine learning workflows into geospatial analysis.
+:::
+
+::: {.resource-card}
+[![](https://opengeohub.github.io/spatial-prediction-eml/img/Fig_space_time_cube.png){.resource-img}](https://opengeohub.github.io/spatial-prediction-eml/index.html){.stretched-link}
+### [Spatial Prediction using EML](https://opengeohub.github.io/spatial-prediction-eml/index.html)
+Spatial and spatiotemporal interpolation using Ensemble Machine Learning.
+:::
+
+::: {.resource-card}
+[![](https://geo-smart.github.io/mlgeo-book/_static/GeoSMART_logo.svg){.resource-img}](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html){.stretched-link}
+### [ML in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)
+Applications of machine learning in earth and geospatial sciences.
+:::
+
+::: {.resource-card}
+[![](https://geostatsguy.github.io/MachineLearningDemos_Book/_static/AppliedMachineLearning.jpg){.resource-img}](https://geostatsguy.github.io/MachineLearningDemos_Book/intro.html){.stretched-link}
+### [Applied ML in Python](https://geostatsguy.github.io/MachineLearningDemos_Book/intro.html)
+A hands-on guide with code for applied machine learning.
+:::
+
+::: {.resource-card}
+[![](https://hamedalemo.github.io/advanced-geo-python/_static/logo.png){.resource-img}](https://hamedalemo.github.io/advanced-geo-python/intro.html){.stretched-link}
+### [Advanced Geospatial Analytics](https://hamedalemo.github.io/advanced-geo-python/intro.html)
+Advanced techniques for geospatial data science and analytics.
+:::
+
+::: {.resource-card}
+[![](https://opengeohub.github.io/spatial-sampling-ml/img/Fig_PCA_components_Ebergotzen.png){.resource-img}](https://opengeohub.github.io/spatial-sampling-ml/index.html){.stretched-link}
+### [Spatial Sampling for ML](https://opengeohub.github.io/spatial-sampling-ml/index.html)
+Techniques for effective spatial sampling in machine learning projects.
+:::
+
+:::
+
+
+## Deep Learning
+
+::: {.software-grid}
+
+::: {.resource-card}
+### [Practical Deep Learning (Fast.ai)](https://course.fast.ai/){.stretched-link}
+Fast.ai's top-tier practical course for applying Deep Learning to real problems.
+:::
+
+::: {.resource-card}
+### [<i class="bi bi-rocket-takeoff"></i> fast.ai — Practical Deep Learning](https://www.fast.ai/){.stretched-link}
+One of the best practical courses for applying Deep Learning to real problems.
+:::
+
+::: {.resource-card}
+### [<i class="bi bi-google"></i> TensorFlow — Tutorials](https://www.tensorflow.org/learn){.stretched-link}
+Official learning path for building and deploying models with TensorFlow.
+:::
+
+::: {.resource-card}
+### [<i class="bi bi-fire"></i> PyTorch Tutorials](https://pytorch.org/tutorials/){.stretched-link}
+Comprehensive tutorials for the PyTorch deep learning framework.
+:::
+
+::: {.resource-card}
+### [<i class="bi bi-layers"></i> Keras — Guide](https://keras.io/){.stretched-link}
+Documentation and tutorials for high-level deep learning with Keras.
 :::
 
 :::
@@ -210,79 +251,19 @@ A practical tutorial on performing multi-criteria decision analysis.
 :::
 
 
-## Machine Learning
-
-::: {.software-grid}
-
-::: {.resource-card}
-[![](https://www.tomasbeuzen.com/python-for-geospatial-analysis/_images/logo.png){.resource-img}](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html){.stretched-link}
-### [Python for Geospatial Analysis](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html)
-Integrating machine learning workflows into geospatial analysis.
-:::
-
-::: {.resource-card}
-[![](https://opengeohub.github.io/spatial-prediction-eml/img/Fig_space_time_cube.png){.resource-img}](https://opengeohub.github.io/spatial-prediction-eml/index.html){.stretched-link}
-### [Spatial Prediction using EML](https://opengeohub.github.io/spatial-prediction-eml/index.html)
-Spatial and spatiotemporal interpolation using Ensemble Machine Learning.
-:::
-
-::: {.resource-card}
-[![](https://geo-smart.github.io/mlgeo-book/_static/GeoSMART_logo.svg){.resource-img}](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html){.stretched-link}
-### [ML in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)
-Applications of machine learning in earth and geospatial sciences.
-:::
-
-::: {.resource-card}
-[![](https://geostatsguy.github.io/MachineLearningDemos_Book/_static/AppliedMachineLearning.jpg){.resource-img}](https://geostatsguy.github.io/MachineLearningDemos_Book/intro.html){.stretched-link}
-### [Applied ML in Python](https://geostatsguy.github.io/MachineLearningDemos_Book/intro.html)
-A hands-on guide with code for applied machine learning.
-:::
-
-::: {.resource-card}
-[![](https://hamedalemo.github.io/advanced-geo-python/_static/logo.png){.resource-img}](https://hamedalemo.github.io/advanced-geo-python/intro.html){.stretched-link}
-### [Advanced Geospatial Analytics](https://hamedalemo.github.io/advanced-geo-python/intro.html)
-Advanced techniques for geospatial data science and analytics.
-:::
-
-::: {.resource-card}
-[![](https://opengeohub.github.io/spatial-sampling-ml/img/Fig_PCA_components_Ebergotzen.png){.resource-img}](https://opengeohub.github.io/spatial-sampling-ml/index.html){.stretched-link}
-### [Spatial Sampling for ML](https://opengeohub.github.io/spatial-sampling-ml/index.html)
-Techniques for effective spatial sampling in machine learning projects.
-:::
-
-:::
-
-
-## Deep Learning
-
-::: {.software-grid}
-
-::: {.resource-card}
-### [<i class="bi bi-rocket-takeoff"></i> fast.ai — Practical Deep Learning](https://www.fast.ai/){.stretched-link}
-One of the best practical courses for applying Deep Learning to real problems.
-:::
-
-::: {.resource-card}
-### [<i class="bi bi-google"></i> TensorFlow — Tutorials](https://www.tensorflow.org/learn){.stretched-link}
-Official learning path for building and deploying models with TensorFlow.
-:::
-
-::: {.resource-card}
-### [<i class="bi bi-fire"></i> PyTorch Tutorials](https://pytorch.org/tutorials/){.stretched-link}
-Comprehensive tutorials for the PyTorch deep learning framework.
-:::
-
-::: {.resource-card}
-### [<i class="bi bi-layers"></i> Keras — Guide](https://keras.io/){.stretched-link}
-Documentation and tutorials for high-level deep learning with Keras.
-:::
-
-:::
-
-
 ## Learning Resources
 
 ::: {.software-grid}
+
+::: {.resource-card}
+### [NASA ARSET](https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset){.stretched-link}
+Applied Remote Sensing Training program for learning RS technologies.
+:::
+
+::: {.resource-card}
+### [The State of Satellites](https://landscape.satsummit.io/){.stretched-link}
+A guide to current satellite remote sensing technology and and apply it.
+:::
 
 ::: {.resource-card}
 ### [<i class="bi bi-mortarboard"></i> Coursera](https://www.coursera.org/){.stretched-link}
@@ -350,19 +331,6 @@ Earth Engine data processing scripts from Brown University.
 ::: {.resource-card}
 ### [<i class="bi bi-robot"></i> GEE Python + ML](https://github.com/waleedgeo/gee_py_ml){.stretched-link}
 Integrating GEE with Python and Machine Learning.
-:::
-
-:::
-
-
-## Extra
-
-::: {.software-grid}
-
-
-::: {.resource-card}
-### [Cloud-Based RS with GEE](https://www.eefabook.org/){.stretched-link}
-The fundamental book for learning Google Earth Engine (EEFA Book).
 :::
 
 :::
