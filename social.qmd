@@ -67,5 +67,27 @@ A premier conference focusing on the demographic shifts and socio-economic trans
 :::
 :::
 
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 40px; background: #fffcf0; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
+::: {.social-content}
+### National Seminar: Environment, Economy, Culture and Technology
+**“A Way Forward to Viksit Bharat”**
+Dr. Ghanshyam Singh Mahavidyalaya, Varanasi | **March 16-17, 2026**
+
+Organized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.
+
+**📅 Key Dates:**
+*   **Abstract Submission Deadline:** 9th March, 2026
+*   **Full Paper Submission:** 12th March, 2026
+
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+[Register Now](https://forms.gle/your-google-form-link){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #854d0e; font-weight: 600; font-size: 0.9rem;"}
+[Contact Details](#){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #854d0e; font-weight: 600; font-size: 0.9rem;"}
+</div>
+:::
+::: {.social-media style="display: flex; align-items: center;"}
+[![](social/viksit_bharat_seminar.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/viksit_bharat_seminar.jpg)
+:::
+:::
+
 
 :::
