@@ -410,33 +410,53 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;"><strong>National Seminar (Viksit Bharat)</strong></td>
 <td style="text-align: left;">Varanasi, UP</td>
 <td style="text-align: left;">March 16–17, 2026</td>
-<td style="text-align: left;"><strong>March 9, 2026</strong></td>
+<td style="text-align: left;"><span class="deadline-date" data-date="2026-03-09">March 9, 2026</span></td>
 <td style="text-align: left;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform">Register</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>IASP 2026 Regional Conference</strong></td>
 <td style="text-align: left;">Goa University</td>
 <td style="text-align: left;">March 20–21, 2026</td>
-<td style="text-align: left;"><strong>Feb 15, 2026</strong></td>
+<td style="text-align: left;"><span class="deadline-date" data-date="2026-02-15">Feb 15, 2026</span></td>
 <td style="text-align: left;"><a href="https://forms.gle/dxgmZAGrdk5HdWVw5">Submit</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>XXII INQUA Congress 2027</strong></td>
 <td style="text-align: left;">Lucknow, India</td>
 <td style="text-align: left;">Jan 28 – Feb 3, 2027</td>
-<td style="text-align: left;"><strong>March 31, 2026</strong></td>
+<td style="text-align: left;"><span class="deadline-date" data-date="2026-03-31">March 31, 2026</span></td>
 <td style="text-align: left;"><a href="https://register.inquaindia2027.in/">Register</a></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    
+    document.querySelectorAll('.deadline-date').forEach(el => {
+        const dateStr = el.getAttribute('data-date');
+        const deadline = new Date(dateStr);
+        
+        if (deadline < today) {
+            el.style.color = '#dc2626'; // Red
+            el.style.textDecoration = 'line-through';
+            el.style.fontWeight = '500';
+        } else {
+            el.style.color = '#16a34a'; // Green
+            el.style.fontWeight = '600';
+        }
+    });
+});
+</script>
 </section>
 <div class="social-card" style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 40px; background: #f0f7ff; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
 <section id="xxii-inqua-congress-2027-india" class="level3 social-content">
 <h3 class="anchored" data-anchor-id="xxii-inqua-congress-2027-india">XXII INQUA Congress 2027 India</h3>
 <p><strong>“Quaternary Science As Societal Services”</strong> <strong>📍 Location:</strong> Lucknow, India <strong>📅 Date:</strong> January 28 - February 3, 2027</p>
 <p>The biggest conference in Quaternary Sciences, featuring <strong>188 Scientific Sessions</strong>, <strong>21 Workshops</strong>, and <strong>46 Field Trips</strong>. Funding available for participants.</p>
-<p><strong>📢 Important Update:</strong> * <strong>Abstract Submission EXTENDED:</strong> 31st March, 2026</p>
+<p><strong>📢 Important Update:</strong> * <strong>Abstract Submission EXTENDED:</strong> <span class="deadline-date" data-date="2026-03-31">31st March, 2026</span></p>
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 <p><a href="https://register.inquaindia2027.in/" style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #1a5f7a; font-weight: 600; font-size: 0.9rem;">Register Now</a> <a href="https://framerusercontent.com/assets/uuOMCk51ous9qnKWe3ZLZbrTglI.pdf" style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #1a5f7a; font-weight: 600; font-size: 0.9rem;">First Circular (PDF)</a></p>
 </div>
@@ -450,7 +470,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="western-regional-conference-iasp-2026">Western Regional Conference: IASP 2026</h3>
 <p><strong>“Demographic Transition in Western India”</strong> <strong>📍 Location:</strong> Goa Business School, Goa University <strong>📅 Date:</strong> March 20-21, 2026</p>
 <p>A premier conference focusing on the demographic shifts and socio-economic transitions in Western India.</p>
-<p><strong>📅 Last Date for Online Abstract Submission:</strong> 15th February, 2026</p>
+<p><strong>📅 Last Date for Online Abstract Submission:</strong> <span class="deadline-date" data-date="2026-02-15">15th February, 2026</span></p>
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 <p><a href="https://forms.gle/dxgmZAGrdk5HdWVw5" style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #d35400; font-weight: 600; font-size: 0.9rem;">Submit Abstract</a> <a href="social/population_iasp_2026.pdf" style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #d35400; font-weight: 600; font-size: 0.9rem;">Download PDF</a></p>
 </div>
@@ -464,7 +484,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="national-seminar-environment-economy-culture-and-technology">National Seminar: Environment, Economy, Culture and Technology</h3>
 <p><strong>“A Way Forward to Viksit Bharat”</strong> <strong>📍 Location:</strong> Dr.&nbsp;Ghanshyam Singh Mahavidyalaya, Varanasi <strong>📅 Date:</strong> March 16-17, 2026</p>
 <p>Organized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.</p>
-<p><strong>📅 Key Dates:</strong> * <strong>Abstract Submission Deadline:</strong> 9th March, 2026 * <strong>Full Paper Submission:</strong> 12th March, 2026</p>
+<p><strong>📅 Key Dates:</strong> * <strong>Abstract Submission Deadline:</strong> <span class="deadline-date" data-date="2026-03-09">9th March, 2026</span> * <strong>Full Paper Submission:</strong> <span class="deadline-date" data-date="2026-03-12">12th March, 2026</span></p>
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform" style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #854d0e; font-weight: 600; font-size: 0.9rem;">Register Now</a> <a href="#" style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #854d0e; font-weight: 600; font-size: 0.9rem;">Contact Details</a></p>
 </div>
