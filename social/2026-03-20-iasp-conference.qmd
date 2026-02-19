@@ -11,7 +11,15 @@ path: "social/population_iasp_2026.pdf"
 
 Organized jointly with **Goa Business School, Goa University, Goa**
 
-**Dates:** March 20-21, 2026
+**Conference Dates:** March 20-21, 2026
+
+#### 📅 Important Dates to Remember
+| Event | Date |
+|-------|------|
+| Last Date for Online Abstract Submission | 15th February, 2026 |
+| Intimation of acceptance | 17th February, 2026 |
+| Registration | 18th February to 25th February 2026 |
+| Full paper submission | 10th March, 2026 |
 
 ::: {.callout-important}
 ### Abstract Submission
