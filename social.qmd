@@ -13,13 +13,16 @@ page-layout: full
 **“Quaternary Science As Societal Services”**
 Lucknow, India | **January 28 - February 3, 2027**
 
-The XXII INQUA Congress 2027 brings together researchers, scholars, and practitioners from across the world to advance our understanding of Earth’s past environments, climate systems, and human interactions.
+The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessions**, **21 Workshops**, and **46 Field Trips**. Funding available for participants.
+
+**📢 Important Update:**
+*   **Abstract Submission EXTENDED:** 31st March, 2026
 
 [Register Now](https://register.inquaindia2027.in/){.social-btn}
-[Call for Submissions](https://www.inquaindia2027.in/call-submissions){.social-btn}
+[Download First Circular (PDF)](https://framerusercontent.com/assets/uuOMCk51ous9qnKWe3ZLZbrTglI.pdf){.social-btn}
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](https://www.inquaindia2027.in/images/logo.png){style="border-radius: 8px; width: 100%;"}](https://www.inquaindia2027.in/)
+[![](social/inqua_2027.png){style="border-radius: 8px; width: 100%;"}](https://www.inquaindia2027.in/)
 :::
 :::
 
