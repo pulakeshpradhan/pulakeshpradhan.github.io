@@ -126,7 +126,6 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 ## 👥 Groups I Manage
 
 ::: {.groups-grid}
-
 <a href="https://www.facebook.com/groups/762174011717920" target="_blank" class="group-card group-card-facebook">
 <div class="group-icon-container">
 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
@@ -139,7 +138,6 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 <div class="group-footer">Join Group <i class="bi bi-arrow-right"></i></div>
 </div>
 </a>
-
 <a href="https://www.linkedin.com/groups/14152423/" target="_blank" class="group-card group-card-linkedin">
 <div class="group-icon-container">
 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
@@ -152,7 +150,6 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 <div class="group-footer">Join Group <i class="bi bi-arrow-right"></i></div>
 </div>
 </a>
-
 <a href="https://chat.whatsapp.com/Er5pHkGoprnAoMtQlkxJIo" target="_blank" class="group-card group-card-whatsapp">
 <div class="group-icon-container">
 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
@@ -165,10 +162,7 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 <div class="group-footer">Join Group <i class="bi bi-arrow-right"></i></div>
 </div>
 </a>
-
 :::
-
-
 <hr>
 
 ## 🎓 Featured Courses
