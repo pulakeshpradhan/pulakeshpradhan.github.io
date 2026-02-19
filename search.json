@@ -361,35 +361,35 @@
     "href": "books.html",
     "title": "Books",
     "section": "",
-    "text": "### SITS: Analysis on EO Data Cubes Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n ### Spatial Analytics Advanced spatial analytics and geocomputation with Python.\n\n\n ### Python for Geocomputation The Python version of the famous Geocomputation with R book.\n\n\n ### PyGIS Docs Comprehensive documentation for Python-based GIS workflows.\n\n\n ### Spatial Prediction using EML Spatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n ### Spatial Sampling for ML Techniques for effective spatial sampling in machine learning projects."
+    "text": "Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n\n\n\n\nAdvanced spatial analytics and geocomputation with Python.\n\n\n\n\n\n\nThe Python version of the famous Geocomputation with R book.\n\n\n\n\n\n\nComprehensive documentation for Python-based GIS workflows.\n\n\n\n\n\n\nSpatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n\n\n\n\nTechniques for effective spatial sampling in machine learning projects."
   },
   {
     "objectID": "books.html#selected-books",
     "href": "books.html#selected-books",
     "title": "Books",
     "section": "",
-    "text": "### SITS: Analysis on EO Data Cubes Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n ### Spatial Analytics Advanced spatial analytics and geocomputation with Python.\n\n\n ### Python for Geocomputation The Python version of the famous Geocomputation with R book.\n\n\n ### PyGIS Docs Comprehensive documentation for Python-based GIS workflows.\n\n\n ### Spatial Prediction using EML Spatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n ### Spatial Sampling for ML Techniques for effective spatial sampling in machine learning projects."
+    "text": "Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n\n\n\n\nAdvanced spatial analytics and geocomputation with Python.\n\n\n\n\n\n\nThe Python version of the famous Geocomputation with R book.\n\n\n\n\n\n\nComprehensive documentation for Python-based GIS workflows.\n\n\n\n\n\n\nSpatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n\n\n\n\nTechniques for effective spatial sampling in machine learning projects."
   },
   {
     "objectID": "books.html#introduction-to-python-programming",
     "href": "books.html#introduction-to-python-programming",
     "title": "Books",
     "section": "Introduction to Python Programming",
-    "text": "Introduction to Python Programming\n\n\n ### Cloud Native Geospatial in R & Python Cloud-native workflows I follow for environmental justice research using R and Python.\n\n\nPython Programming (Gyansetu)\nA comprehensive guide to Python programming I recommend from the Gyansetu project.\n\n\n ### Think Python The classic introduction to Python programming by Allen B. Downey.\n\n\nIntro to Stats with Python\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n ### Programming in Python (IIT) IIT Madras course materials for programming and data structures in Python."
+    "text": "Introduction to Python Programming\n\n\n\n\nCloud Native Geospatial in R & Python\nCloud-native workflows I follow for environmental justice research using R and Python.\n\n\n\nPython Programming (Gyansetu)\nA comprehensive guide to Python programming I recommend from the Gyansetu project.\n\n\n\n\nThink Python\nThe classic introduction to Python programming by Allen B. Downey.\n\n\n\nIntro to Stats with Python\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n\n\nProgramming in Python (IIT)\nIIT Madras course materials for programming and data structures in Python."
   },
   {
     "objectID": "books.html#geospatial-python-programming",
     "href": "books.html#geospatial-python-programming",
     "title": "Books",
     "section": "Geospatial Python Programming",
-    "text": "Geospatial Python Programming\n\n\n ### Cloud-Based RS with GEE The fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n ### Applied Geostatistics in Python A hands-on guide to applied geostatistics with Python implementations.\n\n\n ### Geographic Data Science A modern approach to data science with geographic information.\n\n\n ### AutoGIS — Automating GIS One of my favorite resources for automating GIS processes with Python.\n\n\n Foundations of Spatial Data Science\nCore principles and applications of spatial data science as I understand them.\n\n\n GeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
+    "text": "Geospatial Python Programming\n\n\n\n\nCloud-Based RS with GEE\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\n\n\nApplied Geostatistics in Python\nA hands-on guide to applied geostatistics with Python implementations.\n\n\n\n\n\nGeographic Data Science\nA modern approach to data science with geographic information.\n\n\n\n\n\nAutoGIS — Automating GIS\nOne of my favorite resources for automating GIS processes with Python.\n\n\n\n Foundations of Spatial Data Science\nCore principles and applications of spatial data science as I understand them.\n\n\n GeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
   },
   {
     "objectID": "books.html#machine-learning",
     "href": "books.html#machine-learning",
     "title": "Books",
     "section": "Machine Learning",
-    "text": "Machine Learning\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n ### Python for Geospatial Analysis Integrating machine learning workflows into geospatial analysis.\n\n\n ### ML in the Geosciences Applications of machine learning in earth and geospatial sciences.\n\n\n ### Applied ML in Python A hands-on guide with code for applied machine learning.\n\n\n ### Advanced Geospatial Analytics Advanced techniques for geospatial data science and analytics."
+    "text": "Machine Learning\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n\n\nPython for Geospatial Analysis\nIntegrating machine learning workflows into geospatial analysis.\n\n\n\n\n\nML in the Geosciences\nApplications of machine learning in earth and geospatial sciences.\n\n\n\n\n\nApplied ML in Python\nA hands-on guide with code for applied machine learning.\n\n\n\n\n\nAdvanced Geospatial Analytics\nAdvanced techniques for geospatial data science and analytics."
   },
   {
     "objectID": "books.html#deep-learning",
@@ -403,7 +403,7 @@
     "href": "books.html#time-series-analysis",
     "title": "Books",
     "section": "Time Series Analysis",
-    "text": "Time Series Analysis\n\n\n ### Time Series Analysis with Python A comprehensive handbook for time series analysis in the Python ecosystem.\n\n\n ### Forecasting: Principles & Practice The fundamental textbook for forecasting principles using Python and R.\n\n\n Overview of Time Series Packages\nA curated list and overview of time series analysis packages in Python.\n\n\n Statsmodels — Time Series\nOfficial documentation for statistical modeling and time series in Python.\n\n\n TensorFlow — Time Series\nGuide to building time series forecasting models with TensorFlow."
+    "text": "Time Series Analysis\n\n\n\n\nTime Series Analysis with Python\nA comprehensive handbook for time series analysis in the Python ecosystem.\n\n\n\n\n\nForecasting: Principles & Practice\nThe fundamental textbook for forecasting principles using Python and R.\n\n\n\n Overview of Time Series Packages\nA curated list and overview of time series analysis packages in Python.\n\n\n Statsmodels — Time Series\nOfficial documentation for statistical modeling and time series in Python.\n\n\n TensorFlow — Time Series\nGuide to building time series forecasting models with TensorFlow."
   },
   {
     "objectID": "books.html#ahp-mcdm-python",
@@ -417,7 +417,7 @@
     "href": "books.html#learning-resources",
     "title": "Books",
     "section": "Learning Resources",
-    "text": "Learning Resources\n\n\nNASA ARSET\nApplied Remote Sensing Training program for learning RS technologies.\n\n\nThe State of Satellites\nA guide to current satellite remote sensing technology and and apply it.\n\n\n Coursera\nAccess to specialized geospatial and data science courses from top universities.\n\n\n Udemy\nPractical, hands-on courses for learning Python and GIS tools.\n\n\n Kaggle Learn\nFree, practical micro-courses on data science and machine learning.\n\n\n Official Python Tutorial\nThe authoritative guide I recommend for mastering the Python language.\n\n\n ### Zero to Pandas A practical introduction to data analysis with Python and Pandas.\n\n\n Software Carpentry: Python\nA foundational tutorial for geoscientists new to Python."
+    "text": "Learning Resources\n\n\nNASA ARSET\nApplied Remote Sensing Training program for learning RS technologies.\n\n\nThe State of Satellites\nA guide to current satellite remote sensing technology and and apply it.\n\n\n Coursera\nAccess to specialized geospatial and data science courses from top universities.\n\n\n Udemy\nPractical, hands-on courses for learning Python and GIS tools.\n\n\n Kaggle Learn\nFree, practical micro-courses on data science and machine learning.\n\n\n Official Python Tutorial\nThe authoritative guide I recommend for mastering the Python language.\n\n\n\n\nZero to Pandas\nA practical introduction to data analysis with Python and Pandas.\n\n\n\n Software Carpentry: Python\nA foundational tutorial for geoscientists new to Python."
   },
   {
     "objectID": "books.html#github-repositories",
