@@ -73,7 +73,7 @@ Organized by The Deccan Geographical Society of India (DGSI). This landmark conf
 </div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](social/dgsi_conference_banner.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/30-12-2026 First Circular - 2026.pdf)
+[![](social/dgsi2026.png){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/30-12-2026 First Circular - 2026.pdf)
 :::
 :::
 
