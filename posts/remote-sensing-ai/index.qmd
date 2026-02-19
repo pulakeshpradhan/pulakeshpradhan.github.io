@@ -1,8 +1,0 @@
----
-title: "The Future of AI in Remote Sensing"
-author: "Pulakesh Pradhan"
-date: "2026-02-10"
-image: "https://placehold.co/400x300/34495e/ffffff?text=AI+Remote+Sensing"
-categories: [AI, Remote Sensing]
----
-How deep learning is changing how we interpret satellite imagery...

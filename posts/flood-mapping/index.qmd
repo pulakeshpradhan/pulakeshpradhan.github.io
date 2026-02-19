@@ -1,8 +1,0 @@
----
-title: "Advanced Flood Mapping using AHP and GEE"
-author: "Pulakesh Pradhan"
-date: "2026-02-11"
-image: "https://placehold.co/400x300/e67e22/ffffff?text=Flood+Mapping"
-categories: [AHP, GEE, Research]
----
-Combining Analytic Hierarchy Process with cloud computing for flood studies...

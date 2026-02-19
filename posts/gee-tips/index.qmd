@@ -1,8 +1,0 @@
----
-title: "Top 5 Tips for Google Earth Engine Developers"
-author: "Pulakesh Pradhan"
-date: "2026-02-13"
-image: "https://placehold.co/400x300/2c7da0/ffffff?text=GEE+Tips"
-categories: [GEE, tips]
----
-Google Earth Engine is powerful, but optimizing your scripts is key to performance...

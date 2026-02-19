@@ -1,8 +1,0 @@
----
-title: "My Journey in Spatial Data Science"
-author: "Pulakesh Pradhan"
-date: "2026-02-09"
-image: "https://placehold.co/400x300/8e44ad/ffffff?text=Academic+Journey"
-categories: [Personal, Career]
----
-Reflecting on the path from geography basics to advanced cloud computing...
