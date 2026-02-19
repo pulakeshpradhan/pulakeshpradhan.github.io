@@ -48,4 +48,24 @@ A premier conference focusing on the demographic shifts and socio-economic trans
 :::
 :::
 
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 40px; background: #f5f3ff; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
+::: {.social-content}
+### Directory of Geographical Institutions in India
+A comprehensive list of leading geographical associations and societies across India, fostering academic excellence and spatial research.
+
+**🌐 Official Websites:**
+*   [NAGI (New Delhi)](http://nagi.org.in/) | [IGS (Chennai)](http://www.igschennai.org/) | [GSI (Kolkata)](http://geographicalsocietyofindia.org.in/)
+*   [IIG (Pune)](http://iigpune.in/) | [IGI (Allahabad)](http://www.indiageomorph.org/) | [APGI (Chandigarh)](http://apgi.in/)
+*   [DGSI (Pune)](http://www.dgsi.org.in/) | [ISSS (Kolkata)](http://www.spatialscientists.org/) | [RSAI (Kolkata)](http://rsai.org.in/)
+*   [NEIGS (Guwahati)](http://neigs.org.in/) | [UGIT (Bengaluru)](http://ugit.net.in/) | [MBP (Pune)](http://mbpune.org/)
+
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+[View Full List (PDF/Image)](social/institutions_list.png){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #7c3aed; font-weight: 600; font-size: 0.9rem;"}
+</div>
+:::
+::: {.social-media style="display: flex; align-items: center;"}
+[![](social/institutions_list.png){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/institutions_list.png)
+:::
+:::
+
 :::
