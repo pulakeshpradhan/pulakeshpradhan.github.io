@@ -1,5 +1,5 @@
 ---
-title: "The Evolution of Geographical Organizations in India: A Historical Perspective"
+title: "The Evolution of Geographical Organizations in India"
 date: "2026-02-19"
 categories: [History, Geography, Institutional Growth, India]
 image: "hist_of_geo.jpg"
