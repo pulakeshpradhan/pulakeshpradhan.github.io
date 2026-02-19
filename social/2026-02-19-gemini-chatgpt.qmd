@@ -1,0 +1,7 @@
+---
+title: "Social Update"
+date: "2026-02-19"
+image: "images/GEE AI Assistant 1.jpg"
+---
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7384877330587947010" height="800" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>

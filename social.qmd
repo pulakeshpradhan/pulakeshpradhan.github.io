@@ -1,0 +1,7 @@
+---
+title: "Social Updates"
+listing:
+  contents: social
+  sort: "date desc"
+  type: grid
+---

@@ -25,6 +25,8 @@ website:
         text: Events
       - href: blog.qmd
         text: Blog
+      - href: social.qmd
+        text: Social
       - href: innovations.qmd
         text: Innovations
       - href: courses.qmd

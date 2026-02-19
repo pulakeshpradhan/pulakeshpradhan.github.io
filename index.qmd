@@ -62,7 +62,12 @@ listing:
         path: "publications/ORC2023_Pulakesh_Pradhan.pdf"
         image: "https://placehold.co/600x400/1a5f7a/ffffff?text=Air+Quality+Poster"
     type: grid
+  - id: social-updates
+    contents: social
+    sort: "date desc"
+    type: grid
     max-items: 3
+    categories: false
 page-layout: full
 ---
 
@@ -101,6 +106,12 @@ page-layout: full
 ::: {#latest-posts}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all posts](blog.qmd){.social-btn .mt-2}
+
+<hr>
+
+## Social Updates
+::: {#social-updates}
+:::
 
 <hr>
 
