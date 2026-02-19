@@ -214,6 +214,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-social-updates .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-social-updates'] = new List('listing-social-updates', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <meta name="google-site-verification" content="nLl3KIj4auOY3L_3kYhBLd9fKTHpzihQI-jRuDM7abQ">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -459,6 +487,10 @@ window.Quarto = {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./social.html"> 
+<span class="menu-text">Social</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./innovations.html"> 
 <span class="menu-text">Innovations</span></a>
   </li>  
@@ -523,6 +555,7 @@ window.Quarto = {
   <ul>
   <li><a href="#upcoming-events" id="toc-upcoming-events" class="nav-link active" data-scroll-target="#upcoming-events">📅 Upcoming Events</a></li>
   <li><a href="#latest-insights" id="toc-latest-insights" class="nav-link" data-scroll-target="#latest-insights">📌 Latest Insights</a></li>
+  <li><a href="#social-updates" id="toc-social-updates" class="nav-link" data-scroll-target="#social-updates">Social Updates</a></li>
   <li><a href="#featured-courses" id="toc-featured-courses" class="nav-link" data-scroll-target="#featured-courses">🎓 Featured Courses</a></li>
   <li><a href="#featured-innovations" id="toc-featured-innovations" class="nav-link" data-scroll-target="#featured-innovations">🚀 Featured Innovations</a></li>
   <li><a href="#recent-publications" id="toc-recent-publications" class="nav-link" data-scroll-target="#recent-publications">📚 Recent Publications</a></li>
@@ -558,7 +591,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="upcoming-events">📅 Upcoming Events</h2>
 <div id="listing-upcoming-events" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="VXBjb21pbmc=" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771391218894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="0" data-categories="VXBjb21pbmc=" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771470891766" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="./events/gee-workshop-feb-2026.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -592,7 +625,7 @@ Feb 16, 2026
 <h2 class="anchored" data-anchor-id="latest-insights">📌 Latest Insights</h2>
 <div id="listing-latest-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDRGVlcCUyMExlYXJuaW5nJTJDQUklMkNHZW9zcGF0aWFs" data-listing-date-sort="1771286400000" data-listing-file-modified-sort="1771391219053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="749">
+<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDRGVlcCUyMExlYXJuaW5nJTJDQUklMkNHZW9zcGF0aWFs" data-listing-date-sort="1771286400000" data-listing-file-modified-sort="1771470891941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="749">
 <a href="./posts/2026_02_17_modern_geospatial_python_ai/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -616,7 +649,7 @@ Feb 17, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="R2VvZ3JhcGh5JTJDVGhlb3J5JTJDR0lTJTJDU29jaWFsJTIwU2NpZW5jZQ==" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771391219053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
+<div class="g-col-1" data-index="1" data-categories="R2VvZ3JhcGh5JTJDVGhlb3J5JTJDR0lTJTJDU29jaWFsJTIwU2NpZW5jZQ==" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771470891940" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
 <a href="./posts/2026_02_16_social_vs_spatial/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -640,7 +673,7 @@ Feb 16, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Q2xvdWQlMjBHSVMlMkNHb29nbGUlMjBFYXJ0aCUyMEVuZ2luZSUyQ09wZW4lMjBTb3VyY2UlMkNQeXRob24lMkNS" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771391219051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="996">
+<div class="g-col-1" data-index="2" data-categories="Q2xvdWQlMjBHSVMlMkNHb29nbGUlMjBFYXJ0aCUyMEVuZ2luZSUyQ09wZW4lMjBTb3VyY2UlMkNQeXRob24lMkNS" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1771470891939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="996">
 <a href="./posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -668,6 +701,40 @@ Feb 16, 2026
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <p><a href="./blog.html" class="social-btn mt-2"><i class="bi bi-arrow-right-circle"></i> View all posts</a></p>
+<hr>
+</section>
+<section id="social-updates" class="level2">
+<h2 class="anchored" data-anchor-id="social-updates">Social Updates</h2>
+<div id="listing-social-updates" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1771470892043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="./social/2026-02-19-gemini-chatgpt.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./social/images/GEE AI Assistant 1.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Social Update
+</h5>
+<div class="card-text listing-description delink">
+
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Feb 19, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 <hr>
 </section>
 <section id="featured-courses" class="level2">
@@ -732,7 +799,7 @@ Python for AI Research
 <h2 class="anchored" data-anchor-id="featured-innovations">🚀 Featured Innovations</h2>
 <div id="listing-latest-innovations" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771391219049" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1771470891937" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
 <a href="./innovations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
