@@ -14,6 +14,7 @@
       "/posts/academic-journey/index.html",
       "/innovations.html",
       "/events/gee-workshop-feb-2026.html",
+      "/social/2026-03-20-iasp-conference.html",
       "/social/2026-02-19-gemini-chatgpt.html"
     ]
   },
@@ -44,6 +45,7 @@
   {
     "listing": "/social.html",
     "items": [
+      "/social/2026-03-20-iasp-conference.html",
       "/social/2026-02-19-gemini-chatgpt.html"
     ]
   }
