@@ -7,7 +7,7 @@ page-layout: full
 
 ## 📱 Social Feed
 
-::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;"}
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 30px; background: #f0f7ff; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
 ::: {.social-content}
 ### XXII INQUA Congress 2027 India
 **“Quaternary Science As Societal Services”**
@@ -18,15 +18,17 @@ The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessio
 **📢 Important Update:**
 *   **Abstract Submission EXTENDED:** 31st March, 2026
 
-[Register Now](https://register.inquaindia2027.in/){.social-btn}
-[Download First Circular (PDF)](https://framerusercontent.com/assets/uuOMCk51ous9qnKWe3ZLZbrTglI.pdf){.social-btn}
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+[Register Now](https://register.inquaindia2027.in/){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #1a5f7a; font-weight: 600; font-size: 0.9rem;"}
+[First Circular (PDF)](https://framerusercontent.com/assets/uuOMCk51ous9qnKWe3ZLZbrTglI.pdf){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #1a5f7a; font-weight: 600; font-size: 0.9rem;"}
+</div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](social/inqua_2027.png){style="border-radius: 8px; width: 100%;"}](https://www.inquaindia2027.in/)
+[![](social/inqua_2027.png){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://www.inquaindia2027.in/)
 :::
 :::
 
-::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;"}
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 30px; background: #fff9f0; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
 ::: {.social-content}
 ### Western Regional Conference: IASP 2026
 **“Demographic Transition in Western India”**
@@ -40,24 +42,28 @@ Organized jointly with **Goa Business School, Goa University**
 | Registration | 18th - 25th Feb |
 | Full paper | 10th March, 2026 |
 
-[Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5){.social-btn}
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+[Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #d35400; font-weight: 600; font-size: 0.9rem;"}
+</div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](social/population_iasp_2026.pdf){style="border-radius: 8px; width: 100%;"}](social/population_iasp_2026.pdf)
+[![](social/population_iasp_2026.pdf){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/population_iasp_2026.pdf)
 :::
 :::
 
-::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;"}
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 30px; background: #f0fff4; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
 ::: {.social-content}
 ### AI in Geospatial: Gemini vs ChatGPT
 Comparing the roles of Gemini and ChatGPT in modern geospatial workflows and Google Earth Engine.
 
 *Posted on LinkedIn*
 
-[View Original Post](https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5){.social-btn}
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+[View Original Post](https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #219150; font-weight: 600; font-size: 0.9rem;"}
+</div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](images/GEE AI Assistant 1.jpg){style="border-radius: 8px; width: 100%;"}](https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5)
+[![](images/GEE AI Assistant 1.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5)
 :::
 :::
 
