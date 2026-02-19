@@ -418,14 +418,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="geospatial-python-programming" class="level2">
 <h2 class="anchored" data-anchor-id="geospatial-python-programming">Geospatial Python Programming</h2>
 <div class="software-grid">
-<section id="automating-gis-processes" class="level3 resource-card">
-<h3 class="anchored" data-anchor-id="automating-gis-processes"><a href="https://autogis-site.readthedocs.io/en/latest/" class="stretched-link">Automating GIS Processes</a></h3>
-<p>Python-based course for automating geospatial analysis with Geopandas.</p>
-</section>
-<section id="cloud-based-rs-with-gee" class="level3 resource-card">
-<h3 class="anchored" data-anchor-id="cloud-based-rs-with-gee"><a href="https://www.eefabook.org/" class="stretched-link">Cloud-Based RS with GEE</a></h3>
-<p>The fundamental book for learning Google Earth Engine (EEFA Book).</p>
-</section>
+<div class="resource-card">
+<p><a href="https://www.eefabook.org/" class="stretched-link"><img src="https://www.eefabook.org/images/cover.png" class="resource-img img-fluid"></a> ### <a href="https://www.eefabook.org/">Cloud-Based RS with GEE</a> The fundamental book for learning Google Earth Engine (EEFA Book).</p>
+</div>
 <div class="resource-card">
 <p><a href="https://spatial-analytics.readthedocs.io/en/latest/index.html" class="stretched-link"><img src="https://spatial-analytics.readthedocs.io/en/latest/_static/Aalto-logo.png" class="resource-img img-fluid"></a> ### <a href="https://spatial-analytics.readthedocs.io/en/latest/index.html">Spatial Analytics</a> Advanced spatial analytics and geocomputation with Python.</p>
 </div>
@@ -484,10 +479,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="deep-learning" class="level2">
 <h2 class="anchored" data-anchor-id="deep-learning">Deep Learning</h2>
 <div class="software-grid">
-<section id="practical-deep-learning-fast.ai" class="level3 resource-card">
-<h3 class="anchored" data-anchor-id="practical-deep-learning-fast.ai"><a href="https://course.fast.ai/" class="stretched-link">Practical Deep Learning (Fast.ai)</a></h3>
-<p>Fast.ai’s top-tier practical course for applying Deep Learning to real problems.</p>
-</section>
 <section id="fast.ai-practical-deep-learning" class="level3 resource-card">
 <h3 class="anchored" data-anchor-id="fast.ai-practical-deep-learning"><a href="https://www.fast.ai/" class="stretched-link"><i class="bi bi-rocket-takeoff"></i> fast.ai — Practical Deep Learning</a></h3>
 <p>One of the best practical courses for applying Deep Learning to real problems.</p>
@@ -719,6 +710,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
