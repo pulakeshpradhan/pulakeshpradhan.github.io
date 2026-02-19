@@ -602,13 +602,6 @@
     "text": "Workshops\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023."
   },
   {
-    "objectID": "resources/index.html#python-programming",
-    "href": "resources/index.html#python-programming",
-    "title": "Resources",
-    "section": "Python Programming",
-    "text": "Python Programming\n\n\n ### Cloud Native Geospatial in R & Python Cloud-native workflows for environmental justice research using R and Python.\n\n\n ### SITS: Satellite Image Time Series Analysis of Earth Observation Data Cubes using the sits R package and Python utilities.\n\n\nPython Programming (Gyansetu)\nA comprehensive guide to Python programming from the Gyansetu project.\n\n\n ### Think Python The classic introduction to Python programming by Allen B. Downey.\n\n\nIntro to Stats with Python\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n ### Programming in Python (IIT) IIT Madras course materials for programming and data structures in Python."
-  },
-  {
     "objectID": "resources/index.html#introduction-to-python-programming",
     "href": "resources/index.html#introduction-to-python-programming",
     "title": "Resources",
@@ -620,21 +613,21 @@
     "href": "resources/index.html#geospatial-python-programming",
     "title": "Resources",
     "section": "Geospatial Python Programming",
-    "text": "Geospatial Python Programming\n\n\n ### Spatial Analytics Advanced spatial analytics and geocomputation with Python.\n\n\n ### Applied Geostatistics in Python A hands-on guide to applied geostatistics with Python implementations.\n\n\n ### Python for Geocomputation The Python version of the famous Geocomputation with R book.\n\n\n ### Geographic Data Science A modern approach to data science with geographic information.\n\n\n ### PyGIS Docs Comprehensive documentation for Python-based GIS workflows.\n\n\n ### AutoGIS — Automating GIS One of my favorite resources for automating GIS processes with Python.\n\n\nFoundations of Spatial Data Science\nCore principles and applications of spatial data science.\n\n\nGeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
+    "text": "Geospatial Python Programming\n\n\n ### Spatial Analytics Advanced spatial analytics and geocomputation with Python.\n\n\n ### Applied Geostatistics in Python A hands-on guide to applied geostatistics with Python implementations.\n\n\n ### Python for Geocomputation The Python version of the famous Geocomputation with R book.\n\n\n ### Geographic Data Science A modern approach to data science with geographic information.\n\n\n ### PyGIS Docs Comprehensive documentation for Python-based GIS workflows.\n\n\n ### AutoGIS — Automating GIS One of my favorite resources for automating GIS processes with Python.\n\n\n Foundations of Spatial Data Science\nCore principles and applications of spatial data science as I understand them.\n\n\n GeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
   },
   {
     "objectID": "resources/index.html#time-series-analysis",
     "href": "resources/index.html#time-series-analysis",
     "title": "Resources",
     "section": "Time Series Analysis",
-    "text": "Time Series Analysis\n\n\n ### Time Series Analysis with Python A comprehensive handbook for time series analysis in the Python ecosystem.\n\n\n ### Forecasting: Principles & Practice The fundamental textbook for forecasting principles using Python and R.\n\n\nOverview of Time Series Packages\nA curated list and overview of time series analysis packages in Python.\n\n\nStatsmodels — Time Series\nOfficial documentation for statistical modeling and time series in Python.\n\n\nTensorFlow — Time Series\nGuide to building time series forecasting models with TensorFlow."
+    "text": "Time Series Analysis\n\n\n ### Time Series Analysis with Python A comprehensive handbook for time series analysis in the Python ecosystem.\n\n\n ### Forecasting: Principles & Practice The fundamental textbook for forecasting principles using Python and R.\n\n\n Overview of Time Series Packages\nA curated list and overview of time series analysis packages in Python.\n\n\n Statsmodels — Time Series\nOfficial documentation for statistical modeling and time series in Python.\n\n\n TensorFlow — Time Series\nGuide to building time series forecasting models with TensorFlow."
   },
   {
     "objectID": "resources/index.html#ahp-mcdm-python",
     "href": "resources/index.html#ahp-mcdm-python",
     "title": "Resources",
     "section": "AHP & MCDM (Python)",
-    "text": "AHP & MCDM (Python)\n\n\npyDecision — MCDM Tools\nA Python library with 86+ Multi-Criteria Decision Making (MCDM) tools.\n\n\nahpy — Analytic Hierarchy Process\nPython implementation of the Analytic Hierarchy Process (AHP).\n\n\nMCDM Implementations\nA GitHub repository containing various MCDM algorithm implementations.\n\n\nTutorial: MCDM in Python\nA practical tutorial on performing multi-criteria decision analysis."
+    "text": "AHP & MCDM (Python)\n\n\n pyDecision — MCDM Tools\nA Python library with 86+ Multi-Criteria Decision Making (MCDM) tools.\n\n\n ahpy — Analytic Hierarchy Process\nPython implementation of the Analytic Hierarchy Process (AHP).\n\n\n MCDM Implementations\nA GitHub repository containing various MCDM algorithm implementations.\n\n\n Tutorial: MCDM in Python\nA practical tutorial on performing multi-criteria decision analysis."
   },
   {
     "objectID": "resources/index.html#machine-learning",
@@ -648,21 +641,21 @@
     "href": "resources/index.html#deep-learning",
     "title": "Resources",
     "section": "Deep Learning",
-    "text": "Deep Learning\n\n\nfast.ai — Practical Deep Learning\nOne of the best practical courses for applying Deep Learning to real problems.\n\n\nTensorFlow — Tutorials\nOfficial learning path for building and deploying models with TensorFlow.\n\n\nPyTorch Tutorials\nComprehensive tutorials for the PyTorch deep learning framework.\n\n\nKeras — Guide\nDocumentation and tutorials for high-level deep learning with Keras."
+    "text": "Deep Learning\n\n\n fast.ai — Practical Deep Learning\nOne of the best practical courses for applying Deep Learning to real problems.\n\n\n TensorFlow — Tutorials\nOfficial learning path for building and deploying models with TensorFlow.\n\n\n PyTorch Tutorials\nComprehensive tutorials for the PyTorch deep learning framework.\n\n\n Keras — Guide\nDocumentation and tutorials for high-level deep learning with Keras."
   },
   {
     "objectID": "resources/index.html#learning-resources",
     "href": "resources/index.html#learning-resources",
     "title": "Resources",
     "section": "Learning Resources",
-    "text": "Learning Resources\n\n\nCoursera\nAccess to specialized geospatial and data science courses from top universities.\n\n\nUdemy\nPractical, hands-on courses for learning Python and GIS tools.\n\n\nKaggle Learn\nFree, practical micro-courses on data science and machine learning.\n\n\nOfficial Python Tutorial\nThe authoritative guide I recommend for mastering the Python language.\n\n\n ### Zero to Pandas A practical introduction to data analysis with Python and Pandas.\n\n\nSoftware Carpentry: Python\nA foundational tutorial for geoscientists new to Python."
+    "text": "Learning Resources\n\n\n Coursera\nAccess to specialized geospatial and data science courses from top universities.\n\n\n Udemy\nPractical, hands-on courses for learning Python and GIS tools.\n\n\n Kaggle Learn\nFree, practical micro-courses on data science and machine learning.\n\n\n Official Python Tutorial\nThe authoritative guide I recommend for mastering the Python language.\n\n\n ### Zero to Pandas A practical introduction to data analysis with Python and Pandas.\n\n\n Software Carpentry: Python\nA foundational tutorial for geoscientists new to Python."
   },
   {
     "objectID": "resources/index.html#github-repositories",
     "href": "resources/index.html#github-repositories",
     "title": "Resources",
     "section": "GitHub Repositories",
-    "text": "GitHub Repositories\n\n\n30 Days of Python\nA step-by-step challenge to learn Python in 30 days.\n\n\nGeospatial Data Science\nA collection of notebooks for geospatial data science.\n\n\nGeoPandas Tutorial\nExcellent tutorial repository for mastering GeoPandas.\n\n\nApplied Geospatial DS\nCode repository for applied geospatial data science workflows.\n\n\nBrown GeoData GEE\nEarth Engine data processing scripts from Brown University.\n\n\nGEE Python + ML\nIntegrating GEE with Python and Machine Learning."
+    "text": "GitHub Repositories\n\n\n 30 Days of Python\nA step-by-step challenge to learn Python in 30 days.\n\n\n Geospatial Data Science\nA collection of notebooks for geospatial data science.\n\n\n GeoPandas Tutorial\nExcellent tutorial repository for mastering GeoPandas.\n\n\n Applied Geospatial DS\nCode repository for applied geospatial data science workflows.\n\n\n Brown GeoData GEE\nEarth Engine data processing scripts from Brown University.\n\n\n GEE Python + ML\nIntegrating GEE with Python and Machine Learning."
   },
   {
     "objectID": "resources/index.html#extra",
