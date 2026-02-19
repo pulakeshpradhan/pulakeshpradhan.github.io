@@ -9,6 +9,49 @@ include-in-header:
     <script src="assets/js/system-init.js"></script>
 ---
 
+## Selected Books
+
+::: {.software-grid}
+
+::: {.resource-card}
+[![](https://e-sensing.github.io/sitsbook/images/cover_sits_book_quarto.png){.resource-img}](https://e-sensing.github.io/sitsbook/){.stretched-link}
+### [SITS: Analysis on EO Data Cubes](https://e-sensing.github.io/sitsbook/)
+Satellite Image Time Series analysis on Earth Observation data cubes.
+:::
+
+::: {.resource-card}
+[![](https://spatial-analytics.readthedocs.io/en/latest/_static/Aalto-logo.png){.resource-img}](https://spatial-analytics.readthedocs.io/en/latest/index.html){.stretched-link}
+### [Spatial Analytics](https://spatial-analytics.readthedocs.io/en/latest/index.html)
+Advanced spatial analytics and geocomputation with Python.
+:::
+
+::: {.resource-card}
+[![](https://geocompx.org/static/img/book_cover_py.png){.resource-img}](https://py.geocompx.org/){.stretched-link}
+### [Python for Geocomputation](https://py.geocompx.org/)
+The Python version of the famous Geocomputation with R book.
+:::
+
+::: {.resource-card}
+[![](https://pygis.io/_static/pygis.png){.resource-img}](https://pygis.io/docs/a_intro.html#){.stretched-link}
+### [PyGIS Docs](https://pygis.io/docs/a_intro.html#)
+Comprehensive documentation for Python-based GIS workflows.
+:::
+
+::: {.resource-card}
+[![](https://opengeohub.github.io/spatial-prediction-eml/img/Fig_space_time_cube.png){.resource-img}](https://opengeohub.github.io/spatial-prediction-eml/index.html){.stretched-link}
+### [Spatial Prediction using EML](https://opengeohub.github.io/spatial-prediction-eml/index.html)
+Spatial and spatiotemporal interpolation using Ensemble Machine Learning.
+:::
+
+::: {.resource-card}
+[![](https://opengeohub.github.io/spatial-sampling-ml/img/Fig_PCA_components_Ebergotzen.png){.resource-img}](https://opengeohub.github.io/spatial-sampling-ml/index.html){.stretched-link}
+### [Spatial Sampling for ML](https://opengeohub.github.io/spatial-sampling-ml/index.html)
+Techniques for effective spatial sampling in machine learning projects.
+:::
+
+:::
+
+
 ## Introduction to Python Programming
 
 ::: {.software-grid}
@@ -19,11 +62,6 @@ include-in-header:
 Cloud-native workflows I follow for environmental justice research using R and Python.
 :::
 
-::: {.resource-card}
-[![](https://e-sensing.github.io/sitsbook/images/cover_sits_book_quarto.png){.resource-img}](https://e-sensing.github.io/sitsbook/){.stretched-link}
-### [SITS: Analysis on EO Data Cubes](https://e-sensing.github.io/sitsbook/)
-Satellite Image Time Series analysis on Earth Observation data cubes.
-:::
 
 ::: {.resource-card}
 ### [Python Programming (Gyansetu)](https://gyansetu-python.gitbook.io/python-programming){.stretched-link}
@@ -60,11 +98,6 @@ IIT Madras course materials for programming and data structures in Python.
 The fundamental book for learning Google Earth Engine (EEFA Book).
 :::
 
-::: {.resource-card}
-[![](https://spatial-analytics.readthedocs.io/en/latest/_static/Aalto-logo.png){.resource-img}](https://spatial-analytics.readthedocs.io/en/latest/index.html){.stretched-link}
-### [Spatial Analytics](https://spatial-analytics.readthedocs.io/en/latest/index.html)
-Advanced spatial analytics and geocomputation with Python.
-:::
 
 ::: {.resource-card}
 [![](https://geostatsguy.github.io/GeostatsPyDemos_Book/_static/AppliedGeostats.jpg){.resource-img}](https://geostatsguy.github.io/GeostatsPyDemos_Book/intro.html){.stretched-link}
@@ -72,11 +105,6 @@ Advanced spatial analytics and geocomputation with Python.
 A hands-on guide to applied geostatistics with Python implementations.
 :::
 
-::: {.resource-card}
-[![](https://geocompx.org/static/img/book_cover_py.png){.resource-img}](https://py.geocompx.org/){.stretched-link}
-### [Python for Geocomputation](https://py.geocompx.org/)
-The Python version of the famous Geocomputation with R book.
-:::
 
 ::: {.resource-card}
 [![](https://images.routledge.com/common/jackets/crclarge/978103244/9781032445953.jpg){.resource-img}](https://geographicdata.science/book/intro.html){.stretched-link}
@@ -84,11 +112,6 @@ The Python version of the famous Geocomputation with R book.
 A modern approach to data science with geographic information.
 :::
 
-::: {.resource-card}
-[![](https://pygis.io/_static/pygis.png){.resource-img}](https://pygis.io/docs/a_intro.html#){.stretched-link}
-### [PyGIS Docs](https://pygis.io/docs/a_intro.html#)
-Comprehensive documentation for Python-based GIS workflows.
-:::
 
 ::: {.resource-card}
 [![](https://autogis-site.readthedocs.io/en/latest/_static/AutoGIS.PNG){.resource-img}](https://autogis-site.readthedocs.io/en/latest/#){.stretched-link}
@@ -114,7 +137,7 @@ Practical workshop materials for geospatial analysis with Python.
 ::: {.software-grid}
 
 ::: {.resource-card}
-### [ML for Remote Sensing (ICLR 2023)](books/ml-remote-sensing.qmd){.stretched-link}
+### [ML for Remote Sensing (ICLR 2023)](books/ml-remote-sensing.qmd){.stretched-link target="_blank"}
 Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.
 :::
 
@@ -124,11 +147,6 @@ Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2
 Integrating machine learning workflows into geospatial analysis.
 :::
 
-::: {.resource-card}
-[![](https://opengeohub.github.io/spatial-prediction-eml/img/Fig_space_time_cube.png){.resource-img}](https://opengeohub.github.io/spatial-prediction-eml/index.html){.stretched-link}
-### [Spatial Prediction using EML](https://opengeohub.github.io/spatial-prediction-eml/index.html)
-Spatial and spatiotemporal interpolation using Ensemble Machine Learning.
-:::
 
 ::: {.resource-card}
 [![](https://geo-smart.github.io/mlgeo-book/_static/GeoSMART_logo.svg){.resource-img}](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html){.stretched-link}
@@ -148,11 +166,6 @@ A hands-on guide with code for applied machine learning.
 Advanced techniques for geospatial data science and analytics.
 :::
 
-::: {.resource-card}
-[![](https://opengeohub.github.io/spatial-sampling-ml/img/Fig_PCA_components_Ebergotzen.png){.resource-img}](https://opengeohub.github.io/spatial-sampling-ml/index.html){.stretched-link}
-### [Spatial Sampling for ML](https://opengeohub.github.io/spatial-sampling-ml/index.html)
-Techniques for effective spatial sampling in machine learning projects.
-:::
 
 :::
 
