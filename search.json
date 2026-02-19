@@ -28,249 +28,186 @@
     "text": "Resource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
   },
   {
-    "objectID": "innovations.html",
-    "href": "innovations.html",
-    "title": "Innovations",
+    "objectID": "social.html",
+    "href": "social.html",
+    "title": "Social Updates",
     "section": "",
-    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
+    "text": "Google Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\n\n\n“Quaternary Science As Societal Services” Lucknow, India | January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Demographic Transition in Western India” Goa Business School, Goa University | March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\n\nNewly published blog post exploring the rich history and institutional growth of Geography in India since 1926. Includes a comprehensive directory of 40+ societies.\nFull list of Establishment Years & Host Institutions included.\n\nRead Blog Post\n\n\n\n\n\n\n\n\n\nA comprehensive list of leading geographical associations and societies across India, fostering academic excellence and spatial research.\n🌐 Official Web Portals: * National: NAGI (New Delhi) | IGS (Chennai) | GSI (Kolkata) | NGSI (Varanasi) * Specialized: IIG (Pune) | IGI (Geomorphologists) | ILEE (Ecology) | ISSS (Spatial Sci) * Regional: AGBJ (Bihar/JH) | RGA (Rajasthan) | NEIGS (NE India) | UBBP (North India) * Local: Konkan Geographers | GAG (Goa) | UGIT (Bengaluru) | APGI (Chandigarh) * Foundations: Practicing Geographers | MBP (Pune) | RSAI (India)\n\nView Full List (PDF/Image)"
   },
   {
-    "objectID": "innovations.html#earth-engine-apps",
-    "href": "innovations.html#earth-engine-apps",
-    "title": "Innovations",
-    "section": "🌍 Earth Engine Apps",
-    "text": "🌍 Earth Engine Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
-  },
-  {
-    "objectID": "innovations.html#python-packages",
-    "href": "innovations.html#python-packages",
-    "title": "Innovations",
-    "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
-  },
-  {
-    "objectID": "innovations.html#r-library",
-    "href": "innovations.html#r-library",
-    "title": "Innovations",
-    "section": "📚 R Library",
-    "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
-  },
-  {
-    "objectID": "innovations.html#extensions-tools",
-    "href": "innovations.html#extensions-tools",
-    "title": "Innovations",
-    "section": "🛠️ Extensions & Tools",
-    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
+    "objectID": "social.html#social-feed",
+    "href": "social.html#social-feed",
+    "title": "Social Updates",
     "section": "",
-    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
+    "text": "Google Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\n\n\n“Quaternary Science As Societal Services” Lucknow, India | January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Demographic Transition in Western India” Goa Business School, Goa University | March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\n\nNewly published blog post exploring the rich history and institutional growth of Geography in India since 1926. Includes a comprehensive directory of 40+ societies.\nFull list of Establishment Years & Host Institutions included.\n\nRead Blog Post\n\n\n\n\n\n\n\n\n\nA comprehensive list of leading geographical associations and societies across India, fostering academic excellence and spatial research.\n🌐 Official Web Portals: * National: NAGI (New Delhi) | IGS (Chennai) | GSI (Kolkata) | NGSI (Varanasi) * Specialized: IIG (Pune) | IGI (Geomorphologists) | ILEE (Ecology) | ISSS (Spatial Sci) * Regional: AGBJ (Bihar/JH) | RGA (Rajasthan) | NEIGS (NE India) | UBBP (North India) * Local: Konkan Geographers | GAG (Goa) | UGIT (Bengaluru) | APGI (Chandigarh) * Foundations: Practicing Geographers | MBP (Pune) | RSAI (India)\n\nView Full List (PDF/Image)"
   },
   {
-    "objectID": "courses.html#geospatial-programming",
-    "href": "courses.html#geospatial-programming",
-    "title": "Courses",
-    "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#gis-spatial-reference",
-    "href": "courses.html#gis-spatial-reference",
-    "title": "Courses",
-    "section": "🚀 GIS & Spatial Reference",
-    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#academic-writing-tools",
-    "href": "courses.html#academic-writing-tools",
-    "title": "Courses",
-    "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
-  },
-  {
-    "objectID": "events/mscbu-workshop-sep-2025.html",
-    "href": "events/mscbu-workshop-sep-2025.html",
-    "title": "Basics of Google Earth Engine & LULC Classification",
+    "objectID": "events/gdg-nairobi.html",
+    "href": "events/gdg-nairobi.html",
+    "title": "GDG Earth Engine Nairobi",
     "section": "",
-    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+    "text": "Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.\n View Abstract  Slides"
   },
   {
-    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "Event Overview",
-    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html",
-    "href": "events/gee-workshop-feb-2026.html",
-    "title": "Basics of Google Earth Engine",
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
     "section": "",
-    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
   },
   {
-    "objectID": "events/gee-workshop-feb-2026.html#schedule",
-    "href": "events/gee-workshop-feb-2026.html#schedule",
-    "title": "Basics of Google Earth Engine",
-    "section": "Schedule",
-    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+    "objectID": "cv.html#contact-information",
+    "href": "cv.html#contact-information",
+    "title": "Curriculum Vitae",
+    "section": "📬 Contact Information",
+    "text": "📬 Contact Information\n\n pulakesh.mid@gmail.com |  +91 8617812861 |  Ravenshaw University, Odisha, India\n\n\n LinkedIn |  Google Scholar |  GitHub"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "🎓 Education",
+    "text": "🎓 Education\nPhD Scholar in Geography | Ravenshaw University\nSpecialization: GIS, Remote Sensing, and Google Earth Engine\nMPhil in Geography | Ravenshaw University\nUGC-SRF (Senior Research Fellow)"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "🛠️ Technical Skills",
+    "text": "🛠️ Technical Skills\nProgramming Languages: Python, R, JavaScript, LaTeX GIS & Remote Sensing: Google Earth Engine, ArcGIS Pro, QGIS\nData Science: Machine Learning, Phenology Analysis\nTools & Workflow: Git/GitHub, Chrome Extension Development"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "💼 Professional Experience",
+    "text": "💼 Professional Experience\nResource Person | Maharaja Sriram Chandra Bhanja Deo University\nSept. 2025\n- Conducted workshops on GEE and spatial data science.\nResource Person | Centurion University\nMarch 2025\n- Facilitated training sessions for PG students on geospatial technologies.\nYouTube Creator | Spatial Geography\n- Developed comprehensive courses on Google Earth Engine, Python, and R for a global audience."
+  },
+  {
+    "objectID": "cv.html#selected-publications",
+    "href": "cv.html#selected-publications",
+    "title": "Curriculum Vitae",
+    "section": "📄 Selected Publications",
+    "text": "📄 Selected Publications\nPradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine.” In Modern Cartography Series. DOI: 10.1016/b978-0-443-23890-1.00011-6"
+  },
+  {
+    "objectID": "cv.html#honors-awards",
+    "href": "cv.html#honors-awards",
+    "title": "Curriculum Vitae",
+    "section": "🏆 Honors & Awards",
+    "text": "🏆 Honors & Awards\n\nSenior Research Fellowship (UGC-SRF)\nJunior Research Fellowship (UGC-JRF)\nAssociation of Indian Universities Eastern Zone Runnerup 2023"
+  },
+  {
+    "objectID": "cv.html#professional-memberships",
+    "href": "cv.html#professional-memberships",
+    "title": "Curriculum Vitae",
+    "section": "🤝 Professional Memberships",
+    "text": "🤝 Professional Memberships\n\nLife Member, National Association of Geographers, India (NAGI) | Oct. 2025 - Present\n\n\n\n Download Full CV (PDF)"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Engagements",
     "section": "",
-    "text": "Journal Article Placeholder\n\n\n\n\n\n\n\nPradhan, P. (Year)\n\n\nJournal Name\n\n\nThis is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.\n\n\n  Download    DOI"
+    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
   },
   {
-    "objectID": "publications.html#journal-articles",
-    "href": "publications.html#journal-articles",
-    "title": "Publications",
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events & Engagements",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html#past-seminars-workshops",
+    "href": "events.html#past-seminars-workshops",
+    "title": "Events & Engagements",
+    "section": "🏛️ Past Seminars & Workshops",
+    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine Nairobi\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
+  },
+  {
+    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
+    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
+    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
     "section": "",
-    "text": "Journal Article Placeholder\n\n\n\n\n\n\n\nPradhan, P. (Year)\n\n\nJournal Name\n\n\nThis is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.\n\n\n  Download    DOI"
+    "text": "In the modern geospatial landscape, Google Earth Engine (GEE) stands as a colossus. Its ability to process petabytes of satellite imagery in seconds has not just revolutionized remote sensing; it has fundamentally altered how we think about planetary-scale analysis. For many students and researchers, “Remote Sensing” has become synonymous with “typing JavaScript into the GEE Code Editor.”\nHowever, this convenience comes with a hidden cost. As powerful as GEE is, it remains a proprietary tool owned by a tech giant. This introduces a critical vulnerability: the risk of the “Walled Garden.”"
   },
   {
-    "objectID": "publications.html#book-chapters",
-    "href": "publications.html#book-chapters",
-    "title": "Publications",
-    "section": "📚 Book Chapters",
-    "text": "📚 Book Chapters\n\n\n\nApplication of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine\n\n\n\n\n\n\n\nPradhan, P., Bajpai, R., & Patra, S. (2025)\n\n\nIn Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier\n\n\nThis research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.\n\n\n  Download    DOI \n\n\n\n\n\n\nAgricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal\n\n\n\n\n\n\n\nPradhan, P., & Patra, S. (2024)\n\n\nIn Modern Cartography Series, Elsevier\n\n\nThis study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, I analyze spatiotemporal drought patterns and their impact on local agriculture.\n\n\n  Download    DOI"
+    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#the-concern-googles-proprietary-tool-paywall-risk",
+    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#the-concern-googles-proprietary-tool-paywall-risk",
+    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
+    "section": "⚠️ The Concern: Google’s Proprietary Tool & Paywall Risk",
+    "text": "⚠️ The Concern: Google’s Proprietary Tool & Paywall Risk\nThe concern is simple: Google Earth Engine is a proprietary product. Unlike open-source software, its future is entirely dictated by corporate strategy, not community consensus.\n\nThe “Paywall Risk”\nHistory is littered with Google products that started free and later became paid or were discontinued (Google Reader, the shift in Google Maps API pricing, Google Photos storage limits). While GEE is free for research now, there is no guarantee it will remain so forever. A sudden shift to a paywall model could leave researchers and students stranded, with their code locked behind a subscription they cannot afford.\n\n\nThe “Walled Garden” Problem\nWhen you build your entire workflow in GEE, you are building inside a rented house. * Vendor Lock-in: Your code (GEE JavaScript) is not easily portable. You cannot simply run a GEE script on your local machine or another cloud provider without a complete rewrite. * Black Box Algorithms: While we trust Google’s implementations, the underlying code for many algorithms is not visible. Science demands transparency, and “trust us” is not a scientific standard.\n\n\n\nVendor Lock-in: Relying solely on proprietary platforms risks hitting invisible walls—whether they be quotas, costs, or terms of service.\n\n\n\n\n\n\n\n\nWarningKey Risks of Sole Reliance on GEE\n\n\n\n\nSustainability: If Google changes the Terms of Service, your project could die overnight.\nReproducibility: If a specific GEE algorithm changes under the hood, your results might change without you knowing why.\nCost: Commercial use is already paid; academic use is subsidized by Google’s goodwill."
   },
   {
-    "objectID": "publications.html#presentations",
-    "href": "publications.html#presentations",
-    "title": "Publications",
-    "section": "🎤 Presentations",
-    "text": "🎤 Presentations\n\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nGDG for Earth Engine Nairobi (Virtual)\n\n\nA demonstration of integrating Large Language Models (LLMs) with geospatial platforms. This workshop showcases how a Gemini-powered AI assistant can streamline complex GEE coding tasks for drought monitoring, making cloud-based remote sensing more accessible to researchers.\n\n\n  Download    DOI \n\n\n\n\n:::"
+    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#we-cannot-ignore-massive-potential",
+    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#we-cannot-ignore-massive-potential",
+    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
+    "section": "🚀 We Cannot Ignore Massive Potential",
+    "text": "🚀 We Cannot Ignore Massive Potential\nHaving said that, we cannot just ignore GEE’s massive potential. It solves the Data Gravity problem—instead of downloading petabytes of data to your computer, you send your code to the data.\nFor large-scale, server-based analysis, GEE is unrivaled: * Global Scale: Computing Normalized Difference Vegetation Index (NDVI) for the entire planet over 20 years takes minutes in GEE, but would take months on a local workstation. * Instant Access: The multi-petabyte catalog of Landsat, Sentinel, and MODIS data is instantly available without downloading a single file.\nStartups and researchers leverage this for rapid prototyping and global monitoring systems that would otherwise be impossible. To ignore GEE is to ignore a superpower."
   },
   {
-    "objectID": "publications.html#posters",
-    "href": "publications.html#posters",
-    "title": "Publications",
-    "section": "🖼️ Posters",
-    "text": "🖼️ Posters\n\n\n\nNear Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images\n\n\n\n\n\nUnable to display PDF. Download here.\n\n\n\n\n\nPradhan, P., & Bajpai, R. (2023)\n\n\nOdisha Research Conclave (ORC-2023)\n\n\nThis poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.\n\n\n  Download PDF    Details \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
+    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#balancing-is-the-smartest-way",
+    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#balancing-is-the-smartest-way",
+    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
+    "section": "⚖️ Balancing is the Smartest Way",
+    "text": "⚖️ Balancing is the Smartest Way\nSo, what is the solution? It is not to abandon GEE, but to balance it. We must give more focus to Open Source Technology.\nThe smartest geospatial workflow is a Hybrid Approach: 1. Use GEE for what it does best (Heavy Lifting). 2. Use Open Source (Python/R) for what it does best (Analysis, Statistics, Visualization, and Freedom).\n\n\n\nThe Sustainable Pipeline: Leverage the cloud for what it does best (heavy lifting) and local tools for what they do best (precision analysis).\n\n\n\nThe Hybrid Workflow in Practice\n\n\n\n\n\n\n\n\nStage\nTool\nAction\n\n\n\n\n1. Ingestion & Pre-processing\nGoogle Earth Engine\nFilter collections, cloud masking, temporal compositing (e.g., median annual composites).\n\n\n2. Export\nGEE to Drive/Cloud\nExport only the results (the processed bands or indices) as manageable GeoTIFFs or CSVs.\n\n\n3. Analysis & Modeling\nPython / R\nPerform deep statistical analysis, machine learning (Scikit-Learn, PyTorch), or complex geostatistics.\n\n\n4. Visualization\nPython (Matplotlib) / R (ggplot2)\nCreate publication-quality maps and charts that you fully own and control."
   },
   {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "",
-    "text": "Geography as an academic discipline in India has seen a remarkable evolution, transitioning from a colonial descriptive tool to a high-tech spatial science. Central to this journey has been the birth and growth of various geographical organizations and societies. These bodies have not only provided a platform for researchers but have also shaped the curriculum and policy advocacy for the discipline (National Association of Geographers, India [NAGI], 2024; Shodhganga, 2020)."
+    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#importance-of-open-source-technology-python-and-r",
+    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#importance-of-open-source-technology-python-and-r",
+    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
+    "section": "🐍 Importance of Open Source Technology: Python and R",
+    "text": "🐍 Importance of Open Source Technology: Python and R\nOpen source technologies are the bedrock of scientific reproducibility. When you write code in Python or R, you use libraries built by the community, for the community. You own the stack.\n\n\n\nOpen Ecosystems: Python and R provide an infinite playground for innovation, free from corporate constraints.\n\n\n\nWhy Focus on Open Source?\n\nTransparency: You can inspect the code of every library you use (pandas, sf). You know exactly what the math is doing.\nPortability: Python code runs on your laptop, on AWS, on Azure, or on a supercomputer. You are not tied to Google.\nCommunity: The geospatial community in Python and R is vibrant and innovative.\n\nPython: The powerhouse of modern data science. Libraries like geopandas, rasterio, xarray, and the Pangeo ecosystem allow for scalable analyses that rival GEE but on open infrastructure.\nR: The gold standard for statistics. Packages like sf, terra, and tmap make spatial analysis intuitive and statistically rigorous.\n\n\n\n\n\n\n\n\nTipThe Future is Open\n\n\n\nBy mastering Python and R, you future-proof your career. Tools may come and go (remember ArcView 3?), but the concepts and the open-source languages remain relevant for decades."
   },
   {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "The Early Foundations (1920s – 1940s)",
-    "text": "The Early Foundations (1920s – 1940s)\nThe formal institutionalization of Geography in India began in the early 1920s. The Aligarh Muslim University (AMU) Department of Geography stands as a primary pioneer, established as an independent undergraduate department in 1924 (Aligarh Muslim University, n.d.). Led by Major E. W. Dann (an Oxford graduate and first chairman), the department was the first of its kind in the Indian subcontinent and was later dubbed the “Mecca of Geography” by British geographers (Wikipedia, 2024).\nSoon after, the Indian Geographical Society (IGS) was established in 1926 in Chennai (as the Madras Geographical Association), holding the distinction of being the oldest registered society (Indian Geographical Society, 2024). Founded by Prof. N. Subrahmanyam, it paved the way for professional geographical discourse in South Asia (University of Madras, 2023)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "The Growth of National & Specialized Bodies (1960s – 1980s)",
-    "text": "The Growth of National & Specialized Bodies (1960s – 1980s)\nAs the discipline matured, the need for a national umbrella organization led to the establishment of the National Association of Geographers, India (NAGI) in 1978 (NAGI, 2024). Based at the Delhi School of Economics, NAGI has since been the primary coordinator for the annual Indian Geography Congress.\nThis period also saw the rise of specialized societies: * Indian Society of Remote Sensing (ISRS) (1969): Bridging geography with space technology (Indian Society of Remote Sensing, 2025). * Association of Population Geographers of India (1978): Focusing on the demographic complexities of India (Association of Population Geographers of India, 2023). * Institute of Indian Geographers (IIG), Pune (1979): Promoting rigorous scientific research across all sub-fields (Institute of Indian Geographers, 2024)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Institutional Directory of Geography in India",
-    "text": "Institutional Directory of Geography in India\nThe following directory outlines the historical and contemporary geographical associations in India, categorized by their establishment years and current executive leadership.\n\n\n\nAssociation / Society\nEstd.\nHost Institution / Region\nCurrent Representative(s)\n\n\n\n\nAligarh Geographical Society\n1924*\nAMU, Aligarh\nProf. Ateeque Ahmed\n\n\nIGS (Chennai)\n1926\nUniversity of Madras\nProf. N. Sivagnanam (President), Prof. R. Jaganathan (Gen Secy)\n\n\nGSI (Kolkata)\n1933\nUniversity of Calcutta\nSmt. Suprova Ray (President), Prof. Apurba Rabi Ghosh (Hony. Secy)\n\n\nAllahabad Geographical Society\n1937\nAllahabad University\nProf. Manorama Sinha\n\n\nNGSI (Varanasi)\n1946\nBHU, Varanasi\nProfessor V. N. Sharma (Hony. Secretary)\n\n\nDeccan Geographical Society\n1962\nSP Pune University\nProf. B. C. Vaidya (Executive)\n\n\nAGTI Trust\n1963\nChennai\nDr. Saraswathi Ragunathan\n\n\nUttar Bharat Bhoogol Parishad\n1965\nGorakhpur\nProf. V. K. Srivatsava\n\n\nRGA (Rajasthan)\n1965\nBhilwara\nDr. S. S. Bhat\n\n\nNEIGS (Guwahati)\n1968\nGauhati University\nProf. Abani K. Bhagabati & Prof. Bimal K. Kar\n\n\nAssociation of Bengal Geographers\n1970*\nBurdwan University\nProf. N. C. Jana\n\n\nHimalayan Samiksha Parishad\n1976\nKolkata\nProf. Sunando Banarjee\n\n\nNAGI (National Association)\n1978\nDelhi School of Economics\nProf. Salahuddin Qureshi (President), Prof. A K Saha (Secy. General)\n\n\nAPGI (Chandigarh)\n1978\nPanjab University\nProf. Krishna Mohan (President), Dr. Gaurav Kalotra (Secretary)\n\n\nIIG (Pune)\n1979\nPune University\nProf. D. K. Nayak (President), Prof. Ravindra G. Jaybhaye (Secy General)\n\n\nILEE (Kolkata)\n1983\nKolkata\nProf. L. N. Satpati (Director)\n\n\nMBP (Maharashtra)\n1984\nPune\nProf. Praveen Saptarshi\n\n\nIGI (Geomorphologists)\n1988\nUniversity of Allahabad\nProf. Sunil Kumar De (President)\n\n\nISG (Geomatics)\n1993\nISRO-SAC, Ahmedabad\nExecutive Council\n\n\nAssociation of Punjab Geographers\n1998\nPatiala\nProf. H. S. Mangat\n\n\nAGBJ (Bihar/JH)\n1999\nPatna University\nProf. Devender Prasad Singh\n\n\nUGIT (Bengaluru)\n2004\nBangalore University\nProf. Ashok Hanjagi\n\n\nGAG (Goa)\n2007\nGoa\nProf. Prabirkumar Rath\n\n\nISSS (Spatial Scientists)\n2010\nKolkata\nProf. Ashis Sarkar\n\n\nKonkan Geographers Association\n2010\nSindhudurg\nProf. R.B. Patil\n\n\n\n*Years marked with asterisks denote early informal society formations or departmental origins."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Prominent Geography Journals in India",
-    "text": "Prominent Geography Journals in India\nScholarship in Indian geography is largely disseminated through peer-reviewed journals published by the various societies. These journals serve as the primary repositories for spatial data and regional analysis in the subcontinent (Shodhganga, 2020).\n\n\n\nJournal Name\nFrequency\nPublishing Body\nIndexing / Status\n\n\n\n\nAnnals of the NAGI\nBi-annual\nNAGI\nUGC-CARE Listed\n\n\nTransactions of the IIG\nBi-annual\nIIG Pune\nScopus Indexed\n\n\nIndian Geographical Journal\nBi-annual\nIGS Chennai\nUGC-CARE Listed\n\n\nGeographical Review of India\nQuarterly\nGSI Kolkata\nPeer-reviewed\n\n\nNational Geographical Journal of India\nQuarterly\nNGSI Varanasi\nPeer-reviewed\n\n\nThe Deccan Geographer\nBi-annual\nDeccan Geog. Society\nUGC-CARE Listed\n\n\nPopulation Geography\nBi-annual\nAPGI Chandigarh\nUGC-CARE Listed\n\n\nJournal of Indian Geomorphology\nAnnual\nIGI Allahabad\nUGC-CARE Listed\n\n\nUttar Bharat Bhoogol Patrika\nBi-annual\nUBBP Gorakhpur\nPeer-reviewed\n\n\nThe Konkan Geographer\nBi-annual\nKonkan Geog. Assoc.\nPeer-reviewed"
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Modern Era: Geospatial Expansion & GIS",
-    "text": "Modern Era: Geospatial Expansion & GIS\nIn the 21st century, organizations like the Association of Geospatial Industries (AGI) and Indian Society of Geomatics (ISG) have taken the lead in integrating satellite-based remote sensing, LiDAR, and GIS into the geographical framework (AGI, 2024; ISG, 2024). These organizations foster collaboration between the industry and academia, ensuring that Indian geographers remain at the forefront of the global spatial revolution.\nThe participation of Indian representatives in the Asian Geographical Association (est. 2018) further exemplifies the global reach of Indian geographical research (Asian Geographical Association, 2024)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Upcoming Geographical Events",
-    "text": "Upcoming Geographical Events\nMaintaining engagement with the academic community is central to the growth of the discipline. Key events scheduled for the upcoming sessions include:\n\nXXII INQUA Congress 2027 India\n\nDates: January 28 – February 3, 2027\nLocation: Lucknow, India\n\nWestern Regional Conference: IASP 2026\n\nDates: March 20-21, 2026\nHost: Goa Business School, Goa University"
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Recent Geographical Events",
-    "text": "Recent Geographical Events\nThe community has recently concluded several landmark scientific meetings:\n\n3rd Indian Quaternary Congress 2026: January 19-23, 2026.\n47th Indian Geography Congress (NAGI) 2025: University of Rajasthan, Jaipur (Nov 13-15, 2025).\n46th IIG Annual Meet & International Conference 2025: HNBGU, Uttarakhand (Oct 25-27, 2025)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
-    "title": "The Evolution of Geographical Organizations in India",
+    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#conclusion",
+    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#conclusion",
+    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
     "section": "Conclusion",
-    "text": "Conclusion\nFrom the local “Madras Geographical Association” of 1926 to the high-tech geospatial societies of today, geographical organizations in India have been the pillars of the discipline. They continue to play a crucial role in addressing national challenges—from urban planning and disaster management to climate change analysis—demonstrating that Geography is not just about mapping the world, but about understanding and improving it."
+    "text": "Conclusion\nThe concern regarding Google Earth Engine’s proprietary nature is valid. The risk of paywalls and vendor lock-in is real. However, its computational power is undeniably transformative.\nThe key is Balance. Do not let GEE become a “crutch” that limits your understanding of underlying geospatial concepts. Instead, treat it as one powerful tool in a larger toolbox. Prioritize learning open-source technologies like Python and R. They offer the freedom, flexibility, and transparency that true scientific inquiry demands.\nUse the Cloud for scale, but keep your feet on the Open Source ground."
   },
   {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
-    "title": "The Evolution of Geographical Organizations in India",
+    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#references",
+    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#references",
+    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
     "section": "References",
-    "text": "References\nAligarh Muslim University. (n.d.). Department of Geography: Our Heritage. https://www.amu.ac.in/department/geography\nAsian Geographical Association. (2024). Founding committee and member countries. http://asiageo.net\nAssociation of Geographers in Bihar and Jharkhand. (2024). Mission and executive council. http://agbj.org.in\nAssociation of Population Geographers of India. (2023). Executive body term 2023-2025. http://apgin.org\nDeccan Geographical Society. (2024). About the society and journal. http://dgsi.org.in\nGeographical Society of India. (2019). Founding principles and history. http://geographicalsocietyofindia.org.in\nGauhati University. (n.d.). History of the Department of Geography. https://gauhati.ac.in/department/geography\nIndian Geographical Society. (2024). History of IGS Chennai. http://igschennai.org\nIndian Society of Remote Sensing. (2025). About ISRS: History and objectives. https://isrsindia.in\nInstitute of Indian Geographers. (2024). Constitution and executive council 2024-25. https://iigeo.org\nMaharashtra Bhugolshastra Parishad. (2024). About us: Journey since 1984. http://mbpune.org.in\nNational Association of Geographers, India. (2024). Official lists: Executive committee 2024-25. https://sites.google.com/view/nagiorgin/home\nNational Geographical Society of India. (2024). Publications and secretary journals. http://ngsi.in\nRajasthan Geographical Association. (2024). History and regional impact. http://rga.ac.in\nShodhganga. (2020). Institutional framework for geography in India. http://inflibnet.ac.in\nUniversity of Madras. (2023). Department of Geography: Research & societies. https://unom.ac.in\nWikipedia contributors. (2024). Major E. W. Dann and the roots of Indian geography. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Department_of_Geography,_Aligarh_Muslim_University"
+    "text": "References\n\nGorelick, N., et al. (2017). “Google Earth Engine: Planetary-scale geospatial analysis for everyone.” Remote Sensing of Environment.\nPangeo Project. (2025). “A community platform for Big Data geoscience.” pangeo.io\nOpen Source Geospatial Foundation (OSGeo). “Empowering everyone with open source geospatial.” osgeo.org"
   },
   {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
     "section": "",
-    "text": "The geospatial landscape is undergoing a monumental shift. What once required specialized, heavy desktop software is now being executed with lines of elegant Python code. The integration of Machine Learning (ML), Deep Learning (DL), and Artificial Intelligence (AI) has transformed GIS from a mapping tool into a predictive and analytical powerhouse.\nIn this post, we explore the architecture of a modern geospatial workflow and why Python is at the heart of this revolution."
+    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
   },
   {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🧱 The Foundation: Python’s Geospatial Stack",
-    "text": "🧱 The Foundation: Python’s Geospatial Stack\nBefore we dive into AI, we must acknowledge the libraries that make Python a GIS titan. The “Geospatial Stack” allows us to treat spatial data as first-class citizens in the data science world.\n\nGeoPandas: Brings the power of pandas to vector data, allowing for complex spatial joins and geometric operations in seconds.\nXarray & Rasterio: The dynamic duo for raster data. rasterio handles the I/O of GeoTIFFs, while xarray provides a multi-dimensional platform for analyzing time-series satellite imagery (Data Cubes).\nShapely & PyProj: The engines under the hood for geometric manipulation and coordinate reference system (CRS) transformations."
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🧠 The Social Science Perspective: Understanding “Place”",
+    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
   },
   {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🤖 The Rise of Machine Learning (ML)",
-    "text": "🤖 The Rise of Machine Learning (ML)\nTraditional classification methods like Maximum Likelihood are being replaced by robust ML algorithms. Using Scikit-Learn, geographers can now implement:\n\nRandom Forests & SVM: For high-accuracy land cover classification.\nClustering (K-Means): For identifying socio-economic patterns or environmental zones without prior labeling.\nRegression Models: To predict environmental variables like Soil Organic Carbon or Urban Heat Island intensity.\n\nThe beauty of Python is that your spatial data (from GeoPandas) can be fed directly into these models with minimal translation."
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
+    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
   },
   {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision",
-    "text": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision\nWhere ML looks at pixel values, Deep Learning looks at patterns, textures, and context. With frameworks like PyTorch and TensorFlow, we are now performing:\n\nSemantic Segmentation: Identifying every single building or tree in high-resolution aerial imagery (e.g., using U-Net architectures).\nObject Detection: Automatically counting ships in harbors or identifying solar panels on rooftops.\nChange Detection: Using Siamese networks to detect subtle changes in urban sprawl or deforestation between two points in time.\n\nIntegrating DL into a geospatial workflow typically involves using libraries like torch-geo or bridging Google Earth Engine with AI models via Earth Engine’s AI Platform integration."
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🤝 The Convergence: Why We Need Both",
+    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
   },
   {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "✍️ The AI Revolution: LLMs in Geospatial Research",
-    "text": "✍️ The AI Revolution: LLMs in Geospatial Research\nThe most recent addition to our toolkit is the Large Language Model (LLM). AI is not just analyzing the pixels; it is helping us write the code to do so.\n\nAutomated Coding: Tools like the GEE AI Assistant (a Chrome extension I developed) leverage Gemini AI to help researchers generate complex scripts in seconds.\nNatural Language Queries: We are moving toward a future where you can ask, “Find all areas in Odisha that experienced more than 50% vegetation loss after the 2024 cyclone,” and the AI generates the processing pipeline.\nResearch Synthesis: AI helps in summarizing vast amounts of remote sensing literature, identifying gaps, and even formatting citations for academic journals."
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "�️ The Roadmap: Mastering Python for AI-Driven Research",
-    "text": "�️ The Roadmap: Mastering Python for AI-Driven Research\nTo transition from traditional GIS to AI-driven research, I recommend following this structured 7-step roadmap. This is the core curriculum I follow in my workflows:\n\n\n1. Python & Statistics\n\nCore Libraries: NumPy, Pandas\nConcepts: Probability, OOPs in Python, Statistics for Data Science\n\n\n\n2. Intro to Neural Networks (NN)\n\nArchitecture: Input Layer, Hidden Layer, Weights, Bias\nLogic: Activation Functions, The Perceptron Model, Multi-Layer (ANN)\n\n\n\n3. Preprocessing & Artificial Neural Networks (ANN)\n\nMechanics: Forward Propagation, Backward propagation, Loss functions\nOptimization: Adam Optimizer, Multi-Layer Perceptrons\n\n\n\n4. Convolutional Neural Networks (CNNs)\n\nGeospatial Power: Convolutional Nets for imagery\nFrameworks: Keras, Pooling layers for spatial reduction\n\n\n\n5. Transfer Learning\n\nPre-trained Models: VGG16, AlexNet, ResNet\nEcosystems: Hugging Face, Timm (PyTorch Image Models)\n\n\n\n6. Object Detection\n\nSOTA Models: YOLO (v8), RCNN, SSD\nSegmentation: Mask R-CNN for individual feature extraction\n\n\n\n7. Deployment & Serving\n\nFrom Code to App: Docker containers, Streamlit dashboards\nServing: Scaling Python scripts for production environments"
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "�🚀 Conclusion: The Hybrid Future",
-    "text": "�🚀 Conclusion: The Hybrid Future\nA modern geospatial workflow is no longer about choosing one tool. It is about orchestration.\nWe use Google Earth Engine for massive data preprocessing, Python for specialized ML/DL modeling, and AI to streamline the entire process. This “Modern Workflow” isn’t just faster—it’s more reproducible, more scalable, and significantly more powerful than anything we’ve seen before.\nThe era of the “Geospatial Data Scientist” has arrived. Are you ready?"
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
   },
   {
     "objectID": "gallery.html",
@@ -392,276 +329,339 @@
     "text": "The Evolution of Geographical Organizations in India\n\n\n\nHistory\n\nGeography\n\nInstitutional Growth\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\n\nPython\n\nMachine Learning\n\nDeep Learning\n\nAI\n\nGeospatial\n\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\n\n\nFeb 17, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nTheory\n\nGIS\n\nSocial Science\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\n\nCloud GIS\n\nGoogle Earth Engine\n\nOpen Source\n\nPython\n\nR\n\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R is the future of sustainable geospatial analysis.\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "",
-    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🧠 The Social Science Perspective: Understanding “Place”",
-    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
-    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🤝 The Convergence: Why We Need Both",
-    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "Conclusion",
-    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
-  },
-  {
-    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
-    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "",
-    "text": "In the modern geospatial landscape, Google Earth Engine (GEE) stands as a colossus. Its ability to process petabytes of satellite imagery in seconds has not just revolutionized remote sensing; it has fundamentally altered how we think about planetary-scale analysis. For many students and researchers, “Remote Sensing” has become synonymous with “typing JavaScript into the GEE Code Editor.”\nHowever, this convenience comes with a hidden cost. As powerful as GEE is, it remains a proprietary tool owned by a tech giant. This introduces a critical vulnerability: the risk of the “Walled Garden.”"
-  },
-  {
-    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#the-concern-googles-proprietary-tool-paywall-risk",
-    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#the-concern-googles-proprietary-tool-paywall-risk",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "⚠️ The Concern: Google’s Proprietary Tool & Paywall Risk",
-    "text": "⚠️ The Concern: Google’s Proprietary Tool & Paywall Risk\nThe concern is simple: Google Earth Engine is a proprietary product. Unlike open-source software, its future is entirely dictated by corporate strategy, not community consensus.\n\nThe “Paywall Risk”\nHistory is littered with Google products that started free and later became paid or were discontinued (Google Reader, the shift in Google Maps API pricing, Google Photos storage limits). While GEE is free for research now, there is no guarantee it will remain so forever. A sudden shift to a paywall model could leave researchers and students stranded, with their code locked behind a subscription they cannot afford.\n\n\nThe “Walled Garden” Problem\nWhen you build your entire workflow in GEE, you are building inside a rented house. * Vendor Lock-in: Your code (GEE JavaScript) is not easily portable. You cannot simply run a GEE script on your local machine or another cloud provider without a complete rewrite. * Black Box Algorithms: While we trust Google’s implementations, the underlying code for many algorithms is not visible. Science demands transparency, and “trust us” is not a scientific standard.\n\n\n\nVendor Lock-in: Relying solely on proprietary platforms risks hitting invisible walls—whether they be quotas, costs, or terms of service.\n\n\n\n\n\n\n\n\nWarningKey Risks of Sole Reliance on GEE\n\n\n\n\nSustainability: If Google changes the Terms of Service, your project could die overnight.\nReproducibility: If a specific GEE algorithm changes under the hood, your results might change without you knowing why.\nCost: Commercial use is already paid; academic use is subsidized by Google’s goodwill."
-  },
-  {
-    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#we-cannot-ignore-massive-potential",
-    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#we-cannot-ignore-massive-potential",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "🚀 We Cannot Ignore Massive Potential",
-    "text": "🚀 We Cannot Ignore Massive Potential\nHaving said that, we cannot just ignore GEE’s massive potential. It solves the Data Gravity problem—instead of downloading petabytes of data to your computer, you send your code to the data.\nFor large-scale, server-based analysis, GEE is unrivaled: * Global Scale: Computing Normalized Difference Vegetation Index (NDVI) for the entire planet over 20 years takes minutes in GEE, but would take months on a local workstation. * Instant Access: The multi-petabyte catalog of Landsat, Sentinel, and MODIS data is instantly available without downloading a single file.\nStartups and researchers leverage this for rapid prototyping and global monitoring systems that would otherwise be impossible. To ignore GEE is to ignore a superpower."
-  },
-  {
-    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#balancing-is-the-smartest-way",
-    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#balancing-is-the-smartest-way",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "⚖️ Balancing is the Smartest Way",
-    "text": "⚖️ Balancing is the Smartest Way\nSo, what is the solution? It is not to abandon GEE, but to balance it. We must give more focus to Open Source Technology.\nThe smartest geospatial workflow is a Hybrid Approach: 1. Use GEE for what it does best (Heavy Lifting). 2. Use Open Source (Python/R) for what it does best (Analysis, Statistics, Visualization, and Freedom).\n\n\n\nThe Sustainable Pipeline: Leverage the cloud for what it does best (heavy lifting) and local tools for what they do best (precision analysis).\n\n\n\nThe Hybrid Workflow in Practice\n\n\n\n\n\n\n\n\nStage\nTool\nAction\n\n\n\n\n1. Ingestion & Pre-processing\nGoogle Earth Engine\nFilter collections, cloud masking, temporal compositing (e.g., median annual composites).\n\n\n2. Export\nGEE to Drive/Cloud\nExport only the results (the processed bands or indices) as manageable GeoTIFFs or CSVs.\n\n\n3. Analysis & Modeling\nPython / R\nPerform deep statistical analysis, machine learning (Scikit-Learn, PyTorch), or complex geostatistics.\n\n\n4. Visualization\nPython (Matplotlib) / R (ggplot2)\nCreate publication-quality maps and charts that you fully own and control."
-  },
-  {
-    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#importance-of-open-source-technology-python-and-r",
-    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#importance-of-open-source-technology-python-and-r",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "🐍 Importance of Open Source Technology: Python and R",
-    "text": "🐍 Importance of Open Source Technology: Python and R\nOpen source technologies are the bedrock of scientific reproducibility. When you write code in Python or R, you use libraries built by the community, for the community. You own the stack.\n\n\n\nOpen Ecosystems: Python and R provide an infinite playground for innovation, free from corporate constraints.\n\n\n\nWhy Focus on Open Source?\n\nTransparency: You can inspect the code of every library you use (pandas, sf). You know exactly what the math is doing.\nPortability: Python code runs on your laptop, on AWS, on Azure, or on a supercomputer. You are not tied to Google.\nCommunity: The geospatial community in Python and R is vibrant and innovative.\n\nPython: The powerhouse of modern data science. Libraries like geopandas, rasterio, xarray, and the Pangeo ecosystem allow for scalable analyses that rival GEE but on open infrastructure.\nR: The gold standard for statistics. Packages like sf, terra, and tmap make spatial analysis intuitive and statistically rigorous.\n\n\n\n\n\n\n\n\nTipThe Future is Open\n\n\n\nBy mastering Python and R, you future-proof your career. Tools may come and go (remember ArcView 3?), but the concepts and the open-source languages remain relevant for decades."
-  },
-  {
-    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#conclusion",
-    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#conclusion",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "Conclusion",
-    "text": "Conclusion\nThe concern regarding Google Earth Engine’s proprietary nature is valid. The risk of paywalls and vendor lock-in is real. However, its computational power is undeniably transformative.\nThe key is Balance. Do not let GEE become a “crutch” that limits your understanding of underlying geospatial concepts. Instead, treat it as one powerful tool in a larger toolbox. Prioritize learning open-source technologies like Python and R. They offer the freedom, flexibility, and transparency that true scientific inquiry demands.\nUse the Cloud for scale, but keep your feet on the Open Source ground."
-  },
-  {
-    "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#references",
-    "href": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#references",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "References",
-    "text": "References\n\nGorelick, N., et al. (2017). “Google Earth Engine: Planetary-scale geospatial analysis for everyone.” Remote Sensing of Environment.\nPangeo Project. (2025). “A community platform for Big Data geoscience.” pangeo.io\nOpen Source Geospatial Foundation (OSGeo). “Empowering everyone with open source geospatial.” osgeo.org"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events & Engagements",
-    "section": "",
-    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
-  },
-  {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events & Engagements",
-    "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "events.html#past-seminars-workshops",
-    "href": "events.html#past-seminars-workshops",
-    "title": "Events & Engagements",
-    "section": "🏛️ Past Seminars & Workshops",
-    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine Nairobi\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
-  },
-  {
-    "objectID": "cv.html#contact-information",
-    "href": "cv.html#contact-information",
-    "title": "Curriculum Vitae",
-    "section": "📬 Contact Information",
-    "text": "📬 Contact Information\n\n pulakesh.mid@gmail.com |  +91 8617812861 |  Ravenshaw University, Odisha, India\n\n\n LinkedIn |  Google Scholar |  GitHub"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "🎓 Education",
-    "text": "🎓 Education\nPhD Scholar in Geography | Ravenshaw University\nSpecialization: GIS, Remote Sensing, and Google Earth Engine\nMPhil in Geography | Ravenshaw University\nUGC-SRF (Senior Research Fellow)"
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "Curriculum Vitae",
-    "section": "🛠️ Technical Skills",
-    "text": "🛠️ Technical Skills\nProgramming Languages: Python, R, JavaScript, LaTeX GIS & Remote Sensing: Google Earth Engine, ArcGIS Pro, QGIS\nData Science: Machine Learning, Phenology Analysis\nTools & Workflow: Git/GitHub, Chrome Extension Development"
-  },
-  {
-    "objectID": "cv.html#professional-experience",
-    "href": "cv.html#professional-experience",
-    "title": "Curriculum Vitae",
-    "section": "💼 Professional Experience",
-    "text": "💼 Professional Experience\nResource Person | Maharaja Sriram Chandra Bhanja Deo University\nSept. 2025\n- Conducted workshops on GEE and spatial data science.\nResource Person | Centurion University\nMarch 2025\n- Facilitated training sessions for PG students on geospatial technologies.\nYouTube Creator | Spatial Geography\n- Developed comprehensive courses on Google Earth Engine, Python, and R for a global audience."
-  },
-  {
-    "objectID": "cv.html#selected-publications",
-    "href": "cv.html#selected-publications",
-    "title": "Curriculum Vitae",
-    "section": "📄 Selected Publications",
-    "text": "📄 Selected Publications\nPradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine.” In Modern Cartography Series. DOI: 10.1016/b978-0-443-23890-1.00011-6"
-  },
-  {
-    "objectID": "cv.html#honors-awards",
-    "href": "cv.html#honors-awards",
-    "title": "Curriculum Vitae",
-    "section": "🏆 Honors & Awards",
-    "text": "🏆 Honors & Awards\n\nSenior Research Fellowship (UGC-SRF)\nJunior Research Fellowship (UGC-JRF)\nAssociation of Indian Universities Eastern Zone Runnerup 2023"
-  },
-  {
-    "objectID": "cv.html#professional-memberships",
-    "href": "cv.html#professional-memberships",
-    "title": "Curriculum Vitae",
-    "section": "🤝 Professional Memberships",
-    "text": "🤝 Professional Memberships\n\nLife Member, National Association of Geographers, India (NAGI) | Oct. 2025 - Present\n\n\n\n Download Full CV (PDF)"
-  },
-  {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
-    "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
-  },
-  {
-    "objectID": "events/gdg-nairobi.html",
-    "href": "events/gdg-nairobi.html",
-    "title": "GDG Earth Engine Nairobi",
-    "section": "",
-    "text": "Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.\n View Abstract  Slides"
-  },
-  {
-    "objectID": "social.html",
-    "href": "social.html",
-    "title": "Social Updates",
-    "section": "",
-    "text": "Google Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\n\n\n“Quaternary Science As Societal Services” Lucknow, India | January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Demographic Transition in Western India” Goa Business School, Goa University | March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\n\nNewly published blog post exploring the rich history and institutional growth of Geography in India since 1926. Includes a comprehensive directory of 40+ societies.\nFull list of Establishment Years & Host Institutions included.\n\nRead Blog Post\n\n\n\n\n\n\n\n\n\nA comprehensive list of leading geographical associations and societies across India, fostering academic excellence and spatial research.\n🌐 Official Web Portals: * National: NAGI (New Delhi) | IGS (Chennai) | GSI (Kolkata) | NGSI (Varanasi) * Specialized: IIG (Pune) | IGI (Geomorphologists) | ILEE (Ecology) | ISSS (Spatial Sci) * Regional: AGBJ (Bihar/JH) | RGA (Rajasthan) | NEIGS (NE India) | UBBP (North India) * Local: Konkan Geographers | GAG (Goa) | UGIT (Bengaluru) | APGI (Chandigarh) * Foundations: Practicing Geographers | MBP (Pune) | RSAI (India)\n\nView Full List (PDF/Image)"
-  },
-  {
-    "objectID": "social.html#social-feed",
-    "href": "social.html#social-feed",
-    "title": "Social Updates",
-    "section": "",
-    "text": "Google Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\n\n\n“Quaternary Science As Societal Services” Lucknow, India | January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Demographic Transition in Western India” Goa Business School, Goa University | March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\n\nNewly published blog post exploring the rich history and institutional growth of Geography in India since 1926. Includes a comprehensive directory of 40+ societies.\nFull list of Establishment Years & Host Institutions included.\n\nRead Blog Post\n\n\n\n\n\n\n\n\n\nA comprehensive list of leading geographical associations and societies across India, fostering academic excellence and spatial research.\n🌐 Official Web Portals: * National: NAGI (New Delhi) | IGS (Chennai) | GSI (Kolkata) | NGSI (Varanasi) * Specialized: IIG (Pune) | IGI (Geomorphologists) | ILEE (Ecology) | ISSS (Spatial Sci) * Regional: AGBJ (Bihar/JH) | RGA (Rajasthan) | NEIGS (NE India) | UBBP (North India) * Local: Konkan Geographers | GAG (Goa) | UGIT (Bengaluru) | APGI (Chandigarh) * Foundations: Practicing Geographers | MBP (Pune) | RSAI (India)\n\nView Full List (PDF/Image)"
-  },
-  {
-    "objectID": "resources/index.html",
-    "href": "resources/index.html",
+    "objectID": "books.html",
+    "href": "books.html",
     "title": "Books",
     "section": "",
     "text": "Fast.ai’s top-tier practical course for applying Deep Learning to real problems.\n\n\n\nPython-based course for automating geospatial analysis with Geopandas."
   },
   {
-    "objectID": "resources/index.html#e-books",
-    "href": "resources/index.html#e-books",
+    "objectID": "books.html#e-books",
+    "href": "books.html#e-books",
     "title": "Books",
     "section": "",
     "text": "Fast.ai’s top-tier practical course for applying Deep Learning to real problems.\n\n\n\nPython-based course for automating geospatial analysis with Geopandas."
   },
   {
-    "objectID": "resources/index.html#online-courses",
-    "href": "resources/index.html#online-courses",
+    "objectID": "books.html#online-courses",
+    "href": "books.html#online-courses",
     "title": "Books",
     "section": "Online Courses",
     "text": "Online Courses\n\n\nNASA ARSET\nApplied Remote SEnsing Training program for learning RS technologies.\n\n\nThe State of Satellites\nA guide to current satellite remote sensing technology and and apply it."
   },
   {
-    "objectID": "resources/index.html#workshops",
-    "href": "resources/index.html#workshops",
+    "objectID": "books.html#workshops",
+    "href": "books.html#workshops",
     "title": "Books",
     "section": "Workshops",
     "text": "Workshops\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023."
   },
   {
-    "objectID": "resources/index.html#introduction-to-python-programming",
-    "href": "resources/index.html#introduction-to-python-programming",
+    "objectID": "books.html#introduction-to-python-programming",
+    "href": "books.html#introduction-to-python-programming",
     "title": "Books",
     "section": "Introduction to Python Programming",
     "text": "Introduction to Python Programming\n\n\n ### Cloud Native Geospatial in R & Python Cloud-native workflows I follow for environmental justice research using R and Python.\n\n\n ### SITS: Analysis on EO Data Cubes Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\nPython Programming (Gyansetu)\nA comprehensive guide to Python programming I recommend from the Gyansetu project.\n\n\n ### Think Python The classic introduction to Python programming by Allen B. Downey.\n\n\nIntro to Stats with Python\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n ### Programming in Python (IIT) IIT Madras course materials for programming and data structures in Python."
   },
   {
-    "objectID": "resources/index.html#geospatial-python-programming",
-    "href": "resources/index.html#geospatial-python-programming",
+    "objectID": "books.html#geospatial-python-programming",
+    "href": "books.html#geospatial-python-programming",
     "title": "Books",
     "section": "Geospatial Python Programming",
     "text": "Geospatial Python Programming\n\n\n ### Spatial Analytics Advanced spatial analytics and geocomputation with Python.\n\n\n ### Applied Geostatistics in Python A hands-on guide to applied geostatistics with Python implementations.\n\n\n ### Python for Geocomputation The Python version of the famous Geocomputation with R book.\n\n\n ### Geographic Data Science A modern approach to data science with geographic information.\n\n\n ### PyGIS Docs Comprehensive documentation for Python-based GIS workflows.\n\n\n ### AutoGIS — Automating GIS One of my favorite resources for automating GIS processes with Python.\n\n\n Foundations of Spatial Data Science\nCore principles and applications of spatial data science as I understand them.\n\n\n GeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
   },
   {
-    "objectID": "resources/index.html#time-series-analysis",
-    "href": "resources/index.html#time-series-analysis",
+    "objectID": "books.html#time-series-analysis",
+    "href": "books.html#time-series-analysis",
     "title": "Books",
     "section": "Time Series Analysis",
     "text": "Time Series Analysis\n\n\n ### Time Series Analysis with Python A comprehensive handbook for time series analysis in the Python ecosystem.\n\n\n ### Forecasting: Principles & Practice The fundamental textbook for forecasting principles using Python and R.\n\n\n Overview of Time Series Packages\nA curated list and overview of time series analysis packages in Python.\n\n\n Statsmodels — Time Series\nOfficial documentation for statistical modeling and time series in Python.\n\n\n TensorFlow — Time Series\nGuide to building time series forecasting models with TensorFlow."
   },
   {
-    "objectID": "resources/index.html#ahp-mcdm-python",
-    "href": "resources/index.html#ahp-mcdm-python",
+    "objectID": "books.html#ahp-mcdm-python",
+    "href": "books.html#ahp-mcdm-python",
     "title": "Books",
     "section": "AHP & MCDM (Python)",
     "text": "AHP & MCDM (Python)\n\n\n pyDecision — MCDM Tools\nA Python library with 86+ Multi-Criteria Decision Making (MCDM) tools.\n\n\n ahpy — Analytic Hierarchy Process\nPython implementation of the Analytic Hierarchy Process (AHP).\n\n\n MCDM Implementations\nA GitHub repository containing various MCDM algorithm implementations.\n\n\n Tutorial: MCDM in Python\nA practical tutorial on performing multi-criteria decision analysis."
   },
   {
-    "objectID": "resources/index.html#machine-learning",
-    "href": "resources/index.html#machine-learning",
+    "objectID": "books.html#machine-learning",
+    "href": "books.html#machine-learning",
     "title": "Books",
     "section": "Machine Learning",
     "text": "Machine Learning\n\n\n ### Python for Geospatial Analysis Integrating machine learning workflows into geospatial analysis.\n\n\n ### Spatial Prediction using EML Spatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n ### ML in the Geosciences Applications of machine learning in earth and geospatial sciences.\n\n\n ### Applied ML in Python A hands-on guide with code for applied machine learning.\n\n\n ### Advanced Geospatial Analytics Advanced techniques for geospatial data science and analytics.\n\n\n ### Spatial Sampling for ML Techniques for effective spatial sampling in machine learning projects."
   },
   {
-    "objectID": "resources/index.html#deep-learning",
-    "href": "resources/index.html#deep-learning",
+    "objectID": "books.html#deep-learning",
+    "href": "books.html#deep-learning",
     "title": "Books",
     "section": "Deep Learning",
     "text": "Deep Learning\n\n\n fast.ai — Practical Deep Learning\nOne of the best practical courses for applying Deep Learning to real problems.\n\n\n TensorFlow — Tutorials\nOfficial learning path for building and deploying models with TensorFlow.\n\n\n PyTorch Tutorials\nComprehensive tutorials for the PyTorch deep learning framework.\n\n\n Keras — Guide\nDocumentation and tutorials for high-level deep learning with Keras."
   },
   {
-    "objectID": "resources/index.html#learning-resources",
-    "href": "resources/index.html#learning-resources",
+    "objectID": "books.html#learning-resources",
+    "href": "books.html#learning-resources",
     "title": "Books",
     "section": "Learning Resources",
     "text": "Learning Resources\n\n\n Coursera\nAccess to specialized geospatial and data science courses from top universities.\n\n\n Udemy\nPractical, hands-on courses for learning Python and GIS tools.\n\n\n Kaggle Learn\nFree, practical micro-courses on data science and machine learning.\n\n\n Official Python Tutorial\nThe authoritative guide I recommend for mastering the Python language.\n\n\n ### Zero to Pandas A practical introduction to data analysis with Python and Pandas.\n\n\n Software Carpentry: Python\nA foundational tutorial for geoscientists new to Python."
   },
   {
-    "objectID": "resources/index.html#github-repositories",
-    "href": "resources/index.html#github-repositories",
+    "objectID": "books.html#github-repositories",
+    "href": "books.html#github-repositories",
     "title": "Books",
     "section": "GitHub Repositories",
     "text": "GitHub Repositories\n\n\n 30 Days of Python\nA step-by-step challenge to learn Python in 30 days.\n\n\n Geospatial Data Science\nA collection of notebooks for geospatial data science.\n\n\n GeoPandas Tutorial\nExcellent tutorial repository for mastering GeoPandas.\n\n\n Applied Geospatial DS\nCode repository for applied geospatial data science workflows.\n\n\n Brown GeoData GEE\nEarth Engine data processing scripts from Brown University.\n\n\n GEE Python + ML\nIntegrating GEE with Python and Machine Learning."
   },
   {
-    "objectID": "resources/index.html#extra",
-    "href": "resources/index.html#extra",
+    "objectID": "books.html#extra",
+    "href": "books.html#extra",
     "title": "Books",
     "section": "Extra",
     "text": "Extra\n\n\nCloud-Based RS with GEE\nThe fundamental book for learning Google Earth Engine (EEFA Book)."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "",
+    "text": "The geospatial landscape is undergoing a monumental shift. What once required specialized, heavy desktop software is now being executed with lines of elegant Python code. The integration of Machine Learning (ML), Deep Learning (DL), and Artificial Intelligence (AI) has transformed GIS from a mapping tool into a predictive and analytical powerhouse.\nIn this post, we explore the architecture of a modern geospatial workflow and why Python is at the heart of this revolution."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🧱 The Foundation: Python’s Geospatial Stack",
+    "text": "🧱 The Foundation: Python’s Geospatial Stack\nBefore we dive into AI, we must acknowledge the libraries that make Python a GIS titan. The “Geospatial Stack” allows us to treat spatial data as first-class citizens in the data science world.\n\nGeoPandas: Brings the power of pandas to vector data, allowing for complex spatial joins and geometric operations in seconds.\nXarray & Rasterio: The dynamic duo for raster data. rasterio handles the I/O of GeoTIFFs, while xarray provides a multi-dimensional platform for analyzing time-series satellite imagery (Data Cubes).\nShapely & PyProj: The engines under the hood for geometric manipulation and coordinate reference system (CRS) transformations."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🤖 The Rise of Machine Learning (ML)",
+    "text": "🤖 The Rise of Machine Learning (ML)\nTraditional classification methods like Maximum Likelihood are being replaced by robust ML algorithms. Using Scikit-Learn, geographers can now implement:\n\nRandom Forests & SVM: For high-accuracy land cover classification.\nClustering (K-Means): For identifying socio-economic patterns or environmental zones without prior labeling.\nRegression Models: To predict environmental variables like Soil Organic Carbon or Urban Heat Island intensity.\n\nThe beauty of Python is that your spatial data (from GeoPandas) can be fed directly into these models with minimal translation."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision",
+    "text": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision\nWhere ML looks at pixel values, Deep Learning looks at patterns, textures, and context. With frameworks like PyTorch and TensorFlow, we are now performing:\n\nSemantic Segmentation: Identifying every single building or tree in high-resolution aerial imagery (e.g., using U-Net architectures).\nObject Detection: Automatically counting ships in harbors or identifying solar panels on rooftops.\nChange Detection: Using Siamese networks to detect subtle changes in urban sprawl or deforestation between two points in time.\n\nIntegrating DL into a geospatial workflow typically involves using libraries like torch-geo or bridging Google Earth Engine with AI models via Earth Engine’s AI Platform integration."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "✍️ The AI Revolution: LLMs in Geospatial Research",
+    "text": "✍️ The AI Revolution: LLMs in Geospatial Research\nThe most recent addition to our toolkit is the Large Language Model (LLM). AI is not just analyzing the pixels; it is helping us write the code to do so.\n\nAutomated Coding: Tools like the GEE AI Assistant (a Chrome extension I developed) leverage Gemini AI to help researchers generate complex scripts in seconds.\nNatural Language Queries: We are moving toward a future where you can ask, “Find all areas in Odisha that experienced more than 50% vegetation loss after the 2024 cyclone,” and the AI generates the processing pipeline.\nResearch Synthesis: AI helps in summarizing vast amounts of remote sensing literature, identifying gaps, and even formatting citations for academic journals."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "�️ The Roadmap: Mastering Python for AI-Driven Research",
+    "text": "�️ The Roadmap: Mastering Python for AI-Driven Research\nTo transition from traditional GIS to AI-driven research, I recommend following this structured 7-step roadmap. This is the core curriculum I follow in my workflows:\n\n\n1. Python & Statistics\n\nCore Libraries: NumPy, Pandas\nConcepts: Probability, OOPs in Python, Statistics for Data Science\n\n\n\n2. Intro to Neural Networks (NN)\n\nArchitecture: Input Layer, Hidden Layer, Weights, Bias\nLogic: Activation Functions, The Perceptron Model, Multi-Layer (ANN)\n\n\n\n3. Preprocessing & Artificial Neural Networks (ANN)\n\nMechanics: Forward Propagation, Backward propagation, Loss functions\nOptimization: Adam Optimizer, Multi-Layer Perceptrons\n\n\n\n4. Convolutional Neural Networks (CNNs)\n\nGeospatial Power: Convolutional Nets for imagery\nFrameworks: Keras, Pooling layers for spatial reduction\n\n\n\n5. Transfer Learning\n\nPre-trained Models: VGG16, AlexNet, ResNet\nEcosystems: Hugging Face, Timm (PyTorch Image Models)\n\n\n\n6. Object Detection\n\nSOTA Models: YOLO (v8), RCNN, SSD\nSegmentation: Mask R-CNN for individual feature extraction\n\n\n\n7. Deployment & Serving\n\nFrom Code to App: Docker containers, Streamlit dashboards\nServing: Scaling Python scripts for production environments"
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "�🚀 Conclusion: The Hybrid Future",
+    "text": "�🚀 Conclusion: The Hybrid Future\nA modern geospatial workflow is no longer about choosing one tool. It is about orchestration.\nWe use Google Earth Engine for massive data preprocessing, Python for specialized ML/DL modeling, and AI to streamline the entire process. This “Modern Workflow” isn’t just faster—it’s more reproducible, more scalable, and significantly more powerful than anything we’ve seen before.\nThe era of the “Geospatial Data Scientist” has arrived. Are you ready?"
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "",
+    "text": "Geography as an academic discipline in India has seen a remarkable evolution, transitioning from a colonial descriptive tool to a high-tech spatial science. Central to this journey has been the birth and growth of various geographical organizations and societies. These bodies have not only provided a platform for researchers but have also shaped the curriculum and policy advocacy for the discipline (National Association of Geographers, India [NAGI], 2024; Shodhganga, 2020)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "The Early Foundations (1920s – 1940s)",
+    "text": "The Early Foundations (1920s – 1940s)\nThe formal institutionalization of Geography in India began in the early 1920s. The Aligarh Muslim University (AMU) Department of Geography stands as a primary pioneer, established as an independent undergraduate department in 1924 (Aligarh Muslim University, n.d.). Led by Major E. W. Dann (an Oxford graduate and first chairman), the department was the first of its kind in the Indian subcontinent and was later dubbed the “Mecca of Geography” by British geographers (Wikipedia, 2024).\nSoon after, the Indian Geographical Society (IGS) was established in 1926 in Chennai (as the Madras Geographical Association), holding the distinction of being the oldest registered society (Indian Geographical Society, 2024). Founded by Prof. N. Subrahmanyam, it paved the way for professional geographical discourse in South Asia (University of Madras, 2023)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "The Growth of National & Specialized Bodies (1960s – 1980s)",
+    "text": "The Growth of National & Specialized Bodies (1960s – 1980s)\nAs the discipline matured, the need for a national umbrella organization led to the establishment of the National Association of Geographers, India (NAGI) in 1978 (NAGI, 2024). Based at the Delhi School of Economics, NAGI has since been the primary coordinator for the annual Indian Geography Congress.\nThis period also saw the rise of specialized societies: * Indian Society of Remote Sensing (ISRS) (1969): Bridging geography with space technology (Indian Society of Remote Sensing, 2025). * Association of Population Geographers of India (1978): Focusing on the demographic complexities of India (Association of Population Geographers of India, 2023). * Institute of Indian Geographers (IIG), Pune (1979): Promoting rigorous scientific research across all sub-fields (Institute of Indian Geographers, 2024)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Institutional Directory of Geography in India",
+    "text": "Institutional Directory of Geography in India\nThe following directory outlines the historical and contemporary geographical associations in India, categorized by their establishment years and current executive leadership.\n\n\n\nAssociation / Society\nEstd.\nHost Institution / Region\nCurrent Representative(s)\n\n\n\n\nAligarh Geographical Society\n1924*\nAMU, Aligarh\nProf. Ateeque Ahmed\n\n\nIGS (Chennai)\n1926\nUniversity of Madras\nProf. N. Sivagnanam (President), Prof. R. Jaganathan (Gen Secy)\n\n\nGSI (Kolkata)\n1933\nUniversity of Calcutta\nSmt. Suprova Ray (President), Prof. Apurba Rabi Ghosh (Hony. Secy)\n\n\nAllahabad Geographical Society\n1937\nAllahabad University\nProf. Manorama Sinha\n\n\nNGSI (Varanasi)\n1946\nBHU, Varanasi\nProfessor V. N. Sharma (Hony. Secretary)\n\n\nDeccan Geographical Society\n1962\nSP Pune University\nProf. B. C. Vaidya (Executive)\n\n\nAGTI Trust\n1963\nChennai\nDr. Saraswathi Ragunathan\n\n\nUttar Bharat Bhoogol Parishad\n1965\nGorakhpur\nProf. V. K. Srivatsava\n\n\nRGA (Rajasthan)\n1965\nBhilwara\nDr. S. S. Bhat\n\n\nNEIGS (Guwahati)\n1968\nGauhati University\nProf. Abani K. Bhagabati & Prof. Bimal K. Kar\n\n\nAssociation of Bengal Geographers\n1970*\nBurdwan University\nProf. N. C. Jana\n\n\nHimalayan Samiksha Parishad\n1976\nKolkata\nProf. Sunando Banarjee\n\n\nNAGI (National Association)\n1978\nDelhi School of Economics\nProf. Salahuddin Qureshi (President), Prof. A K Saha (Secy. General)\n\n\nAPGI (Chandigarh)\n1978\nPanjab University\nProf. Krishna Mohan (President), Dr. Gaurav Kalotra (Secretary)\n\n\nIIG (Pune)\n1979\nPune University\nProf. D. K. Nayak (President), Prof. Ravindra G. Jaybhaye (Secy General)\n\n\nILEE (Kolkata)\n1983\nKolkata\nProf. L. N. Satpati (Director)\n\n\nMBP (Maharashtra)\n1984\nPune\nProf. Praveen Saptarshi\n\n\nIGI (Geomorphologists)\n1988\nUniversity of Allahabad\nProf. Sunil Kumar De (President)\n\n\nISG (Geomatics)\n1993\nISRO-SAC, Ahmedabad\nExecutive Council\n\n\nAssociation of Punjab Geographers\n1998\nPatiala\nProf. H. S. Mangat\n\n\nAGBJ (Bihar/JH)\n1999\nPatna University\nProf. Devender Prasad Singh\n\n\nUGIT (Bengaluru)\n2004\nBangalore University\nProf. Ashok Hanjagi\n\n\nGAG (Goa)\n2007\nGoa\nProf. Prabirkumar Rath\n\n\nISSS (Spatial Scientists)\n2010\nKolkata\nProf. Ashis Sarkar\n\n\nKonkan Geographers Association\n2010\nSindhudurg\nProf. R.B. Patil\n\n\n\n*Years marked with asterisks denote early informal society formations or departmental origins."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Prominent Geography Journals in India",
+    "text": "Prominent Geography Journals in India\nScholarship in Indian geography is largely disseminated through peer-reviewed journals published by the various societies. These journals serve as the primary repositories for spatial data and regional analysis in the subcontinent (Shodhganga, 2020).\n\n\n\nJournal Name\nFrequency\nPublishing Body\nIndexing / Status\n\n\n\n\nAnnals of the NAGI\nBi-annual\nNAGI\nUGC-CARE Listed\n\n\nTransactions of the IIG\nBi-annual\nIIG Pune\nScopus Indexed\n\n\nIndian Geographical Journal\nBi-annual\nIGS Chennai\nUGC-CARE Listed\n\n\nGeographical Review of India\nQuarterly\nGSI Kolkata\nPeer-reviewed\n\n\nNational Geographical Journal of India\nQuarterly\nNGSI Varanasi\nPeer-reviewed\n\n\nThe Deccan Geographer\nBi-annual\nDeccan Geog. Society\nUGC-CARE Listed\n\n\nPopulation Geography\nBi-annual\nAPGI Chandigarh\nUGC-CARE Listed\n\n\nJournal of Indian Geomorphology\nAnnual\nIGI Allahabad\nUGC-CARE Listed\n\n\nUttar Bharat Bhoogol Patrika\nBi-annual\nUBBP Gorakhpur\nPeer-reviewed\n\n\nThe Konkan Geographer\nBi-annual\nKonkan Geog. Assoc.\nPeer-reviewed"
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Modern Era: Geospatial Expansion & GIS",
+    "text": "Modern Era: Geospatial Expansion & GIS\nIn the 21st century, organizations like the Association of Geospatial Industries (AGI) and Indian Society of Geomatics (ISG) have taken the lead in integrating satellite-based remote sensing, LiDAR, and GIS into the geographical framework (AGI, 2024; ISG, 2024). These organizations foster collaboration between the industry and academia, ensuring that Indian geographers remain at the forefront of the global spatial revolution.\nThe participation of Indian representatives in the Asian Geographical Association (est. 2018) further exemplifies the global reach of Indian geographical research (Asian Geographical Association, 2024)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Upcoming Geographical Events",
+    "text": "Upcoming Geographical Events\nMaintaining engagement with the academic community is central to the growth of the discipline. Key events scheduled for the upcoming sessions include:\n\nXXII INQUA Congress 2027 India\n\nDates: January 28 – February 3, 2027\nLocation: Lucknow, India\n\nWestern Regional Conference: IASP 2026\n\nDates: March 20-21, 2026\nHost: Goa Business School, Goa University"
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Recent Geographical Events",
+    "text": "Recent Geographical Events\nThe community has recently concluded several landmark scientific meetings:\n\n3rd Indian Quaternary Congress 2026: January 19-23, 2026.\n47th Indian Geography Congress (NAGI) 2025: University of Rajasthan, Jaipur (Nov 13-15, 2025).\n46th IIG Annual Meet & International Conference 2025: HNBGU, Uttarakhand (Oct 25-27, 2025)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Conclusion",
+    "text": "Conclusion\nFrom the local “Madras Geographical Association” of 1926 to the high-tech geospatial societies of today, geographical organizations in India have been the pillars of the discipline. They continue to play a crucial role in addressing national challenges—from urban planning and disaster management to climate change analysis—demonstrating that Geography is not just about mapping the world, but about understanding and improving it."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "References",
+    "text": "References\nAligarh Muslim University. (n.d.). Department of Geography: Our Heritage. https://www.amu.ac.in/department/geography\nAsian Geographical Association. (2024). Founding committee and member countries. http://asiageo.net\nAssociation of Geographers in Bihar and Jharkhand. (2024). Mission and executive council. http://agbj.org.in\nAssociation of Population Geographers of India. (2023). Executive body term 2023-2025. http://apgin.org\nDeccan Geographical Society. (2024). About the society and journal. http://dgsi.org.in\nGeographical Society of India. (2019). Founding principles and history. http://geographicalsocietyofindia.org.in\nGauhati University. (n.d.). History of the Department of Geography. https://gauhati.ac.in/department/geography\nIndian Geographical Society. (2024). History of IGS Chennai. http://igschennai.org\nIndian Society of Remote Sensing. (2025). About ISRS: History and objectives. https://isrsindia.in\nInstitute of Indian Geographers. (2024). Constitution and executive council 2024-25. https://iigeo.org\nMaharashtra Bhugolshastra Parishad. (2024). About us: Journey since 1984. http://mbpune.org.in\nNational Association of Geographers, India. (2024). Official lists: Executive committee 2024-25. https://sites.google.com/view/nagiorgin/home\nNational Geographical Society of India. (2024). Publications and secretary journals. http://ngsi.in\nRajasthan Geographical Association. (2024). History and regional impact. http://rga.ac.in\nShodhganga. (2020). Institutional framework for geography in India. http://inflibnet.ac.in\nUniversity of Madras. (2023). Department of Geography: Research & societies. https://unom.ac.in\nWikipedia contributors. (2024). Major E. W. Dann and the roots of Indian geography. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Department_of_Geography,_Aligarh_Muslim_University"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Journal Article Placeholder\n\n\n\n\n\n\n\nPradhan, P. (Year)\n\n\nJournal Name\n\n\nThis is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Journal Article Placeholder\n\n\n\n\n\n\n\nPradhan, P. (Year)\n\n\nJournal Name\n\n\nThis is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#book-chapters",
+    "href": "publications.html#book-chapters",
+    "title": "Publications",
+    "section": "📚 Book Chapters",
+    "text": "📚 Book Chapters\n\n\n\nApplication of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine\n\n\n\n\n\n\n\nPradhan, P., Bajpai, R., & Patra, S. (2025)\n\n\nIn Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier\n\n\nThis research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.\n\n\n  Download    DOI \n\n\n\n\n\n\nAgricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal\n\n\n\n\n\n\n\nPradhan, P., & Patra, S. (2024)\n\n\nIn Modern Cartography Series, Elsevier\n\n\nThis study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, I analyze spatiotemporal drought patterns and their impact on local agriculture.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#presentations",
+    "href": "publications.html#presentations",
+    "title": "Publications",
+    "section": "🎤 Presentations",
+    "text": "🎤 Presentations\n\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nGDG for Earth Engine Nairobi (Virtual)\n\n\nA demonstration of integrating Large Language Models (LLMs) with geospatial platforms. This workshop showcases how a Gemini-powered AI assistant can streamline complex GEE coding tasks for drought monitoring, making cloud-based remote sensing more accessible to researchers.\n\n\n  Download    DOI \n\n\n\n\n:::"
+  },
+  {
+    "objectID": "publications.html#posters",
+    "href": "publications.html#posters",
+    "title": "Publications",
+    "section": "🖼️ Posters",
+    "text": "🖼️ Posters\n\n\n\nNear Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images\n\n\n\n\n\nUnable to display PDF. Download here.\n\n\n\n\n\nPradhan, P., & Bajpai, R. (2023)\n\n\nOdisha Research Conclave (ORC-2023)\n\n\nThis poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.\n\n\n  Download PDF    Details \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html",
+    "href": "events/mscbu-workshop-sep-2025.html",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "Event Overview",
+    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
+  },
+  {
+    "objectID": "courses.html#geospatial-programming",
+    "href": "courses.html#geospatial-programming",
+    "title": "Courses",
+    "section": "💻 Geospatial Programming",
+    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
+  },
+  {
+    "objectID": "courses.html#gis-spatial-reference",
+    "href": "courses.html#gis-spatial-reference",
+    "title": "Courses",
+    "section": "🚀 GIS & Spatial Reference",
+    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
+  },
+  {
+    "objectID": "courses.html#academic-writing-tools",
+    "href": "courses.html#academic-writing-tools",
+    "title": "Courses",
+    "section": "✍️ Academic Writing & Tools",
+    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
+  },
+  {
+    "objectID": "innovations.html",
+    "href": "innovations.html",
+    "title": "Innovations",
+    "section": "",
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
+  },
+  {
+    "objectID": "innovations.html#earth-engine-apps",
+    "href": "innovations.html#earth-engine-apps",
+    "title": "Innovations",
+    "section": "🌍 Earth Engine Apps",
+    "text": "🌍 Earth Engine Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
+  },
+  {
+    "objectID": "innovations.html#python-packages",
+    "href": "innovations.html#python-packages",
+    "title": "Innovations",
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
+  },
+  {
+    "objectID": "innovations.html#r-library",
+    "href": "innovations.html#r-library",
+    "title": "Innovations",
+    "section": "📚 R Library",
+    "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
+  },
+  {
+    "objectID": "innovations.html#extensions-tools",
+    "href": "innovations.html#extensions-tools",
+    "title": "Innovations",
+    "section": "🛠️ Extensions & Tools",
+    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
   }
 ]

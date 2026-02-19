@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/events.html",
+    "items": [
+      "/events/gee-workshop-feb-2026.html",
+      "/events/mscbu-workshop-sep-2025.html",
+      "/events/gdg-nairobi.html",
+      "/events/bhu-workshop.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/2026-02-19-history-geographical-organisations-india/index.html",
@@ -17,15 +26,6 @@
       "/posts/2026_02_17_modern_geospatial_python_ai/index.html",
       "/posts/2026_02_16_social_vs_spatial/index.html",
       "/posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html"
-    ]
-  },
-  {
-    "listing": "/events.html",
-    "items": [
-      "/events/gee-workshop-feb-2026.html",
-      "/events/mscbu-workshop-sep-2025.html",
-      "/events/gdg-nairobi.html",
-      "/events/bhu-workshop.html"
     ]
   }
 ]
