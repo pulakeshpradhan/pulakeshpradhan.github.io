@@ -2,7 +2,7 @@
 title: "The Evolution of Geographical Organizations in India: A Historical Perspective"
 date: "2026-02-19"
 categories: [History, Geography, Institutional Growth, India]
-image: "hist_of_geo.png"
+image: "hist_of_geo.jpg"
 description: "Tracing the journey of geographical societies in India from the early 20th century to the modern geospatial era."
 ---
 
