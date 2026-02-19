@@ -44,7 +44,7 @@ A premier conference focusing on the demographic shifts and socio-economic trans
 </div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](images/academic_course.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/population_iasp_2026.pdf)
+[![](https://iasp.ac.in/2026/goa2026.jpg?v=1771343496){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/population_iasp_2026.pdf)
 :::
 :::
 
