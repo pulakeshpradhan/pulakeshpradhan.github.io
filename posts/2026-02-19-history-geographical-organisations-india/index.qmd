@@ -29,17 +29,17 @@ The table below lists major geographical associations, their current representat
 
 | Name of the Association/Society | Estd. | Host Institution | Current Representative(s) |
 |:---|:---:|:---|:---|
-| **[NAGI (National Association)](http://nagi.org.in/)** | 1978 | Delhi School of Economics | **Prof. Salahuddin Qureshi** (President), **Prof. A K Saha** (Secy. General) |
-| **[IGS (Chennai)](http://www.igschennai.org/)** | 1926 | University of Madras | Prof. N. Sivagnanam (President), Prof. R. Jaganathan (Gen Secy) |
+| **[NAGI (National Association)](https://sites.google.com/view/nagiorgin/home)** | 1978 | Delhi School of Economics | **Prof. Salahuddin Qureshi** (President), **Prof. A K Saha** (Secy. General) |
+| **[IGS (Chennai)](http://igschennai.org/)** | 1926 | University of Madras | Prof. N. Sivagnanam (President), Prof. R. Jaganathan (Gen Secy) |
 | **[GSI (Kolkata)](http://geographicalsocietyofindia.org.in/)** | 1933 | University of Calcutta | Smt. Suprova Ray (President), Prof. Apurba Rabi Ghosh (Hony. Secy) |
 | **[NGSI (Varanasi)](http://ngsi.in/)** | 1946 | BHU, Varanasi | **Professor V. N. Sharma** (Hony. Secretary) |
-| **[IIG (Pune)](http://iigpune.in/)** | 1979 | Pune University | **Prof. D. K. Nayak** (President), **Prof. Ravindra G. Jaybhaye** (Secy General) |
-| **[APGI (Chandigarh)](http://apgi.in/)** | 1978 | Panjab University | **Prof. Krishna Mohan** (President), **Dr. Gaurav Kalotra** (Secretary) |
+| **[IIG (Pune)](https://unipune.ac.in/dept/science/geography/default.htm)** | 1979 | Pune University | **Prof. D. K. Nayak** (President), **Prof. Ravindra G. Jaybhaye** (Secy General) |
+| **[APGI (Chandigarh)](http://apgin.org/)** | 1978 | Panjab University | **Prof. Krishna Mohan** (President), **Dr. Gaurav Kalotra** (Secretary) |
 | **[ILEE (Kolkata)](http://ilee.org.in/)** | 1983 | Kolkata | Prof. L. N. Satpati |
 | **[IGI (Geomorphologists)](http://www.indiageomorph.org/)** | 1988 | University of Allahabad | Prof. Sunil Kumar De (President) |
-| **[Deccan Geographical Society](http://www.dgsi.org.in/)** | 1962 | SP Pune University | Prof. B. C. Vaidya |
+| **[Deccan Geographical Society](http://dgsi.org.in/)** | 1962 | SP Pune University | Prof. B. C. Vaidya |
 | **[NEIGS (Guwahati)](http://neigs.org.in/)** | 1968 | Gauhati University | Prof. Abani K. Bhagabati & Prof. Bimal K. Kar |
-| **[MBP (Maharashtra)](http://mbpune.org/)** | 1984 | Pune | Prof. Praveen Saptarshi |
+| **[MBP (Maharashtra)](http://mbpune.org.in/)** | 1984 | Pune | Prof. Praveen Saptarshi |
 | **[ISG (Geomatics)](http://isgindia.org/)** | 1993 | ISRO-SAC, Ahmedabad | - |
 | **[Aligarh Geographical Society](https://www.amu.ac.in/department/geography)** | 1924* | AMU, Aligarh | Prof. Ateeque Ahmed |
 | **[Allahabad Geog. Society](https://allduniv.ac.in/department-of-geography)** | - | Allahabad University | Prof. Manorama Sinha |
@@ -48,6 +48,9 @@ The table below lists major geographical associations, their current representat
 | **[Uttar Bharat Bhoogol Parishad](http://ubbp.org/)** | - | Gorakhpur | Prof. V. K. Srivatsava |
 | **[RGA (Rajasthan)](http://rga.ac.in/)** | - | Bhilwara | Dr. S. S. Bhat |
 | **[GAG (Goa)](http://geographersassociationgoa.blogspot.com/)** | - | Goa | Prof. Prabirkumar Rath |
+| **[Himalayan Samiksha Parishad](http://www.himparishad.org/)** | - | Kolkata | Prof. Sunando Banarjee |
+| **[Indian Society of Spatial Scientists](http://spatialscientists.org/)** | 2010 | Kolkata | Prof. Ashis Sarkar |
+| **[Konkan Geographers Association](http://konkangeographers.org/)** | - | Sindhudurg | Prof. R.B. Patil |
 
 *\*Years marked with asterisks denote early informal society formations or departmental origins.*
 
