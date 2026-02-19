@@ -30,11 +30,32 @@ My Gemini-powered assistant helps researchers and developers write Earth Engine 
 
 | Event Name | Location | Dates | Deadline | Action |
 | :--- | :--- | :--- | :--- | :--- |
-| **National Seminar (Viksit Bharat)** | Varanasi, UP | March 16–17, 2026 | **March 9, 2026** | [Register](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform) |
-| **IASP 2026 Regional Conference** | Goa University | March 20–21, 2026 | **Feb 15, 2026** | [Submit](https://forms.gle/dxgmZAGrdk5HdWVw5) |
-| **XXII INQUA Congress 2027** | Lucknow, India | Jan 28 – Feb 3, 2027 | **March 31, 2026** | [Register](https://register.inquaindia2027.in/) |
+| **National Seminar (Viksit Bharat)** | Varanasi, UP | March 16–17, 2026 | <span class="deadline-date" data-date="2026-03-09">March 9, 2026</span> | [Register](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform) |
+| **IASP 2026 Regional Conference** | Goa University | March 20–21, 2026 | <span class="deadline-date" data-date="2026-02-15">Feb 15, 2026</span> | [Submit](https://forms.gle/dxgmZAGrdk5HdWVw5) |
+| **XXII INQUA Congress 2027** | Lucknow, India | Jan 28 – Feb 3, 2027 | <span class="deadline-date" data-date="2026-03-31">March 31, 2026</span> | [Register](https://register.inquaindia2027.in/) |
 
 <br>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    
+    document.querySelectorAll('.deadline-date').forEach(el => {
+        const dateStr = el.getAttribute('data-date');
+        const deadline = new Date(dateStr);
+        
+        if (deadline < today) {
+            el.style.color = '#dc2626'; // Red
+            el.style.textDecoration = 'line-through';
+            el.style.fontWeight = '500';
+        } else {
+            el.style.color = '#16a34a'; // Green
+            el.style.fontWeight = '600';
+        }
+    });
+});
+</script>
 
 
 ::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 40px; background: #f0f7ff; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
@@ -47,7 +68,7 @@ My Gemini-powered assistant helps researchers and developers write Earth Engine 
 The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessions**, **21 Workshops**, and **46 Field Trips**. Funding available for participants.
 
 **📢 Important Update:**
-*   **Abstract Submission EXTENDED:** 31st March, 2026
+*   **Abstract Submission EXTENDED:** <span class="deadline-date" data-date="2026-03-31">31st March, 2026</span>
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 [Register Now](https://register.inquaindia2027.in/){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #1a5f7a; font-weight: 600; font-size: 0.9rem;"}
@@ -68,7 +89,7 @@ The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessio
 
 A premier conference focusing on the demographic shifts and socio-economic transitions in Western India.
 
-**📅 Last Date for Online Abstract Submission:** 15th February, 2026
+**📅 Last Date for Online Abstract Submission:** <span class="deadline-date" data-date="2026-02-15">15th February, 2026</span>
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 [Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #d35400; font-weight: 600; font-size: 0.9rem;"}
@@ -90,8 +111,8 @@ A premier conference focusing on the demographic shifts and socio-economic trans
 Organized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.
 
 **📅 Key Dates:**
-*   **Abstract Submission Deadline:** 9th March, 2026
-*   **Full Paper Submission:** 12th March, 2026
+*   **Abstract Submission Deadline:** <span class="deadline-date" data-date="2026-03-09">9th March, 2026</span>
+*   **Full Paper Submission:** <span class="deadline-date" data-date="2026-03-12">12th March, 2026</span>
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 [Register Now](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #854d0e; font-weight: 600; font-size: 0.9rem;"}
