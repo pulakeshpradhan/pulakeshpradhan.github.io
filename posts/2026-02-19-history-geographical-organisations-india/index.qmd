@@ -25,32 +25,35 @@ This period also saw the rise of specialized societies:
 
 ## Directory of Geographical Institutions in India (Verified 2024–25)
 
-The table below lists major geographical associations, their current representatives (verified for the 2024–25 term), and their historical host institutions.
+The table below lists historical and contemporary geographical associations in India, with verified establishment years and current representatives for the 2024–25 term.
 
-| Name of the Association/Society | Estd. | Host Institution | Current Representative(s) |
-|:---|:---:|:---|:---|
-| **[NAGI (National Association)](https://sites.google.com/view/nagiorgin/home)** | 1978 | Delhi School of Economics | **Prof. Salahuddin Qureshi** (President), **Prof. A K Saha** (Secy. General) |
-| **[IGS (Chennai)](http://igschennai.org/)** | 1926 | University of Madras | Prof. N. Sivagnanam (President), Prof. R. Jaganathan (Gen Secy) |
-| **[GSI (Kolkata)](http://geographicalsocietyofindia.org.in/)** | 1933 | University of Calcutta | Smt. Suprova Ray (President), Prof. Apurba Rabi Ghosh (Hony. Secy) |
-| **[NGSI (Varanasi)](http://ngsi.in/)** | 1946 | BHU, Varanasi | **Professor V. N. Sharma** (Hony. Secretary) |
-| **[IIG (Pune)](https://unipune.ac.in/dept/science/geography/default.htm)** | 1979 | Pune University | **Prof. D. K. Nayak** (President), **Prof. Ravindra G. Jaybhaye** (Secy General) |
-| **[APGI (Chandigarh)](http://apgin.org/)** | 1978 | Panjab University | **Prof. Krishna Mohan** (President), **Dr. Gaurav Kalotra** (Secretary) |
+| Association / Society | Estd. | Host Institution / Region | Current Representative(s) |
+|:------------------------------------------------|:-----:|:--------------------------|:-----------------------------------------|
+| **[NAGI (National Association)](https://sites.google.com/view/nagiorgin/home)** | 1978 | Delhi School of Economics | Prof. Salahuddin Qureshi (President) |
+| **[IGS (Chennai)](http://igschennai.org/)** | 1926 | University of Madras | Prof. N. Sivagnanam (President) |
+| **[GSI (Kolkata)](http://geographicalsocietyofindia.org.in/)** | 1933 | University of Calcutta | Smt. Suprova Ray (President) |
+| **[NGSI (Varanasi)](http://ngsi.in/)** | 1946 | BHU, Varanasi | Professor V. N. Sharma (Hony. Secy) |
+| **[IIG (Pune)](https://unipune.ac.in/dept/science/geography/default.htm)** | 1979 | Pune University | Prof. D. K. Nayak (President) |
+| **[APGI (Chandigarh)](http://apgin.org/)** | 1978 | Panjab University | Prof. Krishna Mohan (President) |
 | **[ILEE (Kolkata)](http://ilee.org.in/)** | 1983 | Kolkata | Prof. L. N. Satpati (Director) |
 | **[IGI (Geomorphologists)](http://www.indiageomorph.org/)** | 1988 | University of Allahabad | Prof. Sunil Kumar De (President) |
 | **[Deccan Geographical Society](http://dgsi.org.in/)** | 1962 | SP Pune University | Prof. B. C. Vaidya (Executive) |
-| **[NEIGS (Guwahati)](http://neigs.org.in/)** | 1968 | Gauhati University | Prof. Abani K. Bhagabati & Prof. Bimal K. Kar |
+| **[NEIGS (Guwahati)](http://neigs.org.in/)** | 1968 | Gauhati University | Prof. Abani K. Bhagabati |
 | **[MBP (Maharashtra)](http://mbpune.org.in/)** | 1984 | Pune | Prof. Praveen Saptarshi |
-| **[ISG (Geomatics)](http://isgindia.org/)** | 1993 | ISRO-SAC, Ahmedabad | Executive Committee 2024-25 |
+| **[ISG (Geomatics)](http://isgindia.org/)** | 1993 | ISRO-SAC, Ahmedabad | Executive Council 2024-25 |
 | **[Aligarh Geographical Society](https://www.amu.ac.in/department/geography)** | 1924* | AMU, Aligarh | Prof. Ateeque Ahmed |
-| **[Allahabad Geog. Society](https://allduniv.ac.in/department-of-geography)** | - | Allahabad University | Prof. Manorama Sinha |
-| **[AGBJ (Bihar/JH)](http://agbj.org.in/)** | - | Patna University | Prof. Devender Prasad Singh |
-| **[UGIT (Bengaluru)](http://ugit.net.in/)** | 2000s | Bangalore University | Prof. Ashok Hanjagi |
-| **[Uttar Bharat Bhoogol Parishad](http://ubbp.org/)** | - | Gorakhpur | Prof. V. K. Srivatsava |
-| **[RGA (Rajasthan)](http://rga.ac.in/)** | - | Bhilwara | Dr. S. S. Bhat |
-| **[GAG (Goa)](http://geographersassociationgoa.blogspot.com/)** | - | Goa | Prof. Prabirkumar Rath |
-| **[Himalayan Samiksha Parishad](http://www.himparishad.org/)** | - | Kolkata | Prof. Sunando Banarjee |
-| **[Indian Society of Spatial Scientists](http://spatialscientists.org/)** | 2010 | Kolkata | Prof. Ashis Sarkar |
-| **[Konkan Geographers Association](http://konkangeographers.org/)** | - | Sindhudurg | Prof. R.B. Patil |
+| **Allahabad Geographical Society** | 1937 | Allahabad University | Prof. Manorama Sinha |
+| **[AGBJ (Bihar/JH)](http://agbj.org.in/)** | 1999 | Patna University | Prof. Devender Prasad Singh |
+| **[UGIT (Bengaluru)](http://ugit.net.in/)** | 2004 | Bangalore University | Prof. Ashok Hanjagi |
+| **[Uttar Bharat Bhoogol Parishad](http://ubbp.org/)** | 1965 | Gorakhpur | Prof. V. K. Srivatsava |
+| **[RGA (Rajasthan)](http://rga.ac.in/)** | 1965 | Bhilwara | Dr. S. S. Bhat |
+| **[GAG (Goa)](http://geographersassociationgoa.blogspot.com/)** | 2007 | Goa | Prof. Prabirkumar Rath |
+| **[Himalayan Samiksha Parishad](http://www.himparishad.org/)** | 1976 | Kolkata | Prof. Sunando Banarjee |
+| **[ISSS (Spatial Scientists)](http://spatialscientists.org/)** | 2010 | Kolkata | Prof. Ashis Sarkar |
+| **[Konkan Geographers Association](http://konkangeographers.org/)** | 2010 | Sindhudurg | Prof. R.B. Patil |
+| **Association of Bengal Geographers** | 1970* | Burdwan University | Prof. N. C. Jana |
+| **AGTI Trust** | 1963 | Chennai | Dr. Saraswathi Ragunathan |
+| **Association of Punjab Geographers** | 1998 | Patiala | Prof. H. S. Mangat |
 
 *\*Years marked with asterisks denote early informal society formations or departmental origins.*
 
@@ -96,11 +99,11 @@ Aligarh Muslim University. (n.d.). *Department of Geography: Our Heritage*. http
 
 Asian Geographical Association. (2024). *Founding committee and member countries*. http://asiageo.net
 
+Association of Geographers in Bihar and Jharkhand. (2024). *Mission and executive council*. http://agbj.org.in
+
 Association of Population Geographers of India. (2023). *Executive body term 2023-2025*. http://apgin.org
 
-Foundation of Practising Geographer. (n.d.). *Evolution of geographical discourse in India*. http://practicing-geographer.org
-
-Geo-DOI Archive. (2018). *Report on the formation of Asian Geographical Association in 2018*. http://geodoi.ac.in
+Deccan Geographical Society. (2024). *About the society and journal*. http://dgsi.org.in
 
 Geographical Society of India. (2019). *Founding principles and history*. http://geographicalsocietyofindia.org.in
 
@@ -110,12 +113,14 @@ Indian Society of Remote Sensing. (2025). *About ISRS: History and objectives*. 
 
 Institute of Indian Geographers. (2024). *Constitution and executive council 2024-25*. https://iigeo.org
 
+Maharashtra Bhugolshastra Parishad. (2024). *About us: Journey since 1984*. http://mbpune.org.in
+
 National Association of Geographers, India. (2024). *Official lists: Executive committee 2024-25*. https://sites.google.com/view/nagiorgin/home
 
 National Geographical Society of India. (2024). *Publications and secretary journals*. http://ngsi.in
 
+Rajasthan Geographical Association. (2024). *History and regional impact*. http://rga.ac.in
+
 Shodhganga. (2020). *Institutional framework for geography in India*. http://inflibnet.ac.in
 
 University of Madras. (2023). *Department of Geography: Research & societies*. https://unom.ac.in
-
-Wikipedia contributors. (2024). *National Geographical Society of India*. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/National_Geographical_Society_of_India
