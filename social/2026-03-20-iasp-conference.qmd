@@ -1,0 +1,21 @@
+---
+title: "Western Regional Conference: IASP 2026"
+date: "2026-03-20"
+image: "images/academic_course.jpg"
+path: "social/population_iasp_2026.pdf"
+---
+
+### Western Regional Conference of the Indian Association for the Study of Population (IASP)
+
+**“Demographic Transition in Western India”**
+
+Organized jointly with **Goa Business School, Goa University, Goa**
+
+**Dates:** March 20-21, 2026
+
+::: {.callout-important}
+### Abstract Submission
+[Submit your abstract here](https://forms.gle/dxgmZAGrdk5HdWVw5)
+:::
+
+[<i class="bi bi-file-pdf"></i> View Conference Broadsheet (PDF)](social/population_iasp_2026.pdf){.social-btn}
