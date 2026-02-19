@@ -12,9 +12,9 @@ page-layout: full
 ### GEE AI Assistant: 4k+ Global Users!
 **Google Earth Engine Coding Companion**
 
-Empowering the geospatial community with AI! We are proud to share that the **GEE AI Assistant** has reached over **4,000+ worldwide users** across **134 countries**. 
+Empowering the geospatial community with AI! I am proud to share that the **GEE AI Assistant** has reached over **4,000+ worldwide users** across **134 countries**. 
 
-Our Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to our global users for being part of this innovation journey!
+My Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 [Install Extension](https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb){style="background: #15803d; border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: white; font-weight: 600; font-size: 0.9rem;"}

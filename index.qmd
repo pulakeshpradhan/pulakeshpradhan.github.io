@@ -110,7 +110,7 @@ page-layout: full
 ### GEE AI Assistant: 4k+ Global Users!
 **Google Earth Engine Coding Companion**
 
-We are thrilled to announce that the **GEE AI Assistant** now has over **4,000+ worldwide users** from **134 countries**. Thank you for trust and support in building this Gemini-powered geospatial community!
+I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ worldwide users** from **134 countries**. Thank you for your trust and support in building this Gemini-powered geospatial community!
 
 [Install from Chrome Web Store](https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb){.social-btn style="background: #15803d; color: white; border: none; font-size: 0.8rem;"}
 :::
