@@ -53,11 +53,12 @@ A premier conference focusing on the demographic shifts and socio-economic trans
 ### Directory of Geographical Institutions in India
 A comprehensive list of leading geographical associations and societies across India, fostering academic excellence and spatial research.
 
-**🌐 Official Websites:**
-*   [NAGI (New Delhi)](http://nagi.org.in/) | [IGS (Chennai)](http://www.igschennai.org/) | [GSI (Kolkata)](http://geographicalsocietyofindia.org.in/)
-*   [IIG (Pune)](http://iigpune.in/) | [IGI (Allahabad)](http://www.indiageomorph.org/) | [APGI (Chandigarh)](http://apgi.in/)
-*   [DGSI (Pune)](http://www.dgsi.org.in/) | [ISSS (Kolkata)](http://www.spatialscientists.org/) | [RSAI (Kolkata)](http://rsai.org.in/)
-*   [NEIGS (Guwahati)](http://neigs.org.in/) | [UGIT (Bengaluru)](http://ugit.net.in/) | [MBP (Pune)](http://mbpune.org/)
+**🌐 Official Web Portals:**
+*   **National:** [NAGI (New Delhi)](http://nagi.org.in/) | [IGS (Chennai)](http://www.igschennai.org/) | [GSI (Kolkata)](http://geographicalsocietyofindia.org.in/) | [NGSI (Varanasi)](http://ngsi.in/)
+*   **Specialized:** [IIG (Pune)](http://iigpune.in/) | [IGI (Geomorphologists)](http://www.indiageomorph.org/) | [ILEE (Ecology)](http://ilee.org.in/) | [ISSS (Spatial Sci)](http://www.spatialscientists.org/)
+*   **Regional:** [AGBJ (Bihar/JH)](http://agbj.org.in/) | [RGA (Rajasthan)](http://rga.ac.in/) | [NEIGS (NE India)](http://neigs.org.in/) | [UBBP (North India)](http://ubbp.org/)
+*   **Local:** [Konkan Geographers](http://konkangeographers.org/) | [GAG (Goa)](http://geographersassociationgoa.blogspot.com/) | [UGIT (Bengaluru)](http://ugit.net.in/) | [APGI (Chandigarh)](http://apgi.in/)
+*   **Foundations:** [Practicing Geographers](http://practicing-geographer.org/) | [MBP (Pune)](http://mbpune.org/) | [RSAI (India)](http://rsai.org.in/)
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 [View Full List (PDF/Image)](social/institutions_list.png){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #7c3aed; font-weight: 600; font-size: 0.9rem;"}
