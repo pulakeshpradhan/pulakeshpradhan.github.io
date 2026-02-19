@@ -105,18 +105,27 @@ page-layout: full
 
 ## Social Updates
 
-::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 15px; border: 1px solid #eee; padding: 15px; border-radius: 10px; margin-bottom: 20px;"}
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 15px; border: 1px solid rgba(0,0,0,0.05); padding: 20px; border-radius: 12px; margin-bottom: 20px; background: #f0f7ff;"}
 ::: {}
-**IASP 2026 Conference**
-Western Regional Conference on Demographic Transition.
-[Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5) | [View PDF](social/population_iasp_2026.pdf)
+**XXII INQUA Congress 2027 India**
+Lucknow, India | **Jan 28 - Feb 3, 2027**
+[Register Now](https://register.inquaindia2027.in/)
 :::
 ::: {}
-[![](images/academic_course.jpg){style="border-radius: 5px;"}](social/population_iasp_2026.pdf)
+[![](https://framerusercontent.com/images/Wi4L9x9xNpZwAWcwIW4zC1GU6lY.png?scale-down-to=1024&width=1992&height=2008){style="border-radius: 8px;"}](https://www.inquaindia2027.in/)
 :::
 :::
 
-[<i class="bi bi-arrow-right-circle"></i> View LinkedIn Post](https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5){.social-btn}
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 15px; border: 1px solid rgba(0,0,0,0.05); padding: 20px; border-radius: 12px; margin-bottom: 20px; background: #fff9f0;"}
+::: {}
+**IASP 2026 Conference**
+Goa University | **March 20-21, 2026**
+[Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5)
+:::
+::: {}
+[![](images/academic_course.jpg){style="border-radius: 8px;"}](social/population_iasp_2026.pdf)
+:::
+:::
 
 [<i class="bi bi-arrow-right-circle"></i> View all updates](social.qmd){.social-btn .mt-2}
 
