@@ -85,5 +85,20 @@
   },
   "posts/2026_02_16_social_vs_spatial/index.qmd": {
     "index.html": "5e4a81fa"
+  },
+  "books/ml-remote-sensing.qmd": {
+    "ml-remote-sensing.html": "8c08601b"
+  },
+  "books.qmd": {
+    "books.html": "1bd93dd2"
+  },
+  "posts/2026-02-19-history-geographical-organisations-india/index.qmd": {
+    "index.html": "d52d137c"
+  },
+  "posts/2026_02_17_modern_geospatial_python_ai/index.qmd": {
+    "index.html": "32d89741"
+  },
+  "social.qmd": {
+    "social.html": "53964cd1"
   }
 }
