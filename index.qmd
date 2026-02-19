@@ -105,6 +105,20 @@ page-layout: full
 
 ## Social Updates
 
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 15px; border: 1px solid rgba(0,0,0,0.05); padding: 20px; border-radius: 12px; margin-bottom: 20px; background: #f0fdf4;"}
+::: {}
+### GEE AI Assistant: 4k+ Global Users!
+**Google Earth Engine Coding Companion**
+
+We are thrilled to announce that the **GEE AI Assistant** now has over **4,000+ worldwide users** from **134 countries**. Thank you for trust and support in building this Gemini-powered geospatial community!
+
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb){.social-btn style="background: #15803d; color: white; border: none; font-size: 0.8rem;"}
+:::
+::: {}
+[![](images/geeaiassistantusers.png){style="border-radius: 8px;"}](https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb)
+:::
+:::
+
 ::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 15px; border: 1px solid rgba(0,0,0,0.05); padding: 20px; border-radius: 12px; margin-bottom: 20px; background: #f0f7ff;"}
 ::: {}
 **XXII INQUA Congress 2027 India**
