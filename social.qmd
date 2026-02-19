@@ -9,6 +9,22 @@ page-layout: full
 
 ::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;"}
 ::: {.social-content}
+### XXII INQUA Congress 2027 India
+**“Quaternary Science As Societal Services”**
+Lucknow, India | **January 28 - February 3, 2027**
+
+The XXII INQUA Congress 2027 brings together researchers, scholars, and practitioners from across the world to advance our understanding of Earth’s past environments, climate systems, and human interactions.
+
+[Register Now](https://register.inquaindia2027.in/){.social-btn}
+[Call for Submissions](https://www.inquaindia2027.in/call-submissions){.social-btn}
+:::
+::: {.social-media style="display: flex; align-items: center;"}
+[![](https://www.inquaindia2027.in/images/logo.png){style="border-radius: 8px; width: 100%;"}](https://www.inquaindia2027.in/)
+:::
+:::
+
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;"}
+::: {.social-content}
 ### Western Regional Conference: IASP 2026
 **“Demographic Transition in Western India”**
 Organized jointly with **Goa Business School, Goa University**
@@ -24,7 +40,7 @@ Organized jointly with **Goa Business School, Goa University**
 [Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5){.social-btn}
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](images/academic_course.jpg){style="border-radius: 8px; width: 100%;"}](social/population_iasp_2026.pdf)
+[![](social/population_iasp_2026.pdf){style="border-radius: 8px; width: 100%;"}](social/population_iasp_2026.pdf)
 :::
 :::
 
