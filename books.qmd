@@ -48,7 +48,7 @@ A guide to current satellite remote sensing technology and and apply it.
 ::: {.software-grid}
 
 ::: {.resource-card}
-### [ML for Remote Sensing (ICLR 2023)](resources/ml-remote-sensing.qmd){.stretched-link}
+### [ML for Remote Sensing (ICLR 2023)](books/ml-remote-sensing.qmd){.stretched-link}
 Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.
 :::
 
