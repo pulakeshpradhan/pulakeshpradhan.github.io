@@ -33,7 +33,7 @@ website:
         text: Courses
       - href: journals.qmd
         text: Journals
-      - href: resources/index.qmd
+      - href: books.qmd
         text: Books
       - href: cv.qmd
         text: CV
