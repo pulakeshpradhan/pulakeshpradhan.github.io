@@ -34,7 +34,7 @@ website:
       - href: journals.qmd
         text: Journals
       - href: resources/index.qmd
-        text: Resources
+        text: Books
       - href: cv.qmd
         text: CV
       - href: gallery.qmd

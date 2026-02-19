@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Books"
 description: "Categorized research materials, conference summaries, and technical learning resources."
 include-in-header: 
   text: |
