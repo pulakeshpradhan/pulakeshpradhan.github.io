@@ -135,6 +135,7 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 <div class="group-content">
 <div class="group-platform-tag">Facebook Group</div>
 <div class="group-title">Geography- Conference, Webinar & Publication</div>
+<div class="group-stats"><i class="bi bi-people-fill"></i> 2.6k+ Members</div>
 <div class="group-footer">Join Group <i class="bi bi-arrow-right"></i></div>
 </div>
 </a>
@@ -147,6 +148,7 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 <div class="group-content">
 <div class="group-platform-tag">LinkedIn Group</div>
 <div class="group-title">Geography & Google Earth Engine</div>
+<div class="group-stats"><i class="bi bi-people-fill"></i> 180+ Members</div>
 <div class="group-footer">Join Group <i class="bi bi-arrow-right"></i></div>
 </div>
 </a>
@@ -159,6 +161,7 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 <div class="group-content">
 <div class="group-platform-tag">WhatsApp Group</div>
 <div class="group-title">GEE AI Assistant User Group</div>
+<div class="group-stats"><i class="bi bi-people-fill"></i> 80+ Members</div>
 <div class="group-footer">Join Group <i class="bi bi-arrow-right"></i></div>
 </div>
 </a>

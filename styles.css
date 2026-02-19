@@ -1215,7 +1215,21 @@ h2 {
     color: #0f172a;
     font-family: 'Outfit', sans-serif;
     line-height: 1.3;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+}
+
+.group-stats {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+
+.group-stats i {
+    color: var(--brand-secondary);
 }
 
 .group-footer {
