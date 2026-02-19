@@ -65,7 +65,7 @@ listing:
   - id: social-updates
     contents: social
     sort: "date desc"
-    type: grid
+    type: default
     max-items: 3
     categories: false
 page-layout: full

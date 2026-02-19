@@ -1,7 +1,8 @@
 ---
-title: "Social Update"
+title: "LinkedIn: Gemini vs ChatGPT in GEE"
 date: "2026-02-19"
 image: "images/GEE AI Assistant 1.jpg"
+path: "https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5"
 ---
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7384877330587947010" height="800" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7384877330587947010" height="600" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
