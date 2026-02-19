@@ -1,7 +1,45 @@
 ---
 title: "Social Updates"
-listing:
-  contents: social
-  sort: "date desc"
-  type: grid
+page-layout: full
 ---
+
+::: {.column-page}
+
+## 📱 Social Feed
+
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;"}
+::: {.social-content}
+### Western Regional Conference: IASP 2026
+**“Demographic Transition in Western India”**
+Organized jointly with **Goa Business School, Goa University**
+
+**Dates:** March 20-21, 2026
+
+| Event | Date |
+|-------|------|
+| Abstract Submission | 15th Feb, 2026 |
+| Registration | 18th - 25th Feb |
+| Full paper | 10th March, 2026 |
+
+[Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5){.social-btn}
+:::
+::: {.social-media style="display: flex; align-items: center;"}
+[![](images/academic_course.jpg){style="border-radius: 8px; width: 100%;"}](social/population_iasp_2026.pdf)
+:::
+:::
+
+::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;"}
+::: {.social-content}
+### AI in Geospatial: Gemini vs ChatGPT
+Comparing the roles of Gemini and ChatGPT in modern geospatial workflows and Google Earth Engine.
+
+*Posted on LinkedIn*
+
+[View Original Post](https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5){.social-btn}
+:::
+::: {.social-media style="display: flex; align-items: center;"}
+[![](images/GEE AI Assistant 1.jpg){style="border-radius: 8px; width: 100%;"}](https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5)
+:::
+:::
+
+:::
