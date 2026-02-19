@@ -29,35 +29,38 @@ The following directory provides a detailed look at the major geographical assoc
 
 | Name of the Association/Society | Estd. Year | Host Institution / Location | Key Representative(s) |
 |:---|:---:|:---|:---|
-| **The Indian Geographical Society (IGS)** | 1926 | University of Madras, Chennai | Prof. N. Sivagnanam & Prof. R. Jaganathan |
-| **Geographical Society of India (GSI)** | 1933 | University of Calcutta, Kolkata | Prof. A. R. Ghosh & Prof. L. Sivaramakrishnan |
-| **National Geographical Society of India (NGSI)** | 1946 | Banaras Hindu University, Varanasi | Prof. A.K. Singh |
-| **Deccan Geographical Society** | 1962 | Savitribai Phule Pune University | Prof. B. C. Vaidya |
-| **North-East India Geographical Society (NEIGS)** | 1968 | Gauhati University, Guwahati | Prof. Abani K. Bhagabati & Prof. Bimal K. Kar |
-| **National Association of Geographers (NAGI)** | 1978 | Delhi School of Economics, New Delhi | Prof. S.C. Rai |
-| **Association of Population Geographers of India** | 1978 | Panjab University, Chandigarh | Prof. Krishna Mohan & Prof. Surya Kant |
-| **Institute of Indian Geographers (IIG)** | 1979 | Pune University, Pune | Prof. Ravindra Jaybhaye |
-| **Institute of Landscape, Ecology and Ekistics (ILEE)** | 1983 | Kolkata | Prof. L. N. Satpati |
-| **Maharashtra Bhugolshastra Parishad** | 1984 | Pune | Prof. Praveen Saptarshi |
-| **Indian Institute of Geomorphologists (IGI)** | 1988 | University of Allahabad, Prayagraj | Prof. Sunil Kumar De |
-| **Indian Society of Geomatics (ISG)** | 1993 | Space Applications Centre (ISRO), Ahmedabad | - |
+| **[The Indian Geographical Society (IGS)](http://www.igschennai.org/)** | 1926 | University of Madras, Chennai | Prof. N. Sivagnanam & Prof. R. Jaganathan |
+| **[Geographical Society of India (GSI)](http://geographicalsocietyofindia.org.in/)** | 1933 | University of Calcutta, Kolkata | Prof. A. R. Ghosh & Prof. L. Sivaramakrishnan |
+| **[National Geographical Society of India (NGSI)](http://ngsi.in/)** | 1946 | Banaras Hindu University, Varanasi | Prof. A.K. Singh |
+| **[Deccan Geographical Society](http://www.dgsi.org.in/)** | 1962 | Savitribai Phule Pune University | Prof. B. C. Vaidya |
+| **[North-East India Geographical Society (NEIGS)](http://neigs.org.in/)** | 1968 | Gauhati University, Guwahati | Prof. Abani K. Bhagabati & Prof. Bimal K. Kar |
+| **[National Association of Geographers (NAGI)](http://nagi.org.in/)** | 1978 | Delhi School of Economics, New Delhi | Prof. S.C. Rai |
+| **[Association of Population Geographers of India](http://apgi.in/)** | 1978 | Panjab University, Chandigarh | Prof. Krishna Mohan & Prof. Surya Kant |
+| **[Institute of Indian Geographers (IIG)](http://iigpune.in/)** | 1979 | Pune University, Pune | Prof. Ravindra Jaybhaye |
+| **[Institute of Landscape, Ecology and Ekistics (ILEE)](http://ilee.org.in/)** | 1983 | Kolkata | Prof. L. N. Satpati |
+| **[Maharashtra Bhugolshastra Parishad](http://mbpune.org/)** | 1984 | Pune | Prof. Praveen Saptarshi |
+| **[Indian Institute of Geomorphologists (IGI)](http://www.indiageomorph.org/)** | 1988 | University of Allahabad, Prayagraj | Prof. Sunil Kumar De |
+| **[Indian Society of Geomatics (ISG)](http://isgindia.org/)** | 1993 | Space Applications Centre (ISRO), Ahmedabad | - |
 | **Geographical Association of Mizoram** | 2001 | Mizoram University, Aizawl | Prof. Vishwambhar Prasad Sati |
-| Aligarh Geographical Society | 1924* | AMU, Aligarh | Prof. Ateeque Ahmed |
-| Allahabad Geographical Society | - | Allahabad University | Prof. Manorama Sinha |
-| Association of Bengal Geographers | 1970* | Burdwan University | Prof. N. C. Jana |
-| Association of Geographers in Bihar & Jharkhand | - | Patna University | Prof. Devender Prasad Singh |
-| AGTI Trust | 1963 | Chennai | Dr. Saraswathi Ragunathan |
-| Association of Marketing Geographers | - | Gorakhpur | Prof. V.K. Srivatsava |
-| Association of Punjab Geographers | - | Patiala | Prof. H. S. Mangat |
-| The Bombay Geographical Association | 1935 | Mumbai | Prof. S. V. Chawan & Prof. S. Ebeneezer |
-| Eastern Geographical Society | - | Utkal University, Bhubaneswar | Prof. G. K. Panda |
-| Himachal Pradesh Geographical Society | - | HPU, Shimla | Prof. B. R. Thakur |
-| Konkan Geographers Association | - | Sindhudurg | Prof. R.B. Patil |
-| Telengana Geographical Society | - | Hyderabad | Dr. R. Sudhakar Goud & Dr. Mohd. Akhter Ali |
-| Union of Geographic Information Technologists (UGIT) | 2000s | Bangalore University | Prof. Ashok Hanjagi |
-| Uttar Bharat Bhoogol Parishad | - | Gorakhpur | Prof. V. K. Srivatsava |
+| **[Aligarh Geographical Society](https://www.amu.ac.in/department/geography)** | 1924* | AMU, Aligarh | Prof. Ateeque Ahmed |
+| **[Allahabad Geographical Society](https://allduniv.ac.in/department-of-geography)** | - | Allahabad University | Prof. Manorama Sinha |
+| **Association of Bengal Geographers** | 1970* | Burdwan University | Prof. N. C. Jana |
+| **[Association of Geographers in Bihar & Jharkhand](http://agbj.org.in/)** | - | Patna University | Prof. Devender Prasad Singh |
+| **AGTI Trust** | 1963 | Chennai | Dr. Saraswathi Ragunathan |
+| **Association of Marketing Geographers** | - | Gorakhpur | Prof. V.K. Srivatsava |
+| **Association of Punjab Geographers** | - | Patiala | Prof. H. S. Mangat |
+| **The Bombay Geographical Association** | 1935 | Mumbai | Prof. S. V. Chawan & Prof. S. Ebeneezer |
+| **Eastern Geographical Society** | - | Utkal University, Bhubaneswar | Prof. G. K. Panda |
+| **Himachal Pradesh Geographical Society** | - | HPU, Shimla | Prof. B. R. Thakur |
+| **[Konkan Geographers Association](http://konkangeographers.org/)** | - | Sindhudurg | Prof. R.B. Patil |
+| **Telengana Geographical Society** | - | Hyderabad | Dr. R. Sudhakar Goud & Dr. Mohd. Akhter Ali |
+| **[Union of Geographic Information Technologists (UGIT)](http://ugit.net.in/)** | 2000s | Bangalore University | Prof. Ashok Hanjagi |
+| **[Uttar Bharat Bhoogol Parishad](http://ubbp.org/)** | - | Gorakhpur | Prof. V. K. Srivatsava |
+| **[Foundation of Practising Geographer](http://practicing-geographer.org/)** | - | Kolkata | Prof. Arun Singh |
+| **[Rajasthan Geographical Association](http://rga.ac.in/)** | - | Bhilwara | Dr. S. S. Bhat |
+| **[Geographers' Association, Goa (GAG)](http://geographersassociationgoa.blogspot.com/)** | - | Goa | Prof. Prabirkumar Rath |
 
-*\*Years marked with asterisks denote departmental establishment or early informal society formations.*
+*Years marked with asterisks denote departmental establishment or early informal society formations.*
 
 ## Modern Era: Geospatial Expansion & GIS
 
