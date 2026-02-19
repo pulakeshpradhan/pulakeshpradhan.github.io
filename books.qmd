@@ -1,6 +1,9 @@
 ---
 title: "Books"
 description: "Categorized research materials, conference summaries, and technical learning resources."
+format:
+  html:
+    link-external-newwindow: true
 include-in-header: 
   text: |
     <script src="assets/js/system-init.js"></script>
@@ -52,12 +55,8 @@ IIT Madras course materials for programming and data structures in Python.
 ::: {.software-grid}
 
 ::: {.resource-card}
-### [Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/){.stretched-link}
-Python-based course for automating geospatial analysis with Geopandas.
-:::
-
-::: {.resource-card}
-### [Cloud-Based RS with GEE](https://www.eefabook.org/){.stretched-link}
+[![](https://www.eefabook.org/images/cover.png){.resource-img}](https://www.eefabook.org/){.stretched-link}
+### [Cloud-Based RS with GEE](https://www.eefabook.org/)
 The fundamental book for learning Google Earth Engine (EEFA Book).
 :::
 
@@ -161,11 +160,6 @@ Techniques for effective spatial sampling in machine learning projects.
 ## Deep Learning
 
 ::: {.software-grid}
-
-::: {.resource-card}
-### [Practical Deep Learning (Fast.ai)](https://course.fast.ai/){.stretched-link}
-Fast.ai's top-tier practical course for applying Deep Learning to real problems.
-:::
 
 ::: {.resource-card}
 ### [<i class="bi bi-rocket-takeoff"></i> fast.ai — Practical Deep Learning](https://www.fast.ai/){.stretched-link}
