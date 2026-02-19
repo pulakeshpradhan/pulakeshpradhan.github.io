@@ -54,6 +54,47 @@ Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2
 
 :::
 
+## Python Programming
+
+::: {.software-grid}
+
+::: {.resource-card}
+[![](https://openscapes.org/images/logo/openscapes_hex_badge.png){.resource-img}](https://boettiger-lab.github.io/nasa-topst-env-justice/){.stretched-link}
+### [Cloud Native Geospatial in R & Python](https://boettiger-lab.github.io/nasa-topst-env-justice/)
+Cloud-native workflows for environmental justice research using R and Python.
+:::
+
+::: {.resource-card}
+[![](https://e-sensing.github.io/sitsbook/images/cover_sits_book_quarto.png){.resource-img}](https://e-sensing.github.io/sitsbook/){.stretched-link}
+### [SITS: Satellite Image Time Series](https://e-sensing.github.io/sitsbook/)
+Analysis of Earth Observation Data Cubes using the sits R package and Python utilities.
+:::
+
+::: {.resource-card}
+### [Python Programming (Gyansetu)](https://gyansetu-python.gitbook.io/python-programming){.stretched-link}
+A comprehensive guide to Python programming from the Gyansetu project.
+:::
+
+::: {.resource-card}
+[![](https://raw.githubusercontent.com/AllenDowney/ThinkPython/v3/think_python_3e.jpg){.resource-img}](https://allendowney.github.io/ThinkPython/){.stretched-link}
+### [Think Python](https://allendowney.github.io/ThinkPython/)
+The classic introduction to Python programming by Allen B. Downey.
+:::
+
+::: {.resource-card}
+### [Intro to Stats with Python](https://allendowney.github.io/ThinkStats/){.stretched-link}
+Introduction to statistics and probability using Python (Think Stats).
+:::
+
+::: {.resource-card}
+[![](https://pypod.github.io/assets/images/logo.png){.resource-img}](https://pypod.github.io/){.stretched-link}
+### [Programming in Python (IIT)](https://pypod.github.io/)
+IIT Madras course materials for programming and data structures in Python.
+:::
+
+:::
+
+
 ## Extra
 
 ::: {.software-grid}
