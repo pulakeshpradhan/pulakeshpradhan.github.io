@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -74,69 +72,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <meta name="google-site-verification" content="nLl3KIj4auOY3L_3kYhBLd9fKTHpzihQI-jRuDM7abQ">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=Outfit:wght@400;700&amp;display=swap" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Social Updates – Pulakesh Pradhan">
@@ -403,14 +343,20 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#social-feed" id="toc-social-feed" class="nav-link active" data-scroll-target="#social-feed">📱 Social Feed</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full column-body" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -420,7 +366,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -432,64 +378,57 @@ window.Quarto = {
 </header>
 
 
+<section id="social-feed" class="level2 column-page">
+<h2 class="anchored" data-anchor-id="social-feed">📱 Social Feed</h2>
+<div class="social-card" style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;">
+<section id="western-regional-conference-iasp-2026" class="level3 social-content">
+<h3 class="anchored" data-anchor-id="western-regional-conference-iasp-2026">Western Regional Conference: IASP 2026</h3>
+<p><strong>“Demographic Transition in Western India”</strong> Organized jointly with <strong>Goa Business School, Goa University</strong></p>
+<p><strong>Dates:</strong> March 20-21, 2026</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Event</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Abstract Submission</td>
+<td>15th Feb, 2026</td>
+</tr>
+<tr class="even">
+<td>Registration</td>
+<td>18th - 25th Feb</td>
+</tr>
+<tr class="odd">
+<td>Full paper</td>
+<td>10th March, 2026</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://forms.gle/dxgmZAGrdk5HdWVw5" class="social-btn">Submit Abstract</a></p>
+</section>
+<div class="social-media" style="display: flex; align-items: center;">
+<p><a href="social/population_iasp_2026.pdf"><img src="images/academic_course.jpg" class="img-fluid" style="border-radius: 8px; width: 100%;"></a></p>
+</div>
+</div>
+<div class="social-card" style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid #eee; padding: 20px; border-radius: 12px; margin-bottom: 30px; background: #fff;">
+<section id="ai-in-geospatial-gemini-vs-chatgpt" class="level3 social-content">
+<h3 class="anchored" data-anchor-id="ai-in-geospatial-gemini-vs-chatgpt">AI in Geospatial: Gemini vs ChatGPT</h3>
+<p>Comparing the roles of Gemini and ChatGPT in modern geospatial workflows and Google Earth Engine.</p>
+<p><em>Posted on LinkedIn</em></p>
+<p><a href="https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5" class="social-btn">View Original Post</a></p>
+</section>
+<div class="social-media" style="display: flex; align-items: center;">
+<p><a href="https://www.linkedin.com/posts/pulakeshpradhan_gemini-chatgpt-activity-7384877330587947010-vZv5"><img src="images/GEE AI Assistant 1.jpg" class="img-fluid" style="border-radius: 8px; width: 100%;"></a></p>
+</div>
+</div>
+</section>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1773964800000" data-listing-file-modified-sort="1771471969901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
-<a href="./social/2026-03-20-iasp-conference.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./social/images/academic_course.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Western Regional Conference: IASP 2026
-</h5>
-<div class="card-text listing-description delink">
-<strong>“Demographic Transition in Western India”</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 20, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1771471969901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-<a href="./social/2026-02-19-gemini-chatgpt.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./social/images/GEE AI Assistant 1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Social Update
-</h5>
-<div class="card-text listing-description delink">
-
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 19, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
