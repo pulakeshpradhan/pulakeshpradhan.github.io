@@ -361,28 +361,35 @@
     "href": "books.html",
     "title": "Books",
     "section": "",
-    "text": "### Cloud Native Geospatial in R & Python Cloud-native workflows I follow for environmental justice research using R and Python.\n\n\n ### SITS: Analysis on EO Data Cubes Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n\nA comprehensive guide to Python programming I recommend from the Gyansetu project.\n\n\n ### Think Python The classic introduction to Python programming by Allen B. Downey.\n\n\n\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n ### Programming in Python (IIT) IIT Madras course materials for programming and data structures in Python."
+    "text": "### SITS: Analysis on EO Data Cubes Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n ### Spatial Analytics Advanced spatial analytics and geocomputation with Python.\n\n\n ### Python for Geocomputation The Python version of the famous Geocomputation with R book.\n\n\n ### PyGIS Docs Comprehensive documentation for Python-based GIS workflows.\n\n\n ### Spatial Prediction using EML Spatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n ### Spatial Sampling for ML Techniques for effective spatial sampling in machine learning projects."
+  },
+  {
+    "objectID": "books.html#selected-books",
+    "href": "books.html#selected-books",
+    "title": "Books",
+    "section": "",
+    "text": "### SITS: Analysis on EO Data Cubes Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n ### Spatial Analytics Advanced spatial analytics and geocomputation with Python.\n\n\n ### Python for Geocomputation The Python version of the famous Geocomputation with R book.\n\n\n ### PyGIS Docs Comprehensive documentation for Python-based GIS workflows.\n\n\n ### Spatial Prediction using EML Spatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n ### Spatial Sampling for ML Techniques for effective spatial sampling in machine learning projects."
   },
   {
     "objectID": "books.html#introduction-to-python-programming",
     "href": "books.html#introduction-to-python-programming",
     "title": "Books",
-    "section": "",
-    "text": "### Cloud Native Geospatial in R & Python Cloud-native workflows I follow for environmental justice research using R and Python.\n\n\n ### SITS: Analysis on EO Data Cubes Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n\nA comprehensive guide to Python programming I recommend from the Gyansetu project.\n\n\n ### Think Python The classic introduction to Python programming by Allen B. Downey.\n\n\n\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n ### Programming in Python (IIT) IIT Madras course materials for programming and data structures in Python."
+    "section": "Introduction to Python Programming",
+    "text": "Introduction to Python Programming\n\n\n ### Cloud Native Geospatial in R & Python Cloud-native workflows I follow for environmental justice research using R and Python.\n\n\nPython Programming (Gyansetu)\nA comprehensive guide to Python programming I recommend from the Gyansetu project.\n\n\n ### Think Python The classic introduction to Python programming by Allen B. Downey.\n\n\nIntro to Stats with Python\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n ### Programming in Python (IIT) IIT Madras course materials for programming and data structures in Python."
   },
   {
     "objectID": "books.html#geospatial-python-programming",
     "href": "books.html#geospatial-python-programming",
     "title": "Books",
     "section": "Geospatial Python Programming",
-    "text": "Geospatial Python Programming\n\n\n ### Cloud-Based RS with GEE The fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n ### Spatial Analytics Advanced spatial analytics and geocomputation with Python.\n\n\n ### Applied Geostatistics in Python A hands-on guide to applied geostatistics with Python implementations.\n\n\n ### Python for Geocomputation The Python version of the famous Geocomputation with R book.\n\n\n ### Geographic Data Science A modern approach to data science with geographic information.\n\n\n ### PyGIS Docs Comprehensive documentation for Python-based GIS workflows.\n\n\n ### AutoGIS — Automating GIS One of my favorite resources for automating GIS processes with Python.\n\n\n Foundations of Spatial Data Science\nCore principles and applications of spatial data science as I understand them.\n\n\n GeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
+    "text": "Geospatial Python Programming\n\n\n ### Cloud-Based RS with GEE The fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n ### Applied Geostatistics in Python A hands-on guide to applied geostatistics with Python implementations.\n\n\n ### Geographic Data Science A modern approach to data science with geographic information.\n\n\n ### AutoGIS — Automating GIS One of my favorite resources for automating GIS processes with Python.\n\n\n Foundations of Spatial Data Science\nCore principles and applications of spatial data science as I understand them.\n\n\n GeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
   },
   {
     "objectID": "books.html#machine-learning",
     "href": "books.html#machine-learning",
     "title": "Books",
     "section": "Machine Learning",
-    "text": "Machine Learning\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n ### Python for Geospatial Analysis Integrating machine learning workflows into geospatial analysis.\n\n\n ### Spatial Prediction using EML Spatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n ### ML in the Geosciences Applications of machine learning in earth and geospatial sciences.\n\n\n ### Applied ML in Python A hands-on guide with code for applied machine learning.\n\n\n ### Advanced Geospatial Analytics Advanced techniques for geospatial data science and analytics.\n\n\n ### Spatial Sampling for ML Techniques for effective spatial sampling in machine learning projects."
+    "text": "Machine Learning\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n ### Python for Geospatial Analysis Integrating machine learning workflows into geospatial analysis.\n\n\n ### ML in the Geosciences Applications of machine learning in earth and geospatial sciences.\n\n\n ### Applied ML in Python A hands-on guide with code for applied machine learning.\n\n\n ### Advanced Geospatial Analytics Advanced techniques for geospatial data science and analytics."
   },
   {
     "objectID": "books.html#deep-learning",
