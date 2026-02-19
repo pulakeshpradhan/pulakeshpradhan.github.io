@@ -36,10 +36,7 @@ Goa Business School, Goa University | **March 20-21, 2026**
 
 A premier conference focusing on the demographic shifts and socio-economic transitions in Western India.
 
-**📅 Important Deadlines:**
-*   **Abstract Submission:** 15th Feb, 2026
-*   **Registration:** 18th - 25th Feb, 2026
-*   **Full Paper:** 10th March, 2026
+**📅 Last Date for Online Abstract Submission:** 15th February, 2026
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 [Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #d35400; font-weight: 600; font-size: 0.9rem;"}
