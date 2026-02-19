@@ -15,36 +15,42 @@ include-in-header:
 
 ::: {.resource-card}
 [![](https://e-sensing.github.io/sitsbook/images/cover_sits_book_quarto.png){.resource-img}](https://e-sensing.github.io/sitsbook/){.stretched-link}
+
 ### [SITS: Analysis on EO Data Cubes](https://e-sensing.github.io/sitsbook/)
 Satellite Image Time Series analysis on Earth Observation data cubes.
 :::
 
 ::: {.resource-card}
 [![](https://spatial-analytics.readthedocs.io/en/latest/_static/Aalto-logo.png){.resource-img}](https://spatial-analytics.readthedocs.io/en/latest/index.html){.stretched-link}
+
 ### [Spatial Analytics](https://spatial-analytics.readthedocs.io/en/latest/index.html)
 Advanced spatial analytics and geocomputation with Python.
 :::
 
 ::: {.resource-card}
 [![](https://geocompx.org/static/img/book_cover_py.png){.resource-img}](https://py.geocompx.org/){.stretched-link}
+
 ### [Python for Geocomputation](https://py.geocompx.org/)
 The Python version of the famous Geocomputation with R book.
 :::
 
 ::: {.resource-card}
 [![](https://pygis.io/_static/pygis.png){.resource-img}](https://pygis.io/docs/a_intro.html#){.stretched-link}
+
 ### [PyGIS Docs](https://pygis.io/docs/a_intro.html#)
 Comprehensive documentation for Python-based GIS workflows.
 :::
 
 ::: {.resource-card}
 [![](https://opengeohub.github.io/spatial-prediction-eml/img/Fig_space_time_cube.png){.resource-img}](https://opengeohub.github.io/spatial-prediction-eml/index.html){.stretched-link}
+
 ### [Spatial Prediction using EML](https://opengeohub.github.io/spatial-prediction-eml/index.html)
 Spatial and spatiotemporal interpolation using Ensemble Machine Learning.
 :::
 
 ::: {.resource-card}
 [![](https://opengeohub.github.io/spatial-sampling-ml/img/Fig_PCA_components_Ebergotzen.png){.resource-img}](https://opengeohub.github.io/spatial-sampling-ml/index.html){.stretched-link}
+
 ### [Spatial Sampling for ML](https://opengeohub.github.io/spatial-sampling-ml/index.html)
 Techniques for effective spatial sampling in machine learning projects.
 :::
@@ -58,6 +64,7 @@ Techniques for effective spatial sampling in machine learning projects.
 
 ::: {.resource-card}
 [![](https://openscapes.org/images/logo/openscapes_hex_badge.png){.resource-img}](https://boettiger-lab.github.io/nasa-topst-env-justice/){.stretched-link}
+
 ### [Cloud Native Geospatial in R & Python](https://boettiger-lab.github.io/nasa-topst-env-justice/)
 Cloud-native workflows I follow for environmental justice research using R and Python.
 :::
@@ -70,6 +77,7 @@ A comprehensive guide to Python programming I recommend from the Gyansetu projec
 
 ::: {.resource-card}
 [![](https://raw.githubusercontent.com/AllenDowney/ThinkPython/v3/think_python_3e.jpg){.resource-img}](https://allendowney.github.io/ThinkPython/){.stretched-link}
+
 ### [Think Python](https://allendowney.github.io/ThinkPython/)
 The classic introduction to Python programming by Allen B. Downey.
 :::
@@ -81,6 +89,7 @@ Introduction to statistics and probability using Python (Think Stats).
 
 ::: {.resource-card}
 [![](https://pypod.github.io/assets/images/logo.png){.resource-img}](https://pypod.github.io/){.stretched-link}
+
 ### [Programming in Python (IIT)](https://pypod.github.io/)
 IIT Madras course materials for programming and data structures in Python.
 :::
@@ -94,6 +103,7 @@ IIT Madras course materials for programming and data structures in Python.
 
 ::: {.resource-card}
 [![](https://www.eefabook.org/images/cover.png){.resource-img}](https://www.eefabook.org/){.stretched-link}
+
 ### [Cloud-Based RS with GEE](https://www.eefabook.org/)
 The fundamental book for learning Google Earth Engine (EEFA Book).
 :::
@@ -101,6 +111,7 @@ The fundamental book for learning Google Earth Engine (EEFA Book).
 
 ::: {.resource-card}
 [![](https://geostatsguy.github.io/GeostatsPyDemos_Book/_static/AppliedGeostats.jpg){.resource-img}](https://geostatsguy.github.io/GeostatsPyDemos_Book/intro.html){.stretched-link}
+
 ### [Applied Geostatistics in Python](https://geostatsguy.github.io/GeostatsPyDemos_Book/intro.html)
 A hands-on guide to applied geostatistics with Python implementations.
 :::
@@ -108,6 +119,7 @@ A hands-on guide to applied geostatistics with Python implementations.
 
 ::: {.resource-card}
 [![](https://images.routledge.com/common/jackets/crclarge/978103244/9781032445953.jpg){.resource-img}](https://geographicdata.science/book/intro.html){.stretched-link}
+
 ### [Geographic Data Science](https://geographicdata.science/book/intro.html)
 A modern approach to data science with geographic information.
 :::
@@ -115,6 +127,7 @@ A modern approach to data science with geographic information.
 
 ::: {.resource-card}
 [![](https://autogis-site.readthedocs.io/en/latest/_static/AutoGIS.PNG){.resource-img}](https://autogis-site.readthedocs.io/en/latest/#){.stretched-link}
+
 ### [AutoGIS — Automating GIS](https://autogis-site.readthedocs.io/en/latest/#)
 One of my favorite resources for automating GIS processes with Python.
 :::
@@ -143,6 +156,7 @@ Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2
 
 ::: {.resource-card}
 [![](https://www.tomasbeuzen.com/python-for-geospatial-analysis/_images/logo.png){.resource-img}](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html){.stretched-link}
+
 ### [Python for Geospatial Analysis](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html)
 Integrating machine learning workflows into geospatial analysis.
 :::
@@ -150,18 +164,21 @@ Integrating machine learning workflows into geospatial analysis.
 
 ::: {.resource-card}
 [![](https://geo-smart.github.io/mlgeo-book/_static/GeoSMART_logo.svg){.resource-img}](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html){.stretched-link}
+
 ### [ML in the Geosciences](https://geo-smart.github.io/mlgeo-book/about_this_book/about_this_book.html)
 Applications of machine learning in earth and geospatial sciences.
 :::
 
 ::: {.resource-card}
 [![](https://geostatsguy.github.io/MachineLearningDemos_Book/_static/AppliedMachineLearning.jpg){.resource-img}](https://geostatsguy.github.io/MachineLearningDemos_Book/intro.html){.stretched-link}
+
 ### [Applied ML in Python](https://geostatsguy.github.io/MachineLearningDemos_Book/intro.html)
 A hands-on guide with code for applied machine learning.
 :::
 
 ::: {.resource-card}
 [![](https://hamedalemo.github.io/advanced-geo-python/_static/logo.png){.resource-img}](https://hamedalemo.github.io/advanced-geo-python/intro.html){.stretched-link}
+
 ### [Advanced Geospatial Analytics](https://hamedalemo.github.io/advanced-geo-python/intro.html)
 Advanced techniques for geospatial data science and analytics.
 :::
@@ -203,12 +220,14 @@ Documentation and tutorials for high-level deep learning with Keras.
 
 ::: {.resource-card}
 [![](https://filippomb.github.io/python-time-series-handbook/_static/logo.png){.resource-img}](https://filippomb.github.io/python-time-series-handbook/notebooks/00/intro.html#){.stretched-link}
+
 ### [Time Series Analysis with Python](https://filippomb.github.io/python-time-series-handbook/notebooks/00/intro.html#)
 A comprehensive handbook for time series analysis in the Python ecosystem.
 :::
 
 ::: {.resource-card}
 [![](https://otexts.com/fpp2/fpp2_cover.jpg){.resource-img}](https://otexts.com/fpp2/){.stretched-link}
+
 ### [Forecasting: Principles & Practice](https://otexts.com/fpp2/)
 The fundamental textbook for forecasting principles using Python and R.
 :::
@@ -294,6 +313,7 @@ The authoritative guide I recommend for mastering the Python language.
 
 ::: {.resource-card}
 [![](https://placehold.co/100x60/cccccc/333333?text=Cover){.resource-img}](https://jovian.com/learn/data-analysis-with-python-zero-to-pandas){.stretched-link}
+
 ### [Zero to Pandas](https://jovian.com/learn/data-analysis-with-python-zero-to-pandas)
 A practical introduction to data analysis with Python and Pandas.
 :::
