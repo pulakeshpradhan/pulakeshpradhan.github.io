@@ -1106,3 +1106,172 @@ h2 {
         font-size: 1.2rem;
     }
 }
+
+/* Groups I Manage Section */
+.groups-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .groups-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.group-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 24px;
+    border-radius: 14px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left: 5px solid #e2e8f0;
+    text-decoration: none !important;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.group-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    pointer-events: none;
+    border-radius: 14px;
+}
+
+.group-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.group-card:hover::before {
+    opacity: 1;
+}
+
+/* Facebook */
+.group-card-facebook {
+    border-left-color: #1877F2;
+}
+
+.group-card-facebook .group-icon {
+    color: #1877F2;
+    background: rgba(24, 119, 242, 0.08);
+}
+
+.group-card-facebook::before {
+    background: linear-gradient(135deg, rgba(24, 119, 242, 0.04) 0%, transparent 60%);
+}
+
+.group-card-facebook:hover {
+    border-left-color: #1877F2;
+    border-color: rgba(24, 119, 242, 0.3);
+}
+
+/* LinkedIn */
+.group-card-linkedin {
+    border-left-color: #0A66C2;
+}
+
+.group-card-linkedin .group-icon {
+    color: #0A66C2;
+    background: rgba(10, 102, 194, 0.08);
+}
+
+.group-card-linkedin::before {
+    background: linear-gradient(135deg, rgba(10, 102, 194, 0.04) 0%, transparent 60%);
+}
+
+.group-card-linkedin:hover {
+    border-left-color: #0A66C2;
+    border-color: rgba(10, 102, 194, 0.3);
+}
+
+/* WhatsApp */
+.group-card-whatsapp {
+    border-left-color: #25D366;
+}
+
+.group-card-whatsapp .group-icon {
+    color: #25D366;
+    background: rgba(37, 211, 102, 0.08);
+}
+
+.group-card-whatsapp::before {
+    background: linear-gradient(135deg, rgba(37, 211, 102, 0.04) 0%, transparent 60%);
+}
+
+.group-card-whatsapp:hover {
+    border-left-color: #25D366;
+    border-color: rgba(37, 211, 102, 0.3);
+}
+
+.group-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.group-card:hover .group-icon {
+    transform: scale(1.1);
+}
+
+.group-icon svg {
+    width: 32px;
+    height: 32px;
+}
+
+.group-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.group-platform {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+}
+
+.group-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1e293b;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.3;
+}
+
+.group-arrow {
+    color: #cbd5e1;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.group-card:hover .group-arrow {
+    transform: translateX(4px);
+}
+
+.group-card-facebook:hover .group-arrow { color: #1877F2; }
+.group-card-linkedin:hover .group-arrow { color: #0A66C2; }
+.group-card-whatsapp:hover .group-arrow { color: #25D366; }
