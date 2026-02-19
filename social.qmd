@@ -24,7 +24,7 @@ The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessio
 </div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](social/inqua_2027.png){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://www.inquaindia2027.in/)
+[![](https://framerusercontent.com/images/Wi4L9x9xNpZwAWcwIW4zC1GU6lY.png?scale-down-to=1024&width=1992&height=2008){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://www.inquaindia2027.in/)
 :::
 :::
 
