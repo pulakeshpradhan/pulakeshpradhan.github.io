@@ -30,7 +30,8 @@ My Gemini-powered assistant helps researchers and developers write Earth Engine 
 ::: {.social-content}
 ### XXII INQUA Congress 2027 India
 **“Quaternary Science As Societal Services”**
-Lucknow, India | **January 28 - February 3, 2027**
+**📍 Location:** Lucknow, India
+**📅 Date:** January 28 - February 3, 2027
 
 The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessions**, **21 Workshops**, and **46 Field Trips**. Funding available for participants.
 
@@ -51,7 +52,8 @@ The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessio
 ::: {.social-content}
 ### Western Regional Conference: IASP 2026
 **“Demographic Transition in Western India”**
-Goa Business School, Goa University | **March 20-21, 2026**
+**📍 Location:** Goa Business School, Goa University
+**📅 Date:** March 20-21, 2026
 
 A premier conference focusing on the demographic shifts and socio-economic transitions in Western India.
 
@@ -71,7 +73,8 @@ A premier conference focusing on the demographic shifts and socio-economic trans
 ::: {.social-content}
 ### National Seminar: Environment, Economy, Culture and Technology
 **“A Way Forward to Viksit Bharat”**
-Dr. Ghanshyam Singh Mahavidyalaya, Varanasi | **March 16-17, 2026**
+**📍 Location:** Dr. Ghanshyam Singh Mahavidyalaya, Varanasi
+**📅 Date:** March 16-17, 2026
 
 Organized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.
 
