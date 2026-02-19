@@ -83,12 +83,12 @@ Organized by the Department of Geography. This seminar invites abstracts for ora
 *   **Full Paper Submission:** 12th March, 2026
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
-[Register Now](https://forms.gle/your-google-form-link){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #854d0e; font-weight: 600; font-size: 0.9rem;"}
+[Register Now](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #854d0e; font-weight: 600; font-size: 0.9rem;"}
 [Contact Details](#){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #854d0e; font-weight: 600; font-size: 0.9rem;"}
 </div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](social/viksit_bharat_seminar.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/viksit_bharat_seminar.jpg)
+[![](social/gsmsl.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/viksit_bharat_seminar.jpg)
 :::
 :::
 
