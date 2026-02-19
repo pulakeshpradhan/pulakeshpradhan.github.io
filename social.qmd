@@ -28,11 +28,11 @@ My Gemini-powered assistant helps researchers and developers write Earth Engine 
 
 ### 📅 Upcoming Events Summary
 
-| Event Name | Location | Dates | Action |
-| :--- | :--- | :--- | :--- |
-| **National Seminar (Viksit Bharat)** | Varanasi, Uttar Pradesh | March 16–17, 2026 | [Register](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform) |
-| **IASP 2026 Regional Conference** | Goa University, Goa | March 20–21, 2026 | [Submit](https://forms.gle/dxgmZAGrdk5HdWVw5) |
-| **XXII INQUA Congress 2027** | Lucknow, India | Jan 28 – Feb 3, 2027 | [Register](https://register.inquaindia2027.in/) |
+| Event Name | Location | Dates | Deadline | Action |
+| :--- | :--- | :--- | :--- | :--- |
+| **National Seminar (Viksit Bharat)** | Varanasi, UP | March 16–17, 2026 | **March 9, 2026** | [Register](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform) |
+| **IASP 2026 Regional Conference** | Goa University | March 20–21, 2026 | **Feb 15, 2026** | [Submit](https://forms.gle/dxgmZAGrdk5HdWVw5) |
+| **XXII INQUA Congress 2027** | Lucknow, India | Jan 28 – Feb 3, 2027 | **March 31, 2026** | [Register](https://register.inquaindia2027.in/) |
 
 <br>
 
