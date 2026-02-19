@@ -57,6 +57,23 @@ The table below lists historical and contemporary geographical associations in I
 
 *\*Years marked with asterisks denote early informal society formations or departmental origins.*
 
+## Prominent Geography Journals in India
+
+Scholarship in Indian geography is largely disseminated through peer-reviewed journals published by the various societies. These journals have historically been the repository of spatial data and regional analysis in India (Shodhganga, 2020).
+
+| Journal Name | Frequency | Publishing Body | Indexing / Status |
+|:-------------------------------------------|:-----------:|:--------------------------|:----------------------------|
+| **Annals of the NAGI** | Bi-annual | [NAGI](https://sites.google.com/view/nagiorgin/home) | UGC-CARE Listed |
+| **Transactions of the IIG** | Bi-annual | [IIG Pune](https://unipune.ac.in/dept/science/geography/default.htm) | Scopus Indexed, UGC-CARE |
+| **Indian Geographical Journal** | Bi-annual | [IGS Chennai](http://igschennai.org/) | UGC-CARE Listed |
+| **Geographical Review of India** | Quarterly | [GSI Kolkata](http://geographicalsocietyofindia.org.in/) | Peer-reviewed |
+| **National Geographical Journal of India** | Quarterly | [NGSI Varanasi](http://ngsi.in/) | Peer-reviewed |
+| **The Deccan Geographer** | Bi-annual | [Deccan Geog. Society](http://dgsi.org.in/) | UGC-CARE Listed |
+| **Population Geography** | Bi-annual | [APGI Chandigarh](http://apgin.org/) | UGC-CARE Listed |
+| **Journal of Indian Geomorphology** | Annual | [IGI Allahabad](http://www.indiageomorph.org/) | UGC-CARE Listed |
+| **Uttar Bharat Bhoogol Patrika** | Bi-annual | [UBBP Gorakhpur](http://ubbp.org/) | Regional Peer-reviewed |
+| **The Konkan Geographer** | Bi-annual | [Konkan Geog. Assoc.](http://konkangeographers.org/) | Peer-reviewed |
+
 ## Modern Era: Geospatial Expansion & GIS
 
 In the 21st century, organizations like the **Association of Geospatial Industries (AGI)** and **Indian Society of Geomatics (ISG)** have taken the lead in integrating satellite-based remote sensing, LiDAR, and GIS into the geographical framework (AGI, 2024; ISG, 2024). These organizations foster collaboration between the industry and academia, ensuring that Indian geographers are at the forefront of the global spatial revolution.
