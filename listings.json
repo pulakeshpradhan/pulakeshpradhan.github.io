@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
+      "/posts/2026-02-19-history-geographical-organisations-india/index.html",
+      "/posts/2026_02_17_modern_geospatial_python_ai/index.html",
+      "/posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
+      "/posts/2026_02_16_social_vs_spatial/index.html"
+    ]
+  },
+  {
     "listing": "/events.html",
     "items": [
       "/events/gee-workshop-feb-2026.html",
@@ -14,20 +24,10 @@
       "/posts/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
       "/posts/2026-02-19-history-geographical-organisations-india/index.html",
       "/posts/2026_02_17_modern_geospatial_python_ai/index.html",
-      "/posts/2026_02_16_social_vs_spatial/index.html",
       "/posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
+      "/posts/2026_02_16_social_vs_spatial/index.html",
       "/innovations.html",
       "/events/gee-workshop-feb-2026.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
-      "/posts/2026-02-19-history-geographical-organisations-india/index.html",
-      "/posts/2026_02_17_modern_geospatial_python_ai/index.html",
-      "/posts/2026_02_16_social_vs_spatial/index.html",
-      "/posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html"
     ]
   }
 ]
