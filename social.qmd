@@ -26,35 +26,7 @@ My Gemini-powered assistant helps researchers and developers write Earth Engine 
 :::
 :::
 
-::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 40px; background: #fff7ed; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
-::: {.social-content}
-### Unlock Your Future in Tech for FREE!
-**GEE Bootcamp 2026 is officially open for registration!**
-
-Whether you're looking to master the Earth Engine Python API or dive deep into GeoAI, we’ve got you covered.
-
-**Why Join?**
-✅ Senior Mentorship from industry experts.
-✅ Real-world project-based learning.
-✅ 8 weeks of intensive, high-level curriculum.
-✅ No prior experience needed!
-
-From Image Preprocessing to Cloud Security and App Deployment, we are teaching the full stack of planetary-scale analysis.
-
-🚀 **Kick-off:** Feb 21, 2026 | 8:00 PM EAT
-📍 **Where:** Online (GDG for Earth Engine Nairobi)
-
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-[Secure Your Spot](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-earth-engine-python-api-mastery-bootcamp-2026-02-21/){style="background: #ea580c; border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: white; font-weight: 600; font-size: 0.9rem;"}
-[LinkedIn Post](https://lnkd.in/dDQCbCQr){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #ea580c; font-weight: 600; font-size: 0.9rem;"}
-</div>
-:::
-::: {.social-media style="display: flex; align-items: center;"}
-[![](social/geepythonbootcamp.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-earth-engine-python-api-mastery-bootcamp-2026-02-21/)
-:::
-:::
-
-### 📅 Upcoming Events Summary
+###  Upcoming Events Summary
 
 | Event Name | Location | Dates | Deadline | Action |
 | :--- | :--- | :--- | :--- | :--- |
@@ -63,7 +35,6 @@ From Image Preprocessing to Cloud Security and App Deployment, we are teaching t
 | **National Seminar (Viksit Bharat)** | Varanasi, UP | March 16–17, 2026 | <span class="deadline-date" data-date="2026-03-09">March 9, 2026</span> | [Register](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform) |
 | **IASP 2026 Regional Conference** | Goa University | March 20–21, 2026 | <span class="deadline-date" data-date="2026-02-15">Feb 15, 2026</span> | [Submit](https://forms.gle/dxgmZAGrdk5HdWVw5) |
 | **XXII INQUA Congress 2027** | Lucknow, India | Jan 28 – Feb 3, 2027 | <span class="deadline-date" data-date="2026-03-31">March 31, 2026</span> | [Register](https://register.inquaindia2027.in/) |
-| **GEE Bootcamp 2026** | Online (GDG Nairobi) | Feb 21, 2026 | <span class="deadline-date" data-date="2026-02-21">Feb 21, 2026</span> | [Secure Spot](https://gdg.community.dev/events/details/google-gdg-for-earth-engine-nairobi-presents-earth-engine-python-api-mastery-bootcamp-2026-02-21/) |
 
 <br>
 
