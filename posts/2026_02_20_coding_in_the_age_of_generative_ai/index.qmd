@@ -7,7 +7,7 @@ image: "images/header.jpg"
 description: "Why writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill."
 ---
 
-![Generative AI is reshaping how we build software.](images/header.jpg){fig-align="center" width="100%"}
+![Generative AI is reshaping how we build software. (Source: [Unsplash](https://unsplash.com/photos/1677442136019-21780ecad995))](images/header.jpg){fig-align="center" width="100%"}
 
 In the rapidly evolving landscape of software development, the way we approach coding is undergoing a fundamental shift. The age of Generative AI has arrived, and it challenges the traditional notion of a programmer's daily workflow.
 
@@ -21,13 +21,13 @@ Traditionally, coding was often about the physical act of typing out logic, synt
 *   **Studying books on software architecture and design patterns.**
 *   **Following technical blogs to stay updated with best practices.**
 
-![Continuous learning: The secret sauce for successful AI collaboration.](images/learning.jpg){fig-align="center" width="80%"}
+![Continuous learning: The secret sauce for successful AI collaboration. (Source: [Unsplash](https://unsplash.com/photos/1499750310107-5fef28a66643))](images/learning.jpg){fig-align="center" width="80%"}
 
 ## The Crane Analogy: Scaling Your Efforts
 
 Think of coding like moving heavy objects. When you have a small amount of weight to shift, you can easily do it yourself. It's manual, manageable, and requires no special tools. This is analogous to writing a small script or a few lines of logic—you can, and perhaps should, write it yourself to grasp the basics.
 
-![Using the right tools for the job: A crane for heavy lifting, AI for high-volume coding.](images/crane.jpg){fig-align="center" width="80%"}
+![Using the right tools for the job: A crane for heavy lifting, AI for high-volume coding. (Source: [Unsplash](https://unsplash.com/photos/1504307651254-35680f356dfd))](images/crane.jpg){fig-align="center" width="80%"}
 
 However, when you need to move massive loads, you don't rely on your bare hands; you use a **crane** or heavy machinery. Similarly, in modern software development, we are often dealing with hundreds or thousands of lines of code.
 
@@ -38,7 +38,7 @@ However, when you need to move massive loads, you don't rely on your bare hands;
 
 While tools can generate code at lightning speed, they are not infallible. This is where your expertise becomes non-negotiable. **Coding knowledge is a must**, not for the sake of typing, but for **verification**.
 
-![The human expert: Verifying, debugging, and orchestrating AI-generated solutions.](images/verification.jpg){fig-align="center" width="80%"}
+![The human expert: Verifying, debugging, and orchestrating AI-generated solutions. (Source: [Unsplash](https://unsplash.com/photos/1555066931-4365d14bab8c))](images/verification.jpg){fig-align="center" width="80%"}
 
 You must be able to:
 1.  **Check the correctness** of the generated code.
@@ -53,9 +53,9 @@ For many geographers, the word "coding" often sparks a sense of hesitation or ev
 
 However, in this new age, your **spatial thinking is your greatest asset**. 
 
-Generative AI acts as a **translator**. You can describe a complex spatial problem in plain English—"Calculate the NDVI for this region and mask out clouds using Sentinel-2 data"—and the AI can provide the JavaScript or Python code to do it. You no longer need to be a syntax wizard; you need to be a **spatial strategist**.
+Generative AI acts as a **translator**. You can describe a complex spatial problem in plain English—"Calculate the [NDVI](https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index) for this region and mask out clouds using [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2) data"—and the AI can provide the JavaScript or Python code (such as for [Google Earth Engine](https://earthengine.google.com/)) to do it. You no longer need to be a syntax wizard; you need to be a **spatial strategist**.
 
-![Spatial thinking meets AI: Mapping the world without the syntax struggle.](images/geography.jpg){fig-align="center" width="80%"}
+![Spatial thinking meets AI: Mapping the world without the syntax struggle. (Source: [Unsplash](https://unsplash.com/photos/1526778548025-fa2f459cd5c1))](images/geography.jpg){fig-align="center" width="80%"}
 
 By leveraging AI, geographers can:
 *   **Automate repetitive GIS tasks** that used to take hours of manual clicking.
@@ -70,7 +70,7 @@ The future of coding is not about how fast you can type, but how fast you can th
 
 **Read more, write less.** Let the tools handle the volume while you handle the value. Speed up your coding process by leveraging the power of AI, but never neglect the fundamental knowledge that allows you to command it.
 
-![Orchestrating the future: Human intelligence steering digital power.](images/orchestration.jpg){fig-align="center" width="80%"}
+![Orchestrating the future: Human intelligence steering digital power. (Source: [Unsplash](https://unsplash.com/photos/1451187580459-43490279c0fa))](images/orchestration.jpg){fig-align="center" width="80%"}
 
 **Happy Learning!**
 
