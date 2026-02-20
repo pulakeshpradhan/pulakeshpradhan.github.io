@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-02-16">
-<meta name="description" content="A 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.">
+<meta name="author" content="Pulakesh Pradhan">
+<meta name="dcterms.date" content="2026-02-20">
+<meta name="description" content="Why writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill.">
 
-<title>Basics of Google Earth Engine – Pulakesh Pradhan</title>
+<title>Coding in the Age of Generative AI – Pulakesh Pradhan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,28 +26,31 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8fe9a976f888a8542e5e71fa71f27190.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-1ffca06afc3b0e86ff06506b61e5434d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-8fe9a976f888a8542e5e71fa71f27190.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-8fe9a976f888a8542e5e71fa71f27190.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-1ffca06afc3b0e86ff06506b61e5434d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-8fe9a976f888a8542e5e71fa71f27190.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,21 +84,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=Outfit:wght@400;700&amp;display=swap" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Basics of Google Earth Engine – Pulakesh Pradhan">
-<meta property="og:description" content="A 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.">
-<meta property="og:image" content="https://pulakeshpradhan.github.io/images/Events/geelogo.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Coding in the Age of Generative AI – Pulakesh Pradhan">
+<meta property="og:description" content="Why writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill.">
+<meta property="og:image" content="https://pulakeshpradhan.github.io/posts/2026_02_20_coding_in_the_age_of_generative_ai/images/header.jpg">
 <meta property="og:site_name" content="Pulakesh Pradhan">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="512">
-<meta property="og:image:width" content="512">
-<meta name="twitter:title" content="Basics of Google Earth Engine – Pulakesh Pradhan">
-<meta name="twitter:description" content="A 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.">
-<meta name="twitter:image" content="https://pulakeshpradhan.github.io/images/Events/geelogo.png">
+<meta name="twitter:title" content="Coding in the Age of Generative AI – Pulakesh Pradhan">
+<meta name="twitter:description" content="Why writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill.">
+<meta name="twitter:image" content="https://pulakeshpradhan.github.io/posts/2026_02_20_coding_in_the_age_of_generative_ai/images/header.jpg">
 <meta name="twitter:creator" content="@pulakesh_p">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="512">
-<meta name="twitter:image-width" content="512">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -266,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Pulakesh Pradhan</span>
     </a>
   </div>
@@ -277,43 +277,43 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../events.html"> 
+    <a class="nav-link" href="../../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../social.html"> 
+    <a class="nav-link" href="../../social.html"> 
 <span class="menu-text">Social</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../innovations.html"> 
+    <a class="nav-link" href="../../innovations.html"> 
 <span class="menu-text">Innovations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../courses.html"> 
+    <a class="nav-link" href="../../courses.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../journals.html"> 
+    <a class="nav-link" href="../../journals.html"> 
 <span class="menu-text">Journals</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv.html"> 
+    <a class="nav-link" href="../../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../gallery.html"> 
+    <a class="nav-link" href="../../gallery.html"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
 </ul>
@@ -355,7 +355,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#the-paradigm-shift-read-dont-just-write" id="toc-the-paradigm-shift-read-dont-just-write" class="nav-link active" data-scroll-target="#the-paradigm-shift-read-dont-just-write">The Paradigm Shift: Read, Don’t Just Write</a></li>
+  <li><a href="#the-crane-analogy-scaling-your-efforts" id="toc-the-crane-analogy-scaling-your-efforts" class="nav-link" data-scroll-target="#the-crane-analogy-scaling-your-efforts">The Crane Analogy: Scaling Your Efforts</a></li>
+  <li><a href="#the-critical-role-of-the-human-expert" id="toc-the-critical-role-of-the-human-expert" class="nav-link" data-scroll-target="#the-critical-role-of-the-human-expert">The Critical Role of the Human Expert</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   </ul>
 </nav>
     </div>
@@ -365,26 +368,34 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Basics of Google Earth Engine</h1>
+<h1 class="title">Coding in the Age of Generative AI</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Upcoming</div>
+    <div class="quarto-category">Generative AI</div>
+    <div class="quarto-category">Future of coding</div>
+    <div class="quarto-category">Automation</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    A 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.
+    Why writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill.
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Pulakesh Pradhan </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 16, 2026</p>
+      <p class="date">February 20, 2026</p>
     </div>
   </div>
   
@@ -396,21 +407,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Topic:</strong> Basics of Google Earth Engine<br>
-<strong>Trainer:</strong> Pulakesh Pradhan<br>
-<strong>Mode:</strong> Virtual (Online)<br>
-<strong>Host:</strong> Centurion University, Bhubaneswar</p>
-<section id="schedule" class="level2">
-<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
-<p>The workshop will be held from <strong>7:00 PM to 9:30 PM</strong> on the following dates:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/header.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Generative AI is reshaping how we build software."><img src="images/header.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Generative AI is reshaping how we build software."></a></p>
+</figure>
+</div>
+<figcaption>Generative AI is reshaping how we build software.</figcaption>
+</figure>
+</div>
+<p>In the rapidly evolving landscape of software development, the way we approach coding is undergoing a fundamental shift. The age of Generative AI has arrived, and it challenges the traditional notion of a programmer’s daily workflow.</p>
+<section id="the-paradigm-shift-read-dont-just-write" class="level2">
+<h2 class="anchored" data-anchor-id="the-paradigm-shift-read-dont-just-write">The Paradigm Shift: Read, Don’t Just Write</h2>
+<p>The core philosophy of this new era is simple yet profound: <strong>Don’t write code line by line, but understand everything.</strong></p>
+<p>Traditionally, coding was often about the physical act of typing out logic, syntax, and boilerplate. Today, that approach is becoming increasingly inefficient. To truly excel, one must shift their focus from mere writing to deep understanding. This means:</p>
 <ul>
-<li><strong>Monday, Feb 16, 2026</strong></li>
-<li><strong>Wednesday, Feb 18, 2026</strong></li>
-<li><strong>Thursday, Feb 19, 2026</strong></li>
-<li><strong>Saturday, Feb 21, 2026</strong></li>
-<li><strong>Sunday, Feb 22, 2026</strong></li>
+<li><strong>Reading documentation thoroughly.</strong></li>
+<li><strong>Studying books on software architecture and design patterns.</strong></li>
+<li><strong>Following technical blogs to stay updated with best practices.</strong></li>
 </ul>
-<p>This intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/learning.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Continuous learning: The secret sauce for successful AI collaboration."><img src="images/learning.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Continuous learning: The secret sauce for successful AI collaboration."></a></p>
+</figure>
+</div>
+<figcaption>Continuous learning: The secret sauce for successful AI collaboration.</figcaption>
+</figure>
+</div>
+</section>
+<section id="the-crane-analogy-scaling-your-efforts" class="level2">
+<h2 class="anchored" data-anchor-id="the-crane-analogy-scaling-your-efforts">The Crane Analogy: Scaling Your Efforts</h2>
+<p>Think of coding like moving heavy objects. When you have a small amount of weight to shift, you can easily do it yourself. It’s manual, manageable, and requires no special tools. This is analogous to writing a small script or a few lines of logic—you can, and perhaps should, write it yourself to grasp the basics.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/crane.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Using the right tools for the job: A crane for heavy lifting, AI for high-volume coding."><img src="images/crane.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Using the right tools for the job: A crane for heavy lifting, AI for high-volume coding."></a></p>
+</figure>
+</div>
+<figcaption>Using the right tools for the job: A crane for heavy lifting, AI for high-volume coding.</figcaption>
+</figure>
+</div>
+<p>However, when you need to move massive loads, you don’t rely on your bare hands; you use a <strong>crane</strong> or heavy machinery. Similarly, in modern software development, we are often dealing with hundreds or thousands of lines of code.</p>
+<ul>
+<li>Writing thousands of lines line-by-line is a <strong>waste of time and energy</strong>.</li>
+<li>Instead, we should use the “cranes” of our industry—<strong>Generative AI tools</strong>—to do the heavy lifting for us.</li>
+</ul>
+</section>
+<section id="the-critical-role-of-the-human-expert" class="level2">
+<h2 class="anchored" data-anchor-id="the-critical-role-of-the-human-expert">The Critical Role of the Human Expert</h2>
+<p>While tools can generate code at lightning speed, they are not infallible. This is where your expertise becomes non-negotiable. <strong>Coding knowledge is a must</strong>, not for the sake of typing, but for <strong>verification</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/verification.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="The human expert: Verifying, debugging, and orchestrating AI-generated solutions."><img src="images/verification.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="The human expert: Verifying, debugging, and orchestrating AI-generated solutions."></a></p>
+</figure>
+</div>
+<figcaption>The human expert: Verifying, debugging, and orchestrating AI-generated solutions.</figcaption>
+</figure>
+</div>
+<p>You must be able to: 1. <strong>Check the correctness</strong> of the generated code. 2. <strong>Verify the authenticity</strong> and security of the solutions provided. 3. <strong>Debug and refine</strong> the output to fit your specific context.</p>
+<p>If you don’t understand the underlying principles, you cannot effectively judge the quality of the AI’s output. You become a passive consumer rather than an active architect.</p>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>The future of coding is not about how fast you can type, but how fast you can think, verify, and orchestrate.</p>
+<p><strong>Read more, write less.</strong> Let the tools handle the volume while you handle the value. Speed up your coding process by leveraging the power of AI, but never neglect the fundamental knowledge that allows you to command it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/orchestration.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Orchestrating the future: Human intelligence steering digital power."><img src="images/orchestration.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Orchestrating the future: Human intelligence steering digital power."></a></p>
+</figure>
+</div>
+<figcaption>Orchestrating the future: Human intelligence steering digital power.</figcaption>
+</figure>
+</div>
+<p><strong>Happy Learning!</strong></p>
+<hr>
+<p><em>Image Credits: Header by <a href="https://unsplash.com/photos/1677442136019-21780ecad995">Unsplash</a>, Crane by <a href="https://unsplash.com/photos/1504307651254-35680f356dfd">Unsplash</a>, Verification by <a href="https://unsplash.com/photos/1555066931-4365d14bab8c">Unsplash</a>, Learning by <a href="https://unsplash.com/photos/1499750310107-5fef28a66643">Unsplash</a>, and Orchestration by <a href="https://unsplash.com/photos/1451187580459-43490279c0fa">Unsplash</a>.</em></p>
 
 
 </section>
@@ -888,6 +967,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
