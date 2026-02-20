@@ -1,94 +1,45 @@
 [
   {
-    "objectID": "innovations.html",
-    "href": "innovations.html",
-    "title": "Innovations",
+    "objectID": "social.html",
+    "href": "social.html",
+    "title": "Social Updates",
     "section": "",
-    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
+    "text": "Google Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\n\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\n\n\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\n\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details"
   },
   {
-    "objectID": "innovations.html#earth-engine-apps",
-    "href": "innovations.html#earth-engine-apps",
-    "title": "Innovations",
-    "section": "🌍 Earth Engine Apps",
-    "text": "🌍 Earth Engine Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
-  },
-  {
-    "objectID": "innovations.html#python-packages",
-    "href": "innovations.html#python-packages",
-    "title": "Innovations",
-    "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
-  },
-  {
-    "objectID": "innovations.html#r-library",
-    "href": "innovations.html#r-library",
-    "title": "Innovations",
-    "section": "📚 R Library",
-    "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
-  },
-  {
-    "objectID": "innovations.html#extensions-tools",
-    "href": "innovations.html#extensions-tools",
-    "title": "Innovations",
-    "section": "🛠️ Extensions & Tools",
-    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
+    "objectID": "social.html#social-feed",
+    "href": "social.html#social-feed",
+    "title": "Social Updates",
     "section": "",
-    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
+    "text": "Google Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\n\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\n\n\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\n\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details"
   },
   {
-    "objectID": "courses.html#geospatial-programming",
-    "href": "courses.html#geospatial-programming",
-    "title": "Courses",
-    "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#gis-spatial-reference",
-    "href": "courses.html#gis-spatial-reference",
-    "title": "Courses",
-    "section": "🚀 GIS & Spatial Reference",
-    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#academic-writing-tools",
-    "href": "courses.html#academic-writing-tools",
-    "title": "Courses",
-    "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
-  },
-  {
-    "objectID": "events/mscbu-workshop-sep-2025.html",
-    "href": "events/mscbu-workshop-sep-2025.html",
-    "title": "Basics of Google Earth Engine & LULC Classification",
+    "objectID": "books/ml-remote-sensing.html",
+    "href": "books/ml-remote-sensing.html",
+    "title": "ML for Remote Sensing",
     "section": "",
-    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection\n\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine.\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
   },
   {
-    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "Event Overview",
-    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html",
-    "href": "events/gee-workshop-feb-2026.html",
-    "title": "Basics of Google Earth Engine",
+    "objectID": "books/ml-remote-sensing.html#workshop-presentations-slides",
+    "href": "books/ml-remote-sensing.html#workshop-presentations-slides",
+    "title": "ML for Remote Sensing",
     "section": "",
-    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection"
   },
   {
-    "objectID": "events/gee-workshop-feb-2026.html#schedule",
-    "href": "events/gee-workshop-feb-2026.html#schedule",
-    "title": "Basics of Google Earth Engine",
-    "section": "Schedule",
-    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+    "objectID": "books/ml-remote-sensing.html#research-papers-external-links",
+    "href": "books/ml-remote-sensing.html#research-papers-external-links",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Resource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine."
+  },
+  {
+    "objectID": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
+    "href": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Resource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
   },
   {
     "objectID": "publications.html",
@@ -126,32 +77,39 @@
     "text": "🖼️ Posters\n\n\n\nNear Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images\n\n\n\n\n\nUnable to display PDF. Download here.\n\n\n\n\n\nPradhan, P., & Bajpai, R. (2023)\n\n\nOdisha Research Conclave (ORC-2023)\n\n\nThis poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.\n\n\n  Download PDF    Details \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
   },
   {
-    "objectID": "books/ml-remote-sensing.html",
-    "href": "books/ml-remote-sensing.html",
-    "title": "ML for Remote Sensing",
+    "objectID": "innovations.html",
+    "href": "innovations.html",
+    "title": "Innovations",
     "section": "",
-    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection\n\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine.\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
   },
   {
-    "objectID": "books/ml-remote-sensing.html#workshop-presentations-slides",
-    "href": "books/ml-remote-sensing.html#workshop-presentations-slides",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection"
+    "objectID": "innovations.html#earth-engine-apps",
+    "href": "innovations.html#earth-engine-apps",
+    "title": "Innovations",
+    "section": "🌍 Earth Engine Apps",
+    "text": "🌍 Earth Engine Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
   },
   {
-    "objectID": "books/ml-remote-sensing.html#research-papers-external-links",
-    "href": "books/ml-remote-sensing.html#research-papers-external-links",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Resource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine."
+    "objectID": "innovations.html#python-packages",
+    "href": "innovations.html#python-packages",
+    "title": "Innovations",
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
   },
   {
-    "objectID": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
-    "href": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Resource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
+    "objectID": "innovations.html#r-library",
+    "href": "innovations.html#r-library",
+    "title": "Innovations",
+    "section": "📚 R Library",
+    "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
+  },
+  {
+    "objectID": "innovations.html#extensions-tools",
+    "href": "innovations.html#extensions-tools",
+    "title": "Innovations",
+    "section": "🛠️ Extensions & Tools",
+    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
   },
   {
     "objectID": "posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
@@ -201,286 +159,6 @@
     "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
     "section": "References",
     "text": "References\n\nGorelick, N., et al. (2017). “Google Earth Engine: Planetary-scale geospatial analysis for everyone.” Remote Sensing of Environment.\nPangeo Project. (2025). “A community platform for Big Data geoscience.” pangeo.io\nOpen Source Geospatial Foundation (OSGeo). “Empowering everyone with open source geospatial.” osgeo.org"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "",
-    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🧠 The Social Science Perspective: Understanding “Place”",
-    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
-    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🤝 The Convergence: Why We Need Both",
-    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "Conclusion",
-    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
-  },
-  {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Image Gallery",
-    "section": "",
-    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pulakesh Pradhan",
-    "section": "",
-    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
-  },
-  {
-    "objectID": "index.html#upcoming-events",
-    "href": "index.html#upcoming-events",
-    "title": "Pulakesh Pradhan",
-    "section": "� Upcoming Events",
-    "text": "� Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
-  },
-  {
-    "objectID": "index.html#latest-insights",
-    "href": "index.html#latest-insights",
-    "title": "Pulakesh Pradhan",
-    "section": "📌 Latest Insights",
-    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\nPulakesh Pradhan\n\n\nFeb 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
-  },
-  {
-    "objectID": "index.html#social-updates",
-    "href": "index.html#social-updates",
-    "title": "Pulakesh Pradhan",
-    "section": "👥 Social Updates",
-    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
-  },
-  {
-    "objectID": "index.html#groups-i-manage",
-    "href": "index.html#groups-i-manage",
-    "title": "Pulakesh Pradhan",
-    "section": "👥 Groups I Manage",
-    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
-  },
-  {
-    "objectID": "index.html#featured-courses",
-    "href": "index.html#featured-courses",
-    "title": "Pulakesh Pradhan",
-    "section": "🎓 Featured Courses",
-    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nGeospatial Trinity\n\n\nThe ultimate reference for Python, R, and Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond GEE\n\n\nResources on merging cloud computing with open source GIS.\n\n\n\n\n\n\n\n\n\n\n\n\nPython for AI Research\n\n\nModern geospatial workflow using Python - ML, DL, AI etc.\n\n\n\n\n\nNo matching items\n\n View all courses"
-  },
-  {
-    "objectID": "index.html#featured-innovations",
-    "href": "index.html#featured-innovations",
-    "title": "Pulakesh Pradhan",
-    "section": "🚀 Featured Innovations",
-    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
-  },
-  {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
-    "title": "Pulakesh Pradhan",
-    "section": "📚 Recent Publications",
-    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
-  },
-  {
-    "objectID": "journals.html",
-    "href": "journals.html",
-    "title": "Journals",
-    "section": "",
-    "text": "The Web of Science Core Collection™ is the premier resource on the platform and includes over 21,000 peer-reviewed, high-quality scholarly journals.\nIt comprises four key indices:\nThis list is specifically compiled for research areas including:"
-  },
-  {
-    "objectID": "journals.html#prioritizing-no-fee-publishing",
-    "href": "journals.html#prioritizing-no-fee-publishing",
-    "title": "Journals",
-    "section": "Prioritizing No-Fee Publishing",
-    "text": "Prioritizing No-Fee Publishing\nTo support researchers with limited funding, this list prioritizes journals that offer a “Subscription” or “Hybrid” model. In this model, authors do NOT pay publication fees (Article Processing Charges - APCs).\n\n  Find Journals with Manuscript Matcher"
-  },
-  {
-    "objectID": "journals.html#journal-finder-tools",
-    "href": "journals.html#journal-finder-tools",
-    "title": "Journals",
-    "section": "Journal Finder Tools",
-    "text": "Journal Finder Tools\n\n\n\n\nWoS & SCI Journal Search\n\nEasily search for Web of Science (SCI/SCIE/SSCI) indexed journals, verify their quartiles, and check Impact Factors for quality assurance. Visit Tool \n\n\n\n\nList of Journals\n\nA comprehensive directory to browse and discover academic journals across various disciplines, indexing services, and publishers. Visit Tool \n\n\n\n\nJournal Searches\n\nAn advanced tool designed to help researchers identify the most suitable journals for their manuscripts based on scope and metrics. Visit Tool \n\n\n\n\nPhD Talks\n\nA comprehensive portal providing daily updates on academic opportunities, research tools, writing guides, and career advice for PhD candidates. Visit Tool"
-  },
-  {
-    "objectID": "journals.html#publisher-submission-guide-avoiding-fees",
-    "href": "journals.html#publisher-submission-guide-avoiding-fees",
-    "title": "Journals",
-    "section": "Publisher Submission Guide: Avoiding Fees",
-    "text": "Publisher Submission Guide: Avoiding Fees\nMost top-tier journals are Hybrid, meaning they offer both a Subscription (Free for authors) and an Open Access (Paid) option. To avoid paying Article Processing Charges (APCs), you must select the correct option during submission.\n\n\n\n\n\n\nTip💡 Key Terminology\n\n\n\n\nSubscription / Traditional: The reader pays (via university library), so the author pays nothing.\nGold Open Access: The author pays an APC to make the article free for everyone.\nHybrid: A journal that offers BOTH options. You must strictly choose “Subscription” to publish for free.\n\n\n\n\nHow to Select “No-Fee” by Publisher\n\n\n\n\n\n\n\n\nPublisher\nSystem Name\nAction Required for Free Publishing\n\n\n\n\nElsevier\nEditorial Manager\nLook for the “Publishing Options” step after acceptance. Select “Subscription” (often the default is Open Access, be careful).\n\n\nSpringer\nEditorial Manager / SNAPP\nDuring submission, you will be asked about Open Access. Select “No, I want to publish my article via the traditional subscription model”.\n\n\nWiley\nScholarOne\nIn the license signing phase (Author Services), choose the “OnlineOpen: No” or “Standard License” option.\n\n\nTaylor & Francis\nScholarOne\nAfter acceptance, select “Standard Article” (Green OA compliant) instead of “Gold Open Access”.\n\n\nIEEE\nScholarOne\nIEEE often has page charges for long papers (e.g., &gt;10 pages). Standard publication is free within page limits; avoid selecting “Open Access”."
-  },
-  {
-    "objectID": "journals.html#prioritized-journal-lists",
-    "href": "journals.html#prioritized-journal-lists",
-    "title": "Journals",
-    "section": "Prioritized Journal Lists",
-    "text": "Prioritized Journal Lists\nThe following lists have been expanded to include journals across all quartiles (Q1, Q2, Q3, Q4) to suit different research impacts. While Web of Science (SCIE/SSCI) is prioritized, reputable Scopus-indexed journals are also included where appropriate.\n\n\n\n\n\n\nNote\n\n\n\nNote: “Hybrid” journals allow authors to choose between publishing via the subscription model (free for authors) or Open Access (APC applies). Select the Subscription option upon submission to avoid fees.\n\n\n\nRural & DevelopmentEnvironment & LULCWater ResourcesNatural Hazards & ClimateRS & GISAgriculture & EcologyUrban & Planning\n\n\nFocus: Rural Development, Livelihoods, Socio-economic Geography, Regional Studies.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nJournal of Rural Studies\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nWorld Development\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nLand Use Policy\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nJournal of Peasant Studies\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nSociologia Ruralis\nSSCI (Q1)\nWiley\nHybrid (Free Option)\n\n\nGeoforum\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nApplied Geography\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nRegional Studies\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nHabitat International\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nJournal of Rural & Community Dev.\nESCI\nBrandon Univ.\nDiamond OA (No Fee)\n\n\nPopulation, Space and Place\nSSCI (Q1)\nWiley\nHybrid (Free Option)\n\n\nJournal of Agrarian Change\nSSCI (Q1)\nWiley\nHybrid (Free Option)\n\n\nAgriculture and Human Values\nSSCI (Q1)\nSpringer\nHybrid (Free Option)\n\n\nJournal of Development Studies\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nDevelopment in Practice\nScopus (Q2) / ESCI\nTaylor & Francis\nHybrid (Free Option)\n\n\nInternational Journal of Social Economics\nScopus (Q2) / ESCI\nEmerald\nHybrid (Free Option)\n\n\nJournal of International Development\nSSCI (Q2/Q3)\nWiley\nHybrid (Free Option)\n\n\nLocal Environment\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\n\n\n\nFocus: LULC Change, Degradation, Soil Science, Environmental Management.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nJournal of Environmental Management\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nGlobal Environmental Change\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nScience of the Total Environment\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nLand Degradation & Development\nSCIE (Q1)\nWiley\nHybrid (Free Option)\n\n\nCatena\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nGeoderma\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nSoil and Tillage Research\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEcological Indicators\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nGeomorphology\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEarth Surface Processes and Landforms\nSCIE (Q1)\nWiley\nHybrid (Free Option)\n\n\nLandscape and Urban Planning\nSSCI/SCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEnvironmental Monitoring and Assessment\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nEnvironmental Science & Policy\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEnvironmental Management\nSCIE (Q1/Q2)\nSpringer\nHybrid (Free Option)\n\n\nJ. of Env. Planning and Management\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nEnvironmental Earth Sciences\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nEnvironment, Development and Sustainability\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nModeling Earth Systems and Environment\nScopus (Q1/Q2) / ESCI\nSpringer\nHybrid (Free Option)\n\n\nEnvironmental Systems Research\nScopus (Q1) / ESCI\nSpringer\nHybrid (Free Option)\n\n\nEnvironmental Challenges\nScopus (Q1)\nElsevier\nGold OA (Check Waivers)\n\n\nGeology, Ecology, and Landscapes\nScopus (Q1)\nTaylor & Francis\nGold OA (Check Waivers)\n\n\n\n\n\nFocus: Hydrology, Water Management, Groundwater, Ecohydrology.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nJournal of Hydrology\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nWater Research\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nWater Resources Research\nSCIE (Q1)\nAGU / Wiley\nHybrid (Free Option)\n\n\nWater Resources Management\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nHydrological Processes\nSCIE (Q1)\nWiley\nHybrid (Free Option)\n\n\nAdvances in Water Resources\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nHydrological Sciences Journal\nSCIE (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nGroundwater\nSCIE (Q2)\nWiley\nHybrid (Free Option)\n\n\nRiver Research and Applications\nSCIE (Q2)\nWiley\nHybrid (Free Option)\n\n\nWater International\nSCIE (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nJ. of Water Res. Planning and Management\nSCIE (Q2)\nASCE\nHybrid (Free Option)\n\n\nWater Policy\nSCIE (Q2)\nIWA Publishing\nHybrid (Free Option)\n\n\nApplied Water Science\nScopus (Q1) / ESCI\nSpringer\nHybrid (Free Option)\n\n\nSustainable Water Resources Management\nScopus (Q1/Q2) / ESCI\nSpringer\nHybrid (Free Option)\n\n\nWater Supply\nSCIE (Q4)\nIWA Publishing\nHybrid (Free Option)\n\n\nWater Science & Technology\nSCIE (Q3)\nIWA Publishing\nHybrid (Free Option)\n\n\nH2Open Journal\nScopus (Q2)\nIWA Publishing\nGold OA (Check Waivers)\n\n\n\n\n\nFocus: Climate Change, Extreme Events, Disaster Risk Reduction, Flood/Drought Monitoring.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nGlobal and Planetary Change\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nClimate Dynamics\nSCIE (Q1)\nSpringer\nHybrid (Free Option)\n\n\nNatural Hazards\nSCIE (Q1/Q2)\nSpringer\nHybrid (Free Option)\n\n\nInt. J. of Disaster Risk Reduction\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nClimatic Change\nSCIE (Q1)\nSpringer\nHybrid (Free Option)\n\n\nInternational Journal of Climatology\nSCIE (Q1)\nWiley\nHybrid (Free Option)\n\n\nAtmospheric Research\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nJournal of Flood Risk Management\nSCIE (Q1/Q2)\nWiley\nHybrid (Free Option)\n\n\nEnvironmental Hazards\nSSCI/SCIE (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nTheoretical and Applied Climatology\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nDisaster Prevention and Management\nSCIE (Q3)\nEmerald\nHybrid (Free Option)\n\n\nNature Climate Change\nSCIE (Q1)\nNature Portfolio\nSubscription (No Fee)\n\n\nClimate Policy\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nGeomatics, Natural Hazards and Risk\nSCIE (Q1/Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nNatural Hazards Review\nSCIE (Q2)\nASCE\nHybrid (Free Option)\n\n\nWeather\nSCIE (Q4)\nWiley\nHybrid (Free Option)\n\n\nWeather, Climate, and Society\nSSCI (Q2)\nAMS\nHybrid (Page Charges)\n\n\nClimate Risk Management\nScopus (Q1)\nElsevier\nGold OA (Check Waivers)\n\n\n\n\n\nFocus: Remote Sensing, GIS, Spatial Analysis, Radar/SAR.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nRemote Sensing of Environment\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nISPRS J. of Photogrammetry & RS\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nIEEE Trans. on Geoscience & RS\nSCIE (Q1)\nIEEE\nHybrid (Page Charges)\n\n\nInt. Journal of Remote Sensing\nSCIE (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nComputers & Geosciences\nSCIE (Q2)\nElsevier\nHybrid (Free Option)\n\n\nTransactions in GIS\nSSCI (Q2)\nWiley\nHybrid (Free Option)\n\n\nCartography & Geog. Info. Science\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nJournal of Spatial Science\nSCIE (Q3)\nTaylor & Francis\nHybrid (Free Option)\n\n\nPhotogrammetric Eng. & Remote Sensing\nSCIE (Q2)\nASPRS\nHybrid (Page Charges)\n\n\nGeoInformatica\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nSpatial Statistics\nSCIE (Q2)\nElsevier\nHybrid (Free Option)\n\n\nSurvey Review\nSCIE (Q3)\nTaylor & Francis\nHybrid (Free Option)\n\n\nGeocarto International\nSCIE (Q1/Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nRemote Sensing Letters\nSCIE (Q3)\nTaylor & Francis\nHybrid (Free Option)\n\n\nEgyptian Journal of Remote Sensing and Space Science\nScopus (Q1)\nElsevier\nGold OA (Check Waivers)\n\n\nJournal of Geomatics\nScopus\nISG\nDiamond OA (No Fee)\n\n\n\n\n\nFocus: Agroforestry, Crop Science, Forest Management, Soil-Plant Systems.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nAgricultural Water Management\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nAgriculture, Ecosystems & Env.\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nForest Ecology and Management\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nAgroforestry Systems\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nPaddy and Water Environment\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nSoil Use and Management\nSCIE (Q2)\nWiley\nHybrid (Free Option)\n\n\nNutrient Cycling in Agroecosystems\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nCrop Protection\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nAgronomy for Sustainable Development\nSCIE (Q1)\nSpringer\nHybrid (Free Option)\n\n\nField Crops Research\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEuropean Journal of Agronomy\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nAgronomy Journal\nSCIE (Q2)\nWiley / ASA\nHybrid (Page Charges)\n\n\nArchives of Agronomy and Soil Science\nSCIE (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nInternational Journal of Agricultural Sustainability\nSCIE (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\n\n\n\nFocus: Urbanization, Regional Planning, Smart Cities, Sustainable Cities.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nCities\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nSustainable Cities and Society\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nUrban Forestry & Urban Greening\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nComputers, Env. & Urban Systems\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nJournal of Urban Planning & Dev.\nSSCI (Q2)\nASCE\nHybrid (Free Option)\n\n\nEuropean Planning Studies\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nJournal of Regional Science\nSSCI (Q2)\nWiley\nHybrid (Free Option)\n\n\nUrban Studies\nSSCI (Q1)\nSage\nHybrid (Free Option)\n\n\nEnvironment and Planning B\nSSCI (Q1)\nSage\nHybrid (Free Option)\n\n\nJournal of the American Planning Association\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nJournal of Urban Design\nScopus (Q1) / ESCI\nTaylor & Francis\nHybrid (Free Option)\n\n\nPlanning Theory & Practice\nScopus (Q1) / ESCI\nTaylor & Francis\nHybrid (Free Option)\n\n\nUrban Research & Practice\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nInternational Planning Studies\nScopus (Q2) / ESCI\nTaylor & Francis\nHybrid (Free Option)"
-  },
-  {
-    "objectID": "journals.html#submission-safety-tips",
-    "href": "journals.html#submission-safety-tips",
-    "title": "Journals",
-    "section": "🛡️ Submission & Safety Tips",
-    "text": "🛡️ Submission & Safety Tips\nBefore submitting your manuscript, ensure you verify the journal’s credibility and understand its metrics.\n\n\n📊 Understanding Metrics\nJournals are ranked by Impact Factor (IF) within their subject categories (e.g., Geography, Environmental Sciences).\n\nQ1 (Top 25%): Highest prestige and visibility. Often hardest to accept.\nQ2 (Top 25-50%): Excellent quality, balances visibility with slightly higher acceptance rates.\nQ3/Q4: Good entry points for niche topics or early-career research.\n\n\n\n🚩 Avoiding Predatory Journals\nBe cautious of “Clone Journals” that mimic the names of reputable titles.\n\nVerify Indexing: Always check the journal on the official Master Journal List (MJL).\nCheck ISSN: Ensure the ISSN on the journal website matches the one on MJL.\nRed Flags: Avoid journals promising “Review in 3 days” or “Guaranteed Publication”."
-  },
-  {
-    "objectID": "journals.html#journals-on-target",
-    "href": "journals.html#journals-on-target",
-    "title": "Journals",
-    "section": "🎯 Journals on Target",
-    "text": "🎯 Journals on Target\nList of specific journals targeted for future submissions (Jan 2026).\n\n\n\nJournal\nPublisher\nIndexing\nISSN\nMetrics (IF / SJR / Q)\n\n\n\n\nEnvironmental Sustainability\nSpringer Nature\nESCI (WoS), UGC CARE\n2523-8922\nIF: 2.8\n\n\nJournal of City Climate Policy and Economy\nUniv. of Toronto Press\nScilit (New Journal)\n2816-7414\nN/A (New)\n\n\nJ. of Arid Land Resources and Env.\nChina Science Pub.\nCSCD, Scopus (Check)\n1003-7578\nN/A\n\n\nJ. of Asian Business & Econ. Studies\nEmerald\nScopus (Q1), ESCI, DOAJ\n2516-1598\nIF: 3.6 / SJR: 0.66\n\n\nSwiss J. of Economics and Statistics\nSpringerOpen\nScopus (Q1/Q3), DOAJ\n2235-6282\nIF: 1.6 / SJR: 0.36\n\n\nCureus J. of Agriculture & Food Science\nSpringer Nature\nNot yet indexed\nN/A\nFee Waived till June 2026\n\n\nDiscover Social Science & Health\nSpringerOpen\nScopus, DOAJ\n2731-0469\nIF: 1.3 / SJR: 0.45\n\n\nSERIEs - J. of Spanish Econ. Assoc.\nSpringer\nScopus (Q2), SSCI\n1869-4195\nIF: 1.8 / SJR: 0.55\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNote on Cureus: This is a new journal under the Cureus/Springer umbrella. It is currently not indexed in Web of Science or Scopus. Proceed with caution for academic credit requirements.\n\n\n\n\n⏱️ How to Estimate Review Speed?\nMost publishers now provide metrics on their journal homepages: * Elsevier: Look for “Time to First Decision” and “Review Time” on the Journal Insights page. * Springer: Check the “Journal Updates” or “About” section for speed metrics. * Taylor & Francis: Often displays “Speed/Acceptance” metrics in the journal banner."
-  },
-  {
-    "objectID": "journals.html#inspirations",
-    "href": "journals.html#inspirations",
-    "title": "Journals",
-    "section": "✨ Inspirations",
-    "text": "✨ Inspirations\nA collection of professional research websites and portfolios that inspire the design and structure of this platform.\n\n\n\n\nAtul Kumar Saini\n\nResearch portfolio focusing on climate dynamics, remote sensing, and environmental modelling. Visit Website \n\n\n\n\nDr. Induj\n\nProfessional academic platform with resources on hydrology, water resource management, and GIS. Visit Website \n\n\n\n\nHydroSense Lab (IIT Delhi)\n\nThe HydroSense Lab at IIT Delhi focuses on cutting-edge research in hydrological modelling and remote sensing. Visit Website \n\n\n\n\nShushobhit Singh (IIT ISM)\n\nAcademic page of Shushobhit Singh at IIT (ISM) Dhanbad, showcasing research in earth sciences. Visit Website"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "The Evolution of Geographical Organizations in India\n\n\n\nHistory\n\nGeography\n\nInstitutional Growth\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\n\nPython\n\nMachine Learning\n\nDeep Learning\n\nAI\n\nGeospatial\n\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\n\n\nFeb 17, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nTheory\n\nGIS\n\nSocial Science\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\n\nCloud GIS\n\nGoogle Earth Engine\n\nOpen Source\n\nPython\n\nR\n\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R is the future of sustainable geospatial analysis.\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Books",
-    "section": "",
-    "text": "Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n\n\n\n\nAdvanced spatial analytics and geocomputation with Python.\n\n\n\n\n\n\nThe Python version of the famous Geocomputation with R book.\n\n\n\n\n\n\nComprehensive documentation for Python-based GIS workflows.\n\n\n\n\n\n\nSpatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n\n\n\n\nTechniques for effective spatial sampling in machine learning projects."
-  },
-  {
-    "objectID": "books.html#selected-books",
-    "href": "books.html#selected-books",
-    "title": "Books",
-    "section": "",
-    "text": "Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n\n\n\n\nAdvanced spatial analytics and geocomputation with Python.\n\n\n\n\n\n\nThe Python version of the famous Geocomputation with R book.\n\n\n\n\n\n\nComprehensive documentation for Python-based GIS workflows.\n\n\n\n\n\n\nSpatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n\n\n\n\nTechniques for effective spatial sampling in machine learning projects."
-  },
-  {
-    "objectID": "books.html#introduction-to-python-programming",
-    "href": "books.html#introduction-to-python-programming",
-    "title": "Books",
-    "section": "Introduction to Python Programming",
-    "text": "Introduction to Python Programming\n\n\n\n\nCloud Native Geospatial in R & Python\nCloud-native workflows I follow for environmental justice research using R and Python.\n\n\n\nPython Programming (Gyansetu)\nA comprehensive guide to Python programming I recommend from the Gyansetu project.\n\n\n\n\nThink Python\nThe classic introduction to Python programming by Allen B. Downey.\n\n\n\nIntro to Stats with Python\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n\n\nProgramming in Python (IIT)\nIIT Madras course materials for programming and data structures in Python."
-  },
-  {
-    "objectID": "books.html#geospatial-python-programming",
-    "href": "books.html#geospatial-python-programming",
-    "title": "Books",
-    "section": "Geospatial Python Programming",
-    "text": "Geospatial Python Programming\n\n\n\n\nCloud-Based RS with GEE\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\n\n\nApplied Geostatistics in Python\nA hands-on guide to applied geostatistics with Python implementations.\n\n\n\n\n\nGeographic Data Science\nA modern approach to data science with geographic information.\n\n\n\n\n\nAutoGIS — Automating GIS\nOne of my favorite resources for automating GIS processes with Python.\n\n\n\n Foundations of Spatial Data Science\nCore principles and applications of spatial data science as I understand them.\n\n\n GeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
-  },
-  {
-    "objectID": "books.html#machine-learning",
-    "href": "books.html#machine-learning",
-    "title": "Books",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n\n\nPython for Geospatial Analysis\nIntegrating machine learning workflows into geospatial analysis.\n\n\n\n\n\nML in the Geosciences\nApplications of machine learning in earth and geospatial sciences.\n\n\n\n\n\nApplied ML in Python\nA hands-on guide with code for applied machine learning.\n\n\n\n\n\nAdvanced Geospatial Analytics\nAdvanced techniques for geospatial data science and analytics."
-  },
-  {
-    "objectID": "books.html#deep-learning",
-    "href": "books.html#deep-learning",
-    "title": "Books",
-    "section": "Deep Learning",
-    "text": "Deep Learning\n\n\n fast.ai — Practical Deep Learning\nOne of the best practical courses for applying Deep Learning to real problems.\n\n\n TensorFlow — Tutorials\nOfficial learning path for building and deploying models with TensorFlow.\n\n\n PyTorch Tutorials\nComprehensive tutorials for the PyTorch deep learning framework.\n\n\n Keras — Guide\nDocumentation and tutorials for high-level deep learning with Keras."
-  },
-  {
-    "objectID": "books.html#time-series-analysis",
-    "href": "books.html#time-series-analysis",
-    "title": "Books",
-    "section": "Time Series Analysis",
-    "text": "Time Series Analysis\n\n\n\n\nTime Series Analysis with Python\nA comprehensive handbook for time series analysis in the Python ecosystem.\n\n\n\n\n\nForecasting: Principles & Practice\nThe fundamental textbook for forecasting principles using Python and R.\n\n\n\n Overview of Time Series Packages\nA curated list and overview of time series analysis packages in Python.\n\n\n Statsmodels — Time Series\nOfficial documentation for statistical modeling and time series in Python.\n\n\n TensorFlow — Time Series\nGuide to building time series forecasting models with TensorFlow."
-  },
-  {
-    "objectID": "books.html#ahp-mcdm-python",
-    "href": "books.html#ahp-mcdm-python",
-    "title": "Books",
-    "section": "AHP & MCDM (Python)",
-    "text": "AHP & MCDM (Python)\n\n\n pyDecision — MCDM Tools\nA Python library with 86+ Multi-Criteria Decision Making (MCDM) tools.\n\n\n ahpy — Analytic Hierarchy Process\nPython implementation of the Analytic Hierarchy Process (AHP).\n\n\n MCDM Implementations\nA GitHub repository containing various MCDM algorithm implementations.\n\n\n Tutorial: MCDM in Python\nA practical tutorial on performing multi-criteria decision analysis."
-  },
-  {
-    "objectID": "books.html#learning-resources",
-    "href": "books.html#learning-resources",
-    "title": "Books",
-    "section": "Learning Resources",
-    "text": "Learning Resources\n\n\nNASA ARSET\nApplied Remote Sensing Training program for learning RS technologies.\n\n\nThe State of Satellites\nA guide to current satellite remote sensing technology and and apply it.\n\n\n Coursera\nAccess to specialized geospatial and data science courses from top universities.\n\n\n Udemy\nPractical, hands-on courses for learning Python and GIS tools.\n\n\n Kaggle Learn\nFree, practical micro-courses on data science and machine learning.\n\n\n Official Python Tutorial\nThe authoritative guide I recommend for mastering the Python language.\n\n\n\n\nZero to Pandas\nA practical introduction to data analysis with Python and Pandas.\n\n\n\n Software Carpentry: Python\nA foundational tutorial for geoscientists new to Python."
-  },
-  {
-    "objectID": "books.html#github-repositories",
-    "href": "books.html#github-repositories",
-    "title": "Books",
-    "section": "GitHub Repositories",
-    "text": "GitHub Repositories\n\n\n 30 Days of Python\nA step-by-step challenge to learn Python in 30 days.\n\n\n Geospatial Data Science\nA collection of notebooks for geospatial data science.\n\n\n GeoPandas Tutorial\nExcellent tutorial repository for mastering GeoPandas.\n\n\n Applied Geospatial DS\nCode repository for applied geospatial data science workflows.\n\n\n Brown GeoData GEE\nEarth Engine data processing scripts from Brown University.\n\n\n GEE Python + ML\nIntegrating GEE with Python and Machine Learning."
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "",
-    "text": "The geospatial landscape is undergoing a monumental shift. What once required specialized, heavy desktop software is now being executed with lines of elegant Python code. The integration of Machine Learning (ML), Deep Learning (DL), and Artificial Intelligence (AI) has transformed GIS from a mapping tool into a predictive and analytical powerhouse.\nIn this post, we explore the architecture of a modern geospatial workflow and why Python is at the heart of this revolution."
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🧱 The Foundation: Python’s Geospatial Stack",
-    "text": "🧱 The Foundation: Python’s Geospatial Stack\nBefore we dive into AI, we must acknowledge the libraries that make Python a GIS titan. The “Geospatial Stack” allows us to treat spatial data as first-class citizens in the data science world.\n\nGeoPandas: Brings the power of pandas to vector data, allowing for complex spatial joins and geometric operations in seconds.\nXarray & Rasterio: The dynamic duo for raster data. rasterio handles the I/O of GeoTIFFs, while xarray provides a multi-dimensional platform for analyzing time-series satellite imagery (Data Cubes).\nShapely & PyProj: The engines under the hood for geometric manipulation and coordinate reference system (CRS) transformations."
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🤖 The Rise of Machine Learning (ML)",
-    "text": "🤖 The Rise of Machine Learning (ML)\nTraditional classification methods like Maximum Likelihood are being replaced by robust ML algorithms. Using Scikit-Learn, geographers can now implement:\n\nRandom Forests & SVM: For high-accuracy land cover classification.\nClustering (K-Means): For identifying socio-economic patterns or environmental zones without prior labeling.\nRegression Models: To predict environmental variables like Soil Organic Carbon or Urban Heat Island intensity.\n\nThe beauty of Python is that your spatial data (from GeoPandas) can be fed directly into these models with minimal translation."
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision",
-    "text": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision\nWhere ML looks at pixel values, Deep Learning looks at patterns, textures, and context. With frameworks like PyTorch and TensorFlow, we are now performing:\n\nSemantic Segmentation: Identifying every single building or tree in high-resolution aerial imagery (e.g., using U-Net architectures).\nObject Detection: Automatically counting ships in harbors or identifying solar panels on rooftops.\nChange Detection: Using Siamese networks to detect subtle changes in urban sprawl or deforestation between two points in time.\n\nIntegrating DL into a geospatial workflow typically involves using libraries like torch-geo or bridging Google Earth Engine with AI models via Earth Engine’s AI Platform integration."
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "✍️ The AI Revolution: LLMs in Geospatial Research",
-    "text": "✍️ The AI Revolution: LLMs in Geospatial Research\nThe most recent addition to our toolkit is the Large Language Model (LLM). AI is not just analyzing the pixels; it is helping us write the code to do so.\n\nAutomated Coding: Tools like the GEE AI Assistant (a Chrome extension I developed) leverage Gemini AI to help researchers generate complex scripts in seconds.\nNatural Language Queries: We are moving toward a future where you can ask, “Find all areas in Odisha that experienced more than 50% vegetation loss after the 2024 cyclone,” and the AI generates the processing pipeline.\nResearch Synthesis: AI helps in summarizing vast amounts of remote sensing literature, identifying gaps, and even formatting citations for academic journals."
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "�️ The Roadmap: Mastering Python for AI-Driven Research",
-    "text": "�️ The Roadmap: Mastering Python for AI-Driven Research\nTo transition from traditional GIS to AI-driven research, I recommend following this structured 7-step roadmap. This is the core curriculum I follow in my workflows:\n\n\n1. Python & Statistics\n\nCore Libraries: NumPy, Pandas\nConcepts: Probability, OOPs in Python, Statistics for Data Science\n\n\n\n2. Intro to Neural Networks (NN)\n\nArchitecture: Input Layer, Hidden Layer, Weights, Bias\nLogic: Activation Functions, The Perceptron Model, Multi-Layer (ANN)\n\n\n\n3. Preprocessing & Artificial Neural Networks (ANN)\n\nMechanics: Forward Propagation, Backward propagation, Loss functions\nOptimization: Adam Optimizer, Multi-Layer Perceptrons\n\n\n\n4. Convolutional Neural Networks (CNNs)\n\nGeospatial Power: Convolutional Nets for imagery\nFrameworks: Keras, Pooling layers for spatial reduction\n\n\n\n5. Transfer Learning\n\nPre-trained Models: VGG16, AlexNet, ResNet\nEcosystems: Hugging Face, Timm (PyTorch Image Models)\n\n\n\n6. Object Detection\n\nSOTA Models: YOLO (v8), RCNN, SSD\nSegmentation: Mask R-CNN for individual feature extraction\n\n\n\n7. Deployment & Serving\n\nFrom Code to App: Docker containers, Streamlit dashboards\nServing: Scaling Python scripts for production environments"
-  },
-  {
-    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
-    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "�🚀 Conclusion: The Hybrid Future",
-    "text": "�🚀 Conclusion: The Hybrid Future\nA modern geospatial workflow is no longer about choosing one tool. It is about orchestration.\nWe use Google Earth Engine for massive data preprocessing, Python for specialized ML/DL modeling, and AI to streamline the entire process. This “Modern Workflow” isn’t just faster—it’s more reproducible, more scalable, and significantly more powerful than anything we’ve seen before.\nThe era of the “Geospatial Data Scientist” has arrived. Are you ready?"
   },
   {
     "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html",
@@ -553,6 +231,153 @@
     "text": "References\nAligarh Muslim University. (n.d.). Department of Geography: Our Heritage. https://www.amu.ac.in/department/geography\nAsian Geographical Association. (2024). Founding committee and member countries. http://asiageo.net\nAssociation of Geographers in Bihar and Jharkhand. (2024). Mission and executive council. http://agbj.org.in\nAssociation of Population Geographers of India. (2023). Executive body term 2023-2025. http://apgin.org\nDeccan Geographical Society. (2024). About the society and journal. http://dgsi.org.in\nGeographical Society of India. (2019). Founding principles and history. http://geographicalsocietyofindia.org.in\nGauhati University. (n.d.). History of the Department of Geography. https://gauhati.ac.in/department/geography\nIndian Geographical Society. (2024). History of IGS Chennai. http://igschennai.org\nIndian Society of Remote Sensing. (2025). About ISRS: History and objectives. https://isrsindia.in\nInstitute of Indian Geographers. (2024). Constitution and executive council 2024-25. https://iigeo.org\nMaharashtra Bhugolshastra Parishad. (2024). About us: Journey since 1984. http://mbpune.org.in\nNational Association of Geographers, India. (2024). Official lists: Executive committee 2024-25. https://sites.google.com/view/nagiorgin/home\nNational Geographical Society of India. (2024). Publications and secretary journals. http://ngsi.in\nRajasthan Geographical Association. (2024). History and regional impact. http://rga.ac.in\nShodhganga. (2020). Institutional framework for geography in India. http://inflibnet.ac.in\nUniversity of Madras. (2023). Department of Geography: Research & societies. https://unom.ac.in\nWikipedia contributors. (2024). Major E. W. Dann and the roots of Indian geography. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Department_of_Geography,_Aligarh_Muslim_University"
   },
   {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n\n\n\n\nAdvanced spatial analytics and geocomputation with Python.\n\n\n\n\n\n\nThe Python version of the famous Geocomputation with R book.\n\n\n\n\n\n\nComprehensive documentation for Python-based GIS workflows.\n\n\n\n\n\n\nSpatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n\n\n\n\nTechniques for effective spatial sampling in machine learning projects."
+  },
+  {
+    "objectID": "books.html#selected-books",
+    "href": "books.html#selected-books",
+    "title": "Books",
+    "section": "",
+    "text": "Satellite Image Time Series analysis on Earth Observation data cubes.\n\n\n\n\n\n\nAdvanced spatial analytics and geocomputation with Python.\n\n\n\n\n\n\nThe Python version of the famous Geocomputation with R book.\n\n\n\n\n\n\nComprehensive documentation for Python-based GIS workflows.\n\n\n\n\n\n\nSpatial and spatiotemporal interpolation using Ensemble Machine Learning.\n\n\n\n\n\n\nTechniques for effective spatial sampling in machine learning projects."
+  },
+  {
+    "objectID": "books.html#introduction-to-python-programming",
+    "href": "books.html#introduction-to-python-programming",
+    "title": "Books",
+    "section": "Introduction to Python Programming",
+    "text": "Introduction to Python Programming\n\n\n\n\nCloud Native Geospatial in R & Python\nCloud-native workflows I follow for environmental justice research using R and Python.\n\n\n\nPython Programming (Gyansetu)\nA comprehensive guide to Python programming I recommend from the Gyansetu project.\n\n\n\n\nThink Python\nThe classic introduction to Python programming by Allen B. Downey.\n\n\n\nIntro to Stats with Python\nIntroduction to statistics and probability using Python (Think Stats).\n\n\n\n\nProgramming in Python (IIT)\nIIT Madras course materials for programming and data structures in Python."
+  },
+  {
+    "objectID": "books.html#geospatial-python-programming",
+    "href": "books.html#geospatial-python-programming",
+    "title": "Books",
+    "section": "Geospatial Python Programming",
+    "text": "Geospatial Python Programming\n\n\n\n\nCloud-Based RS with GEE\nThe fundamental book for learning Google Earth Engine (EEFA Book).\n\n\n\n\n\nApplied Geostatistics in Python\nA hands-on guide to applied geostatistics with Python implementations.\n\n\n\n\n\nGeographic Data Science\nA modern approach to data science with geographic information.\n\n\n\n\n\nAutoGIS — Automating GIS\nOne of my favorite resources for automating GIS processes with Python.\n\n\n\n Foundations of Spatial Data Science\nCore principles and applications of spatial data science as I understand them.\n\n\n GeoPython Workshop\nPractical workshop materials for geospatial analysis with Python."
+  },
+  {
+    "objectID": "books.html#machine-learning",
+    "href": "books.html#machine-learning",
+    "title": "Books",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\nML for Remote Sensing (ICLR 2023)\nDetailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2023.\n\n\n\n\nPython for Geospatial Analysis\nIntegrating machine learning workflows into geospatial analysis.\n\n\n\n\n\nML in the Geosciences\nApplications of machine learning in earth and geospatial sciences.\n\n\n\n\n\nApplied ML in Python\nA hands-on guide with code for applied machine learning.\n\n\n\n\n\nAdvanced Geospatial Analytics\nAdvanced techniques for geospatial data science and analytics."
+  },
+  {
+    "objectID": "books.html#deep-learning",
+    "href": "books.html#deep-learning",
+    "title": "Books",
+    "section": "Deep Learning",
+    "text": "Deep Learning\n\n\n fast.ai — Practical Deep Learning\nOne of the best practical courses for applying Deep Learning to real problems.\n\n\n TensorFlow — Tutorials\nOfficial learning path for building and deploying models with TensorFlow.\n\n\n PyTorch Tutorials\nComprehensive tutorials for the PyTorch deep learning framework.\n\n\n Keras — Guide\nDocumentation and tutorials for high-level deep learning with Keras."
+  },
+  {
+    "objectID": "books.html#time-series-analysis",
+    "href": "books.html#time-series-analysis",
+    "title": "Books",
+    "section": "Time Series Analysis",
+    "text": "Time Series Analysis\n\n\n\n\nTime Series Analysis with Python\nA comprehensive handbook for time series analysis in the Python ecosystem.\n\n\n\n\n\nForecasting: Principles & Practice\nThe fundamental textbook for forecasting principles using Python and R.\n\n\n\n Overview of Time Series Packages\nA curated list and overview of time series analysis packages in Python.\n\n\n Statsmodels — Time Series\nOfficial documentation for statistical modeling and time series in Python.\n\n\n TensorFlow — Time Series\nGuide to building time series forecasting models with TensorFlow."
+  },
+  {
+    "objectID": "books.html#ahp-mcdm-python",
+    "href": "books.html#ahp-mcdm-python",
+    "title": "Books",
+    "section": "AHP & MCDM (Python)",
+    "text": "AHP & MCDM (Python)\n\n\n pyDecision — MCDM Tools\nA Python library with 86+ Multi-Criteria Decision Making (MCDM) tools.\n\n\n ahpy — Analytic Hierarchy Process\nPython implementation of the Analytic Hierarchy Process (AHP).\n\n\n MCDM Implementations\nA GitHub repository containing various MCDM algorithm implementations.\n\n\n Tutorial: MCDM in Python\nA practical tutorial on performing multi-criteria decision analysis."
+  },
+  {
+    "objectID": "books.html#learning-resources",
+    "href": "books.html#learning-resources",
+    "title": "Books",
+    "section": "Learning Resources",
+    "text": "Learning Resources\n\n\nNASA ARSET\nApplied Remote Sensing Training program for learning RS technologies.\n\n\nThe State of Satellites\nA guide to current satellite remote sensing technology and and apply it.\n\n\n Coursera\nAccess to specialized geospatial and data science courses from top universities.\n\n\n Udemy\nPractical, hands-on courses for learning Python and GIS tools.\n\n\n Kaggle Learn\nFree, practical micro-courses on data science and machine learning.\n\n\n Official Python Tutorial\nThe authoritative guide I recommend for mastering the Python language.\n\n\n\n\nZero to Pandas\nA practical introduction to data analysis with Python and Pandas.\n\n\n\n Software Carpentry: Python\nA foundational tutorial for geoscientists new to Python."
+  },
+  {
+    "objectID": "books.html#github-repositories",
+    "href": "books.html#github-repositories",
+    "title": "Books",
+    "section": "GitHub Repositories",
+    "text": "GitHub Repositories\n\n\n 30 Days of Python\nA step-by-step challenge to learn Python in 30 days.\n\n\n Geospatial Data Science\nA collection of notebooks for geospatial data science.\n\n\n GeoPandas Tutorial\nExcellent tutorial repository for mastering GeoPandas.\n\n\n Applied Geospatial DS\nCode repository for applied geospatial data science workflows.\n\n\n Brown GeoData GEE\nEarth Engine data processing scripts from Brown University.\n\n\n GEE Python + ML\nIntegrating GEE with Python and Machine Learning."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
+  },
+  {
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "Pulakesh Pradhan",
+    "section": "� Upcoming Events",
+    "text": "� Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
+  },
+  {
+    "objectID": "index.html#latest-insights",
+    "href": "index.html#latest-insights",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Insights",
+    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\nPulakesh Pradhan\n\n\nFeb 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
+  },
+  {
+    "objectID": "index.html#social-updates",
+    "href": "index.html#social-updates",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Social Updates",
+    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
+  },
+  {
+    "objectID": "index.html#groups-i-manage",
+    "href": "index.html#groups-i-manage",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Groups I Manage",
+    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
+  },
+  {
+    "objectID": "index.html#featured-courses",
+    "href": "index.html#featured-courses",
+    "title": "Pulakesh Pradhan",
+    "section": "🎓 Featured Courses",
+    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nGeospatial Trinity\n\n\nThe ultimate reference for Python, R, and Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond GEE\n\n\nResources on merging cloud computing with open source GIS.\n\n\n\n\n\n\n\n\n\n\n\n\nPython for AI Research\n\n\nModern geospatial workflow using Python - ML, DL, AI etc.\n\n\n\n\n\nNo matching items\n\n View all courses"
+  },
+  {
+    "objectID": "index.html#featured-innovations",
+    "href": "index.html#featured-innovations",
+    "title": "Pulakesh Pradhan",
+    "section": "🚀 Featured Innovations",
+    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Pulakesh Pradhan",
+    "section": "📚 Recent Publications",
+    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+  },
+  {
+    "objectID": "events/gdg-nairobi.html",
+    "href": "events/gdg-nairobi.html",
+    "title": "GDG Earth Engine Nairobi",
+    "section": "",
+    "text": "Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.\n View Abstract  Slides"
+  },
+  {
     "objectID": "events.html",
     "href": "events.html",
     "title": "Events & Engagements",
@@ -572,6 +397,139 @@
     "title": "Events & Engagements",
     "section": "🏛️ Past Seminars & Workshops",
     "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine Nairobi\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
+  },
+  {
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
+    "section": "",
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html",
+    "href": "events/mscbu-workshop-sep-2025.html",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "Event Overview",
+    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
+  },
+  {
+    "objectID": "courses.html#geospatial-programming",
+    "href": "courses.html#geospatial-programming",
+    "title": "Courses",
+    "section": "💻 Geospatial Programming",
+    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
+  },
+  {
+    "objectID": "courses.html#gis-spatial-reference",
+    "href": "courses.html#gis-spatial-reference",
+    "title": "Courses",
+    "section": "🚀 GIS & Spatial Reference",
+    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
+  },
+  {
+    "objectID": "courses.html#academic-writing-tools",
+    "href": "courses.html#academic-writing-tools",
+    "title": "Courses",
+    "section": "✍️ Academic Writing & Tools",
+    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "",
+    "text": "The geospatial landscape is undergoing a monumental shift. What once required specialized, heavy desktop software is now being executed with lines of elegant Python code. The integration of Machine Learning (ML), Deep Learning (DL), and Artificial Intelligence (AI) has transformed GIS from a mapping tool into a predictive and analytical powerhouse.\nIn this post, we explore the architecture of a modern geospatial workflow and why Python is at the heart of this revolution."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🧱 The Foundation: Python’s Geospatial Stack",
+    "text": "🧱 The Foundation: Python’s Geospatial Stack\nBefore we dive into AI, we must acknowledge the libraries that make Python a GIS titan. The “Geospatial Stack” allows us to treat spatial data as first-class citizens in the data science world.\n\nGeoPandas: Brings the power of pandas to vector data, allowing for complex spatial joins and geometric operations in seconds.\nXarray & Rasterio: The dynamic duo for raster data. rasterio handles the I/O of GeoTIFFs, while xarray provides a multi-dimensional platform for analyzing time-series satellite imagery (Data Cubes).\nShapely & PyProj: The engines under the hood for geometric manipulation and coordinate reference system (CRS) transformations."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🤖 The Rise of Machine Learning (ML)",
+    "text": "🤖 The Rise of Machine Learning (ML)\nTraditional classification methods like Maximum Likelihood are being replaced by robust ML algorithms. Using Scikit-Learn, geographers can now implement:\n\nRandom Forests & SVM: For high-accuracy land cover classification.\nClustering (K-Means): For identifying socio-economic patterns or environmental zones without prior labeling.\nRegression Models: To predict environmental variables like Soil Organic Carbon or Urban Heat Island intensity.\n\nThe beauty of Python is that your spatial data (from GeoPandas) can be fed directly into these models with minimal translation."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision",
+    "text": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision\nWhere ML looks at pixel values, Deep Learning looks at patterns, textures, and context. With frameworks like PyTorch and TensorFlow, we are now performing:\n\nSemantic Segmentation: Identifying every single building or tree in high-resolution aerial imagery (e.g., using U-Net architectures).\nObject Detection: Automatically counting ships in harbors or identifying solar panels on rooftops.\nChange Detection: Using Siamese networks to detect subtle changes in urban sprawl or deforestation between two points in time.\n\nIntegrating DL into a geospatial workflow typically involves using libraries like torch-geo or bridging Google Earth Engine with AI models via Earth Engine’s AI Platform integration."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "✍️ The AI Revolution: LLMs in Geospatial Research",
+    "text": "✍️ The AI Revolution: LLMs in Geospatial Research\nThe most recent addition to our toolkit is the Large Language Model (LLM). AI is not just analyzing the pixels; it is helping us write the code to do so.\n\nAutomated Coding: Tools like the GEE AI Assistant (a Chrome extension I developed) leverage Gemini AI to help researchers generate complex scripts in seconds.\nNatural Language Queries: We are moving toward a future where you can ask, “Find all areas in Odisha that experienced more than 50% vegetation loss after the 2024 cyclone,” and the AI generates the processing pipeline.\nResearch Synthesis: AI helps in summarizing vast amounts of remote sensing literature, identifying gaps, and even formatting citations for academic journals."
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "�️ The Roadmap: Mastering Python for AI-Driven Research",
+    "text": "�️ The Roadmap: Mastering Python for AI-Driven Research\nTo transition from traditional GIS to AI-driven research, I recommend following this structured 7-step roadmap. This is the core curriculum I follow in my workflows:\n\n\n1. Python & Statistics\n\nCore Libraries: NumPy, Pandas\nConcepts: Probability, OOPs in Python, Statistics for Data Science\n\n\n\n2. Intro to Neural Networks (NN)\n\nArchitecture: Input Layer, Hidden Layer, Weights, Bias\nLogic: Activation Functions, The Perceptron Model, Multi-Layer (ANN)\n\n\n\n3. Preprocessing & Artificial Neural Networks (ANN)\n\nMechanics: Forward Propagation, Backward propagation, Loss functions\nOptimization: Adam Optimizer, Multi-Layer Perceptrons\n\n\n\n4. Convolutional Neural Networks (CNNs)\n\nGeospatial Power: Convolutional Nets for imagery\nFrameworks: Keras, Pooling layers for spatial reduction\n\n\n\n5. Transfer Learning\n\nPre-trained Models: VGG16, AlexNet, ResNet\nEcosystems: Hugging Face, Timm (PyTorch Image Models)\n\n\n\n6. Object Detection\n\nSOTA Models: YOLO (v8), RCNN, SSD\nSegmentation: Mask R-CNN for individual feature extraction\n\n\n\n7. Deployment & Serving\n\nFrom Code to App: Docker containers, Streamlit dashboards\nServing: Scaling Python scripts for production environments"
+  },
+  {
+    "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
+    "href": "posts/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
+    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
+    "section": "�🚀 Conclusion: The Hybrid Future",
+    "text": "�🚀 Conclusion: The Hybrid Future\nA modern geospatial workflow is no longer about choosing one tool. It is about orchestration.\nWe use Google Earth Engine for massive data preprocessing, Python for specialized ML/DL modeling, and AI to streamline the entire process. This “Modern Workflow” isn’t just faster—it’s more reproducible, more scalable, and significantly more powerful than anything we’ve seen before.\nThe era of the “Geospatial Data Scientist” has arrived. Are you ready?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "",
+    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🧠 The Social Science Perspective: Understanding “Place”",
+    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
+    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🤝 The Convergence: Why We Need Both",
+    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
   },
   {
     "objectID": "cv.html#contact-information",
@@ -623,31 +581,73 @@
     "text": "🤝 Professional Memberships\n\nLife Member, National Association of Geographers, India (NAGI) | Oct. 2025 - Present\n\n\n\n Download Full CV (PDF)"
   },
   {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
+    "text": "The Evolution of Geographical Organizations in India\n\n\n\nHistory\n\nGeography\n\nInstitutional Growth\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\n\nPython\n\nMachine Learning\n\nDeep Learning\n\nAI\n\nGeospatial\n\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\n\n\nFeb 17, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nTheory\n\nGIS\n\nSocial Science\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\n\nCloud GIS\n\nGoogle Earth Engine\n\nOpen Source\n\nPython\n\nR\n\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R is the future of sustainable geospatial analysis.\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "events/gdg-nairobi.html",
-    "href": "events/gdg-nairobi.html",
-    "title": "GDG Earth Engine Nairobi",
+    "objectID": "journals.html",
+    "href": "journals.html",
+    "title": "Journals",
     "section": "",
-    "text": "Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.\n View Abstract  Slides"
+    "text": "The Web of Science Core Collection™ is the premier resource on the platform and includes over 21,000 peer-reviewed, high-quality scholarly journals.\nIt comprises four key indices:\nThis list is specifically compiled for research areas including:"
   },
   {
-    "objectID": "social.html",
-    "href": "social.html",
-    "title": "Social Updates",
-    "section": "",
-    "text": "Google Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\n\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\n\n\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\n\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details"
+    "objectID": "journals.html#prioritizing-no-fee-publishing",
+    "href": "journals.html#prioritizing-no-fee-publishing",
+    "title": "Journals",
+    "section": "Prioritizing No-Fee Publishing",
+    "text": "Prioritizing No-Fee Publishing\nTo support researchers with limited funding, this list prioritizes journals that offer a “Subscription” or “Hybrid” model. In this model, authors do NOT pay publication fees (Article Processing Charges - APCs).\n\n  Find Journals with Manuscript Matcher"
   },
   {
-    "objectID": "social.html#social-feed",
-    "href": "social.html#social-feed",
-    "title": "Social Updates",
+    "objectID": "journals.html#journal-finder-tools",
+    "href": "journals.html#journal-finder-tools",
+    "title": "Journals",
+    "section": "Journal Finder Tools",
+    "text": "Journal Finder Tools\n\n\n\n\nWoS & SCI Journal Search\n\nEasily search for Web of Science (SCI/SCIE/SSCI) indexed journals, verify their quartiles, and check Impact Factors for quality assurance. Visit Tool \n\n\n\n\nList of Journals\n\nA comprehensive directory to browse and discover academic journals across various disciplines, indexing services, and publishers. Visit Tool \n\n\n\n\nJournal Searches\n\nAn advanced tool designed to help researchers identify the most suitable journals for their manuscripts based on scope and metrics. Visit Tool \n\n\n\n\nPhD Talks\n\nA comprehensive portal providing daily updates on academic opportunities, research tools, writing guides, and career advice for PhD candidates. Visit Tool"
+  },
+  {
+    "objectID": "journals.html#publisher-submission-guide-avoiding-fees",
+    "href": "journals.html#publisher-submission-guide-avoiding-fees",
+    "title": "Journals",
+    "section": "Publisher Submission Guide: Avoiding Fees",
+    "text": "Publisher Submission Guide: Avoiding Fees\nMost top-tier journals are Hybrid, meaning they offer both a Subscription (Free for authors) and an Open Access (Paid) option. To avoid paying Article Processing Charges (APCs), you must select the correct option during submission.\n\n\n\n\n\n\nTip💡 Key Terminology\n\n\n\n\nSubscription / Traditional: The reader pays (via university library), so the author pays nothing.\nGold Open Access: The author pays an APC to make the article free for everyone.\nHybrid: A journal that offers BOTH options. You must strictly choose “Subscription” to publish for free.\n\n\n\n\nHow to Select “No-Fee” by Publisher\n\n\n\n\n\n\n\n\nPublisher\nSystem Name\nAction Required for Free Publishing\n\n\n\n\nElsevier\nEditorial Manager\nLook for the “Publishing Options” step after acceptance. Select “Subscription” (often the default is Open Access, be careful).\n\n\nSpringer\nEditorial Manager / SNAPP\nDuring submission, you will be asked about Open Access. Select “No, I want to publish my article via the traditional subscription model”.\n\n\nWiley\nScholarOne\nIn the license signing phase (Author Services), choose the “OnlineOpen: No” or “Standard License” option.\n\n\nTaylor & Francis\nScholarOne\nAfter acceptance, select “Standard Article” (Green OA compliant) instead of “Gold Open Access”.\n\n\nIEEE\nScholarOne\nIEEE often has page charges for long papers (e.g., &gt;10 pages). Standard publication is free within page limits; avoid selecting “Open Access”."
+  },
+  {
+    "objectID": "journals.html#prioritized-journal-lists",
+    "href": "journals.html#prioritized-journal-lists",
+    "title": "Journals",
+    "section": "Prioritized Journal Lists",
+    "text": "Prioritized Journal Lists\nThe following lists have been expanded to include journals across all quartiles (Q1, Q2, Q3, Q4) to suit different research impacts. While Web of Science (SCIE/SSCI) is prioritized, reputable Scopus-indexed journals are also included where appropriate.\n\n\n\n\n\n\nNote\n\n\n\nNote: “Hybrid” journals allow authors to choose between publishing via the subscription model (free for authors) or Open Access (APC applies). Select the Subscription option upon submission to avoid fees.\n\n\n\nRural & DevelopmentEnvironment & LULCWater ResourcesNatural Hazards & ClimateRS & GISAgriculture & EcologyUrban & Planning\n\n\nFocus: Rural Development, Livelihoods, Socio-economic Geography, Regional Studies.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nJournal of Rural Studies\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nWorld Development\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nLand Use Policy\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nJournal of Peasant Studies\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nSociologia Ruralis\nSSCI (Q1)\nWiley\nHybrid (Free Option)\n\n\nGeoforum\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nApplied Geography\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nRegional Studies\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nHabitat International\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nJournal of Rural & Community Dev.\nESCI\nBrandon Univ.\nDiamond OA (No Fee)\n\n\nPopulation, Space and Place\nSSCI (Q1)\nWiley\nHybrid (Free Option)\n\n\nJournal of Agrarian Change\nSSCI (Q1)\nWiley\nHybrid (Free Option)\n\n\nAgriculture and Human Values\nSSCI (Q1)\nSpringer\nHybrid (Free Option)\n\n\nJournal of Development Studies\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nDevelopment in Practice\nScopus (Q2) / ESCI\nTaylor & Francis\nHybrid (Free Option)\n\n\nInternational Journal of Social Economics\nScopus (Q2) / ESCI\nEmerald\nHybrid (Free Option)\n\n\nJournal of International Development\nSSCI (Q2/Q3)\nWiley\nHybrid (Free Option)\n\n\nLocal Environment\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\n\n\n\nFocus: LULC Change, Degradation, Soil Science, Environmental Management.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nJournal of Environmental Management\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nGlobal Environmental Change\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nScience of the Total Environment\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nLand Degradation & Development\nSCIE (Q1)\nWiley\nHybrid (Free Option)\n\n\nCatena\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nGeoderma\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nSoil and Tillage Research\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEcological Indicators\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nGeomorphology\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEarth Surface Processes and Landforms\nSCIE (Q1)\nWiley\nHybrid (Free Option)\n\n\nLandscape and Urban Planning\nSSCI/SCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEnvironmental Monitoring and Assessment\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nEnvironmental Science & Policy\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEnvironmental Management\nSCIE (Q1/Q2)\nSpringer\nHybrid (Free Option)\n\n\nJ. of Env. Planning and Management\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nEnvironmental Earth Sciences\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nEnvironment, Development and Sustainability\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nModeling Earth Systems and Environment\nScopus (Q1/Q2) / ESCI\nSpringer\nHybrid (Free Option)\n\n\nEnvironmental Systems Research\nScopus (Q1) / ESCI\nSpringer\nHybrid (Free Option)\n\n\nEnvironmental Challenges\nScopus (Q1)\nElsevier\nGold OA (Check Waivers)\n\n\nGeology, Ecology, and Landscapes\nScopus (Q1)\nTaylor & Francis\nGold OA (Check Waivers)\n\n\n\n\n\nFocus: Hydrology, Water Management, Groundwater, Ecohydrology.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nJournal of Hydrology\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nWater Research\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nWater Resources Research\nSCIE (Q1)\nAGU / Wiley\nHybrid (Free Option)\n\n\nWater Resources Management\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nHydrological Processes\nSCIE (Q1)\nWiley\nHybrid (Free Option)\n\n\nAdvances in Water Resources\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nHydrological Sciences Journal\nSCIE (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nGroundwater\nSCIE (Q2)\nWiley\nHybrid (Free Option)\n\n\nRiver Research and Applications\nSCIE (Q2)\nWiley\nHybrid (Free Option)\n\n\nWater International\nSCIE (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nJ. of Water Res. Planning and Management\nSCIE (Q2)\nASCE\nHybrid (Free Option)\n\n\nWater Policy\nSCIE (Q2)\nIWA Publishing\nHybrid (Free Option)\n\n\nApplied Water Science\nScopus (Q1) / ESCI\nSpringer\nHybrid (Free Option)\n\n\nSustainable Water Resources Management\nScopus (Q1/Q2) / ESCI\nSpringer\nHybrid (Free Option)\n\n\nWater Supply\nSCIE (Q4)\nIWA Publishing\nHybrid (Free Option)\n\n\nWater Science & Technology\nSCIE (Q3)\nIWA Publishing\nHybrid (Free Option)\n\n\nH2Open Journal\nScopus (Q2)\nIWA Publishing\nGold OA (Check Waivers)\n\n\n\n\n\nFocus: Climate Change, Extreme Events, Disaster Risk Reduction, Flood/Drought Monitoring.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nGlobal and Planetary Change\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nClimate Dynamics\nSCIE (Q1)\nSpringer\nHybrid (Free Option)\n\n\nNatural Hazards\nSCIE (Q1/Q2)\nSpringer\nHybrid (Free Option)\n\n\nInt. J. of Disaster Risk Reduction\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nClimatic Change\nSCIE (Q1)\nSpringer\nHybrid (Free Option)\n\n\nInternational Journal of Climatology\nSCIE (Q1)\nWiley\nHybrid (Free Option)\n\n\nAtmospheric Research\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nJournal of Flood Risk Management\nSCIE (Q1/Q2)\nWiley\nHybrid (Free Option)\n\n\nEnvironmental Hazards\nSSCI/SCIE (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nTheoretical and Applied Climatology\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nDisaster Prevention and Management\nSCIE (Q3)\nEmerald\nHybrid (Free Option)\n\n\nNature Climate Change\nSCIE (Q1)\nNature Portfolio\nSubscription (No Fee)\n\n\nClimate Policy\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nGeomatics, Natural Hazards and Risk\nSCIE (Q1/Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nNatural Hazards Review\nSCIE (Q2)\nASCE\nHybrid (Free Option)\n\n\nWeather\nSCIE (Q4)\nWiley\nHybrid (Free Option)\n\n\nWeather, Climate, and Society\nSSCI (Q2)\nAMS\nHybrid (Page Charges)\n\n\nClimate Risk Management\nScopus (Q1)\nElsevier\nGold OA (Check Waivers)\n\n\n\n\n\nFocus: Remote Sensing, GIS, Spatial Analysis, Radar/SAR.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nRemote Sensing of Environment\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nISPRS J. of Photogrammetry & RS\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nIEEE Trans. on Geoscience & RS\nSCIE (Q1)\nIEEE\nHybrid (Page Charges)\n\n\nInt. Journal of Remote Sensing\nSCIE (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nComputers & Geosciences\nSCIE (Q2)\nElsevier\nHybrid (Free Option)\n\n\nTransactions in GIS\nSSCI (Q2)\nWiley\nHybrid (Free Option)\n\n\nCartography & Geog. Info. Science\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nJournal of Spatial Science\nSCIE (Q3)\nTaylor & Francis\nHybrid (Free Option)\n\n\nPhotogrammetric Eng. & Remote Sensing\nSCIE (Q2)\nASPRS\nHybrid (Page Charges)\n\n\nGeoInformatica\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nSpatial Statistics\nSCIE (Q2)\nElsevier\nHybrid (Free Option)\n\n\nSurvey Review\nSCIE (Q3)\nTaylor & Francis\nHybrid (Free Option)\n\n\nGeocarto International\nSCIE (Q1/Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nRemote Sensing Letters\nSCIE (Q3)\nTaylor & Francis\nHybrid (Free Option)\n\n\nEgyptian Journal of Remote Sensing and Space Science\nScopus (Q1)\nElsevier\nGold OA (Check Waivers)\n\n\nJournal of Geomatics\nScopus\nISG\nDiamond OA (No Fee)\n\n\n\n\n\nFocus: Agroforestry, Crop Science, Forest Management, Soil-Plant Systems.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nAgricultural Water Management\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nAgriculture, Ecosystems & Env.\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nForest Ecology and Management\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nAgroforestry Systems\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nPaddy and Water Environment\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nSoil Use and Management\nSCIE (Q2)\nWiley\nHybrid (Free Option)\n\n\nNutrient Cycling in Agroecosystems\nSCIE (Q2)\nSpringer\nHybrid (Free Option)\n\n\nCrop Protection\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nAgronomy for Sustainable Development\nSCIE (Q1)\nSpringer\nHybrid (Free Option)\n\n\nField Crops Research\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nEuropean Journal of Agronomy\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nAgronomy Journal\nSCIE (Q2)\nWiley / ASA\nHybrid (Page Charges)\n\n\nArchives of Agronomy and Soil Science\nSCIE (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nInternational Journal of Agricultural Sustainability\nSCIE (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\n\n\n\nFocus: Urbanization, Regional Planning, Smart Cities, Sustainable Cities.\n\n\n\nJournal\nIndex\nPublisher\nFee Model\n\n\n\n\nCities\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nSustainable Cities and Society\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nUrban Forestry & Urban Greening\nSCIE (Q1)\nElsevier\nHybrid (Free Option)\n\n\nComputers, Env. & Urban Systems\nSSCI (Q1)\nElsevier\nHybrid (Free Option)\n\n\nJournal of Urban Planning & Dev.\nSSCI (Q2)\nASCE\nHybrid (Free Option)\n\n\nEuropean Planning Studies\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nJournal of Regional Science\nSSCI (Q2)\nWiley\nHybrid (Free Option)\n\n\nUrban Studies\nSSCI (Q1)\nSage\nHybrid (Free Option)\n\n\nEnvironment and Planning B\nSSCI (Q1)\nSage\nHybrid (Free Option)\n\n\nJournal of the American Planning Association\nSSCI (Q1)\nTaylor & Francis\nHybrid (Free Option)\n\n\nJournal of Urban Design\nScopus (Q1) / ESCI\nTaylor & Francis\nHybrid (Free Option)\n\n\nPlanning Theory & Practice\nScopus (Q1) / ESCI\nTaylor & Francis\nHybrid (Free Option)\n\n\nUrban Research & Practice\nSSCI (Q2)\nTaylor & Francis\nHybrid (Free Option)\n\n\nInternational Planning Studies\nScopus (Q2) / ESCI\nTaylor & Francis\nHybrid (Free Option)"
+  },
+  {
+    "objectID": "journals.html#submission-safety-tips",
+    "href": "journals.html#submission-safety-tips",
+    "title": "Journals",
+    "section": "🛡️ Submission & Safety Tips",
+    "text": "🛡️ Submission & Safety Tips\nBefore submitting your manuscript, ensure you verify the journal’s credibility and understand its metrics.\n\n\n📊 Understanding Metrics\nJournals are ranked by Impact Factor (IF) within their subject categories (e.g., Geography, Environmental Sciences).\n\nQ1 (Top 25%): Highest prestige and visibility. Often hardest to accept.\nQ2 (Top 25-50%): Excellent quality, balances visibility with slightly higher acceptance rates.\nQ3/Q4: Good entry points for niche topics or early-career research.\n\n\n\n🚩 Avoiding Predatory Journals\nBe cautious of “Clone Journals” that mimic the names of reputable titles.\n\nVerify Indexing: Always check the journal on the official Master Journal List (MJL).\nCheck ISSN: Ensure the ISSN on the journal website matches the one on MJL.\nRed Flags: Avoid journals promising “Review in 3 days” or “Guaranteed Publication”."
+  },
+  {
+    "objectID": "journals.html#journals-on-target",
+    "href": "journals.html#journals-on-target",
+    "title": "Journals",
+    "section": "🎯 Journals on Target",
+    "text": "🎯 Journals on Target\nList of specific journals targeted for future submissions (Jan 2026).\n\n\n\nJournal\nPublisher\nIndexing\nISSN\nMetrics (IF / SJR / Q)\n\n\n\n\nEnvironmental Sustainability\nSpringer Nature\nESCI (WoS), UGC CARE\n2523-8922\nIF: 2.8\n\n\nJournal of City Climate Policy and Economy\nUniv. of Toronto Press\nScilit (New Journal)\n2816-7414\nN/A (New)\n\n\nJ. of Arid Land Resources and Env.\nChina Science Pub.\nCSCD, Scopus (Check)\n1003-7578\nN/A\n\n\nJ. of Asian Business & Econ. Studies\nEmerald\nScopus (Q1), ESCI, DOAJ\n2516-1598\nIF: 3.6 / SJR: 0.66\n\n\nSwiss J. of Economics and Statistics\nSpringerOpen\nScopus (Q1/Q3), DOAJ\n2235-6282\nIF: 1.6 / SJR: 0.36\n\n\nCureus J. of Agriculture & Food Science\nSpringer Nature\nNot yet indexed\nN/A\nFee Waived till June 2026\n\n\nDiscover Social Science & Health\nSpringerOpen\nScopus, DOAJ\n2731-0469\nIF: 1.3 / SJR: 0.45\n\n\nSERIEs - J. of Spanish Econ. Assoc.\nSpringer\nScopus (Q2), SSCI\n1869-4195\nIF: 1.8 / SJR: 0.55\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNote on Cureus: This is a new journal under the Cureus/Springer umbrella. It is currently not indexed in Web of Science or Scopus. Proceed with caution for academic credit requirements.\n\n\n\n\n⏱️ How to Estimate Review Speed?\nMost publishers now provide metrics on their journal homepages: * Elsevier: Look for “Time to First Decision” and “Review Time” on the Journal Insights page. * Springer: Check the “Journal Updates” or “About” section for speed metrics. * Taylor & Francis: Often displays “Speed/Acceptance” metrics in the journal banner."
+  },
+  {
+    "objectID": "journals.html#inspirations",
+    "href": "journals.html#inspirations",
+    "title": "Journals",
+    "section": "✨ Inspirations",
+    "text": "✨ Inspirations\nA collection of professional research websites and portfolios that inspire the design and structure of this platform.\n\n\n\n\nAtul Kumar Saini\n\nResearch portfolio focusing on climate dynamics, remote sensing, and environmental modelling. Visit Website \n\n\n\n\nDr. Induj\n\nProfessional academic platform with resources on hydrology, water resource management, and GIS. Visit Website \n\n\n\n\nHydroSense Lab (IIT Delhi)\n\nThe HydroSense Lab at IIT Delhi focuses on cutting-edge research in hydrological modelling and remote sensing. Visit Website \n\n\n\n\nShushobhit Singh (IIT ISM)\n\nAcademic page of Shushobhit Singh at IIT (ISM) Dhanbad, showcasing research in earth sciences. Visit Website"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Image Gallery",
     "section": "",
-    "text": "Google Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\n\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\n\n\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\n\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\n\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details"
+    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
   }
 ]
