@@ -1,0 +1,61 @@
+---
+title: "Teaching in the Age of AI: From Passive Listeners to Active Panelists"
+author: "Pulakesh Pradhan"
+date: "2026-02-21"
+categories: [Education, AI, Teaching, Classroom Engagement]
+image: "https://images.unsplash.com/photo-1509062522246-3755977927d7"
+description: "Exploring the challenge of student disengagement in the era of instant AI answers and proposing a shift towards mandatory active participation."
+---
+
+![Education is evolving rapidly with the integration of AI tools. (Source: [Unsplash](https://unsplash.com/photos/1509062522246-3755977927d7))](https://images.unsplash.com/photo-1509062522246-3755977927d7){fig-align="center" width="100%"}
+
+In today’s educational landscape, we are witnessing a peculiar phenomenon. Classroom doors are open, Zoom links are active, and teachers are pouring their energy into meticulously prepared lectures. Yet, on the other side, there is often a wall of silence.
+
+The age of Artificial Intelligence (AI) and information overload has transformed the student-teacher dynamic in ways we are only beginning to grasp.
+
+## The "Mute Mode" Reality
+ 
+![The wall of silence: Passive attendance in the digital age. (Source: [Unsplash](https://unsplash.com/photos/1499750310107-5fef28a66643))](https://images.unsplash.com/photo-1499750310107-5fef28a66643){fig-align="center" width="80%"}
+
+Whether in a physical classroom or an online session, a growing number of students have entered what I call "Mute Mode." They attend, they listen, and they observe—often with a judgmental eye—but they rarely participate. 
+
+In online classes, this is literal: cameras off, microphones muted. In physical classrooms, it’s a mental mute—a reluctance to engage, to ask questions, or to contribute to the discourse. They are "present" because of mandatory attendance rules or credit requirements, but their intellectual presence is elsewhere.
+
+## The AI Shortcut: Why Participate?
+
+![Instant answers at their fingertips: The challenge for traditional teaching. (Source: [Unsplash](https://unsplash.com/photos/1677442136019-21780ecad995))](https://images.unsplash.com/photo-1677442136019-21780ecad995){fig-align="center" width="80%"}
+
+The root of this reluctance isn't necessarily laziness; it's a perceived redundancy. 
+
+Students today know that any factual information, any summary of a concept, or any problem-solving steps can be retrieved with a single click from **ChatGPT, Gemini, or other AI chatbots**. If the information is readily available on their screens, why bother participating in a live discussion? Why risk being wrong or putting in the effort to articulate a thought when an AI can do it for them in seconds?
+
+This creates a cycle of passive consumption. They attend because they *must*, not because they feel the *need* to be part of the learning process.
+
+## The Exhausted Educator
+
+Teachers, on the other hand, are working harder than ever. They innovate with slides, interactive tools, and real-world examples. But no matter how much energy they put in, they often fail to capture the full attention of a class that feels it already has the "answers" in its pocket. 
+
+The traditional lecture-style pedagogy is hitting a wall. When information is a commodity, the value of the "deliverer" of that information is devalued in the eyes of the student.
+
+## Shifting the Concept: "Intrude the Panel"
+
+In my opinion, we need to fundamentally change how we define participation. Participation shouldn't be a polite "bonus" for the enthusiastic few; it must become the core requirement of the educational experience.
+
+Instead of a teacher-led lecture with optional Q&A, we should move towards a model where students are **required to "intrude the panel."** 
+
+![Active participation: Shifting from listeners to panelists. (Source: [Unsplash](https://unsplash.com/photos/1524178232363-1fb2b075b655))](https://images.unsplash.com/photo-1524178232363-1fb2b075b655){fig-align="center" width="80%"}
+
+What does this mean?
+1.  **Mandatory Active Participation:** Engagement shouldn't be optional. It should be baked into the marking system and the very structure of the class.
+2.  **Panel-Style Learning:** Every student should be treated as a potential panelist, ready to defend a point, critique a concept, or apply AI-generated information to a complex, non-obvious scenario.
+3.  **Beyond Information:** Since AI provides *information*, the classroom must provide *critical synthesis*. If a student doesn't participate in the synthesis, they shouldn't get the credit. No participation, no marks—simple as that.
+
+## Conclusion
+
+We cannot compete with AI on the level of information retrieval. If we try, we lose. Instead, we must raise the stakes of the classroom. We must force a shift from passive "mutes" to active "panelists." 
+
+Education in the age of AI isn't about knowing the answer; it's about being able to debate, dissect, and apply it in real-time. It’s time to stop asking for participation and start demanding it.
+
+**What are your thoughts on this shift? How are you handling the AI-driven silence in your classes?**
+
+---
