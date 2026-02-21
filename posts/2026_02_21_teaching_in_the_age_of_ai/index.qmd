@@ -3,11 +3,11 @@ title: "Teaching in the Age of AI: From Passive Listeners to Active Panelists"
 author: "Pulakesh Pradhan"
 date: "2026-02-21"
 categories: [Education, AI, Teaching, Classroom Engagement]
-image: "https://images.unsplash.com/photo-1509062522246-3755977927d7"
+image: "images/header.jpg"
 description: "Exploring the challenge of student disengagement in the era of instant AI answers and proposing a shift towards mandatory active participation."
 ---
 
-![Education is evolving rapidly with the integration of AI tools. (Source: [Unsplash](https://unsplash.com/photos/1509062522246-3755977927d7))](https://images.unsplash.com/photo-1509062522246-3755977927d7){fig-align="center" width="100%"}
+![Education is evolving rapidly with the integration of AI tools. (Source: [Unsplash](https://unsplash.com/photos/1509062522246-3755977927d7))](images/header.jpg){fig-align="center" width="100%"}
 
 In today’s educational landscape, we are witnessing a peculiar phenomenon. Classroom doors are open, Zoom links are active, and teachers are pouring their energy into meticulously prepared lectures. Yet, on the other side, there is often a wall of silence.
 
@@ -15,7 +15,7 @@ The age of Artificial Intelligence (AI) and information overload has transformed
 
 ## The "Mute Mode" Reality
  
-![The wall of silence: Passive attendance in the digital age. (Source: [Unsplash](https://unsplash.com/photos/1499750310107-5fef28a66643))](https://images.unsplash.com/photo-1499750310107-5fef28a66643){fig-align="center" width="80%"}
+![The wall of silence: Passive attendance in the digital age. (Source: [Unsplash](https://unsplash.com/photos/1499750310107-5fef28a66643))](images/mute_mode.jpg){fig-align="center" width="80%"}
 
 Whether in a physical classroom or an online session, a growing number of students have entered what I call "Mute Mode." They attend, they listen, and they observe—often with a judgmental eye—but they rarely participate. 
 
@@ -23,7 +23,7 @@ In online classes, this is literal: cameras off, microphones muted. In physical 
 
 ## The AI Shortcut: Why Participate?
 
-![Instant answers at their fingertips: The challenge for traditional teaching. (Source: [Unsplash](https://unsplash.com/photos/1677442136019-21780ecad995))](https://images.unsplash.com/photo-1677442136019-21780ecad995){fig-align="center" width="80%"}
+![Instant answers at their fingertips: The challenge for traditional teaching. (Source: [Unsplash](https://unsplash.com/photos/1677442136019-21780ecad995))](images/ai_shortcut.jpg){fig-align="center" width="80%"}
 
 The root of this reluctance isn't necessarily laziness; it's a perceived redundancy. 
 
@@ -43,7 +43,7 @@ In my opinion, we need to fundamentally change how we define participation. Part
 
 Instead of a teacher-led lecture with optional Q&A, we should move towards a model where students are **required to "intrude the panel."** 
 
-![Active participation: Shifting from listeners to panelists. (Source: [Unsplash](https://unsplash.com/photos/1524178232363-1fb2b075b655))](https://images.unsplash.com/photo-1524178232363-1fb2b075b655){fig-align="center" width="80%"}
+![Active participation: Shifting from listeners to panelists. (Source: [Unsplash](https://unsplash.com/photos/1531482615713-2afd69097998))](images/active_panel.jpg){fig-align="center" width="80%"}
 
 What does this mean?
 1.  **Mandatory Active Participation:** Engagement shouldn't be optional. It should be baked into the marking system and the very structure of the class.
