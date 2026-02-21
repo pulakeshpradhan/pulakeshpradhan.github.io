@@ -1,8 +1,18 @@
 [
   {
+    "listing": "/events.html",
+    "items": [
+      "/events/gee-workshop-feb-2026.html",
+      "/events/mscbu-workshop-sep-2025.html",
+      "/events/gdg-nairobi.html",
+      "/events/bhu-workshop.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/2026_02_21_teaching_in_the_age_of_ai/index.html",
+      "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
       "/posts/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
       "/posts/2026-02-19-history-geographical-organisations-india/index.html",
       "/posts/2026_02_17_modern_geospatial_python_ai/index.html",
@@ -13,18 +23,10 @@
     ]
   },
   {
-    "listing": "/events.html",
-    "items": [
-      "/events/gee-workshop-feb-2026.html",
-      "/events/mscbu-workshop-sep-2025.html",
-      "/events/gdg-nairobi.html",
-      "/events/bhu-workshop.html"
-    ]
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/2026_02_21_teaching_in_the_age_of_ai/index.html",
+      "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
       "/posts/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
       "/posts/2026-02-19-history-geographical-organisations-india/index.html",
       "/posts/2026_02_17_modern_geospatial_python_ai/index.html",
