@@ -1,5 +1,5 @@
 ---
-title: "The Paradox of the Over-Educated: Complexity, Politics, and the Lost Art of Simplicity"
+title: "Life is simple. Let’s keep it that way."
 author: "Pulakesh Pradhan"
 date: "2026-02-21"
 categories: [Philosophy, Life, Education, Simplicity]
