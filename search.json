@@ -273,153 +273,6 @@
     "text": "Final Thoughts\nThe future of coding is not about how fast you can type, but how fast you can think, verify, and orchestrate.\nRead more, write less. Let the tools handle the volume while you handle the value. Speed up your coding process by leveraging the power of AI, but never neglect the fundamental knowledge that allows you to command it.\n\n\n\n\n\n\n\nOrchestrating the future: Human intelligence steering digital power. (Source: Unsplash)\n\n\nHappy Learning!\n\nImage Credits: Header by Unsplash, Crane by Unsplash, Verification by Unsplash, Learning by Unsplash, Orchestration by Unsplash, and Geography by Unsplash."
   },
   {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
-    "section": "",
-    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
-  },
-  {
-    "objectID": "courses.html#geospatial-programming",
-    "href": "courses.html#geospatial-programming",
-    "title": "Courses",
-    "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#gis-spatial-reference",
-    "href": "courses.html#gis-spatial-reference",
-    "title": "Courses",
-    "section": "🚀 GIS & Spatial Reference",
-    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#academic-writing-tools",
-    "href": "courses.html#academic-writing-tools",
-    "title": "Courses",
-    "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
-  },
-  {
-    "objectID": "events/mscbu-workshop-sep-2025.html",
-    "href": "events/mscbu-workshop-sep-2025.html",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "",
-    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
-  },
-  {
-    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "Event Overview",
-    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
-  },
-  {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
-    "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events & Engagements",
-    "section": "",
-    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
-  },
-  {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events & Engagements",
-    "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "events.html#past-seminars-workshops",
-    "href": "events.html#past-seminars-workshops",
-    "title": "Events & Engagements",
-    "section": "🏛️ Past Seminars & Workshops",
-    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine Nairobi\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
-  },
-  {
-    "objectID": "events/gdg-nairobi.html",
-    "href": "events/gdg-nairobi.html",
-    "title": "GDG Earth Engine Nairobi",
-    "section": "",
-    "text": "Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.\n View Abstract  Slides"
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html",
-    "href": "events/gee-workshop-feb-2026.html",
-    "title": "Basics of Google Earth Engine",
-    "section": "",
-    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html#schedule",
-    "href": "events/gee-workshop-feb-2026.html#schedule",
-    "title": "Basics of Google Earth Engine",
-    "section": "Schedule",
-    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pulakesh Pradhan",
-    "section": "",
-    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
-  },
-  {
-    "objectID": "index.html#upcoming-events",
-    "href": "index.html#upcoming-events",
-    "title": "Pulakesh Pradhan",
-    "section": "� Upcoming Events",
-    "text": "� Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
-  },
-  {
-    "objectID": "index.html#latest-insights",
-    "href": "index.html#latest-insights",
-    "title": "Pulakesh Pradhan",
-    "section": "📌 Latest Insights",
-    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nCoding in the Age of Generative AI\n\n\nWhy writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill.\n\n\n\nPulakesh Pradhan\n\n\nFeb 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\nPulakesh Pradhan\n\n\nFeb 17, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
-  },
-  {
-    "objectID": "index.html#social-updates",
-    "href": "index.html#social-updates",
-    "title": "Pulakesh Pradhan",
-    "section": "👥 Social Updates",
-    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
-  },
-  {
-    "objectID": "index.html#groups-i-manage",
-    "href": "index.html#groups-i-manage",
-    "title": "Pulakesh Pradhan",
-    "section": "👥 Groups I Manage",
-    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
-  },
-  {
-    "objectID": "index.html#featured-courses",
-    "href": "index.html#featured-courses",
-    "title": "Pulakesh Pradhan",
-    "section": "🎓 Featured Courses",
-    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nGeospatial Trinity\n\n\nThe ultimate reference for Python, R, and Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond GEE\n\n\nResources on merging cloud computing with open source GIS.\n\n\n\n\n\n\n\n\n\n\n\n\nPython for AI Research\n\n\nModern geospatial workflow using Python - ML, DL, AI etc.\n\n\n\n\n\nNo matching items\n\n View all courses"
-  },
-  {
-    "objectID": "index.html#featured-innovations",
-    "href": "index.html#featured-innovations",
-    "title": "Pulakesh Pradhan",
-    "section": "🚀 Featured Innovations",
-    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
-  },
-  {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
-    "title": "Pulakesh Pradhan",
-    "section": "📚 Recent Publications",
-    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
-  },
-  {
     "objectID": "books.html",
     "href": "books.html",
     "title": "Books",
@@ -488,6 +341,195 @@
     "title": "Books",
     "section": "GitHub Repositories",
     "text": "GitHub Repositories\n\n\n 30 Days of Python\nA step-by-step challenge to learn Python in 30 days.\n\n\n Geospatial Data Science\nA collection of notebooks for geospatial data science.\n\n\n GeoPandas Tutorial\nExcellent tutorial repository for mastering GeoPandas.\n\n\n Applied Geospatial DS\nCode repository for applied geospatial data science workflows.\n\n\n Brown GeoData GEE\nEarth Engine data processing scripts from Brown University.\n\n\n GEE Python + ML\nIntegrating GEE with Python and Machine Learning."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  ResearchGate  Scholar  YouTube  Email"
+  },
+  {
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "Pulakesh Pradhan",
+    "section": "� Upcoming Events",
+    "text": "� Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all events"
+  },
+  {
+    "objectID": "index.html#latest-insights",
+    "href": "index.html#latest-insights",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Insights",
+    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nTeaching in the Age of AI: From Passive Listeners to Active Panelists\n\n\nExploring the challenge of student disengagement in the era of instant AI answers and proposing a shift towards mandatory active participation.\n\n\n\nPulakesh Pradhan\n\n\nFeb 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCoding in the Age of Generative AI\n\n\nWhy writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill.\n\n\n\nPulakesh Pradhan\n\n\nFeb 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
+  },
+  {
+    "objectID": "index.html#social-updates",
+    "href": "index.html#social-updates",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Social Updates",
+    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
+  },
+  {
+    "objectID": "index.html#groups-i-manage",
+    "href": "index.html#groups-i-manage",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Groups I Manage",
+    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
+  },
+  {
+    "objectID": "index.html#featured-courses",
+    "href": "index.html#featured-courses",
+    "title": "Pulakesh Pradhan",
+    "section": "🎓 Featured Courses",
+    "text": "🎓 Featured Courses\n\n\n\n\n\n\n\n\n\n\nGeospatial Trinity\n\n\nThe ultimate reference for Python, R, and Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond GEE\n\n\nResources on merging cloud computing with open source GIS.\n\n\n\n\n\n\n\n\n\n\n\n\nPython for AI Research\n\n\nModern geospatial workflow using Python - ML, DL, AI etc.\n\n\n\n\n\nNo matching items\n\n View all courses"
+  },
+  {
+    "objectID": "index.html#featured-innovations",
+    "href": "index.html#featured-innovations",
+    "title": "Pulakesh Pradhan",
+    "section": "🚀 Featured Innovations",
+    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSpectral Reflectance Curve\n\n\nAnalyze spectral signatures across multiple bands.\n\n\n\n\n\nNo matching items\n\n View all innovations"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Pulakesh Pradhan",
+    "section": "📚 Recent Publications",
+    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop will be held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+  },
+  {
+    "objectID": "events/gdg-nairobi.html",
+    "href": "events/gdg-nairobi.html",
+    "title": "GDG Earth Engine Nairobi",
+    "section": "",
+    "text": "Drought Monitoring with GEE AI Assistant\nTechnical Seminar | 2024\nPresented the integration of Gemini Pro API with Earth Engine for automated drought detection.\n View Abstract  Slides"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Engagements",
+    "section": "",
+    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
+  },
+  {
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events & Engagements",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html#past-seminars-workshops",
+    "href": "events.html#past-seminars-workshops",
+    "title": "Events & Engagements",
+    "section": "🏛️ Past Seminars & Workshops",
+    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDG Earth Engine Nairobi\n\n\nDrought Monitoring with GEE AI Assistant.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
+  },
+  {
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
+    "section": "",
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html",
+    "href": "events/mscbu-workshop-sep-2025.html",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "Event Overview",
+    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
+  },
+  {
+    "objectID": "courses.html#geospatial-programming",
+    "href": "courses.html#geospatial-programming",
+    "title": "Courses",
+    "section": "💻 Geospatial Programming",
+    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
+  },
+  {
+    "objectID": "courses.html#gis-spatial-reference",
+    "href": "courses.html#gis-spatial-reference",
+    "title": "Courses",
+    "section": "🚀 GIS & Spatial Reference",
+    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
+  },
+  {
+    "objectID": "courses.html#academic-writing-tools",
+    "href": "courses.html#academic-writing-tools",
+    "title": "Courses",
+    "section": "✍️ Academic Writing & Tools",
+    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
+  },
+  {
+    "objectID": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html",
+    "href": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html",
+    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
+    "section": "",
+    "text": "Education is evolving rapidly with the integration of AI tools. (Source: Unsplash)\nIn today’s educational landscape, we are witnessing a peculiar phenomenon. Classroom doors are open, Zoom links are active, and teachers are pouring their energy into meticulously prepared lectures. Yet, on the other side, there is often a wall of silence.\nThe age of Artificial Intelligence (AI) and information overload has transformed the student-teacher dynamic in ways we are only beginning to grasp."
+  },
+  {
+    "objectID": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#the-mute-mode-reality",
+    "href": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#the-mute-mode-reality",
+    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
+    "section": "The “Mute Mode” Reality",
+    "text": "The “Mute Mode” Reality\n\n\n\n\n\n\n\nThe wall of silence: Passive attendance in the digital age. (Source: Unsplash)\n\n\nWhether in a physical classroom or an online session, a growing number of students have entered what I call “Mute Mode.” They attend, they listen, and they observe—often with a judgmental eye—but they rarely participate.\nIn online classes, this is literal: cameras off, microphones muted. In physical classrooms, it’s a mental mute—a reluctance to engage, to ask questions, or to contribute to the discourse. They are “present” because of mandatory attendance rules or credit requirements, but their intellectual presence is elsewhere."
+  },
+  {
+    "objectID": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#the-ai-shortcut-why-participate",
+    "href": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#the-ai-shortcut-why-participate",
+    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
+    "section": "The AI Shortcut: Why Participate?",
+    "text": "The AI Shortcut: Why Participate?\n\n\n\n\n\n\n\nInstant answers at their fingertips: The challenge for traditional teaching. (Source: Unsplash)\n\n\nThe root of this reluctance isn’t necessarily laziness; it’s a perceived redundancy.\nStudents today know that any factual information, any summary of a concept, or any problem-solving steps can be retrieved with a single click from ChatGPT, Gemini, or other AI chatbots. If the information is readily available on their screens, why bother participating in a live discussion? Why risk being wrong or putting in the effort to articulate a thought when an AI can do it for them in seconds?\nThis creates a cycle of passive consumption. They attend because they must, not because they feel the need to be part of the learning process."
+  },
+  {
+    "objectID": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#the-exhausted-educator",
+    "href": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#the-exhausted-educator",
+    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
+    "section": "The Exhausted Educator",
+    "text": "The Exhausted Educator\nTeachers, on the other hand, are working harder than ever. They innovate with slides, interactive tools, and real-world examples. But no matter how much energy they put in, they often fail to capture the full attention of a class that feels it already has the “answers” in its pocket.\nThe traditional lecture-style pedagogy is hitting a wall. When information is a commodity, the value of the “deliverer” of that information is devalued in the eyes of the student."
+  },
+  {
+    "objectID": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#shifting-the-concept-intrude-the-panel",
+    "href": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#shifting-the-concept-intrude-the-panel",
+    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
+    "section": "Shifting the Concept: “Intrude the Panel”",
+    "text": "Shifting the Concept: “Intrude the Panel”\nIn my opinion, we need to fundamentally change how we define participation. Participation shouldn’t be a polite “bonus” for the enthusiastic few; it must become the core requirement of the educational experience.\nInstead of a teacher-led lecture with optional Q&A, we should move towards a model where students are required to “intrude the panel.”\n\n\n\n\n\n\n\nActive participation: Shifting from listeners to panelists. (Source: Unsplash)\n\n\nWhat does this mean? 1. Mandatory Active Participation: Engagement shouldn’t be optional. It should be baked into the marking system and the very structure of the class. 2. Panel-Style Learning: Every student should be treated as a potential panelist, ready to defend a point, critique a concept, or apply AI-generated information to a complex, non-obvious scenario. 3. Beyond Information: Since AI provides information, the classroom must provide critical synthesis. If a student doesn’t participate in the synthesis, they shouldn’t get the credit. No participation, no marks—simple as that."
+  },
+  {
+    "objectID": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#conclusion",
+    "href": "posts/2026_02_21_teaching_in_the_age_of_ai/index.html#conclusion",
+    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
+    "section": "Conclusion",
+    "text": "Conclusion\nWe cannot compete with AI on the level of information retrieval. If we try, we lose. Instead, we must raise the stakes of the classroom. We must force a shift from passive “mutes” to active “panelists.”\nEducation in the age of AI isn’t about knowing the answer; it’s about being able to debate, dissect, and apply it in real-time. It’s time to stop asking for participation and start demanding it.\nWhat are your thoughts on this shift? How are you handling the AI-driven silence in your classes?"
   },
   {
     "objectID": "posts/2026_02_17_modern_geospatial_python_ai/index.html",
@@ -627,7 +669,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Coding in the Age of Generative AI\n\n\n\nGenerative AI\n\nFuture of coding\n\nAutomation\n\n\n\nWhy writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill.\n\n\n\n\n\nFeb 20, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\nHistory\n\nGeography\n\nInstitutional Growth\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\n\nPython\n\nMachine Learning\n\nDeep Learning\n\nAI\n\nGeospatial\n\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\n\n\nFeb 17, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nTheory\n\nGIS\n\nSocial Science\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\n\nCloud GIS\n\nGoogle Earth Engine\n\nOpen Source\n\nPython\n\nR\n\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R is the future of sustainable geospatial analysis.\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+    "text": "Teaching in the Age of AI: From Passive Listeners to Active Panelists\n\n\n\nEducation\n\nAI\n\nTeaching\n\nClassroom Engagement\n\n\n\nExploring the challenge of student disengagement in the era of instant AI answers and proposing a shift towards mandatory active participation.\n\n\n\n\n\nFeb 21, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nCoding in the Age of Generative AI\n\n\n\nGenerative AI\n\nFuture of coding\n\nAutomation\n\n\n\nWhy writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill.\n\n\n\n\n\nFeb 20, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\nHistory\n\nGeography\n\nInstitutional Growth\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nModern Geospatial Workflow using Python: ML, DL, and AI Integration\n\n\n\nPython\n\nMachine Learning\n\nDeep Learning\n\nAI\n\nGeospatial\n\n\n\nExploring how Python has become the backbone of modern geospatial science, enabling a seamless transition from traditional GIS to advanced AI-driven research.\n\n\n\n\n\nFeb 17, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nTheory\n\nGIS\n\nSocial Science\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nCloud GIS Beyond Google Earth Engine: Why Open Source Matters\n\n\n\nCloud GIS\n\nGoogle Earth Engine\n\nOpen Source\n\nPython\n\nR\n\n\n\nA critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R is the future of sustainable geospatial analysis.\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "journals.html",
