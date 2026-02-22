@@ -2,7 +2,7 @@
 title: "Teaching in the Age of AI: From Passive Listeners to Active Panelists"
 author: "Pulakesh Pradhan"
 date: "2026-02-21"
-categories: [AI, Education]
+categories: [AI, Education, Ethics]
 image: "images/header.jpg"
 description: "Exploring the challenge of student disengagement in the era of instant AI answers and proposing a shift towards mandatory active participation."
 ---

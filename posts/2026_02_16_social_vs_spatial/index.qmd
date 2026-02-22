@@ -2,7 +2,7 @@
 title: "The Dual Soul of Geography: Social Science vs. Spatial Science"
 author: "Pulakesh Pradhan"
 date: "2026-02-16"
-categories: [Geography, GIS]
+categories: [Geography, GIS, Theory]
 image: "1_intro_duality.jpg"
 ---
 

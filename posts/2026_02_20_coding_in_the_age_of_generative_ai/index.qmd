@@ -2,7 +2,7 @@
 title: "Coding in the Age of Generative AI"
 author: "Pulakesh Pradhan"
 date: "2026-02-20"
-categories: [AI, Programming]
+categories: [AI, Programming, Future]
 image: "images/header.jpg"
 description: "Why writing code line-by-line is becoming obsolete, and how reading code and verifying authenticity is the new essential skill."
 ---

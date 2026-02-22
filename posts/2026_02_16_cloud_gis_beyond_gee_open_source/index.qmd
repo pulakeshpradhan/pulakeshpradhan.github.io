@@ -2,7 +2,7 @@
 title: "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters"
 author: "Pulakesh Pradhan"
 date: "2026-02-16"
-categories: [Geospatial, Programming]
+categories: [Geospatial, Programming, Open Source]
 description: "A critical look at the risks of relying solely on proprietary tools like Google Earth Engine, and why a hybrid workflow integrating open-source powerhouses like Python and R is the future of sustainable geospatial analysis."
 image: "1_cloud_vs_open.jpg"
 ---
