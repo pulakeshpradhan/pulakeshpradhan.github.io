@@ -23,22 +23,7 @@ listing:
         image: "images/gee_course.jpg"
     type: grid
     max-items: 3
-  - id: latest-tutorials
-    contents:
-      - title: "Geospatial Trinity"
-        description: "The ultimate reference for Python, R, and Google Earth Engine."
-        path: "https://pulakeshpradhan.github.io/geospatial/"
-        image: "courses/geospatial_trinity.png"
-      - title: "Cloud GIS Beyond GEE"
-        description: "Resources on merging cloud computing with open source GIS."
-        path: "https://pulakeshpradhan.github.io/cloudgis"
-        image: "courses/dask_xarray_workflow.png"
-      - title: "Python for AI Research"
-        description: "Modern geospatial workflow using Python - ML, DL, AI etc."
-        path: "https://pulakeshpradhan.github.io/python"
-        image: "courses/geopy.png"
-    type: grid
-    max-items: 3
+
   - id: upcoming-events
     contents: events
     sort: "date asc"
@@ -168,12 +153,7 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 :::
 <hr>
 
-## 🎓 Featured Courses
-::: {#latest-tutorials}
-:::
-[<i class="bi bi-arrow-right-circle"></i> View all courses](courses.qmd){.social-btn .mt-2}
 
-<hr>
 
 ## 🚀 Featured Innovations
 ::: {#latest-innovations}
