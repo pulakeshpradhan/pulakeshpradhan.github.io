@@ -2,7 +2,7 @@
 title: "Life is simple. Let’s keep it that way."
 author: "Pulakesh Pradhan"
 date: "2026-02-21"
-categories: [Philosophy, Life, Education, Simplicity]
+categories: [Education, Philosophy]
 image: "images/header.jpg"
 description: "Why the most 'highly educated' people often create the most uneducated complexities, and a reminder that life is fundamentally simple."
 ---
