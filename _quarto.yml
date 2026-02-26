@@ -35,8 +35,8 @@ website:
         text: Gallery
     right:
       - icon: layers-fill
-        href: journals.qmd
-        text: ""
+        href: journals.html
+        aria-label: Journals
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
       - icon: mortarboard
