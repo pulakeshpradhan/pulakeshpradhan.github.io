@@ -34,8 +34,8 @@ website:
       - href: gallery.qmd
         text: Gallery
     right:
-      - icon: text-paragraph
-        href: https://www.researchgate.net/profile/Pulakesh-Pradhan
+      - icon: layers-fill
+        href: journals.qmd
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
       - icon: mortarboard
