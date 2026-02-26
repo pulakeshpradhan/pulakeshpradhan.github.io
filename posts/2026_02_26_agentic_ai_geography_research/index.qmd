@@ -25,7 +25,26 @@ Instead of a human manually typing out Python or R scripts to process satellite 
 - Debug its own code iteratively.
 - Finish the task and present the results.
 
-In this new dynamic, the human researcher’s role in computational tasks will be sharply curtailed. Researchers will primarily act as *verifiers* and *directors*, reading the code and outputs produced by the system rather than building it line by line.
+In this new dynamic, the human researcher's role in computational tasks will be sharply curtailed. Researchers will primarily act as *verifiers* and *directors*, reading the code and outputs produced by the system rather than building it line by line.
+
+## A Real-World Example: Claude as a Geography Research Co-worker
+
+One of the most compelling early demonstrations of this shift is the use of **[Claude](https://claude.ai)** (by Anthropic) as an AI research co-worker. Claude is not merely a chatbot—it is a capable agentic assistant that can take on substantial portions of a researcher's computational and analytical workload right now, in 2026, years before the full 2030 transition.
+
+Consider a practical geography research workflow using Claude:
+
+1. **Literature Review**: A researcher prompts Claude with a research question on, say, *urban heat island effects in South Asian megacities*. Claude scans, summarizes, and synthesizes dozens of relevant papers, producing a structured literature map in minutes.
+
+2. **Code Generation**: The researcher asks Claude to *"write a Python script using Google Earth Engine to extract LST (Land Surface Temperature) time series data for Kolkata from 2010–2024."* Claude writes the complete, functional script—no prior GEE coding knowledge required from the researcher's side.
+
+3. **Debugging Autonomously**: When the script throws an error, the researcher pastes the traceback back to Claude. Claude identifies the issue, corrects the code, and explains the fix—behaving exactly like a senior co-worker reviewing a junior's code.
+
+4. **Statistical Analysis & Interpretation**: Claude then takes the extracted data, runs spatial regression analyses, and writes a draft interpretation of the results in academic language, ready for the researcher to verify and refine.
+
+5. **Writing Assistance**: Finally, Claude drafts the methodology and results sections of the research paper based on the findings—a task that previously took weeks of effort.
+
+In this workflow, the geographer's role shifted entirely to **intellectual oversight**: defining the research question, validating the outputs, adding field-based context, and exercising geographic judgment. The *execution* was almost entirely agentic. This is not a vision of 2030—it is happening today.
+
 
 ## The Extinction of "Mediocre" Desk Research
 
