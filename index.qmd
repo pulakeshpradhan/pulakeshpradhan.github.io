@@ -24,13 +24,13 @@ listing:
     type: grid
     max-items: 3
 
-  - id: upcoming-events
+  - id: past-events
     contents: events
-    sort: "date asc"
+    sort: "date desc"
     type: grid
     max-items: 3
     include:
-      categories: Upcoming
+      categories: Past
     categories: false
   - id: recent-pubs
     contents:
@@ -74,8 +74,8 @@ page-layout: full
 
 <hr>
 
-## � Upcoming Events
-::: {#upcoming-events}
+## 📅 Recent Events
+::: {#past-events}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all events](events.qmd){.social-btn .mt-2}
 
@@ -168,4 +168,3 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 ::: {#recent-pubs}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all publications](publications.qmd){.social-btn .mt-2}
-

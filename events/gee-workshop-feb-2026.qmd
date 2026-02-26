@@ -2,8 +2,8 @@
 title: "Basics of Google Earth Engine"
 date: "2026-02-16"
 description: "A 5-day virtual workshop for PG students at Centurion University, Bhubaneswar."
-image: "../images/Events/geelogo.png"
-categories: [Upcoming]
+image: "gee_cu0.png"
+categories: [Past]
 ---
 
 **Topic:** Basics of Google Earth Engine  
@@ -11,9 +11,20 @@ categories: [Upcoming]
 **Mode:** Virtual (Online)  
 **Host:** Centurion University, Bhubaneswar  
 
+## Workshop Highlights
+
+The 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis.
+
+::: {layout-ncol=2}
+![](gee_cu0.png)
+![](gee_cu1.jpeg)
+![](gee_cu2.jpeg)
+![](gee_cu3.jpeg)
+:::
+
 ## Schedule
 
-The workshop will be held from **7:00 PM to 9:30 PM** on the following dates:
+The workshop was held from **7:00 PM to 9:30 PM** on the following dates:
 
 - **Monday, Feb 16, 2026**
 - **Wednesday, Feb 18, 2026**
@@ -21,4 +32,5 @@ The workshop will be held from **7:00 PM to 9:30 PM** on the following dates:
 - **Saturday, Feb 21, 2026**
 - **Sunday, Feb 22, 2026**
 
-This intensive session is designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis.
+This intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis.
+
