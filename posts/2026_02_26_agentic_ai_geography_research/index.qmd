@@ -3,10 +3,10 @@ title: "Geography Research @ 2030: The Rise of Agentic AI and the Imperative of 
 author: "Pulakesh Pradhan"
 date: "2026-02-26"
 categories: [Geography, AI, Future Trends, Research]
-image: "cover.png"
+image: "cover.jpg"
 ---
 
-![The future of Geography: Human insight meeting Agentic AI](cover.png)
+![The future of Geography: Human insight meeting Agentic AI](cover.jpg)
 
 The landscape of geographical research is evolving at an unprecedented pace. As we look toward 2030, the traditional, labor-intensive workflows of coding, spatial analysis, and machine learning are on the verge of a massive paradigm shift. The catalyst for this transformation? **Agentic AI**. 
 
@@ -14,7 +14,7 @@ In the near future, the actual mechanics of computational geographical research 
 
 ## The Shift to Agentic AI Workflows
 
-![Automated Agentic Workflows: From Code to Insight](workflow.png)
+![Automated Agentic Workflows: From Code to Insight](workflow.jpg)
 
 Currently, a significant portion of a geospatial researcher's time is spent wrestling with syntax, building data pipelines, training deep learning models, and debugging code. By 2030, these coding and machine learning workflows will operate primarily in an "agentic mode."
 
