@@ -4,3 +4,4 @@
 .DS_Store
 
 **/*.quarto_ipynb
+/ignored_folder/
