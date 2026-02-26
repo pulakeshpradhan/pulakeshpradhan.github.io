@@ -29,9 +29,6 @@ website:
         text: Social
       - href: innovations.qmd
         text: Innovations
-
-      - href: journals.qmd
-        text: Journals
       - href: cv.qmd
         text: CV
       - href: gallery.qmd
