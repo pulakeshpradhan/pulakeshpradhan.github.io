@@ -5,12 +5,17 @@
       "/events/gee-workshop-feb-2026.html",
       "/events/mscbu-workshop-sep-2025.html",
       "/events/gdg-nairobi.html",
+      "/events/gee-training-apr-2025.html",
       "/events/bhu-workshop.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026-02-24-climate-resilience-supply-chains/index.html",
+      "/posts/2026-02-24-self-reliance/index.html",
+      "/posts/2026-02-24-the-power-of-confidence/index.html",
+      "/posts/2026-02-24-impact-to-resilience/index.html",
       "/posts/2026_02_21_teaching_in_the_age_of_ai/index.html",
       "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
       "/posts/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
@@ -19,12 +24,20 @@
       "/posts/2026_02_16_social_vs_spatial/index.html",
       "/posts/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
       "/innovations.html",
-      "/events/gee-workshop-feb-2026.html"
+      "/events/gee-workshop-feb-2026.html",
+      "/events/mscbu-workshop-sep-2025.html",
+      "/events/gdg-nairobi.html",
+      "/events/gee-training-apr-2025.html",
+      "/events/bhu-workshop.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2026-02-24-climate-resilience-supply-chains/index.html",
+      "/posts/2026-02-24-self-reliance/index.html",
+      "/posts/2026-02-24-the-power-of-confidence/index.html",
+      "/posts/2026-02-24-impact-to-resilience/index.html",
       "/posts/2026_02_21_teaching_in_the_age_of_ai/index.html",
       "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
       "/posts/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
