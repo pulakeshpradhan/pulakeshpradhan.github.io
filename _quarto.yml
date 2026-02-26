@@ -34,7 +34,7 @@ website:
       - href: gallery.qmd
         text: Gallery
     right:
-      - icon: bookmark-star
+      - icon: gem
         href: journals.html
         aria-label: Journals
       - icon: linkedin
