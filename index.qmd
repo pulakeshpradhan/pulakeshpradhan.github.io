@@ -61,7 +61,7 @@ page-layout: full
 *Fooding | Coding | Writing | Travelling*
 
 ::: {.social-links}
-[<i class="bi bi-book"></i> Journals](journals.qmd){.social-btn}
+[<i class="bi bi-layers-fill"></i> Journals](journals.qmd){.social-btn}
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}
 [<i class="bi bi-mortarboard"></i> Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
 [<i class="bi bi-youtube"></i> YouTube](https://www.youtube.com/@SpatialGeography){.social-btn}
