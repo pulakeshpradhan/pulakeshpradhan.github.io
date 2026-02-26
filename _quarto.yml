@@ -36,6 +36,7 @@ website:
     right:
       - icon: layers-fill
         href: journals.qmd
+        text: ""
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
       - icon: mortarboard
