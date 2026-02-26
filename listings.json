@@ -10,9 +10,17 @@
     ]
   },
   {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2026_02_26_irony_of_the_opposite/index.html",
+      "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
+      "/posts/2026-02-19-history-geographical-organisations-india/index.html",
+      "/posts/2026_02_16_social_vs_spatial/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
-      "/posts/2026_02_26_agentic_ai_geography_research/index.html",
       "/posts/2026_02_26_irony_of_the_opposite/index.html",
       "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
       "/posts/2026-02-19-history-geographical-organisations-india/index.html",
@@ -23,16 +31,6 @@
       "/events/gdg-nairobi.html",
       "/events/gee-training-apr-2025.html",
       "/events/bhu-workshop.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/2026_02_26_agentic_ai_geography_research/index.html",
-      "/posts/2026_02_26_irony_of_the_opposite/index.html",
-      "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
-      "/posts/2026-02-19-history-geographical-organisations-india/index.html",
-      "/posts/2026_02_16_social_vs_spatial/index.html"
     ]
   }
 ]
