@@ -209,5 +209,4 @@ Jointly organized by Sustainability Development Center and Department of Archite
 [![](social/iitbhu_march.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform)
 :::
 :::
-
-
+:::
