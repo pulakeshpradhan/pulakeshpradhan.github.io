@@ -98,49 +98,47 @@ Use the sections below to evaluate your score for both Colleges and Universities
 
 ### 🏫 Criteria for Colleges
 
-| S.N. | Criteria | Max Marks | Marks Distribution | Obtained |
-|:---:|:---|:---:|:---|:---:|
-| 1 | Graduation | 21 | 80% & Above = 21; 60% to < 80% = 19; 55% to < 60% = 16; 45% to < 55% = 10 | 16 (-5) |
-| 2 | Post-Graduation | 25 | 80% & Above = 25; 60% to < 80% = 23; 55% (50% for SC/ST/OBC/PWD) to < 60% = 20 | 25 |
-| 3 | M.Phil. | 07 | 60% & above = 07; 55% to < 60% = 05 | 07 |
-| 4 | Ph.D. | 25 | After PhD = 78/84 | 18+ |
-| 5 | NET with JRF | 10 | | 10 |
-| 6 | NET | 08 | | |
-| 7 | SLET/SET | 05 | | |
-| 8 | Research Publications | 06 | 2 marks for each publication in Peer-Reviewed or UGC-listed Journals | 06+ |
-| 9 | Teaching / Post Doctoral | 10 | 2 marks for one year each | 10+ |
-| 10 | Awards (Intl./National) | 03 | Awards given by Intl. Orgs / Govt. of India / Recognized Bodies | |
-| 11 | Awards (State-Level) | 02 | Awards given by State Government | 02 (-1) |
-| | **TOTAL** | **100** | | **60 / 66** |
+| S.N. | Criteria | Max Marks | Marks Distribution |
+|:---:|:---|:---:|:---|
+| 1 | Graduation | 21 | 80% & Above = 21; 60% to < 80% = 19; 55% to < 60% = 16; 45% to < 55% = 10 |
+| 2 | Post-Graduation | 25 | 80% & Above = 25; 60% to < 80% = 23; 55% (50% for SC/ST/OBC/PWD) to < 60% = 20 |
+| 3 | M.Phil. | 07 | 60% & above = 07; 55% to < 60% = 05 |
+| 4 | Ph.D. | 25 | 25 Marks |
+| 5 | NET with JRF | 10 | |
+| 6 | NET | 08 | |
+| 7 | SLET/SET | 05 | |
+| 8 | Research Publications | 06 | 2 marks for each publication in Peer-Reviewed or UGC-listed Journals |
+| 9 | Teaching / Post Doctoral | 10 | 2 marks for one year each |
+| 10 | Awards (Intl./National) | 03 | Awards given by Intl. Orgs / Govt. of India / Recognized Bodies |
+| 11 | Awards (State-Level) | 02 | Awards given by State Government |
+| | **TOTAL** | **100** | |
 
 > [!TIP]
-> **Summary (Colleges):**
-> *   **Note (A):** (i) M.Phil. + Ph.D. Max: **25 Marks**; (ii) JRF/NET/SET Max: **10 Marks**; (iii) Awards Max: **03 Marks**
-> *   **Academic Score:** 84 | **Research:** 06 | **Teaching:** 10 | **Total:** 100
+> **Notes:**
+> *   (i) M.Phil. + Ph.D. Max: **25 Marks**; (ii) JRF/NET/SET Max: **10 Marks**; (iii) Awards Max: **03 Marks**
 
 ---
 
 ### 🎓 Criteria for Universities
 
-| S.N. | Criteria | Max Marks | Marks Distribution | Obtained |
-|:---:|:---|:---:|:---|:---:|
-| 1 | Graduation | 15 | 80% & Above = 15; 60% to < 80% = 13; 55% to < 60% = 10; 45% to < 55% = 05 | 13 (-2) |
-| 2 | Post-Graduation | 25 | 80% & Above = 25; 60% to < 80% = 23; 55% (50% for SC/ST/OBC/PWD) to < 60% = 20 | 25 |
-| 3 | M.Phil. | 07 | 60% & above = 07; 55% to < 60% = 05 | 07 |
-| 4 | Ph.D. | 30 | After PhD = 77/80 | 23+ |
-| 5 | NET with JRF | 07 | | 07 |
-| 6 | NET | 05 | | |
-| 7 | SLET/SET | 03 | | |
-| 8 | Research Publications | 10 | 2 marks for each publication in Peer-Reviewed or UGC-listed Journals | 10+ |
-| 9 | Teaching / Post Doctoral | 10 | 2 marks for one year each | 10+ |
-| 10 | Awards (Intl./National) | 03 | Awards given by Intl. Orgs / Govt. of India / Recognized Bodies | |
-| 11 | Awards (State-Level) | 02 | Awards given by State Government | 02 (-1) |
-| | **TOTAL** | **100** | | **54 / 57** |
+| S.N. | Criteria | Max Marks | Marks Distribution |
+|:---:|:---|:---:|:---|
+| 1 | Graduation | 15 | 80% & Above = 15; 60% to < 80% = 13; 55% to < 60% = 10; 45% to < 55% = 05 |
+| 2 | Post-Graduation | 25 | 80% & Above = 25; 60% to < 80% = 23; 55% (50% for SC/ST/OBC/PWD) to < 60% = 20 |
+| 3 | M.Phil. | 07 | 60% & above = 07; 55% to < 60% = 05 |
+| 4 | Ph.D. | 30 | 30 Marks |
+| 5 | NET with JRF | 07 | |
+| 6 | NET | 05 | |
+| 7 | SLET/SET | 03 | |
+| 8 | Research Publications | 10 | 2 marks for each publication in Peer-Reviewed or UGC-listed Journals |
+| 9 | Teaching / Post Doctoral | 10 | 2 marks for one year each |
+| 10 | Awards (Intl./National) | 03 | Awards given by Intl. Orgs / Govt. of India / Recognized Bodies |
+| 11 | Awards (State-Level) | 02 | Awards given by State Government |
+| | **TOTAL** | **100** | |
 
 > [!TIP]
-> **Summary (Universities):**
-> *   **Note (A):** (i) M.Phil. + Ph.D. Max: **30 Marks**; (ii) JRF/NET/SET Max: **07 Marks**; (iii) Awards Max: **03 Marks**
-> *   **Academic Score:** 80 | **Research:** 10 | **Teaching:** 10 | **Total:** 100
+> **Notes:**
+> *   (i) M.Phil. + Ph.D. Max: **30 Marks**; (ii) JRF/NET/SET Max: **07 Marks**; (iii) Awards Max: **03 Marks**
 
 ---
 
@@ -173,82 +171,9 @@ Use the sections below to evaluate your score for both Colleges and Universities
 
 :::
 
-::: {.g-col-12 .g-col-md-6}
-
-#### 🛠️ Skills & Progress Tracker
-
-**Geospatial & Programming**
-
-- [x] **Cloud GIS**: Google Earth Engine (GEE)
-- [x] **Standards**: STAC + R + LaTeX
-- [ ] **Python & Deep Learning** (CNN/LSTM/GAN)
-    - *Progress: 50% Done*
-
-<div class="progress" style="height: 20px; margin-bottom: 25px;">
-  <div class="progress-bar" style="width: 50%; background-color: #dc2626;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-</div>
-
-**Proposed Post-Doc Research**
-
-> **Title:** *"Climate Change induced threats to Indian agriculture: Current state and future preparedness"*
->
-> **Core Components:**
-> - **Climate Data**: Analysis of historical & real-time climatic variables.
-> - **Future Projections**: Multi-model ensemble analysis using **CMIP6 data**.
-> - **Socio-Spatial Integration**: Marriage of social indicators with spatial vulnerabilities.
-> - **Field Validation**: Primary survey of high-risk regions to assess local preparedness and adaptation strategies.
-
-<br>
-
-**Current Status Summary**
-
-| Category | Readiness |
-|:---|:---|
-| **Academic** | **100%** (NET/PhD) |
-| **Technical** | **75%** (GEE/R/LaTeX) |
-| **A.I./M.L.** | **50%** (Python/DL) |
-
+:::
 :::
 
-:::
-
-### 🎯 Career Goal
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-7}
-#### ✍️ Thesis Roadmap
-| Milestone | Timeline | Status |
-|:---|:---|:---:|
-| **Draft Completion** | Summer Vacation 2026 | 🎯 Target |
-| **Quality Refinement** | Final 6 Months (Buffer) | ⏳ Planned |
-| **Final Submission** | Year End 2026 | 🚀 Goal |
-
-> [!IMPORTANT]
-> **Priority:** PhD thesis is critical for long-term career growth. The focus is on achieving **top-tier quality** and scientific excellence.
-:::
-
-::: {.g-col-12 .g-col-md-5}
-#### 📄 Publications
-| Goal | Deadline |
-|:---|:---|
-| **5 Paper Submissions** | **Oct 2026 (Puja Vacation)** |
-
-**Target Focus**
-- [ ] SCI Journal Indexing
-- [ ] High Impact Factor
-- [ ] Rigorous Peer Review
-:::
-
-:::
-
-::: {.social-card style="background: #fff7ed; border: 2px solid #fb923c; padding: 20px; border-radius: 12px; margin-top: 20px;"}
-### 🏆 Ultimate Career Target
-**Position:** Assistant Professor
-**Target Institutions:** **BHU / JNU / Central Universities**
-
-> **Strategy:** The path to a Central University depends entirely on the **Quality of Research** and **Technical Skills**. Every paper and skill acquired is a step toward this excellence.
-:::
 
 :::
 
