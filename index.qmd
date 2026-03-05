@@ -9,6 +9,10 @@ listing:
     categories: false
   - id: latest-innovations
     contents: 
+      - title: "Sentinel-2 Index Explorer"
+        description: "Interactive NDVI & NDWI analysis using Sentinel-2 and GEE."
+        path: "https://spatialgeography.streamlit.app/"
+        image: "innovation/veg_water_explorer.png"
       - title: "Spectral Reflectance Curve"
         description: "Analyze spectral signatures across multiple bands."
         path: "https://spatialgeography.projects.earthengine.app/view/spectral"
@@ -57,11 +61,10 @@ page-layout: full
 </div>
 
 # Pulakesh Pradhan
-### PhD Scholar in Geography, MPhil, UGC-SRF
+### PhD Scholar in Geography | MPhil, UGC-SRF
 *Fooding | Coding | Writing | Travelling*
 
 ::: {.social-links}
-[<i class="bi bi-gem"></i>](journals.qmd){.social-btn}
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/){.social-btn}
 [<i class="bi bi-mortarboard"></i> Scholar](https://scholar.google.com/citations?user=_DhEQHEAAAAJ){.social-btn}
 [<i class="bi bi-youtube"></i> YouTube](https://www.youtube.com/@SpatialGeography){.social-btn}
@@ -105,8 +108,6 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 :::
 
 [<i class="bi bi-arrow-right-circle"></i> View all updates](social.qmd){.social-btn .mt-2}
-
-<hr>
 
 ## 👥 Groups I Manage
 
@@ -168,3 +169,11 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 ::: {#recent-pubs}
 :::
 [<i class="bi bi-arrow-right-circle"></i> View all publications](publications.qmd){.social-btn .mt-2}
+
+<hr>
+
+## ⌨️ Typing Proficiency
+<div style="text-align: center; margin: 30px auto;">
+[![](images/typingcertificate.webp){.rounded style="border: 2px solid #e2e8f0; box-shadow: 0 10px 25px rgba(0,0,0,0.08); max-width: 600px; width: 100%;"}](https://www.ratatype.com/C204148EN_NEW)
+<p style="margin-top: 15px; color: #64748b; font-size: 0.9rem;">Verified on Ratatype: 57 WPM, 99.6% Accuracy</p>
+</div>

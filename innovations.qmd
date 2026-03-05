@@ -9,7 +9,30 @@ My work involves developing open-source tools, cloud applications, and browser e
 
 ::: {.innovation-section}
 
-## 🌍 Earth Engine Apps
+## 🚀 Streamlit Apps
+
+::: {.innovation-grid}
+
+::: {.innovation-card}
+[<img src="innovation/veg_water_explorer.png" class="nolightbox">](https://spatialgeography.streamlit.app/)
+
+::: {.innovation-card-label}
+Sentinel-2 Index Explorer
+:::
+
+::: {.innovation-card-desc}
+Interactive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.
+:::
+
+::: {.innovation-card-links}
+[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.streamlit.app/){.social-btn .stretched-link}
+:::
+
+:::
+
+:::
+
+## 📊 R Shiny Apps
 
 ::: {.innovation-grid}
 
@@ -30,6 +53,12 @@ Interactive geospatial mapping dashboard built with R Shiny.
 
 :::
 
+:::
+
+## 🌍 Google Earth Engine Apps (Native)
+
+::: {.innovation-grid}
+
 ::: {.innovation-card}
 [<img src="innovation/spectralcurve.png" class="nolightbox">](https://spatialgeography.projects.earthengine.app/view/spectral)
 
@@ -42,7 +71,7 @@ Advanced tool for analyzing spectral signatures across multiple bands for land c
 :::
 
 ::: {.innovation-card-links}
-[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/spectral){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
+[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.projects.earthengine.app/view/spectral/){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/){.social-btn}
 :::
 
 :::

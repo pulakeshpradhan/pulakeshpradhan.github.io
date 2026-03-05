@@ -1,7 +1,5 @@
 project:
   type: website
-  exclude:
-    - ignored_folder/
 
 website:
   title: "Pulakesh Pradhan"
@@ -29,6 +27,8 @@ website:
         text: Blog
       - href: social.qmd
         text: Social
+      - href: jobs.qmd
+        text: Jobs
       - href: innovations.qmd
         text: Innovations
       - href: cv.qmd

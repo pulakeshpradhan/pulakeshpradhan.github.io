@@ -121,5 +121,62 @@
   },
   "posts/2026-02-24-impact-to-resilience/index.qmd": {
     "index.html": "35cd7ae2"
+  },
+  "events/lpu-spatial-course-march-2026.qmd": {
+    "lpu-spatial-course-march-2026.html": "22cb5025"
+  },
+  "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.qmd": {
+    "index.html": "4ac5283a"
+  },
+  "ignored_folder/2026-02-24-impact-to-resilience/index.qmd": {
+    "index.html": "6762752e"
+  },
+  "ignored_folder/2026-02-24-self-reliance/index.qmd": {
+    "index.html": "573924a2"
+  },
+  "ignored_folder/2026-02-24-the-power-of-confidence/index.qmd": {
+    "index.html": "df4e7f16"
+  },
+  "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.qmd": {
+    "index.html": "3cf5ddf4"
+  },
+  "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.qmd": {
+    "index.html": "129500bb"
+  },
+  "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.qmd": {
+    "index.html": "e39cd369"
+  },
+  "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.qmd": {
+    "index.html": "599eb2f0"
+  },
+  "ignored_folder/2026_02_26_agentic_ai_geography_research/index.qmd": {
+    "index.html": "086a8f7b"
+  },
+  "ignored_folder/2026_02_26_irony_of_focus/index.qmd": {
+    "index.html": "011e25b1"
+  },
+  "posts/2026_02_26_irony_of_the_opposite/index.qmd": {
+    "index.html": "d75869a5"
+  },
+  "posts/2026_02_26_irony_of_focus/index.qmd": {
+    "index.html": "48c5fdcb"
+  },
+  "events/iitbhu-fdp-march-2026.qmd": {
+    "iitbhu-fdp-march-2026.html": "7a5b0e3b"
+  },
+  "jobs.qmd": {
+    "jobs.html": "2f4773ff"
+  },
+  "jobs/wbcsc-asst-prof-2026.qmd": {
+    "wbcsc-asst-prof-2026.html": "47a275ad"
+  },
+  "jobs/wbcsc-asst-prof-2020.qmd": {
+    "wbcsc-asst-prof-2020.html": "ad75db74"
+  },
+  "posts/2026_03_05_deploy_gee_streamlit/index.qmd": {
+    "index.html": "5115d816"
+  },
+  "posts/2026_03_05_honest_enemy/index.qmd": {
+    "index.html": "6023fb2d"
   }
 }

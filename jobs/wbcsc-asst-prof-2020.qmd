@@ -1,0 +1,43 @@
+---
+title: "Assistant Professor Recruitment 2020 (Archived)"
+subtitle: "The West Bengal College Service Commission (WBCSC)"
+date: "2020-12-31"
+page-layout: full
+---
+
+::: {.column-page}
+
+## 🏛️ Recruitment Announcement: Assistant Professor 2020
+
+> [!IMPORTANT]
+> This is an **archived recruitment notice**. The application period for this advertisement has ended.
+
+The **West Bengal College Service Commission (WBCSC)** released **Advertisement Number 1/2020** for the recruitment of Assistant Professors in **State-Aided Degree Colleges of West Bengal**.
+
+### 📅 Important Dates
+
+| Event | Date |
+| :--- | :--- |
+| **Commencement of ONLINE Application** | December 31, 2020 |
+| **Last date of ONLINE Application** | February 15, 2021 |
+
+### 📋 Key Details
+
+*   **Advertisement Number:** 1/2020
+*   **Organization:** West Bengal College Service Commission (WBCSC)
+*   **Post:** Assistant Professor
+*   **Location:** State-Aided Degree Colleges across West Bengal
+
+### 📄 Download Official Circular
+
+You can view or download the full official advertisement below for reference:
+
+[<i class="bi bi-file-earmark-pdf"></i> Download Advertisement (PDF)](../jobs/wbcsc_asst_prof_2020.pdf){.social-btn style="background: #ef4444; color: white; border: none; font-weight: 600;"}
+
+<br>
+
+<hr>
+
+[<i class="bi bi-arrow-left"></i> Back to All Jobs](../jobs.qmd){.social-btn}
+
+:::

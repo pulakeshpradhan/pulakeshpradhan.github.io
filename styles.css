@@ -1254,3 +1254,73 @@ h2 {
 .group-card:hover .group-footer i {
     transform: translateX(4px);
 }
+
+/* Assistant Professor Criteria Table Styles */
+.criteria-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px !important;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.criteria-table th,
+.criteria-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.criteria-table caption {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    text-align: center;
+    color: #1e293b;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Specific Row Background Colors */
+.criteria-table tr.bg-light-green {
+    background-color: #eaf7ea !important;
+}
+
+.criteria-table tr.bg-aqua {
+    background-color: #7fcdbb !important;
+}
+
+.criteria-table tr.bg-yellow {
+    background-color: #fee391 !important;
+}
+
+.criteria-table tr.bg-gray {
+    background-color: #bdbdbd !important;
+}
+
+/* Highlight specific rows: light green background with red font */
+.panel-tabset table tbody tr:nth-child(4),
+.panel-tabset table tbody tr:nth-child(8),
+.panel-tabset table tbody tr:nth-child(9) {
+    background-color: #eaf7ea !important;
+    color: #dc2626 !important;
+    font-weight: 600;
+}
+
+/* College Specific Header */
+.table-college th {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    font-weight: 700;
+}
+
+/* University Specific Header */
+.table-univ th {
+    background-color: #8c2d04 !important;
+    color: white !important;
+    font-weight: 700;
+}
+
+.criteria-table p {
+    margin: 5px 0;
+}

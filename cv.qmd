@@ -4,7 +4,7 @@ title: "Curriculum Vitae"
 
 <div class="cv-header">
 # Pulakesh Pradhan
-### Geographer | GIS Enthusiast 
+### PhD Scholar in Geography | MPhil, UGC-SRF
 </div>
 
 ---
