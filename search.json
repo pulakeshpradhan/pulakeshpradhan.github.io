@@ -252,340 +252,151 @@
     "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
   },
   {
-    "objectID": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html",
-    "href": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html",
-    "title": "Geography Research @ 2030: The Rise of Agentic AI and the Imperative of Field-Based Research",
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Image Gallery",
     "section": "",
-    "text": "The future of Geography: Human insight meeting Agentic AI\nThe landscape of geographical research is evolving at an unprecedented pace. As we look toward 2030, the traditional, labor-intensive workflows of coding, spatial analysis, and machine learning are on the verge of a massive paradigm shift. The catalyst for this transformation? Agentic AI.\nIn the near future, the actual mechanics of computational geographical research will be largely automated, profoundly reshaping what it means to be a geographer and making firsthand, field-based research more valuable than ever."
+    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
   },
   {
-    "objectID": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#the-shift-to-agentic-ai-workflows",
-    "href": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#the-shift-to-agentic-ai-workflows",
-    "title": "Geography Research @ 2030: The Rise of Agentic AI and the Imperative of Field-Based Research",
-    "section": "The Shift to Agentic AI Workflows",
-    "text": "The Shift to Agentic AI Workflows\n\n\n\nAutomated Agentic Workflows: From Code to Insight\n\n\nCurrently, a significant portion of a geospatial researcher’s time is spent wrestling with syntax, building data pipelines, training deep learning models, and debugging code. By 2030, these coding and machine learning workflows will operate primarily in an “agentic mode.”\nInstead of a human manually typing out Python or R scripts to process satellite imagery or run spatial regressions, Agentic AI systems will take the reins. The AI will autonomously: - Ingest the research objective or prompt. - Write the necessary code from scratch. - Run the analysis and interpret execution errors. - Debug its own code iteratively. - Finish the task and present the results.\nIn this new dynamic, the human researcher’s role in computational tasks will be sharply curtailed. Researchers will primarily act as verifiers and directors, reading the code and outputs produced by the system rather than building it line by line."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#a-real-world-example-claude-as-a-geography-research-co-worker",
-    "href": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#a-real-world-example-claude-as-a-geography-research-co-worker",
-    "title": "Geography Research @ 2030: The Rise of Agentic AI and the Imperative of Field-Based Research",
-    "section": "A Real-World Example: Claude as a Geography Research Co-worker",
-    "text": "A Real-World Example: Claude as a Geography Research Co-worker\nOne of the most compelling early demonstrations of this shift is the use of Claude (by Anthropic) as an AI research co-worker. Claude is not merely a chatbot—it is a capable agentic assistant that can take on substantial portions of a researcher’s computational and analytical workload right now, in 2026, years before the full 2030 transition.\nConsider a practical geography research workflow using Claude:\n\nLiterature Review: A researcher prompts Claude with a research question on, say, urban heat island effects in South Asian megacities. Claude scans, summarizes, and synthesizes dozens of relevant papers, producing a structured literature map in minutes.\nCode Generation: The researcher asks Claude to “write a Python script using Google Earth Engine to extract LST (Land Surface Temperature) time series data for Kolkata from 2010–2024.” Claude writes the complete, functional script—no prior GEE coding knowledge required from the researcher’s side.\nDebugging Autonomously: When the script throws an error, the researcher pastes the traceback back to Claude. Claude identifies the issue, corrects the code, and explains the fix—behaving exactly like a senior co-worker reviewing a junior’s code.\nStatistical Analysis & Interpretation: Claude then takes the extracted data, runs spatial regression analyses, and writes a draft interpretation of the results in academic language, ready for the researcher to verify and refine.\nWriting Assistance: Finally, Claude drafts the methodology and results sections of the research paper based on the findings—a task that previously took weeks of effort.\n\nIn this workflow, the geographer’s role shifted entirely to intellectual oversight: defining the research question, validating the outputs, adding field-based context, and exercising geographic judgment. The execution was almost entirely agentic. This is not a vision of 2030—it is happening today."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#the-extinction-of-mediocre-desk-research",
-    "href": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#the-extinction-of-mediocre-desk-research",
-    "title": "Geography Research @ 2030: The Rise of Agentic AI and the Imperative of Field-Based Research",
-    "section": "The Extinction of “Mediocre” Desk Research",
-    "text": "The Extinction of “Mediocre” Desk Research\nThis automation carries a stark warning for the discipline. The “mediocre” computational researcher—the person whose primary value lies simply in knowing how to run standard machine learning packages or standard remote sensing workflows—will not be able to cope with this change.\nWhen Agentic AI can execute these tasks flawlessly and in a fraction of the time, mere technical competence will be heavily commoditized. If your entire research identity is built around sitting at a desk executing code that an AI can do better and faster, the future will be challenging. Only those who truly understand the deep underlying theories, the geographical context, and the epistemology of the methods will survive and thrive in this era."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#the-renaissance-of-firsthand-and-field-based-research",
-    "href": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#the-renaissance-of-firsthand-and-field-based-research",
-    "title": "Geography Research @ 2030: The Rise of Agentic AI and the Imperative of Field-Based Research",
-    "section": "The Renaissance of Firsthand and Field-Based Research",
-    "text": "The Renaissance of Firsthand and Field-Based Research\n\n\n\nA geographer in the field — where AI cannot follow\n\n\nSo, where does the geographer fit into a world where machines do the heavy computational lifting? The answer lies in returning to the roots of the discipline: firsthand, field-based research.\nAs the execution of data analysis becomes automated, the true differentiator in geographical research will be the quality, authenticity, and profound contextual understanding of the data itself. Agentic AI cannot: - Walk through a neighborhood to understand its lived social dynamics. - Conduct nuanced, empathetic interviews with local communities affected by climate change. - Observe the subtle, un-digitized changes in a physical landscape. - Ground-truth complex environmental phenomena that satellite sensors misinterpret.\nTrue geographical insight requires getting your boots muddy. Human geographers will need to excel where agents are fundamentally blind. The automation of the “desk work” will actually liberate researchers to spend more time in the field, gathering primary data, and connecting with the physical and social landscapes they are studying."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#conclusion",
-    "href": "ignored_folder/2026_02_26_agentic_ai_geography_research/index.html#conclusion",
-    "title": "Geography Research @ 2030: The Rise of Agentic AI and the Imperative of Field-Based Research",
-    "section": "Conclusion",
-    "text": "Conclusion\nThe dawn of Agentic AI in geography is not an apocalypse for the researcher; rather, it is a great filter. It will seamlessly handle the routine coding and deep learning execution, stripping away the repetitive tasks that currently bog down research.\nTo remain relevant by 2030, geographers must lean heavily into their theoretical expertise and their physical presence in the world. The future of the discipline belongs not to the best coder, but to the best thinker and the most dedicated field researcher."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
-    "href": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html",
-    "title": "Coding in the Age of Generative AI",
+    "objectID": "events/mscbu-workshop-sep-2025.html",
+    "href": "events/mscbu-workshop-sep-2025.html",
+    "title": "Basics of Google Earth Engine & LULC Classification",
     "section": "",
-    "text": "Generative AI is reshaping how we build software. (Source: Unsplash)\nIn the rapidly evolving landscape of software development, the way we approach coding is undergoing a fundamental shift. The age of Generative AI has arrived, and it challenges the traditional notion of a programmer’s daily workflow."
+    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
   },
   {
-    "objectID": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#the-paradigm-shift-read-dont-just-write",
-    "href": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#the-paradigm-shift-read-dont-just-write",
-    "title": "Coding in the Age of Generative AI",
-    "section": "The Paradigm Shift: Read, Don’t Just Write",
-    "text": "The Paradigm Shift: Read, Don’t Just Write\nThe core philosophy of this new era is simple yet profound: Don’t write code line by line, but understand everything.\nTraditionally, coding was often about the physical act of typing out logic, syntax, and boilerplate. Today, that approach is becoming increasingly inefficient. To truly excel, one must shift their focus from mere writing to deep understanding. This means:\n\nReading documentation thoroughly.\nStudying books on software architecture and design patterns.\nFollowing technical blogs to stay updated with best practices.\n\n\n\n\n\n\n\n\nContinuous learning: The secret sauce for successful AI collaboration. (Source: Unsplash)"
+    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "Event Overview",
+    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
   },
   {
-    "objectID": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#the-crane-analogy-scaling-your-efforts",
-    "href": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#the-crane-analogy-scaling-your-efforts",
-    "title": "Coding in the Age of Generative AI",
-    "section": "The Crane Analogy: Scaling Your Efforts",
-    "text": "The Crane Analogy: Scaling Your Efforts\nThink of coding like moving heavy objects. When you have a small amount of weight to shift, you can easily do it yourself. It’s manual, manageable, and requires no special tools. This is analogous to writing a small script or a few lines of logic—you can, and perhaps should, write it yourself to grasp the basics.\n\n\n\n\n\n\n\nUsing the right tools for the job: A crane for heavy lifting, AI for high-volume coding. (Source: Unsplash)\n\n\nHowever, when you need to move massive loads, you don’t rely on your bare hands; you use a crane or heavy machinery. Similarly, in modern software development, we are often dealing with hundreds or thousands of lines of code.\n\nWriting thousands of lines line-by-line is a waste of time and energy.\nInstead, we should use the “cranes” of our industry—Generative AI tools—to do the heavy lifting for us."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#the-critical-role-of-the-human-expert",
-    "href": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#the-critical-role-of-the-human-expert",
-    "title": "Coding in the Age of Generative AI",
-    "section": "The Critical Role of the Human Expert",
-    "text": "The Critical Role of the Human Expert\nWhile tools can generate code at lightning speed, they are not infallible. This is where your expertise becomes non-negotiable. Coding knowledge is a must, not for the sake of typing, but for verification.\n\n\n\n\n\n\n\nThe human expert: Verifying, debugging, and orchestrating AI-generated solutions. (Source: Unsplash)\n\n\nYou must be able to: 1. Check the correctness of the generated code. 2. Verify the authenticity and security of the solutions provided. 3. Debug and refine the output to fit your specific context.\nIf you don’t understand the underlying principles, you cannot effectively judge the quality of the AI’s output. You become a passive consumer rather than an active architect."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#for-the-code-phobic-geographer-your-new-superpower",
-    "href": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#for-the-code-phobic-geographer-your-new-superpower",
-    "title": "Coding in the Age of Generative AI",
-    "section": "For the ‘Code-Phobic’ Geographer: Your New Superpower",
-    "text": "For the ‘Code-Phobic’ Geographer: Your New Superpower\nFor many geographers, the word “coding” often sparks a sense of hesitation or even fear. We are trained to analyze landscapes, understand spatial relationships, and interpret human-environment interactions—not necessarily to debug syntax or manage memory allocation.\nHowever, in this new age, your spatial thinking is your greatest asset.\nGenerative AI acts as a translator. You can describe a complex spatial problem in plain English—“Calculate the NDVI for this region and mask out clouds using Sentinel-2 data”—and the AI can provide the JavaScript or Python code (such as for Google Earth Engine) to do it. You no longer need to be a syntax wizard; you need to be a spatial strategist.\n\n\n\n\n\n\n\nSpatial thinking meets AI: Mapping the world without the syntax struggle. (Source: Unsplash)\n\n\nBy leveraging AI, geographers can: * Automate repetitive GIS tasks that used to take hours of manual clicking. * Explore advanced spatial statistics without needing a computer science degree. * Bridge the gap between theoretical geography and data-driven results.\nThe fear of coding shouldn’t hold you back anymore. AI has lowered the barrier to entry, allowing you to focus on the geography while it handles the code."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#final-thoughts",
-    "href": "ignored_folder/2026_02_20_coding_in_the_age_of_generative_ai/index.html#final-thoughts",
-    "title": "Coding in the Age of Generative AI",
-    "section": "Final Thoughts",
-    "text": "Final Thoughts\nThe future of coding is not about how fast you can type, but how fast you can think, verify, and orchestrate.\nRead more, write less. Let the tools handle the volume while you handle the value. Speed up your coding process by leveraging the power of AI, but never neglect the fundamental knowledge that allows you to command it.\n\n\n\n\n\n\n\nOrchestrating the future: Human intelligence steering digital power. (Source: Unsplash)\n\n\nHappy Learning!\n\nImage Credits: Header by Unsplash, Crane by Unsplash, Verification by Unsplash, Learning by Unsplash, Orchestration by Unsplash, and Geography by Unsplash."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
-    "href": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
+    "objectID": "events/iitbhu-fdp-march-2026.html",
+    "href": "events/iitbhu-fdp-march-2026.html",
+    "title": "Online FDP: Decoding Climate for Built Environment",
     "section": "",
-    "text": "In the modern geospatial landscape, Google Earth Engine (GEE) stands as a colossus. Its ability to process petabytes of satellite imagery in seconds has not just revolutionized remote sensing; it has fundamentally altered how we think about planetary-scale analysis. For many students and researchers, “Remote Sensing” has become synonymous with “typing JavaScript into the GEE Code Editor.”\nHowever, this convenience comes with a hidden cost. As powerful as GEE is, it remains a proprietary tool owned by a tech giant. This introduces a critical vulnerability: the risk of the “Walled Garden.”"
+    "text": "🎯 Online Faculty Development Programme (FDP) on Decoding Climate for Built Environment — Tools, Metrics and Design Integration 🌍\nWe are pleased to announce an ONLINE FDP jointly organized by Sustainability Development Center, IIT (BHU) Varanasi and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. This program is designed to bridge the gap between architectural design and environmental performance through advanced tools and metrics."
   },
   {
-    "objectID": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#the-concern-googles-proprietary-tool-paywall-risk",
-    "href": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#the-concern-googles-proprietary-tool-paywall-risk",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "⚠️ The Concern: Google’s Proprietary Tool & Paywall Risk",
-    "text": "⚠️ The Concern: Google’s Proprietary Tool & Paywall Risk\nThe concern is simple: Google Earth Engine is a proprietary product. Unlike open-source software, its future is entirely dictated by corporate strategy, not community consensus.\n\nThe “Paywall Risk”\nHistory is littered with Google products that started free and later became paid or were discontinued (Google Reader, the shift in Google Maps API pricing, Google Photos storage limits). While GEE is free for research now, there is no guarantee it will remain so forever. A sudden shift to a paywall model could leave researchers and students stranded, with their code locked behind a subscription they cannot afford.\n\n\nThe “Walled Garden” Problem\nWhen you build your entire workflow in GEE, you are building inside a rented house. * Vendor Lock-in: Your code (GEE JavaScript) is not easily portable. You cannot simply run a GEE script on your local machine or another cloud provider without a complete rewrite. * Black Box Algorithms: While we trust Google’s implementations, the underlying code for many algorithms is not visible. Science demands transparency, and “trust us” is not a scientific standard.\n\n\n\nVendor Lock-in: Relying solely on proprietary platforms risks hitting invisible walls—whether they be quotas, costs, or terms of service.\n\n\n\n\n\n\n\n\nWarningKey Risks of Sole Reliance on GEE\n\n\n\n\nSustainability: If Google changes the Terms of Service, your project could die overnight.\nReproducibility: If a specific GEE algorithm changes under the hood, your results might change without you knowing why.\nCost: Commercial use is already paid; academic use is subsidized by Google’s goodwill."
+    "objectID": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
+    "href": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
+    "title": "Online FDP: Decoding Climate for Built Environment",
+    "section": "🔍 Key Focus Areas",
+    "text": "🔍 Key Focus Areas\n\nApplication of Sustainable Development Goals (SDG) for Built Environment\nEnvironmental Simulation workflows\nClimate responsive design using Ladybug Tools\nIntegration of Design with Environmental performance"
   },
   {
-    "objectID": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#we-cannot-ignore-massive-potential",
-    "href": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#we-cannot-ignore-massive-potential",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "🚀 We Cannot Ignore Massive Potential",
-    "text": "🚀 We Cannot Ignore Massive Potential\nHaving said that, we cannot just ignore GEE’s massive potential. It solves the Data Gravity problem—instead of downloading petabytes of data to your computer, you send your code to the data.\nFor large-scale, server-based analysis, GEE is unrivaled: * Global Scale: Computing Normalized Difference Vegetation Index (NDVI) for the entire planet over 20 years takes minutes in GEE, but would take months on a local workstation. * Instant Access: The multi-petabyte catalog of Landsat, Sentinel, and MODIS data is instantly available without downloading a single file.\nStartups and researchers leverage this for rapid prototyping and global monitoring systems that would otherwise be impossible. To ignore GEE is to ignore a superpower."
+    "objectID": "events/iitbhu-fdp-march-2026.html#certification-benefits",
+    "href": "events/iitbhu-fdp-march-2026.html#certification-benefits",
+    "title": "Online FDP: Decoding Climate for Built Environment",
+    "section": "📜 Certification & Benefits",
+    "text": "📜 Certification & Benefits\n\nE-Certificate will be awarded to all successful participants.\nHands-on insights into modern environmental simulation tools."
   },
   {
-    "objectID": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#balancing-is-the-smartest-way",
-    "href": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#balancing-is-the-smartest-way",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "⚖️ Balancing is the Smartest Way",
-    "text": "⚖️ Balancing is the Smartest Way\nSo, what is the solution? It is not to abandon GEE, but to balance it. We must give more focus to Open Source Technology.\nThe smartest geospatial workflow is a Hybrid Approach: 1. Use GEE for what it does best (Heavy Lifting). 2. Use Open Source (Python/R) for what it does best (Analysis, Statistics, Visualization, and Freedom).\n\n\n\nThe Sustainable Pipeline: Leverage the cloud for what it does best (heavy lifting) and local tools for what they do best (precision analysis).\n\n\n\nThe Hybrid Workflow in Practice\n\n\n\n\n\n\n\n\nStage\nTool\nAction\n\n\n\n\n1. Ingestion & Pre-processing\nGoogle Earth Engine\nFilter collections, cloud masking, temporal compositing (e.g., median annual composites).\n\n\n2. Export\nGEE to Drive/Cloud\nExport only the results (the processed bands or indices) as manageable GeoTIFFs or CSVs.\n\n\n3. Analysis & Modeling\nPython / R\nPerform deep statistical analysis, machine learning (Scikit-Learn, PyTorch), or complex geostatistics.\n\n\n4. Visualization\nPython (Matplotlib) / R (ggplot2)\nCreate publication-quality maps and charts that you fully own and control."
+    "objectID": "events/iitbhu-fdp-march-2026.html#registration-fee",
+    "href": "events/iitbhu-fdp-march-2026.html#registration-fee",
+    "title": "Online FDP: Decoding Climate for Built Environment",
+    "section": "💰 Registration Fee",
+    "text": "💰 Registration Fee\n\nRefer to the event poster for detailed fee structure and participation guidelines."
   },
   {
-    "objectID": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#importance-of-open-source-technology-python-and-r",
-    "href": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#importance-of-open-source-technology-python-and-r",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "🐍 Importance of Open Source Technology: Python and R",
-    "text": "🐍 Importance of Open Source Technology: Python and R\nOpen source technologies are the bedrock of scientific reproducibility. When you write code in Python or R, you use libraries built by the community, for the community. You own the stack.\n\n\n\nOpen Ecosystems: Python and R provide an infinite playground for innovation, free from corporate constraints.\n\n\n\nWhy Focus on Open Source?\n\nTransparency: You can inspect the code of every library you use (pandas, sf). You know exactly what the math is doing.\nPortability: Python code runs on your laptop, on AWS, on Azure, or on a supercomputer. You are not tied to Google.\nCommunity: The geospatial community in Python and R is vibrant and innovative.\n\nPython: The powerhouse of modern data science. Libraries like geopandas, rasterio, xarray, and the Pangeo ecosystem allow for scalable analyses that rival GEE but on open infrastructure.\nR: The gold standard for statistics. Packages like sf, terra, and tmap make spatial analysis intuitive and statistically rigorous.\n\n\n\n\n\n\n\n\nTipThe Future is Open\n\n\n\nBy mastering Python and R, you future-proof your career. Tools may come and go (remember ArcView 3?), but the concepts and the open-source languages remain relevant for decades."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#conclusion",
-    "href": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#conclusion",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "Conclusion",
-    "text": "Conclusion\nThe concern regarding Google Earth Engine’s proprietary nature is valid. The risk of paywalls and vendor lock-in is real. However, its computational power is undeniably transformative.\nThe key is Balance. Do not let GEE become a “crutch” that limits your understanding of underlying geospatial concepts. Instead, treat it as one powerful tool in a larger toolbox. Prioritize learning open-source technologies like Python and R. They offer the freedom, flexibility, and transparency that true scientific inquiry demands.\nUse the Cloud for scale, but keep your feet on the Open Source ground."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#references",
-    "href": "ignored_folder/2026_02_16_cloud_gis_beyond_gee_open_source/index.html#references",
-    "title": "Cloud GIS Beyond Google Earth Engine: Why Open Source Matters",
-    "section": "References",
-    "text": "References\n\nGorelick, N., et al. (2017). “Google Earth Engine: Planetary-scale geospatial analysis for everyone.” Remote Sensing of Environment.\nPangeo Project. (2025). “A community platform for Big Data geoscience.” pangeo.io\nOpen Source Geospatial Foundation (OSGeo). “Empowering everyone with open source geospatial.” osgeo.org"
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-self-reliance/index.html",
-    "href": "ignored_folder/2026-02-24-self-reliance/index.html",
-    "title": "As Priorities Change, People Change: Don’t Rely on Anyone",
-    "section": "",
-    "text": "Self-reliance: The ultimate power in an unpredictable world.\nThere is a hard truth that many of us learn only through experience, often after being let down by those we trusted the most. It is a lesson that sounds cynical at first, but is ultimately liberating: Don’t rely on anyone. At the end of the day, people look out for themselves.\nThis isn’t to say that kindness doesn’t exist or that people aren’t capable of loyalty. Rather, it is an acknowledgement of fundamental human nature. Everyone is the protagonist of their own story, and when push comes to shove, most will prioritize their own survival, their own career, and their own peace of mind."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-self-reliance/index.html#the-illusion-of-dependability",
-    "href": "ignored_folder/2026-02-24-self-reliance/index.html#the-illusion-of-dependability",
-    "title": "As Priorities Change, People Change: Don’t Rely on Anyone",
-    "section": "The Illusion of Dependability",
-    "text": "The Illusion of Dependability\nWe often build our plans around the promises of others. Whether it’s a colleague promising to help with a project, a friend offering support during a tough time, or a mentor promising a growth opportunity—we lean on these assurances.\nHowever, dependability is often a currency spent only when the exchange rate is favorable. In many professional and personal environments, people will “use” your reliability to their advantage while offering none in return. Consider how often these patterns play out:\n\n\n\n\n\n\n\nUnderstanding transactional dynamics.\n\n\n\n🚩 Opportunistic Engagement\nBeyond simple dependability, there is the harsh reality of opportunistic engagement. We all know people who only seem to remember our existence when they need a favor, a contact, or technical advice.\nIn their eyes, you are a resource, not a human being. When they are in a crisis or need a ladder to climb, they are your “best friend”—engaged, responsive, and full of praise. But the moment their need is met, you are treated like trash. Your messages go unread, your presence is ignored, and the warmth they once showed turns into a cold, dismissive silence.\n\n\n🚩 Exploitation of Reliability\n\nThe Delegation Trap: A superior or colleague hands you “responsibility” not as a growth opportunity, but to offload the risk of failure onto your shoulders. They are “dependable” only until something goes wrong—at which point, you are the one standing alone in the line of fire.\nThe Shadow Contributor: You might find yourself doing the heavy lifting for a group project or a business partnership, only for the “partner” to emerge at the last minute to claim the credit. They relied on your work ethic as a ladder to boost their own standing without contributing a single rung.\nThe Emotional Stepping Stone: In personal circles, some people stay close only as long as you provide emotional labor, technical help, or social capital. Once they’ve reached their next destination, the “dependable” support they once offered suddenly becomes a burden they “no longer have time for.”\nThe False Promise of Equity: We are often lured into working for less than we are worth on the promise of “future rewards” or “mutual growth.” But when the payday arrived, the self-interest of others often re-writes the history of the agreement.\n\nCircumstances change. People get busy. Their priorities shift. That “guaranteed” help evaporates the moment it stops serving the interest of the person providing it. If your success depends entirely on someone else’s consistency, you are building your house on sand."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-self-reliance/index.html#the-freedom-of-self-reliance",
-    "href": "ignored_folder/2026-02-24-self-reliance/index.html#the-freedom-of-self-reliance",
-    "title": "As Priorities Change, People Change: Don’t Rely on Anyone",
-    "section": "The Freedom of Self-Reliance",
-    "text": "The Freedom of Self-Reliance\n\n\n\n\n\n\n\nThe path to independence.\n\n\nWhen you stop expecting others to solve your problems or pave your way, something incredible happens: You take full control.\nSelf-reliance isn’t about being lonely or refusing help; it’s about being the primary driver of your own life. It means: 1. Skills Over Favors: Investing in your own abilities so you don’t have to ask for permission or assistance. 2. Emotional Stability: Finding your worth within yourself rather than seeking external validation that can be withdrawn at any time. 3. Contingency Planning: Always having a Plan B that doesn’t rely on anyone else’s “Yes.”"
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-self-reliance/index.html#protecting-your-energy",
-    "href": "ignored_folder/2026-02-24-self-reliance/index.html#protecting-your-energy",
-    "title": "As Priorities Change, People Change: Don’t Rely on Anyone",
-    "section": "Protecting Your Energy",
-    "text": "Protecting Your Energy\nRealizing that people look out for themselves allows you to view interactions with more clarity. It removes the sting of disappointment. When someone lets you down, you realize it wasn’t personal—it was just them looking out for themselves.\nInstead of being bitter, you become prepared. You learn to appreciate genuine help when it comes, but you never become dependent on it."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-self-reliance/index.html#conclusion",
-    "href": "ignored_folder/2026-02-24-self-reliance/index.html#conclusion",
-    "title": "As Priorities Change, People Change: Don’t Rely on Anyone",
-    "section": "Conclusion",
-    "text": "Conclusion\nThe most reliable person you will ever meet is the one staring back at you in the mirror. Value your mentors, cherish your friends, and collaborate with your colleagues—but never let your foundation rest on their shoulders.\nBuild your own strength. Be your own advocate. Because at the end of the day, the only person who is truly invested in your future is you.\n\nHave you had a moment that taught you the power of self-reliance? Why and how do you protect your energy from such toxic dynamics? Share your thoughts below."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.html",
-    "href": "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.html",
-    "title": "Quantifying Physical Climate Risk: Building Resilience in Global Supply Chains",
-    "section": "",
-    "text": "Building climate resilience through science-driven intelligence.\nIn an era defined by a warming world, the ability to anticipate and quantify physical climate risk has moved from a secondary concern to a core strategic necessity. Organizations today face an increasing frequency of natural catastrophes, shifting weather patterns, and the resulting disruptions to global supply chains.\nBuilding resilience requires more than just awareness; it requires science-driven climate intelligence that helps anticipate risks and safeguard long-term investments."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.html#the-foundations-of-climate-intelligence",
-    "href": "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.html#the-foundations-of-climate-intelligence",
-    "title": "Quantifying Physical Climate Risk: Building Resilience in Global Supply Chains",
-    "section": "The Foundations of Climate Intelligence",
-    "text": "The Foundations of Climate Intelligence\nTo truly build resilience, organizations must look beyond traditional risk assessments. Modern climate intelligence is built upon several critical technological foundations:\n\nIn-depth Hazard Coverage: Monitoring a wide spectrum of climate threats, from floods and heatwaves to extreme storm events.\nHigh-Resolution NatCat Modelling: Utilizing advanced natural catastrophe models to understand local impacts at a granular level.\nIntegrated Climate Scenarios: Mapping future possibilities based on integrated climate change models to plan for the decades ahead.\nDamage & Interruption Curves: Developing specific curves to calculate potential asset damage and Business Interruption (BI) losses before they occur."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.html#scalable-solutions-across-industries",
-    "href": "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.html#scalable-solutions-across-industries",
-    "title": "Quantifying Physical Climate Risk: Building Resilience in Global Supply Chains",
-    "section": "Scalable Solutions Across Industries",
-    "text": "Scalable Solutions Across Industries\nClimate risk is not a monolith; its impacts vary significantly across different sectors. Intelligence platforms are now providing modular and flexible solutions tailored to specific industry needs.\n\n🏦 Finance and Insurance\nIn the world of Insurance, climate-aware product design and parametric insurance are giving underwriters a competitive edge. Meanwhile, Banks and Financial Institutions are integrating geospatial monitoring into stress testing and scenario analysis to ensure regulatory compliance and build resilient lending portfolios.\n\n\n🏗️ Infrastructure and Real Estate\nFor developers and engineers, geospatial site intelligence is becoming mandatory. Climate-resilient engineering and project planning not only “climate-proof” developments but also secure investor confidence by drastically reducing long-term maintenance and catastrophic costs.\n\n\n🏭 Manufacturing and Asset Management\nManufacturers are increasingly using facility risk assessments to manage supply-chain climate risks and reduce production losses. Similarly, Asset Managers are incorporating climate due diligence into portfolio resilience planning, leading to more transparent disclosures and stronger investor confidence in REITs and AIFs."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.html#conclusion",
-    "href": "ignored_folder/2026-02-24-climate-resilience-supply-chains/index.html#conclusion",
-    "title": "Quantifying Physical Climate Risk: Building Resilience in Global Supply Chains",
-    "section": "Conclusion",
-    "text": "Conclusion\nAs we navigate the complexities of a changing climate, the difference between success and failure often lies in the quality of intelligence. By integrating physical climate risk into ESG frameworks and operational strategies, organizations can achieve true product differentiation and support their long-term survival with robust resilience metrics.\nThe future belongs to those who act on science today to protect their assets tomorrow.\n\nIs your organization prepared for the next decade of climate shifts? Share your thoughts on resilience planning below."
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events & Engagements",
-    "section": "",
-    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
-  },
-  {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events & Engagements",
-    "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nSpatial Data Intelligence: Extraction, Interpretation and Predictive Modelling\n\n\nAn intensive 6-day online short-term course at Lovely Professional University (LPU).\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnline FDP: Decoding Climate for Built Environment\n\n\nTools, Metrics and Design Integration — FDP organized by IIT (BHU) Varanasi.\n\n\n\n\n\n\nMar 20, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "events.html#past-seminars-workshops",
-    "href": "events.html#past-seminars-workshops",
-    "title": "Events & Engagements",
-    "section": "🏛️ Past Seminars & Workshops",
-    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n10-Day GEE Training Sessions\n\n\nSuccessfully Concluded! A 10-day intensive online training on Google Earth Engine (GEE) for geospatial analytics.\n\n\n\n\n\n\nApr 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html",
-    "href": "events/lpu-spatial-course-march-2026.html",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "",
-    "text": "🚀 Short Term Course on Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling 🌍\nWe are pleased to announce an ONLINE Short Term Course designed to strengthen competencies in spatial data intelligence and geospatial analytics, with emphasis on data extraction, interpretation, and predictive modelling."
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#course-highlights",
-    "href": "events/lpu-spatial-course-march-2026.html#course-highlights",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "✨ Course Highlights",
-    "text": "✨ Course Highlights\n🔹 Expert sessions by eminent academicians and scientists\n🔹 Hands-on training with real-world datasets\n🔹 AI/ML-based predictive modelling in geospatial analysis\n🔹 Practical workflows and case studies\n🔹 Certification by LPU–HRDC"
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#who-should-attend",
-    "href": "events/lpu-spatial-course-march-2026.html#who-should-attend",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "👥 Who Should Attend?",
-    "text": "👥 Who Should Attend?\nStudents | Research Scholars | Faculty | Industry Professionals"
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#registration-fees",
-    "href": "events/lpu-spatial-course-march-2026.html#registration-fees",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "💰 Registration Fees",
-    "text": "💰 Registration Fees\n• LPU UG/PG Students: ₹600\n• LPU Scholars & Faculty: ₹800\n• External Participants (Students / Scholars / Faculty / Industry): ₹1,200"
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#registration",
-    "href": "events/lpu-spatial-course-march-2026.html#registration",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "objectID": "events/iitbhu-fdp-march-2026.html#registration",
+    "href": "events/iitbhu-fdp-march-2026.html#registration",
+    "title": "Online FDP: Decoding Climate for Built Environment",
     "section": "🔗 Registration",
-    "text": "🔗 Registration\nRegister Now: https://www.lpu.in/hrd/\n📢 Join this intensive, fully online short-term course to upskill in spatial data intelligence and engage with leading national experts."
+    "text": "🔗 Registration\nRegister Now: https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform\n📢 Join this FDP to master climate-responsive design strategies and environmental performance integration."
   },
   {
-    "objectID": "events/gee-workshop-feb-2026.html",
-    "href": "events/gee-workshop-feb-2026.html",
-    "title": "Basics of Google Earth Engine",
+    "objectID": "events/gee-training-apr-2025.html",
+    "href": "events/gee-training-apr-2025.html",
+    "title": "10-Day GEE Training Sessions",
     "section": "",
-    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+    "text": "Topic: Google Earth Engine (GEE) Training Sessions\nResource Person: Pulakesh Pradhan\nHost: Centurion University, Bhubaneswar\nStatus: Successfully Concluded!\nDelighted to share a few glimpses from the recently concluded 10-day Google Earth Engine (GEE) Training, where I had the privilege of leading and teaching as a resource person.\nThis training, conducted by Centurion University, Bhubaneswar, provided participants with hands-on experience in geospatial data processing, remote sensing, and cloud-based geospatial analytics using Google Earth Engine."
   },
   {
-    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
-    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
-    "title": "Basics of Google Earth Engine",
-    "section": "Workshop Highlights",
-    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
+    "objectID": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
+    "href": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
+    "title": "10-Day GEE Training Sessions",
+    "section": "📸 Glimpses of Training Outcomes",
+    "text": "📸 Glimpses of Training Outcomes"
   },
   {
-    "objectID": "events/gee-workshop-feb-2026.html#schedule",
-    "href": "events/gee-workshop-feb-2026.html#schedule",
-    "title": "Basics of Google Earth Engine",
-    "section": "Schedule",
-    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+    "objectID": "events/gee-training-apr-2025.html#key-learning-modules",
+    "href": "events/gee-training-apr-2025.html#key-learning-modules",
+    "title": "10-Day GEE Training Sessions",
+    "section": "🚀 Key Learning Modules",
+    "text": "🚀 Key Learning Modules\nThroughout the training, participants explored:\n✅ Cloud computing for geospatial analysis using JavaScript\n✅ Data handling in GEE (FeatureCollections, ImageCollections)\n✅ Importing and exporting geospatial datasets (shapefiles, raster images, etc.)\n✅ GEE functionalities: filtering, reducers, time-series analysis, and charting\n✅ Machine learning for Land Use Land Cover (LULC) classification\n✅ Applications: Urban Heat Island, Flood Mapping, Forest Monitoring, Surface Water Detection, Water Quality, etc.\n✅ Key datasets covered: Landsat, Sentinel-2, SRTM, FAO GAUL, TerraClimate, CHIRPS, MODIS, CMIP6, etc.\n✅ Advanced Integration: AI, IMD data, and OpenStreetMap (OSM) in GEE\n🙏 A huge appreciation to all participants for their dedication and active engagement. Your enthusiasm made this learning experience truly enriching!\n#GoogleEarthEngine #RemoteSensing #GeospatialAnalysis #EarthObservation #DataScience #MachineLearning #ClimateAnalysis #SustainableDevelopment\n\n📌 More insights: LinkedIn Article | pulakeshpradhan.github.io"
   },
   {
-    "objectID": "events/gdg-nairobi.html",
-    "href": "events/gdg-nairobi.html",
-    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
     "section": "",
-    "text": "Topic: Drought Monitoring with Google Earth Engine AI Assistant-Powered by Gemini API\nHost: GDG for Earth Engine Nairobi\nDate: July 26, 2025\nKey Themes: AI, Build with AI"
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
   },
   {
-    "objectID": "events/gdg-nairobi.html#about-this-event",
-    "href": "events/gdg-nairobi.html#about-this-event",
-    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
-    "section": "About this Event",
-    "text": "About this Event\nJoin us as we explore how the GEE AI Assistant, a powerful browser extension, is transforming the way we conduct geospatial analysis. Whether you’re a beginner or an experienced practitioner, this tool helps you:\n✅ Instantly generate and debug scripts\n✅ Translate code between JavaScript and Python\n✅ Build full-featured GEE Apps\n✅ Extract statistics, create charts, and export results\n✅ Interact with Earth Engine in your native language using multi-language prompts\nAll of this happens seamlessly within the Earth Engine Code Editor through an intuitive side panel—bringing the power of AI directly into your workflow.\n\n View Event Details  Slides"
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
   },
   {
-    "objectID": "cv.html#contact-information",
-    "href": "cv.html#contact-information",
-    "title": "Curriculum Vitae",
-    "section": "📬 Contact Information",
-    "text": "📬 Contact Information\n\n pulakesh.mid@gmail.com |  +91 8617812861 |  Ravenshaw University, Odisha, India\n\n\n LinkedIn |  Google Scholar |  GitHub"
+    "objectID": "courses.html#geospatial-programming",
+    "href": "courses.html#geospatial-programming",
+    "title": "Courses",
+    "section": "💻 Geospatial Programming",
+    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
   },
   {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "🎓 Education",
-    "text": "🎓 Education\nPhD Scholar in Geography | Ravenshaw University\nSpecialization: GIS, Remote Sensing, and Google Earth Engine\nMPhil in Geography | Ravenshaw University\nUGC-SRF (Senior Research Fellow)"
+    "objectID": "courses.html#gis-spatial-reference",
+    "href": "courses.html#gis-spatial-reference",
+    "title": "Courses",
+    "section": "🚀 GIS & Spatial Reference",
+    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
   },
   {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "Curriculum Vitae",
-    "section": "🛠️ Technical Skills",
-    "text": "🛠️ Technical Skills\nProgramming Languages: Python, R, JavaScript, LaTeX GIS & Remote Sensing: Google Earth Engine, ArcGIS Pro, QGIS\nData Science: Machine Learning, Phenology Analysis\nTools & Workflow: Git/GitHub, Chrome Extension Development"
+    "objectID": "courses.html#academic-writing-tools",
+    "href": "courses.html#academic-writing-tools",
+    "title": "Courses",
+    "section": "✍️ Academic Writing & Tools",
+    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
   },
   {
-    "objectID": "cv.html#professional-experience",
-    "href": "cv.html#professional-experience",
-    "title": "Curriculum Vitae",
-    "section": "💼 Professional Experience",
-    "text": "💼 Professional Experience\nResource Person | Maharaja Sriram Chandra Bhanja Deo University\nSept. 2025\n- Conducted workshops on GEE and spatial data science.\nResource Person | Centurion University\nMarch 2025\n- Facilitated training sessions for PG students on geospatial technologies.\nYouTube Creator | Spatial Geography\n- Developed comprehensive courses on Google Earth Engine, Python, and R for a global audience."
+    "objectID": "books/ml-remote-sensing.html",
+    "href": "books/ml-remote-sensing.html",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection\n\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine.\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
   },
   {
-    "objectID": "cv.html#selected-publications",
-    "href": "cv.html#selected-publications",
-    "title": "Curriculum Vitae",
-    "section": "📄 Selected Publications",
-    "text": "📄 Selected Publications\nPradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine.” In Modern Cartography Series. DOI: 10.1016/b978-0-443-23890-1.00011-6"
+    "objectID": "books/ml-remote-sensing.html#workshop-presentations-slides",
+    "href": "books/ml-remote-sensing.html#workshop-presentations-slides",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection"
   },
   {
-    "objectID": "cv.html#honors-awards",
-    "href": "cv.html#honors-awards",
-    "title": "Curriculum Vitae",
-    "section": "🏆 Honors & Awards",
-    "text": "🏆 Honors & Awards\n\nSenior Research Fellowship (UGC-SRF)\nJunior Research Fellowship (UGC-JRF)\nAssociation of Indian Universities Eastern Zone Runnerup 2023"
+    "objectID": "books/ml-remote-sensing.html#research-papers-external-links",
+    "href": "books/ml-remote-sensing.html#research-papers-external-links",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Resource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine."
   },
   {
-    "objectID": "cv.html#professional-memberships",
-    "href": "cv.html#professional-memberships",
-    "title": "Curriculum Vitae",
-    "section": "🤝 Professional Memberships",
-    "text": "🤝 Professional Memberships\n\nLife Member, National Association of Geographers, India (NAGI) | Oct. 2025 - Present\n\n\n\n Download Full CV (PDF)"
+    "objectID": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
+    "href": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Resource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Deploying a Google Earth Engine App on Streamlit Cloud\n\n\n\nGEE\n\nStreamlit\n\nDeployment\n\nPython\n\nCloud\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nHonest Enemy vs. Two-Faced Friends: The Superiority of Clear Opposition\n\n\n\nPhilosophy\n\nHuman Behavior\n\nPsychology\n\nRelationships\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Irony of the Opposite: Why the Humiliated Emerge as Masters\n\n\n\nPhilosophy\n\nGrowth\n\nPsychology\n\nMastery\n\n\n\n\n\n\n\n\n\nFeb 26, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nLife is simple. Let’s keep it that way.\n\n\n\nEducation\n\nPhilosophy\n\nSimplicity\n\n\n\nWhy the most ‘highly educated’ people often create the most uneducated complexities, and a reminder that life is fundamentally simple.\n\n\n\n\n\nFeb 21, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\nGeography\n\nHistory\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nGIS\n\nTheory\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "books.html",
@@ -658,333 +469,144 @@
     "text": "GitHub Repositories\n\n\n 30 Days of Python\nA step-by-step challenge to learn Python in 30 days.\n\n\n Geospatial Data Science\nA collection of notebooks for geospatial data science.\n\n\n GeoPandas Tutorial\nExcellent tutorial repository for mastering GeoPandas.\n\n\n Applied Geospatial DS\nCode repository for applied geospatial data science workflows.\n\n\n Brown GeoData GEE\nEarth Engine data processing scripts from Brown University.\n\n\n GEE Python + ML\nIntegrating GEE with Python and Machine Learning."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "cv.html#contact-information",
+    "href": "cv.html#contact-information",
+    "title": "Curriculum Vitae",
+    "section": "📬 Contact Information",
+    "text": "📬 Contact Information\n\n pulakesh.mid@gmail.com |  +91 8617812861 |  Ravenshaw University, Odisha, India\n\n\n LinkedIn |  Google Scholar |  GitHub"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "🎓 Education",
+    "text": "🎓 Education\nPhD Scholar in Geography | Ravenshaw University\nSpecialization: GIS, Remote Sensing, and Google Earth Engine\nMPhil in Geography | Ravenshaw University\nUGC-SRF (Senior Research Fellow)"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "🛠️ Technical Skills",
+    "text": "🛠️ Technical Skills\nProgramming Languages: Python, R, JavaScript, LaTeX GIS & Remote Sensing: Google Earth Engine, ArcGIS Pro, QGIS\nData Science: Machine Learning, Phenology Analysis\nTools & Workflow: Git/GitHub, Chrome Extension Development"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "💼 Professional Experience",
+    "text": "💼 Professional Experience\nResource Person | Maharaja Sriram Chandra Bhanja Deo University\nSept. 2025\n- Conducted workshops on GEE and spatial data science.\nResource Person | Centurion University\nMarch 2025\n- Facilitated training sessions for PG students on geospatial technologies.\nYouTube Creator | Spatial Geography\n- Developed comprehensive courses on Google Earth Engine, Python, and R for a global audience."
+  },
+  {
+    "objectID": "cv.html#selected-publications",
+    "href": "cv.html#selected-publications",
+    "title": "Curriculum Vitae",
+    "section": "📄 Selected Publications",
+    "text": "📄 Selected Publications\nPradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine.” In Modern Cartography Series. DOI: 10.1016/b978-0-443-23890-1.00011-6"
+  },
+  {
+    "objectID": "cv.html#honors-awards",
+    "href": "cv.html#honors-awards",
+    "title": "Curriculum Vitae",
+    "section": "🏆 Honors & Awards",
+    "text": "🏆 Honors & Awards\n\nSenior Research Fellowship (UGC-SRF)\nJunior Research Fellowship (UGC-JRF)\nAssociation of Indian Universities Eastern Zone Runnerup 2023"
+  },
+  {
+    "objectID": "cv.html#professional-memberships",
+    "href": "cv.html#professional-memberships",
+    "title": "Curriculum Vitae",
+    "section": "🤝 Professional Memberships",
+    "text": "🤝 Professional Memberships\n\nLife Member, National Association of Geographers, India (NAGI) | Oct. 2025 - Present\n\n\n\n Download Full CV (PDF)"
+  },
+  {
+    "objectID": "events/gdg-nairobi.html",
+    "href": "events/gdg-nairobi.html",
+    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
     "section": "",
-    "text": "Deploying a Google Earth Engine App on Streamlit Cloud\n\n\n\nGEE\n\nStreamlit\n\nDeployment\n\nPython\n\nCloud\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nHonest Enemy vs. Two-Faced Friends: The Superiority of Clear Opposition\n\n\n\nPhilosophy\n\nHuman Behavior\n\nPsychology\n\nRelationships\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Irony of the Opposite: Why the Humiliated Emerge as Masters\n\n\n\nPhilosophy\n\nGrowth\n\nPsychology\n\nMastery\n\n\n\n\n\n\n\n\n\nFeb 26, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nLife is simple. Let’s keep it that way.\n\n\n\nEducation\n\nPhilosophy\n\nSimplicity\n\n\n\nWhy the most ‘highly educated’ people often create the most uneducated complexities, and a reminder that life is fundamentally simple.\n\n\n\n\n\nFeb 21, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\nGeography\n\nHistory\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nGIS\n\nTheory\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+    "text": "Topic: Drought Monitoring with Google Earth Engine AI Assistant-Powered by Gemini API\nHost: GDG for Earth Engine Nairobi\nDate: July 26, 2025\nKey Themes: AI, Build with AI"
   },
   {
-    "objectID": "books/ml-remote-sensing.html",
-    "href": "books/ml-remote-sensing.html",
-    "title": "ML for Remote Sensing",
+    "objectID": "events/gdg-nairobi.html#about-this-event",
+    "href": "events/gdg-nairobi.html#about-this-event",
+    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
+    "section": "About this Event",
+    "text": "About this Event\nJoin us as we explore how the GEE AI Assistant, a powerful browser extension, is transforming the way we conduct geospatial analysis. Whether you’re a beginner or an experienced practitioner, this tool helps you:\n✅ Instantly generate and debug scripts\n✅ Translate code between JavaScript and Python\n✅ Build full-featured GEE Apps\n✅ Extract statistics, create charts, and export results\n✅ Interact with Earth Engine in your native language using multi-language prompts\nAll of this happens seamlessly within the Earth Engine Code Editor through an intuitive side panel—bringing the power of AI directly into your workflow.\n\n View Event Details  Slides"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
     "section": "",
-    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection\n\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine.\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
   },
   {
-    "objectID": "books/ml-remote-sensing.html#workshop-presentations-slides",
-    "href": "books/ml-remote-sensing.html#workshop-presentations-slides",
-    "title": "ML for Remote Sensing",
+    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "title": "Basics of Google Earth Engine",
+    "section": "Workshop Highlights",
+    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+  },
+  {
+    "objectID": "events/lpu-spatial-course-march-2026.html",
+    "href": "events/lpu-spatial-course-march-2026.html",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
     "section": "",
-    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection"
+    "text": "🚀 Short Term Course on Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling 🌍\nWe are pleased to announce an ONLINE Short Term Course designed to strengthen competencies in spatial data intelligence and geospatial analytics, with emphasis on data extraction, interpretation, and predictive modelling."
   },
   {
-    "objectID": "books/ml-remote-sensing.html#research-papers-external-links",
-    "href": "books/ml-remote-sensing.html#research-papers-external-links",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Resource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine."
+    "objectID": "events/lpu-spatial-course-march-2026.html#course-highlights",
+    "href": "events/lpu-spatial-course-march-2026.html#course-highlights",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "section": "✨ Course Highlights",
+    "text": "✨ Course Highlights\n🔹 Expert sessions by eminent academicians and scientists\n🔹 Hands-on training with real-world datasets\n🔹 AI/ML-based predictive modelling in geospatial analysis\n🔹 Practical workflows and case studies\n🔹 Certification by LPU–HRDC"
   },
   {
-    "objectID": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
-    "href": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Resource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
+    "objectID": "events/lpu-spatial-course-march-2026.html#who-should-attend",
+    "href": "events/lpu-spatial-course-march-2026.html#who-should-attend",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "section": "👥 Who Should Attend?",
+    "text": "👥 Who Should Attend?\nStudents | Research Scholars | Faculty | Industry Professionals"
   },
   {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
-    "section": "",
-    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
+    "objectID": "events/lpu-spatial-course-march-2026.html#registration-fees",
+    "href": "events/lpu-spatial-course-march-2026.html#registration-fees",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "section": "💰 Registration Fees",
+    "text": "💰 Registration Fees\n• LPU UG/PG Students: ₹600\n• LPU Scholars & Faculty: ₹800\n• External Participants (Students / Scholars / Faculty / Industry): ₹1,200"
   },
   {
-    "objectID": "courses.html#geospatial-programming",
-    "href": "courses.html#geospatial-programming",
-    "title": "Courses",
-    "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#gis-spatial-reference",
-    "href": "courses.html#gis-spatial-reference",
-    "title": "Courses",
-    "section": "🚀 GIS & Spatial Reference",
-    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#academic-writing-tools",
-    "href": "courses.html#academic-writing-tools",
-    "title": "Courses",
-    "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
-  },
-  {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
-    "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html",
-    "href": "events/gee-training-apr-2025.html",
-    "title": "10-Day GEE Training Sessions",
-    "section": "",
-    "text": "Topic: Google Earth Engine (GEE) Training Sessions\nResource Person: Pulakesh Pradhan\nHost: Centurion University, Bhubaneswar\nStatus: Successfully Concluded!\nDelighted to share a few glimpses from the recently concluded 10-day Google Earth Engine (GEE) Training, where I had the privilege of leading and teaching as a resource person.\nThis training, conducted by Centurion University, Bhubaneswar, provided participants with hands-on experience in geospatial data processing, remote sensing, and cloud-based geospatial analytics using Google Earth Engine."
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
-    "href": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
-    "title": "10-Day GEE Training Sessions",
-    "section": "📸 Glimpses of Training Outcomes",
-    "text": "📸 Glimpses of Training Outcomes"
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html#key-learning-modules",
-    "href": "events/gee-training-apr-2025.html#key-learning-modules",
-    "title": "10-Day GEE Training Sessions",
-    "section": "🚀 Key Learning Modules",
-    "text": "🚀 Key Learning Modules\nThroughout the training, participants explored:\n✅ Cloud computing for geospatial analysis using JavaScript\n✅ Data handling in GEE (FeatureCollections, ImageCollections)\n✅ Importing and exporting geospatial datasets (shapefiles, raster images, etc.)\n✅ GEE functionalities: filtering, reducers, time-series analysis, and charting\n✅ Machine learning for Land Use Land Cover (LULC) classification\n✅ Applications: Urban Heat Island, Flood Mapping, Forest Monitoring, Surface Water Detection, Water Quality, etc.\n✅ Key datasets covered: Landsat, Sentinel-2, SRTM, FAO GAUL, TerraClimate, CHIRPS, MODIS, CMIP6, etc.\n✅ Advanced Integration: AI, IMD data, and OpenStreetMap (OSM) in GEE\n🙏 A huge appreciation to all participants for their dedication and active engagement. Your enthusiasm made this learning experience truly enriching!\n#GoogleEarthEngine #RemoteSensing #GeospatialAnalysis #EarthObservation #DataScience #MachineLearning #ClimateAnalysis #SustainableDevelopment\n\n📌 More insights: LinkedIn Article | pulakeshpradhan.github.io"
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html",
-    "href": "events/iitbhu-fdp-march-2026.html",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "",
-    "text": "🎯 Online Faculty Development Programme (FDP) on Decoding Climate for Built Environment — Tools, Metrics and Design Integration 🌍\nWe are pleased to announce an ONLINE FDP jointly organized by Sustainability Development Center, IIT (BHU) Varanasi and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. This program is designed to bridge the gap between architectural design and environmental performance through advanced tools and metrics."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
-    "href": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "🔍 Key Focus Areas",
-    "text": "🔍 Key Focus Areas\n\nApplication of Sustainable Development Goals (SDG) for Built Environment\nEnvironmental Simulation workflows\nClimate responsive design using Ladybug Tools\nIntegration of Design with Environmental performance"
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#certification-benefits",
-    "href": "events/iitbhu-fdp-march-2026.html#certification-benefits",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "📜 Certification & Benefits",
-    "text": "📜 Certification & Benefits\n\nE-Certificate will be awarded to all successful participants.\nHands-on insights into modern environmental simulation tools."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#registration-fee",
-    "href": "events/iitbhu-fdp-march-2026.html#registration-fee",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "💰 Registration Fee",
-    "text": "💰 Registration Fee\n\nRefer to the event poster for detailed fee structure and participation guidelines."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#registration",
-    "href": "events/iitbhu-fdp-march-2026.html#registration",
-    "title": "Online FDP: Decoding Climate for Built Environment",
+    "objectID": "events/lpu-spatial-course-march-2026.html#registration",
+    "href": "events/lpu-spatial-course-march-2026.html#registration",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
     "section": "🔗 Registration",
-    "text": "🔗 Registration\nRegister Now: https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform\n📢 Join this FDP to master climate-responsive design strategies and environmental performance integration."
+    "text": "🔗 Registration\nRegister Now: https://www.lpu.in/hrd/\n📢 Join this intensive, fully online short-term course to upskill in spatial data intelligence and engage with leading national experts."
   },
   {
-    "objectID": "events/mscbu-workshop-sep-2025.html",
-    "href": "events/mscbu-workshop-sep-2025.html",
-    "title": "Basics of Google Earth Engine & LULC Classification",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Engagements",
     "section": "",
-    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
   },
   {
-    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "Event Overview",
-    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events & Engagements",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nSpatial Data Intelligence: Extraction, Interpretation and Predictive Modelling\n\n\nAn intensive 6-day online short-term course at Lovely Professional University (LPU).\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnline FDP: Decoding Climate for Built Environment\n\n\nTools, Metrics and Design Integration — FDP organized by IIT (BHU) Varanasi.\n\n\n\n\n\n\nMar 20, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Image Gallery",
-    "section": "",
-    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-impact-to-resilience/index.html",
-    "href": "ignored_folder/2026-02-24-impact-to-resilience/index.html",
-    "title": "From Impact to Resilience: Transforming Climate Hazards into Adaptive Actions",
-    "section": "",
-    "text": "Navigating the shift from disaster impact to systemic resilience.\nOn October 12, 2013, a colossal storm gathered over the warm waters of the Bay of Bengal. Wind speeds climbed past 200 km/h, comparable to a Category 4 hurricane. As Cyclone Phailin marched toward the coast of Odisha, meteorologists and disaster management authorities faced a moment of truth.\nThe memory of the 1999 Super Cyclone, which claimed over 10,000 lives, was still a raw wound in the region’s history. But 2013 was different. In one of the largest evacuations in human history, nearly a million people were moved to safety in just a few days. When Phailin made landfall, the death toll stayed in the double digits.\nThis wasn’t luck. It was the result of two decades of deliberate, science-backed systemic strengthening. It proved a vital principle of disaster science: A natural hazard only becomes a disaster when it intersects with human vulnerability and a lack of readiness."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-impact-to-resilience/index.html#the-resilience-mindset-bending-without-breaking",
-    "href": "ignored_folder/2026-02-24-impact-to-resilience/index.html#the-resilience-mindset-bending-without-breaking",
-    "title": "From Impact to Resilience: Transforming Climate Hazards into Adaptive Actions",
-    "section": "The Resilience Mindset: Bending Without Breaking",
-    "text": "The Resilience Mindset: Bending Without Breaking\nIn the context of climate change, resilience isn’t about rigid strength. It’s not about building walls that never move. Instead, resilience is the ability of a system to absorb a shock, adapt its functions, and recover quickly.\nDisruptions are inevitable, but devastation is a choice. To move toward resilience, we must first understand how to quantify the risk we are trying to manage."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-impact-to-resilience/index.html#the-risk-framework-a-diagnostic-approach",
-    "href": "ignored_folder/2026-02-24-impact-to-resilience/index.html#the-risk-framework-a-diagnostic-approach",
-    "title": "From Impact to Resilience: Transforming Climate Hazards into Adaptive Actions",
-    "section": "The Risk Framework: A Diagnostic Approach",
-    "text": "The Risk Framework: A Diagnostic Approach\nWe cannot manage what we cannot measure. To diagnose climate risk, we break it down into three interlinked dimensions, as guided by the widely accepted IPCC framework.\n\n1. The Hazard: The Physical Signal\nA hazard is defined by its intensity, frequency, and trajectory. Whether it’s a heatwave measured by consecutive days above a threshold or a flood quantified by rainfall intensity and river discharge, we use long-term observations and satellite data to map these patterns. * Key Question: What is happening, how intense is it, and how is it changing over time?\n\n\n2. Exposure: What Is in the Path?\nExposure tells us who and what stands to be affected. It is a layered reality: * Social Exposure: Population density and community locations. * Physical Exposure: Infrastructure, buildings, and critical utilities. * Economic Exposure: Agricultural lands, industrial zones, and supply chains.\n\n\n3. Vulnerability: The Susceptibility to Harm\nVulnerability is where risk becomes personal. It is the measure of how susceptible a system is to damage. This is where outcomes diverge—two communities can face the same cyclone, but experience vastly different levels of devastation based on their underlying conditions."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-impact-to-resilience/index.html#deconstructing-vulnerability",
-    "href": "ignored_folder/2026-02-24-impact-to-resilience/index.html#deconstructing-vulnerability",
-    "title": "From Impact to Resilience: Transforming Climate Hazards into Adaptive Actions",
-    "section": "Deconstructing Vulnerability",
-    "text": "Deconstructing Vulnerability\nTo take effective action, we must deconstruct vulnerability into its three core pillars:\n\nI. Physical Vulnerability (When Structures Fail)\nThis refers to the susceptibility of the built environment. Structures not designed for high wind loads, roads lacking adequate drainage, or power substations built in low-lying areas are all physically vulnerable. Indicators include: * Building materials and age. * Elevation and terrain context. * Compliance with hazard-resistant design codes.\n\n\nII. Socio-Economic Vulnerability (The Human Cost)\nThis explains why recovery is often uneven. Income levels, healthcare access, education, and social protection systems determine who can bounce back and who falls into long-term distress. Data from the Department of Science and Technology (DST) shows that climate risk is deeply social; eastern and central India often show higher vulnerability not because of stronger hazards, but because of socio-economic fragilities.\n\n\nIII. Adaptive Capacity (The Buffer)\nThis is the “protective layer” of resilience. It includes measures already in place to reduce impact: * Physical Adaptation: Cyclone shelters, early warning systems, and improved drainage. * Financial Adaptation: Innovative tools like Parametric Insurance (automatic payouts when triggers like 42°C are hit) and Climate-Smart Credit (flexible loans aligned with disaster recovery windows)."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-impact-to-resilience/index.html#hazard-specific-resilience-in-action",
-    "href": "ignored_folder/2026-02-24-impact-to-resilience/index.html#hazard-specific-resilience-in-action",
-    "title": "From Impact to Resilience: Transforming Climate Hazards into Adaptive Actions",
-    "section": "Hazard-Specific Resilience in Action",
-    "text": "Hazard-Specific Resilience in Action\nResilience is won or lost before the hazard arrives. Across India, proactive measures are reshaping the landscape of disaster management.\n\nStrategic Measures by Hazard Type\n\n\n\n\n\n\n\nHazard\nKey Proactive Interventions\n\n\n\n\nCyclone\nWind-resistant housing, mangrove corridors, last-mile early warnings, and elevated shelters.\n\n\nFlood\nSpatially precise inundation mapping, drainage restoration, and reinforced embankments.\n\n\nHeatwave\nUrban Heat Action Plans, cool roofing technologies, and public hydration grids.\n\n\nDrought\nClimate-smart agriculture, soil moisture sensors, and diversified water harvesting."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-impact-to-resilience/index.html#the-future-integrating-science-tech-and-impact",
-    "href": "ignored_folder/2026-02-24-impact-to-resilience/index.html#the-future-integrating-science-tech-and-impact",
-    "title": "From Impact to Resilience: Transforming Climate Hazards into Adaptive Actions",
-    "section": "The Future: Integrating Science, Tech, and Impact",
-    "text": "The Future: Integrating Science, Tech, and Impact\nBuilding collective resilience requires a shift away from “siloed” thinking. We must integrate three critical domains:\n\nClimate Science: Understanding the “moving targets” of shifting weather patterns.\nDeep Tech: Utilizing advanced geospatial intelligence, machine learning, and high-res satellite data to translate signals into localized insights.\nImpact Pathways: Understanding the long-term economic and social cascades of disaster events."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-impact-to-resilience/index.html#conclusion-from-reaction-to-anticipation",
-    "href": "ignored_folder/2026-02-24-impact-to-resilience/index.html#conclusion-from-reaction-to-anticipation",
-    "title": "From Impact to Resilience: Transforming Climate Hazards into Adaptive Actions",
-    "section": "Conclusion: From Reaction to Anticipation",
-    "text": "Conclusion: From Reaction to Anticipation\nClimate risk does not suddenly appear at landfall. It is shaped quietly over time by where we build, how we grow, and who we choose to protect. The science is clear: reacting after losses occur addresses symptoms, not causes.\nThe path forward is defined by anticipatory planning. We cannot control the hazards of a warming world, but we have full agency over our exposure and vulnerability. When we treat adaptation as a strategic investment rather than a cost, we change the future.\nWe are already walking this path. The next part of this series will explore the financial tools—like risk transfer and parametric insurance—that help us absorb the unavoidable shocks.\n\nIs your community or organization prepared for the shifting hazards of the next decade? Why and how do you protect your resources from such toxic dynamics? Share your thoughts below."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-the-power-of-confidence/index.html",
-    "href": "ignored_folder/2026-02-24-the-power-of-confidence/index.html",
-    "title": "The Magnetism of Confidence: Dressing for the Reality You Want",
-    "section": "",
-    "text": "Confidence: The unseen force that shapes your reality.\nThere is an old saying that “clothes make the man,” but the truth goes much deeper than the fabric on your back. It’s about the energy you project, the standards you hold for yourself, and the unwavering belief that you belong in the room you just entered.\nConfidence isn’t just a feeling; it’s a magnetic force. When you project it, you attract it."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#confidence-attracts-confidence",
-    "href": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#confidence-attracts-confidence",
-    "title": "The Magnetism of Confidence: Dressing for the Reality You Want",
-    "section": "1. Confidence Attracts Confidence",
-    "text": "1. Confidence Attracts Confidence\nHave you ever noticed how some people seem to command a room without saying a word? Or how a confident leader naturally draws in confident collaborators?\nConfidence is contagious. When you carry yourself with certainty, others mirror that energy. In business, in networking, and in personal life, people are drawn to those who know their worth. If you doubt yourself, the world will reflect that doubt back at you. If you trust yourself, the world begins to trust you too."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#the-uniform-of-success-dress-for-the-reality-you-want",
-    "href": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#the-uniform-of-success-dress-for-the-reality-you-want",
-    "title": "The Magnetism of Confidence: Dressing for the Reality You Want",
-    "section": "2. The Uniform of Success: Dress for the Reality You Want",
-    "text": "2. The Uniform of Success: Dress for the Reality You Want\n\n\n\n\n\n\n\nPresentation is the first chapter of your story.\n\n\n“Be always well-dressed and well-behaved, no matter what.”\nThis isn’t about vanity or expensive brands. It’s about self-respect. When you take the time to dress well, you are signaling to yourself and the world that you are a person of value.\n\nPsychological Edge: Dressing sharp changes how you feel. It sharpens your mind and improves your posture.\nThe First Impression: You often “speak” to people before you even open your mouth. A well-presented appearance tells a story of discipline and attention to detail.\nReady for Anything: You never know when you’ll run into a major opportunity. By being “always ready,” you never have to scramble when the moment arrives."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#the-power-of-behavior-well-behaved-is-never-out-of-style",
-    "href": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#the-power-of-behavior-well-behaved-is-never-out-of-style",
-    "title": "The Magnetism of Confidence: Dressing for the Reality You Want",
-    "section": "3. The Power of Behavior: Well-Behaved is Never Out of Style",
-    "text": "3. The Power of Behavior: Well-Behaved is Never Out of Style\nConfidence without character is just arrogance. True confidence is rooted in being “well-behaved”—which means moving with grace, treating others with respect, and maintaining composure under pressure.\nBeing well-behaved doesn’t mean being passive. It means having the self-control to handle any situation with dignity. Whether you are dealing with a difficult client or celebrating a major win, your behavior defines your professional brand more than your resume ever will."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#the-law-of-expectation-what-you-think-will-happen-will-happen",
-    "href": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#the-law-of-expectation-what-you-think-will-happen-will-happen",
-    "title": "The Magnetism of Confidence: Dressing for the Reality You Want",
-    "section": "4. The Law of Expectation: What You Think Will Happen, Will Happen",
-    "text": "4. The Law of Expectation: What You Think Will Happen, Will Happen\n\n\n\n\n\n\n\nYour mindset is the architect of your future.\n\n\nThe most powerful tool you possess is your expectation. What you think will happen often becomes your reality.\nIf you walk into a meeting expecting to fail, you will unconsciously look for signs of failure and act in ways that ensure it. But if you walk in expecting a positive outcome—even if the path isn’t perfectly clear—your brain shifts into “problem-solving” mode instead of “panic” mode.\nYour thoughts act as a filter. They dictate how you perceive every event and how you respond to every challenge. If you expect success, you start making the choices that lead to it."
-  },
-  {
-    "objectID": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#conclusion",
-    "href": "ignored_folder/2026-02-24-the-power-of-confidence/index.html#conclusion",
-    "title": "The Magnetism of Confidence: Dressing for the Reality You Want",
-    "section": "Conclusion",
-    "text": "Conclusion\nSuccess isn’t something that happens to you; it’s something you attract by the person you become. By mastering your presentation, refining your behavior, and aligning your thoughts with your goals, you create an environment where success is the only logical outcome.\nStay sharp. Stay composed. And above all, believe in the reality you are building.\n\nDo you believe that your attire influences your performance? How do you maintain confidence during challenging times? Let’s discuss below."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html",
-    "href": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "",
-    "text": "The geospatial landscape is undergoing a monumental shift. What once required specialized, heavy desktop software is now being executed with lines of elegant Python code. The integration of Machine Learning (ML), Deep Learning (DL), and Artificial Intelligence (AI) has transformed GIS from a mapping tool into a predictive and analytical powerhouse.\nIn this post, we explore the architecture of a modern geospatial workflow and why Python is at the heart of this revolution."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
-    "href": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#the-foundation-pythons-geospatial-stack",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🧱 The Foundation: Python’s Geospatial Stack",
-    "text": "🧱 The Foundation: Python’s Geospatial Stack\nBefore we dive into AI, we must acknowledge the libraries that make Python a GIS titan. The “Geospatial Stack” allows us to treat spatial data as first-class citizens in the data science world.\n\nGeoPandas: Brings the power of pandas to vector data, allowing for complex spatial joins and geometric operations in seconds.\nXarray & Rasterio: The dynamic duo for raster data. rasterio handles the I/O of GeoTIFFs, while xarray provides a multi-dimensional platform for analyzing time-series satellite imagery (Data Cubes).\nShapely & PyProj: The engines under the hood for geometric manipulation and coordinate reference system (CRS) transformations."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
-    "href": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#the-rise-of-machine-learning-ml",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🤖 The Rise of Machine Learning (ML)",
-    "text": "🤖 The Rise of Machine Learning (ML)\nTraditional classification methods like Maximum Likelihood are being replaced by robust ML algorithms. Using Scikit-Learn, geographers can now implement:\n\nRandom Forests & SVM: For high-accuracy land cover classification.\nClustering (K-Means): For identifying socio-economic patterns or environmental zones without prior labeling.\nRegression Models: To predict environmental variables like Soil Organic Carbon or Urban Heat Island intensity.\n\nThe beauty of Python is that your spatial data (from GeoPandas) can be fed directly into these models with minimal translation."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
-    "href": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#scaling-up-deep-learning-dl-for-computer-vision",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision",
-    "text": "🧠 Scaling Up: Deep Learning (DL) for Computer Vision\nWhere ML looks at pixel values, Deep Learning looks at patterns, textures, and context. With frameworks like PyTorch and TensorFlow, we are now performing:\n\nSemantic Segmentation: Identifying every single building or tree in high-resolution aerial imagery (e.g., using U-Net architectures).\nObject Detection: Automatically counting ships in harbors or identifying solar panels on rooftops.\nChange Detection: Using Siamese networks to detect subtle changes in urban sprawl or deforestation between two points in time.\n\nIntegrating DL into a geospatial workflow typically involves using libraries like torch-geo or bridging Google Earth Engine with AI models via Earth Engine’s AI Platform integration."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
-    "href": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#the-ai-revolution-llms-in-geospatial-research",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "✍️ The AI Revolution: LLMs in Geospatial Research",
-    "text": "✍️ The AI Revolution: LLMs in Geospatial Research\nThe most recent addition to our toolkit is the Large Language Model (LLM). AI is not just analyzing the pixels; it is helping us write the code to do so.\n\nAutomated Coding: Tools like the GEE AI Assistant (a Chrome extension I developed) leverage Gemini AI to help researchers generate complex scripts in seconds.\nNatural Language Queries: We are moving toward a future where you can ask, “Find all areas in Odisha that experienced more than 50% vegetation loss after the 2024 cyclone,” and the AI generates the processing pipeline.\nResearch Synthesis: AI helps in summarizing vast amounts of remote sensing literature, identifying gaps, and even formatting citations for academic journals."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
-    "href": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#the-roadmap-mastering-python-for-ai-driven-research",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "�️ The Roadmap: Mastering Python for AI-Driven Research",
-    "text": "�️ The Roadmap: Mastering Python for AI-Driven Research\nTo transition from traditional GIS to AI-driven research, I recommend following this structured 7-step roadmap. This is the core curriculum I follow in my workflows:\n\n\n1. Python & Statistics\n\nCore Libraries: NumPy, Pandas\nConcepts: Probability, OOPs in Python, Statistics for Data Science\n\n\n\n2. Intro to Neural Networks (NN)\n\nArchitecture: Input Layer, Hidden Layer, Weights, Bias\nLogic: Activation Functions, The Perceptron Model, Multi-Layer (ANN)\n\n\n\n3. Preprocessing & Artificial Neural Networks (ANN)\n\nMechanics: Forward Propagation, Backward propagation, Loss functions\nOptimization: Adam Optimizer, Multi-Layer Perceptrons\n\n\n\n4. Convolutional Neural Networks (CNNs)\n\nGeospatial Power: Convolutional Nets for imagery\nFrameworks: Keras, Pooling layers for spatial reduction\n\n\n\n5. Transfer Learning\n\nPre-trained Models: VGG16, AlexNet, ResNet\nEcosystems: Hugging Face, Timm (PyTorch Image Models)\n\n\n\n6. Object Detection\n\nSOTA Models: YOLO (v8), RCNN, SSD\nSegmentation: Mask R-CNN for individual feature extraction\n\n\n\n7. Deployment & Serving\n\nFrom Code to App: Docker containers, Streamlit dashboards\nServing: Scaling Python scripts for production environments"
-  },
-  {
-    "objectID": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
-    "href": "ignored_folder/2026_02_17_modern_geospatial_python_ai/index.html#conclusion-the-hybrid-future",
-    "title": "Modern Geospatial Workflow using Python: ML, DL, and AI Integration",
-    "section": "�🚀 Conclusion: The Hybrid Future",
-    "text": "�🚀 Conclusion: The Hybrid Future\nA modern geospatial workflow is no longer about choosing one tool. It is about orchestration.\nWe use Google Earth Engine for massive data preprocessing, Python for specialized ML/DL modeling, and AI to streamline the entire process. This “Modern Workflow” isn’t just faster—it’s more reproducible, more scalable, and significantly more powerful than anything we’ve seen before.\nThe era of the “Geospatial Data Scientist” has arrived. Are you ready?"
-  },
-  {
-    "objectID": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html",
-    "href": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html",
-    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
-    "section": "",
-    "text": "Education is evolving rapidly with the integration of AI tools. (Source: Unsplash)\nIn today’s educational landscape, we are witnessing a peculiar phenomenon. Classroom doors are open, Zoom links are active, and teachers are pouring their energy into meticulously prepared lectures. Yet, on the other side, there is often a wall of silence.\nThe age of Artificial Intelligence (AI) and information overload has transformed the student-teacher dynamic in ways we are only beginning to grasp."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#the-mute-mode-reality",
-    "href": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#the-mute-mode-reality",
-    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
-    "section": "The “Mute Mode” Reality",
-    "text": "The “Mute Mode” Reality\n\n\n\n\n\n\n\nThe wall of silence: Passive attendance in the digital age. (Source: Unsplash)\n\n\nWhether in a physical classroom or an online session, a growing number of students have entered what I call “Mute Mode.” They attend, they listen, and they observe—often with a judgmental eye—but they rarely participate.\nIn online classes, this is literal: cameras off, microphones muted. In physical classrooms, it’s a mental mute—a reluctance to engage, to ask questions, or to contribute to the discourse. They are “present” because of mandatory attendance rules or credit requirements, but their intellectual presence is elsewhere."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#the-ai-shortcut-why-participate",
-    "href": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#the-ai-shortcut-why-participate",
-    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
-    "section": "The AI Shortcut: Why Participate?",
-    "text": "The AI Shortcut: Why Participate?\n\n\n\n\n\n\n\nInstant answers at their fingertips: The challenge for traditional teaching. (Source: Unsplash)\n\n\nThe root of this reluctance isn’t necessarily laziness; it’s a perceived redundancy.\nStudents today know that any factual information, any summary of a concept, or any problem-solving steps can be retrieved with a single click from ChatGPT, Gemini, or other AI chatbots. If the information is readily available on their screens, why bother participating in a live discussion? Why risk being wrong or putting in the effort to articulate a thought when an AI can do it for them in seconds?\nThis creates a cycle of passive consumption. They attend because they must, not because they feel the need to be part of the learning process."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#the-exhausted-educator",
-    "href": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#the-exhausted-educator",
-    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
-    "section": "The Exhausted Educator",
-    "text": "The Exhausted Educator\nTeachers, on the other hand, are working harder than ever. They innovate with slides, interactive tools, and real-world examples. But no matter how much energy they put in, they often fail to capture the full attention of a class that feels it already has the “answers” in its pocket.\nThe traditional lecture-style pedagogy is hitting a wall. When information is a commodity, the value of the “deliverer” of that information is devalued in the eyes of the student."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#shifting-the-concept-intrude-the-panel",
-    "href": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#shifting-the-concept-intrude-the-panel",
-    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
-    "section": "Shifting the Concept: “Intrude the Panel”",
-    "text": "Shifting the Concept: “Intrude the Panel”\nIn my opinion, we need to fundamentally change how we define participation. Participation shouldn’t be a polite “bonus” for the enthusiastic few; it must become the core requirement of the educational experience.\nInstead of a teacher-led lecture with optional Q&A, we should move towards a model where students are required to “intrude the panel.”\n\n\n\n\n\n\n\nActive participation: Shifting from listeners to panelists. (Source: Unsplash)\n\n\nWhat does this mean? 1. Mandatory Active Participation: Engagement shouldn’t be optional. It should be baked into the marking system and the very structure of the class. 2. Panel-Style Learning: Every student should be treated as a potential panelist, ready to defend a point, critique a concept, or apply AI-generated information to a complex, non-obvious scenario. 3. Beyond Information: Since AI provides information, the classroom must provide critical synthesis. If a student doesn’t participate in the synthesis, they shouldn’t get the credit. No participation, no marks—simple as that."
-  },
-  {
-    "objectID": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#conclusion",
-    "href": "ignored_folder/2026_02_21_teaching_in_the_age_of_ai/index.html#conclusion",
-    "title": "Teaching in the Age of AI: From Passive Listeners to Active Panelists",
-    "section": "Conclusion",
-    "text": "Conclusion\nWe cannot compete with AI on the level of information retrieval. If we try, we lose. Instead, we must raise the stakes of the classroom. We must force a shift from passive “mutes” to active “panelists.”\nEducation in the age of AI isn’t about knowing the answer; it’s about being able to debate, dissect, and apply it in real-time. It’s time to stop asking for participation and start demanding it.\nWhat are your thoughts on this shift? How are you handling the AI-driven silence in your classes?"
+    "objectID": "events.html#past-seminars-workshops",
+    "href": "events.html#past-seminars-workshops",
+    "title": "Events & Engagements",
+    "section": "🏛️ Past Seminars & Workshops",
+    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n10-Day GEE Training Sessions\n\n\nSuccessfully Concluded! A 10-day intensive online training on Google Earth Engine (GEE) for geospatial analytics.\n\n\n\n\n\n\nApr 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
   },
   {
     "objectID": "index.html",
@@ -1061,7 +683,7 @@
     "href": "jobs.html",
     "title": "Job Opportunities",
     "section": "",
-    "text": "Below is a curated list of job openings and research opportunities in the fields of Geography, GIS, Remote Sensing, and Spatial Data Science.\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2026 | 📅 Posted: February 2026\nThe West Bengal College Service Commission invites applications for the posts of Assistant Professor in Government-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th April, 2026\n\nApply Online View Details\n\n\n\n\n\n\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2020 | 📅 Dated: December 2020\nArchived recruitment notice for Assistant Professor posts in State-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th February, 2021\n\nView Details\n\n\n\n\n\n\n\n\n\n\n\nPosition\nOrganization\nLocation\nDeadline\nAction\n\n\n\n\nAssistant Professor (2026)\nWBCSC\nWest Bengal\nApril 15, 2026\nView Details\n\n\nAssistant Professor (2020)\nWBCSC\nWest Bengal\nFeb 15, 2021\nView Details\n\n\n\n\n\n\n\n\n\n\n\nFreeJobAlert\nTeaching & Faculty Jobs\nLatest updates on academic vacancies.\n\n\n\n\n\n\n\nYouTube Resource\nSaroj Mishra Tutorial\nDetailed guides and job explanations.\n\n\n\n\n\n\n\n\n\n\nUse the sections below to evaluate your score for both Colleges and Universities.\n\n🏫 Criteria for Colleges🎓 Criteria for Universities🧬 Criteria for N-PDF\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n21\n80% & Above = 21; 60% to &lt; 80% = 19; 55% to &lt; 60% = 16; 45% to &lt; 55% = 10\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n25\n25 Marks\n\n\n5\nNET with JRF\n10\n\n\n\n6\nNET\n08\n\n\n\n7\nSLET/SET\n05\n\n\n\n8\nResearch Publications\n06\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 25 Marks; (ii) JRF/NET/SET Max: 10 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n15\n80% & Above = 15; 60% to &lt; 80% = 13; 55% to &lt; 60% = 10; 45% to &lt; 55% = 05\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n30\n30 Marks\n\n\n5\nNET with JRF\n07\n\n\n\n6\nNET\n05\n\n\n\n7\nSLET/SET\n03\n\n\n\n8\nResearch Publications\n10\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 30 Marks; (ii) JRF/NET/SET Max: 07 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\nRequirement\nDetail\n\n\n\n\nAge Limit\n35 Years (Standard)\n\n\nPublications\n2 Articles (SCI Indexed)\n\n\n\n\n\n\n\n\nMaster’s Degree: Min. 55% marks in relevant subject.\nNational Tests: Must have cleared UGC NET / CSIR NET / SLET / SET.\nPh.D. Alternative: Ph.D. degree in line with UGC Regulations 2009/2016.\nPh.D. Standards:\n\nAwarded in Regular mode only.\nThesis evaluated by at least two external examiners.\nOpen viva voce conducted.\nMin. two research papers from Ph.D. (one in refereed journal).\nMin. two presentations in UGC/ICSSR/CSIR sponsored conferences.\n\n\n\n\n\n\n\n\n:::\n\n\n:::"
+    "text": "Below is a curated list of job openings and research opportunities in the fields of Geography, GIS, Remote Sensing, and Spatial Data Science.\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2026 | 📅 Posted: February 2026\nThe West Bengal College Service Commission invites applications for the posts of Assistant Professor in Government-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th April, 2026\n\nApply Online View Details\n\n\n\n\n\n\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2020 | 📅 Dated: December 2020\nArchived recruitment notice for Assistant Professor posts in State-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th February, 2021\n\nView Details\n\n\n\n\n\n\n\n\n\n\n\nPosition\nOrganization\nLocation\nDeadline\nAction\n\n\n\n\nAssistant Professor (2026)\nWBCSC\nWest Bengal\nApril 15, 2026\nView Details\n\n\nAssistant Professor (2020)\nWBCSC\nWest Bengal\nFeb 15, 2021\nView Details\n\n\n\n\n\n\n\n\n\n\n\nFreeJobAlert\nTeaching & Faculty Jobs\nLatest updates on academic vacancies.\n\n\n\n\n\n\n\nYouTube Resource\nSaroj Mishra Tutorial\nDetailed guides and job explanations.\n\n\n\n\n\n\n\n\n\n\nUse the sections below to evaluate your score for both Colleges and Universities.\n\n🏫 Criteria for Colleges🎓 Criteria for Universities🧬 Criteria for N-PDF\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n21\n80% & Above = 21; 60% to &lt; 80% = 19; 55% to &lt; 60% = 16; 45% to &lt; 55% = 10\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n25\n25 Marks\n\n\n5\nNET with JRF\n10\n\n\n\n6\nNET\n08\n\n\n\n7\nSLET/SET\n05\n\n\n\n8\nResearch Publications\n06\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 25 Marks; (ii) JRF/NET/SET Max: 10 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n15\n80% & Above = 15; 60% to &lt; 80% = 13; 55% to &lt; 60% = 10; 45% to &lt; 55% = 05\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n30\n30 Marks\n\n\n5\nNET with JRF\n07\n\n\n\n6\nNET\n05\n\n\n\n7\nSLET/SET\n03\n\n\n\n8\nResearch Publications\n10\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 30 Marks; (ii) JRF/NET/SET Max: 07 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\nRequirement\nDetail\n\n\n\n\nAge Limit\n35 Years (Standard)\n\n\nPublications\n2 Articles (SCI Indexed)\n\n\n\n\n\n\n\n\nMaster’s Degree: Min. 55% marks in relevant subject.\nNational Tests: Must have cleared UGC NET / CSIR NET / SLET / SET.\nPh.D. Alternative: Ph.D. degree in line with UGC Regulations 2009/2016.\nPh.D. Standards:\n\nAwarded in Regular mode only.\nThesis evaluated by at least two external examiners.\nOpen viva voce conducted.\nMin. two research papers from Ph.D. (one in refereed journal).\nMin. two presentations in UGC/ICSSR/CSIR sponsored conferences.\n\n\n\n\n\n\n\n\n\n\n:::"
   },
   {
     "objectID": "jobs.html#opportunities-in-gis-geospatial-science",
@@ -1075,7 +697,7 @@
     "href": "jobs.html#short-listing-criteria-for-assistant-professors",
     "title": "Job Opportunities",
     "section": "",
-    "text": "Use the sections below to evaluate your score for both Colleges and Universities.\n\n🏫 Criteria for Colleges🎓 Criteria for Universities🧬 Criteria for N-PDF\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n21\n80% & Above = 21; 60% to &lt; 80% = 19; 55% to &lt; 60% = 16; 45% to &lt; 55% = 10\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n25\n25 Marks\n\n\n5\nNET with JRF\n10\n\n\n\n6\nNET\n08\n\n\n\n7\nSLET/SET\n05\n\n\n\n8\nResearch Publications\n06\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 25 Marks; (ii) JRF/NET/SET Max: 10 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n15\n80% & Above = 15; 60% to &lt; 80% = 13; 55% to &lt; 60% = 10; 45% to &lt; 55% = 05\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n30\n30 Marks\n\n\n5\nNET with JRF\n07\n\n\n\n6\nNET\n05\n\n\n\n7\nSLET/SET\n03\n\n\n\n8\nResearch Publications\n10\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 30 Marks; (ii) JRF/NET/SET Max: 07 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\nRequirement\nDetail\n\n\n\n\nAge Limit\n35 Years (Standard)\n\n\nPublications\n2 Articles (SCI Indexed)\n\n\n\n\n\n\n\n\nMaster’s Degree: Min. 55% marks in relevant subject.\nNational Tests: Must have cleared UGC NET / CSIR NET / SLET / SET.\nPh.D. Alternative: Ph.D. degree in line with UGC Regulations 2009/2016.\nPh.D. Standards:\n\nAwarded in Regular mode only.\nThesis evaluated by at least two external examiners.\nOpen viva voce conducted.\nMin. two research papers from Ph.D. (one in refereed journal).\nMin. two presentations in UGC/ICSSR/CSIR sponsored conferences.\n\n\n\n\n\n\n\n\n:::\n\n\n:::"
+    "text": "Use the sections below to evaluate your score for both Colleges and Universities.\n\n🏫 Criteria for Colleges🎓 Criteria for Universities🧬 Criteria for N-PDF\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n21\n80% & Above = 21; 60% to &lt; 80% = 19; 55% to &lt; 60% = 16; 45% to &lt; 55% = 10\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n25\n25 Marks\n\n\n5\nNET with JRF\n10\n\n\n\n6\nNET\n08\n\n\n\n7\nSLET/SET\n05\n\n\n\n8\nResearch Publications\n06\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 25 Marks; (ii) JRF/NET/SET Max: 10 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n15\n80% & Above = 15; 60% to &lt; 80% = 13; 55% to &lt; 60% = 10; 45% to &lt; 55% = 05\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n30\n30 Marks\n\n\n5\nNET with JRF\n07\n\n\n\n6\nNET\n05\n\n\n\n7\nSLET/SET\n03\n\n\n\n8\nResearch Publications\n10\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 30 Marks; (ii) JRF/NET/SET Max: 07 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\nRequirement\nDetail\n\n\n\n\nAge Limit\n35 Years (Standard)\n\n\nPublications\n2 Articles (SCI Indexed)\n\n\n\n\n\n\n\n\nMaster’s Degree: Min. 55% marks in relevant subject.\nNational Tests: Must have cleared UGC NET / CSIR NET / SLET / SET.\nPh.D. Alternative: Ph.D. degree in line with UGC Regulations 2009/2016.\nPh.D. Standards:\n\nAwarded in Regular mode only.\nThesis evaluated by at least two external examiners.\nOpen viva voce conducted.\nMin. two research papers from Ph.D. (one in refereed journal).\nMin. two presentations in UGC/ICSSR/CSIR sponsored conferences.\n\n\n\n\n\n\n\n\n\n\n:::"
   },
   {
     "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html",

@@ -1,5 +1,16 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2026_03_05_deploy_gee_streamlit/index.html",
+      "/posts/2026_03_05_honest_enemy/index.html",
+      "/posts/2026_02_26_irony_of_the_opposite/index.html",
+      "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
+      "/posts/2026-02-19-history-geographical-organisations-india/index.html",
+      "/posts/2026_02_16_social_vs_spatial/index.html"
+    ]
+  },
+  {
     "listing": "/events.html",
     "items": [
       "/events/lpu-spatial-course-march-2026.html",
@@ -9,17 +20,6 @@
       "/events/gdg-nairobi.html",
       "/events/gee-training-apr-2025.html",
       "/events/bhu-workshop.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/2026_03_05_deploy_gee_streamlit/index.html",
-      "/posts/2026_03_05_honest_enemy/index.html",
-      "/posts/2026_02_26_irony_of_the_opposite/index.html",
-      "/posts/2026_02_21_simplicity_vs_overeducated_complexity/index.html",
-      "/posts/2026-02-19-history-geographical-organisations-india/index.html",
-      "/posts/2026_02_16_social_vs_spatial/index.html"
     ]
   },
   {
