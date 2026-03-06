@@ -1,6 +1,9 @@
 ---
 title: "Social Updates"
 page-layout: full
+include-in-header: 
+  text: |
+    <script src="assets/js/system-init.js"></script>
 ---
 
 ::: {.column-page}
