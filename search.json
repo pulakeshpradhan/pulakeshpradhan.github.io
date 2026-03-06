@@ -98,60 +98,11 @@
     "text": "🚀 Key Learning Modules\nThroughout the training, participants explored:\n✅ Cloud computing for geospatial analysis using JavaScript\n✅ Data handling in GEE (FeatureCollections, ImageCollections)\n✅ Importing and exporting geospatial datasets (shapefiles, raster images, etc.)\n✅ GEE functionalities: filtering, reducers, time-series analysis, and charting\n✅ Machine learning for Land Use Land Cover (LULC) classification\n✅ Applications: Urban Heat Island, Flood Mapping, Forest Monitoring, Surface Water Detection, Water Quality, etc.\n✅ Key datasets covered: Landsat, Sentinel-2, SRTM, FAO GAUL, TerraClimate, CHIRPS, MODIS, CMIP6, etc.\n✅ Advanced Integration: AI, IMD data, and OpenStreetMap (OSM) in GEE\n🙏 A huge appreciation to all participants for their dedication and active engagement. Your enthusiasm made this learning experience truly enriching!\n#GoogleEarthEngine #RemoteSensing #GeospatialAnalysis #EarthObservation #DataScience #MachineLearning #ClimateAnalysis #SustainableDevelopment\n\n📌 More insights: LinkedIn Article | pulakeshpradhan.github.io"
   },
   {
-    "objectID": "events/iitbhu-fdp-march-2026.html",
-    "href": "events/iitbhu-fdp-march-2026.html",
-    "title": "Online FDP: Decoding Climate for Built Environment",
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
     "section": "",
-    "text": "🎯 Online Faculty Development Programme (FDP) on Decoding Climate for Built Environment — Tools, Metrics and Design Integration 🌍\nWe are pleased to announce an ONLINE FDP jointly organized by Sustainability Development Center, IIT (BHU) Varanasi and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. This program is designed to bridge the gap between architectural design and environmental performance through advanced tools and metrics."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
-    "href": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "🔍 Key Focus Areas",
-    "text": "🔍 Key Focus Areas\n\nApplication of Sustainable Development Goals (SDG) for Built Environment\nEnvironmental Simulation workflows\nClimate responsive design using Ladybug Tools\nIntegration of Design with Environmental performance"
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#certification-benefits",
-    "href": "events/iitbhu-fdp-march-2026.html#certification-benefits",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "📜 Certification & Benefits",
-    "text": "📜 Certification & Benefits\n\nE-Certificate will be awarded to all successful participants.\nHands-on insights into modern environmental simulation tools."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#registration-fee",
-    "href": "events/iitbhu-fdp-march-2026.html#registration-fee",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "💰 Registration Fee",
-    "text": "💰 Registration Fee\n\nRefer to the event poster for detailed fee structure and participation guidelines."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#registration",
-    "href": "events/iitbhu-fdp-march-2026.html#registration",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "🔗 Registration",
-    "text": "🔗 Registration\nRegister Now: https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform\n📢 Join this FDP to master climate-responsive design strategies and environmental performance integration."
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html",
-    "href": "events/gee-workshop-feb-2026.html",
-    "title": "Basics of Google Earth Engine",
-    "section": "",
-    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
-    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
-    "title": "Basics of Google Earth Engine",
-    "section": "Workshop Highlights",
-    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html#schedule",
-    "href": "events/gee-workshop-feb-2026.html#schedule",
-    "title": "Basics of Google Earth Engine",
-    "section": "Schedule",
-    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
   },
   {
     "objectID": "cv.html#contact-information",
@@ -214,7 +165,7 @@
     "href": "events.html#upcoming-events",
     "title": "Events & Engagements",
     "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nSpatial Data Intelligence: Extraction, Interpretation and Predictive Modelling\n\n\nAn intensive 6-day online short-term course at Lovely Professional University (LPU).\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnline FDP: Decoding Climate for Built Environment\n\n\nTools, Metrics and Design Integration — FDP organized by IIT (BHU) Varanasi.\n\n\n\n\n\n\nMar 20, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "📅 Upcoming Events\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "events.html#past-seminars-workshops",
@@ -742,46 +693,25 @@
     "text": "🖼️ Posters\n\n\n\nNear Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images\n\n\n\n\n\nUnable to display PDF. Download here.\n\n\n\n\n\nPradhan, P., & Bajpai, R. (2023)\n\n\nOdisha Research Conclave (ORC-2023)\n\n\nThis poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.\n\n\n  Download PDF    Details \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
   },
   {
-    "objectID": "events/lpu-spatial-course-march-2026.html",
-    "href": "events/lpu-spatial-course-march-2026.html",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
     "section": "",
-    "text": "🚀 Short Term Course on Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling 🌍\nWe are pleased to announce an ONLINE Short Term Course designed to strengthen competencies in spatial data intelligence and geospatial analytics, with emphasis on data extraction, interpretation, and predictive modelling."
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
   },
   {
-    "objectID": "events/lpu-spatial-course-march-2026.html#course-highlights",
-    "href": "events/lpu-spatial-course-march-2026.html#course-highlights",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "✨ Course Highlights",
-    "text": "✨ Course Highlights\n🔹 Expert sessions by eminent academicians and scientists\n🔹 Hands-on training with real-world datasets\n🔹 AI/ML-based predictive modelling in geospatial analysis\n🔹 Practical workflows and case studies\n🔹 Certification by LPU–HRDC"
+    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "title": "Basics of Google Earth Engine",
+    "section": "Workshop Highlights",
+    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
   },
   {
-    "objectID": "events/lpu-spatial-course-march-2026.html#who-should-attend",
-    "href": "events/lpu-spatial-course-march-2026.html#who-should-attend",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "👥 Who Should Attend?",
-    "text": "👥 Who Should Attend?\nStudents | Research Scholars | Faculty | Industry Professionals"
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#registration-fees",
-    "href": "events/lpu-spatial-course-march-2026.html#registration-fees",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "💰 Registration Fees",
-    "text": "💰 Registration Fees\n• LPU UG/PG Students: ₹600\n• LPU Scholars & Faculty: ₹800\n• External Participants (Students / Scholars / Faculty / Industry): ₹1,200"
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#registration",
-    "href": "events/lpu-spatial-course-march-2026.html#registration",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "🔗 Registration",
-    "text": "🔗 Registration\nRegister Now: https://www.lpu.in/hrd/\n📢 Join this intensive, fully online short-term course to upskill in spatial data intelligence and engage with leading national experts."
-  },
-  {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
-    "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
   },
   {
     "objectID": "events/mscbu-workshop-sep-2025.html",
@@ -816,6 +746,6 @@
     "href": "social.html",
     "title": "Social Updates",
     "section": "",
-    "text": "GEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\nUpcoming Events Summary\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nSpatial Data Intelligence STC\nLPU (Online)\nMarch 9–14, 2026\nMarch 8, 2026\nRegister\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nClimate & Built Env. FDP\nIIT(BHU) Varanasi\nMarch 20–22, 2026\nMarch 18, 2026\nRegister\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\nIIG International Seminar\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\nXXth DGSI International Geography Conference\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\nXXII INQUA Congress 2027 India\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\nWestern Regional Conference: IASP 2026\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\nNational Seminar: Environment, Economy, Culture and Technology\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details\n\n\n\n\n\n\n\n\nSTC: Spatial Data Intelligence\nExtraction, Interpretation and Predictive Modelling 📍 Location: Lovely Professional University (Online) 📅 Date: March 09–14, 2026\nAn intensive Short Term Course on geospatial analytics and AI/ML-based predictive modelling. Organized by the Centre for Space Science, LPU.\n📅 Key Details: * Time: 9:30 AM – 5:00 PM (IST) * Certification: LPU–HRDC Certified\n\nRegister Now Full Event Details\n\n\n\n\n\n\n\n\nOnline FDP: Decoding Climate for Built Environment\nTools, Metrics and Design Integration 📍 Location: IIT (BHU) Varanasi (Online) 📅 Date: March 20–22, 2026\nJointly organized by Sustainability Development Center and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. Focus on SDG, simulation workflows, Ladybug Tools, and performance integration.\n\nRegister Now Full Event Details"
+    "text": "GEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\nUpcoming Events Summary\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\nIIG International Seminar\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\nXXth DGSI International Geography Conference\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\nXXII INQUA Congress 2027 India\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\nWestern Regional Conference: IASP 2026\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\nNational Seminar: Environment, Economy, Culture and Technology\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details"
   }
 ]
