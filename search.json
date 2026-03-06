@@ -1,10 +1,248 @@
 [
   {
-    "objectID": "social.html",
-    "href": "social.html",
-    "title": "Social Updates",
+    "objectID": "innovations.html",
+    "href": "innovations.html",
+    "title": "Innovations",
     "section": "",
-    "text": "GEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\nUpcoming Events Summary\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nSpatial Data Intelligence STC\nLPU (Online)\nMarch 9–14, 2026\nMarch 8, 2026\nRegister\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nClimate & Built Env. FDP\nIIT(BHU) Varanasi\nMarch 20–22, 2026\nMarch 18, 2026\nRegister\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\nIIG International Seminar\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\nXXth DGSI International Geography Conference\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\nXXII INQUA Congress 2027 India\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\nWestern Regional Conference: IASP 2026\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\nNational Seminar: Environment, Economy, Culture and Technology\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details\n\n\n\n\n\n\n\n\nSTC: Spatial Data Intelligence\nExtraction, Interpretation and Predictive Modelling 📍 Location: Lovely Professional University (Online) 📅 Date: March 09–14, 2026\nAn intensive Short Term Course on geospatial analytics and AI/ML-based predictive modelling. Organized by the Centre for Space Science, LPU.\n📅 Key Details: * Time: 9:30 AM – 5:00 PM (IST) * Certification: LPU–HRDC Certified\n\nRegister Now Full Event Details\n\n\n\n\n\n\n\n\nOnline FDP: Decoding Climate for Built Environment\nTools, Metrics and Design Integration 📍 Location: IIT (BHU) Varanasi (Online) 📅 Date: March 20–22, 2026\nJointly organized by Sustainability Development Center and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. Focus on SDG, simulation workflows, Ladybug Tools, and performance integration.\n\nRegister Now Full Event Details"
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
+  },
+  {
+    "objectID": "innovations.html#streamlit-apps",
+    "href": "innovations.html#streamlit-apps",
+    "title": "Innovations",
+    "section": "🚀 Streamlit Apps",
+    "text": "🚀 Streamlit Apps\n\n\n\n\nSentinel-2 Index Explorer\n\n\nInteractive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.\n\n\n App"
+  },
+  {
+    "objectID": "innovations.html#r-shiny-apps",
+    "href": "innovations.html#r-shiny-apps",
+    "title": "Innovations",
+    "section": "📊 R Shiny Apps",
+    "text": "📊 R Shiny Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App"
+  },
+  {
+    "objectID": "innovations.html#google-earth-engine-apps-native",
+    "href": "innovations.html#google-earth-engine-apps-native",
+    "title": "Innovations",
+    "section": "🌍 Google Earth Engine Apps (Native)",
+    "text": "🌍 Google Earth Engine Apps (Native)\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
+  },
+  {
+    "objectID": "innovations.html#python-packages",
+    "href": "innovations.html#python-packages",
+    "title": "Innovations",
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
+  },
+  {
+    "objectID": "innovations.html#r-library",
+    "href": "innovations.html#r-library",
+    "title": "Innovations",
+    "section": "📚 R Library",
+    "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
+  },
+  {
+    "objectID": "innovations.html#extensions-tools",
+    "href": "innovations.html#extensions-tools",
+    "title": "Innovations",
+    "section": "🛠️ Extensions & Tools",
+    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
+  },
+  {
+    "objectID": "courses.html#geospatial-programming",
+    "href": "courses.html#geospatial-programming",
+    "title": "Courses",
+    "section": "💻 Geospatial Programming",
+    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
+  },
+  {
+    "objectID": "courses.html#gis-spatial-reference",
+    "href": "courses.html#gis-spatial-reference",
+    "title": "Courses",
+    "section": "🚀 GIS & Spatial Reference",
+    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
+  },
+  {
+    "objectID": "courses.html#academic-writing-tools",
+    "href": "courses.html#academic-writing-tools",
+    "title": "Courses",
+    "section": "✍️ Academic Writing & Tools",
+    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html",
+    "href": "events/gee-training-apr-2025.html",
+    "title": "10-Day GEE Training Sessions",
+    "section": "",
+    "text": "Topic: Google Earth Engine (GEE) Training Sessions\nResource Person: Pulakesh Pradhan\nHost: Centurion University, Bhubaneswar\nStatus: Successfully Concluded!\nDelighted to share a few glimpses from the recently concluded 10-day Google Earth Engine (GEE) Training, where I had the privilege of leading and teaching as a resource person.\nThis training, conducted by Centurion University, Bhubaneswar, provided participants with hands-on experience in geospatial data processing, remote sensing, and cloud-based geospatial analytics using Google Earth Engine."
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
+    "href": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
+    "title": "10-Day GEE Training Sessions",
+    "section": "📸 Glimpses of Training Outcomes",
+    "text": "📸 Glimpses of Training Outcomes"
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html#key-learning-modules",
+    "href": "events/gee-training-apr-2025.html#key-learning-modules",
+    "title": "10-Day GEE Training Sessions",
+    "section": "🚀 Key Learning Modules",
+    "text": "🚀 Key Learning Modules\nThroughout the training, participants explored:\n✅ Cloud computing for geospatial analysis using JavaScript\n✅ Data handling in GEE (FeatureCollections, ImageCollections)\n✅ Importing and exporting geospatial datasets (shapefiles, raster images, etc.)\n✅ GEE functionalities: filtering, reducers, time-series analysis, and charting\n✅ Machine learning for Land Use Land Cover (LULC) classification\n✅ Applications: Urban Heat Island, Flood Mapping, Forest Monitoring, Surface Water Detection, Water Quality, etc.\n✅ Key datasets covered: Landsat, Sentinel-2, SRTM, FAO GAUL, TerraClimate, CHIRPS, MODIS, CMIP6, etc.\n✅ Advanced Integration: AI, IMD data, and OpenStreetMap (OSM) in GEE\n🙏 A huge appreciation to all participants for their dedication and active engagement. Your enthusiasm made this learning experience truly enriching!\n#GoogleEarthEngine #RemoteSensing #GeospatialAnalysis #EarthObservation #DataScience #MachineLearning #ClimateAnalysis #SustainableDevelopment\n\n📌 More insights: LinkedIn Article | pulakeshpradhan.github.io"
+  },
+  {
+    "objectID": "events/iitbhu-fdp-march-2026.html",
+    "href": "events/iitbhu-fdp-march-2026.html",
+    "title": "Online FDP: Decoding Climate for Built Environment",
+    "section": "",
+    "text": "🎯 Online Faculty Development Programme (FDP) on Decoding Climate for Built Environment — Tools, Metrics and Design Integration 🌍\nWe are pleased to announce an ONLINE FDP jointly organized by Sustainability Development Center, IIT (BHU) Varanasi and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. This program is designed to bridge the gap between architectural design and environmental performance through advanced tools and metrics."
+  },
+  {
+    "objectID": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
+    "href": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
+    "title": "Online FDP: Decoding Climate for Built Environment",
+    "section": "🔍 Key Focus Areas",
+    "text": "🔍 Key Focus Areas\n\nApplication of Sustainable Development Goals (SDG) for Built Environment\nEnvironmental Simulation workflows\nClimate responsive design using Ladybug Tools\nIntegration of Design with Environmental performance"
+  },
+  {
+    "objectID": "events/iitbhu-fdp-march-2026.html#certification-benefits",
+    "href": "events/iitbhu-fdp-march-2026.html#certification-benefits",
+    "title": "Online FDP: Decoding Climate for Built Environment",
+    "section": "📜 Certification & Benefits",
+    "text": "📜 Certification & Benefits\n\nE-Certificate will be awarded to all successful participants.\nHands-on insights into modern environmental simulation tools."
+  },
+  {
+    "objectID": "events/iitbhu-fdp-march-2026.html#registration-fee",
+    "href": "events/iitbhu-fdp-march-2026.html#registration-fee",
+    "title": "Online FDP: Decoding Climate for Built Environment",
+    "section": "💰 Registration Fee",
+    "text": "💰 Registration Fee\n\nRefer to the event poster for detailed fee structure and participation guidelines."
+  },
+  {
+    "objectID": "events/iitbhu-fdp-march-2026.html#registration",
+    "href": "events/iitbhu-fdp-march-2026.html#registration",
+    "title": "Online FDP: Decoding Climate for Built Environment",
+    "section": "🔗 Registration",
+    "text": "🔗 Registration\nRegister Now: https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform\n📢 Join this FDP to master climate-responsive design strategies and environmental performance integration."
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "title": "Basics of Google Earth Engine",
+    "section": "Workshop Highlights",
+    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+  },
+  {
+    "objectID": "cv.html#contact-information",
+    "href": "cv.html#contact-information",
+    "title": "Curriculum Vitae",
+    "section": "📬 Contact Information",
+    "text": "📬 Contact Information\n\n pulakesh.mid@gmail.com |  +91 8617812861 |  Ravenshaw University, Odisha, India\n\n\n LinkedIn |  Google Scholar |  GitHub"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "🎓 Education",
+    "text": "🎓 Education\nPhD Scholar in Geography | Ravenshaw University\nSpecialization: GIS, Remote Sensing, and Google Earth Engine\nMPhil in Geography | Ravenshaw University\nUGC-SRF (Senior Research Fellow)"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "🛠️ Technical Skills",
+    "text": "🛠️ Technical Skills\nProgramming Languages: Python, R, JavaScript, LaTeX GIS & Remote Sensing: Google Earth Engine, ArcGIS Pro, QGIS\nData Science: Machine Learning, Phenology Analysis\nTools & Workflow: Git/GitHub, Chrome Extension Development"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "💼 Professional Experience",
+    "text": "💼 Professional Experience\nResource Person | Maharaja Sriram Chandra Bhanja Deo University\nSept. 2025\n- Conducted workshops on GEE and spatial data science.\nResource Person | Centurion University\nMarch 2025\n- Facilitated training sessions for PG students on geospatial technologies.\nYouTube Creator | Spatial Geography\n- Developed comprehensive courses on Google Earth Engine, Python, and R for a global audience."
+  },
+  {
+    "objectID": "cv.html#selected-publications",
+    "href": "cv.html#selected-publications",
+    "title": "Curriculum Vitae",
+    "section": "📄 Selected Publications",
+    "text": "📄 Selected Publications\nPradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine.” In Modern Cartography Series. DOI: 10.1016/b978-0-443-23890-1.00011-6"
+  },
+  {
+    "objectID": "cv.html#honors-awards",
+    "href": "cv.html#honors-awards",
+    "title": "Curriculum Vitae",
+    "section": "🏆 Honors & Awards",
+    "text": "🏆 Honors & Awards\n\nSenior Research Fellowship (UGC-SRF)\nJunior Research Fellowship (UGC-JRF)\nAssociation of Indian Universities Eastern Zone Runnerup 2023"
+  },
+  {
+    "objectID": "cv.html#professional-memberships",
+    "href": "cv.html#professional-memberships",
+    "title": "Curriculum Vitae",
+    "section": "🤝 Professional Memberships",
+    "text": "🤝 Professional Memberships\n\nLife Member, National Association of Geographers, India (NAGI) | Oct. 2025 - Present\n\n\n\n Download Full CV (PDF)"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Engagements",
+    "section": "",
+    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
+  },
+  {
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events & Engagements",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nSpatial Data Intelligence: Extraction, Interpretation and Predictive Modelling\n\n\nAn intensive 6-day online short-term course at Lovely Professional University (LPU).\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnline FDP: Decoding Climate for Built Environment\n\n\nTools, Metrics and Design Integration — FDP organized by IIT (BHU) Varanasi.\n\n\n\n\n\n\nMar 20, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html#past-seminars-workshops",
+    "href": "events.html#past-seminars-workshops",
+    "title": "Events & Engagements",
+    "section": "🏛️ Past Seminars & Workshops",
+    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n10-Day GEE Training Sessions\n\n\nSuccessfully Concluded! A 10-day intensive online training on Google Earth Engine (GEE) for geospatial analytics.\n\n\n\n\n\n\nApr 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
+  },
+  {
+    "objectID": "jobs.html",
+    "href": "jobs.html",
+    "title": "Job Opportunities",
+    "section": "",
+    "text": "Below is a curated list of job openings and research opportunities in the fields of Geography, GIS, Remote Sensing, and Spatial Data Science.\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2026 | 📅 Posted: February 2026\nThe West Bengal College Service Commission invites applications for the posts of Assistant Professor in Government-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th April, 2026\n\nApply Online View Details\n\n\n\n\n\n\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2020 | 📅 Dated: December 2020\nArchived recruitment notice for Assistant Professor posts in State-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th February, 2021\n\nView Details\n\n\n\n\n\n\n\n\n\n\n\nPosition\nOrganization\nLocation\nDeadline\nAction\n\n\n\n\nAssistant Professor (2026)\nWBCSC\nWest Bengal\nApril 15, 2026\nView Details\n\n\nAssistant Professor (2020)\nWBCSC\nWest Bengal\nFeb 15, 2021\nView Details\n\n\n\n\n\n\n\n\n\n\n\nFreeJobAlert\nTeaching & Faculty Jobs\nLatest updates on academic vacancies.\n\n\n\n\n\n\n\nYouTube Resource\nSaroj Mishra Tutorial\nDetailed guides and job explanations.\n\n\n\n\n\n\n\n\n\n\nUse the sections below to evaluate your score for both Colleges and Universities.\n\n🏫 Criteria for Colleges🎓 Criteria for Universities🧬 Criteria for N-PDF\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n21\n80% & Above = 21; 60% to &lt; 80% = 19; 55% to &lt; 60% = 16; 45% to &lt; 55% = 10\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n25\n25 Marks\n\n\n5\nNET with JRF\n10\n\n\n\n6\nNET\n08\n\n\n\n7\nSLET/SET\n05\n\n\n\n8\nResearch Publications\n06\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 25 Marks; (ii) JRF/NET/SET Max: 10 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n15\n80% & Above = 15; 60% to &lt; 80% = 13; 55% to &lt; 60% = 10; 45% to &lt; 55% = 05\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n30\n30 Marks\n\n\n5\nNET with JRF\n07\n\n\n\n6\nNET\n05\n\n\n\n7\nSLET/SET\n03\n\n\n\n8\nResearch Publications\n10\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 30 Marks; (ii) JRF/NET/SET Max: 07 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\nRequirement\nDetail\n\n\n\n\nAge Limit\n35 Years (Standard)\n\n\nPublications\n2 Articles (SCI Indexed)\n\n\n\n\n\n\n\n\nMaster’s Degree: Min. 55% marks in relevant subject.\nNational Tests: Must have cleared UGC NET / CSIR NET / SLET / SET.\nPh.D. Alternative: Ph.D. degree in line with UGC Regulations 2009/2016.\nPh.D. Standards:\n\nAwarded in Regular mode only.\nThesis evaluated by at least two external examiners.\nOpen viva voce conducted.\nMin. two research papers from Ph.D. (one in refereed journal).\nMin. two presentations in UGC/ICSSR/CSIR sponsored conferences.\n\n\n\n\n\n\n\n\n\n\n:::"
+  },
+  {
+    "objectID": "jobs.html#opportunities-in-gis-geospatial-science",
+    "href": "jobs.html#opportunities-in-gis-geospatial-science",
+    "title": "Job Opportunities",
+    "section": "",
+    "text": "Below is a curated list of job openings and research opportunities in the fields of Geography, GIS, Remote Sensing, and Spatial Data Science.\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2026 | 📅 Posted: February 2026\nThe West Bengal College Service Commission invites applications for the posts of Assistant Professor in Government-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th April, 2026\n\nApply Online View Details\n\n\n\n\n\n\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2020 | 📅 Dated: December 2020\nArchived recruitment notice for Assistant Professor posts in State-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th February, 2021\n\nView Details\n\n\n\n\n\n\n\n\n\n\n\nPosition\nOrganization\nLocation\nDeadline\nAction\n\n\n\n\nAssistant Professor (2026)\nWBCSC\nWest Bengal\nApril 15, 2026\nView Details\n\n\nAssistant Professor (2020)\nWBCSC\nWest Bengal\nFeb 15, 2021\nView Details\n\n\n\n\n\n\n\n\n\n\n\nFreeJobAlert\nTeaching & Faculty Jobs\nLatest updates on academic vacancies.\n\n\n\n\n\n\n\nYouTube Resource\nSaroj Mishra Tutorial\nDetailed guides and job explanations."
+  },
+  {
+    "objectID": "jobs.html#short-listing-criteria-for-assistant-professors",
+    "href": "jobs.html#short-listing-criteria-for-assistant-professors",
+    "title": "Job Opportunities",
+    "section": "",
+    "text": "Use the sections below to evaluate your score for both Colleges and Universities.\n\n🏫 Criteria for Colleges🎓 Criteria for Universities🧬 Criteria for N-PDF\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n21\n80% & Above = 21; 60% to &lt; 80% = 19; 55% to &lt; 60% = 16; 45% to &lt; 55% = 10\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n25\n25 Marks\n\n\n5\nNET with JRF\n10\n\n\n\n6\nNET\n08\n\n\n\n7\nSLET/SET\n05\n\n\n\n8\nResearch Publications\n06\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 25 Marks; (ii) JRF/NET/SET Max: 10 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n15\n80% & Above = 15; 60% to &lt; 80% = 13; 55% to &lt; 60% = 10; 45% to &lt; 55% = 05\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n30\n30 Marks\n\n\n5\nNET with JRF\n07\n\n\n\n6\nNET\n05\n\n\n\n7\nSLET/SET\n03\n\n\n\n8\nResearch Publications\n10\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 30 Marks; (ii) JRF/NET/SET Max: 07 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\nRequirement\nDetail\n\n\n\n\nAge Limit\n35 Years (Standard)\n\n\nPublications\n2 Articles (SCI Indexed)\n\n\n\n\n\n\n\n\nMaster’s Degree: Min. 55% marks in relevant subject.\nNational Tests: Must have cleared UGC NET / CSIR NET / SLET / SET.\nPh.D. Alternative: Ph.D. degree in line with UGC Regulations 2009/2016.\nPh.D. Standards:\n\nAwarded in Regular mode only.\nThesis evaluated by at least two external examiners.\nOpen viva voce conducted.\nMin. two research papers from Ph.D. (one in refereed journal).\nMin. two presentations in UGC/ICSSR/CSIR sponsored conferences.\n\n\n\n\n\n\n\n\n\n\n:::"
   },
   {
     "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html",
@@ -112,307 +350,6 @@
     "text": "About This Guide\nThis guide was written based on real deployment experience, documenting every error encountered and resolved during the process of deploying a Google Earth Engine SRTM elevation analysis app to Streamlit Cloud. Every error and solution described here was encountered and verified firsthand.\nKey Takeaways: 1. Use temp file approach for credentials — never json.loads() on TOML strings 2. Use plain folium — avoid geemap on Streamlit Cloud 3. Don’t forget IAM roles — both Service Usage Consumer AND Earth Engine Resource Writer 4. Generate your secrets.toml programmatically — don’t copy-paste the private key manually\n\nLast updated: March 2026"
   },
   {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "",
-    "text": "Geography as an academic discipline in India has seen a remarkable evolution, transitioning from a colonial descriptive tool to a high-tech spatial science. Central to this journey has been the birth and growth of various geographical organizations and societies. These bodies have not only provided a platform for researchers but have also shaped the curriculum and policy advocacy for the discipline (National Association of Geographers, India [NAGI], 2024; Shodhganga, 2020)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "The Early Foundations (1920s – 1940s)",
-    "text": "The Early Foundations (1920s – 1940s)\nThe formal institutionalization of Geography in India began in the early 1920s. The Aligarh Muslim University (AMU) Department of Geography stands as a primary pioneer, established as an independent undergraduate department in 1924 (Aligarh Muslim University, n.d.). Led by Major E. W. Dann (an Oxford graduate and first chairman), the department was the first of its kind in the Indian subcontinent and was later dubbed the “Mecca of Geography” by British geographers (Wikipedia, 2024).\nSoon after, the Indian Geographical Society (IGS) was established in 1926 in Chennai (as the Madras Geographical Association), holding the distinction of being the oldest registered society (Indian Geographical Society, 2024). Founded by Prof. N. Subrahmanyam, it paved the way for professional geographical discourse in South Asia (University of Madras, 2023)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "The Growth of National & Specialized Bodies (1960s – 1980s)",
-    "text": "The Growth of National & Specialized Bodies (1960s – 1980s)\nAs the discipline matured, the need for a national umbrella organization led to the establishment of the National Association of Geographers, India (NAGI) in 1978 (NAGI, 2024). Based at the Delhi School of Economics, NAGI has since been the primary coordinator for the annual Indian Geography Congress.\nThis period also saw the rise of specialized societies: * Indian Society of Remote Sensing (ISRS) (1969): Bridging geography with space technology (Indian Society of Remote Sensing, 2025). * Association of Population Geographers of India (1978): Focusing on the demographic complexities of India (Association of Population Geographers of India, 2023). * Institute of Indian Geographers (IIG), Pune (1979): Promoting rigorous scientific research across all sub-fields (Institute of Indian Geographers, 2024)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Institutional Directory of Geography in India",
-    "text": "Institutional Directory of Geography in India\nThe following directory outlines the historical and contemporary geographical associations in India, categorized by their establishment years and current executive leadership.\n\n\n\nAssociation / Society\nEstd.\nHost Institution / Region\nCurrent Representative(s)\n\n\n\n\nAligarh Geographical Society\n1924*\nAMU, Aligarh\nProf. Ateeque Ahmed\n\n\nIGS (Chennai)\n1926\nUniversity of Madras\nProf. N. Sivagnanam (President), Prof. R. Jaganathan (Gen Secy)\n\n\nGSI (Kolkata)\n1933\nUniversity of Calcutta\nSmt. Suprova Ray (President), Prof. Apurba Rabi Ghosh (Hony. Secy)\n\n\nAllahabad Geographical Society\n1937\nAllahabad University\nProf. Manorama Sinha\n\n\nNGSI (Varanasi)\n1946\nBHU, Varanasi\nProfessor V. N. Sharma (Hony. Secretary)\n\n\nDeccan Geographical Society\n1962\nSP Pune University\nProf. B. C. Vaidya (Executive)\n\n\nAGTI Trust\n1963\nChennai\nDr. Saraswathi Ragunathan\n\n\nUttar Bharat Bhoogol Parishad\n1965\nGorakhpur\nProf. V. K. Srivatsava\n\n\nRGA (Rajasthan)\n1965\nBhilwara\nDr. S. S. Bhat\n\n\nNEIGS (Guwahati)\n1968\nGauhati University\nProf. Abani K. Bhagabati & Prof. Bimal K. Kar\n\n\nAssociation of Bengal Geographers\n1970*\nBurdwan University\nProf. N. C. Jana\n\n\nHimalayan Samiksha Parishad\n1976\nKolkata\nProf. Sunando Banarjee\n\n\nNAGI (National Association)\n1978\nDelhi School of Economics\nProf. Salahuddin Qureshi (President), Prof. A K Saha (Secy. General)\n\n\nAPGI (Chandigarh)\n1978\nPanjab University\nProf. Krishna Mohan (President), Dr. Gaurav Kalotra (Secretary)\n\n\nIIG (Pune)\n1979\nPune University\nProf. D. K. Nayak (President), Prof. Ravindra G. Jaybhaye (Secy General)\n\n\nILEE (Kolkata)\n1983\nKolkata\nProf. L. N. Satpati (Director)\n\n\nMBP (Maharashtra)\n1984\nPune\nProf. Praveen Saptarshi\n\n\nIGI (Geomorphologists)\n1988\nUniversity of Allahabad\nProf. Sunil Kumar De (President)\n\n\nISG (Geomatics)\n1993\nISRO-SAC, Ahmedabad\nExecutive Council\n\n\nAssociation of Punjab Geographers\n1998\nPatiala\nProf. H. S. Mangat\n\n\nAGBJ (Bihar/JH)\n1999\nPatna University\nProf. Devender Prasad Singh\n\n\nUGIT (Bengaluru)\n2004\nBangalore University\nProf. Ashok Hanjagi\n\n\nGAG (Goa)\n2007\nGoa\nProf. Prabirkumar Rath\n\n\nISSS (Spatial Scientists)\n2010\nKolkata\nProf. Ashis Sarkar\n\n\nKonkan Geographers Association\n2010\nSindhudurg\nProf. R.B. Patil\n\n\n\n*Years marked with asterisks denote early informal society formations or departmental origins."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Prominent Geography Journals in India",
-    "text": "Prominent Geography Journals in India\nScholarship in Indian geography is largely disseminated through peer-reviewed journals published by the various societies. These journals serve as the primary repositories for spatial data and regional analysis in the subcontinent (Shodhganga, 2020).\n\n\n\nJournal Name\nFrequency\nPublishing Body\nIndexing / Status\n\n\n\n\nAnnals of the NAGI\nBi-annual\nNAGI\nUGC-CARE Listed\n\n\nTransactions of the IIG\nBi-annual\nIIG Pune\nScopus Indexed\n\n\nIndian Geographical Journal\nBi-annual\nIGS Chennai\nUGC-CARE Listed\n\n\nGeographical Review of India\nQuarterly\nGSI Kolkata\nPeer-reviewed\n\n\nNational Geographical Journal of India\nQuarterly\nNGSI Varanasi\nPeer-reviewed\n\n\nThe Deccan Geographer\nBi-annual\nDeccan Geog. Society\nUGC-CARE Listed\n\n\nPopulation Geography\nBi-annual\nAPGI Chandigarh\nUGC-CARE Listed\n\n\nJournal of Indian Geomorphology\nAnnual\nIGI Allahabad\nUGC-CARE Listed\n\n\nUttar Bharat Bhoogol Patrika\nBi-annual\nUBBP Gorakhpur\nPeer-reviewed\n\n\nThe Konkan Geographer\nBi-annual\nKonkan Geog. Assoc.\nPeer-reviewed"
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Modern Era: Geospatial Expansion & GIS",
-    "text": "Modern Era: Geospatial Expansion & GIS\nIn the 21st century, organizations like the Association of Geospatial Industries (AGI) and Indian Society of Geomatics (ISG) have taken the lead in integrating satellite-based remote sensing, LiDAR, and GIS into the geographical framework (AGI, 2024; ISG, 2024). These organizations foster collaboration between the industry and academia, ensuring that Indian geographers remain at the forefront of the global spatial revolution.\nThe participation of Indian representatives in the Asian Geographical Association (est. 2018) further exemplifies the global reach of Indian geographical research (Asian Geographical Association, 2024)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Upcoming Geographical Events",
-    "text": "Upcoming Geographical Events\nMaintaining engagement with the academic community is central to the growth of the discipline. Key events scheduled for the upcoming sessions include:\n\nXXII INQUA Congress 2027 India\n\nDates: January 28 – February 3, 2027\nLocation: Lucknow, India\n\nWestern Regional Conference: IASP 2026\n\nDates: March 20-21, 2026\nHost: Goa Business School, Goa University"
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Recent Geographical Events",
-    "text": "Recent Geographical Events\nThe community has recently concluded several landmark scientific meetings:\n\n3rd Indian Quaternary Congress 2026: January 19-23, 2026.\n47th Indian Geography Congress (NAGI) 2025: University of Rajasthan, Jaipur (Nov 13-15, 2025).\n46th IIG Annual Meet & International Conference 2025: HNBGU, Uttarakhand (Oct 25-27, 2025)."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "Conclusion",
-    "text": "Conclusion\nFrom the local “Madras Geographical Association” of 1926 to the high-tech geospatial societies of today, geographical organizations in India have been the pillars of the discipline. They continue to play a crucial role in addressing national challenges—from urban planning and disaster management to climate change analysis—demonstrating that Geography is not just about mapping the world, but about understanding and improving it."
-  },
-  {
-    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
-    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
-    "title": "The Evolution of Geographical Organizations in India",
-    "section": "References",
-    "text": "References\nAligarh Muslim University. (n.d.). Department of Geography: Our Heritage. https://www.amu.ac.in/department/geography\nAsian Geographical Association. (2024). Founding committee and member countries. http://asiageo.net\nAssociation of Geographers in Bihar and Jharkhand. (2024). Mission and executive council. http://agbj.org.in\nAssociation of Population Geographers of India. (2023). Executive body term 2023-2025. http://apgin.org\nDeccan Geographical Society. (2024). About the society and journal. http://dgsi.org.in\nGeographical Society of India. (2019). Founding principles and history. http://geographicalsocietyofindia.org.in\nGauhati University. (n.d.). History of the Department of Geography. https://gauhati.ac.in/department/geography\nIndian Geographical Society. (2024). History of IGS Chennai. http://igschennai.org\nIndian Society of Remote Sensing. (2025). About ISRS: History and objectives. https://isrsindia.in\nInstitute of Indian Geographers. (2024). Constitution and executive council 2024-25. https://iigeo.org\nMaharashtra Bhugolshastra Parishad. (2024). About us: Journey since 1984. http://mbpune.org.in\nNational Association of Geographers, India. (2024). Official lists: Executive committee 2024-25. https://sites.google.com/view/nagiorgin/home\nNational Geographical Society of India. (2024). Publications and secretary journals. http://ngsi.in\nRajasthan Geographical Association. (2024). History and regional impact. http://rga.ac.in\nShodhganga. (2020). Institutional framework for geography in India. http://inflibnet.ac.in\nUniversity of Madras. (2023). Department of Geography: Research & societies. https://unom.ac.in\nWikipedia contributors. (2024). Major E. W. Dann and the roots of Indian geography. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Department_of_Geography,_Aligarh_Muslim_University"
-  },
-  {
-    "objectID": "jobs.html",
-    "href": "jobs.html",
-    "title": "Job Opportunities",
-    "section": "",
-    "text": "Below is a curated list of job openings and research opportunities in the fields of Geography, GIS, Remote Sensing, and Spatial Data Science.\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2026 | 📅 Posted: February 2026\nThe West Bengal College Service Commission invites applications for the posts of Assistant Professor in Government-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th April, 2026\n\nApply Online View Details\n\n\n\n\n\n\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2020 | 📅 Dated: December 2020\nArchived recruitment notice for Assistant Professor posts in State-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th February, 2021\n\nView Details\n\n\n\n\n\n\n\n\n\n\n\nPosition\nOrganization\nLocation\nDeadline\nAction\n\n\n\n\nAssistant Professor (2026)\nWBCSC\nWest Bengal\nApril 15, 2026\nView Details\n\n\nAssistant Professor (2020)\nWBCSC\nWest Bengal\nFeb 15, 2021\nView Details\n\n\n\n\n\n\n\n\n\n\n\nFreeJobAlert\nTeaching & Faculty Jobs\nLatest updates on academic vacancies.\n\n\n\n\n\n\n\nYouTube Resource\nSaroj Mishra Tutorial\nDetailed guides and job explanations.\n\n\n\n\n\n\n\n\n\n\nUse the sections below to evaluate your score for both Colleges and Universities.\n\n🏫 Criteria for Colleges🎓 Criteria for Universities🧬 Criteria for N-PDF\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n21\n80% & Above = 21; 60% to &lt; 80% = 19; 55% to &lt; 60% = 16; 45% to &lt; 55% = 10\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n25\n25 Marks\n\n\n5\nNET with JRF\n10\n\n\n\n6\nNET\n08\n\n\n\n7\nSLET/SET\n05\n\n\n\n8\nResearch Publications\n06\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 25 Marks; (ii) JRF/NET/SET Max: 10 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n15\n80% & Above = 15; 60% to &lt; 80% = 13; 55% to &lt; 60% = 10; 45% to &lt; 55% = 05\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n30\n30 Marks\n\n\n5\nNET with JRF\n07\n\n\n\n6\nNET\n05\n\n\n\n7\nSLET/SET\n03\n\n\n\n8\nResearch Publications\n10\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 30 Marks; (ii) JRF/NET/SET Max: 07 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\nRequirement\nDetail\n\n\n\n\nAge Limit\n35 Years (Standard)\n\n\nPublications\n2 Articles (SCI Indexed)\n\n\n\n\n\n\n\n\nMaster’s Degree: Min. 55% marks in relevant subject.\nNational Tests: Must have cleared UGC NET / CSIR NET / SLET / SET.\nPh.D. Alternative: Ph.D. degree in line with UGC Regulations 2009/2016.\nPh.D. Standards:\n\nAwarded in Regular mode only.\nThesis evaluated by at least two external examiners.\nOpen viva voce conducted.\nMin. two research papers from Ph.D. (one in refereed journal).\nMin. two presentations in UGC/ICSSR/CSIR sponsored conferences.\n\n\n\n\n\n\n\n\n\n\n:::"
-  },
-  {
-    "objectID": "jobs.html#opportunities-in-gis-geospatial-science",
-    "href": "jobs.html#opportunities-in-gis-geospatial-science",
-    "title": "Job Opportunities",
-    "section": "",
-    "text": "Below is a curated list of job openings and research opportunities in the fields of Geography, GIS, Remote Sensing, and Spatial Data Science.\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2026 | 📅 Posted: February 2026\nThe West Bengal College Service Commission invites applications for the posts of Assistant Professor in Government-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th April, 2026\n\nApply Online View Details\n\n\n\n\n\n\n\n\n\n📍 Organization: West Bengal College Service Commission | 💻 Mode: Online 📜 Advt. No: 1/2020 | 📅 Dated: December 2020\nArchived recruitment notice for Assistant Professor posts in State-Aided Degree Colleges of West Bengal.\n📅 Application Deadline: 15th February, 2021\n\nView Details\n\n\n\n\n\n\n\n\n\n\n\nPosition\nOrganization\nLocation\nDeadline\nAction\n\n\n\n\nAssistant Professor (2026)\nWBCSC\nWest Bengal\nApril 15, 2026\nView Details\n\n\nAssistant Professor (2020)\nWBCSC\nWest Bengal\nFeb 15, 2021\nView Details\n\n\n\n\n\n\n\n\n\n\n\nFreeJobAlert\nTeaching & Faculty Jobs\nLatest updates on academic vacancies.\n\n\n\n\n\n\n\nYouTube Resource\nSaroj Mishra Tutorial\nDetailed guides and job explanations."
-  },
-  {
-    "objectID": "jobs.html#short-listing-criteria-for-assistant-professors",
-    "href": "jobs.html#short-listing-criteria-for-assistant-professors",
-    "title": "Job Opportunities",
-    "section": "",
-    "text": "Use the sections below to evaluate your score for both Colleges and Universities.\n\n🏫 Criteria for Colleges🎓 Criteria for Universities🧬 Criteria for N-PDF\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n21\n80% & Above = 21; 60% to &lt; 80% = 19; 55% to &lt; 60% = 16; 45% to &lt; 55% = 10\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n25\n25 Marks\n\n\n5\nNET with JRF\n10\n\n\n\n6\nNET\n08\n\n\n\n7\nSLET/SET\n05\n\n\n\n8\nResearch Publications\n06\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 25 Marks; (ii) JRF/NET/SET Max: 10 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\n\n\nS.N.\nCriteria\nMax Marks\nMarks Distribution\n\n\n\n\n1\nGraduation\n15\n80% & Above = 15; 60% to &lt; 80% = 13; 55% to &lt; 60% = 10; 45% to &lt; 55% = 05\n\n\n2\nPost-Graduation\n25\n80% & Above = 25; 60% to &lt; 80% = 23; 55% (50% for SC/ST/OBC/PWD) to &lt; 60% = 20\n\n\n3\nM.Phil.\n07\n60% & above = 07; 55% to &lt; 60% = 05\n\n\n4\nPh.D.\n30\n30 Marks\n\n\n5\nNET with JRF\n07\n\n\n\n6\nNET\n05\n\n\n\n7\nSLET/SET\n03\n\n\n\n8\nResearch Publications\n10\n2 marks for each publication in Peer-Reviewed or UGC-listed Journals\n\n\n9\nTeaching / Post Doctoral\n10\n2 marks for one year each\n\n\n10\nAwards (Intl./National)\n03\nAwards given by Intl. Orgs / Govt. of India / Recognized Bodies\n\n\n11\nAwards (State-Level)\n02\nAwards given by State Government\n\n\n\nTOTAL\n100\n\n\n\n\n\n[!TIP] Notes: * (i) M.Phil. + Ph.D. Max: 30 Marks; (ii) JRF/NET/SET Max: 07 Marks; (iii) Awards Max: 03 Marks\n\n\n\n\n\n\n\n\n\n\n\nRequirement\nDetail\n\n\n\n\nAge Limit\n35 Years (Standard)\n\n\nPublications\n2 Articles (SCI Indexed)\n\n\n\n\n\n\n\n\nMaster’s Degree: Min. 55% marks in relevant subject.\nNational Tests: Must have cleared UGC NET / CSIR NET / SLET / SET.\nPh.D. Alternative: Ph.D. degree in line with UGC Regulations 2009/2016.\nPh.D. Standards:\n\nAwarded in Regular mode only.\nThesis evaluated by at least two external examiners.\nOpen viva voce conducted.\nMin. two research papers from Ph.D. (one in refereed journal).\nMin. two presentations in UGC/ICSSR/CSIR sponsored conferences.\n\n\n\n\n\n\n\n\n\n\n:::"
-  },
-  {
-    "objectID": "jobs/wbcsc-asst-prof-2020.html",
-    "href": "jobs/wbcsc-asst-prof-2020.html",
-    "title": "Assistant Professor Recruitment 2020 (Archived)",
-    "section": "",
-    "text": "[!IMPORTANT] This is an archived recruitment notice. The application period for this advertisement has ended.\n\nThe West Bengal College Service Commission (WBCSC) released Advertisement Number 1/2020 for the recruitment of Assistant Professors in State-Aided Degree Colleges of West Bengal.\n\n\n\n\n\nEvent\nDate\n\n\n\n\nCommencement of ONLINE Application\nDecember 31, 2020\n\n\nLast date of ONLINE Application\nFebruary 15, 2021\n\n\n\n\n\n\n\nAdvertisement Number: 1/2020\nOrganization: West Bengal College Service Commission (WBCSC)\nPost: Assistant Professor\nLocation: State-Aided Degree Colleges across West Bengal\n\n\n\n\nYou can view or download the full official advertisement below for reference:\n Download Advertisement (PDF)\n\n\n Back to All Jobs\n:::"
-  },
-  {
-    "objectID": "jobs/wbcsc-asst-prof-2020.html#recruitment-announcement-assistant-professor-2020",
-    "href": "jobs/wbcsc-asst-prof-2020.html#recruitment-announcement-assistant-professor-2020",
-    "title": "Assistant Professor Recruitment 2020 (Archived)",
-    "section": "",
-    "text": "[!IMPORTANT] This is an archived recruitment notice. The application period for this advertisement has ended.\n\nThe West Bengal College Service Commission (WBCSC) released Advertisement Number 1/2020 for the recruitment of Assistant Professors in State-Aided Degree Colleges of West Bengal.\n\n\n\n\n\nEvent\nDate\n\n\n\n\nCommencement of ONLINE Application\nDecember 31, 2020\n\n\nLast date of ONLINE Application\nFebruary 15, 2021\n\n\n\n\n\n\n\nAdvertisement Number: 1/2020\nOrganization: West Bengal College Service Commission (WBCSC)\nPost: Assistant Professor\nLocation: State-Aided Degree Colleges across West Bengal\n\n\n\n\nYou can view or download the full official advertisement below for reference:\n Download Advertisement (PDF)\n\n\n Back to All Jobs\n:::"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pulakesh Pradhan",
-    "section": "",
-    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  Scholar  YouTube  Email"
-  },
-  {
-    "objectID": "index.html#recent-events",
-    "href": "index.html#recent-events",
-    "title": "Pulakesh Pradhan",
-    "section": "📅 Recent Events",
-    "text": "📅 Recent Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\nNo matching items\n\n View all events"
-  },
-  {
-    "objectID": "index.html#latest-insights",
-    "href": "index.html#latest-insights",
-    "title": "Pulakesh Pradhan",
-    "section": "📌 Latest Insights",
-    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nDeploying a Google Earth Engine App on Streamlit Cloud\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nMar 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
-  },
-  {
-    "objectID": "index.html#social-updates",
-    "href": "index.html#social-updates",
-    "title": "Pulakesh Pradhan",
-    "section": "👥 Social Updates",
-    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
-  },
-  {
-    "objectID": "index.html#groups-i-manage",
-    "href": "index.html#groups-i-manage",
-    "title": "Pulakesh Pradhan",
-    "section": "👥 Groups I Manage",
-    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
-  },
-  {
-    "objectID": "index.html#featured-innovations",
-    "href": "index.html#featured-innovations",
-    "title": "Pulakesh Pradhan",
-    "section": "🚀 Featured Innovations",
-    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSentinel-2 Index Explorer\n\n\nInteractive NDVI & NDWI analysis using Sentinel-2 and GEE.\n\n\n\n\n\nNo matching items\n\n View all innovations"
-  },
-  {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
-    "title": "Pulakesh Pradhan",
-    "section": "📚 Recent Publications",
-    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
-  },
-  {
-    "objectID": "index.html#typing-proficiency",
-    "href": "index.html#typing-proficiency",
-    "title": "Pulakesh Pradhan",
-    "section": "⌨️ Typing Proficiency",
-    "text": "⌨️ Typing Proficiency\n\n\n\nVerified on Ratatype: 57 WPM, 99.6% Accuracy"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events & Engagements",
-    "section": "",
-    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
-  },
-  {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events & Engagements",
-    "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\n\n\n\n\n\n\nSpatial Data Intelligence: Extraction, Interpretation and Predictive Modelling\n\n\nAn intensive 6-day online short-term course at Lovely Professional University (LPU).\n\n\n\n\n\n\nMar 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnline FDP: Decoding Climate for Built Environment\n\n\nTools, Metrics and Design Integration — FDP organized by IIT (BHU) Varanasi.\n\n\n\n\n\n\nMar 20, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "events.html#past-seminars-workshops",
-    "href": "events.html#past-seminars-workshops",
-    "title": "Events & Engagements",
-    "section": "🏛️ Past Seminars & Workshops",
-    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n10-Day GEE Training Sessions\n\n\nSuccessfully Concluded! A 10-day intensive online training on Google Earth Engine (GEE) for geospatial analytics.\n\n\n\n\n\n\nApr 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html",
-    "href": "events/lpu-spatial-course-march-2026.html",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "",
-    "text": "🚀 Short Term Course on Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling 🌍\nWe are pleased to announce an ONLINE Short Term Course designed to strengthen competencies in spatial data intelligence and geospatial analytics, with emphasis on data extraction, interpretation, and predictive modelling."
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#course-highlights",
-    "href": "events/lpu-spatial-course-march-2026.html#course-highlights",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "✨ Course Highlights",
-    "text": "✨ Course Highlights\n🔹 Expert sessions by eminent academicians and scientists\n🔹 Hands-on training with real-world datasets\n🔹 AI/ML-based predictive modelling in geospatial analysis\n🔹 Practical workflows and case studies\n🔹 Certification by LPU–HRDC"
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#who-should-attend",
-    "href": "events/lpu-spatial-course-march-2026.html#who-should-attend",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "👥 Who Should Attend?",
-    "text": "👥 Who Should Attend?\nStudents | Research Scholars | Faculty | Industry Professionals"
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#registration-fees",
-    "href": "events/lpu-spatial-course-march-2026.html#registration-fees",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "💰 Registration Fees",
-    "text": "💰 Registration Fees\n• LPU UG/PG Students: ₹600\n• LPU Scholars & Faculty: ₹800\n• External Participants (Students / Scholars / Faculty / Industry): ₹1,200"
-  },
-  {
-    "objectID": "events/lpu-spatial-course-march-2026.html#registration",
-    "href": "events/lpu-spatial-course-march-2026.html#registration",
-    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
-    "section": "🔗 Registration",
-    "text": "🔗 Registration\nRegister Now: https://www.lpu.in/hrd/\n📢 Join this intensive, fully online short-term course to upskill in spatial data intelligence and engage with leading national experts."
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html",
-    "href": "events/gee-workshop-feb-2026.html",
-    "title": "Basics of Google Earth Engine",
-    "section": "",
-    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
-    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
-    "title": "Basics of Google Earth Engine",
-    "section": "Workshop Highlights",
-    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html#schedule",
-    "href": "events/gee-workshop-feb-2026.html#schedule",
-    "title": "Basics of Google Earth Engine",
-    "section": "Schedule",
-    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
-  },
-  {
-    "objectID": "events/gdg-nairobi.html",
-    "href": "events/gdg-nairobi.html",
-    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
-    "section": "",
-    "text": "Topic: Drought Monitoring with Google Earth Engine AI Assistant-Powered by Gemini API\nHost: GDG for Earth Engine Nairobi\nDate: July 26, 2025\nKey Themes: AI, Build with AI"
-  },
-  {
-    "objectID": "events/gdg-nairobi.html#about-this-event",
-    "href": "events/gdg-nairobi.html#about-this-event",
-    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
-    "section": "About this Event",
-    "text": "About this Event\nJoin us as we explore how the GEE AI Assistant, a powerful browser extension, is transforming the way we conduct geospatial analysis. Whether you’re a beginner or an experienced practitioner, this tool helps you:\n✅ Instantly generate and debug scripts\n✅ Translate code between JavaScript and Python\n✅ Build full-featured GEE Apps\n✅ Extract statistics, create charts, and export results\n✅ Interact with Earth Engine in your native language using multi-language prompts\nAll of this happens seamlessly within the Earth Engine Code Editor through an intuitive side panel—bringing the power of AI directly into your workflow.\n\n View Event Details  Slides"
-  },
-  {
-    "objectID": "cv.html#contact-information",
-    "href": "cv.html#contact-information",
-    "title": "Curriculum Vitae",
-    "section": "📬 Contact Information",
-    "text": "📬 Contact Information\n\n pulakesh.mid@gmail.com |  +91 8617812861 |  Ravenshaw University, Odisha, India\n\n\n LinkedIn |  Google Scholar |  GitHub"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "🎓 Education",
-    "text": "🎓 Education\nPhD Scholar in Geography | Ravenshaw University\nSpecialization: GIS, Remote Sensing, and Google Earth Engine\nMPhil in Geography | Ravenshaw University\nUGC-SRF (Senior Research Fellow)"
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "Curriculum Vitae",
-    "section": "🛠️ Technical Skills",
-    "text": "🛠️ Technical Skills\nProgramming Languages: Python, R, JavaScript, LaTeX GIS & Remote Sensing: Google Earth Engine, ArcGIS Pro, QGIS\nData Science: Machine Learning, Phenology Analysis\nTools & Workflow: Git/GitHub, Chrome Extension Development"
-  },
-  {
-    "objectID": "cv.html#professional-experience",
-    "href": "cv.html#professional-experience",
-    "title": "Curriculum Vitae",
-    "section": "💼 Professional Experience",
-    "text": "💼 Professional Experience\nResource Person | Maharaja Sriram Chandra Bhanja Deo University\nSept. 2025\n- Conducted workshops on GEE and spatial data science.\nResource Person | Centurion University\nMarch 2025\n- Facilitated training sessions for PG students on geospatial technologies.\nYouTube Creator | Spatial Geography\n- Developed comprehensive courses on Google Earth Engine, Python, and R for a global audience."
-  },
-  {
-    "objectID": "cv.html#selected-publications",
-    "href": "cv.html#selected-publications",
-    "title": "Curriculum Vitae",
-    "section": "📄 Selected Publications",
-    "text": "📄 Selected Publications\nPradhan, P. (2025). “Application of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine.” In Google Earth Engine and Artificial Intelligence for Earth Observation. DOI: 10.1016/j.gee.2025.025\nPradhan, P. (2024). “Agricultural drought monitoring using Google Earth Engine.” In Modern Cartography Series. DOI: 10.1016/b978-0-443-23890-1.00011-6"
-  },
-  {
-    "objectID": "cv.html#honors-awards",
-    "href": "cv.html#honors-awards",
-    "title": "Curriculum Vitae",
-    "section": "🏆 Honors & Awards",
-    "text": "🏆 Honors & Awards\n\nSenior Research Fellowship (UGC-SRF)\nJunior Research Fellowship (UGC-JRF)\nAssociation of Indian Universities Eastern Zone Runnerup 2023"
-  },
-  {
-    "objectID": "cv.html#professional-memberships",
-    "href": "cv.html#professional-memberships",
-    "title": "Curriculum Vitae",
-    "section": "🤝 Professional Memberships",
-    "text": "🤝 Professional Memberships\n\nLife Member, National Association of Geographers, India (NAGI) | Oct. 2025 - Present\n\n\n\n Download Full CV (PDF)"
-  },
-  {
     "objectID": "books.html",
     "href": "books.html",
     "title": "Books",
@@ -483,202 +420,6 @@
     "text": "GitHub Repositories\n\n\n 30 Days of Python\nA step-by-step challenge to learn Python in 30 days.\n\n\n Geospatial Data Science\nA collection of notebooks for geospatial data science.\n\n\n GeoPandas Tutorial\nExcellent tutorial repository for mastering GeoPandas.\n\n\n Applied Geospatial DS\nCode repository for applied geospatial data science workflows.\n\n\n Brown GeoData GEE\nEarth Engine data processing scripts from Brown University.\n\n\n GEE Python + ML\nIntegrating GEE with Python and Machine Learning."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Deploying a Google Earth Engine App on Streamlit Cloud\n\n\n\nGEE\n\nStreamlit\n\nDeployment\n\nPython\n\nCloud\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\nGeography\n\nHistory\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nGIS\n\nTheory\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "books/ml-remote-sensing.html",
-    "href": "books/ml-remote-sensing.html",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection\n\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine.\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
-  },
-  {
-    "objectID": "books/ml-remote-sensing.html#workshop-presentations-slides",
-    "href": "books/ml-remote-sensing.html#workshop-presentations-slides",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection"
-  },
-  {
-    "objectID": "books/ml-remote-sensing.html#research-papers-external-links",
-    "href": "books/ml-remote-sensing.html#research-papers-external-links",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Resource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine."
-  },
-  {
-    "objectID": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
-    "href": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
-    "title": "ML for Remote Sensing",
-    "section": "",
-    "text": "Resource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
-    "section": "",
-    "text": "I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools."
-  },
-  {
-    "objectID": "courses.html#geospatial-programming",
-    "href": "courses.html#geospatial-programming",
-    "title": "Courses",
-    "section": "💻 Geospatial Programming",
-    "text": "💻 Geospatial Programming\n\n\n\n\nR for Spatial Analysis\nComprehensive guide to handling vector and raster data using R (sf, terra, stars).\n\n Visit Course\n\n\n\n\n\n\nGoogle Earth Engine\nInteractive guide and documentation for mastering cloud-based remote sensing.\n\n Visit Course\n\n\n\n\n\n\nPython for Geospatial\nLearning spatial data science with Python using Geopandas, Rasterio, and Xarray.\n\n Visit Course\n\n\n\n\n\n\nPython for AI-Driven Research\nLeveraging Artificial Intelligence and Large Language Models for automated geospatial research workflows.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#gis-spatial-reference",
-    "href": "courses.html#gis-spatial-reference",
-    "title": "Courses",
-    "section": "🚀 GIS & Spatial Reference",
-    "text": "🚀 GIS & Spatial Reference\n\n\n\n\nCloud GIS Beyond GEE\nResources on merging cloud computing with artificial intelligence for advanced GIS.\n\n Visit Course\n\n\n\n\n\n\nGeospatial Trinity\nA comprehensive cross-platform guide for geospatial analysis using Python, R, and GEE.\n\n Visit Course"
-  },
-  {
-    "objectID": "courses.html#academic-writing-tools",
-    "href": "courses.html#academic-writing-tools",
-    "title": "Courses",
-    "section": "✍️ Academic Writing & Tools",
-    "text": "✍️ Academic Writing & Tools\n\n\n\n\nEnglish for Academics\nEssential resources for scientific writing, presentations, and clear academic communication.\n\n Visit Course\n\n\n\n\n\n\nLaTeX for Geographers\nProfessional document composition and high-quality thesis writing using LaTeX.\n\n Visit Course"
-  },
-  {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
-    "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html",
-    "href": "events/gee-training-apr-2025.html",
-    "title": "10-Day GEE Training Sessions",
-    "section": "",
-    "text": "Topic: Google Earth Engine (GEE) Training Sessions\nResource Person: Pulakesh Pradhan\nHost: Centurion University, Bhubaneswar\nStatus: Successfully Concluded!\nDelighted to share a few glimpses from the recently concluded 10-day Google Earth Engine (GEE) Training, where I had the privilege of leading and teaching as a resource person.\nThis training, conducted by Centurion University, Bhubaneswar, provided participants with hands-on experience in geospatial data processing, remote sensing, and cloud-based geospatial analytics using Google Earth Engine."
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
-    "href": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
-    "title": "10-Day GEE Training Sessions",
-    "section": "📸 Glimpses of Training Outcomes",
-    "text": "📸 Glimpses of Training Outcomes"
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html#key-learning-modules",
-    "href": "events/gee-training-apr-2025.html#key-learning-modules",
-    "title": "10-Day GEE Training Sessions",
-    "section": "🚀 Key Learning Modules",
-    "text": "🚀 Key Learning Modules\nThroughout the training, participants explored:\n✅ Cloud computing for geospatial analysis using JavaScript\n✅ Data handling in GEE (FeatureCollections, ImageCollections)\n✅ Importing and exporting geospatial datasets (shapefiles, raster images, etc.)\n✅ GEE functionalities: filtering, reducers, time-series analysis, and charting\n✅ Machine learning for Land Use Land Cover (LULC) classification\n✅ Applications: Urban Heat Island, Flood Mapping, Forest Monitoring, Surface Water Detection, Water Quality, etc.\n✅ Key datasets covered: Landsat, Sentinel-2, SRTM, FAO GAUL, TerraClimate, CHIRPS, MODIS, CMIP6, etc.\n✅ Advanced Integration: AI, IMD data, and OpenStreetMap (OSM) in GEE\n🙏 A huge appreciation to all participants for their dedication and active engagement. Your enthusiasm made this learning experience truly enriching!\n#GoogleEarthEngine #RemoteSensing #GeospatialAnalysis #EarthObservation #DataScience #MachineLearning #ClimateAnalysis #SustainableDevelopment\n\n📌 More insights: LinkedIn Article | pulakeshpradhan.github.io"
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html",
-    "href": "events/iitbhu-fdp-march-2026.html",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "",
-    "text": "🎯 Online Faculty Development Programme (FDP) on Decoding Climate for Built Environment — Tools, Metrics and Design Integration 🌍\nWe are pleased to announce an ONLINE FDP jointly organized by Sustainability Development Center, IIT (BHU) Varanasi and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. This program is designed to bridge the gap between architectural design and environmental performance through advanced tools and metrics."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
-    "href": "events/iitbhu-fdp-march-2026.html#key-focus-areas",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "🔍 Key Focus Areas",
-    "text": "🔍 Key Focus Areas\n\nApplication of Sustainable Development Goals (SDG) for Built Environment\nEnvironmental Simulation workflows\nClimate responsive design using Ladybug Tools\nIntegration of Design with Environmental performance"
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#certification-benefits",
-    "href": "events/iitbhu-fdp-march-2026.html#certification-benefits",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "📜 Certification & Benefits",
-    "text": "📜 Certification & Benefits\n\nE-Certificate will be awarded to all successful participants.\nHands-on insights into modern environmental simulation tools."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#registration-fee",
-    "href": "events/iitbhu-fdp-march-2026.html#registration-fee",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "💰 Registration Fee",
-    "text": "💰 Registration Fee\n\nRefer to the event poster for detailed fee structure and participation guidelines."
-  },
-  {
-    "objectID": "events/iitbhu-fdp-march-2026.html#registration",
-    "href": "events/iitbhu-fdp-march-2026.html#registration",
-    "title": "Online FDP: Decoding Climate for Built Environment",
-    "section": "🔗 Registration",
-    "text": "🔗 Registration\nRegister Now: https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform\n📢 Join this FDP to master climate-responsive design strategies and environmental performance integration."
-  },
-  {
-    "objectID": "events/mscbu-workshop-sep-2025.html",
-    "href": "events/mscbu-workshop-sep-2025.html",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "",
-    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
-  },
-  {
-    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "Event Overview",
-    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
-  },
-  {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Image Gallery",
-    "section": "",
-    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
-  },
-  {
-    "objectID": "innovations.html",
-    "href": "innovations.html",
-    "title": "Innovations",
-    "section": "",
-    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
-  },
-  {
-    "objectID": "innovations.html#streamlit-apps",
-    "href": "innovations.html#streamlit-apps",
-    "title": "Innovations",
-    "section": "🚀 Streamlit Apps",
-    "text": "🚀 Streamlit Apps\n\n\n\n\nSentinel-2 Index Explorer\n\n\nInteractive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.\n\n\n App"
-  },
-  {
-    "objectID": "innovations.html#r-shiny-apps",
-    "href": "innovations.html#r-shiny-apps",
-    "title": "Innovations",
-    "section": "📊 R Shiny Apps",
-    "text": "📊 R Shiny Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App"
-  },
-  {
-    "objectID": "innovations.html#google-earth-engine-apps-native",
-    "href": "innovations.html#google-earth-engine-apps-native",
-    "title": "Innovations",
-    "section": "🌍 Google Earth Engine Apps (Native)",
-    "text": "🌍 Google Earth Engine Apps (Native)\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
-  },
-  {
-    "objectID": "innovations.html#python-packages",
-    "href": "innovations.html#python-packages",
-    "title": "Innovations",
-    "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
-  },
-  {
-    "objectID": "innovations.html#r-library",
-    "href": "innovations.html#r-library",
-    "title": "Innovations",
-    "section": "📚 R Library",
-    "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
-  },
-  {
-    "objectID": "innovations.html#extensions-tools",
-    "href": "innovations.html#extensions-tools",
-    "title": "Innovations",
-    "section": "🛠️ Extensions & Tools",
-    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
-  },
-  {
     "objectID": "jobs/wbcsc-asst-prof-2026.html",
     "href": "jobs/wbcsc-asst-prof-2026.html",
     "title": "Assistant Professor Recruitment 2026",
@@ -691,6 +432,13 @@
     "title": "Assistant Professor Recruitment 2026",
     "section": "",
     "text": "The West Bengal College Service Commission (WBCSC) has released Advertisement Number 1/2026 for the recruitment of Assistant Professors in Government-Aided Degree Colleges of West Bengal.\n\n\n\n\n\nEvent\nDate\n\n\n\n\nCommencement of ONLINE Application\nFebruary 26, 2026\n\n\nLast date of ONLINE Application\nApril 15, 2026 (11:59 PM)\n\n\n\n\n\n\n\nAdvertisement Number: 1/2026\nOrganization: West Bengal College Service Commission (WBCSC)\nPost: Assistant Professor\nLocation: Government-Aided Degree Colleges across West Bengal\n\n\n\n\nCandidates are requested to apply in online mode only through the official portal:\n Official Application Portal\n\n\n\nYou can view or download the full official advertisement below:\n Download Advertisement (PDF)\n\n\n Back to All Jobs\n:::"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Deploying a Google Earth Engine App on Streamlit Cloud\n\n\n\nGEE\n\nStreamlit\n\nDeployment\n\nPython\n\nCloud\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\nGeography\n\nHistory\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nGIS\n\nTheory\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "journals.html",
@@ -749,6 +497,83 @@
     "text": "✨ Inspirations\nA collection of professional research websites and portfolios that inspire the design and structure of this platform.\n\n\n\n\nAtul Kumar Saini\n\nResearch portfolio focusing on climate dynamics, remote sensing, and environmental modelling. Visit Website \n\n\n\n\nDr. Induj\n\nProfessional academic platform with resources on hydrology, water resource management, and GIS. Visit Website \n\n\n\n\nHydroSense Lab (IIT Delhi)\n\nThe HydroSense Lab at IIT Delhi focuses on cutting-edge research in hydrological modelling and remote sensing. Visit Website \n\n\n\n\nShushobhit Singh (IIT ISM)\n\nAcademic page of Shushobhit Singh at IIT (ISM) Dhanbad, showcasing research in earth sciences. Visit Website"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  Scholar  YouTube  Email"
+  },
+  {
+    "objectID": "index.html#recent-events",
+    "href": "index.html#recent-events",
+    "title": "Pulakesh Pradhan",
+    "section": "📅 Recent Events",
+    "text": "📅 Recent Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\nNo matching items\n\n View all events"
+  },
+  {
+    "objectID": "index.html#latest-insights",
+    "href": "index.html#latest-insights",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Insights",
+    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nDeploying a Google Earth Engine App on Streamlit Cloud\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nMar 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
+  },
+  {
+    "objectID": "index.html#social-updates",
+    "href": "index.html#social-updates",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Social Updates",
+    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
+  },
+  {
+    "objectID": "index.html#groups-i-manage",
+    "href": "index.html#groups-i-manage",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Groups I Manage",
+    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
+  },
+  {
+    "objectID": "index.html#featured-innovations",
+    "href": "index.html#featured-innovations",
+    "title": "Pulakesh Pradhan",
+    "section": "🚀 Featured Innovations",
+    "text": "🚀 Featured Innovations\n\n\n\n\n\n\n\n\n\n\nGEE AI Assistant\n\n\nGemini-powered coding assistant for Earth Engine.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhenology Signature\n\n\nCrop classification based on phenological patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nSentinel-2 Index Explorer\n\n\nInteractive NDVI & NDWI analysis using Sentinel-2 and GEE.\n\n\n\n\n\nNo matching items\n\n View all innovations"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Pulakesh Pradhan",
+    "section": "📚 Recent Publications",
+    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
+  },
+  {
+    "objectID": "index.html#typing-proficiency",
+    "href": "index.html#typing-proficiency",
+    "title": "Pulakesh Pradhan",
+    "section": "⌨️ Typing Proficiency",
+    "text": "⌨️ Typing Proficiency\n\n\n\nVerified on Ratatype: 57 WPM, 99.6% Accuracy"
+  },
+  {
+    "objectID": "jobs/wbcsc-asst-prof-2020.html",
+    "href": "jobs/wbcsc-asst-prof-2020.html",
+    "title": "Assistant Professor Recruitment 2020 (Archived)",
+    "section": "",
+    "text": "[!IMPORTANT] This is an archived recruitment notice. The application period for this advertisement has ended.\n\nThe West Bengal College Service Commission (WBCSC) released Advertisement Number 1/2020 for the recruitment of Assistant Professors in State-Aided Degree Colleges of West Bengal.\n\n\n\n\n\nEvent\nDate\n\n\n\n\nCommencement of ONLINE Application\nDecember 31, 2020\n\n\nLast date of ONLINE Application\nFebruary 15, 2021\n\n\n\n\n\n\n\nAdvertisement Number: 1/2020\nOrganization: West Bengal College Service Commission (WBCSC)\nPost: Assistant Professor\nLocation: State-Aided Degree Colleges across West Bengal\n\n\n\n\nYou can view or download the full official advertisement below for reference:\n Download Advertisement (PDF)\n\n\n Back to All Jobs\n:::"
+  },
+  {
+    "objectID": "jobs/wbcsc-asst-prof-2020.html#recruitment-announcement-assistant-professor-2020",
+    "href": "jobs/wbcsc-asst-prof-2020.html#recruitment-announcement-assistant-professor-2020",
+    "title": "Assistant Professor Recruitment 2020 (Archived)",
+    "section": "",
+    "text": "[!IMPORTANT] This is an archived recruitment notice. The application period for this advertisement has ended.\n\nThe West Bengal College Service Commission (WBCSC) released Advertisement Number 1/2020 for the recruitment of Assistant Professors in State-Aided Degree Colleges of West Bengal.\n\n\n\n\n\nEvent\nDate\n\n\n\n\nCommencement of ONLINE Application\nDecember 31, 2020\n\n\nLast date of ONLINE Application\nFebruary 15, 2021\n\n\n\n\n\n\n\nAdvertisement Number: 1/2020\nOrganization: West Bengal College Service Commission (WBCSC)\nPost: Assistant Professor\nLocation: State-Aided Degree Colleges across West Bengal\n\n\n\n\nYou can view or download the full official advertisement below for reference:\n Download Advertisement (PDF)\n\n\n Back to All Jobs\n:::"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Image Gallery",
+    "section": "",
+    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography campus views\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nCollaborative research visit\n\n\n\n\n\nIIT Bombay\nField study discussion\n\n\n\n\n\nANVESHAN 2024\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nRecognizing spatial research excellence\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University training session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nGanpat University\nGujarat technical workshop\n\n\n\n\n\nTechnical Session\nGUNI research talk\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMSBD University training"
+  },
+  {
     "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
     "href": "posts/2026_02_16_social_vs_spatial/index.html",
     "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
@@ -784,6 +609,104 @@
     "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
   },
   {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "",
+    "text": "Geography as an academic discipline in India has seen a remarkable evolution, transitioning from a colonial descriptive tool to a high-tech spatial science. Central to this journey has been the birth and growth of various geographical organizations and societies. These bodies have not only provided a platform for researchers but have also shaped the curriculum and policy advocacy for the discipline (National Association of Geographers, India [NAGI], 2024; Shodhganga, 2020)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "The Early Foundations (1920s – 1940s)",
+    "text": "The Early Foundations (1920s – 1940s)\nThe formal institutionalization of Geography in India began in the early 1920s. The Aligarh Muslim University (AMU) Department of Geography stands as a primary pioneer, established as an independent undergraduate department in 1924 (Aligarh Muslim University, n.d.). Led by Major E. W. Dann (an Oxford graduate and first chairman), the department was the first of its kind in the Indian subcontinent and was later dubbed the “Mecca of Geography” by British geographers (Wikipedia, 2024).\nSoon after, the Indian Geographical Society (IGS) was established in 1926 in Chennai (as the Madras Geographical Association), holding the distinction of being the oldest registered society (Indian Geographical Society, 2024). Founded by Prof. N. Subrahmanyam, it paved the way for professional geographical discourse in South Asia (University of Madras, 2023)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "The Growth of National & Specialized Bodies (1960s – 1980s)",
+    "text": "The Growth of National & Specialized Bodies (1960s – 1980s)\nAs the discipline matured, the need for a national umbrella organization led to the establishment of the National Association of Geographers, India (NAGI) in 1978 (NAGI, 2024). Based at the Delhi School of Economics, NAGI has since been the primary coordinator for the annual Indian Geography Congress.\nThis period also saw the rise of specialized societies: * Indian Society of Remote Sensing (ISRS) (1969): Bridging geography with space technology (Indian Society of Remote Sensing, 2025). * Association of Population Geographers of India (1978): Focusing on the demographic complexities of India (Association of Population Geographers of India, 2023). * Institute of Indian Geographers (IIG), Pune (1979): Promoting rigorous scientific research across all sub-fields (Institute of Indian Geographers, 2024)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Institutional Directory of Geography in India",
+    "text": "Institutional Directory of Geography in India\nThe following directory outlines the historical and contemporary geographical associations in India, categorized by their establishment years and current executive leadership.\n\n\n\nAssociation / Society\nEstd.\nHost Institution / Region\nCurrent Representative(s)\n\n\n\n\nAligarh Geographical Society\n1924*\nAMU, Aligarh\nProf. Ateeque Ahmed\n\n\nIGS (Chennai)\n1926\nUniversity of Madras\nProf. N. Sivagnanam (President), Prof. R. Jaganathan (Gen Secy)\n\n\nGSI (Kolkata)\n1933\nUniversity of Calcutta\nSmt. Suprova Ray (President), Prof. Apurba Rabi Ghosh (Hony. Secy)\n\n\nAllahabad Geographical Society\n1937\nAllahabad University\nProf. Manorama Sinha\n\n\nNGSI (Varanasi)\n1946\nBHU, Varanasi\nProfessor V. N. Sharma (Hony. Secretary)\n\n\nDeccan Geographical Society\n1962\nSP Pune University\nProf. B. C. Vaidya (Executive)\n\n\nAGTI Trust\n1963\nChennai\nDr. Saraswathi Ragunathan\n\n\nUttar Bharat Bhoogol Parishad\n1965\nGorakhpur\nProf. V. K. Srivatsava\n\n\nRGA (Rajasthan)\n1965\nBhilwara\nDr. S. S. Bhat\n\n\nNEIGS (Guwahati)\n1968\nGauhati University\nProf. Abani K. Bhagabati & Prof. Bimal K. Kar\n\n\nAssociation of Bengal Geographers\n1970*\nBurdwan University\nProf. N. C. Jana\n\n\nHimalayan Samiksha Parishad\n1976\nKolkata\nProf. Sunando Banarjee\n\n\nNAGI (National Association)\n1978\nDelhi School of Economics\nProf. Salahuddin Qureshi (President), Prof. A K Saha (Secy. General)\n\n\nAPGI (Chandigarh)\n1978\nPanjab University\nProf. Krishna Mohan (President), Dr. Gaurav Kalotra (Secretary)\n\n\nIIG (Pune)\n1979\nPune University\nProf. D. K. Nayak (President), Prof. Ravindra G. Jaybhaye (Secy General)\n\n\nILEE (Kolkata)\n1983\nKolkata\nProf. L. N. Satpati (Director)\n\n\nMBP (Maharashtra)\n1984\nPune\nProf. Praveen Saptarshi\n\n\nIGI (Geomorphologists)\n1988\nUniversity of Allahabad\nProf. Sunil Kumar De (President)\n\n\nISG (Geomatics)\n1993\nISRO-SAC, Ahmedabad\nExecutive Council\n\n\nAssociation of Punjab Geographers\n1998\nPatiala\nProf. H. S. Mangat\n\n\nAGBJ (Bihar/JH)\n1999\nPatna University\nProf. Devender Prasad Singh\n\n\nUGIT (Bengaluru)\n2004\nBangalore University\nProf. Ashok Hanjagi\n\n\nGAG (Goa)\n2007\nGoa\nProf. Prabirkumar Rath\n\n\nISSS (Spatial Scientists)\n2010\nKolkata\nProf. Ashis Sarkar\n\n\nKonkan Geographers Association\n2010\nSindhudurg\nProf. R.B. Patil\n\n\n\n*Years marked with asterisks denote early informal society formations or departmental origins."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Prominent Geography Journals in India",
+    "text": "Prominent Geography Journals in India\nScholarship in Indian geography is largely disseminated through peer-reviewed journals published by the various societies. These journals serve as the primary repositories for spatial data and regional analysis in the subcontinent (Shodhganga, 2020).\n\n\n\nJournal Name\nFrequency\nPublishing Body\nIndexing / Status\n\n\n\n\nAnnals of the NAGI\nBi-annual\nNAGI\nUGC-CARE Listed\n\n\nTransactions of the IIG\nBi-annual\nIIG Pune\nScopus Indexed\n\n\nIndian Geographical Journal\nBi-annual\nIGS Chennai\nUGC-CARE Listed\n\n\nGeographical Review of India\nQuarterly\nGSI Kolkata\nPeer-reviewed\n\n\nNational Geographical Journal of India\nQuarterly\nNGSI Varanasi\nPeer-reviewed\n\n\nThe Deccan Geographer\nBi-annual\nDeccan Geog. Society\nUGC-CARE Listed\n\n\nPopulation Geography\nBi-annual\nAPGI Chandigarh\nUGC-CARE Listed\n\n\nJournal of Indian Geomorphology\nAnnual\nIGI Allahabad\nUGC-CARE Listed\n\n\nUttar Bharat Bhoogol Patrika\nBi-annual\nUBBP Gorakhpur\nPeer-reviewed\n\n\nThe Konkan Geographer\nBi-annual\nKonkan Geog. Assoc.\nPeer-reviewed"
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Modern Era: Geospatial Expansion & GIS",
+    "text": "Modern Era: Geospatial Expansion & GIS\nIn the 21st century, organizations like the Association of Geospatial Industries (AGI) and Indian Society of Geomatics (ISG) have taken the lead in integrating satellite-based remote sensing, LiDAR, and GIS into the geographical framework (AGI, 2024; ISG, 2024). These organizations foster collaboration between the industry and academia, ensuring that Indian geographers remain at the forefront of the global spatial revolution.\nThe participation of Indian representatives in the Asian Geographical Association (est. 2018) further exemplifies the global reach of Indian geographical research (Asian Geographical Association, 2024)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Upcoming Geographical Events",
+    "text": "Upcoming Geographical Events\nMaintaining engagement with the academic community is central to the growth of the discipline. Key events scheduled for the upcoming sessions include:\n\nXXII INQUA Congress 2027 India\n\nDates: January 28 – February 3, 2027\nLocation: Lucknow, India\n\nWestern Regional Conference: IASP 2026\n\nDates: March 20-21, 2026\nHost: Goa Business School, Goa University"
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Recent Geographical Events",
+    "text": "Recent Geographical Events\nThe community has recently concluded several landmark scientific meetings:\n\n3rd Indian Quaternary Congress 2026: January 19-23, 2026.\n47th Indian Geography Congress (NAGI) 2025: University of Rajasthan, Jaipur (Nov 13-15, 2025).\n46th IIG Annual Meet & International Conference 2025: HNBGU, Uttarakhand (Oct 25-27, 2025)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Conclusion",
+    "text": "Conclusion\nFrom the local “Madras Geographical Association” of 1926 to the high-tech geospatial societies of today, geographical organizations in India have been the pillars of the discipline. They continue to play a crucial role in addressing national challenges—from urban planning and disaster management to climate change analysis—demonstrating that Geography is not just about mapping the world, but about understanding and improving it."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "References",
+    "text": "References\nAligarh Muslim University. (n.d.). Department of Geography: Our Heritage. https://www.amu.ac.in/department/geography\nAsian Geographical Association. (2024). Founding committee and member countries. http://asiageo.net\nAssociation of Geographers in Bihar and Jharkhand. (2024). Mission and executive council. http://agbj.org.in\nAssociation of Population Geographers of India. (2023). Executive body term 2023-2025. http://apgin.org\nDeccan Geographical Society. (2024). About the society and journal. http://dgsi.org.in\nGeographical Society of India. (2019). Founding principles and history. http://geographicalsocietyofindia.org.in\nGauhati University. (n.d.). History of the Department of Geography. https://gauhati.ac.in/department/geography\nIndian Geographical Society. (2024). History of IGS Chennai. http://igschennai.org\nIndian Society of Remote Sensing. (2025). About ISRS: History and objectives. https://isrsindia.in\nInstitute of Indian Geographers. (2024). Constitution and executive council 2024-25. https://iigeo.org\nMaharashtra Bhugolshastra Parishad. (2024). About us: Journey since 1984. http://mbpune.org.in\nNational Association of Geographers, India. (2024). Official lists: Executive committee 2024-25. https://sites.google.com/view/nagiorgin/home\nNational Geographical Society of India. (2024). Publications and secretary journals. http://ngsi.in\nRajasthan Geographical Association. (2024). History and regional impact. http://rga.ac.in\nShodhganga. (2020). Institutional framework for geography in India. http://inflibnet.ac.in\nUniversity of Madras. (2023). Department of Geography: Research & societies. https://unom.ac.in\nWikipedia contributors. (2024). Major E. W. Dann and the roots of Indian geography. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Department_of_Geography,_Aligarh_Muslim_University"
+  },
+  {
+    "objectID": "books/ml-remote-sensing.html",
+    "href": "books/ml-remote-sensing.html",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection\n\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine.\n\n\n\n\n\n\n\n\n\n\nResource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
+  },
+  {
+    "objectID": "books/ml-remote-sensing.html#workshop-presentations-slides",
+    "href": "books/ml-remote-sensing.html#workshop-presentations-slides",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Topic\nResource\nInstructor\n\n\n\n\nData Overview\nPresentation Slides\nHannah Kerner\n\n\nML Methods\nPresentation Slides\nGabi Tseng\n\n\nData Considerations\nPresentation Slides\nIvan Zvonkov\n\n\nEO for Agriculture\nPresentation Slides\nCatherine Nakalembe\n\n\nNASA Harvest Case Study\nPresentation Slides\nIvan Zvonkov\n\n\nPredictions to Insights\nPresentation Slides\nGedeon Muhawenayo\n\n\nNetworking & Break\nSlide Collection"
+  },
+  {
+    "objectID": "books/ml-remote-sensing.html#research-papers-external-links",
+    "href": "books/ml-remote-sensing.html#research-papers-external-links",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Resource Type\nTitle / Link\nDescription\n\n\n\n\nResearch Paper\nTowards Explainable Land Cover Mapping\nCounterfactual-based strategy for land cover.\n\n\nResearch Paper\nAgricultural Poverty Prediction\nSatellite-based disparities in prediction.\n\n\nResearch Paper\nAcoustic Classification Enhancement\nUsing Meta-Data for acoustic ML.\n\n\nOfficial Site\nWorkshop Website\nOfficial ICLR 2023 ML4RS page.\n\n\nCode Repository\nNASA Harvest GitHub\nOpen-source geospatial tools.\n\n\nCourse\nNASA ARSET\nApplied Remote Sensing Training.\n\n\nBook\nEEFA Book\nCloud-Based RS with Earth Engine."
+  },
+  {
+    "objectID": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
+    "href": "books/ml-remote-sensing.html#iclr-2024-accepted-papers-posters",
+    "title": "ML for Remote Sensing",
+    "section": "",
+    "text": "Resource Type\nTitle / Link\nAuthors\n\n\n\n\nPoster\nLearned Embedding Fields for Multi-Source, Multi-Temporal Earth Observation Imagery  [Poster]\nBrown , Christopher F; Kazmierski , Michal R; Rucklidge, William J; Pasquarella, Valerie J.; Shelhamer, Evan\n\n\nPoster\nGIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding  [Poster]\nLi, Hao; Wang, Jiapan; Teuscher, Balthasar; Luo, Peng; Hong, Danfeng; Mai, Gengchen; Werner, Martin\n\n\nPoster\nUncertainty quantification for probabilistic machine learning in earth observation using conformal prediction  [Poster]\nSingh, Geethen, Tamara B. Robinson, Glenn Moncrieff, Zander S. Venter, Kerry-Cawse Nicholson, Jasper Slingsby\n\n\nPaper\nSuper-resolution of Sentinel-1 Imagery Using an Enhanced Attention Network and Real Ground Truth Data\nAyala, Christian; Amieva, Juan Francisco; Galar, Mikel\n\n\nPaper\nMulti-stage semantic segmentation to map small and sparsely distributed habitats\nvan der Plas, Thijs Lambik; Geikie, Simon; Alexander, David; Simms, Daniel\n\n\nPoster\nNoise2Noise Denoising of CRISM Hyperspectral Data  [Poster]\nPlatt, Robert; John, Cedric; Arcucci, Rossella\n\n\nPaper\nA Concise Tiling Strategy for Preserving Spatial Context in Earth Observation Imagery\nAbrahams, Ellianna; Snow, Tasha; Pérez, Fernando; Siegfried, Matthew\n\n\nPoster\nImpact of Missing Views in Multi-view Model Predictions for Vegetation Applications  [Poster]\nMena, Francisco; Arenas, Diego; Nuske, Marlon; Dengel, Andreas\n\n\nPaper\nIntegrating physics deductive biases into learning for hyperspectral classification\nThoreau, Romain*\n\n\nPoster\nAI-powered School Mapping and Connectivity Status Prediction using Earth Observation  [Poster]\nDoerksen, Kelsey; Tingzon, Isabelle; Kim, Dohyung\n\n\nPoster\nTowards general deep-learning-based tree instance segmentation models  [Poster]\nHenrich, Jonathan; van Delden, Jan\n\n\nPaper\nComposite Augmentations for Semantic Segmentation in Aerial Images with Few Samples\nChandramouli, Pranav; Stavness, Ian ; McLoughlin, Phillip; Neufeld, Branden\n\n\nPaper\nOn the Relevance of SAR and Optical Modalities in Deep Learning based Data Fusion\nGawlikowski, Jakob; Gottschling, Nina Maria\n\n\nPaper\nRed Teaming Models for Hyperspectral Image Analysis Using Explainable AI\nZaigrajew, Vladimir; Baniecki, Hubert; Tulczyjew, Lukasz; Wijata, Agata Maria; Nalepa, Jakub; Longepe, Nicolas; Biecek, Przemyslaw\n\n\nPoster\nLeveraging 3d Model Imagery To Estimate A New Window View Index  [Poster]\nLaw, Stephen; Stalder, Steven; Suel, Esra; Takizawa, Atsushi\n\n\nPoster\nHigh-resolution Multi-spectral Image Guided DEM Super-resolution using Sinkhorn Regularized Adversarial Network  [Poster]\nPaul, Subhajit; Gupta, Ashutosh\n\n\nPoster\nEfficient Remote Sensing with Harmonized Transfer Learning and Modality Alignment  [Poster]\nHuang, Tengjun*\n\n\nPoster\nExploring selective simple image matching methods for Unsupervised Domain adaptation of urban canopy cover and height prediction  [Poster]\nFrancis, John; Law, Stephen\n\n\nPaper\nImpacts of Color and Texture Distortions on Earth Observation Data in Deep Learning\nWillbo, Martin; Pirinen, Aleksis; Martinsson, John; Listo Zec, Edvin; Mogren, Olof; Nilsson, Mikael\n\n\nPaper\nTowards Climate Variable Prediction with Conditioned Spatio-Temporal Normalizing Flows\nWinkler, Christina Elisabeth; Rolnick, David\n\n\nPaper\nLimitations of non-traditional data: evaluating satellite data and OpenStreetMap for predicting spatio-temporal variation in material wealth\nSchmidt-Ott, Nathanael; Kis-Katos, Krisztina\n\n\nPaper\nGlobal Above-Ground Biomass Density Estimation from Sentinel-2 Imagery\nBereczky, Max; Hei, Ka ; Rashkovetsky, Dima; Gottfriedsen, Julia*\n\n\nPoster\nA Change Detection Reality Check  [Poster]\nCorley, Isaac A; Robinson, Caleb; Ortiz, Anthony\n\n\nPoster\nGlobal Mapping of Exposure and Physical Vulnerability Dynamics in Least Developed Countries using Remote Sensing and Machine Learning  [Poster]\nDimasaka, Joshua T; Emily So; Christian Geiß\n\n\nPoster\nBootstrapping Rare Object Detection in High-Resolution Satellite Imagery  [Poster]\nZaytar, Akram; Robinson, Caleb; Quentin Hacheme, Gilles; Tadesse, Girmaw Abebe; Dodhia, Rahul ; Lavista Ferres, Juan M\n\n\nPoster\nESO: Evolutionary Spectrogram Optimisation for Passive Acoustic Monitoring  [Poster]\nÇakır, Ufuk; Jeantet, Lorène LJ; Lontsi Sob, Aaron Joel A J; Dufourq, Emmanuel\n\n\nPaper\nSpatiotemporal Rockfall Detection Using Point-Based Neural Networks\nZoumpekas, Thanasis; Puig, Anna; Salamó, Maria\n\n\nPoster\nLeveraging Deep Learning for the Reconstruction of Plant Hyperspectral Data from RGB Images  [Poster]\nSarkis, Serge; Issa, Ibrahim; Abou Jaoude, Dany; Talhouk, Salma\n\n\nPoster\nLearning Source Domain Representations for Electro-Optical to SAR Transfer  [Poster]\nZeng, Boya; Hussing, Marcel; Eaton, Eric\n\n\nPaper\nRegion-Level Labels In Ice Charts Can Produce Pixel-Level Segmentation For Sea Ice Types\nPatel, Muhammed; Chen, Xinwei; Xu, Linlin; Chen, Yuhao; Scott, K Andrea; Clausi, David A\n\n\nPoster\nSpatially Far, Ecologically Close: Evaluating Extrapolation on Vegetation Forecasting Models  [Poster]\nRobin, Claire; Weynants, Melanie; Benson, Vitus; Rußwurm, Marc; Carvalhais, Nuno; Reichstein, Markus\n\n\nPaper\nSeeing Through the Clouds: Cloud Gap Imputation with Prithvi Foundation Model\nGodwin, Denys; Li, Hanxi; Cecil, Michael; Alemohammad, Hamed\n\n\nPoster\nEncoding Agent Trajectories as Representations with Sequence Transformers  [Poster]\nTsiligkaridis, Athanasios; Li, Zhongheng; Hou, Elizabeth\n\n\nPaper\nSynthetic data augmentation for earth observation object detection tasks\nKhammari, Syrine; Fernández-Laguilhoat Sánchez-Biezma , Enrique; Sukhanov , Sergey ; Tankoyeu, Ivan\n\n\nPoster\nA Benchmark For Geographic Distribution Shift In Smallholder Agroforestry: Do Foundation Models Improve Ood Generalization?  [Poster]\nSachdeva, Siddharth; Biradar, Chandrasekhar; Lopez, Isabel; Lobell, David\n\n\nPaper\nPhysics Informed Modeling of Ecosystem Respiration via Dynamic Mode Decomposition with Control Input\nShadaydeh, Maha; Denzler, Joachim; Migliavacca, Mirco"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -817,5 +740,82 @@
     "title": "Publications",
     "section": "🖼️ Posters",
     "text": "🖼️ Posters\n\n\n\nNear Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images\n\n\n\n\n\nUnable to display PDF. Download here.\n\n\n\n\n\nPradhan, P., & Bajpai, R. (2023)\n\n\nOdisha Research Conclave (ORC-2023)\n\n\nThis poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.\n\n\n  Download PDF    Details \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
+  },
+  {
+    "objectID": "events/lpu-spatial-course-march-2026.html",
+    "href": "events/lpu-spatial-course-march-2026.html",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "section": "",
+    "text": "🚀 Short Term Course on Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling 🌍\nWe are pleased to announce an ONLINE Short Term Course designed to strengthen competencies in spatial data intelligence and geospatial analytics, with emphasis on data extraction, interpretation, and predictive modelling."
+  },
+  {
+    "objectID": "events/lpu-spatial-course-march-2026.html#course-highlights",
+    "href": "events/lpu-spatial-course-march-2026.html#course-highlights",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "section": "✨ Course Highlights",
+    "text": "✨ Course Highlights\n🔹 Expert sessions by eminent academicians and scientists\n🔹 Hands-on training with real-world datasets\n🔹 AI/ML-based predictive modelling in geospatial analysis\n🔹 Practical workflows and case studies\n🔹 Certification by LPU–HRDC"
+  },
+  {
+    "objectID": "events/lpu-spatial-course-march-2026.html#who-should-attend",
+    "href": "events/lpu-spatial-course-march-2026.html#who-should-attend",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "section": "👥 Who Should Attend?",
+    "text": "👥 Who Should Attend?\nStudents | Research Scholars | Faculty | Industry Professionals"
+  },
+  {
+    "objectID": "events/lpu-spatial-course-march-2026.html#registration-fees",
+    "href": "events/lpu-spatial-course-march-2026.html#registration-fees",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "section": "💰 Registration Fees",
+    "text": "💰 Registration Fees\n• LPU UG/PG Students: ₹600\n• LPU Scholars & Faculty: ₹800\n• External Participants (Students / Scholars / Faculty / Industry): ₹1,200"
+  },
+  {
+    "objectID": "events/lpu-spatial-course-march-2026.html#registration",
+    "href": "events/lpu-spatial-course-march-2026.html#registration",
+    "title": "Spatial Data Intelligence: Extraction, Interpretation and Predictive Modelling",
+    "section": "🔗 Registration",
+    "text": "🔗 Registration\nRegister Now: https://www.lpu.in/hrd/\n📢 Join this intensive, fully online short-term course to upskill in spatial data intelligence and engage with leading national experts."
+  },
+  {
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
+    "section": "",
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html",
+    "href": "events/mscbu-workshop-sep-2025.html",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "Event Overview",
+    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
+  },
+  {
+    "objectID": "events/gdg-nairobi.html",
+    "href": "events/gdg-nairobi.html",
+    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
+    "section": "",
+    "text": "Topic: Drought Monitoring with Google Earth Engine AI Assistant-Powered by Gemini API\nHost: GDG for Earth Engine Nairobi\nDate: July 26, 2025\nKey Themes: AI, Build with AI"
+  },
+  {
+    "objectID": "events/gdg-nairobi.html#about-this-event",
+    "href": "events/gdg-nairobi.html#about-this-event",
+    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
+    "section": "About this Event",
+    "text": "About this Event\nJoin us as we explore how the GEE AI Assistant, a powerful browser extension, is transforming the way we conduct geospatial analysis. Whether you’re a beginner or an experienced practitioner, this tool helps you:\n✅ Instantly generate and debug scripts\n✅ Translate code between JavaScript and Python\n✅ Build full-featured GEE Apps\n✅ Extract statistics, create charts, and export results\n✅ Interact with Earth Engine in your native language using multi-language prompts\nAll of this happens seamlessly within the Earth Engine Code Editor through an intuitive side panel—bringing the power of AI directly into your workflow.\n\n View Event Details  Slides"
+  },
+  {
+    "objectID": "social.html",
+    "href": "social.html",
+    "title": "Social Updates",
+    "section": "",
+    "text": "GEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\nUpcoming Events Summary\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nSpatial Data Intelligence STC\nLPU (Online)\nMarch 9–14, 2026\nMarch 8, 2026\nRegister\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nClimate & Built Env. FDP\nIIT(BHU) Varanasi\nMarch 20–22, 2026\nMarch 18, 2026\nRegister\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\nIIG International Seminar\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\nXXth DGSI International Geography Conference\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\nXXII INQUA Congress 2027 India\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\nWestern Regional Conference: IASP 2026\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\nNational Seminar: Environment, Economy, Culture and Technology\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details\n\n\n\n\n\n\n\n\nSTC: Spatial Data Intelligence\nExtraction, Interpretation and Predictive Modelling 📍 Location: Lovely Professional University (Online) 📅 Date: March 09–14, 2026\nAn intensive Short Term Course on geospatial analytics and AI/ML-based predictive modelling. Organized by the Centre for Space Science, LPU.\n📅 Key Details: * Time: 9:30 AM – 5:00 PM (IST) * Certification: LPU–HRDC Certified\n\nRegister Now Full Event Details\n\n\n\n\n\n\n\n\nOnline FDP: Decoding Climate for Built Environment\nTools, Metrics and Design Integration 📍 Location: IIT (BHU) Varanasi (Online) 📅 Date: March 20–22, 2026\nJointly organized by Sustainability Development Center and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. Focus on SDG, simulation workflows, Ladybug Tools, and performance integration.\n\nRegister Now Full Event Details"
   }
 ]
