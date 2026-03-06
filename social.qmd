@@ -34,10 +34,8 @@ My Gemini-powered assistant helps researchers and developers write Earth Engine 
 | :--- | :--- | :--- | :--- | :--- |
 | **IIG International Seminar** | Siliguri, WB | Feb 19–21, 2026 | <span class="deadline-date" data-date="2025-12-31">Dec 31, 2025</span> | [Circular](social/IIG_2026.pdf) |
 | **XXth DGSI Int. Conference** | Tirupati, AP | Feb 23–25, 2026 | <span class="deadline-date" data-date="2026-02-10">Feb 10, 2026</span> | [Circular](social/30-12-2026 First Circular - 2026.pdf) |
-| **Spatial Data Intelligence STC** | LPU (Online) | March 9–14, 2026 | <span class="deadline-date" data-date="2026-03-08">March 8, 2026</span> | [Register](https://www.lpu.in/hrd/) |
 | **National Seminar (Viksit Bharat)** | Varanasi, UP | March 16–17, 2026 | <span class="deadline-date" data-date="2026-03-09">March 9, 2026</span> | [Register](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform) |
 | **IASP 2026 Regional Conference** | Goa University | March 20–21, 2026 | <span class="deadline-date" data-date="2026-02-15">Feb 15, 2026</span> | [Submit](https://forms.gle/dxgmZAGrdk5HdWVw5) |
-| **Climate & Built Env. FDP** | IIT(BHU) Varanasi | March 20–22, 2026 | <span class="deadline-date" data-date="2026-03-18">March 18, 2026</span> | [Register](https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform) |
 | **XXII INQUA Congress 2027** | Lucknow, India | Jan 28 – Feb 3, 2027 | <span class="deadline-date" data-date="2026-03-31">March 31, 2026</span> | [Register](https://register.inquaindia2027.in/) |
 
 <script>
@@ -164,47 +162,6 @@ Organized by the Department of Geography. This seminar invites abstracts for ora
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
 [![](social/gsmsl.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](social/viksit_bharat_seminar.jpg)
-:::
-:::
-::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 40px; background: #f0fdfa; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
-::: {.social-content}
-### STC: Spatial Data Intelligence
-**Extraction, Interpretation and Predictive Modelling**
-**📍 Location:** Lovely Professional University (Online)
-**📅 Date:** March 09–14, 2026
-
-An intensive Short Term Course on geospatial analytics and AI/ML-based predictive modelling. Organized by the Centre for Space Science, LPU.
-
-**📅 Key Details:**
-*   **Time:** 9:30 AM – 5:00 PM (IST)
-*   **Certification:** LPU–HRDC Certified
-
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-[Register Now](https://www.lpu.in/hrd/){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #0d9488; font-weight: 600; font-size: 0.9rem;"}
-[Full Event Details](events/lpu-spatial-course-march-2026.qmd){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #0d9488; font-weight: 600; font-size: 0.9rem;"}
-</div>
-:::
-::: {.social-media style="display: flex; align-items: center;"}
-[![](social/lpuspatial.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://www.lpu.in/hrd/)
-:::
-:::
-
-::: {.social-card style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border: 1px solid rgba(0,0,0,0.05); padding: 25px; border-radius: 16px; margin-bottom: 40px; background: #fffbeb; box-shadow: 0 4px 15px rgba(0,0,0,0.02);"}
-::: {.social-content}
-### Online FDP: Decoding Climate for Built Environment
-**Tools, Metrics and Design Integration**
-**📍 Location:** IIT (BHU) Varanasi (Online)
-**📅 Date:** March 20–22, 2026
-
-Jointly organized by Sustainability Development Center and Department of Architecture, Planning and Design, IIT (BHU) Varanasi. Focus on SDG, simulation workflows, Ladybug Tools, and performance integration.
-
-<div style="display: flex; gap: 10px; margin-top: 20px;">
-[Register Now](https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #92400e; font-weight: 600; font-size: 0.9rem;"}
-[Full Event Details](events/iitbhu-fdp-march-2026.qmd){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #92400e; font-weight: 600; font-size: 0.9rem;"}
-</div>
-:::
-::: {.social-media style="display: flex; align-items: center;"}
-[![](social/iitbhu_march.jpg){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://docs.google.com/forms/d/e/1FAIpQLSfo9ySbu2b-PTn3ezmOguvCTFa2uiTj_U0TWPRkxFRqxqlqig/viewform)
 :::
 :::
 :::
