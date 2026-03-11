@@ -105,34 +105,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-innovations .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-innovations'] = new List('listing-latest-innovations', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-past-events .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -431,10 +403,6 @@ window.Quarto = {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./innovations.html"> 
-<span class="menu-text">Innovations</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
@@ -485,7 +453,6 @@ window.Quarto = {
   <li><a href="#latest-insights" id="toc-latest-insights" class="nav-link" data-scroll-target="#latest-insights">📌 Latest Insights</a></li>
   <li><a href="#social-updates" id="toc-social-updates" class="nav-link" data-scroll-target="#social-updates">👥 Social Updates</a></li>
   <li><a href="#groups-i-manage" id="toc-groups-i-manage" class="nav-link" data-scroll-target="#groups-i-manage">👥 Groups I Manage</a></li>
-  <li><a href="#featured-innovations" id="toc-featured-innovations" class="nav-link" data-scroll-target="#featured-innovations">🚀 Featured Innovations</a></li>
   <li><a href="#recent-publications" id="toc-recent-publications" class="nav-link" data-scroll-target="#recent-publications">📚 Recent Publications</a></li>
   <li><a href="#typing-proficiency" id="toc-typing-proficiency" class="nav-link" data-scroll-target="#typing-proficiency">⌨️ Typing Proficiency</a></li>
   </ul>
@@ -520,7 +487,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="recent-events">📅 Recent Events</h2>
 <div id="listing-past-events" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UGFzdA==" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1772993086988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<div class="g-col-1" data-index="0" data-categories="UGFzdA==" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1773232319389" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
 <a href="./events/gee-workshop-feb-2026.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -544,7 +511,7 @@ Feb 16, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UGFzdA==" data-listing-date-sort="1757721600000" data-listing-file-modified-sort="1772993087015" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<div class="g-col-1" data-index="1" data-categories="UGFzdA==" data-listing-date-sort="1757721600000" data-listing-file-modified-sort="1773232319416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
 <a href="./events/mscbu-workshop-sep-2025.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -568,7 +535,7 @@ Sep 13, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UGFzdA==" data-listing-date-sort="1753488000000" data-listing-file-modified-sort="1772993086988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
+<div class="g-col-1" data-index="2" data-categories="UGFzdA==" data-listing-date-sort="1753488000000" data-listing-file-modified-sort="1773232319389" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
 <a href="./events/gdg-nairobi.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -602,7 +569,7 @@ Jul 26, 2025
 <h2 class="anchored" data-anchor-id="latest-insights">📌 Latest Insights</h2>
 <div id="listing-latest-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R0VFJTJDU3RyZWFtbGl0JTJDRGVwbG95bWVudCUyQ1B5dGhvbiUyQ0Nsb3Vk" data-listing-date-sort="1772668800000" data-listing-file-modified-sort="1772993087185" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2539">
+<div class="g-col-1" data-index="0" data-categories="R0VFJTJDU3RyZWFtbGl0JTJDRGVwbG95bWVudCUyQ1B5dGhvbiUyQ0Nsb3Vk" data-listing-date-sort="1772668800000" data-listing-file-modified-sort="1773232319585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2539">
 <a href="./posts/2026_03_05_deploy_gee_streamlit/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -626,7 +593,7 @@ Mar 5, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="R2VvZ3JhcGh5JTJDSGlzdG9yeSUyQ0luZGlh" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1772993087184" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1359">
+<div class="g-col-1" data-index="1" data-categories="R2VvZ3JhcGh5JTJDSGlzdG9yeSUyQ0luZGlh" data-listing-date-sort="1771459200000" data-listing-file-modified-sort="1773232319584" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1359">
 <a href="./posts/2026-02-19-history-geographical-organisations-india/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -650,7 +617,7 @@ Feb 19, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="R2VvZ3JhcGh5JTJDR0lTJTJDVGhlb3J5" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1772993087185" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
+<div class="g-col-1" data-index="2" data-categories="R2VvZ3JhcGh5JTJDR0lTJTJDVGhlb3J5" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1773232319585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
 <a href="./posts/2026_02_16_social_vs_spatial/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -760,69 +727,6 @@ Join Group <i class="bi bi-arrow-right"></i>
 </div>
 </a><p><a href="https://chat.whatsapp.com/Er5pHkGoprnAoMtQlkxJIo" target="_blank" class="group-card group-card-whatsapp"></a></p>
 </div>
-<hr>
-</section>
-<section id="featured-innovations" class="level2">
-<h2 class="anchored" data-anchor-id="featured-innovations">🚀 Featured Innovations</h2>
-<div id="listing-latest-innovations" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772993087172" data-listing-reading-time-sort="2" data-listing-word-count-sort="349">
-<a href="./innovations.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/gee_course.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-GEE AI Assistant
-</h5>
-<div class="card-text listing-description delink">
-<p>Gemini-powered coding assistant for Earth Engine.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1">
-<a href="https://spatialgeography.projects.earthengine.app/view/signature" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/phenology.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Phenology Signature
-</h5>
-<div class="card-text listing-description delink">
-<p>Crop classification based on phenological patterns.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2">
-<a href="https://spatialgeography.streamlit.app/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="innovation/veg_water_explorer.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sentinel-2 Index Explorer
-</h5>
-<div class="card-text listing-description delink">
-<p>Interactive NDVI &amp; NDWI analysis using Sentinel-2 and GEE.</p>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><a href="./innovations.html" class="social-btn mt-2"><i class="bi bi-arrow-right-circle"></i> View all innovations</a></p>
 <hr>
 </section>
 <section id="recent-publications" class="level2">
