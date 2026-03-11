@@ -25,8 +25,6 @@ website:
         text: Events
       - href: blog.qmd
         text: Blog
-      - href: innovations.qmd
-        text: Innovations
       - href: cv.qmd
         text: CV
       - href: gallery.qmd

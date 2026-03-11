@@ -7,26 +7,7 @@ listing:
     type: grid
     max-items: 3
     categories: false
-  - id: latest-innovations
-    contents: 
-      - title: "Sentinel-2 Index Explorer"
-        description: "Interactive NDVI & NDWI analysis using Sentinel-2 and GEE."
-        path: "https://spatialgeography.streamlit.app/"
-        image: "innovation/veg_water_explorer.png"
-      - title: "Spectral Reflectance Curve"
-        description: "Analyze spectral signatures across multiple bands."
-        path: "https://spatialgeography.projects.earthengine.app/view/spectral"
-        image: "innovation/spectralcurve.png"
-      - title: "Phenology Signature"
-        description: "Crop classification based on phenological patterns."
-        path: "https://spatialgeography.projects.earthengine.app/view/signature"
-        image: "images/phenology.jpg"
-      - title: "GEE AI Assistant"
-        description: "Gemini-powered coding assistant for Earth Engine."
-        path: "innovations.qmd"
-        image: "images/gee_course.jpg"
-    type: grid
-    max-items: 3
+
 
   - id: past-events
     contents: events
@@ -156,14 +137,7 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 
 
 
-## 🚀 Featured Innovations
-::: {#latest-innovations}
-:::
-[<i class="bi bi-arrow-right-circle"></i> View all innovations](innovations.qmd){.social-btn .mt-2}
 
-
-
-<hr>
 
 ## 📚 Recent Publications
 ::: {#recent-pubs}
