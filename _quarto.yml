@@ -1,0 +1,80 @@
+project:
+  type: website
+
+website:
+  title: "Pulakesh Pradhan"
+  description: "Geographer, GIS Specialist, and Spatial Data Scientist. Specializing in Google Earth Engine, AI, and Remote Sensing."
+  site-url: "https://pulakeshpradhan.github.io"
+  twitter-card:
+    creator: "@pulakesh_p"
+    card-style: summary_large_image
+    image: "images/pulakesh.jpg"
+  open-graph:
+    image: "images/pulakesh.jpg"
+    locale: en_US
+
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Publications
+      - href: events.qmd
+        text: Events
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+      - href: gallery.qmd
+    right:
+      - icon: gem
+        href: journals.html
+        aria-label: Journals
+      - icon: linkedin
+        href: https://www.linkedin.com/in/pulakeshpradhan/
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=_DhEQHEAAAAJ
+      - icon: youtube
+        href: https://www.youtube.com/@SpatialGeography
+
+  page-footer:
+    left: |
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br>
+      This content is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
+    center: "&copy; 2026 Pulakesh Pradhan"
+
+    right: 
+      - icon: github
+        href: https://github.com/pulakeshpradhan
+      - icon: linkedin
+        href: https://www.linkedin.com/in/pulakeshpradhan/
+    background: light
+
+comments:
+  giscus:
+    repo: pulakeshpradhan/pulakeshpradhan.github.io
+    category: Announcements
+    category-id: DIC_kwDON96A8s4CnP_z
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-fold: true
+    lightbox: true
+    mainfont: "Inter, sans-serif"
+    header-includes: |
+      <meta name="google-site-verification" content="nLl3KIj4auOY3L_3kYhBLd9fKTHpzihQI-jRuDM7abQ" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    sharing:
+      twitter: true
+      facebook: true
+      linkedin: true
+

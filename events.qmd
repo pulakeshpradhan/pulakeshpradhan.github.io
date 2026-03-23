@@ -1,0 +1,37 @@
+---
+title: "Events & Engagements"
+description: "Explore my upcoming workshops, seminars, and conference talks on GEE and Spatial Data Science."
+image: "images/trainings.jpg"
+listing:
+  - id: upcoming-events
+    contents: events
+    sort: "date asc"
+    type: grid
+    include:
+      categories: Upcoming
+    categories: false
+  - id: past-events
+    contents: events
+    sort: "date desc"
+    type: grid
+    include:
+      categories: Past
+    categories: false
+---
+
+I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing.
+
+## 📅 Upcoming Events
+
+::: {#upcoming-events}
+:::
+
+## 🏛️ Past Seminars & Workshops
+
+::: {#past-events}
+:::
+
+---
+
+For invitations or collaborations for guest lectures and workshops, please reach out via [LinkedIn](https://www.linkedin.com/in/pulakeshpradhan/).
+
