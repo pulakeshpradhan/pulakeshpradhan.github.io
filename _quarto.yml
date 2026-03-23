@@ -25,13 +25,7 @@ website:
         text: Events
       - href: blog.qmd
         text: Blog
-      - href: cv.qmd
-        text: CV
-      - href: gallery.qmd
     right:
-      - icon: gem
-        href: journals.html
-        aria-label: Journals
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
       - icon: mortarboard
