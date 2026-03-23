@@ -1,0 +1,401 @@
+[
+  {
+    "objectID": "events/gdg-nairobi.html",
+    "href": "events/gdg-nairobi.html",
+    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
+    "section": "",
+    "text": "Topic: Drought Monitoring with Google Earth Engine AI Assistant-Powered by Gemini API\nHost: GDG for Earth Engine Nairobi\nDate: July 26, 2025\nKey Themes: AI, Build with AI"
+  },
+  {
+    "objectID": "events/gdg-nairobi.html#about-this-event",
+    "href": "events/gdg-nairobi.html#about-this-event",
+    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
+    "section": "About this Event",
+    "text": "About this Event\nJoin us as we explore how the GEE AI Assistant, a powerful browser extension, is transforming the way we conduct geospatial analysis. Whether you’re a beginner or an experienced practitioner, this tool helps you:\n✅ Instantly generate and debug scripts\n✅ Translate code between JavaScript and Python\n✅ Build full-featured GEE Apps\n✅ Extract statistics, create charts, and export results\n✅ Interact with Earth Engine in your native language using multi-language prompts\nAll of this happens seamlessly within the Earth Engine Code Editor through an intuitive side panel—bringing the power of AI directly into your workflow.\n\n View Event Details  Slides"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html",
+    "href": "events/mscbu-workshop-sep-2025.html",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "Event Overview",
+    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "title": "Basics of Google Earth Engine",
+    "section": "Workshop Highlights",
+    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Engagements",
+    "section": "",
+    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
+  },
+  {
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events & Engagements",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html#past-seminars-workshops",
+    "href": "events.html#past-seminars-workshops",
+    "title": "Events & Engagements",
+    "section": "🏛️ Past Seminars & Workshops",
+    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n10-Day GEE Training Sessions\n\n\nSuccessfully Concluded! A 10-day intensive online training on Google Earth Engine (GEE) for geospatial analytics.\n\n\n\n\n\n\nApr 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "",
+    "text": "A step-by-step guide covering setup, authentication, secrets management, common errors, and deployment — based on real-world debugging experience."
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#table-of-contents",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#table-of-contents",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "Table of Contents",
+    "text": "Table of Contents\n\nIntroduction\nPrerequisites\nCreating a GEE Service Account\nProject Structure\nWriting the Streamlit App\nSetting Up secrets.toml\nConfiguring requirements.txt\nDeploying to Streamlit Cloud\nConfiguring Google Cloud IAM Permissions\nCommon Errors & Solutions\nFinal Checklist\nResources"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#introduction",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#introduction",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "1. Introduction",
+    "text": "1. Introduction\nGoogle Earth Engine (GEE) is a powerful platform for geospatial analysis. Combining it with Streamlit lets you build interactive web apps to visualize satellite imagery, elevation models, and more — all accessible from a browser.\nHowever, deploying a GEE-powered Streamlit app to Streamlit Cloud involves several authentication and permission steps that can be tricky. This guide walks you through the entire process, with special focus on errors you’re likely to encounter and how to fix them."
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#prerequisites",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#prerequisites",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "2. Prerequisites",
+    "text": "2. Prerequisites\nBefore you start, make sure you have:\n\n✅ A Google Cloud Platform (GCP) account\n✅ A Google Earth Engine account (sign up at signup.earthengine.google.com)\n✅ A GitHub account\n✅ A Streamlit Cloud account (free tier available)\n✅ Python 3.8+ installed locally\n✅ Git installed locally"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#creating-a-gee-service-account",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#creating-a-gee-service-account",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "3. Creating a GEE Service Account",
+    "text": "3. Creating a GEE Service Account\nOn your local machine, you can use ee.Authenticate() interactively. But on Streamlit Cloud, there’s no browser — you need a Service Account.\n\nStep 1: Create a GCP Project\n\nGo to Google Cloud Console\nClick Select a project → New Project\nName it (e.g., ee-myproject) and click Create\n\n\n\nStep 2: Enable the Earth Engine API\n\nGo to APIs & Services → Library\nSearch for “Earth Engine API”\nClick Enable\n\n\n\nStep 3: Create a Service Account\n\nGo to IAM & Admin → Service Accounts\nClick + CREATE SERVICE ACCOUNT\nGive it a name (e.g., my-gee-bot)\nClick Create and Continue\nSkip the optional steps and click Done\n\n\n\nStep 4: Create & Download a JSON Key\n\nClick on your new service account\nGo to the Keys tab\nClick Add Key → Create new key\nSelect JSON and click Create\nA .json file will be downloaded — keep this file safe!\n\nThe downloaded JSON file looks like this:\n{\n  \"type\": \"service_account\",\n  \"project_id\": \"ee-myproject\",\n  \"private_key_id\": \"abc123def456ghi789jkl012mno345pqr678stu9\",\n  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASC...(long key)...\\n-----END PRIVATE KEY-----\\n\",\n  \"client_email\": \"my-gee-bot@ee-myproject.iam.gserviceaccount.com\",\n  \"client_id\": \"123456789012345678901\",\n  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/my-gee-bot%40ee-myproject.iam.gserviceaccount.com\",\n  \"universe_domain\": \"googleapis.com\"\n}\n\n\nStep 5: Register the Service Account with Earth Engine\n\nGo to Earth Engine → Assets\nOr visit: https://signup.earthengine.google.com/#!/service_accounts\nRegister your service account email (e.g., my-gee-bot@ee-myproject.iam.gserviceaccount.com)"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#project-structure",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#project-structure",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "4. Project Structure",
+    "text": "4. Project Structure\nYour GitHub repository should have this structure:\nmy-gee-app/\n├── .streamlit/\n│   └── secrets.toml       ← ⚠️ DO NOT commit this to GitHub!\n├── app.py                  ← Main Streamlit application\n├── requirements.txt        ← Python dependencies\n├── setup.sh                ← (Optional) Streamlit config\n└── .gitignore              ← Must include secrets.toml\n\n.gitignore\nMake sure your .gitignore includes:\n.streamlit/secrets.toml\n*.json\n__pycache__/\n\n⚠️ NEVER commit your service account JSON or secrets.toml to GitHub. Your private key would be exposed publicly!"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#writing-the-streamlit-app",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#writing-the-streamlit-app",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "5. Writing the Streamlit App",
+    "text": "5. Writing the Streamlit App\nHere’s a complete working app that displays NASA SRTM elevation data on a Folium map:\nimport streamlit as st\nimport ee\nimport json\nimport tempfile\nimport os\nimport folium\nfrom streamlit_folium import st_folium\n\n# --- Page Config ---\nst.set_page_config(layout=\"wide\", page_title=\"GEE Elevation Explorer\")\n\n# --- Earth Engine Authentication ---\ntry:\n    json_key = None\n    if 'json_data' in st.secrets:\n        json_key = 'json_data'\n    elif 'EE_SERVICE_ACCOUNT' in st.secrets:\n        json_key = 'EE_SERVICE_ACCOUNT'\n\n    if json_key:\n        # For Streamlit Cloud: write JSON to temp file, then authenticate\n        service_account_json = st.secrets[json_key]\n        key_path = os.path.join(tempfile.gettempdir(), 'ee_service_account.json')\n        with open(key_path, 'w') as f:\n            f.write(service_account_json)\n\n        sa_email = st.secrets.get(\n            'service_account',\n            json.load(open(key_path))['client_email']\n        )\n\n        credentials = ee.ServiceAccountCredentials(sa_email, key_file=key_path)\n        ee.Initialize(credentials, project='ee-myproject')\n    else:\n        # For local development\n        ee.Initialize(project='ee-myproject')\n\nexcept Exception as e:\n    st.error(\"🔑 Earth Engine Authentication Failed\")\n    st.write(f\"**Error:** {e}\")\n    st.stop()\n\n# --- App Content ---\nst.title(\"🛰️ NASA SRTM Elevation Explorer\")\n\nlat, lon = 20.4625, 85.8828\ndem = ee.Image('USGS/SRTMGL1_003')\n\nvis_params = {\n    'min': 0,\n    'max': 100,\n    'palette': ['006633', 'E5FFCC', '662A00', 'D8D8D8', 'F5F5F5']\n}\n\ndem_map_id = dem.getMapId(vis_params)\n\nm = folium.Map(location=[lat, lon], zoom_start=12)\n\nfolium.TileLayer(\n    tiles=dem_map_id['tile_fetcher'].url_format,\n    attr='Google Earth Engine',\n    name='SRTM Elevation',\n    overlay=True,\n    control=True\n).add_to(m)\n\nfolium.Marker(\n    location=[lat, lon],\n    popup='Study Location',\n    icon=folium.Icon(color='red', icon='info-sign')\n).add_to(m)\n\nfolium.LayerControl().add_to(m)\n\nst_folium(m, width=None, height=550, use_container_width=True)\n\n🔑 Key Design Decisions in the Authentication Code\nWhy use a temp file instead of json.loads()?\n# ❌ FRAGILE — breaks with TOML escape characters\nsa_info = json.loads(st.secrets['json_data'])\ncredentials = ee.ServiceAccountCredentials(\n    sa_info['client_email'],\n    key_data=st.secrets['json_data']\n)\n\n# ✅ ROBUST — writes to temp file, avoids all escape issues\nservice_account_json = st.secrets[json_key]\nkey_path = os.path.join(tempfile.gettempdir(), 'ee_service_account.json')\nwith open(key_path, 'w') as f:\n    f.write(service_account_json)\ncredentials = ee.ServiceAccountCredentials(sa_email, key_file=key_path)\nThe json.loads() approach fails because TOML multi-line strings can mangle the \\n escape characters in the private key, causing Invalid \\escape errors. The temp file approach completely avoids this.\nWhy NOT use geemap?\nThe geemap library is great locally but causes BoxKeyError crashes on Streamlit Cloud due to python-box version conflicts with xyzservices. Using plain folium + ee is much more reliable for deployment."
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#setting-up-secrets.toml",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#setting-up-secrets.toml",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "6. Setting Up secrets.toml",
+    "text": "6. Setting Up secrets.toml\nThis is the most critical step and where most errors originate.\n\n✅ Correct Format\nThe secrets.toml file must use TOML triple-quoted literal strings ('''). Copy the entire content of your downloaded JSON file between the triple quotes:\njson_data = '''\n{\n  \"type\": \"service_account\",\n  \"project_id\": \"ee-myproject\",\n  \"private_key_id\": \"abc123def456ghi789jkl012mno345pqr678stu9\",\n  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcw...\\n...(your full private key here)...\\n-----END PRIVATE KEY-----\\n\",\n  \"client_email\": \"my-gee-bot@ee-myproject.iam.gserviceaccount.com\",\n  \"client_id\": \"123456789012345678901\",\n  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/my-gee-bot%40ee-myproject.iam.gserviceaccount.com\",\n  \"universe_domain\": \"googleapis.com\"\n}\n'''\n\nservice_account = 'my-gee-bot@ee-myproject.iam.gserviceaccount.com'\n\n\n⚠️ Common Mistakes with secrets.toml\n\n❌ Mistake 1: Using double-quoted TOML strings\n# WRONG — double quotes process escape sequences and will break your key\njson_data = \"\"\"\n{\n  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\n...\"\n}\n\"\"\"\nFix: Always use single-quoted triple strings ('''), which are TOML literal strings that preserve content exactly as-is.\n\n\n❌ Mistake 2: Corrupted private key (missing \\n)\nIf you manually copy-paste the JSON, you might accidentally delete a \\n from the private key. For example:\n# BROKEN — \\S is not a valid JSON escape\n...iRPF\\So8xuaXk7...\n\n# CORRECT — \\n followed by So8x\n...iRPF\\nSo8xuaXk7...\nFix: Always copy the JSON directly from the downloaded .json file. Don’t hand-edit the private key.\n\n\n❌ Mistake 3: Extra whitespace or line breaks inside the JSON\nThe JSON content between ''' and ''' must be valid JSON. Avoid adding extra line breaks or tabs.\n\n\n\n✅ Best Practice: Generate secrets.toml Programmatically\nTo avoid copy-paste errors, use this Python script:\n# generate_secrets.py\nimport sys\n\njson_path = sys.argv[1]  # Path to your downloaded .json key file\n\nwith open(json_path, 'r') as f:\n    json_content = f.read().strip()\n\n# Extract client_email from JSON\nimport json\ndata = json.loads(json_content)\nemail = data['client_email']\n\ntoml = f\"json_data = '''\\n{json_content}\\n'''\\n\\nservice_account = '{email}'\\n\"\n\nwith open('.streamlit/secrets.toml', 'w') as f:\n    f.write(toml)\n\nprint(f\"✅ secrets.toml generated successfully!\")\nprint(f\"   Service account: {email}\")\nRun it:\npython generate_secrets.py path/to/your-service-account-key.json\n\n\nWhere to Put Secrets\n\n\n\n\n\n\n\nEnvironment\nLocation\n\n\n\n\nLocal development\n.streamlit/secrets.toml file (in your project root)\n\n\nStreamlit Cloud\nApp Settings → Secrets (paste the same content)"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#configuring-requirements.txt",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#configuring-requirements.txt",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "7. Configuring requirements.txt",
+    "text": "7. Configuring requirements.txt\nKeep it minimal — fewer dependencies = fewer bugs:\nstreamlit\nstreamlit-folium\nearthengine-api\nfolium\nfpdf\n\n⚠️ Dependency Pitfalls to Avoid\n\n\n\n\n\n\n\n\nPackage\nProblem\nRecommendation\n\n\n\n\ngeemap\nCauses BoxKeyError due to python-box conflicts\nDon’t use — use plain folium + ee\n\n\npython-box\nVersion conflicts with geemap and xyzservices\nDon’t install unless absolutely needed\n\n\nleafmap\nHeavy dependency, may conflict\nRemove if not needed"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#deploying-to-streamlit-cloud",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#deploying-to-streamlit-cloud",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "8. Deploying to Streamlit Cloud",
+    "text": "8. Deploying to Streamlit Cloud\n\nStep 1: Push to GitHub\ngit init\ngit add app.py requirements.txt setup.sh .gitignore\ngit commit -m \"Initial GEE Streamlit app\"\ngit remote add origin https://github.com/yourusername/your-repo.git\ngit push -u origin main\n\n⚠️ Do NOT push secrets.toml or .json key files!\n\n\n\nStep 2: Deploy on Streamlit Cloud\n\nGo to share.streamlit.io\nClick “New app”\nConnect your GitHub repo\nSet:\n\nRepository: yourusername/your-repo\nBranch: main\nMain file path: app.py\n\nClick Deploy\n\n\n\nStep 3: Add Secrets on Streamlit Cloud\n\nOnce deployed, click “Manage app” (bottom-right corner)\nClick the ⋮ (three dots) → Settings\nGo to the “Secrets” tab\nPaste the entire content of your secrets.toml file\nClick Save\n\n\n💡 Changes to secrets take about 1 minute to propagate. You may need to reboot the app."
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#configuring-google-cloud-iam-permissions",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#configuring-google-cloud-iam-permissions",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "9. Configuring Google Cloud IAM Permissions",
+    "text": "9. Configuring Google Cloud IAM Permissions\nEven after authentication succeeds, you may get permission errors. The service account needs specific IAM roles on your GCP project.\n\nRequired Roles\nGo to IAM & Admin → IAM and grant these roles to your service account:\n\n\n\n\n\n\n\nRole\nPurpose\n\n\n\n\nService Usage Consumer\nAllows calling Google APIs on the project\n\n\nEarth Engine Resource Writer\nAllows running Earth Engine computations\n\n\n\n\n\nHow to Grant Roles\n\nGo to console.cloud.google.com/iam-admin/iam?project=YOUR_PROJECT_ID\nClick “+ GRANT ACCESS”\nIn “New principals”, enter your service account email:\nmy-gee-bot@ee-myproject.iam.gserviceaccount.com\nUnder “Select a role”, add:\n\nService Usage Consumer\nClick “+ ADD ANOTHER ROLE”\nEarth Engine Resource Writer\n\nClick Save\n\n\n⏳ Important: Permission changes can take 2-5 minutes to propagate. Be patient!"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#common-errors-solutions",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#common-errors-solutions",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "10. Common Errors & Solutions",
+    "text": "10. Common Errors & Solutions\nHere are the exact errors you’ll encounter during deployment, in the order they typically appear, and how to fix each one.\n\n\nError 1: Earth Engine Authentication Failed\n🔑 Earth Engine Authentication Failed\n\nError Details: Please authorize access to your Earth Engine account by running\nearthengine authenticate\nin your command line, or ee.Authenticate() in Python, and then retry.\nCause: The app can’t find the service account credentials.\nFix: - Ensure secrets.toml is correctly formatted (see Section 6) - On Streamlit Cloud: paste secrets in App Settings → Secrets - Check that json_data key name matches what your code expects - Make sure your code checks st.secrets for the correct key:\nif 'json_data' in st.secrets:\n    # Use secrets\n\n\n\nError 2: Invalid \\escape: line X column Y\nError Details: Invalid \\escape: line 5 column 1036 (char 1173)\nCause: The private key in your JSON contains \\n sequences for line breaks. If any \\n gets corrupted during copy-paste (e.g., \\nS becomes \\S), json.loads() fails because \\S is not a valid JSON escape.\nFix: 1. Don’t use json.loads() — use the temp file approach instead:\n# Write the secret string to a file — bypasses JSON escape issues\nservice_account_json = st.secrets['json_data']\nkey_path = os.path.join(tempfile.gettempdir(), 'ee_service_account.json')\nwith open(key_path, 'w') as f:\n    f.write(service_account_json)\n\ncredentials = ee.ServiceAccountCredentials(sa_email, key_file=key_path)\n\nRegenerate secrets.toml from the original JSON file using the Python script in Section 6.\nVerify your JSON is valid before deploying:\n\n# verify_secrets.py\nimport json\n\nwith open('.streamlit/secrets.toml', 'r') as f:\n    content = f.read()\n\nmarker = \"'''\"\nstart = content.index(marker) + 3\nend = content.index(marker, start)\njson_str = content[start:end].strip()\n\ntry:\n    data = json.loads(json_str)\n    print(\"✅ JSON is VALID!\")\n    print(\"   client_email:\", data['client_email'])\nexcept json.JSONDecodeError as e:\n    print(\"❌ JSON ERROR:\", e)\n\n\n\nError 3: Caller does not have required permission to use project\nError Details: Caller does not have required permission to use project\n'projects/ee-myproject'. Grant the caller the\nroles/serviceusage.serviceUsageConsumer role...\nCause: Authentication succeeded, but the service account lacks the Service Usage Consumer IAM role.\nFix: 1. Go to IAM & Admin → IAM 2. Click “+ GRANT ACCESS” 3. Add your service account email as principal 4. Assign role: Service Usage Consumer 5. Click Save 6. Wait 2-3 minutes, then reboot the app\n\n\n\nError 4: Permission 'earthengine.computations.create' denied\nError Details: Permission 'earthengine.computations.create' denied on\nresource 'projects/ee-myproject' (or it may not exist).\nCause: The service account can call Google APIs but doesn’t have Earth Engine-specific permissions.\nFix: 1. Go to IAM & Admin → IAM 2. Find your service account and click the edit (✏️) icon 3. Click “+ ADD ANOTHER ROLE” 4. Add: Earth Engine Resource Writer 5. Click Save 6. Wait 2-3 minutes, then reboot the app\n\n\n\nError 5: BoxKeyError (geemap + python-box conflict)\nbox.exceptions.BoxKeyError: This app has encountered an error.\n\nTraceback:\n  File \"app.py\", line 45, in &lt;module&gt;\n    import geemap.foliumap as geemap\n  File \".../geemap/foliumap.py\", line 46, in &lt;module&gt;\n    basemaps = box.Box(basemaps.xyz_to_folium(), frozen_box=True)\nCause: geemap uses python-box internally, and version conflicts between python-box, xyzservices, and geemap cause crashes on Streamlit Cloud.\nFix: Don’t use geemap for Streamlit Cloud deployments. Use plain folium + earthengine-api:\n# ❌ AVOID\nimport geemap.foliumap as geemap\nm = geemap.Map(center=[lat, lon], zoom=12)\nm.addLayer(srtm, vis_params, 'SRTM')\n\n# ✅ USE INSTEAD\nimport folium\ndem_map_id = dem.getMapId(vis_params)\nm = folium.Map(location=[lat, lon], zoom_start=12)\nfolium.TileLayer(\n    tiles=dem_map_id['tile_fetcher'].url_format,\n    attr='Google Earth Engine',\n    name='SRTM Elevation',\n    overlay=True,\n    control=True\n).add_to(m)\nUpdate requirements.txt:\n# Remove these:\n# geemap\n# leafmap\n# python-box==6.1.0\n# xyzservices\n\n# Keep these:\nstreamlit\nstreamlit-folium\nearthengine-api\nfolium\nfpdf\n\n\n\nError Troubleshooting Flowchart\nApp shows error\n│\n├── \"Please authorize access\" or \"Authentication Failed\"\n│   └── → Check secrets.toml format & Streamlit Cloud Secrets\n│\n├── \"Invalid \\escape\"\n│   └── → Use temp file approach, regenerate secrets.toml from original JSON\n│\n├── \"does not have required permission\" / \"serviceUsageConsumer\"\n│   └── → Add Service Usage Consumer role in GCP IAM\n│\n├── \"earthengine.computations.create denied\"\n│   └── → Add Earth Engine Resource Writer role in GCP IAM\n│\n├── \"BoxKeyError\" / python-box crash\n│   └── → Remove geemap, use plain folium + ee\n│\n└── App loads but map is blank\n    └── → Check if EE API is enabled in GCP Console"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#final-checklist",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#final-checklist",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "11. Final Checklist",
+    "text": "11. Final Checklist\nBefore deploying, verify each item:\n\nService account created in GCP\nJSON key downloaded\nService account registered with Earth Engine\nsecrets.toml generated from original JSON (not hand-edited)\nsecrets.toml is in .gitignore\nSecrets pasted in Streamlit Cloud Dashboard\nrequirements.txt has earthengine-api, folium, streamlit-folium\nrequirements.txt does NOT have geemap, python-box, leafmap\nCode uses temp file approach for credentials (not json.loads)\nIAM role: Service Usage Consumer granted\nIAM role: Earth Engine Resource Writer granted\nEarth Engine API enabled in GCP Console\nWaited 2-3 minutes after IAM changes before testing"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#resources",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#resources",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "12. Resources",
+    "text": "12. Resources\n\n\n\nResource\nLink\n\n\n\n\nStreamlit Cloud\nshare.streamlit.io\n\n\nStreamlit Secrets Management\ndocs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management\n\n\nGoogle Earth Engine\nearthengine.google.com\n\n\nGEE Python API Docs\ndevelopers.google.com/earth-engine/guides/python_install\n\n\nGCP IAM Console\nconsole.cloud.google.com/iam-admin/iam\n\n\nGCP Service Accounts\nconsole.cloud.google.com/iam-admin/serviceaccounts\n\n\nFolium Documentation\npython-visualization.github.io/folium\n\n\nFPDF Documentation\npy-pdf.github.io/fpdf2/"
+  },
+  {
+    "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html#about-this-guide",
+    "href": "posts/2026_03_05_deploy_gee_streamlit/index.html#about-this-guide",
+    "title": "Deploying a Google Earth Engine App on Streamlit Cloud",
+    "section": "About This Guide",
+    "text": "About This Guide\nThis guide was written based on real deployment experience, documenting every error encountered and resolved during the process of deploying a Google Earth Engine SRTM elevation analysis app to Streamlit Cloud. Every error and solution described here was encountered and verified firsthand.\nKey Takeaways: 1. Use temp file approach for credentials — never json.loads() on TOML strings 2. Use plain folium — avoid geemap on Streamlit Cloud 3. Don’t forget IAM roles — both Service Usage Consumer AND Earth Engine Resource Writer 4. Generate your secrets.toml programmatically — don’t copy-paste the private key manually\n\nLast updated: March 2026"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Deploying a Google Earth Engine App on Streamlit Cloud\n\n\n\nGEE\n\nStreamlit\n\nDeployment\n\nPython\n\nCloud\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\nGeography\n\nHistory\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nGIS\n\nTheory\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "Fooding | Coding | Writing | Travelling\n\n LinkedIn  Scholar  YouTube  Email"
+  },
+  {
+    "objectID": "index.html#recent-events",
+    "href": "index.html#recent-events",
+    "title": "Pulakesh Pradhan",
+    "section": "📅 Recent Events",
+    "text": "📅 Recent Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\nNo matching items\n\n View all events"
+  },
+  {
+    "objectID": "index.html#latest-insights",
+    "href": "index.html#latest-insights",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Insights",
+    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nDeploying a Google Earth Engine App on Streamlit Cloud\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nMar 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
+  },
+  {
+    "objectID": "index.html#social-updates",
+    "href": "index.html#social-updates",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Social Updates",
+    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
+  },
+  {
+    "objectID": "index.html#groups-i-manage",
+    "href": "index.html#groups-i-manage",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Groups I Manage",
+    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Pulakesh Pradhan",
+    "section": "📚 Recent Publications",
+    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
+  },
+  {
+    "objectID": "index.html#typing-proficiency",
+    "href": "index.html#typing-proficiency",
+    "title": "Pulakesh Pradhan",
+    "section": "⌨️ Typing Proficiency",
+    "text": "⌨️ Typing Proficiency\n\n\n\nVerified on Ratatype: 57 WPM, 99.6% Accuracy"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "",
+    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🧠 The Social Science Perspective: Understanding “Place”",
+    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
+    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🤝 The Convergence: Why We Need Both",
+    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "",
+    "text": "Geography as an academic discipline in India has seen a remarkable evolution, transitioning from a colonial descriptive tool to a high-tech spatial science. Central to this journey has been the birth and growth of various geographical organizations and societies. These bodies have not only provided a platform for researchers but have also shaped the curriculum and policy advocacy for the discipline (National Association of Geographers, India [NAGI], 2024; Shodhganga, 2020)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-early-foundations-1920s-1940s",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "The Early Foundations (1920s – 1940s)",
+    "text": "The Early Foundations (1920s – 1940s)\nThe formal institutionalization of Geography in India began in the early 1920s. The Aligarh Muslim University (AMU) Department of Geography stands as a primary pioneer, established as an independent undergraduate department in 1924 (Aligarh Muslim University, n.d.). Led by Major E. W. Dann (an Oxford graduate and first chairman), the department was the first of its kind in the Indian subcontinent and was later dubbed the “Mecca of Geography” by British geographers (Wikipedia, 2024).\nSoon after, the Indian Geographical Society (IGS) was established in 1926 in Chennai (as the Madras Geographical Association), holding the distinction of being the oldest registered society (Indian Geographical Society, 2024). Founded by Prof. N. Subrahmanyam, it paved the way for professional geographical discourse in South Asia (University of Madras, 2023)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#the-growth-of-national-specialized-bodies-1960s-1980s",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "The Growth of National & Specialized Bodies (1960s – 1980s)",
+    "text": "The Growth of National & Specialized Bodies (1960s – 1980s)\nAs the discipline matured, the need for a national umbrella organization led to the establishment of the National Association of Geographers, India (NAGI) in 1978 (NAGI, 2024). Based at the Delhi School of Economics, NAGI has since been the primary coordinator for the annual Indian Geography Congress.\nThis period also saw the rise of specialized societies: * Indian Society of Remote Sensing (ISRS) (1969): Bridging geography with space technology (Indian Society of Remote Sensing, 2025). * Association of Population Geographers of India (1978): Focusing on the demographic complexities of India (Association of Population Geographers of India, 2023). * Institute of Indian Geographers (IIG), Pune (1979): Promoting rigorous scientific research across all sub-fields (Institute of Indian Geographers, 2024)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#institutional-directory-of-geography-in-india",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Institutional Directory of Geography in India",
+    "text": "Institutional Directory of Geography in India\nThe following directory outlines the historical and contemporary geographical associations in India, categorized by their establishment years and current executive leadership.\n\n\n\nAssociation / Society\nEstd.\nHost Institution / Region\nCurrent Representative(s)\n\n\n\n\nAligarh Geographical Society\n1924*\nAMU, Aligarh\nProf. Ateeque Ahmed\n\n\nIGS (Chennai)\n1926\nUniversity of Madras\nProf. N. Sivagnanam (President), Prof. R. Jaganathan (Gen Secy)\n\n\nGSI (Kolkata)\n1933\nUniversity of Calcutta\nSmt. Suprova Ray (President), Prof. Apurba Rabi Ghosh (Hony. Secy)\n\n\nAllahabad Geographical Society\n1937\nAllahabad University\nProf. Manorama Sinha\n\n\nNGSI (Varanasi)\n1946\nBHU, Varanasi\nProfessor V. N. Sharma (Hony. Secretary)\n\n\nDeccan Geographical Society\n1962\nSP Pune University\nProf. B. C. Vaidya (Executive)\n\n\nAGTI Trust\n1963\nChennai\nDr. Saraswathi Ragunathan\n\n\nUttar Bharat Bhoogol Parishad\n1965\nGorakhpur\nProf. V. K. Srivatsava\n\n\nRGA (Rajasthan)\n1965\nBhilwara\nDr. S. S. Bhat\n\n\nNEIGS (Guwahati)\n1968\nGauhati University\nProf. Abani K. Bhagabati & Prof. Bimal K. Kar\n\n\nAssociation of Bengal Geographers\n1970*\nBurdwan University\nProf. N. C. Jana\n\n\nHimalayan Samiksha Parishad\n1976\nKolkata\nProf. Sunando Banarjee\n\n\nNAGI (National Association)\n1978\nDelhi School of Economics\nProf. Salahuddin Qureshi (President), Prof. A K Saha (Secy. General)\n\n\nAPGI (Chandigarh)\n1978\nPanjab University\nProf. Krishna Mohan (President), Dr. Gaurav Kalotra (Secretary)\n\n\nIIG (Pune)\n1979\nPune University\nProf. D. K. Nayak (President), Prof. Ravindra G. Jaybhaye (Secy General)\n\n\nILEE (Kolkata)\n1983\nKolkata\nProf. L. N. Satpati (Director)\n\n\nMBP (Maharashtra)\n1984\nPune\nProf. Praveen Saptarshi\n\n\nIGI (Geomorphologists)\n1988\nUniversity of Allahabad\nProf. Sunil Kumar De (President)\n\n\nISG (Geomatics)\n1993\nISRO-SAC, Ahmedabad\nExecutive Council\n\n\nAssociation of Punjab Geographers\n1998\nPatiala\nProf. H. S. Mangat\n\n\nAGBJ (Bihar/JH)\n1999\nPatna University\nProf. Devender Prasad Singh\n\n\nUGIT (Bengaluru)\n2004\nBangalore University\nProf. Ashok Hanjagi\n\n\nGAG (Goa)\n2007\nGoa\nProf. Prabirkumar Rath\n\n\nISSS (Spatial Scientists)\n2010\nKolkata\nProf. Ashis Sarkar\n\n\nKonkan Geographers Association\n2010\nSindhudurg\nProf. R.B. Patil\n\n\n\n*Years marked with asterisks denote early informal society formations or departmental origins."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#prominent-geography-journals-in-india",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Prominent Geography Journals in India",
+    "text": "Prominent Geography Journals in India\nScholarship in Indian geography is largely disseminated through peer-reviewed journals published by the various societies. These journals serve as the primary repositories for spatial data and regional analysis in the subcontinent (Shodhganga, 2020).\n\n\n\nJournal Name\nFrequency\nPublishing Body\nIndexing / Status\n\n\n\n\nAnnals of the NAGI\nBi-annual\nNAGI\nUGC-CARE Listed\n\n\nTransactions of the IIG\nBi-annual\nIIG Pune\nScopus Indexed\n\n\nIndian Geographical Journal\nBi-annual\nIGS Chennai\nUGC-CARE Listed\n\n\nGeographical Review of India\nQuarterly\nGSI Kolkata\nPeer-reviewed\n\n\nNational Geographical Journal of India\nQuarterly\nNGSI Varanasi\nPeer-reviewed\n\n\nThe Deccan Geographer\nBi-annual\nDeccan Geog. Society\nUGC-CARE Listed\n\n\nPopulation Geography\nBi-annual\nAPGI Chandigarh\nUGC-CARE Listed\n\n\nJournal of Indian Geomorphology\nAnnual\nIGI Allahabad\nUGC-CARE Listed\n\n\nUttar Bharat Bhoogol Patrika\nBi-annual\nUBBP Gorakhpur\nPeer-reviewed\n\n\nThe Konkan Geographer\nBi-annual\nKonkan Geog. Assoc.\nPeer-reviewed"
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#modern-era-geospatial-expansion-gis",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Modern Era: Geospatial Expansion & GIS",
+    "text": "Modern Era: Geospatial Expansion & GIS\nIn the 21st century, organizations like the Association of Geospatial Industries (AGI) and Indian Society of Geomatics (ISG) have taken the lead in integrating satellite-based remote sensing, LiDAR, and GIS into the geographical framework (AGI, 2024; ISG, 2024). These organizations foster collaboration between the industry and academia, ensuring that Indian geographers remain at the forefront of the global spatial revolution.\nThe participation of Indian representatives in the Asian Geographical Association (est. 2018) further exemplifies the global reach of Indian geographical research (Asian Geographical Association, 2024)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#upcoming-geographical-events",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Upcoming Geographical Events",
+    "text": "Upcoming Geographical Events\nMaintaining engagement with the academic community is central to the growth of the discipline. Key events scheduled for the upcoming sessions include:\n\nXXII INQUA Congress 2027 India\n\nDates: January 28 – February 3, 2027\nLocation: Lucknow, India\n\nWestern Regional Conference: IASP 2026\n\nDates: March 20-21, 2026\nHost: Goa Business School, Goa University"
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#recent-geographical-events",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Recent Geographical Events",
+    "text": "Recent Geographical Events\nThe community has recently concluded several landmark scientific meetings:\n\n3rd Indian Quaternary Congress 2026: January 19-23, 2026.\n47th Indian Geography Congress (NAGI) 2025: University of Rajasthan, Jaipur (Nov 13-15, 2025).\n46th IIG Annual Meet & International Conference 2025: HNBGU, Uttarakhand (Oct 25-27, 2025)."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#conclusion",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "Conclusion",
+    "text": "Conclusion\nFrom the local “Madras Geographical Association” of 1926 to the high-tech geospatial societies of today, geographical organizations in India have been the pillars of the discipline. They continue to play a crucial role in addressing national challenges—from urban planning and disaster management to climate change analysis—demonstrating that Geography is not just about mapping the world, but about understanding and improving it."
+  },
+  {
+    "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
+    "href": "posts/2026-02-19-history-geographical-organisations-india/index.html#references",
+    "title": "The Evolution of Geographical Organizations in India",
+    "section": "References",
+    "text": "References\nAligarh Muslim University. (n.d.). Department of Geography: Our Heritage. https://www.amu.ac.in/department/geography\nAsian Geographical Association. (2024). Founding committee and member countries. http://asiageo.net\nAssociation of Geographers in Bihar and Jharkhand. (2024). Mission and executive council. http://agbj.org.in\nAssociation of Population Geographers of India. (2023). Executive body term 2023-2025. http://apgin.org\nDeccan Geographical Society. (2024). About the society and journal. http://dgsi.org.in\nGeographical Society of India. (2019). Founding principles and history. http://geographicalsocietyofindia.org.in\nGauhati University. (n.d.). History of the Department of Geography. https://gauhati.ac.in/department/geography\nIndian Geographical Society. (2024). History of IGS Chennai. http://igschennai.org\nIndian Society of Remote Sensing. (2025). About ISRS: History and objectives. https://isrsindia.in\nInstitute of Indian Geographers. (2024). Constitution and executive council 2024-25. https://iigeo.org\nMaharashtra Bhugolshastra Parishad. (2024). About us: Journey since 1984. http://mbpune.org.in\nNational Association of Geographers, India. (2024). Official lists: Executive committee 2024-25. https://sites.google.com/view/nagiorgin/home\nNational Geographical Society of India. (2024). Publications and secretary journals. http://ngsi.in\nRajasthan Geographical Association. (2024). History and regional impact. http://rga.ac.in\nShodhganga. (2020). Institutional framework for geography in India. http://inflibnet.ac.in\nUniversity of Madras. (2023). Department of Geography: Research & societies. https://unom.ac.in\nWikipedia contributors. (2024). Major E. W. Dann and the roots of Indian geography. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Department_of_Geography,_Aligarh_Muslim_University"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": ":::"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": ":::"
+  },
+  {
+    "objectID": "publications.html#book-chapters",
+    "href": "publications.html#book-chapters",
+    "title": "Publications",
+    "section": "📚 Book Chapters",
+    "text": "📚 Book Chapters\n\n\n\nApplication of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine\n\n\n\n\n\n\n\nPradhan, P., Bajpai, R., & Patra, S. (2025)\n\n\nIn Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier\n\n\nThis research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.\n\n\n  Download    DOI \n\n\n\n\n\n\nAgricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal\n\n\n\n\n\n\n\nPradhan, P., & Patra, S. (2024)\n\n\nIn Modern Cartography Series, Elsevier\n\n\nThis study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, I analyze spatiotemporal drought patterns and their impact on local agriculture.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#presentations",
+    "href": "publications.html#presentations",
+    "title": "Publications",
+    "section": "🎤 Presentations",
+    "text": "🎤 Presentations\n\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nGDG for Earth Engine Nairobi (Virtual)\n\n\nA demonstration of integrating Large Language Models (LLMs) with geospatial platforms. This workshop showcases how a Gemini-powered AI assistant can streamline complex GEE coding tasks for drought monitoring, making cloud-based remote sensing more accessible to researchers.\n\n\n  Download    DOI \n\n\n\n\n:::"
+  },
+  {
+    "objectID": "publications.html#posters",
+    "href": "publications.html#posters",
+    "title": "Publications",
+    "section": "🖼️ Posters",
+    "text": "🖼️ Posters\n\n\n\nNear Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images\n\n\n\n\n\nUnable to display PDF. Download here.\n\n\n\n\n\nPradhan, P., & Bajpai, R. (2023)\n\n\nOdisha Research Conclave (ORC-2023)\n\n\nThis poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.\n\n\n  Download PDF    Details \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
+  },
+  {
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
+    "section": "",
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html",
+    "href": "events/gee-training-apr-2025.html",
+    "title": "10-Day GEE Training Sessions",
+    "section": "",
+    "text": "Topic: Google Earth Engine (GEE) Training Sessions\nResource Person: Pulakesh Pradhan\nHost: Centurion University, Bhubaneswar\nStatus: Successfully Concluded!\nDelighted to share a few glimpses from the recently concluded 10-day Google Earth Engine (GEE) Training, where I had the privilege of leading and teaching as a resource person.\nThis training, conducted by Centurion University, Bhubaneswar, provided participants with hands-on experience in geospatial data processing, remote sensing, and cloud-based geospatial analytics using Google Earth Engine."
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
+    "href": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
+    "title": "10-Day GEE Training Sessions",
+    "section": "📸 Glimpses of Training Outcomes",
+    "text": "📸 Glimpses of Training Outcomes"
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html#key-learning-modules",
+    "href": "events/gee-training-apr-2025.html#key-learning-modules",
+    "title": "10-Day GEE Training Sessions",
+    "section": "🚀 Key Learning Modules",
+    "text": "🚀 Key Learning Modules\nThroughout the training, participants explored:\n✅ Cloud computing for geospatial analysis using JavaScript\n✅ Data handling in GEE (FeatureCollections, ImageCollections)\n✅ Importing and exporting geospatial datasets (shapefiles, raster images, etc.)\n✅ GEE functionalities: filtering, reducers, time-series analysis, and charting\n✅ Machine learning for Land Use Land Cover (LULC) classification\n✅ Applications: Urban Heat Island, Flood Mapping, Forest Monitoring, Surface Water Detection, Water Quality, etc.\n✅ Key datasets covered: Landsat, Sentinel-2, SRTM, FAO GAUL, TerraClimate, CHIRPS, MODIS, CMIP6, etc.\n✅ Advanced Integration: AI, IMD data, and OpenStreetMap (OSM) in GEE\n🙏 A huge appreciation to all participants for their dedication and active engagement. Your enthusiasm made this learning experience truly enriching!\n#GoogleEarthEngine #RemoteSensing #GeospatialAnalysis #EarthObservation #DataScience #MachineLearning #ClimateAnalysis #SustainableDevelopment\n\n📌 More insights: LinkedIn Article | pulakeshpradhan.github.io"
+  }
+]
