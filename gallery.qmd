@@ -128,7 +128,25 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 
 ::: {.gallery-caption}
 **Resource Person**  
-<span>MSBD University training</span>
+<span>Ravenshaw University</span>
+:::
+:::
+
+::: {.gallery-item}
+[![](images/Random/3.jpg){.lightbox group="gallery" description="Unacademy Plus Learner Certificate"}](images/Random/3.jpg)
+
+::: {.gallery-caption}
+**Unacademy**  
+<span>Plus Learner Certificate</span>
+:::
+:::
+
+::: {.gallery-item}
+[![](images/Random/2.jpg){.lightbox group="gallery" description="Ravenshaw University Notice Board"}](images/Random/2.jpg)
+
+::: {.gallery-caption}
+**Ravenshaw University**  
+<span>Notice Board</span>
 :::
 :::
 
