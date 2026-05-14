@@ -98,20 +98,6 @@
     "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
   },
   {
-    "objectID": "innovations.html#streamlit-apps",
-    "href": "innovations.html#streamlit-apps",
-    "title": "Innovations",
-    "section": "🚀 Streamlit Apps",
-    "text": "🚀 Streamlit Apps\n\n\n\n\nSentinel-2 Index Explorer\n\n\nInteractive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.\n\n\n App"
-  },
-  {
-    "objectID": "innovations.html#r-shiny-apps",
-    "href": "innovations.html#r-shiny-apps",
-    "title": "Innovations",
-    "section": "📊 R Shiny Apps",
-    "text": "📊 R Shiny Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App"
-  },
-  {
     "objectID": "innovations.html#google-earth-engine-apps-native",
     "href": "innovations.html#google-earth-engine-apps-native",
     "title": "Innovations",
@@ -119,11 +105,11 @@
     "text": "🌍 Google Earth Engine Apps (Native)\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
   },
   {
-    "objectID": "innovations.html#python-packages",
-    "href": "innovations.html#python-packages",
+    "objectID": "innovations.html#extensions-tools",
+    "href": "innovations.html#extensions-tools",
     "title": "Innovations",
-    "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
+    "section": "🛠️ Extensions & Tools",
+    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
   },
   {
     "objectID": "innovations.html#r-library",
@@ -133,11 +119,25 @@
     "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
   },
   {
-    "objectID": "innovations.html#extensions-tools",
-    "href": "innovations.html#extensions-tools",
+    "objectID": "innovations.html#r-shiny-apps",
+    "href": "innovations.html#r-shiny-apps",
     "title": "Innovations",
-    "section": "🛠️ Extensions & Tools",
-    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
+    "section": "📊 R Shiny Apps",
+    "text": "📊 R Shiny Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App"
+  },
+  {
+    "objectID": "innovations.html#streamlit-apps",
+    "href": "innovations.html#streamlit-apps",
+    "title": "Innovations",
+    "section": "🚀 Streamlit Apps",
+    "text": "🚀 Streamlit Apps\n\n\n\n\nSentinel-2 Index Explorer\n\n\nInteractive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.\n\n\n App"
+  },
+  {
+    "objectID": "innovations.html#python-packages",
+    "href": "innovations.html#python-packages",
+    "title": "Innovations",
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
   },
   {
     "objectID": "gallery.html",
