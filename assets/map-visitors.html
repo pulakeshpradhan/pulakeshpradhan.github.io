@@ -1,0 +1,17 @@
+<div class="visitor-map-wrapper" style="text-align: center; margin-top: 3rem; margin-bottom: 1rem; clear: both;">
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=l5bpSS_CYygFBVL2j9fq6Dcv_JR0zLouO-a98PHr-F4&cl=ffffff&w=a"></script>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Attempt to move the map wrapper before the comments section
+    const mapWrapper = document.querySelector('.visitor-map-wrapper');
+    const comments = document.querySelector('.giscus') || 
+                     document.querySelector('#quarto-comments-block') || 
+                     document.querySelector('.comments');
+    
+    if (mapWrapper && comments) {
+        comments.parentNode.insertBefore(mapWrapper, comments);
+    }
+});
+</script>
