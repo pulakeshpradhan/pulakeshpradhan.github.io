@@ -9,52 +9,6 @@ My work involves developing open-source tools, cloud applications, and browser e
 
 ::: {.innovation-section}
 
-## 🚀 Streamlit Apps
-
-::: {.innovation-grid}
-
-::: {.innovation-card}
-[<img src="innovation/veg_water_explorer.png" class="nolightbox">](https://spatialgeography.streamlit.app/)
-
-::: {.innovation-card-label}
-Sentinel-2 Index Explorer
-:::
-
-::: {.innovation-card-desc}
-Interactive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.
-:::
-
-::: {.innovation-card-links}
-[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.streamlit.app/){.social-btn .stretched-link}
-:::
-
-:::
-
-:::
-
-## 📊 R Shiny Apps
-
-::: {.innovation-grid}
-
-::: {.innovation-card}
-[<img src="https://placehold.co/400x300/e74c3c/ffffff?text=GeoMapper" class="nolightbox">](https://spatialgeography.shinyapps.io/geomapper/)
-
-::: {.innovation-card-label}
-GeoMapper
-:::
-
-::: {.innovation-card-desc}
-Interactive geospatial mapping dashboard built with R Shiny.
-:::
-
-::: {.innovation-card-links}
-[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.shinyapps.io/geomapper/){.social-btn .stretched-link}
-:::
-
-:::
-
-:::
-
 ## 🌍 Google Earth Engine Apps (Native)
 
 ::: {.innovation-grid}
@@ -129,6 +83,120 @@ Real-time monitoring and visualization of flood extent using SAR and multi-spect
 
 :::
 
+
+## 🛠️ Extensions & Tools
+
+::: {.innovation-grid}
+
+::: {.innovation-card}
+[<img src="images/gee_course.jpg" class="nolightbox">](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl)
+
+::: {.innovation-card-label}
+GEE AI Assistant
+:::
+
+::: {.innovation-card-desc}
+Chrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.
+:::
+
+::: {.innovation-card-links}
+[<i class="bi bi-browser-chrome"></i> Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/gee-ai-assistant){.social-btn}
+:::
+
+:::
+
+::: {.innovation-card}
+[<img src="https://placehold.co/400x300/e67e22/ffffff?text=Screenshot" class="nolightbox">](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm)
+
+::: {.innovation-card-label}
+Quick Screenshot
+:::
+
+::: {.innovation-card-desc}
+Browser tool for high-resolution geospatial map capture, optimized for academic publication.
+:::
+
+::: {.innovation-card-links}
+[<i class="bi bi-browser-chrome"></i> Store](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm){.social-btn .stretched-link}
+:::
+
+:::
+
+:::
+
+
+## 📚 R Library
+
+::: {.innovation-grid}
+
+::: {.innovation-card}
+[<img src="https://placehold.co/400x300/2980b9/ffffff?text=rpygee" class="nolightbox">](https://pulakeshpradhan.github.io/rpygee/)
+
+::: {.innovation-card-label}
+rpygee
+:::
+
+::: {.innovation-card-desc}
+An R wrapper providing a seamless interface to run Google Earth Engine via the Python API.
+:::
+
+::: {.innovation-card-links}
+[<i class="bi bi-book"></i> Docs](https://pulakeshpradhan.github.io/rpygee/){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/rpygee){.social-btn}
+:::
+
+:::
+
+:::
+
+
+## 📊 R Shiny Apps
+
+::: {.innovation-grid}
+
+::: {.innovation-card}
+[<img src="https://placehold.co/400x300/e74c3c/ffffff?text=GeoMapper" class="nolightbox">](https://spatialgeography.shinyapps.io/geomapper/)
+
+::: {.innovation-card-label}
+GeoMapper
+:::
+
+::: {.innovation-card-desc}
+Interactive geospatial mapping dashboard built with R Shiny.
+:::
+
+::: {.innovation-card-links}
+[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.shinyapps.io/geomapper/){.social-btn .stretched-link}
+:::
+
+:::
+
+:::
+
+
+## 🚀 Streamlit Apps
+
+::: {.innovation-grid}
+
+::: {.innovation-card}
+[<img src="innovation/veg_water_explorer.png" class="nolightbox">](https://spatialgeography.streamlit.app/)
+
+::: {.innovation-card-label}
+Sentinel-2 Index Explorer
+:::
+
+::: {.innovation-card-desc}
+Interactive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.
+:::
+
+::: {.innovation-card-links}
+[<i class="bi bi-rocket-takeoff"></i> App](https://spatialgeography.streamlit.app/){.social-btn .stretched-link}
+:::
+
+:::
+
+:::
+
+
 ## 📦 Python Packages
 
 ::: {.innovation-grid}
@@ -186,67 +254,5 @@ Small Python library to interact with LLMs for generating and debugging GEE code
 
 :::
 
-## 📚 R Library
-
-::: {.innovation-grid}
-
-::: {.innovation-card}
-[<img src="https://placehold.co/400x300/2980b9/ffffff?text=rpygee" class="nolightbox">](https://pulakeshpradhan.github.io/rpygee/)
-
-::: {.innovation-card-label}
-rpygee
-:::
-
-::: {.innovation-card-desc}
-An R wrapper providing a seamless interface to run Google Earth Engine via the Python API.
-:::
-
-::: {.innovation-card-links}
-[<i class="bi bi-book"></i> Docs](https://pulakeshpradhan.github.io/rpygee/){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/rpygee){.social-btn}
-:::
-
-:::
-
-:::
-
-## 🛠️ Extensions & Tools
-
-::: {.innovation-grid}
-
-::: {.innovation-card}
-[<img src="images/gee_course.jpg" class="nolightbox">](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl)
-
-::: {.innovation-card-label}
-GEE AI Assistant
-:::
-
-::: {.innovation-card-desc}
-Chrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.
-:::
-
-::: {.innovation-card-links}
-[<i class="bi bi-browser-chrome"></i> Store](https://chromewebstore.google.com/detail/gee-ai-assistant/kldhacnbicjpbdiebjjflnhgcmheokkl){.social-btn .stretched-link} [<i class="bi bi-github"></i> GitHub](https://github.com/pulakeshpradhan/gee-ai-assistant){.social-btn}
-:::
-
-:::
-
-::: {.innovation-card}
-[<img src="https://placehold.co/400x300/e67e22/ffffff?text=Screenshot" class="nolightbox">](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm)
-
-::: {.innovation-card-label}
-Quick Screenshot
-:::
-
-::: {.innovation-card-desc}
-Browser tool for high-resolution geospatial map capture, optimized for academic publication.
-:::
-
-::: {.innovation-card-links}
-[<i class="bi bi-browser-chrome"></i> Store](https://chromewebstore.google.com/detail/koeblknkgkpklkpcbfigakkfnhkkadnm){.social-btn .stretched-link}
-:::
-
-:::
-
-:::
 
 :::
