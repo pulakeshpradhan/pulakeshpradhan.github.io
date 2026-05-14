@@ -1,5 +1,5 @@
 ---
-title: "Image Gallery"
+title: "Gallery"
 ---
 
 Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.
