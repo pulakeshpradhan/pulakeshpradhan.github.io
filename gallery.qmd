@@ -11,7 +11,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 
 ::: {.gallery-caption}
 **Ravenshaw University**  
-<span>Department of Geography campus views</span>
+<span>Department of Geography</span>
 :::
 :::
 
@@ -29,7 +29,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 
 ::: {.gallery-caption}
 **IIT Bombay**  
-<span>Collaborative research visit</span>
+<span>GROW Event 2025</span>
 :::
 :::
 
@@ -38,7 +38,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 
 ::: {.gallery-caption}
 **IIT Bombay**  
-<span>Field study discussion</span>
+<span>Poster Presentation at GROW Event</span>
 :::
 :::
 
@@ -56,7 +56,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 
 ::: {.gallery-caption}
 **Award Ceremony**  
-<span>Recognizing spatial research excellence</span>
+<span>Sky is the limit...</span>
 :::
 :::
 
@@ -65,7 +65,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 
 ::: {.gallery-caption}
 **BHU GEE Workshop**  
-<span>Banaras Hindu University training session</span>
+<span>Banaras Hindu University session</span>
 :::
 :::
 
@@ -82,8 +82,8 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 [![](images/Ganpat%20University/guni1.jpeg){.lightbox group="gallery" description="Gujarat technical workshop"}](images/Ganpat%20University/guni1.jpeg)
 
 ::: {.gallery-caption}
-**Ganpat University**  
-<span>Gujarat technical workshop</span>
+**AIU Anveshan 2025**  
+<span>Ganpat University</span>
 :::
 :::
 
@@ -91,8 +91,8 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 [![](images/Ganpat%20University/guni4.JPG){.lightbox group="gallery" description="GUNI research talk"}](images/Ganpat%20University/guni4.JPG)
 
 ::: {.gallery-caption}
-**Technical Session**  
-<span>GUNI research talk</span>
+**AIU Anveshan 2025**  
+<span>Ganpat University</span>
 :::
 :::
 
@@ -128,7 +128,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 
 ::: {.gallery-caption}
 **Resource Person**  
-<span>Ravenshaw University</span>
+<span>Maharaja Sriram Chandra Bhanja Deo University</span>
 :::
 :::
 
