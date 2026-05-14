@@ -3,7 +3,7 @@ title: "Courses"
 toc: true
 include-in-header: 
   text: |
-    <script src="assets/js/system-init.js"></script>
+    <script src="../assets/js/system-init.js"></script>
 ---
 
 I maintain several dedicated course sites covering various aspects of spatial data science, programming, and academic tools.
@@ -13,7 +13,7 @@ I maintain several dedicated course sites covering various aspects of spatial da
 ::: {.course-grid}
 
 ::: {.course-card}
-[<img src="images/rspatial_course.png" class="nolightbox">](https://pulakeshpradhan.github.io/rspatial/)
+[<img src="../images/rspatial_course.png" class="nolightbox">](https://pulakeshpradhan.github.io/rspatial/)
 
 ::: {.course-card-body}
 ### R for Spatial Analysis
@@ -26,7 +26,7 @@ Comprehensive guide to handling vector and raster data using R (*sf*, *terra*, *
 :::
 
 ::: {.course-card}
-[<img src="images/gee_course.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/gee/intro.html)
+[<img src="../images/gee_course.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/gee/intro.html)
 
 ::: {.course-card-body}
 ### Google Earth Engine
@@ -52,7 +52,7 @@ Learning spatial data science with Python using *Geopandas*, *Rasterio*, and *Xa
 :::
 
 ::: {.course-card}
-[<img src="images/geeai.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/python-ai/)
+[<img src="../images/geeai.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/python-ai/)
 
 ::: {.course-card-body}
 ### Python for AI-Driven Research
@@ -103,7 +103,7 @@ A comprehensive cross-platform guide for geospatial analysis using Python, R, an
 ::: {.course-grid}
 
 ::: {.course-card}
-[<img src="images/academic_course.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/english/)
+[<img src="../images/academic_course.jpg" class="nolightbox">](https://pulakeshpradhan.github.io/english/)
 
 ::: {.course-card-body}
 ### English for Academics

@@ -3,7 +3,7 @@ title: "Journals"
 toc: true
 include-in-header: 
   text: |
-    <script src="assets/js/system-init.js"></script>
+    <script src="../assets/js/system-init.js"></script>
 ---
 
 The **Web of Science Core Collection™** is the premier resource on the platform and includes over 21,000 peer-reviewed, high-quality scholarly journals.

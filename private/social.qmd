@@ -3,7 +3,7 @@ title: "Social Updates"
 page-layout: full
 include-in-header: 
   text: |
-    <script src="assets/js/system-init.js"></script>
+    <script src="../assets/js/system-init.js"></script>
 ---
 
 ::: {.column-page}
@@ -20,11 +20,11 @@ My Gemini-powered assistant helps researchers and developers write Earth Engine 
 
 <div style="display: flex; gap: 10px; margin-top: 20px;">
 [Install Extension](https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb){style="background: #15803d; border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: white; font-weight: 600; font-size: 0.9rem;"}
-[View Details](innovations.qmd){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #166534; font-weight: 600; font-size: 0.9rem;"}
+[View Details](../innovations.qmd){style="background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.1); padding: 8px 16px; border-radius: 50px; text-decoration: none; color: #166534; font-weight: 600; font-size: 0.9rem;"}
 </div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](images/geeaiassistantusers.png){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb)
+[![](../images/geeaiassistantusers.png){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://chromewebstore.google.com/detail/kldhacnbicjpbdiebjjflnhgcmheokkl?utm_source=item-share-cb)
 :::
 :::
 
@@ -117,7 +117,7 @@ The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessio
 </div>
 :::
 ::: {.social-media style="display: flex; align-items: center;"}
-[![](https://framerusercontent.com/images/Wi4L9x9xNpZwAWcwIW4zC1GU6lY.png?scale-down-to=1024&width=1992&height=2008){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://www.inquaindia2027.in/)
+[![](https://framerusercontent.com/../images/Wi4L9x9xNpZwAWcwIW4zC1GU6lY.png?scale-down-to=1024&width=1992&height=2008){style="border-radius: 12px; width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.08);"}](https://www.inquaindia2027.in/)
 :::
 :::
 

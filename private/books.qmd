@@ -6,7 +6,7 @@ format:
     link-external-newwindow: true
 include-in-header: 
   text: |
-    <script src="assets/js/system-init.js"></script>
+    <script src="../assets/js/system-init.js"></script>
 ---
 
 ## Selected Books
@@ -14,7 +14,7 @@ include-in-header:
 ::: {.software-grid}
 
 ::: {.resource-card}
-[![](https://e-sensing.github.io/sitsbook/images/cover_sits_book_quarto.png){.resource-img}](https://e-sensing.github.io/sitsbook/){.stretched-link}
+[![](https://e-sensing.github.io/sitsbook/../images/cover_sits_book_quarto.png){.resource-img}](https://e-sensing.github.io/sitsbook/){.stretched-link}
 
 ### [SITS: Analysis on EO Data Cubes](https://e-sensing.github.io/sitsbook/)
 Satellite Image Time Series analysis on Earth Observation data cubes.
@@ -63,7 +63,7 @@ Techniques for effective spatial sampling in machine learning projects.
 ::: {.software-grid}
 
 ::: {.resource-card}
-[![](https://openscapes.org/images/logo/openscapes_hex_badge.png){.resource-img}](https://boettiger-lab.github.io/nasa-topst-env-justice/){.stretched-link}
+[![](https://openscapes.org/../images/logo/openscapes_hex_badge.png){.resource-img}](https://boettiger-lab.github.io/nasa-topst-env-justice/){.stretched-link}
 
 ### [Cloud Native Geospatial in R & Python](https://boettiger-lab.github.io/nasa-topst-env-justice/)
 Cloud-native workflows I follow for environmental justice research using R and Python.
@@ -88,7 +88,7 @@ Introduction to statistics and probability using Python (Think Stats).
 :::
 
 ::: {.resource-card}
-[![](https://pypod.github.io/assets/images/logo.png){.resource-img}](https://pypod.github.io/){.stretched-link}
+[![](https://pypod.github.io/assets/../images/logo.png){.resource-img}](https://pypod.github.io/){.stretched-link}
 
 ### [Programming in Python (IIT)](https://pypod.github.io/)
 IIT Madras course materials for programming and data structures in Python.
@@ -102,7 +102,7 @@ IIT Madras course materials for programming and data structures in Python.
 ::: {.software-grid}
 
 ::: {.resource-card}
-[![](https://www.eefabook.org/images/cover.png){.resource-img}](https://www.eefabook.org/){.stretched-link}
+[![](https://www.eefabook.org/../images/cover.png){.resource-img}](https://www.eefabook.org/){.stretched-link}
 
 ### [Cloud-Based RS with GEE](https://www.eefabook.org/)
 The fundamental book for learning Google Earth Engine (EEFA Book).
@@ -155,7 +155,7 @@ Detailed breakdown of the Machine Learning for Remote Sensing workshop at ICLR 2
 :::
 
 ::: {.resource-card}
-[![](https://www.tomasbeuzen.com/python-for-geospatial-analysis/_images/logo.png){.resource-img}](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html){.stretched-link}
+[![](https://www.tomasbeuzen.com/python-for-geospatial-analysis/_../images/logo.png){.resource-img}](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html){.stretched-link}
 
 ### [Python for Geospatial Analysis](https://www.tomasbeuzen.com/python-for-geospatial-analysis/README.html)
 Integrating machine learning workflows into geospatial analysis.

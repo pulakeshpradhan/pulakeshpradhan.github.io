@@ -181,5 +181,32 @@
   },
   "qgis.qmd": {
     "qgis.html": "fc1b531b"
+  },
+  "private/books/ml-remote-sensing.qmd": {
+    "ml-remote-sensing.html": "5e22b626"
+  },
+  "private/books.qmd": {
+    "books.html": "94725a44"
+  },
+  "private/courses.qmd": {
+    "courses.html": "c3a81f27"
+  },
+  "private/jobs/wbcsc-asst-prof-2020.qmd": {
+    "wbcsc-asst-prof-2020.html": "7716380d"
+  },
+  "private/jobs/wbcsc-asst-prof-2026.qmd": {
+    "wbcsc-asst-prof-2026.html": "3d4a4bf6"
+  },
+  "private/jobs.qmd": {
+    "jobs.html": "3d995653"
+  },
+  "private/journals.qmd": {
+    "journals.html": "844a2789"
+  },
+  "private/qgis.qmd": {
+    "qgis.html": "85340dc3"
+  },
+  "private/social.qmd": {
+    "social.html": "6aba34c3"
   }
 }

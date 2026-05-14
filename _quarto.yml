@@ -30,7 +30,7 @@ website:
       - href: gallery.qmd
     right:
       - icon: gem
-        href: journals.html
+        href: private/journals.html
         aria-label: Journals
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
