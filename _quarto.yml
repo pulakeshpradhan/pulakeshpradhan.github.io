@@ -28,9 +28,21 @@ website:
       - href: cv.qmd
         text: CV
       - href: gallery.qmd
+      - href: books.qmd
+        text: Books
+      - href: courses.qmd
+        text: Courses
+      - href: jobs.qmd
+        text: Jobs
+      - href: qgis.qmd
+        text: QGIS
+      - href: social.qmd
+        text: Social
+      - href: innovations.qmd
+        text: Innovations
     right:
       - icon: gem
-        href: private/journals.html
+        href: journals.html
         aria-label: Journals
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/

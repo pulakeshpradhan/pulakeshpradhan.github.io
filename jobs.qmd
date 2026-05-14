@@ -1,9 +1,6 @@
 ---
 title: "Job Opportunities"
 page-layout: full
-include-in-header: 
-  text: |
-    <script src="../assets/js/system-init.js"></script>
 ---
 
 ::: {.column-page}
@@ -199,3 +196,4 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 :::
+

@@ -1,9 +1,6 @@
 ---
 title: "QGIS"
 page-layout: full
-include-in-header: 
-  text: |
-    <script src="../assets/js/system-init.js"></script>
 ---
 
 ::: {.column-page}
@@ -163,3 +160,4 @@ A curated list of YouTube tutorials to help you master Quantum GIS from absolute
 :::
 
 :::
+
