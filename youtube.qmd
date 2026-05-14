@@ -1,0 +1,28 @@
+---
+title: "YouTube"
+page-layout: full
+---
+
+Here are some of my recent video tutorials and presentations. Be sure to subscribe to my channel for more content!
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="ratio ratio-16x9 mb-4 shadow-sm rounded overflow-hidden">
+  <iframe src="https://www.youtube.com/embed/TPCmcoE8TbA?si=UYgiSOTXiFZ8mGE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="ratio ratio-16x9 mb-4 shadow-sm rounded overflow-hidden">
+  <iframe src="https://www.youtube.com/embed/Bpt1lgurIMs?si=FE6wzzX1XbG4obsJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+<div class="ratio ratio-16x9 mb-4 shadow-sm rounded overflow-hidden">
+  <iframe src="https://www.youtube.com/embed/Lfaamxqqk7k?si=Dq1_sigLBhGafh2e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+:::
+
+:::

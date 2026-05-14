@@ -32,6 +32,8 @@ website:
         text: Social
       - href: innovations.qmd
         text: Innovations
+      - href: youtube.qmd
+        text: YouTube
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
