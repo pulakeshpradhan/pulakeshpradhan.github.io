@@ -1,28 +1,65 @@
 ---
-title: "YouTube"
+title: "YouTube Tutorials"
 page-layout: full
+description: "Watch my latest video tutorials and presentations on spatial data science."
 ---
 
-Here are some of my recent video tutorials and presentations. Be sure to subscribe to my channel for more content!
+Welcome to my YouTube channel section. Here I share practical tutorials, tips, and insights on Google Earth Engine, spatial data analysis, and open-source GIS tools. 
+
+[<i class="bi bi-youtube"></i> Subscribe to Spatial Geography](https://www.youtube.com/@SpatialGeography){.btn .btn-danger .mb-5}
+
+## 🌍 Google Earth Engine Workflows
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-lg-6}
-<div class="ratio ratio-16x9 mb-4 shadow-sm rounded overflow-hidden">
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0}
+<div class="card-header bg-white fw-bold" style="color: #1e293b; border-bottom: 1px solid #f1f5f9; padding: 15px 20px;">
+  Google Earth Engine Local Export with Python
+</div>
+<div class="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/TPCmcoE8TbA?si=UYgiSOTXiFZ8mGE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+::: {.card-body style="background: #f8fafc; color: #475569;"}
+Learn how to efficiently export Google Earth Engine data directly to your local machine using Python, saving valuable EECU hours.
+:::
+:::
 :::
 
-::: {.g-col-12 .g-col-lg-6}
-<div class="ratio ratio-16x9 mb-4 shadow-sm rounded overflow-hidden">
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0}
+<div class="card-header bg-white fw-bold" style="color: #1e293b; border-bottom: 1px solid #f1f5f9; padding: 15px 20px;">
+  LULC Sample Generator: Spatial Geography
+</div>
+<div class="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/Bpt1lgurIMs?si=FE6wzzX1XbG4obsJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+::: {.card-body style="background: #f8fafc; color: #475569;"}
+A comprehensive guide to generating training samples for Land Use Land Cover (LULC) classification using automated spatial techniques.
+:::
+:::
 :::
 
-::: {.g-col-12 .g-col-lg-6}
-<div class="ratio ratio-16x9 mb-4 shadow-sm rounded overflow-hidden">
+:::
+
+<hr style="margin: 3rem 0; border-color: #e2e8f0;">
+
+## 🚀 Getting Started with GEE
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .shadow-sm .border-0}
+<div class="card-header bg-white fw-bold" style="color: #1e293b; border-bottom: 1px solid #f1f5f9; padding: 15px 20px;">
+  How to Sign Up for Google Earth Engine
+</div>
+<div class="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/Lfaamxqqk7k?si=Dq1_sigLBhGafh2e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+::: {.card-body style="background: #f8fafc; color: #475569;"}
+New to Google Earth Engine? Watch this step-by-step tutorial on how to register and set up your first GEE account for spatial analysis.
+:::
+:::
 :::
 
 :::
