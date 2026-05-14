@@ -46,7 +46,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 [![](images/Ravenshaw/1.jpg){.lightbox group="gallery" description="Student Research Convention"}](images/Ravenshaw/1.jpg)
 
 ::: {.gallery-caption}
-**ANVESHAN 2024**  
+**ANVESHAN 2023**  
 <span>Student Research Convention</span>
 :::
 :::
@@ -82,7 +82,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 [![](images/Ganpat%20University/guni1.jpeg){.lightbox group="gallery" description="Gujarat technical workshop"}](images/Ganpat%20University/guni1.jpeg)
 
 ::: {.gallery-caption}
-**AIU Anveshan 2025**  
+**AIU Anveshan 2023**  
 <span>Ganpat University</span>
 :::
 :::
@@ -91,7 +91,7 @@ Welcome to my academic and field journey. This gallery showcases my participatio
 [![](images/Ganpat%20University/guni4.JPG){.lightbox group="gallery" description="GUNI research talk"}](images/Ganpat%20University/guni4.JPG)
 
 ::: {.gallery-caption}
-**AIU Anveshan 2025**  
+**AIU Anveshan 2023**  
 <span>Ganpat University</span>
 :::
 :::
