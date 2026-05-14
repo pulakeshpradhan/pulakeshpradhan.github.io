@@ -421,8 +421,49 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-<div class="visitor-map-wrapper" style="text-align: center; margin-top: 3rem; margin-bottom: 1rem; clear: both;">
-    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=l5bpSS_CYygFBVL2j9fq6Dcv_JR0zLouO-a98PHr-F4&amp;cl=ffffff&amp;w=a"></script>
+<style>
+    .visitor-map-wrapper {
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        clear: both;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #mapmyvisitors-container {
+        max-width: 450px; /* Reduced size */
+        width: 100%;
+        overflow: hidden;
+        border-radius: 12px;
+        transition: transform 0.3s ease;
+    }
+    
+    #mapmyvisitors-container:hover {
+        transform: scale(1.02);
+    }
+
+    /* Ensure the actual script output is responsive */
+    #mapmyvisitors-container img, 
+    #mapmyvisitors-container a img,
+    #mapmyvisitors-container iframe {
+        max-width: 100% !important;
+        height: auto !important;
+        border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+        #mapmyvisitors-container {
+            max-width: 90%; /* Even smaller on mobile */
+        }
+    }
+</style>
+
+<div class="visitor-map-wrapper">
+    <div id="mapmyvisitors-container">
+        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=l5bpSS_CYygFBVL2j9fq6Dcv_JR0zLouO-a98PHr-F4&amp;cl=ffffff&amp;w=a"></script>
+    </div>
 </div>
 
 <script>
