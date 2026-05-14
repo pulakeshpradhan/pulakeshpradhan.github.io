@@ -2,9 +2,23 @@
   {
     "objectID": "youtube.html",
     "href": "youtube.html",
-    "title": "YouTube",
+    "title": "YouTube Tutorials",
     "section": "",
-    "text": "Here are some of my recent video tutorials and presentations. Be sure to subscribe to my channel for more content!"
+    "text": "Welcome to my YouTube channel section. Here I share practical tutorials, tips, and insights on Google Earth Engine, spatial data analysis, and open-source GIS tools.\nSubscribe to Spatial Geography"
+  },
+  {
+    "objectID": "youtube.html#google-earth-engine-workflows",
+    "href": "youtube.html#google-earth-engine-workflows",
+    "title": "YouTube Tutorials",
+    "section": "🌍 Google Earth Engine Workflows",
+    "text": "🌍 Google Earth Engine Workflows\n\n\n\n\nGoogle Earth Engine Local Export with Python\n\n\n\n\n\nLearn how to efficiently export Google Earth Engine data directly to your local machine using Python, saving valuable EECU hours.\n\n\n\n\n\n\nLULC Sample Generator: Spatial Geography\n\n\n\n\n\nA comprehensive guide to generating training samples for Land Use Land Cover (LULC) classification using automated spatial techniques."
+  },
+  {
+    "objectID": "youtube.html#getting-started-with-gee",
+    "href": "youtube.html#getting-started-with-gee",
+    "title": "YouTube Tutorials",
+    "section": "🚀 Getting Started with GEE",
+    "text": "🚀 Getting Started with GEE\n\n\n\n\nHow to Sign Up for Google Earth Engine\n\n\n\n\n\nNew to Google Earth Engine? Watch this step-by-step tutorial on how to register and set up your first GEE account for spatial analysis."
   },
   {
     "objectID": "publications.html",
