@@ -1,129 +1,94 @@
 [
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "innovations.html",
+    "href": "innovations.html",
+    "title": "Innovations",
     "section": "",
-    "text": "Journal Article Placeholder\n\n\n\n\n\n\n\nPradhan, P. (Year)\n\n\nJournal Name\n\n\nThis is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.\n\n\n  Download    DOI"
+    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
   },
   {
-    "objectID": "publications.html#journal-articles",
-    "href": "publications.html#journal-articles",
-    "title": "Publications",
+    "objectID": "innovations.html#google-earth-engine-apps-native",
+    "href": "innovations.html#google-earth-engine-apps-native",
+    "title": "Innovations",
+    "section": "🌍 Google Earth Engine Apps (Native)",
+    "text": "🌍 Google Earth Engine Apps (Native)\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
+  },
+  {
+    "objectID": "innovations.html#extensions-tools",
+    "href": "innovations.html#extensions-tools",
+    "title": "Innovations",
+    "section": "🛠️ Extensions & Tools",
+    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
+  },
+  {
+    "objectID": "innovations.html#r-library",
+    "href": "innovations.html#r-library",
+    "title": "Innovations",
+    "section": "📚 R Library",
+    "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
+  },
+  {
+    "objectID": "innovations.html#r-shiny-apps",
+    "href": "innovations.html#r-shiny-apps",
+    "title": "Innovations",
+    "section": "📊 R Shiny Apps",
+    "text": "📊 R Shiny Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App"
+  },
+  {
+    "objectID": "innovations.html#streamlit-apps",
+    "href": "innovations.html#streamlit-apps",
+    "title": "Innovations",
+    "section": "🚀 Streamlit Apps",
+    "text": "🚀 Streamlit Apps\n\n\n\n\nSentinel-2 Index Explorer\n\n\nInteractive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.\n\n\n App"
+  },
+  {
+    "objectID": "innovations.html#python-packages",
+    "href": "innovations.html#python-packages",
+    "title": "Innovations",
+    "section": "📦 Python Packages",
+    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
+  },
+  {
+    "objectID": "events/gdg-nairobi.html",
+    "href": "events/gdg-nairobi.html",
+    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
     "section": "",
-    "text": "Journal Article Placeholder\n\n\n\n\n\n\n\nPradhan, P. (Year)\n\n\nJournal Name\n\n\nThis is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.\n\n\n  Download    DOI"
+    "text": "Topic: Drought Monitoring with Google Earth Engine AI Assistant-Powered by Gemini API\nHost: GDG for Earth Engine Nairobi\nDate: July 26, 2025\nKey Themes: AI, Build with AI"
   },
   {
-    "objectID": "publications.html#book-chapters",
-    "href": "publications.html#book-chapters",
-    "title": "Publications",
-    "section": "📚 Book Chapters",
-    "text": "📚 Book Chapters\n\n\n\nApplication of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine\n\n\n\n\n\n\n\nPradhan, P., Bajpai, R., & Patra, S. (2025)\n\n\nIn Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier\n\n\nThis research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.\n\n\n  Download    DOI \n\n\n\n\n\n\nAgricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal\n\n\n\n\n\n\n\nPradhan, P., & Patra, S. (2024)\n\n\nIn Modern Cartography Series, Elsevier\n\n\nThis study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, I analyze spatiotemporal drought patterns and their impact on local agriculture.\n\n\n  Download    DOI"
+    "objectID": "events/gdg-nairobi.html#about-this-event",
+    "href": "events/gdg-nairobi.html#about-this-event",
+    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
+    "section": "About this Event",
+    "text": "About this Event\nJoin us as we explore how the GEE AI Assistant, a powerful browser extension, is transforming the way we conduct geospatial analysis. Whether you’re a beginner or an experienced practitioner, this tool helps you:\n✅ Instantly generate and debug scripts\n✅ Translate code between JavaScript and Python\n✅ Build full-featured GEE Apps\n✅ Extract statistics, create charts, and export results\n✅ Interact with Earth Engine in your native language using multi-language prompts\nAll of this happens seamlessly within the Earth Engine Code Editor through an intuitive side panel—bringing the power of AI directly into your workflow.\n\n View Event Details  Slides"
   },
   {
-    "objectID": "publications.html#presentations",
-    "href": "publications.html#presentations",
-    "title": "Publications",
-    "section": "🎤 Presentations",
-    "text": "🎤 Presentations\n\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nGDG for Earth Engine Nairobi (Virtual)\n\n\nA demonstration of integrating Large Language Models (LLMs) with geospatial platforms. This workshop showcases how a Gemini-powered AI assistant can streamline complex GEE coding tasks for drought monitoring, making cloud-based remote sensing more accessible to researchers.\n\n\n  Download    DOI \n\n\n\n\n:::"
-  },
-  {
-    "objectID": "publications.html#posters",
-    "href": "publications.html#posters",
-    "title": "Publications",
-    "section": "🖼️ Posters",
-    "text": "🖼️ Posters\n\n\n\nNear Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images\n\n\n\n\n\nUnable to display PDF. Download here.\n\n\n\n\n\nPradhan, P., & Bajpai, R. (2023)\n\n\nOdisha Research Conclave (ORC-2023)\n\n\nThis poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.\n\n\n  Download PDF    Details \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pulakesh Pradhan",
+    "objectID": "events/bhu-workshop.html",
+    "href": "events/bhu-workshop.html",
+    "title": "Banaras Hindu University",
     "section": "",
-    "text": "Miles to go before I sleep …\n\n LinkedIn  Scholar  YouTube  Email"
+    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
   },
   {
-    "objectID": "index.html#recent-events",
-    "href": "index.html#recent-events",
-    "title": "Pulakesh Pradhan",
-    "section": "📅 Recent Events",
-    "text": "📅 Recent Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\nNo matching items\n\n View all events"
-  },
-  {
-    "objectID": "index.html#latest-insights",
-    "href": "index.html#latest-insights",
-    "title": "Pulakesh Pradhan",
-    "section": "📌 Latest Insights",
-    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nDeploying a Google Earth Engine App on Streamlit Cloud\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nMar 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
-  },
-  {
-    "objectID": "index.html#social-updates",
-    "href": "index.html#social-updates",
-    "title": "Pulakesh Pradhan",
-    "section": "👥 Social Updates",
-    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
-  },
-  {
-    "objectID": "index.html#groups-i-manage",
-    "href": "index.html#groups-i-manage",
-    "title": "Pulakesh Pradhan",
-    "section": "👥 Groups I Manage",
-    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
-  },
-  {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
-    "title": "Pulakesh Pradhan",
-    "section": "📚 Recent Publications",
-    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
-  },
-  {
-    "objectID": "index.html#typing-proficiency",
-    "href": "index.html#typing-proficiency",
-    "title": "Pulakesh Pradhan",
-    "section": "⌨️ Typing Proficiency",
-    "text": "⌨️ Typing Proficiency\n\n\n\nVerified on Ratatype: 57 WPM, 99.6% Accuracy"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "objectID": "youtube.html",
+    "href": "youtube.html",
+    "title": "YouTube Tutorials",
     "section": "",
-    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
+    "text": "Welcome to my YouTube channel section. Here I share practical tutorials, tips, and insights on Google Earth Engine, spatial data analysis, and open-source GIS tools.\nSubscribe to Spatial Geography"
   },
   {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🧠 The Social Science Perspective: Understanding “Place”",
-    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
+    "objectID": "youtube.html#google-earth-engine-workflows",
+    "href": "youtube.html#google-earth-engine-workflows",
+    "title": "YouTube Tutorials",
+    "section": "🌍 Google Earth Engine Workflows",
+    "text": "🌍 Google Earth Engine Workflows\n\n\n\n\nGoogle Earth Engine Local Export with Python\n\n\n\n\n\nLearn how to efficiently export Google Earth Engine data directly to your local machine using Python, saving valuable EECU hours.\n\n\n\n\n\n\nLULC Sample Generator: Spatial Geography\n\n\n\n\n\nA comprehensive guide to generating training samples for Land Use Land Cover (LULC) classification using automated spatial techniques."
   },
   {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
-    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "🤝 The Convergence: Why We Need Both",
-    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
-  },
-  {
-    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
-    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
-    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
-    "section": "Conclusion",
-    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
-  },
-  {
-    "objectID": "social.html",
-    "href": "social.html",
-    "title": "Social Updates",
-    "section": "",
-    "text": "QGIS India User Group\nWe are a community of QGIS users passionate about open-source geospatial technology. Our mission is to promote the use of QGIS, share knowledge, and support each other in our geospatial projects.\n\nShared space for QGIS users across India.\nEncourage knowledge sharing, mentorship, and collaboration.\nOrganize local meetups, workshops, and learning initiatives.\nStrengthen India’s contribution to the global QGIS project.\n\n\nVisit Website Join Telegram\n\n\n\n\n\n\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\nUpcoming Events Summary\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\nIIG International Seminar\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\nXXth DGSI International Geography Conference\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\nXXII INQUA Congress 2027 India\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\nWestern Regional Conference: IASP 2026\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\nNational Seminar: Environment, Economy, Culture and Technology\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details"
+    "objectID": "youtube.html#getting-started-with-gee",
+    "href": "youtube.html#getting-started-with-gee",
+    "title": "YouTube Tutorials",
+    "section": "🚀 Getting Started with GEE",
+    "text": "🚀 Getting Started with GEE\n\n\n\n\nHow to Sign Up for Google Earth Engine\n\n\n\n\n\nNew to Google Earth Engine? Watch this step-by-step tutorial on how to register and set up your first GEE account for spatial analysis."
   },
   {
     "objectID": "cv.html#contact-information",
@@ -175,179 +140,18 @@
     "text": "🤝 Professional Memberships\n\nLife Member, National Association of Geographers, India (NAGI) | Oct. 2025 - Present\n\n\n\n Download Full CV (PDF)"
   },
   {
-    "objectID": "events/gdg-nairobi.html",
-    "href": "events/gdg-nairobi.html",
-    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Gallery",
     "section": "",
-    "text": "Topic: Drought Monitoring with Google Earth Engine AI Assistant-Powered by Gemini API\nHost: GDG for Earth Engine Nairobi\nDate: July 26, 2025\nKey Themes: AI, Build with AI"
+    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nGROW Event 2025\n\n\n\n\n\nIIT Bombay\nPoster Presentation at GROW Event\n\n\n\n\n\nANVESHAN 2023\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nSky is the limit…\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nAIU Anveshan 2023\nGanpat University\n\n\n\n\n\nAIU Anveshan 2023\nGanpat University\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMaharaja Sriram Chandra Bhanja Deo University\n\n\n\n\n\nUnacademy\nPlus Learner Certificate\n\n\n\n\n\nRavenshaw University\nNotice Board"
   },
   {
-    "objectID": "events/gdg-nairobi.html#about-this-event",
-    "href": "events/gdg-nairobi.html#about-this-event",
-    "title": "Drought Monitoring with GEE AI Assistant & Gemini API",
-    "section": "About this Event",
-    "text": "About this Event\nJoin us as we explore how the GEE AI Assistant, a powerful browser extension, is transforming the way we conduct geospatial analysis. Whether you’re a beginner or an experienced practitioner, this tool helps you:\n✅ Instantly generate and debug scripts\n✅ Translate code between JavaScript and Python\n✅ Build full-featured GEE Apps\n✅ Extract statistics, create charts, and export results\n✅ Interact with Earth Engine in your native language using multi-language prompts\nAll of this happens seamlessly within the Earth Engine Code Editor through an intuitive side panel—bringing the power of AI directly into your workflow.\n\n View Event Details  Slides"
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html",
-    "href": "events/gee-workshop-feb-2026.html",
-    "title": "Basics of Google Earth Engine",
+    "objectID": "social.html",
+    "href": "social.html",
+    "title": "Social Updates",
     "section": "",
-    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
-    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
-    "title": "Basics of Google Earth Engine",
-    "section": "Workshop Highlights",
-    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
-  },
-  {
-    "objectID": "events/gee-workshop-feb-2026.html#schedule",
-    "href": "events/gee-workshop-feb-2026.html#schedule",
-    "title": "Basics of Google Earth Engine",
-    "section": "Schedule",
-    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
-  },
-  {
-    "objectID": "events/bhu-workshop.html",
-    "href": "events/bhu-workshop.html",
-    "title": "Banaras Hindu University",
-    "section": "",
-    "text": "Cloud Computing in Geography\nGuest Lecture | 2024\nA workshop focusing on migrating traditional GIS workflows to the Google Earth Engine cloud.\n Gallery"
-  },
-  {
-    "objectID": "youtube.html",
-    "href": "youtube.html",
-    "title": "YouTube Tutorials",
-    "section": "",
-    "text": "Welcome to my YouTube channel section. Here I share practical tutorials, tips, and insights on Google Earth Engine, spatial data analysis, and open-source GIS tools.\nSubscribe to Spatial Geography"
-  },
-  {
-    "objectID": "youtube.html#google-earth-engine-workflows",
-    "href": "youtube.html#google-earth-engine-workflows",
-    "title": "YouTube Tutorials",
-    "section": "🌍 Google Earth Engine Workflows",
-    "text": "🌍 Google Earth Engine Workflows\n\n\n\n\nGoogle Earth Engine Local Export with Python\n\n\n\n\n\nLearn how to efficiently export Google Earth Engine data directly to your local machine using Python, saving valuable EECU hours.\n\n\n\n\n\n\nLULC Sample Generator: Spatial Geography\n\n\n\n\n\nA comprehensive guide to generating training samples for Land Use Land Cover (LULC) classification using automated spatial techniques."
-  },
-  {
-    "objectID": "youtube.html#getting-started-with-gee",
-    "href": "youtube.html#getting-started-with-gee",
-    "title": "YouTube Tutorials",
-    "section": "🚀 Getting Started with GEE",
-    "text": "🚀 Getting Started with GEE\n\n\n\n\nHow to Sign Up for Google Earth Engine\n\n\n\n\n\nNew to Google Earth Engine? Watch this step-by-step tutorial on how to register and set up your first GEE account for spatial analysis."
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events & Engagements",
-    "section": "",
-    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
-  },
-  {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events & Engagements",
-    "section": "📅 Upcoming Events",
-    "text": "📅 Upcoming Events\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "events.html#past-seminars-workshops",
-    "href": "events.html#past-seminars-workshops",
-    "title": "Events & Engagements",
-    "section": "🏛️ Past Seminars & Workshops",
-    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n10-Day GEE Training Sessions\n\n\nSuccessfully Concluded! A 10-day intensive online training on Google Earth Engine (GEE) for geospatial analytics.\n\n\n\n\n\n\nApr 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
-  },
-  {
-    "objectID": "events/mscbu-workshop-sep-2025.html",
-    "href": "events/mscbu-workshop-sep-2025.html",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "",
-    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
-  },
-  {
-    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
-    "title": "Basics of Google Earth Engine & LULC Classification",
-    "section": "Event Overview",
-    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html",
-    "href": "events/gee-training-apr-2025.html",
-    "title": "10-Day GEE Training Sessions",
-    "section": "",
-    "text": "Topic: Google Earth Engine (GEE) Training Sessions\nResource Person: Pulakesh Pradhan\nHost: Centurion University, Bhubaneswar\nStatus: Successfully Concluded!\nDelighted to share a few glimpses from the recently concluded 10-day Google Earth Engine (GEE) Training, where I had the privilege of leading and teaching as a resource person.\nThis training, conducted by Centurion University, Bhubaneswar, provided participants with hands-on experience in geospatial data processing, remote sensing, and cloud-based geospatial analytics using Google Earth Engine."
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
-    "href": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
-    "title": "10-Day GEE Training Sessions",
-    "section": "📸 Glimpses of Training Outcomes",
-    "text": "📸 Glimpses of Training Outcomes"
-  },
-  {
-    "objectID": "events/gee-training-apr-2025.html#key-learning-modules",
-    "href": "events/gee-training-apr-2025.html#key-learning-modules",
-    "title": "10-Day GEE Training Sessions",
-    "section": "🚀 Key Learning Modules",
-    "text": "🚀 Key Learning Modules\nThroughout the training, participants explored:\n✅ Cloud computing for geospatial analysis using JavaScript\n✅ Data handling in GEE (FeatureCollections, ImageCollections)\n✅ Importing and exporting geospatial datasets (shapefiles, raster images, etc.)\n✅ GEE functionalities: filtering, reducers, time-series analysis, and charting\n✅ Machine learning for Land Use Land Cover (LULC) classification\n✅ Applications: Urban Heat Island, Flood Mapping, Forest Monitoring, Surface Water Detection, Water Quality, etc.\n✅ Key datasets covered: Landsat, Sentinel-2, SRTM, FAO GAUL, TerraClimate, CHIRPS, MODIS, CMIP6, etc.\n✅ Advanced Integration: AI, IMD data, and OpenStreetMap (OSM) in GEE\n🙏 A huge appreciation to all participants for their dedication and active engagement. Your enthusiasm made this learning experience truly enriching!\n#GoogleEarthEngine #RemoteSensing #GeospatialAnalysis #EarthObservation #DataScience #MachineLearning #ClimateAnalysis #SustainableDevelopment\n\n📌 More insights: LinkedIn Article | pulakeshpradhan.github.io"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Deploying a Google Earth Engine App on Streamlit Cloud\n\n\n\nGEE\n\nStreamlit\n\nDeployment\n\nPython\n\nCloud\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\nGeography\n\nHistory\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\nGeography\n\nGIS\n\nTheory\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "innovations.html",
-    "href": "innovations.html",
-    "title": "Innovations",
-    "section": "",
-    "text": "My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists."
-  },
-  {
-    "objectID": "innovations.html#google-earth-engine-apps-native",
-    "href": "innovations.html#google-earth-engine-apps-native",
-    "title": "Innovations",
-    "section": "🌍 Google Earth Engine Apps (Native)",
-    "text": "🌍 Google Earth Engine Apps (Native)\n\n\n\n\nSpectral Reflectance Curve\n\n\nAdvanced tool for analyzing spectral signatures across multiple bands for land cover characterization.\n\n\n App  GitHub\n\n\n\n\n\nPhenology Signature\n\n\nAutomating crop classification using multi-temporal phenological patterns and signature analysis.\n\n\n App  GitHub\n\n\n\n\n\nFlood Susceptibility\n\n\nAnalytic Hierarchy Process (AHP) implementation for rigorous regional flood vulnerability mapping.\n\n\n App  GitHub\n\n\n\n\n\nOdisha Flood Map\n\n\nReal-time monitoring and visualization of flood extent using SAR and multi-spectral satellite imagery.\n\n\n App  GitHub"
-  },
-  {
-    "objectID": "innovations.html#extensions-tools",
-    "href": "innovations.html#extensions-tools",
-    "title": "Innovations",
-    "section": "🛠️ Extensions & Tools",
-    "text": "🛠️ Extensions & Tools\n\n\n\n\nGEE AI Assistant\n\n\nChrome extension that integrates Gemini AI directly into the GEE Code Editor for rapid scripts.\n\n\n Store  GitHub\n\n\n\n\n\nQuick Screenshot\n\n\nBrowser tool for high-resolution geospatial map capture, optimized for academic publication.\n\n\n Store"
-  },
-  {
-    "objectID": "innovations.html#r-library",
-    "href": "innovations.html#r-library",
-    "title": "Innovations",
-    "section": "📚 R Library",
-    "text": "📚 R Library\n\n\n\n\nrpygee\n\n\nAn R wrapper providing a seamless interface to run Google Earth Engine via the Python API.\n\n\n Docs  GitHub"
-  },
-  {
-    "objectID": "innovations.html#r-shiny-apps",
-    "href": "innovations.html#r-shiny-apps",
-    "title": "Innovations",
-    "section": "📊 R Shiny Apps",
-    "text": "📊 R Shiny Apps\n\n\n\n\nGeoMapper\n\n\nInteractive geospatial mapping dashboard built with R Shiny.\n\n\n App"
-  },
-  {
-    "objectID": "innovations.html#streamlit-apps",
-    "href": "innovations.html#streamlit-apps",
-    "title": "Innovations",
-    "section": "🚀 Streamlit Apps",
-    "text": "🚀 Streamlit Apps\n\n\n\n\nSentinel-2 Index Explorer\n\n\nInteractive environmental analysis tool for automated Sentinel-2 NDVI and NDWI analysis.\n\n\n App"
-  },
-  {
-    "objectID": "innovations.html#python-packages",
-    "href": "innovations.html#python-packages",
-    "title": "Innovations",
-    "section": "📦 Python Packages",
-    "text": "📦 Python Packages\n\n\n\n\ngeeadvance\n\n\nA Python package for functional programming utilities to streamline Earth Engine API workflows.\n\n\n PyPI  GitHub\n\n\n\n\n\ndeepgee\n\n\nBridge GEE datasets with Deep Learning models for automated satellite imagery classification.\n\n\n PyPI  GitHub\n\n\n\n\n\ngeeassist\n\n\nSmall Python library to interact with LLMs for generating and debugging GEE code snippets.\n\n\n PyPI  GitHub"
+    "text": "QGIS India User Group\nWe are a community of QGIS users passionate about open-source geospatial technology. Our mission is to promote the use of QGIS, share knowledge, and support each other in our geospatial projects.\n\nShared space for QGIS users across India.\nEncourage knowledge sharing, mentorship, and collaboration.\nOrganize local meetups, workshops, and learning initiatives.\nStrengthen India’s contribution to the global QGIS project.\n\n\nVisit Website Join Telegram\n\n\n\n\n\n\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nEmpowering the geospatial community with AI! I am proud to share that the GEE AI Assistant has reached over 4,000+ worldwide users across 134 countries.\nMy Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!\n\nInstall Extension View Details\n\n\n\n\n\n\n\nUpcoming Events Summary\n\n\n\nEvent Name\nLocation\nDates\nDeadline\nAction\n\n\n\n\nIIG International Seminar\nSiliguri, WB\nFeb 19–21, 2026\nDec 31, 2025\nCircular\n\n\nXXth DGSI Int. Conference\nTirupati, AP\nFeb 23–25, 2026\nFeb 10, 2026\nCircular\n\n\nNational Seminar (Viksit Bharat)\nVaranasi, UP\nMarch 16–17, 2026\nMarch 9, 2026\nRegister\n\n\nIASP 2026 Regional Conference\nGoa University\nMarch 20–21, 2026\nFeb 15, 2026\nSubmit\n\n\nXXII INQUA Congress 2027\nLucknow, India\nJan 28 – Feb 3, 2027\nMarch 31, 2026\nRegister\n\n\n\n\n\n\n\nIIG International Seminar\n“Geography in the 21st Century: Navigating Trends, Tackling Challenges” 📍 Location: University of North Bengal, Siliguri 📅 Date: February 19–21, 2026\nOrganized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.\n📅 Key Dates: * Registration Fee Deadline: 31st December, 2025\n\nDownload Revised Circular (PDF)\n\n\n\n\n\n\n\n\nXXth DGSI International Geography Conference\n“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat” 📍 Location: Sri Venkateswara University, Tirupati 📅 Date: February 23–25, 2026\nOrganized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.\n\nDownload Circular (PDF)\n\n\n\n\n\n\n\n\nXXII INQUA Congress 2027 India\n“Quaternary Science As Societal Services” 📍 Location: Lucknow, India 📅 Date: January 28 - February 3, 2027\nThe biggest conference in Quaternary Sciences, featuring 188 Scientific Sessions, 21 Workshops, and 46 Field Trips. Funding available for participants.\n📢 Important Update: * Abstract Submission EXTENDED: 31st March, 2026\n\nRegister Now First Circular (PDF)\n\n\n\n\n\n\n\n\nWestern Regional Conference: IASP 2026\n“Demographic Transition in Western India” 📍 Location: Goa Business School, Goa University 📅 Date: March 20-21, 2026\nA premier conference focusing on the demographic shifts and socio-economic transitions in Western India.\n📅 Last Date for Online Abstract Submission: 15th February, 2026\n\nSubmit Abstract Download PDF\n\n\n\n\n\n\n\n\nNational Seminar: Environment, Economy, Culture and Technology\n“A Way Forward to Viksit Bharat” 📍 Location: Dr. Ghanshyam Singh Mahavidyalaya, Varanasi 📅 Date: March 16-17, 2026\nOrganized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.\n📅 Key Dates: * Abstract Submission Deadline: 9th March, 2026 * Full Paper Submission: 12th March, 2026\n\nRegister Now Contact Details"
   },
   {
     "objectID": "posts/2026_03_05_deploy_gee_streamlit/index.html",
@@ -455,6 +259,195 @@
     "text": "About This Guide\nThis guide was written based on real deployment experience, documenting every error encountered and resolved during the process of deploying a Google Earth Engine SRTM elevation analysis app to Streamlit Cloud. Every error and solution described here was encountered and verified firsthand.\nKey Takeaways: 1. Use temp file approach for credentials — never json.loads() on TOML strings 2. Use plain folium — avoid geemap on Streamlit Cloud 3. Don’t forget IAM roles — both Service Usage Consumer AND Earth Engine Resource Writer 4. Generate your secrets.toml programmatically — don’t copy-paste the private key manually\n\nLast updated: March 2026"
   },
   {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html",
+    "href": "posts/2026_05_16_gee_openstream/index.html",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "",
+    "text": "OpenStream Hero Image"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#the-problem-who-pays-for-earth-engine-compute",
+    "href": "posts/2026_05_16_gee_openstream/index.html#the-problem-who-pays-for-earth-engine-compute",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "1 The Problem: Who Pays for Earth Engine Compute?",
+    "text": "1 The Problem: Who Pays for Earth Engine Compute?\nWhen you build a Google Earth Engine (GEE) application, every computation — filtering imagery, reducing regions, generating tiles — consumes Earth Engine Compute Units (EECUs). These EECUs are billed to the GCP project whose credentials were used to initialize the ee session.\nIn a typical setup, the developer hardcodes their own service account or project credentials. This means:\n\nEvery user’s computation is billed to the developer’s GCP project.\nAs user count grows, the developer’s EECU quota gets exhausted.\nA single heavy query from one user can block others.\nThe developer bears all costs — even for users who have their own GEE-registered projects.\n\n\n1.1 The Solution: User-Defined Credentials\nWhat if each user brings their own credentials? The app becomes a stateless tool — it provides the interface, but all computation costs are borne by the user’s own GCP project.\n\n\n\n\n\ngraph TD\n    subgraph \"❌ Developer Credentials (Default)\"\n        A1[\"User A\"] --&gt; D[\"Developer's GCP Project\"]\n        A2[\"User B\"] --&gt; D\n        A3[\"User C\"] --&gt; D\n        D --&gt; E[\"All EECUs billed to Developer\"]\n    end\n    subgraph \"✅ User-Defined Credentials (OpenStream)\"\n        B1[\"User A + Own Key\"] --&gt; P1[\"User A's GCP Project\"]\n        B2[\"User B + Own Key\"] --&gt; P2[\"User B's GCP Project\"]\n        B3[\"User C + Own Key\"] --&gt; P3[\"User C's GCP Project\"]\n    end\n\n\n EECU billing flow — User-defined credentials vs Developer credentials \n\n\n\nThis is exactly what OpenStream implements. Let’s build it step by step.\n\nRepository: github.com/spatialgeography/openstream"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#prerequisites",
+    "href": "posts/2026_05_16_gee_openstream/index.html#prerequisites",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "2 Prerequisites",
+    "text": "2 Prerequisites\nBefore starting, ensure you have:\n\nPython 3.9+ installed\nA Google Cloud Platform (GCP) account with the Earth Engine API enabled\nBasic familiarity with Streamlit"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-1-understanding-eecus-gcp-billing",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-1-understanding-eecus-gcp-billing",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "3 Step 1: Understanding EECUs & GCP Billing",
+    "text": "3 Step 1: Understanding EECUs & GCP Billing\n\n3.1 What Are EECUs?\nEarth Engine Compute Units are Google’s metric for GEE resource consumption. Each operation has a cost:\n\nEECU cost by operation type\n\n\nOperation\nApproximate EECU Cost\n\n\n\n\nee.Image.getMapId() (tile rendering)\nLow\n\n\nee.Image.reduceRegion() (zonal stats)\nMedium\n\n\nee.ImageCollection.map() (batch processing)\nHigh\n\n\nee.Image.getThumbURL() (export)\nMedium-High\n\n\n\n\n\n3.2 The Billing Rule\nEECUs are always charged to the project parameter passed to ee.Initialize().\n# EECUs charged to \"my-project-123\"\nee.Initialize(credentials, project=\"my-project-123\")\nThis means: whoever provides the project ID and valid credentials pays the bill. Our entire strategy hinges on this fact."
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-2-set-up-the-project-structure",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-2-set-up-the-project-structure",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "4 Step 2: Set Up the Project Structure",
+    "text": "4 Step 2: Set Up the Project Structure\n# Clone the repository\ngit clone https://github.com/spatialgeography/openstream.git\ncd openstream\n\n# Create virtual environment\npython -m venv venv\nvenv\\Scripts\\activate          # Windows\n# source venv/bin/activate    # macOS/Linux\n\n# Install dependencies\npip install -r requirements.txt\n\n4.1 Dependencies\n\n\nrequirements.txt\n\nstreamlit\nearthengine-api\nfolium\nstreamlit-folium\ngoogle-auth\ngoogle-auth-oauthlib\ngoogle-auth-httplib2\npandas\nstreamlit-oauth\n\nThe critical packages:\n\nearthengine-api: Native GEE Python client (no geemap needed)\ngoogle-auth: Handles Service Account credential parsing\nstreamlit-oauth: Enables OAuth 2.0 login flow within Streamlit"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-3-build-the-user-authentication-sidebar",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-3-build-the-user-authentication-sidebar",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "5 Step 3: Build the User Authentication Sidebar",
+    "text": "5 Step 3: Build the User Authentication Sidebar\nThis is the core of the entire approach. Instead of hardcoding credentials, we create a sidebar where each user provides:\n\nTheir GCP Project ID (determines where EECUs are billed)\nTheir Service Account JSON key (proves they own that project)\n\n\n\napp.py — User Authentication Sidebar\n\nimport streamlit as st\nimport ee\nimport json\nfrom google.oauth2 import service_account\n\nst.set_page_config(\n    page_title=\"TerraClimate Regional Explorer\",\n    layout=\"wide\",\n    page_icon=\"🌎\"\n)\n\nwith st.sidebar:\n    st.header(\"🔑 Connection & Auth\")\n\n    # User provides THEIR OWN project ID\n    project_id = st.text_input(\n        \"Project ID\",\n        value=st.session_state.get(\"project_id\", \"\"),\n        placeholder=\"your-gcp-project-id\"\n    )\n\n    # User uploads THEIR OWN service account key\n    uploaded_file = st.file_uploader(\n        \"Service Account JSON\",\n        type=[\"json\"]\n    )\n\n    st.markdown(\"🔗 [Get Key](https://console.cloud.google.com/iam-admin/serviceaccounts)\")\n    st.markdown(\"📺 [Watch the Tutorial](https://www.youtube.com/@SpatialGeography)\")\n\n    if st.button(\"🚀 Connect to GEE\"):\n        if not project_id or uploaded_file is None:\n            st.error(\"Missing Project ID or JSON file.\")\n        else:\n            try:\n                # Parse the uploaded JSON key\n                content = uploaded_file.read().decode(\"utf-8\")\n                sa_info = json.loads(content)\n\n                # Fix escaped newlines in private key\n                # (common issue when keys are copy-pasted)\n                if \"private_key\" in sa_info:\n                    sa_info[\"private_key\"] = sa_info[\"private_key\"].replace(\"\\\\n\", \"\\n\")\n\n                # Create credentials scoped to Earth Engine\n                SCOPES = ['https://www.googleapis.com/auth/earthengine']\n                creds = service_account.Credentials.from_service_account_info(\n                    sa_info, scopes=SCOPES\n                )\n\n                # Initialize EE with the USER'S project\n                # All EECUs from this session are billed HERE\n                ee.Initialize(creds, project=project_id)\n\n                # Persist auth state across Streamlit reruns\n                st.session_state[\"project_id\"] = project_id\n                st.session_state[\"ee_initialized\"] = True\n                st.success(\"Connected!\")\n                st.rerun()\n            except Exception as e:\n                st.error(f\"Failed: {e}\")\n\n\n5.1 Why This Works for EECU Billing\nThe key line is:\nee.Initialize(creds, project=project_id)\n\ncreds = the user’s own Service Account credentials\nproject_id = the user’s own GCP project\n\nEvery ee.* call after this line is authenticated as the user’s service account and billed to the user’s project. The app developer’s project is never involved.\n\n\n\n\n\n\nImportantThe Developer Pays Nothing\n\n\n\nSince the app never uses the developer’s credentials, the developer’s GCP project incurs zero EECUs. The app is purely a frontend — all compute costs flow to whoever authenticates."
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-4-guide-your-users-how-to-create-a-service-account-key",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-4-guide-your-users-how-to-create-a-service-account-key",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "6 Step 4: Guide Your Users — How to Create a Service Account Key",
+    "text": "6 Step 4: Guide Your Users — How to Create a Service Account Key\nYour users need to generate their own credentials. Here’s the exact process to share with them:\n\n6.1 4.1 Enable the Earth Engine API\n\nGo to Google Cloud Console\nSelect or create a project\nNavigate to APIs & Services → Library\nSearch for “Earth Engine” and click Enable\n\n\n\n6.2 4.2 Register the Project with Earth Engine\n\nGo to code.earthengine.google.com\nIf prompted, register your Cloud Project for Earth Engine access\nAccept the Terms of Service\n\n\n\n6.3 4.3 Create a Service Account\n\nGo to IAM & Admin → Service Accounts in the Cloud Console\nClick + Create Service Account\nName it (e.g., earthengine-user)\nGrant the role: Earth Engine Resource Viewer (or broader roles if needed)\nClick Done\n\n\n\n6.4 4.4 Generate the JSON Key\n\nClick on the newly created service account\nGo to the Keys tab\nClick Add Key → Create new key → JSON\nDownload the .json file — this is the file users upload into the app\n\n\n\n\n\n\n\nWarningSecurity Reminder for Users\n\n\n\nThe JSON key file contains a private key. Users should:\n\nNever share it publicly or commit it to GitHub\nNever paste it into untrusted applications\nRotate keys periodically via the Cloud Console\nDelete unused keys immediately"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-5-build-the-gee-to-folium-map-bridge",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-5-build-the-gee-to-folium-map-bridge",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "7 Step 5: Build the GEE-to-Folium Map Bridge",
+    "text": "7 Step 5: Build the GEE-to-Folium Map Bridge\nOnce authenticated, we need to render Earth Engine imagery on an interactive map. Since we avoid geemap, we use a direct ee → folium bridge:\n\n\napp.py — GEE Tile Layer Bridge\n\nimport folium\nfrom streamlit_folium import st_folium\n\ndef add_ee_layer(self, ee_object, vis_params, name):\n    \"\"\"Add an Earth Engine image layer to a Folium map.\"\"\"\n    try:\n        # If it's an ImageCollection, reduce to mean\n        if isinstance(ee_object, ee.ImageCollection):\n            ee_object = ee_object.mean()\n\n        # Request a tile URL from GEE servers\n        map_id_dict = ee.Image(ee_object).getMapId(vis_params)\n\n        # Add the tile URL as a standard Folium layer\n        folium.raster_layers.TileLayer(\n            tiles=map_id_dict['tile_fetcher'].url_format,\n            attr='Map Data &copy; Google Earth Engine',\n            name=name,\n            overlay=True,\n            control=True\n        ).add_to(self)\n    except Exception as e:\n        st.error(f\"Error adding EE layer '{name}': {e}\")\n\n# Monkey-patch onto Folium's Map class\nfolium.Map.add_ee_layer = add_ee_layer\n\nHow it works:\n\ngetMapId() asks GEE servers to create a tile endpoint for the image — this consumes EECUs from the user’s project.\nThe returned URL template (/tiles/{z}/{x}/{y}) is a standard XYZ tile format.\nFolium fetches tiles on-demand as the user pans/zooms — each tile fetch costs additional EECUs."
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-6-load-data-terraclimate-example",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-6-load-data-terraclimate-example",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "8 Step 6: Load Data — TerraClimate Example",
+    "text": "8 Step 6: Load Data — TerraClimate Example\nWith the user authenticated, we can load any Earth Engine dataset. Here’s the TerraClimate pipeline:\n\n\napp.py — Data Loading & Processing\n\n# All 14 available TerraClimate variables\nvariables = {\n    'tmmx': 'Max Temp',       'tmmn': 'Min Temp',\n    'pdsi': 'Drought (PDSI)', 'pr':   'Precipitation',\n    'soil': 'Soil Moisture',  'aet':  'Evapotranspiration',\n    'def':  'Water Deficit',  'pet':  'Ref Evapotranspiration',\n    'ro':   'Runoff',         'srad': 'Radiation',\n    'swe':  'Snow Eq',        'vap':  'Vapor Pressure',\n    'vpd':  'VPD',            'vs':   'Wind Speed'\n}\n\n# Load and process — runs on GEE servers, billed to user\ndataset = ee.ImageCollection('IDAHO_EPSCOR/TERRACLIMATE') \\\n    .filterDate(start_date.strftime('%Y-%m-%d'),\n                end_date.strftime('%Y-%m-%d'))\n\nmean_img = dataset.select(selected_var).mean().clip(roi)\n\n# Auto-stretch: compute actual min/max within ROI\nstats = mean_img.reduceRegion(\n    ee.Reducer.minMax(),\n    roi.geometry(),\n    10000,           # 10 km scale\n    maxPixels=1e9\n).getInfo()\n\nvis_params = {\n    'min': stats.get(f\"{selected_var}_min\", 0),\n    'max': stats.get(f\"{selected_var}_max\", 500),\n    'palette': ['1a3678', '2955bc', '5699ff', '8dbae9',\n                'acd1ff', 'caebff', 'e5f9ff', 'fdffb4',\n                'ffe6a2', 'ffc969', 'ffa12d', 'ff7c1f',\n                'ca531a', 'ff0000', 'ab0000']\n}\n\nEvery call here — filterDate, mean, clip, reduceRegion — executes on Google’s servers and is billed to the user’s project ID provided in Step 3."
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-7-dynamic-area-selection-with-cached-boundaries",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-7-dynamic-area-selection-with-cached-boundaries",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "9 Step 7: Dynamic Area Selection with Cached Boundaries",
+    "text": "9 Step 7: Dynamic Area Selection with Cached Boundaries\nUsers select a region of interest through cascading dropdowns using FAO GAUL Level 2 boundaries:\n\n\napp.py — Cached Boundary Fetching\n\n@st.cache_data(ttl=3600)\ndef get_countries():\n    gaul = ee.FeatureCollection(\"FAO/GAUL_SIMPLIFIED_500m/2015/level2\")\n    return sorted(gaul.aggregate_array('ADM0_NAME').distinct().getInfo())\n\n@st.cache_data(ttl=3600)\ndef get_states(country):\n    gaul = ee.FeatureCollection(\"FAO/GAUL_SIMPLIFIED_500m/2015/level2\")\n    filtered = gaul.filter(ee.Filter.eq('ADM0_NAME', country))\n    return sorted(filtered.aggregate_array('ADM1_NAME').distinct().getInfo())\n\n@st.cache_data(ttl=3600)\ndef get_districts(country, state):\n    gaul = ee.FeatureCollection(\"FAO/GAUL_SIMPLIFIED_500m/2015/level2\")\n    filtered = gaul.filter(ee.Filter.And(\n        ee.Filter.eq('ADM0_NAME', country),\n        ee.Filter.eq('ADM1_NAME', state)\n    ))\n    return sorted(filtered.aggregate_array('ADM2_NAME').distinct().getInfo())\n\n\n\n\n\n\n\nTipCaching Saves EECUs\n\n\n\n@st.cache_data(ttl=3600) caches boundary lists for 1 hour. Without caching, every dropdown interaction would trigger a new GEE request — wasting the user’s EECUs on repeated identical queries.\n\n\n\n9.1 Building the ROI Filter\ngaul = ee.FeatureCollection(\"FAO/GAUL_SIMPLIFIED_500m/2015/level2\")\nfilters = [ee.Filter.eq('ADM0_NAME', selected_country)]\n\nif level in [\"State/Province\", \"District\"] and selected_state:\n    filters.append(ee.Filter.eq('ADM1_NAME', selected_state))\nif level == \"District\" and selected_district:\n    filters.append(ee.Filter.eq('ADM2_NAME', selected_district))\n\nroi = gaul.filter(ee.Filter.And(*filters))"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-8-time-series-extraction",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-8-time-series-extraction",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "10 Step 8: Time-Series Extraction",
+    "text": "10 Step 8: Time-Series Extraction\nExtract monthly climate values across the selected region:\n\n\napp.py — Server-Side Time Series\n\ndef extract_info(image):\n    millis = image.date().millis()\n    value = image.reduceRegion(\n        ee.Reducer.mean(), roi, 10000\n    ).get(selected_var)\n    return ee.Feature(None, {'millis': millis, 'value': value})\n\n# This runs entirely on GEE servers\ndata_features = dataset.select(selected_var) \\\n    .map(extract_info) \\\n    .getInfo()['features']\n\n# Only the final results (timestamps + values) are downloaded\ndf = pd.DataFrame([f['properties'] for f in data_features])\ndf['date'] = pd.to_datetime(df['millis'], unit='ms')\ndf = df.set_index('date').sort_index().dropna(subset=['value'])\n\nst.line_chart(df['value'])\nst.dataframe(df[['value']])\n\nThe ee.ImageCollection.map() call processes every monthly image server-side. Only the aggregated results (one number per month) are transferred to the client. This is extremely EECU-efficient."
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-9-map-rendering-export",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-9-map-rendering-export",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "11 Step 9: Map Rendering & Export",
+    "text": "11 Step 9: Map Rendering & Export\n\n11.1 Interactive Map\n\n\napp.py — Map Rendering\n\n# Center on ROI\ncentroid = roi.geometry().centroid(1000).getInfo()\ncenter = centroid['coordinates'][::-1]  # [lng,lat] → [lat,lng]\nm = folium.Map(location=center, zoom_start=6 if level == 'Country' else 9)\n\n# Add climate layer\nm.add_ee_layer(mean_img, vis_params, \"Regional Data\")\n\n# Add boundary outline\nfolium.GeoJson(\n    data=roi.geometry().getInfo(),\n    style_function=lambda x: {\n        'fillColor': 'none',\n        'color': 'red',\n        'weight': 2\n    }\n).add_to(m)\n\nfolium.LayerControl().add_to(m)\nst_folium(m, width=\"100%\", height=600)\n\n\n\n11.2 JPG Export\n\n\napp.py — Thumbnail Export\n\nthumb_url = mean_img.getThumbURL({\n    'min': v_min, 'max': v_max,\n    'palette': current_palette,\n    'dimensions': 1024,\n    'region': roi.geometry().bounds().getInfo(),\n    'format': 'jpg'\n})\nst.image(thumb_url, use_column_width=True)\nst.markdown(f\"📥 [Click here to download JPG]({thumb_url})\")"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#step-10-alternative-oauth-2.0-per-user-login",
+    "href": "posts/2026_05_16_gee_openstream/index.html#step-10-alternative-oauth-2.0-per-user-login",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "12 Step 10: Alternative — OAuth 2.0 Per-User Login",
+    "text": "12 Step 10: Alternative — OAuth 2.0 Per-User Login\nFor apps where you want users to log in with their Google account (instead of uploading a JSON key), use the OAuth approach:\n\n\nstreamlit_oauth_app.py\n\nfrom streamlit_oauth import OAuth2Component\nfrom google.oauth2.credentials import Credentials\n\nCLIENT_ID = st.secrets.get(\"auth\", {}).get(\"client_id\", \"\")\nCLIENT_SECRET = st.secrets.get(\"auth\", {}).get(\"client_secret\", \"\")\nPROJECT_ID = st.secrets.get(\"gee\", {}).get(\"project_id\", \"\")\n\nAUTHORIZE_URL = \"https://accounts.google.com/o/oauth2/v2/auth\"\nTOKEN_URL = \"https://oauth2.googleapis.com/token\"\n# CRITICAL: Must include the earthengine scope\nSCOPES = \"openid profile email https://www.googleapis.com/auth/earthengine\"\n\noauth2 = OAuth2Component(\n    CLIENT_ID, CLIENT_SECRET,\n    AUTHORIZE_URL, TOKEN_URL,\n    REVOKE_URL, REVOKE_URL\n)\n\nif \"auth\" not in st.session_state:\n    result = oauth2.authorize_button(\n        name=\"Log in with Google (GEE)\",\n        redirect_uri=\"http://localhost:8501\",\n        scope=SCOPES,\n        key=\"google_auth\",\n        extras_params={\"prompt\": \"consent\", \"access_type\": \"offline\"}\n    )\n    if result:\n        st.session_state[\"auth\"] = result\n        st.rerun()\nelse:\n    token = st.session_state[\"auth\"][\"access_token\"]\n    creds = Credentials(token)\n    ee.Initialize(creds, project=PROJECT_ID)\n\n\n\n\n\n\n\nWarningWhy Not st.login(\"google\")?\n\n\n\nStreamlit’s built-in st.login(\"google\") only supports OIDC scopes (openid, profile, email). It cannot request the https://www.googleapis.com/auth/earthengine scope. You must use streamlit-oauth instead.\n\n\n\n12.1 Service Account vs OAuth — When to Use Which\n\nAuthentication comparison\n\n\n\n\n\n\n\nAspect\nService Account (JSON Upload)\nOAuth 2.0 (Google Login)\n\n\n\n\nUser experience\nUpload a file + enter project ID\nClick “Log in with Google”\n\n\nEECU billing\nBilled to user’s SA project\nBilled to the OAuth project\n\n\nSetup for users\nMust create SA + download key\nJust log in\n\n\nSetup for developer\nNone\nMust configure OAuth consent screen\n\n\nBest for\nPower users, researchers, labs\nPublic-facing apps"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#complete-eecu-flow-summary",
+    "href": "posts/2026_05_16_gee_openstream/index.html#complete-eecu-flow-summary",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "13 Complete EECU Flow Summary",
+    "text": "13 Complete EECU Flow Summary\nHere’s how every interaction maps to EECU consumption — all charged to the user’s project:\n\n\n\n\n\nsequenceDiagram\n    participant U as User Browser\n    participant S as Streamlit App\n    participant G as GEE Servers\n    participant B as User's GCP Billing\n\n    U-&gt;&gt;S: Upload JSON Key + Project ID\n    S-&gt;&gt;G: ee.Initialize(user_creds, user_project)\n    G--&gt;&gt;S: Session authenticated\n\n    U-&gt;&gt;S: Select Country/State/District\n    S-&gt;&gt;G: aggregate_array() [cached after 1st call]\n    G--&gt;&gt;B: EECUs charged\n    G--&gt;&gt;S: Boundary list\n\n    U-&gt;&gt;S: Click \"Visualize\"\n    S-&gt;&gt;G: filterDate → mean → clip → getMapId\n    G--&gt;&gt;B: EECUs charged\n    G--&gt;&gt;S: Tile URL\n\n    U-&gt;&gt;S: Pan/Zoom map\n    U-&gt;&gt;G: Fetch tiles directly\n    G--&gt;&gt;B: EECUs charged per tile\n\n    U-&gt;&gt;S: Extract Time Series\n    S-&gt;&gt;G: ImageCollection.map(reduceRegion)\n    G--&gt;&gt;B: EECUs charged (heaviest operation)\n    G--&gt;&gt;S: Monthly values\n\n\n EECU consumption flow per user interaction"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#security-best-practices",
+    "href": "posts/2026_05_16_gee_openstream/index.html#security-best-practices",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "14 Security Best Practices",
+    "text": "14 Security Best Practices\n\n14.1 For the Developer\n\nNever store user credentials on disk or in session beyond the current run\nUse HTTPS in production (Streamlit Cloud handles this automatically)\nAdd .streamlit/secrets.toml to .gitignore (already done in this repo)\n\n\n\n14.2 For Users\n\nCreate a dedicated Service Account for this app (don’t reuse keys)\nGrant minimal permissions (Earth Engine Resource Viewer is sufficient)\nRotate keys regularly via the Cloud Console\nSet budget alerts on the GCP project to monitor EECU usage\n\n\n\n.gitignore (relevant section)\n\n# Streamlit\n.streamlit/secrets.toml"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#deployment",
+    "href": "posts/2026_05_16_gee_openstream/index.html#deployment",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "15 Deployment",
+    "text": "15 Deployment\n\n15.1 Local\nstreamlit run app.py\nOr use the provided run.bat on Windows which handles venv creation and dependency installation automatically.\n\n\n15.2 GitHub Codespaces\nThe .devcontainer/devcontainer.json auto-installs dependencies and launches the app on port 8501. Just click Code → Codespaces → Create.\n\n\n15.3 Streamlit Community Cloud\n\nPush your fork to GitHub\nConnect at share.streamlit.io\nSelect app.py as entrypoint\nNo secrets needed on the developer side — users bring their own!"
+  },
+  {
+    "objectID": "posts/2026_05_16_gee_openstream/index.html#conclusion",
+    "href": "posts/2026_05_16_gee_openstream/index.html#conclusion",
+    "title": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs",
+    "section": "16 Conclusion",
+    "text": "16 Conclusion\nBy shifting authentication to the user, OpenStream achieves a zero-cost architecture for the developer:\n\nUsers authenticate with their own Service Account JSON and Project ID\nAll EECUs are billed to the user’s GCP project\nThe developer’s project is never involved in any computation\nThe app scales to unlimited users without increasing developer costs\n\nThis pattern works for any Earth Engine dataset — TerraClimate, MODIS, Landsat, Sentinel, CHIRPS, ERA5, and beyond. The key insight is simple: ee.Initialize(user_creds, project=user_project) — that single line determines who pays.\n\n📺 Video Tutorial: youtube.com/@SpatialGeography\n💻 Source Code: github.com/spatialgeography/openstream"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Journal Article Placeholder\n\n\n\n\n\n\n\nPradhan, P. (Year)\n\n\nJournal Name\n\n\nThis is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Journal Article Placeholder\n\n\n\n\n\n\n\nPradhan, P. (Year)\n\n\nJournal Name\n\n\nThis is a placeholder for upcoming peer-reviewed journal articles. Details including the overview, metrics, and download links will be updated once the articles are published.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#book-chapters",
+    "href": "publications.html#book-chapters",
+    "title": "Publications",
+    "section": "📚 Book Chapters",
+    "text": "📚 Book Chapters\n\n\n\nApplication of analytic hierarchy process for mapping flood vulnerability in Odisha using Google Earth Engine\n\n\n\n\n\n\n\nPradhan, P., Bajpai, R., & Patra, S. (2025)\n\n\nIn Google Earth Engine and Artificial Intelligence for Earth Observation, Elsevier\n\n\nThis research utilizes the Analytic Hierarchy Process (AHP) within the Google Earth Engine environment to map flood vulnerability in Odisha, India. By integrating various geomorphological and climatic parameters, the study produces high-resolution vulnerability maps to assist in disaster management and mitigation strategies.\n\n\n  Download    DOI \n\n\n\n\n\n\nAgricultural drought monitoring using Google Earth Engine: a study of Paschim Medinipur district, West Bengal\n\n\n\n\n\n\n\nPradhan, P., & Patra, S. (2024)\n\n\nIn Modern Cartography Series, Elsevier\n\n\nThis study presents a remote sensing-based approach to monitoring agricultural drought in the Paschim Medinipur district. Using long-term satellite data and vegetation indices processed on the cloud, I analyze spatiotemporal drought patterns and their impact on local agriculture.\n\n\n  Download    DOI"
+  },
+  {
+    "objectID": "publications.html#presentations",
+    "href": "publications.html#presentations",
+    "title": "Publications",
+    "section": "🎤 Presentations",
+    "text": "🎤 Presentations\n\n\nDrought Monitoring with GEE AI Assistant powered by Gemini API\n\n\n\n\n\n\n\nPradhan, P. (2024)\n\n\nGDG for Earth Engine Nairobi (Virtual)\n\n\nA demonstration of integrating Large Language Models (LLMs) with geospatial platforms. This workshop showcases how a Gemini-powered AI assistant can streamline complex GEE coding tasks for drought monitoring, making cloud-based remote sensing more accessible to researchers.\n\n\n  Download    DOI \n\n\n\n\n:::"
+  },
+  {
+    "objectID": "publications.html#posters",
+    "href": "publications.html#posters",
+    "title": "Publications",
+    "section": "🖼️ Posters",
+    "text": "🖼️ Posters\n\n\n\nNear Real-Time Air Quality Trend Monitoring in Odisha Using Multi-Sensor Satellite Images\n\n\n\n\n\nUnable to display PDF. Download here.\n\n\n\n\n\nPradhan, P., & Bajpai, R. (2023)\n\n\nOdisha Research Conclave (ORC-2023)\n\n\nThis poster presentation demonstrates a multi-sensor satellite approach for monitoring air quality trends in Odisha. Using a combination of Sentinel-5P and MODIS data, the research provides a near real-time assessment of pollutants to support environmental policy and public health awareness.\n\n\n  Download PDF    Details \n\n\n\n\n\n\n\nFull publication lists available via:\n Google Scholar  ResearchGate"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "",
+    "text": "Geography is often described as the “mother of all sciences,” a discipline that uniquely sits at the intersection of the natural and social worlds. But within this broad field, there exists a dynamic tension—and a powerful synergy—between two dominant paradigms: Geography as a Social Science and Geography as a Spatial Science."
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-social-science-perspective-understanding-place",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🧠 The Social Science Perspective: Understanding “Place”",
+    "text": "🧠 The Social Science Perspective: Understanding “Place”\nIn the realm of social science, geography is deeply human. It is concerned with the “Why” and “How” of human existence in specific locations.\n\n\n\nThe Social Lens: Understanding Human Culture\n\n\n\nFocus: Lived experience, culture, politics, and social structures.\nKey Concept: “Place” — a location imbued with meaning, memory, and social relationships.\nMethods: Qualitative approaches such as ethnography, interviews, participatory observation, and critical theory.\n\n\n“Geography is not just about where things are, but about what they mean to the people who are there.”\n\nSocial geographers ask questions like: How does gentrification affect community identity? or What are the lived experiences of migration?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-spatial-science-perspective-analyzing-space",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🛰️ The Spatial Science Perspective: Analyzing “Space”",
+    "text": "🛰️ The Spatial Science Perspective: Analyzing “Space”\nOn the other side of the spectrum lies spatial science, often driven by the “Quantitative Revolution” of the mid-20th century. Here, geography becomes a rigorous, measurable science.\n\n\n\nThe Spatial Perspective: Data and Analysis\n\n\n\nFocus: Patterns, distributions, flows, and measurable phenomena.\nKey Concept: “Space” — an abstract, geometric surface where variables interact.\nMethods: Geographic Information Systems (GIS), Remote Sensing, spatial statistics, and geocomputation.\n\n\n“Everything is related to everything else, but near things are more related than distant things.” — Waldo Tobler (First Law of Geography)\n\nSpatial scientists ask: What is the optimal location for a new hospital? or How can we model the spread of a wildfire using satellite data?"
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#the-convergence-why-we-need-both",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "🤝 The Convergence: Why We Need Both",
+    "text": "🤝 The Convergence: Why We Need Both\nFor a long time, these two camps were seen as opposing forces—the “quants” vs. the “quals.” However, modern geography increasingly recognizes that this binary is false.\n\n\n\nSynthesis and Convergence in Geography\n\n\n\nGIS needs Context: A map of poverty rates (Spatial Science) is just data points without understanding the historical and political causes of that poverty (Social Science).\nSocial Theory needs Grounding: abstract theories about inequality are more powerful when backed by rigorous spatial evidence.\n\n\nThe Rise of “Critical GIS” and “Geo-Humanities”\nToday, we see a blending of these worlds. Critical GIS scholars use spatial tools to challenge social injustices, while Geo-Humanities researchers use maps to tell rich, human stories."
+  },
+  {
+    "objectID": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "href": "posts/2026_02_16_social_vs_spatial/index.html#conclusion",
+    "title": "The Dual Soul of Geography: Social Science vs. Spatial Science",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhether you identify more as a social theorist or a spatial analyst, the strength of geography lies in its ability to synthesize. By combining the empathy of social science with the precision of spatial science, we gain a holistic understanding of our complex world.\n\n\n\nBridging the Disciplines\n\n\nGeography isn’t just one or the other—it is the bridge between them."
+  },
+  {
     "objectID": "posts/2026-02-19-history-geographical-organisations-india/index.html",
     "href": "posts/2026-02-19-history-geographical-organisations-india/index.html",
     "title": "The Evolution of Geographical Organizations in India",
@@ -525,10 +518,136 @@
     "text": "References\nAligarh Muslim University. (n.d.). Department of Geography: Our Heritage. https://www.amu.ac.in/department/geography\nAsian Geographical Association. (2024). Founding committee and member countries. http://asiageo.net\nAssociation of Geographers in Bihar and Jharkhand. (2024). Mission and executive council. http://agbj.org.in\nAssociation of Population Geographers of India. (2023). Executive body term 2023-2025. http://apgin.org\nDeccan Geographical Society. (2024). About the society and journal. http://dgsi.org.in\nGeographical Society of India. (2019). Founding principles and history. http://geographicalsocietyofindia.org.in\nGauhati University. (n.d.). History of the Department of Geography. https://gauhati.ac.in/department/geography\nIndian Geographical Society. (2024). History of IGS Chennai. http://igschennai.org\nIndian Society of Remote Sensing. (2025). About ISRS: History and objectives. https://isrsindia.in\nInstitute of Indian Geographers. (2024). Constitution and executive council 2024-25. https://iigeo.org\nMaharashtra Bhugolshastra Parishad. (2024). About us: Journey since 1984. http://mbpune.org.in\nNational Association of Geographers, India. (2024). Official lists: Executive committee 2024-25. https://sites.google.com/view/nagiorgin/home\nNational Geographical Society of India. (2024). Publications and secretary journals. http://ngsi.in\nRajasthan Geographical Association. (2024). History and regional impact. http://rga.ac.in\nShodhganga. (2020). Institutional framework for geography in India. http://inflibnet.ac.in\nUniversity of Madras. (2023). Department of Geography: Research & societies. https://unom.ac.in\nWikipedia contributors. (2024). Major E. W. Dann and the roots of Indian geography. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Department_of_Geography,_Aligarh_Muslim_University"
   },
   {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Gallery",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Welcome to my academic and field journey. This gallery showcases my participation in research conventions, workshops, and institutional visits. Click on any image to expand.\n\n\n\n\nRavenshaw University\nDepartment of Geography\n\n\n\n\n\nRavenshaw University\nAcademic research environment\n\n\n\n\n\nIIT Bombay\nGROW Event 2025\n\n\n\n\n\nIIT Bombay\nPoster Presentation at GROW Event\n\n\n\n\n\nANVESHAN 2023\nStudent Research Convention\n\n\n\n\n\nAward Ceremony\nSky is the limit…\n\n\n\n\n\nBHU GEE Workshop\nBanaras Hindu University session\n\n\n\n\n\nField Data Collection\nPractical GIS applications\n\n\n\n\n\nAIU Anveshan 2023\nGanpat University\n\n\n\n\n\nAIU Anveshan 2023\nGanpat University\n\n\n\n\n\nNAGI Congress\nRanchi University conference\n\n\n\n\n\nCartographic Expert Group\nNAGI Technical session\n\n\n\n\n\nGDG Earth Engine Nairobi\nGemini AI Presentation\n\n\n\n\n\nResource Person\nMaharaja Sriram Chandra Bhanja Deo University\n\n\n\n\n\nUnacademy\nPlus Learner Certificate\n\n\n\n\n\nRavenshaw University\nNotice Board"
+    "text": "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs\n\n\nA step-by-step guide to building a Streamlit app where users authenticate with their own GEE credentials, ensuring Earth Engine Compute Units (EECUs) are charged to their account\n\n\n\nGIS\n\nRemote Sensing\n\nPython\n\nStreamlit\n\nGoogle Earth Engine\n\nAuthentication\n\n\n\n\n\n\n\n\n\nMay 16, 2026\n\n\nSpatial Geography\n\n\n\n\n\n\n\n\n\n\n\n\nDeploying a Google Earth Engine App on Streamlit Cloud\n\n\n\n\n\n\nGEE\n\nStreamlit\n\nDeployment\n\nPython\n\nCloud\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\n\n\n\n\nGeography\n\nHistory\n\nIndia\n\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nThe Dual Soul of Geography: Social Science vs. Spatial Science\n\n\n\n\n\n\nGeography\n\nGIS\n\nTheory\n\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nPulakesh Pradhan\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events & Engagements",
+    "section": "",
+    "text": "I regularly participate in international conferences, workshops, and seminars to share my research on spatial data science, Google Earth Engine, and AI-driven remote sensing."
+  },
+  {
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events & Engagements",
+    "section": "📅 Upcoming Events",
+    "text": "📅 Upcoming Events\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events.html#past-seminars-workshops",
+    "href": "events.html#past-seminars-workshops",
+    "title": "Events & Engagements",
+    "section": "🏛️ Past Seminars & Workshops",
+    "text": "🏛️ Past Seminars & Workshops\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n10-Day GEE Training Sessions\n\n\nSuccessfully Concluded! A 10-day intensive online training on Google Earth Engine (GEE) for geospatial analytics.\n\n\n\n\n\n\nApr 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBanaras Hindu University\n\n\nCloud Computing in Geography (Guest Lecture).\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\nNo matching items\n\n\nFor invitations or collaborations for guest lectures and workshops, please reach out via LinkedIn."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pulakesh Pradhan",
+    "section": "",
+    "text": "Miles to go before I sleep …\n\n LinkedIn  Scholar  YouTube  Email"
+  },
+  {
+    "objectID": "index.html#recent-events",
+    "href": "index.html#recent-events",
+    "title": "Pulakesh Pradhan",
+    "section": "📅 Recent Events",
+    "text": "📅 Recent Events\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine\n\n\nA 5-day virtual workshop for PG students at Centurion University, Bhubaneswar.\n\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasics of Google Earth Engine & LULC Classification\n\n\nVirtual workshop on GEE fundamentals and Land Use Land Cover classification.\n\n\n\n\n\n\nSep 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDrought Monitoring with GEE AI Assistant & Gemini API\n\n\nExploring the transformation of geospatial analysis using the GEE AI Assistant and Gemini API at GDG for Earth Engine Nairobi.\n\n\n\n\n\n\nJul 26, 2025\n\n\n\n\n\n\nNo matching items\n\n View all events"
+  },
+  {
+    "objectID": "index.html#latest-insights",
+    "href": "index.html#latest-insights",
+    "title": "Pulakesh Pradhan",
+    "section": "📌 Latest Insights",
+    "text": "📌 Latest Insights\n\n\n\n\n\n\n\n\n\n\nUser-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs\n\n\n\n\n\n\nSpatial Geography\n\n\nMay 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeploying a Google Earth Engine App on Streamlit Cloud\n\n\n\n\n\n\nPulakesh Pradhan\n\n\nMar 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Geographical Organizations in India\n\n\nTracing the journey of geographical societies in India from the early 20th century to the modern geospatial era.\n\n\n\n\n\n\nFeb 19, 2026\n\n\n\n\n\n\nNo matching items\n\n View all posts"
+  },
+  {
+    "objectID": "index.html#social-updates",
+    "href": "index.html#social-updates",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Social Updates",
+    "text": "👥 Social Updates\n\n\nGEE AI Assistant: 4k+ Global Users!\nGoogle Earth Engine Coding Companion\nI am thrilled to announce that the GEE AI Assistant now has over 4,000+ worldwide users from 134 countries. Thank you for your trust and support in building this Gemini-powered geospatial community!\nInstall from Chrome Web Store\n\n\n\n\n\n View all updates"
+  },
+  {
+    "objectID": "index.html#groups-i-manage",
+    "href": "index.html#groups-i-manage",
+    "title": "Pulakesh Pradhan",
+    "section": "👥 Groups I Manage",
+    "text": "👥 Groups I Manage\n\n\n\n\n\n\n\n\n\nFacebook Group\n\n\nGeography- Conference, Webinar & Publication\n\n\n 2.6k+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nLinkedIn Group\n\n\nGeography & Google Earth Engine\n\n\n 180+ Members\n\n\nJoin Group \n\n\n \n\n\n\n\n\n\n\nWhatsApp Group\n\n\nGEE AI Assistant User Group\n\n\n 80+ Members\n\n\nJoin Group"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Pulakesh Pradhan",
+    "section": "📚 Recent Publications",
+    "text": "📚 Recent Publications\n\n\n\n\n\n\n\n\n\n\nFlood Vulnerability Mapping in Odisha\n\n\nApplication of AHP for mapping flood vulnerability using Google Earth Engine (2025).\n\n\n\n\n\n\n\n\n\n\n\n\nAgricultural Drought Monitoring using GEE\n\n\nA study of Paschim Medinipur district, West Bengal in Modern Cartography Series (2024).\n\n\n\n\n\n\n\n\n\n\n\n\nAir Quality Trend Monitoring (Poster)\n\n\nNear real-time multip-sensor satellite monitoring presented at ORC-2023.\n\n\n\n\n\nNo matching items\n\n View all publications"
+  },
+  {
+    "objectID": "index.html#typing-proficiency",
+    "href": "index.html#typing-proficiency",
+    "title": "Pulakesh Pradhan",
+    "section": "⌨️ Typing Proficiency",
+    "text": "⌨️ Typing Proficiency\n\n\n\nVerified on Ratatype: 57 WPM, 99.6% Accuracy"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html",
+    "href": "events/mscbu-workshop-sep-2025.html",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine & LULC Classification\nDate: September 13, 2025\nTime: 7:00 PM – 9:00 PM\nHost: Maharaja Sriram Chandra Bhanja Deo University\nMode: Virtual (Google Meet)"
+  },
+  {
+    "objectID": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "href": "events/mscbu-workshop-sep-2025.html#event-overview",
+    "title": "Basics of Google Earth Engine & LULC Classification",
+    "section": "Event Overview",
+    "text": "Event Overview\nThis session focused on introducing Google Earth Engine (GEE) to students and researchers. Key topics covered included:\n\nIntroduction to GEE Code Editor and Interface.\nBasics of remote sensing data acquisition.\nWorkflow for Land Use Land Cover (LULC) Classification.\nHands-on demonstration using satellite imagery.\n\nThe workshop aimed to equip participants with the essential skills to start their journey in cloud-based geospatial analysis."
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html",
+    "href": "events/gee-training-apr-2025.html",
+    "title": "10-Day GEE Training Sessions",
+    "section": "",
+    "text": "Topic: Google Earth Engine (GEE) Training Sessions\nResource Person: Pulakesh Pradhan\nHost: Centurion University, Bhubaneswar\nStatus: Successfully Concluded!\nDelighted to share a few glimpses from the recently concluded 10-day Google Earth Engine (GEE) Training, where I had the privilege of leading and teaching as a resource person.\nThis training, conducted by Centurion University, Bhubaneswar, provided participants with hands-on experience in geospatial data processing, remote sensing, and cloud-based geospatial analytics using Google Earth Engine."
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
+    "href": "events/gee-training-apr-2025.html#glimpses-of-training-outcomes",
+    "title": "10-Day GEE Training Sessions",
+    "section": "📸 Glimpses of Training Outcomes",
+    "text": "📸 Glimpses of Training Outcomes"
+  },
+  {
+    "objectID": "events/gee-training-apr-2025.html#key-learning-modules",
+    "href": "events/gee-training-apr-2025.html#key-learning-modules",
+    "title": "10-Day GEE Training Sessions",
+    "section": "🚀 Key Learning Modules",
+    "text": "🚀 Key Learning Modules\nThroughout the training, participants explored:\n✅ Cloud computing for geospatial analysis using JavaScript\n✅ Data handling in GEE (FeatureCollections, ImageCollections)\n✅ Importing and exporting geospatial datasets (shapefiles, raster images, etc.)\n✅ GEE functionalities: filtering, reducers, time-series analysis, and charting\n✅ Machine learning for Land Use Land Cover (LULC) classification\n✅ Applications: Urban Heat Island, Flood Mapping, Forest Monitoring, Surface Water Detection, Water Quality, etc.\n✅ Key datasets covered: Landsat, Sentinel-2, SRTM, FAO GAUL, TerraClimate, CHIRPS, MODIS, CMIP6, etc.\n✅ Advanced Integration: AI, IMD data, and OpenStreetMap (OSM) in GEE\n🙏 A huge appreciation to all participants for their dedication and active engagement. Your enthusiasm made this learning experience truly enriching!\n#GoogleEarthEngine #RemoteSensing #GeospatialAnalysis #EarthObservation #DataScience #MachineLearning #ClimateAnalysis #SustainableDevelopment\n\n📌 More insights: LinkedIn Article | pulakeshpradhan.github.io"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html",
+    "href": "events/gee-workshop-feb-2026.html",
+    "title": "Basics of Google Earth Engine",
+    "section": "",
+    "text": "Topic: Basics of Google Earth Engine\nTrainer: Pulakesh Pradhan\nMode: Virtual (Online)\nHost: Centurion University, Bhubaneswar"
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "href": "events/gee-workshop-feb-2026.html#workshop-highlights",
+    "title": "Basics of Google Earth Engine",
+    "section": "Workshop Highlights",
+    "text": "Workshop Highlights\nThe 5-day intensive workshop at Centurion University provided PG students with a solid foundation in Google Earth Engine. Attendees explored diverse applications, from basic scripting to advanced geospatial analysis."
+  },
+  {
+    "objectID": "events/gee-workshop-feb-2026.html#schedule",
+    "href": "events/gee-workshop-feb-2026.html#schedule",
+    "title": "Basics of Google Earth Engine",
+    "section": "Schedule",
+    "text": "Schedule\nThe workshop was held from 7:00 PM to 9:30 PM on the following dates:\n\nMonday, Feb 16, 2026\nWednesday, Feb 18, 2026\nThursday, Feb 19, 2026\nSaturday, Feb 21, 2026\nSunday, Feb 22, 2026\n\nThis intensive session was designed for PG students to build a strong foundation in Google Earth Engine for geospatial analysis."
   }
 ]
