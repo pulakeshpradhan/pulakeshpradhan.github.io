@@ -1,0 +1,630 @@
+---
+title: "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs"
+subtitle: "A step-by-step guide to building a Streamlit app where users authenticate with their own GEE credentials, ensuring Earth Engine Compute Units (EECUs) are charged to their account"
+author: "Spatial Geography"
+date: 2026-05-16
+categories: [GIS, Remote Sensing, Python, Streamlit, Google Earth Engine, Authentication]
+image: "eecu_billing_flow.png"
+toc: true
+toc-depth: 4
+number-sections: true
+code-fold: false
+code-tools: true
+highlight-style: github
+format:
+  html:
+    code-overflow: wrap
+---
+
+![OpenStream Hero Image](openstream_blog_hero.png)
+
+## The Problem: Who Pays for Earth Engine Compute?
+
+When you build a Google Earth Engine (GEE) application, every computation — filtering imagery, reducing regions, generating tiles — consumes **Earth Engine Compute Units (EECUs)**. These EECUs are billed to the **GCP project** whose credentials were used to initialize the `ee` session.
+
+In a typical setup, the developer hardcodes their own service account or project credentials. This means:
+
+- **Every user's computation is billed to the developer's GCP project.**
+- As user count grows, the developer's EECU quota gets exhausted.
+- A single heavy query from one user can block others.
+- The developer bears all costs — even for users who have their own GEE-registered projects.
+
+### The Solution: User-Defined Credentials
+
+What if each user **brings their own credentials**? The app becomes a **stateless tool** — it provides the interface, but all computation costs are borne by the user's own GCP project.
+
+```{mermaid}
+%%| fig-cap: "EECU billing flow — User-defined credentials vs Developer credentials"
+graph TD
+    subgraph "❌ Developer Credentials (Default)"
+        A1["User A"] --> D["Developer's GCP Project"]
+        A2["User B"] --> D
+        A3["User C"] --> D
+        D --> E["All EECUs billed to Developer"]
+    end
+    subgraph "✅ User-Defined Credentials (OpenStream)"
+        B1["User A + Own Key"] --> P1["User A's GCP Project"]
+        B2["User B + Own Key"] --> P2["User B's GCP Project"]
+        B3["User C + Own Key"] --> P3["User C's GCP Project"]
+    end
+```
+
+This is exactly what **OpenStream** implements. Let's build it step by step.
+
+> **Repository**: [github.com/spatialgeography/openstream](https://github.com/spatialgeography/openstream)
+
+---
+
+## Prerequisites
+
+Before starting, ensure you have:
+
+- **Python 3.9+** installed
+- A **Google Cloud Platform (GCP)** account with the Earth Engine API enabled
+- Basic familiarity with Streamlit
+
+---
+
+## Step 1: Understanding EECUs & GCP Billing
+
+### What Are EECUs?
+
+Earth Engine Compute Units are Google's metric for GEE resource consumption. Each operation has a cost:
+
+| Operation | Approximate EECU Cost |
+|-----------|----------------------|
+| `ee.Image.getMapId()` (tile rendering) | Low |
+| `ee.Image.reduceRegion()` (zonal stats) | Medium |
+| `ee.ImageCollection.map()` (batch processing) | High |
+| `ee.Image.getThumbURL()` (export) | Medium-High |
+
+: EECU cost by operation type {.striped .hover}
+
+### The Billing Rule
+
+**EECUs are always charged to the `project` parameter passed to `ee.Initialize()`.**
+
+```python
+# EECUs charged to "my-project-123"
+ee.Initialize(credentials, project="my-project-123")
+```
+
+This means: **whoever provides the project ID and valid credentials pays the bill.** Our entire strategy hinges on this fact.
+
+---
+
+## Step 2: Set Up the Project Structure
+
+```{.bash}
+# Clone the repository
+git clone https://github.com/spatialgeography/openstream.git
+cd openstream
+
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate          # Windows
+# source venv/bin/activate    # macOS/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Dependencies
+
+```{.txt filename="requirements.txt"}
+streamlit
+earthengine-api
+folium
+streamlit-folium
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+pandas
+streamlit-oauth
+```
+
+The critical packages:
+
+- `earthengine-api`: Native GEE Python client (no geemap needed)
+- `google-auth`: Handles Service Account credential parsing
+- `streamlit-oauth`: Enables OAuth 2.0 login flow within Streamlit
+
+---
+
+## Step 3: Build the User Authentication Sidebar
+
+This is the core of the entire approach. Instead of hardcoding credentials, we create a sidebar where each user provides:
+
+1. Their **GCP Project ID** (determines where EECUs are billed)
+2. Their **Service Account JSON key** (proves they own that project)
+
+```{.python filename="app.py — User Authentication Sidebar"}
+import streamlit as st
+import ee
+import json
+from google.oauth2 import service_account
+
+st.set_page_config(
+    page_title="TerraClimate Regional Explorer",
+    layout="wide",
+    page_icon="🌎"
+)
+
+with st.sidebar:
+    st.header("🔑 Connection & Auth")
+
+    # User provides THEIR OWN project ID
+    project_id = st.text_input(
+        "Project ID",
+        value=st.session_state.get("project_id", ""),
+        placeholder="your-gcp-project-id"
+    )
+
+    # User uploads THEIR OWN service account key
+    uploaded_file = st.file_uploader(
+        "Service Account JSON",
+        type=["json"]
+    )
+
+    st.markdown("🔗 [Get Key](https://console.cloud.google.com/iam-admin/serviceaccounts)")
+    st.markdown("📺 [Watch the Tutorial](https://www.youtube.com/@SpatialGeography)")
+
+    if st.button("🚀 Connect to GEE"):
+        if not project_id or uploaded_file is None:
+            st.error("Missing Project ID or JSON file.")
+        else:
+            try:
+                # Parse the uploaded JSON key
+                content = uploaded_file.read().decode("utf-8")
+                sa_info = json.loads(content)
+
+                # Fix escaped newlines in private key
+                # (common issue when keys are copy-pasted)
+                if "private_key" in sa_info:
+                    sa_info["private_key"] = sa_info["private_key"].replace("\\n", "\n")
+
+                # Create credentials scoped to Earth Engine
+                SCOPES = ['https://www.googleapis.com/auth/earthengine']
+                creds = service_account.Credentials.from_service_account_info(
+                    sa_info, scopes=SCOPES
+                )
+
+                # Initialize EE with the USER'S project
+                # All EECUs from this session are billed HERE
+                ee.Initialize(creds, project=project_id)
+
+                # Persist auth state across Streamlit reruns
+                st.session_state["project_id"] = project_id
+                st.session_state["ee_initialized"] = True
+                st.success("Connected!")
+                st.rerun()
+            except Exception as e:
+                st.error(f"Failed: {e}")
+```
+
+### Why This Works for EECU Billing
+
+The key line is:
+
+```python
+ee.Initialize(creds, project=project_id)
+```
+
+- `creds` = the user's own Service Account credentials
+- `project_id` = the user's own GCP project
+
+**Every `ee.*` call after this line is authenticated as the user's service account and billed to the user's project.** The app developer's project is never involved.
+
+::: {.callout-important}
+## The Developer Pays Nothing
+Since the app never uses the developer's credentials, the developer's GCP project incurs **zero EECUs**. The app is purely a frontend — all compute costs flow to whoever authenticates.
+:::
+
+---
+
+## Step 4: Guide Your Users — How to Create a Service Account Key
+
+Your users need to generate their own credentials. Here's the exact process to share with them:
+
+### 4.1 Enable the Earth Engine API
+
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. Select or create a project
+3. Navigate to **APIs & Services → Library**
+4. Search for **"Earth Engine"** and click **Enable**
+
+### 4.2 Register the Project with Earth Engine
+
+1. Go to [code.earthengine.google.com](https://code.earthengine.google.com/)
+2. If prompted, register your Cloud Project for Earth Engine access
+3. Accept the Terms of Service
+
+### 4.3 Create a Service Account
+
+1. Go to **IAM & Admin → Service Accounts** in the Cloud Console
+2. Click **+ Create Service Account**
+3. Name it (e.g., `earthengine-user`)
+4. Grant the role: **Earth Engine Resource Viewer** (or broader roles if needed)
+5. Click **Done**
+
+### 4.4 Generate the JSON Key
+
+1. Click on the newly created service account
+2. Go to the **Keys** tab
+3. Click **Add Key → Create new key → JSON**
+4. Download the `.json` file — this is the file users upload into the app
+
+::: {.callout-warning}
+## Security Reminder for Users
+The JSON key file contains a private key. Users should:
+
+- **Never** share it publicly or commit it to GitHub
+- **Never** paste it into untrusted applications
+- Rotate keys periodically via the Cloud Console
+- Delete unused keys immediately
+:::
+
+---
+
+## Step 5: Build the GEE-to-Folium Map Bridge
+
+Once authenticated, we need to render Earth Engine imagery on an interactive map. Since we avoid `geemap`, we use a direct `ee` → `folium` bridge:
+
+```{.python filename="app.py — GEE Tile Layer Bridge"}
+import folium
+from streamlit_folium import st_folium
+
+def add_ee_layer(self, ee_object, vis_params, name):
+    """Add an Earth Engine image layer to a Folium map."""
+    try:
+        # If it's an ImageCollection, reduce to mean
+        if isinstance(ee_object, ee.ImageCollection):
+            ee_object = ee_object.mean()
+
+        # Request a tile URL from GEE servers
+        map_id_dict = ee.Image(ee_object).getMapId(vis_params)
+
+        # Add the tile URL as a standard Folium layer
+        folium.raster_layers.TileLayer(
+            tiles=map_id_dict['tile_fetcher'].url_format,
+            attr='Map Data &copy; Google Earth Engine',
+            name=name,
+            overlay=True,
+            control=True
+        ).add_to(self)
+    except Exception as e:
+        st.error(f"Error adding EE layer '{name}': {e}")
+
+# Monkey-patch onto Folium's Map class
+folium.Map.add_ee_layer = add_ee_layer
+```
+
+**How it works:**
+
+1. `getMapId()` asks GEE servers to create a tile endpoint for the image — **this consumes EECUs from the user's project**.
+2. The returned URL template (`/tiles/{z}/{x}/{y}`) is a standard XYZ tile format.
+3. Folium fetches tiles on-demand as the user pans/zooms — each tile fetch costs additional EECUs.
+
+---
+
+## Step 6: Load Data — TerraClimate Example
+
+With the user authenticated, we can load any Earth Engine dataset. Here's the TerraClimate pipeline:
+
+```{.python filename="app.py — Data Loading & Processing"}
+# All 14 available TerraClimate variables
+variables = {
+    'tmmx': 'Max Temp',       'tmmn': 'Min Temp',
+    'pdsi': 'Drought (PDSI)', 'pr':   'Precipitation',
+    'soil': 'Soil Moisture',  'aet':  'Evapotranspiration',
+    'def':  'Water Deficit',  'pet':  'Ref Evapotranspiration',
+    'ro':   'Runoff',         'srad': 'Radiation',
+    'swe':  'Snow Eq',        'vap':  'Vapor Pressure',
+    'vpd':  'VPD',            'vs':   'Wind Speed'
+}
+
+# Load and process — runs on GEE servers, billed to user
+dataset = ee.ImageCollection('IDAHO_EPSCOR/TERRACLIMATE') \
+    .filterDate(start_date.strftime('%Y-%m-%d'),
+                end_date.strftime('%Y-%m-%d'))
+
+mean_img = dataset.select(selected_var).mean().clip(roi)
+
+# Auto-stretch: compute actual min/max within ROI
+stats = mean_img.reduceRegion(
+    ee.Reducer.minMax(),
+    roi.geometry(),
+    10000,           # 10 km scale
+    maxPixels=1e9
+).getInfo()
+
+vis_params = {
+    'min': stats.get(f"{selected_var}_min", 0),
+    'max': stats.get(f"{selected_var}_max", 500),
+    'palette': ['1a3678', '2955bc', '5699ff', '8dbae9',
+                'acd1ff', 'caebff', 'e5f9ff', 'fdffb4',
+                'ffe6a2', 'ffc969', 'ffa12d', 'ff7c1f',
+                'ca531a', 'ff0000', 'ab0000']
+}
+```
+
+Every call here — `filterDate`, `mean`, `clip`, `reduceRegion` — executes on Google's servers and is billed to the **user's project ID** provided in Step 3.
+
+---
+
+## Step 7: Dynamic Area Selection with Cached Boundaries
+
+Users select a region of interest through cascading dropdowns using FAO GAUL Level 2 boundaries:
+
+```{.python filename="app.py — Cached Boundary Fetching"}
+@st.cache_data(ttl=3600)
+def get_countries():
+    gaul = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level2")
+    return sorted(gaul.aggregate_array('ADM0_NAME').distinct().getInfo())
+
+@st.cache_data(ttl=3600)
+def get_states(country):
+    gaul = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level2")
+    filtered = gaul.filter(ee.Filter.eq('ADM0_NAME', country))
+    return sorted(filtered.aggregate_array('ADM1_NAME').distinct().getInfo())
+
+@st.cache_data(ttl=3600)
+def get_districts(country, state):
+    gaul = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level2")
+    filtered = gaul.filter(ee.Filter.And(
+        ee.Filter.eq('ADM0_NAME', country),
+        ee.Filter.eq('ADM1_NAME', state)
+    ))
+    return sorted(filtered.aggregate_array('ADM2_NAME').distinct().getInfo())
+```
+
+::: {.callout-tip}
+## Caching Saves EECUs
+`@st.cache_data(ttl=3600)` caches boundary lists for 1 hour. Without caching, every dropdown interaction would trigger a new GEE request — wasting the user's EECUs on repeated identical queries.
+:::
+
+### Building the ROI Filter
+
+```{.python}
+gaul = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level2")
+filters = [ee.Filter.eq('ADM0_NAME', selected_country)]
+
+if level in ["State/Province", "District"] and selected_state:
+    filters.append(ee.Filter.eq('ADM1_NAME', selected_state))
+if level == "District" and selected_district:
+    filters.append(ee.Filter.eq('ADM2_NAME', selected_district))
+
+roi = gaul.filter(ee.Filter.And(*filters))
+```
+
+---
+
+## Step 8: Time-Series Extraction
+
+Extract monthly climate values across the selected region:
+
+```{.python filename="app.py — Server-Side Time Series"}
+def extract_info(image):
+    millis = image.date().millis()
+    value = image.reduceRegion(
+        ee.Reducer.mean(), roi, 10000
+    ).get(selected_var)
+    return ee.Feature(None, {'millis': millis, 'value': value})
+
+# This runs entirely on GEE servers
+data_features = dataset.select(selected_var) \
+    .map(extract_info) \
+    .getInfo()['features']
+
+# Only the final results (timestamps + values) are downloaded
+df = pd.DataFrame([f['properties'] for f in data_features])
+df['date'] = pd.to_datetime(df['millis'], unit='ms')
+df = df.set_index('date').sort_index().dropna(subset=['value'])
+
+st.line_chart(df['value'])
+st.dataframe(df[['value']])
+```
+
+The `ee.ImageCollection.map()` call processes every monthly image **server-side**. Only the aggregated results (one number per month) are transferred to the client. This is extremely EECU-efficient.
+
+---
+
+## Step 9: Map Rendering & Export
+
+### Interactive Map
+
+```{.python filename="app.py — Map Rendering"}
+# Center on ROI
+centroid = roi.geometry().centroid(1000).getInfo()
+center = centroid['coordinates'][::-1]  # [lng,lat] → [lat,lng]
+m = folium.Map(location=center, zoom_start=6 if level == 'Country' else 9)
+
+# Add climate layer
+m.add_ee_layer(mean_img, vis_params, "Regional Data")
+
+# Add boundary outline
+folium.GeoJson(
+    data=roi.geometry().getInfo(),
+    style_function=lambda x: {
+        'fillColor': 'none',
+        'color': 'red',
+        'weight': 2
+    }
+).add_to(m)
+
+folium.LayerControl().add_to(m)
+st_folium(m, width="100%", height=600)
+```
+
+### JPG Export
+
+```{.python filename="app.py — Thumbnail Export"}
+thumb_url = mean_img.getThumbURL({
+    'min': v_min, 'max': v_max,
+    'palette': current_palette,
+    'dimensions': 1024,
+    'region': roi.geometry().bounds().getInfo(),
+    'format': 'jpg'
+})
+st.image(thumb_url, use_column_width=True)
+st.markdown(f"📥 [Click here to download JPG]({thumb_url})")
+```
+
+---
+
+## Step 10: Alternative — OAuth 2.0 Per-User Login
+
+For apps where you want users to **log in with their Google account** (instead of uploading a JSON key), use the OAuth approach:
+
+```{.python filename="streamlit_oauth_app.py"}
+from streamlit_oauth import OAuth2Component
+from google.oauth2.credentials import Credentials
+
+CLIENT_ID = st.secrets.get("auth", {}).get("client_id", "")
+CLIENT_SECRET = st.secrets.get("auth", {}).get("client_secret", "")
+PROJECT_ID = st.secrets.get("gee", {}).get("project_id", "")
+
+AUTHORIZE_URL = "https://accounts.google.com/o/oauth2/v2/auth"
+TOKEN_URL = "https://oauth2.googleapis.com/token"
+# CRITICAL: Must include the earthengine scope
+SCOPES = "openid profile email https://www.googleapis.com/auth/earthengine"
+
+oauth2 = OAuth2Component(
+    CLIENT_ID, CLIENT_SECRET,
+    AUTHORIZE_URL, TOKEN_URL,
+    REVOKE_URL, REVOKE_URL
+)
+
+if "auth" not in st.session_state:
+    result = oauth2.authorize_button(
+        name="Log in with Google (GEE)",
+        redirect_uri="http://localhost:8501",
+        scope=SCOPES,
+        key="google_auth",
+        extras_params={"prompt": "consent", "access_type": "offline"}
+    )
+    if result:
+        st.session_state["auth"] = result
+        st.rerun()
+else:
+    token = st.session_state["auth"]["access_token"]
+    creds = Credentials(token)
+    ee.Initialize(creds, project=PROJECT_ID)
+```
+
+::: {.callout-warning}
+## Why Not `st.login("google")`?
+Streamlit's built-in `st.login("google")` only supports OIDC scopes (`openid`, `profile`, `email`). It **cannot** request the `https://www.googleapis.com/auth/earthengine` scope. You must use `streamlit-oauth` instead.
+:::
+
+### Service Account vs OAuth — When to Use Which
+
+| Aspect | Service Account (JSON Upload) | OAuth 2.0 (Google Login) |
+|--------|------------------------------|--------------------------|
+| **User experience** | Upload a file + enter project ID | Click "Log in with Google" |
+| **EECU billing** | Billed to user's SA project | Billed to the OAuth project |
+| **Setup for users** | Must create SA + download key | Just log in |
+| **Setup for developer** | None | Must configure OAuth consent screen |
+| **Best for** | Power users, researchers, labs | Public-facing apps |
+
+: Authentication comparison {.striped .hover}
+
+---
+
+## Complete EECU Flow Summary
+
+Here's how every interaction maps to EECU consumption — all charged to the **user's project**:
+
+```{mermaid}
+%%| fig-cap: "EECU consumption flow per user interaction"
+sequenceDiagram
+    participant U as User Browser
+    participant S as Streamlit App
+    participant G as GEE Servers
+    participant B as User's GCP Billing
+
+    U->>S: Upload JSON Key + Project ID
+    S->>G: ee.Initialize(user_creds, user_project)
+    G-->>S: Session authenticated
+
+    U->>S: Select Country/State/District
+    S->>G: aggregate_array() [cached after 1st call]
+    G-->>B: EECUs charged
+    G-->>S: Boundary list
+
+    U->>S: Click "Visualize"
+    S->>G: filterDate → mean → clip → getMapId
+    G-->>B: EECUs charged
+    G-->>S: Tile URL
+
+    U->>S: Pan/Zoom map
+    U->>G: Fetch tiles directly
+    G-->>B: EECUs charged per tile
+
+    U->>S: Extract Time Series
+    S->>G: ImageCollection.map(reduceRegion)
+    G-->>B: EECUs charged (heaviest operation)
+    G-->>S: Monthly values
+```
+
+---
+
+## Security Best Practices
+
+### For the Developer
+
+- **Never store user credentials** on disk or in session beyond the current run
+- **Use HTTPS** in production (Streamlit Cloud handles this automatically)
+- **Add `.streamlit/secrets.toml` to `.gitignore`** (already done in this repo)
+
+### For Users
+
+- Create a **dedicated Service Account** for this app (don't reuse keys)
+- Grant **minimal permissions** (Earth Engine Resource Viewer is sufficient)
+- **Rotate keys** regularly via the Cloud Console
+- **Set budget alerts** on the GCP project to monitor EECU usage
+
+```{.json filename=".gitignore (relevant section)"}
+# Streamlit
+.streamlit/secrets.toml
+```
+
+---
+
+## Deployment
+
+### Local
+
+```{.bash}
+streamlit run app.py
+```
+
+Or use the provided `run.bat` on Windows which handles venv creation and dependency installation automatically.
+
+### GitHub Codespaces
+
+The `.devcontainer/devcontainer.json` auto-installs dependencies and launches the app on port `8501`. Just click **Code → Codespaces → Create**.
+
+### Streamlit Community Cloud
+
+1. Push your fork to GitHub
+2. Connect at [share.streamlit.io](https://share.streamlit.io)
+3. Select `app.py` as entrypoint
+4. No secrets needed on the developer side — users bring their own!
+
+---
+
+## Conclusion
+
+By shifting authentication to the user, OpenStream achieves a **zero-cost architecture for the developer**:
+
+- **Users authenticate with their own Service Account JSON and Project ID**
+- **All EECUs are billed to the user's GCP project**
+- **The developer's project is never involved in any computation**
+- **The app scales to unlimited users without increasing developer costs**
+
+This pattern works for any Earth Engine dataset — TerraClimate, MODIS, Landsat, Sentinel, CHIRPS, ERA5, and beyond. The key insight is simple: `ee.Initialize(user_creds, project=user_project)` — that single line determines who pays.
+
+> **📺 Video Tutorial**: [youtube.com/@SpatialGeography](https://www.youtube.com/@SpatialGeography)
+>
+> **💻 Source Code**: [github.com/spatialgeography/openstream](https://github.com/spatialgeography/openstream)
