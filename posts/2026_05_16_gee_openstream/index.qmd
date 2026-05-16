@@ -4,7 +4,7 @@ subtitle: "A step-by-step guide to building a Streamlit app where users authenti
 author: "Spatial Geography"
 date: 2026-05-16
 categories: [GIS, Remote Sensing, Python, Streamlit, Google Earth Engine, Authentication]
-image: "eecu_billing_flow.png"
+image: "https://github.com/pulakeshpradhan/pulakeshpradhan.github.io/blob/main/posts/2026_05_16_gee_openstream/eecu_billing_flow.png"
 toc: true
 toc-depth: 4
 number-sections: true
