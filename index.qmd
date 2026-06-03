@@ -148,6 +148,6 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 
 ## ⌨️ Typing Proficiency
 <div style="text-align: center; margin: 30px auto;">
-[![](https://www.ratatype.com/certificates/en/en_new/1/4/8/204148.webp?1780207599){.rounded style="border: 2px solid #e2e8f0; box-shadow: 0 10px 25px rgba(0,0,0,0.08); max-width: 600px; width: 100%;"}](https://www.ratatype.com/u204148/certificate/EN_NEW/)
+[![](images/204148.webp){.rounded style="border: 2px solid #e2e8f0; box-shadow: 0 10px 25px rgba(0,0,0,0.08); max-width: 600px; width: 100%;"}](https://www.ratatype.com/u204148/certificate/EN_NEW/)
 <p style="margin-top: 15px; color: #64748b; font-size: 0.9rem;">Verified on Ratatype</p>
 </div>
