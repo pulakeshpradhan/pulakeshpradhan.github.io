@@ -31,8 +31,6 @@ website:
         text: Gallery
       - href: social.qmd
         text: Social
-      - href: innovations.qmd
-        text: Innovations
       - href: youtube.qmd
         text: YouTube
     right:
