@@ -31,7 +31,7 @@ We are a community of QGIS users passionate about open-source geospatial technol
 ### GEE AI Assistant: 4k+ Global Users!
 **Google Earth Engine Coding Companion**
 
-Empowering the geospatial community with AI! I am proud to share that the **GEE AI Assistant** has reached over **4,000+ worldwide users** across **134 countries**. 
+Empowering the geospatial community with AI! I am proud to share that the **GEE AI Assistant** has reached over **4,000+ worldwide users** across **134 countries**.
 
 My Gemini-powered assistant helps researchers and developers write Earth Engine code faster and more efficiently. Thank you to my global users for being part of this innovation journey!
 
@@ -45,72 +45,72 @@ My Gemini-powered assistant helps researchers and developers write Earth Engine 
 :::
 :::
 
-### 🗓️ Conference & Seminar Calendar
+### 🗓️ Upcoming Conferences & Workshops
 
-| Event Name | Location | Dates | Deadline | Action |
-| :--- | :--- | :--- | :--- | :--- |
-| **IIG International Seminar** | Siliguri, WB | Feb 19–21, 2026 | <span class="deadline-date" data-date="2025-12-31">Dec 31, 2025</span> | [Circular](social/IIG_2026.pdf) |
-| **XXth DGSI Int. Conference** | Tirupati, AP | Feb 23–25, 2026 | <span class="deadline-date" data-date="2026-02-10">Feb 10, 2026</span> | [Circular](social/30-12-2026%20First%20Circular%20-%202026.pdf) |
-| **National Seminar (Viksit Bharat)** | Varanasi, UP | March 16–17, 2026 | <span class="deadline-date" data-date="2026-03-09">March 9, 2026</span> | [Register](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform) |
-| **IASP 2026 Regional Conference** | Goa University | March 20–21, 2026 | <span class="deadline-date" data-date="2026-02-15">Feb 15, 2026</span> | [Submit](https://forms.gle/dxgmZAGrdk5HdWVw5) |
-| **XXII INQUA Congress 2027** | Lucknow, India | Jan 28 – Feb 3, 2027 | <span class="deadline-date" data-date="2026-03-31">March 31, 2026</span> | [Register](https://register.inquaindia2027.in/) |
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    document.querySelectorAll('.deadline-date').forEach(function (el) {
-        const deadline = new Date(el.getAttribute('data-date') + 'T00:00:00');
-        el.classList.add(deadline < today ? 'deadline-closed' : 'deadline-open');
-        el.title = deadline < today ? 'Deadline passed' : 'Deadline open';
-    });
-});
-</script>
-
-
-::: {.social-card .tint-violet}
-::: {.social-content}
-### IIG International Seminar
-**“Geography in the 21st Century: Navigating Trends, Tackling Challenges”**
-
-::: {.event-meta}
-**📍 Location:** University of North Bengal, Siliguri  
-**📅 Date:** February 19–21, 2026
+::: {.calendar-note}
+Geography, GIS and remote sensing events. Dates and deadlines checked against official sources on 21 November 2026. Past deadlines are struck through automatically.
 :::
 
-Organized by the Department of Geography & Applied Geography. An international platform for discussing emerging trends and tackling spatial challenges in the 21st century.
+| Event | Location | Dates | Key Deadline | Links |
+| :--- | :--- | :--- | :--- | :--- |
+| **ISRO–ESA–GEOGLAM Workshop (AM-SEO)** | SAC-ISRO, Ahmedabad | <span class="event-date" data-end="2026-12-04">30 Nov – 4 Dec 2026</span> | Registration form open | [Register](https://forms.cloud.microsoft/e/yNzvJ1KyiM) · [PDF](social/2026-11_isro-esa-geoglam-am-seo-workshop.pdf) |
+| **InGARSS 2026 (IEEE GRSS)** | Hyderabad | <span class="event-date" data-end="2026-12-04">1–4 Dec 2026</span> | Papers: <span class="deadline-date" data-date="2026-05-30">30 May 2026</span> | [Website](https://ingarss2026.co.in/) · [PDF](social/2026-12_ingarss-2026-call-for-papers.pdf) |
+| **XXII INQUA Congress 2027** | Lucknow | <span class="event-date" data-end="2027-02-03">28 Jan – 3 Feb 2027</span> | On-site registration: <span class="deadline-date" data-date="2027-01-27">27 Jan 2027</span> | [Website](https://www.inquaindia2027.in/) · [PDF](social/2027-01_inqua-2027-first-circular.pdf) |
+| **EGU General Assembly 2027** | Vienna & Online | <span class="event-date" data-end="2027-04-09">4–9 Apr 2027</span> | Abstracts: <span class="deadline-date" data-date="2027-01-12">12 Jan 2027</span> | [Website](https://www.egu27.eu/) · [PDF](social/2027-04_egu27-call-for-abstracts.pdf) |
+| **IGARSS 2027 (IEEE GRSS)** | Reykjavík, Iceland | <span class="event-date" data-end="2027-07-16">11–16 Jul 2027</span> | Papers: <span class="deadline-date" data-date="2027-01-11">11 Jan 2027</span> | [Website](https://2027.ieeeigarss.org/call_for_papers.php) · [PDF](social/2027-07_igarss-2027-call-for-papers.pdf) |
 
-**📅 Key Dates:**
+::: {.social-card .tint-yellow}
+::: {.social-content}
+### ISRO–ESA–GEOGLAM Workshop on Agricultural Monitoring (AM-SEO)
+**“Workshop and Technical Demonstration on Agricultural Monitoring using Space-based Earth Observation”**
 
-*   **Registration Fee Deadline:** <span class="deadline-date" data-date="2025-12-31">31st December, 2025</span>
+::: {.event-meta}
+**📍 Location:** Space Applications Centre (SAC), ISRO, Ahmedabad
+**📅 Date:** <span class="event-date" data-end="2026-12-04">30 November – 4 December 2026</span>
+:::
+
+Jointly organized by ISRO, the European Space Agency (ESA) and GEOGLAM. A two-day open workshop on operational crop monitoring, satellite data synergies and early warning, followed by three days of technical demonstrations and training on ESA WorldCereal and ISRO crop-estimation workflows.
+
+**📅 Programme:**
+
+*   **Open workshop:** 30 November – 1 December 2026
+*   **Technical demonstrations & training:** 2 – 4 December 2026 (by invitation only)
+*   **Contact:** [am-seo@sac.isro.gov.in](mailto:am-seo@sac.isro.gov.in)
 
 ::: {.pill-row}
-[Download Revised Circular (PDF)](social/IIG_2026.pdf){.pill-btn}
+[Register](https://forms.cloud.microsoft/e/yNzvJ1KyiM){.pill-btn .pill-solid}
+[Workshop Page](https://geoglam.org/india-workshop-2026/){.pill-btn}
+[Download Flyer (PDF)](social/2026-11_isro-esa-geoglam-am-seo-workshop.pdf){.pill-btn}
 :::
 :::
 ::: {.social-media}
-<a href="social/IIG_2026.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>View Circular (PDF)</span></a>
+<a href="social/2026-11_isro-esa-geoglam-am-seo-workshop.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>Workshop Flyer (PDF)</span></a>
 :::
 :::
 
 ::: {.social-card .tint-sky}
 ::: {.social-content}
-### XXth DGSI International Geography Conference
-**“Geospatial Technologies in Water and Soil Resource Management for Sustainable Development and Vikasit Bharat”**
+### InGARSS 2026: IEEE India Geoscience and Remote Sensing Symposium
+**Theme: “Digital Earth – Modeling, Mapping, and Monitoring”**
 
 ::: {.event-meta}
-**📍 Location:** Sri Venkateswara University, Tirupati  
-**📅 Date:** February 23–25, 2026
+**📍 Location:** Hyderabad, India
+**📅 Date:** <span class="event-date" data-end="2026-12-04">1 – 4 December 2026</span>
 :::
 
-Organized by The Deccan Geographical Society of India (DGSI). This landmark conference explores the intersection of spatial science, resource management, and national development.
+The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS). Tracks cover agriculture, forest and environment; digital mapping and cartography; disaster management and early warning; and machine learning and AI for Digital Earth, with a special scientific theme on NISAR.
+
+**📅 Key Dates:**
+
+*   **Paper submission:** <span class="deadline-date" data-date="2026-05-30">30 May 2026</span> (closed; registration to attend is on the website)
 
 ::: {.pill-row}
-[Download Circular (PDF)](social/30-12-2026%20First%20Circular%20-%202026.pdf){.pill-btn}
+[Symposium Website](https://ingarss2026.co.in/){.pill-btn .pill-solid}
+[Call for Papers (PDF)](social/2026-12_ingarss-2026-call-for-papers.pdf){.pill-btn}
 :::
 :::
 ::: {.social-media}
-[![](social/dgsi2026.png){.nolightbox}](social/30-12-2026%20First%20Circular%20-%202026.pdf)
+<a href="social/2026-12_ingarss-2026-call-for-papers.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>Call for Papers (PDF)</span></a>
 :::
 :::
 
@@ -120,75 +120,101 @@ Organized by The Deccan Geographical Society of India (DGSI). This landmark conf
 **“Quaternary Science As Societal Services”**
 
 ::: {.event-meta}
-**📍 Location:** Lucknow, India  
-**📅 Date:** January 28 - February 3, 2027
+**📍 Location:** Lucknow, India
+**📅 Date:** <span class="event-date" data-end="2027-02-03">28 January – 3 February 2027</span>
 :::
 
-The biggest conference in Quaternary Sciences, featuring **188 Scientific Sessions**, **21 Workshops**, and **46 Field Trips**. Funding available for participants.
+The congress of the International Union for Quaternary Research (INQUA), one of the world's largest gatherings in Quaternary science, with sessions, workshops and field trips across the Himalaya, the Indo-Gangetic plains, the arid west and India's coasts.
 
-**📢 Important Update:**
+**📅 Key Dates:**
 
-*   **Abstract Submission EXTENDED:** <span class="deadline-date" data-date="2026-03-31">31st March, 2026</span>
+*   **Regular registration:** <span class="deadline-date" data-date="2026-09-25">closed 25 September 2026</span>
+*   **Pre-congress field trips:** 20 – 27 January 2027
+*   **On-site registration & icebreaker:** <span class="deadline-date" data-date="2027-01-27">27 January 2027</span>
 
 ::: {.pill-row}
-[Register Now](https://register.inquaindia2027.in/){.pill-btn}
-[First Circular (PDF)](https://framerusercontent.com/assets/uuOMCk51ous9qnKWe3ZLZbrTglI.pdf){.pill-btn}
+[Congress Website](https://www.inquaindia2027.in/){.pill-btn .pill-solid}
+[First Circular (PDF)](social/2027-01_inqua-2027-first-circular.pdf){.pill-btn}
 :::
 :::
 ::: {.social-media}
-[![](https://framerusercontent.com/images/Wi4L9x9xNpZwAWcwIW4zC1GU6lY.png?scale-down-to=1024&width=1992&height=2008){.nolightbox}](https://www.inquaindia2027.in/)
+<a href="social/2027-01_inqua-2027-first-circular.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>First Circular (PDF)</span></a>
+:::
+:::
+
+::: {.social-card .tint-violet}
+::: {.social-content}
+### EGU General Assembly 2027
+**European Geosciences Union: Earth, planetary and space sciences**
+
+::: {.event-meta}
+**📍 Location:** Austria Center Vienna, Austria & Online
+**📅 Date:** <span class="event-date" data-end="2027-04-09">4 – 9 April 2027</span>
+:::
+
+Europe's largest geoscience meeting, held in a hybrid format, with sessions spanning geomorphology, hydrology, natural hazards, climate and Earth observation. Online participation is available for those who cannot travel.
+
+**📅 Key Dates:**
+
+*   **Financial support requests:** <span class="deadline-date" data-date="2026-12-01">1 December 2026</span>
+*   **Abstract submission:** <span class="deadline-date" data-date="2027-01-12">12 January 2027, 13:00 CET</span>
+
+::: {.pill-row}
+[Submit Abstract](https://www.egu27.eu/){.pill-btn .pill-solid}
+[Call Details (PDF)](social/2027-04_egu27-call-for-abstracts.pdf){.pill-btn}
+:::
+:::
+::: {.social-media}
+<a href="social/2027-04_egu27-call-for-abstracts.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>Call for Abstracts (PDF)</span></a>
 :::
 :::
 
 ::: {.social-card .tint-cream}
 ::: {.social-content}
-### Western Regional Conference: IASP 2026
-**“Demographic Transition in Western India”**
+### IGARSS 2027: IEEE International Geoscience and Remote Sensing Symposium
+**Theme: “Global Vision for a Changing Planet”**
 
 ::: {.event-meta}
-**📍 Location:** Goa Business School, Goa University  
-**📅 Date:** March 20-21, 2026
+**📍 Location:** Harpa Concert Hall & Conference Centre, Reykjavík, Iceland
+**📅 Date:** <span class="event-date" data-end="2027-07-16">11 – 16 July 2027</span>
 :::
 
-A premier conference focusing on the demographic shifts and socio-economic transitions in Western India.
-
-**📅 Last Date for Online Abstract Submission:** <span class="deadline-date" data-date="2026-02-15">15th February, 2026</span>
-
-::: {.pill-row}
-[Submit Abstract](https://forms.gle/dxgmZAGrdk5HdWVw5){.pill-btn}
-[Download PDF](social/population_iasp_2026.pdf){.pill-btn}
-:::
-:::
-::: {.social-media}
-[![](https://iasp.ac.in/2026/goa2026.jpg?v=1771343496){.nolightbox}](social/population_iasp_2026.pdf)
-:::
-:::
-
-::: {.social-card .tint-yellow}
-::: {.social-content}
-### National Seminar: Environment, Economy, Culture and Technology
-**“A Way Forward to Viksit Bharat”**
-
-::: {.event-meta}
-**📍 Location:** Dr. Ghanshyam Singh Mahavidyalaya, Varanasi  
-**📅 Date:** March 16-17, 2026
-:::
-
-Organized by the Department of Geography. This seminar invites abstracts for oral presentations on the intersection of environment, economy, and technology.
+The 47th IGARSS, the flagship symposium of the IEEE Geoscience and Remote Sensing Society. Submit a full 4-page paper (published in IEEE Xplore), an abstract, or a recently published Q1 journal article (published after 1 January 2026).
 
 **📅 Key Dates:**
 
-*   **Abstract Submission Deadline:** <span class="deadline-date" data-date="2026-03-09">9th March, 2026</span>
-*   **Full Paper Submission:** <span class="deadline-date" data-date="2026-03-12">12th March, 2026</span>
+*   **Submission portal opened:** 10 November 2026
+*   **Final submission deadline:** <span class="deadline-date" data-date="2027-01-11">11 January 2027</span>
 
 ::: {.pill-row}
-[Register Now](https://docs.google.com/forms/d/e/1FAIpQLSdbFHgO6_CJt_1_UqFPYT2zk116Q2E_MnRm8yFwapiRkx5EZA/viewform){.pill-btn}
+[Call for Papers](https://2027.ieeeigarss.org/call_for_papers.php){.pill-btn .pill-solid}
+[Call for Papers (PDF)](social/2027-07_igarss-2027-call-for-papers.pdf){.pill-btn}
 :::
 :::
 ::: {.social-media}
-[![](social/gsmsl.jpg){.nolightbox}](social/viksit_bharat_seminar.jpg)
+<a href="social/2027-07_igarss-2027-call-for-papers.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>Call for Papers (PDF)</span></a>
 :::
 :::
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const parse = function (s) { return new Date(s + 'T00:00:00'); };
+    document.querySelectorAll('.deadline-date').forEach(function (el) {
+        const passed = parse(el.getAttribute('data-date')) < today;
+        el.classList.add(passed ? 'deadline-closed' : 'deadline-open');
+        el.title = passed ? 'Deadline passed' : 'Deadline open';
+    });
+    document.querySelectorAll('.event-date').forEach(function (el) {
+        if (parse(el.getAttribute('data-end')) < today) {
+            const badge = document.createElement('span');
+            badge.className = 'event-over';
+            badge.textContent = 'Completed';
+            el.after(' ', badge);
+        }
+    });
+});
+</script>
 
 :::
