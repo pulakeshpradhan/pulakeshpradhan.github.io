@@ -1,6 +1,5 @@
 ---
 title: "Deploying a Google Earth Engine App on Streamlit Cloud"
-author: "Pulakesh Pradhan"
 date: "2026-03-05"
 categories: [GEE, Streamlit, Deployment, Python, Cloud]
 image: "thumbnail.png"

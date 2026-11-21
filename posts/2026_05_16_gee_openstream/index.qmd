@@ -1,7 +1,6 @@
 ---
 title: "User-Defined Authentication for Google Earth Engine — Let Users Pay Their Own EECUs"
 subtitle: "A step-by-step guide to building a Streamlit app where users authenticate with their own GEE credentials, ensuring Earth Engine Compute Units (EECUs) are charged to their account"
-author: "Spatial Geography"
 date: 2026-05-16
 categories: [GIS, Remote Sensing, Python, Streamlit, Google Earth Engine, Authentication]
 image: "eecu_billing_flow.jpg"
