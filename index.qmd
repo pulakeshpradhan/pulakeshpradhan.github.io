@@ -122,7 +122,7 @@ I am thrilled to announce that the **GEE AI Assistant** now has over **4,000+ wo
 <div class="group-content">
 <div class="group-platform-tag">LinkedIn Group</div>
 <div class="group-title">Geography & Google Earth Engine</div>
-<div class="group-stats"><i class="bi bi-people-fill"></i> 180+ Members</div>
+<div class="group-stats"><i class="bi bi-people-fill"></i> 220+ Members</div>
 <div class="group-footer">Join Group <i class="bi bi-arrow-right"></i></div>
 </div>
 </a>
