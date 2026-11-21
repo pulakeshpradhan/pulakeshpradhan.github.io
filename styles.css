@@ -327,6 +327,47 @@ img {
     font-weight: 500;
 }
 
+/* First-page thumbnail of a PDF circular, linking to the PDF */
+.pdf-thumb {
+    display: block;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--surface);
+    text-decoration: none !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pdf-thumb img {
+    display: block;
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.pdf-thumb span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 9px 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--brand-text);
+    border-top: 1px solid var(--border);
+}
+
+@media (hover: hover) {
+    .pdf-thumb:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-md);
+    }
+}
+
 .calendar-note {
     color: var(--text-muted);
     font-size: 0.9rem;

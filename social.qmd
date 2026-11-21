@@ -65,7 +65,7 @@ Geography, GIS and remote sensing events. Dates and deadlines checked against of
 **“Workshop and Technical Demonstration on Agricultural Monitoring using Space-based Earth Observation”**
 
 ::: {.event-meta}
-**📍 Location:** Space Applications Centre (SAC), ISRO, Ahmedabad
+**📍 Location:** Space Applications Centre (SAC), ISRO, Ahmedabad\
 **📅 Date:** <span class="event-date" data-end="2026-12-04">30 November – 4 December 2026</span>
 :::
 
@@ -84,7 +84,7 @@ Jointly organized by ISRO, the European Space Agency (ESA) and GEOGLAM. A two-da
 :::
 :::
 ::: {.social-media}
-<a href="social/2026-11_isro-esa-geoglam-am-seo-workshop.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>Workshop Flyer (PDF)</span></a>
+<a href="social/2026-11_isro-esa-geoglam-am-seo-workshop.pdf" class="pdf-thumb" title="Open Workshop Flyer (PDF)"><img src="social/thumbs/2026-11_isro-esa-geoglam-am-seo-workshop.jpg" alt="Workshop Flyer (PDF): first page" loading="lazy"><span><i class="bi bi-file-earmark-pdf"></i> Workshop Flyer (PDF)</span></a>
 :::
 :::
 
@@ -94,7 +94,7 @@ Jointly organized by ISRO, the European Space Agency (ESA) and GEOGLAM. A two-da
 **Theme: “Digital Earth – Modeling, Mapping, and Monitoring”**
 
 ::: {.event-meta}
-**📍 Location:** Hyderabad, India
+**📍 Location:** Hyderabad, India\
 **📅 Date:** <span class="event-date" data-end="2026-12-04">1 – 4 December 2026</span>
 :::
 
@@ -110,7 +110,7 @@ The flagship regional conference of the IEEE Geoscience and Remote Sensing Socie
 :::
 :::
 ::: {.social-media}
-<a href="social/2026-12_ingarss-2026-call-for-papers.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>Call for Papers (PDF)</span></a>
+<a href="social/2026-12_ingarss-2026-call-for-papers.pdf" class="pdf-thumb" title="Open Call for Papers (PDF)"><img src="social/thumbs/2026-12_ingarss-2026-call-for-papers.jpg" alt="Call for Papers (PDF): first page" loading="lazy"><span><i class="bi bi-file-earmark-pdf"></i> Call for Papers (PDF)</span></a>
 :::
 :::
 
@@ -120,7 +120,7 @@ The flagship regional conference of the IEEE Geoscience and Remote Sensing Socie
 **“Quaternary Science As Societal Services”**
 
 ::: {.event-meta}
-**📍 Location:** Lucknow, India
+**📍 Location:** Lucknow, India\
 **📅 Date:** <span class="event-date" data-end="2027-02-03">28 January – 3 February 2027</span>
 :::
 
@@ -138,7 +138,7 @@ The congress of the International Union for Quaternary Research (INQUA), one of 
 :::
 :::
 ::: {.social-media}
-<a href="social/2027-01_inqua-2027-first-circular.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>First Circular (PDF)</span></a>
+<a href="social/2027-01_inqua-2027-first-circular.pdf" class="pdf-thumb" title="Open First Circular (PDF)"><img src="social/thumbs/2027-01_inqua-2027-first-circular.jpg" alt="First Circular (PDF): first page" loading="lazy"><span><i class="bi bi-file-earmark-pdf"></i> First Circular (PDF)</span></a>
 :::
 :::
 
@@ -148,7 +148,7 @@ The congress of the International Union for Quaternary Research (INQUA), one of 
 **European Geosciences Union: Earth, planetary and space sciences**
 
 ::: {.event-meta}
-**📍 Location:** Austria Center Vienna, Austria & Online
+**📍 Location:** Austria Center Vienna, Austria & Online\
 **📅 Date:** <span class="event-date" data-end="2027-04-09">4 – 9 April 2027</span>
 :::
 
@@ -165,7 +165,7 @@ Europe's largest geoscience meeting, held in a hybrid format, with sessions span
 :::
 :::
 ::: {.social-media}
-<a href="social/2027-04_egu27-call-for-abstracts.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>Call for Abstracts (PDF)</span></a>
+<a href="social/2027-04_egu27-call-for-abstracts.pdf" class="pdf-thumb" title="Open Call for Abstracts (PDF)"><img src="social/thumbs/2027-04_egu27-call-for-abstracts.jpg" alt="Call for Abstracts (PDF): first page" loading="lazy"><span><i class="bi bi-file-earmark-pdf"></i> Call for Abstracts (PDF)</span></a>
 :::
 :::
 
@@ -175,7 +175,7 @@ Europe's largest geoscience meeting, held in a hybrid format, with sessions span
 **Theme: “Global Vision for a Changing Planet”**
 
 ::: {.event-meta}
-**📍 Location:** Harpa Concert Hall & Conference Centre, Reykjavík, Iceland
+**📍 Location:** Harpa Concert Hall & Conference Centre, Reykjavík, Iceland\
 **📅 Date:** <span class="event-date" data-end="2027-07-16">11 – 16 July 2027</span>
 :::
 
@@ -192,7 +192,7 @@ The 47th IGARSS, the flagship symposium of the IEEE Geoscience and Remote Sensin
 :::
 :::
 ::: {.social-media}
-<a href="social/2027-07_igarss-2027-call-for-papers.pdf" class="pdf-tile"><i class="bi bi-file-earmark-pdf"></i><span>Call for Papers (PDF)</span></a>
+<a href="social/2027-07_igarss-2027-call-for-papers.pdf" class="pdf-thumb" title="Open Call for Papers (PDF)"><img src="social/thumbs/2027-07_igarss-2027-call-for-papers.jpg" alt="Call for Papers (PDF): first page" loading="lazy"><span><i class="bi bi-file-earmark-pdf"></i> Call for Papers (PDF)</span></a>
 :::
 :::
 
