@@ -2,7 +2,7 @@
 title: "Innovations"
 toc: true
 description: "Discover open-source geospatial tools, Earth Engine apps, and Python packages for spatial data science."
-image: "images/geeai.jpg"
+image: "images/geeaibg.JPG"
 ---
 
 My work involves developing open-source tools, cloud applications, and browser extensions to streamline geospatial workflows for researchers and data scientists.
@@ -236,7 +236,7 @@ Bridge GEE datasets with Deep Learning models for automated satellite imagery cl
 :::
 
 ::: {.innovation-card}
-[<img src="images/geeai.jpg" class="nolightbox">](https://pypi.org/project/geeassist/)
+[<img src="images/geeaibg.JPG" class="nolightbox">](https://pypi.org/project/geeassist/)
 
 ::: {.innovation-card-label}
 geeassist

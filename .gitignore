@@ -1,7 +1,9 @@
 /.quarto/
 /_site/
+/_ignored_folder/
 .ipynb_checkpoints/
 .DS_Store
+desktop.ini
+.Rhistory
 
 **/*.quarto_ipynb
-/ignored_folder/

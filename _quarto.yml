@@ -16,6 +16,7 @@ website:
   navbar:
     background: primary
     search: true
+    collapse-below: xl
     left:
       - href: index.qmd
         text: Home
@@ -47,24 +48,17 @@ website:
       This content is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
     center: "&copy; 2026 Pulakesh Pradhan"
 
-    right: 
+    right:
       - icon: github
         href: https://github.com/pulakeshpradhan
       - icon: linkedin
         href: https://www.linkedin.com/in/pulakeshpradhan/
-    background: light
-
-comments:
-  giscus:
-    repo: pulakeshpradhan/pulakeshpradhan.github.io
-    category: Announcements
-    category-id: DIC_kwDON96A8s4CnP_z
 
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: [cosmo, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
     css: styles.css
     toc: true
     code-fold: true
@@ -74,7 +68,7 @@ format:
       <meta name="google-site-verification" content="nLl3KIj4auOY3L_3kYhBLd9fKTHpzihQI-jRuDM7abQ" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
     include-after-body: assets/map-visitors.html
     sharing:
       twitter: true
